@@ -1,7 +1,7 @@
 # Mulligan
 
 Code, configs and paper builders for **Mulligan: Performance-Guided Data Collection for Efficient
-On-Robot Learning**. Project page: <https://mulligan.page>. Paper: <https://arxiv.org/abs/2610.05882>.
+On-Robot Learning**. Project page: [mulligan.page](https://mulligan.page/?ref=github). Paper: <https://arxiv.org/abs/2610.05882>.
 
 Mulligan improves a robot policy over rounds of supervised deployment. Each round, an operator places
 the objects and takes over when the policy fails. Failures tend to concentrate in a small part of the
@@ -16,7 +16,7 @@ This repository holds the learners, the simulation and real-robot pipelines, the
 baselines, the locked start manifests and evaluation grids, the configs of every released checkpoint, and
 the code that rebuilds every figure and table of the paper. The data and checkpoints are on Hugging Face
 under [`mulligan`](https://huggingface.co/mulligan) (223 dataset and 180 model repositories). The Policy
-Arena at <https://arena.mulligan.page> browses them.
+Arena at [arena.mulligan.page](https://arena.mulligan.page/?ref=github) browses them.
 
 **Contents:** [What you can reproduce](#what-you-can-reproduce) · [Layout](#repository-layout) ·
 [Setup](#setup) · [Data and models](#data-and-models-on-hugging-face) ·

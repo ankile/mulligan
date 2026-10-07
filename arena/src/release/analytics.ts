@@ -22,7 +22,14 @@ export function trackVisits() {
   if (location.origin !== HOSTED) return;
   const referrer = document.referrer && new URL(document.referrer).host;
   const params = new URLSearchParams(location.search);
-  send({ type: "view", referrer: referrer !== location.host ? referrer : "", source: params.get("utm_source") || params.get("ref") || "" });
+  const source = params.get("utm_source") || params.get("ref") || "";
+  // Drop the tag from the address bar before counting the page, so a copied link does not carry it to new visitors.
+  if (params.has("ref") || params.has("utm_source")) {
+    params.delete("ref");
+    params.delete("utm_source");
+    history.replaceState(history.state, "", location.pathname + (params.size ? `?${params}` : "") + location.hash);
+  }
+  send({ type: "view", referrer: referrer !== location.host ? referrer : "", source });
   document.addEventListener("click", trackClick, true);
   // Middle-click opens a new tab without a click event.
   document.addEventListener("auxclick", (event) => { if (event.button === 1) trackClick(event); }, true);
