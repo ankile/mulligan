@@ -19,9 +19,9 @@ paper:
   collections:
   - mulligan/real-square-d2-c02-dagger-mixed
 dataset_revisions:
-  mulligan/real-square-d2-c00-teleop-baseline: bd4d3e3af42686f45cc305e4b4858c495a7576f4
-  mulligan/real-square-d2-c00-teleop-validation: 30c8e47be25efb9efb40d5a0e84cd0e502223c12
-  mulligan/real-square-d2-c01-dagger-baseline: 9703aa9d81dabf5fc8a2b1f24b08cf9323caa59c
+  mulligan/real-square-d2-c00-teleop-baseline: 481c7bae53f9d16217252578ea0da44e84732f3f
+  mulligan/real-square-d2-c00-teleop-validation: cf5b061c26361ae9406982b8ab7b6f51c8d52856
+  mulligan/real-square-d2-c01-dagger-baseline: 66cda2b039d41ec5e19b93ccae1c9de267f9684f
 dataset_episodes: {}
 args:
   task: square_d2

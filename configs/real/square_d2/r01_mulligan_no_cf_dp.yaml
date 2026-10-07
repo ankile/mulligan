@@ -18,9 +18,9 @@ paper:
   - mulligan/real-square-d2-r01-eval b01 (HG-DAgger+Mulligan no-CF)
   collections: []
 dataset_revisions:
-  mulligan/real-square-d2-c00-teleop-sobol: 3297332740f7ed1897a25015e0d307f3afe7fa9b
-  mulligan/real-square-d2-c00-teleop-validation: 30c8e47be25efb9efb40d5a0e84cd0e502223c12
-  mulligan/real-square-d2-c01-dagger-mulligan-no-cf: 40032e2691ae1f4c162a3b26c511cd901e8c9976
+  mulligan/real-square-d2-c00-teleop-sobol: 59ba60fbf71ea3e771722343d80c6fe26ce561c6
+  mulligan/real-square-d2-c00-teleop-validation: cf5b061c26361ae9406982b8ab7b6f51c8d52856
+  mulligan/real-square-d2-c01-dagger-mulligan-no-cf: 144fc3bdfa021668740690a95336eb5400cc2c90
 dataset_episodes: {}
 args:
   task: square_d2

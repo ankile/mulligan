@@ -20,7 +20,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/component_panels/__init__.py",
@@ -28,7 +28,7 @@
         },
         {
           "path": "paper/appendix/component_panels/inputs.json",
-          "sha256": "9cf6b3e0d1e5d1a342793816f2d3ce152ee67d3ffa8a7889f51c42edce12a6f6"
+          "sha256": "a83e0444c6777eba1c9cff492d6770810f73082878fcb11bf4a59797510bd8ad"
         },
         {
           "path": "paper/appendix/component_panels/plot.py",
@@ -86,7 +86,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/component_panels/__init__.py",
@@ -94,7 +94,7 @@
         },
         {
           "path": "paper/appendix/component_panels/inputs.json",
-          "sha256": "9cf6b3e0d1e5d1a342793816f2d3ce152ee67d3ffa8a7889f51c42edce12a6f6"
+          "sha256": "a83e0444c6777eba1c9cff492d6770810f73082878fcb11bf4a59797510bd8ad"
         },
         {
           "path": "paper/appendix/component_panels/plot.py",
@@ -148,7 +148,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/real_results/__init__.py",
@@ -160,7 +160,7 @@
         },
         {
           "path": "paper/appendix/real_results/inputs.json",
-          "sha256": "9a8e4d440ae2d820a74739eb9027fcdaa9ded4cbbd9d3b8627e33bf84cdaf3e4"
+          "sha256": "b634f911f94c4397afbb7de3e2d0608266cf2a7d714cee6b8d009de95d14fb0b"
         },
         {
           "path": "paper/appendix/real_results/plot.py",
@@ -263,7 +263,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/real_results/__init__.py",
@@ -275,7 +275,7 @@
         },
         {
           "path": "paper/appendix/real_results/inputs.json",
-          "sha256": "9a8e4d440ae2d820a74739eb9027fcdaa9ded4cbbd9d3b8627e33bf84cdaf3e4"
+          "sha256": "b634f911f94c4397afbb7de3e2d0608266cf2a7d714cee6b8d009de95d14fb0b"
         },
         {
           "path": "paper/appendix/real_results/plot.py",
@@ -329,7 +329,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/real_results/__init__.py",
@@ -341,7 +341,7 @@
         },
         {
           "path": "paper/appendix/real_results/inputs.json",
-          "sha256": "9a8e4d440ae2d820a74739eb9027fcdaa9ded4cbbd9d3b8627e33bf84cdaf3e4"
+          "sha256": "b634f911f94c4397afbb7de3e2d0608266cf2a7d714cee6b8d009de95d14fb0b"
         },
         {
           "path": "paper/appendix/real_results/plot.py",
@@ -395,7 +395,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/productivity/__init__.py",
@@ -427,7 +427,7 @@
         },
         {
           "path": "paper/appendix/real_results/inputs.json",
-          "sha256": "9a8e4d440ae2d820a74739eb9027fcdaa9ded4cbbd9d3b8627e33bf84cdaf3e4"
+          "sha256": "b634f911f94c4397afbb7de3e2d0608266cf2a7d714cee6b8d009de95d14fb0b"
         },
         {
           "path": "paper/appendix/real_results/plot.py",
@@ -477,7 +477,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/real_results/__init__.py",
@@ -489,7 +489,7 @@
         },
         {
           "path": "paper/appendix/real_results/inputs.json",
-          "sha256": "9a8e4d440ae2d820a74739eb9027fcdaa9ded4cbbd9d3b8627e33bf84cdaf3e4"
+          "sha256": "b634f911f94c4397afbb7de3e2d0608266cf2a7d714cee6b8d009de95d14fb0b"
         },
         {
           "path": "paper/appendix/real_results/plot.py",
@@ -543,7 +543,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/productivity/__init__.py",
@@ -575,7 +575,7 @@
         },
         {
           "path": "paper/appendix/real_results/inputs.json",
-          "sha256": "9a8e4d440ae2d820a74739eb9027fcdaa9ded4cbbd9d3b8627e33bf84cdaf3e4"
+          "sha256": "b634f911f94c4397afbb7de3e2d0608266cf2a7d714cee6b8d009de95d14fb0b"
         },
         {
           "path": "paper/appendix/real_results/plot.py",
@@ -621,7 +621,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/data_ledger/__init__.py",
@@ -629,7 +629,7 @@
         },
         {
           "path": "paper/appendix/data_ledger/inputs.json",
-          "sha256": "478da0ffd3da9dfc9b3fbe83b422d1e46fc3e93ad1fa68d9287a6faca029e844"
+          "sha256": "ecf5f608ab97f95e339de11e4af0334946f0f0b7a264e3525b47ee1158f98e99"
         },
         {
           "path": "paper/appendix/data_ledger/plot.py",
@@ -667,7 +667,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/real_results/__init__.py",
@@ -679,7 +679,7 @@
         },
         {
           "path": "paper/appendix/real_results/inputs.json",
-          "sha256": "9a8e4d440ae2d820a74739eb9027fcdaa9ded4cbbd9d3b8627e33bf84cdaf3e4"
+          "sha256": "b634f911f94c4397afbb7de3e2d0608266cf2a7d714cee6b8d009de95d14fb0b"
         },
         {
           "path": "paper/appendix/real_results/plot.py",
@@ -738,7 +738,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/real_results/__init__.py",
@@ -750,7 +750,7 @@
         },
         {
           "path": "paper/appendix/real_results/inputs.json",
-          "sha256": "9a8e4d440ae2d820a74739eb9027fcdaa9ded4cbbd9d3b8627e33bf84cdaf3e4"
+          "sha256": "b634f911f94c4397afbb7de3e2d0608266cf2a7d714cee6b8d009de95d14fb0b"
         },
         {
           "path": "paper/appendix/real_results/plot.py",
@@ -841,7 +841,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/real_results/__init__.py",
@@ -853,7 +853,7 @@
         },
         {
           "path": "paper/appendix/real_results/inputs.json",
-          "sha256": "9a8e4d440ae2d820a74739eb9027fcdaa9ded4cbbd9d3b8627e33bf84cdaf3e4"
+          "sha256": "b634f911f94c4397afbb7de3e2d0608266cf2a7d714cee6b8d009de95d14fb0b"
         },
         {
           "path": "paper/appendix/real_results/plot.py",
@@ -912,7 +912,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/real_results/__init__.py",
@@ -924,7 +924,7 @@
         },
         {
           "path": "paper/appendix/real_results/inputs.json",
-          "sha256": "9a8e4d440ae2d820a74739eb9027fcdaa9ded4cbbd9d3b8627e33bf84cdaf3e4"
+          "sha256": "b634f911f94c4397afbb7de3e2d0608266cf2a7d714cee6b8d009de95d14fb0b"
         },
         {
           "path": "paper/appendix/real_results/plot.py",
@@ -978,7 +978,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/real_results/__init__.py",
@@ -990,7 +990,7 @@
         },
         {
           "path": "paper/appendix/real_results/inputs.json",
-          "sha256": "9a8e4d440ae2d820a74739eb9027fcdaa9ded4cbbd9d3b8627e33bf84cdaf3e4"
+          "sha256": "b634f911f94c4397afbb7de3e2d0608266cf2a7d714cee6b8d009de95d14fb0b"
         },
         {
           "path": "paper/appendix/real_results/plot.py",
@@ -1044,7 +1044,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/productivity/__init__.py",
@@ -1076,7 +1076,7 @@
         },
         {
           "path": "paper/appendix/real_results/inputs.json",
-          "sha256": "9a8e4d440ae2d820a74739eb9027fcdaa9ded4cbbd9d3b8627e33bf84cdaf3e4"
+          "sha256": "b634f911f94c4397afbb7de3e2d0608266cf2a7d714cee6b8d009de95d14fb0b"
         },
         {
           "path": "paper/appendix/real_results/plot.py",
@@ -1122,7 +1122,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/value_learning/__init__.py",
@@ -1164,7 +1164,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/value_learning/__init__.py",
@@ -1206,7 +1206,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/hilserl/__init__.py",
@@ -1282,7 +1282,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/simulation/__init__.py",
@@ -1324,7 +1324,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/simulation/__init__.py",
@@ -1366,7 +1366,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/simulation/__init__.py",
@@ -1408,7 +1408,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/simulation/__init__.py",
@@ -1465,7 +1465,7 @@
         },
         {
           "path": "paper/appendix/artifacts.py",
-          "sha256": "fdf1c9eac87a7f38fde042992d865fa1424f33384ae178a5d6a6b0080c8d11b2"
+          "sha256": "59b5f172166d40c19c801b22c34822d06a6015f85b772838a77eca4de78177d8"
         },
         {
           "path": "paper/appendix/simulation/__init__.py",

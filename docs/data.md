@@ -184,9 +184,14 @@ terms.
 ## What the public `meta/` files record
 
 Models and datasets are named by their release ids (`mulligan/<repo>`, `mulligan/<repo>/<seed>`, or
-`unreleased/...` for runs and recordings that are not published). A file path names a released file
-by its path in this repository (`data/real/manifests/...`, `data/sim/start_manifests/...`); paths to files
-that are not released are left out.
+`unreleased/...` for runs and recordings that are not published). A file path names a released file:
+a path in the same Hub repository (`meta/initial_states_manifest.json`), another Hub repository's file as
+`hf://datasets/mulligan/<repo>/<path>`, or a file of this repository by its path here
+(`data/real/manifests/...`, `data/sim/start_manifests/...`); paths to files that are not released are left
+out. Every sha256 next to a path is the sha256 of that released file; a start key is
+`<sha256 of the dataset's meta/initial_states_manifest.json>:<manifest index>`. Hub metadata names other
+repositories by id only: their revisions are pinned in `release/revisions.json` (every repository is one
+commit, tagged `release-1`).
 
 `.label_history.jsonl` and `.outcome_edit_progress.json` are data: the
 Cable clip-progress numbers are recomputed from them.

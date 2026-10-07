@@ -94,7 +94,7 @@ def test_training_rng_seed_controls_python_numpy_and_torch() -> None:
     assert first == second
 
 
-HF_REF = "hf://mulligan/sim-square-narrow-r01-mulligan-divl@05e15eb4f0324587337fc7a8e3374398c6044443/seed-1"
+HF_REF = "hf://mulligan/sim-square-narrow-r01-mulligan-divl@93356d9ead01cc93ee3e7f1d1cb9ea7e1f51f1f7/seed-1"
 
 
 def test_rollout_lineage_is_durable_and_hash_locked(tmp_path) -> None:

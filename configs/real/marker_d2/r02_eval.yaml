@@ -14,7 +14,7 @@ paper:
   - App. B.1
 eval_dataset:
   repo: mulligan/real-marker-d2-r02-eval
-  revision: dacbcfe36aab4363982f60fd9102db969cf734d7
+  revision: d06a4aa79829308e5f2eef2b46f4461d44bc20a0
 sessions:
 - session_id: b01
   seed: 2026062701

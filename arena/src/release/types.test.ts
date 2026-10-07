@@ -8,7 +8,7 @@ function release(): Release {
 }
 describe('release membership', () => {
   test('unknown task never falls back to live data', () => {
-    expect(() => selectedTask(release(), 'square_fixed_peg')).toThrow('not part of the release');
+    expect(() => selectedTask(release(), 'retired_task')).toThrow('not part of the release');
   });
   test('rejects extra and missing tasks', () => {
     const r=release();r.tasks.pop();expect(() => validateRelease(r)).toThrow('Incomplete task');

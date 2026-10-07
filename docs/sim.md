@@ -155,7 +155,7 @@ python -m mulligan.sim.eval.grid_eval make-valid-sobol-manifest \
     --task square_narrow --num-points 8000 --seed 2026052402 \
     --output outputs/sim/grids/square_narrow_sobol8k.json
 MUJOCO_GL=egl python -m mulligan.sim.eval.grid_eval eval \
-    --artifact-path hf://mulligan/sim-square-narrow-r01-mulligan-divl@05e15eb4f0324587337fc7a8e3374398c6044443/seed-1 \
+    --artifact-path hf://mulligan/sim-square-narrow-r01-mulligan-divl@93356d9ead01cc93ee3e7f1d1cb9ea7e1f51f1f7/seed-1 \
     --point-manifest outputs/sim/grids/square_narrow_sobol8k.json \
     --output-dir results/narrow-r01-divl/seed-1 --num-action-samples 32 --num-envs 10
 ```

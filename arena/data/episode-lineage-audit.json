@@ -409,7 +409,7 @@
    ],
    "parent_repo": "mulligan/real-marker-d2-c00-teleop-mixed",
    "sidecar": "meta/real_teleop_manifest_split_manifest.jsonl",
-   "sidecar_sha256": "79491c4f2dc3481cbfa2718cb28ff0c040f33ff3d2167de1baa4b973d73c5386",
+   "sidecar_sha256": "5f860065baa30294f08ce351fba51d5b189a3d056e60d68aecfe2d4f1a76d402",
    "source_repo": "mulligan/real-marker-d2-c00-teleop-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -828,7 +828,7 @@
    ],
    "parent_repo": "mulligan/real-marker-d2-c00-teleop-mixed",
    "sidecar": "meta/real_teleop_manifest_split_manifest.jsonl",
-   "sidecar_sha256": "f7d6f244d0f2c9297221401fb40192a49c7a921fd85ff69f1e3d71bd281dd368",
+   "sidecar_sha256": "4ee665da8b1117bb226e7f75fe916e61cd86d65128bdd190e4d61c4a2d572d7c",
    "source_repo": "mulligan/real-marker-d2-c00-teleop-sobol",
    "state": "complete_source_sidecar_mapping"
   },
@@ -1040,7 +1040,7 @@
    ],
    "parent_repo": "mulligan/real-marker-d2-c00-teleop-mixed",
    "sidecar": "meta/real_teleop_manifest_split_manifest.jsonl",
-   "sidecar_sha256": "4d23e709eee474b729334c30557f3fe7edffa5235546640b4a3624f2fb06fc65",
+   "sidecar_sha256": "1fad79e9a74b7f874aa046b593197ede553b9ccf38ed05141233a34d8744543a",
    "source_repo": "mulligan/real-marker-d2-c00-teleop-validation",
    "state": "complete_source_sidecar_mapping"
   },
@@ -1252,7 +1252,7 @@
    ],
    "parent_repo": "mulligan/real-marker-d2-c01-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "60cc58a9f8dafe49a6504632eef5783f0db574015b53853d6fcb8cb1a485f705",
+   "sidecar_sha256": "952a82ad6d395a9353a77a3c92d827ffd25d456bc0e227735fffeb7ae30322db",
    "source_repo": "mulligan/real-marker-d2-c01-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -1464,7 +1464,7 @@
    ],
    "parent_repo": "mulligan/real-marker-d2-c01-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "77f19c0b488028689f3daed2e7a43447a9ea6fa1174aec229192fe96a1a93f3a",
+   "sidecar_sha256": "b96a1c39b4642ae15f70608438906f286ec29b4cb250446ef0da888b43914ba5",
    "source_repo": "mulligan/real-marker-d2-c01-dagger-mulligan-no-cf",
    "state": "complete_source_sidecar_mapping"
   },
@@ -1683,7 +1683,7 @@
    ],
    "parent_repo": "mulligan/real-marker-d2-c01-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "76aa669380f5579a9c26c628a1bef453681a8bdbd83bd71930857ec0ce0b2043",
+   "sidecar_sha256": "f8d0487a7ebec65a750e511f2715d8a39519b19b5771da0eacd943d25667df03",
    "source_repo": "mulligan/real-marker-d2-c01-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -1895,7 +1895,7 @@
    ],
    "parent_repo": "mulligan/real-marker-d2-c02-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "0562b65a7b5eef58245711a1853ccf71948ddae684c9617dd2b86dfc1329f663",
+   "sidecar_sha256": "a5e9c7f5708de4eae42369e77a7f6dc1353f3dee7dab743bb59fc47263ee372f",
    "source_repo": "mulligan/real-marker-d2-c02-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -2107,7 +2107,7 @@
    ],
    "parent_repo": "mulligan/real-marker-d2-c02-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "3898359ee58dca3a7ba9c31c4c4a411b3cb746fc46cb93b11a66f67e7ad5f222",
+   "sidecar_sha256": "14a36c1b361f98d54aa9fa69d25eecd6af41009f5460c2d11e04f7efae9ce283",
    "source_repo": "mulligan/real-marker-d2-c02-dagger-mulligan-no-cf",
    "state": "complete_source_sidecar_mapping"
   },
@@ -2326,7 +2326,7 @@
    ],
    "parent_repo": "mulligan/real-marker-d2-c02-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "d0a2d7c78fbbf554fbf8705b97a496bfa0f3e2b477fbf0ea45d759ba061def65",
+   "sidecar_sha256": "bbd99231d9641925d3daf2299aeaff767b79318daa0cbd8c0e58534344f7c722",
    "source_repo": "mulligan/real-marker-d2-c02-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -2538,7 +2538,7 @@
    ],
    "parent_repo": "mulligan/real-marker-d2-c03-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "e4920a18ed06ae60fa299980146570c8884cf1b8031ff7ecbc35d120185bb256",
+   "sidecar_sha256": "33b3865bfc6d2ab7f6f7c4d0888f4c27c62468417b1b051e9fab82c65a2fef2d",
    "source_repo": "mulligan/real-marker-d2-c03-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -2750,7 +2750,7 @@
    ],
    "parent_repo": "mulligan/real-marker-d2-c03-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "54e30f640a091267458b58410673dd8932e2e49f3957d51d028b3a067b9860f5",
+   "sidecar_sha256": "067957fb8f74b7e4a1259116a429c25c813993e99af33b0e5737a158fc2f3808",
    "source_repo": "mulligan/real-marker-d2-c03-dagger-mulligan-no-cf",
    "state": "complete_source_sidecar_mapping"
   },
@@ -2969,7 +2969,7 @@
    ],
    "parent_repo": "mulligan/real-marker-d2-c03-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "faf48d2f207670ffb7dea96fe11d6ad7992cabe3ba37ddbd20d86629c933ea92",
+   "sidecar_sha256": "223bd467b27c8f02daa50703d0a018c6972fa25ef31405588a78a020341086ab",
    "source_repo": "mulligan/real-marker-d2-c03-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -3181,7 +3181,7 @@
    ],
    "parent_repo": "mulligan/real-marker-d2-c04-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "13e2e94457986438a5eb2769d3a1ec43f86ccdb2cf400aa9bd55b8acd5af01a3",
+   "sidecar_sha256": "e847b7b6716732350254b6de8d36c69a559cfdacce8fab54ffe8fcea5e13b688",
    "source_repo": "mulligan/real-marker-d2-c04-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -3393,7 +3393,7 @@
    ],
    "parent_repo": "mulligan/real-marker-d2-c04-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "8b15d0a5e297ce154287f626d1a0d2fd9bc377adfc5598f2f321384996d80f8b",
+   "sidecar_sha256": "5cdb77f367bf606c2f27b75c6fde8e95a2d8d327815ed59199780b0d4dd1ce81",
    "source_repo": "mulligan/real-marker-d2-c04-dagger-mulligan-no-cf",
    "state": "complete_source_sidecar_mapping"
   },
@@ -3612,7 +3612,7 @@
    ],
    "parent_repo": "mulligan/real-marker-d2-c04-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "ee8a821f16272878919e8d60776c061e310ccf524f004ced4770ca315f413255",
+   "sidecar_sha256": "5d733b807a108cf9d1f51add1917d660f4c129e931d1d2a1575faff2398ae688",
    "source_repo": "mulligan/real-marker-d2-c04-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -3824,7 +3824,7 @@
    ],
    "parent_repo": "mulligan/real-marker-d2-c05-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "08179fec48f37ce8a57dd675a81766267169f843ed2ae6a336b079ff0c3b078b",
+   "sidecar_sha256": "580b252e745b5279130dce6f5972873db341b1f360c984bee321f0a8ab51b20b",
    "source_repo": "mulligan/real-marker-d2-c05-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -4036,7 +4036,7 @@
    ],
    "parent_repo": "mulligan/real-marker-d2-c05-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "cf321339175d57bf5e2b1040ec93de9727295763e071ed3f006e3da2e81ab2e4",
+   "sidecar_sha256": "4a1b0811b79c9a51af2bdd3b5cffa6df0de98787feab61e27a7e708d7deea37e",
    "source_repo": "mulligan/real-marker-d2-c05-dagger-mulligan-no-cf",
    "state": "complete_source_sidecar_mapping"
   },
@@ -4255,7 +4255,7 @@
    ],
    "parent_repo": "mulligan/real-marker-d2-c05-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "38977787120c926f3a0c5d8aaa4c98e0ffce3f4857a26d268e6674e7718eb282",
+   "sidecar_sha256": "8d02ac8fcb34c2fe7cf31741568109ac3c755a0fa9f3ed98a8cf776404000c30",
    "source_repo": "mulligan/real-marker-d2-c05-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -7006,7 +7006,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c00-teleop-mixed",
    "sidecar": "meta/real_teleop_manifest_split_manifest.jsonl",
-   "sidecar_sha256": "c1ef8940ce9c03da2a2260af04c0f8b889c51dc4d1433c5aa87b90db5436a39c",
+   "sidecar_sha256": "60f7938f3f873afad8e32c34bf24c7d1513a8fac92d936080928cacd7bd1a062",
    "source_repo": "mulligan/real-routing-d2-c00-teleop-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -7425,7 +7425,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c00-teleop-mixed",
    "sidecar": "meta/real_teleop_manifest_split_manifest.jsonl",
-   "sidecar_sha256": "7cf87cad183a98e9a90569e0aa2cbf64ecf0130e2b8fb50da4510ef4038a1b20",
+   "sidecar_sha256": "d9ae343dfd7a29ec3dccf4d101e87aa192196d53a1c354e778685be5689acf21",
    "source_repo": "mulligan/real-routing-d2-c00-teleop-sobol",
    "state": "complete_source_sidecar_mapping"
   },
@@ -7637,7 +7637,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c00-teleop-mixed",
    "sidecar": "meta/real_teleop_manifest_split_manifest.jsonl",
-   "sidecar_sha256": "dbebe3ba6ea853d1ed5d27acd0a58b3d4c875f96c22f4a6f78dd116420ec95b0",
+   "sidecar_sha256": "fdcb39d503d980b4556996c0c5c38a0defa1e59865f7308e60d9c91543a34db6",
    "source_repo": "mulligan/real-routing-d2-c00-teleop-validation",
    "state": "complete_source_sidecar_mapping"
   },
@@ -7849,7 +7849,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c01-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "0aea99b290bf1d2416c48fcfa596fcd31d99c03d97a1ca2a0d0b60c5ca50f99f",
+   "sidecar_sha256": "57f321cc9647ce23fda1687c92e48d6ec7523552d1d62977d1999686292eb440",
    "source_repo": "mulligan/real-routing-d2-c01-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -8068,7 +8068,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c01-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "4db3eae4a8827d73b4a4e5f0c13de54f79a8be46334cb0f503acd4d11dd7e979",
+   "sidecar_sha256": "ac658723616da27b10a9de73ca4579da5dc6f37a7975927428e2c459b0cf8865",
    "source_repo": "mulligan/real-routing-d2-c01-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -8280,7 +8280,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c02-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "c9fb56583e983f2ed87c6245ef381c0fe3f7a9e9082f52574cc1b9f8be65104d",
+   "sidecar_sha256": "126fc5afa272a0d2297ff36f479b444ceb8d63a9a5cdaf3b9f2d984e7272b7e6",
    "source_repo": "mulligan/real-routing-d2-c02-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -8499,7 +8499,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c02-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "a0687e7dad7ac57fe40c49b9c7d5295335ce675cfbdefe23606a100a5651ac31",
+   "sidecar_sha256": "c70ec9c13f3ccda0d201d1e60ba33dee284beb6b0ddf74afee171a61a787b9c8",
    "source_repo": "mulligan/real-routing-d2-c02-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -8711,7 +8711,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c03-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "41c38d77f8a7aa5871771aa75dcad66825e3abe680062c9641912df40313aefa",
+   "sidecar_sha256": "26376b7cab421e0ac05b71c994e7cad678a47028bfc1f6f6ff596a63e39c7cd1",
    "source_repo": "mulligan/real-routing-d2-c03-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -8930,7 +8930,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c03-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "b52a4135bc7e698619613d8d2e50661d108ac46caa2f0c19e343272fca710238",
+   "sidecar_sha256": "c0617163a95631d6754f876ff569e26e21d92b6d198fa91286b06b1728c9f85e",
    "source_repo": "mulligan/real-routing-d2-c03-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -9142,7 +9142,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c04-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "1d7d43b0933bb258d4bf32eff949bf56cb4e1f64cc4ce2f5f9b5748c4c83f840",
+   "sidecar_sha256": "c367fd660c6e511b508171fc7c705f6b5813dd65a2563b1eaba0aec0874e0644",
    "source_repo": "mulligan/real-routing-d2-c04-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -9361,7 +9361,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c04-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "c540810e43fb6a9a69f287b2c3a224fa8c2d72303931aef9d0382bc97eb1f9e1",
+   "sidecar_sha256": "e9eb5fd07106099a65da0cb5acd59b4b6ef4c7ad83fb504a704bd9728f86fcc4",
    "source_repo": "mulligan/real-routing-d2-c04-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -9573,7 +9573,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c05-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "ded3e7864bb689370c85380ab426210e4e46280b642d92251ab260b79a28e7f1",
+   "sidecar_sha256": "dc8612bc3ee87df2e4e7bd4d18104da055fc66f236f5117127b3e7c23a40d888",
    "source_repo": "mulligan/real-routing-d2-c05-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -9792,7 +9792,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c05-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "ec046ced02d6399149e27e880dcc18e7af322736b3950cf3f27374524e669ee8",
+   "sidecar_sha256": "3d4fcc55dcfa6c1cd6f9b16d8b38414a648c8925c6cf2d6ac8827f671e6b1e9f",
    "source_repo": "mulligan/real-routing-d2-c05-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -10004,7 +10004,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c06-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "b15b9e469c4c538f15bb57198cb158891d7ab920ec1f854fefe1c237873f67a6",
+   "sidecar_sha256": "0888e5e9a82cb9a977e38e543002946c109c897614117160dd091562ebaa58c9",
    "source_repo": "mulligan/real-routing-d2-c06-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -10223,7 +10223,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c06-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "7bc0740406323b6afd2aaecfc71abf3704e2d94ac5e11a093dc09fe0e9c53894",
+   "sidecar_sha256": "9a2bea045e819e8aaa19fa61bace3be41110ae500fe2536a4a52499dadda7843",
    "source_repo": "mulligan/real-routing-d2-c06-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -10435,7 +10435,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c07-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "6d0eac1e7218086568e67787a03d0c1c9879877f362acdb0917f7cf8a6626862",
+   "sidecar_sha256": "56aba2a48f6ecef374b00bfbefb645c3b9ac5055b0afdaf2edec4ab6d74501d8",
    "source_repo": "mulligan/real-routing-d2-c07-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -10654,7 +10654,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c07-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "686fe682e4fbc46c2092c07a15cad5fe53ff792431f4e38be4c9ab974c841cad",
+   "sidecar_sha256": "b8a5edeed0f161dbdc2d0e109530e5a427a3d90c35852443e4a7b8e34b44f7c1",
    "source_repo": "mulligan/real-routing-d2-c07-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -10866,7 +10866,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c08-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "588be129109807d31a8f8ab02fa7da1766451b606423d1e7ae1318a148a0a9f5",
+   "sidecar_sha256": "82e800239eaa75c76cc924cb89b6b00878cd87c33f30938d72dbf9ea64f8b194",
    "source_repo": "mulligan/real-routing-d2-c08-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -11085,7 +11085,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c08-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "695ce2c65f4cb4a7f4a9822157b85f173731ed3769a8b313413d4e49113d0ecb",
+   "sidecar_sha256": "6013dec2d92e2963b214412a20334c9a78203f035ed677040cddfc11efeb0def",
    "source_repo": "mulligan/real-routing-d2-c08-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -11497,7 +11497,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c09-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "2c47ad1a736618103cc1fb6f54c03ea00049f32d81d832ad1badee5ce44dc482",
+   "sidecar_sha256": "6778492f8cea603de20afc102327d9339cbc15527111535188cd99cee3b29b6a",
    "source_repo": "mulligan/real-routing-d2-c09-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -11916,7 +11916,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c09-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "f06d6650ad0e0458bb8445b75ea7e24bfb2bba24844f19189a8286ceef773cda",
+   "sidecar_sha256": "dca29e017d34d9e2fe843d8f9fd3be8c0ba914744b76ec5f94d3e431025e8100",
    "source_repo": "mulligan/real-routing-d2-c09-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -17055,7 +17055,7 @@
    ],
    "parent_repo": "mulligan/real-square-d2-c00-teleop-mixed",
    "sidecar": "meta/real_teleop_manifest_split_manifest.jsonl",
-   "sidecar_sha256": "cf7b2ed15e12f734823c2ccf73b71a03ca3fd1a6f61871fced5f5fb1bbe95e9f",
+   "sidecar_sha256": "6fa9e03e068ee610ad0d1918e4c8f879c363fe6f8181b521d6fa679cd9248d2b",
    "source_repo": "mulligan/real-square-d2-c00-teleop-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -17474,7 +17474,7 @@
    ],
    "parent_repo": "mulligan/real-square-d2-c00-teleop-mixed",
    "sidecar": "meta/real_teleop_manifest_split_manifest.jsonl",
-   "sidecar_sha256": "6b478b7dcaae9a4f8a02e8f70f479c0ab2a885cdcd8ceddf2ced911cea3a3e0f",
+   "sidecar_sha256": "1239ebd2092af24611343ed030ccdc635943271a8a42cbe6ad07319e69ab2cf3",
    "source_repo": "mulligan/real-square-d2-c00-teleop-sobol",
    "state": "complete_source_sidecar_mapping"
   },
@@ -17686,7 +17686,7 @@
    ],
    "parent_repo": "mulligan/real-square-d2-c00-teleop-mixed",
    "sidecar": "meta/real_teleop_manifest_split_manifest.jsonl",
-   "sidecar_sha256": "0ff38f04741f95b8342256d96e57da5a8b11e3b5adc476cc2a08161725d0dad0",
+   "sidecar_sha256": "ba6d8c50edc3d155a1985cd428da19fda535fc71f8924810b57853b8d78f64a1",
    "source_repo": "mulligan/real-square-d2-c00-teleop-validation",
    "state": "complete_source_sidecar_mapping"
   },
@@ -17898,7 +17898,7 @@
    ],
    "parent_repo": "mulligan/real-square-d2-c01-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "a30210bfa860c03d54b88ac07c2d4c2b97a3c6866a069007e6a91f3a315663f0",
+   "sidecar_sha256": "5cae9d47e0e2025bd5000603491f0e8b0db7d174e3e6173dcd2fd8cd56da3d91",
    "source_repo": "mulligan/real-square-d2-c01-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -18110,7 +18110,7 @@
    ],
    "parent_repo": "mulligan/real-square-d2-c01-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "b31caa8dd7a6390a42df4ef7dd45f59fedebe5762b0b20a4c22bb4b7f10f6abe",
+   "sidecar_sha256": "785bde90812ff81911969a35d5b1ae093765ea5c6dd7a1954f448a8c5e3246f8",
    "source_repo": "mulligan/real-square-d2-c01-dagger-mulligan-no-cf",
    "state": "complete_source_sidecar_mapping"
   },
@@ -18329,7 +18329,7 @@
    ],
    "parent_repo": "mulligan/real-square-d2-c01-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "c1a15b2b6be4f15349cdbeaa904209ed8fe0f323870597ccb65782a5ede62fc8",
+   "sidecar_sha256": "1eea8fbd099c69ca2693f5fac92c14de606f23e5b229fe56f76ba776a4377f40",
    "source_repo": "mulligan/real-square-d2-c01-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -18541,7 +18541,7 @@
    ],
    "parent_repo": "mulligan/real-square-d2-c02-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "a3c708cf685aa74d5bb3ae0874b82865751cbc2bc21fb7714a9eb94dd573fe42",
+   "sidecar_sha256": "a1c7e3b7954633729c53f473f7e0567ac1bc979ce2857450e9c8908615a513e1",
    "source_repo": "mulligan/real-square-d2-c02-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -18753,7 +18753,7 @@
    ],
    "parent_repo": "mulligan/real-square-d2-c02-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "bd59cade7cb266c23f6c234443c52075161721e880d27ab4b970c61c306df722",
+   "sidecar_sha256": "e9d3c997922945a0fdb88b614974983c75e6e643fdccca62401805cb7c42d3fb",
    "source_repo": "mulligan/real-square-d2-c02-dagger-mulligan-no-cf",
    "state": "complete_source_sidecar_mapping"
   },
@@ -18972,7 +18972,7 @@
    ],
    "parent_repo": "mulligan/real-square-d2-c02-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "6e8901f6b20b648202356dc32a6e57fa78e66232b7bf8dba7cccf3b5023383b7",
+   "sidecar_sha256": "0bed5c148e00c225cd4a9c0e28ad2c726747ff11aecd4079e6442be4fb5f8e66",
    "source_repo": "mulligan/real-square-d2-c02-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -19184,7 +19184,7 @@
    ],
    "parent_repo": "mulligan/real-square-d2-c03-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "69bb930bd9e36571f3c616cd3702223ad8b4c436bf3d6f6e96dd6f4658df2811",
+   "sidecar_sha256": "d2ed6a13400b2dc84dfb5c771b5f1313b9f4a541b4b2502b28304f107780f56d",
    "source_repo": "mulligan/real-square-d2-c03-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -19396,7 +19396,7 @@
    ],
    "parent_repo": "mulligan/real-square-d2-c03-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "5abbbd7d227ac98c31b4e1de05202e13d53b985ae49a564b97aa4fb332f714dd",
+   "sidecar_sha256": "2d3fa5b4f94169835557eb83e9c7c7a50f8bb9b235267272bce599e05b816012",
    "source_repo": "mulligan/real-square-d2-c03-dagger-mulligan-no-cf",
    "state": "complete_source_sidecar_mapping"
   },
@@ -19615,7 +19615,7 @@
    ],
    "parent_repo": "mulligan/real-square-d2-c03-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "06a409eaf5d36c5751e79f7ae64892e7767fcb6c884a9a4004283ec000c8914e",
+   "sidecar_sha256": "cc32a0fb78fc45e8540891800022086676e1dde6e2ce02d94db185459ed996d0",
    "source_repo": "mulligan/real-square-d2-c03-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -19827,7 +19827,7 @@
    ],
    "parent_repo": "mulligan/real-square-d2-c04-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "e306fbc42dfa49fbe4e3ec8b6c202a2e2df8f0bf4e55660e029fc6582b6a441a",
+   "sidecar_sha256": "192890359a9f33bd76247ff901aeb9638d2864f58cd645d8d9d5ed5e6109cfcd",
    "source_repo": "mulligan/real-square-d2-c04-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -20039,7 +20039,7 @@
    ],
    "parent_repo": "mulligan/real-square-d2-c04-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "3f3e8ce145b7a28182dd7598953417a6b34093bb8e4862039435e272849fbddd",
+   "sidecar_sha256": "aa4b61b1b93c060f952c40441111d7a9f64df17e6a490826ce0bd2c266939752",
    "source_repo": "mulligan/real-square-d2-c04-dagger-mulligan-no-cf",
    "state": "complete_source_sidecar_mapping"
   },
@@ -20258,7 +20258,7 @@
    ],
    "parent_repo": "mulligan/real-square-d2-c04-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "658bd0052c2499c6300e38aed7fe3f673dd09caa76e207b78dd4799497311c7e",
+   "sidecar_sha256": "2118cd72dd6fb782bfa14e1c9459610ee8639cc9ac78bae8b7c515b6893014cf",
    "source_repo": "mulligan/real-square-d2-c04-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -20470,7 +20470,7 @@
    ],
    "parent_repo": "mulligan/real-square-d2-c05-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "96c2c2a7dca387b268b17c1c9810f951ec8dcf84662cd505b789022e1c667379",
+   "sidecar_sha256": "549f26190ba5f7ee51ecea136be6721b2828bfd597d7736403bb23cd94b3977d",
    "source_repo": "mulligan/real-square-d2-c05-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -20682,7 +20682,7 @@
    ],
    "parent_repo": "mulligan/real-square-d2-c05-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "88899514ee898efe2f2c34ec6e36cbfe37890969308e878cf8b638b2b36826f3",
+   "sidecar_sha256": "1ddf48e9d5fd9f687fa7591723770ef42eff84b855caa5b363cf7c4e90d1c0e7",
    "source_repo": "mulligan/real-square-d2-c05-dagger-mulligan-no-cf",
    "state": "complete_source_sidecar_mapping"
   },
@@ -20901,7 +20901,7 @@
    ],
    "parent_repo": "mulligan/real-square-d2-c05-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "c4d896411c543a1981579d4691690802f637359f574e464e945f6c0957764541",
+   "sidecar_sha256": "5c6832af2e2240271726d7ace0e56a6d77c589a49102a3ceb56c09108de66499",
    "source_repo": "mulligan/real-square-d2-c05-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -27153,7 +27153,7 @@
    ],
    "parent_repo": "mulligan/sim-square-broad-c01-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "8609c24c9ecd6a4301835b5e8187f0dd51a6e989468cd057fbffe6558107ce9c",
+   "sidecar_sha256": "46a116369d966537626d0bfd765622edd15223078943a72f8f7241b7c4d087f1",
    "source_repo": "mulligan/sim-square-broad-c01-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -27565,7 +27565,7 @@
    ],
    "parent_repo": "mulligan/sim-square-broad-c01-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "72f49f665d92006c86305a818565f9dcb48bff05b9c6156c75a8a1bb0a9537e8",
+   "sidecar_sha256": "24aa3b894768c37e372f2303718a94e65493d14688d0ab12cada58b4022705c8",
    "source_repo": "mulligan/sim-square-broad-c01-dagger-mulligan-no-cf",
    "state": "complete_source_sidecar_mapping"
   },
@@ -27984,7 +27984,7 @@
    ],
    "parent_repo": "mulligan/sim-square-broad-c01-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "fa5afecb6d9b744ec38a0e78ed4a24e35e53c42f6551148f37a3dc07761b90ef",
+   "sidecar_sha256": "d2754015d95411aab9241ce61136894cef5a1e009d6b8f0e20a8c0b4c92f38aa",
    "source_repo": "mulligan/sim-square-broad-c01-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -28396,7 +28396,7 @@
    ],
    "parent_repo": "mulligan/sim-square-broad-c01-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "24b82fe56b093316d9b87a8db6ead5d1cb897786de456ed67ee15e5f91177602",
+   "sidecar_sha256": "2154c6462a9eb48f9bb56373aa44e6837612cab6228fe8ecc5a9c7d74fc50f05",
    "source_repo": "mulligan/sim-square-broad-c01-dagger-sobol-with-cf",
    "state": "complete_source_sidecar_mapping"
   },
@@ -28808,7 +28808,7 @@
    ],
    "parent_repo": "mulligan/sim-square-broad-c01-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "80aa09ad5dbefc10d73a0f11c116feaba9b0af98de72873c834616d571170757",
+   "sidecar_sha256": "3b7036d8d58bca1e9adfbb7162de5b48de80cf779e3888dc0e981e90960467e0",
    "source_repo": "mulligan/sim-square-broad-c01-dagger-sobol-no-cf",
    "state": "complete_source_sidecar_mapping"
   },
@@ -29262,7 +29262,7 @@
    ],
    "parent_repo": "mulligan/sim-square-broad-c02-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "66065a6c6c47ba81ec989182ceb22e440368c8543e83356ded468d89b0f2b09a",
+   "sidecar_sha256": "cdd6ba00de3d3e1a58376aa79d995d70291c688d9723bcc1bb06f914f8350881",
    "source_repo": "mulligan/sim-square-broad-c02-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -29674,7 +29674,7 @@
    ],
    "parent_repo": "mulligan/sim-square-broad-c02-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "82a327ea3e31a7dc9281b8a3015e0403a90e8115564399d2825764817bfe3257",
+   "sidecar_sha256": "ad9f3389b6ef40c7216bd8c5aa9309512c88dc4c80f88df58bcc9a70e2e821cb",
    "source_repo": "mulligan/sim-square-broad-c02-dagger-mulligan-no-cf",
    "state": "complete_source_sidecar_mapping"
   },
@@ -30093,7 +30093,7 @@
    ],
    "parent_repo": "mulligan/sim-square-broad-c02-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "9a6df508da70c5a5169511fe2198ed825b58e92d699e984ced619ac9cf9d594d",
+   "sidecar_sha256": "d42f7bdf009e5cb7f77a0082f8b9ba26b4c88f089739947cd791526ab97666ca",
    "source_repo": "mulligan/sim-square-broad-c02-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -30505,7 +30505,7 @@
    ],
    "parent_repo": "mulligan/sim-square-broad-c02-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "3717f91649868946059fb9881f99bd8eb8751d9efb2f3a6f820ffcbc2094428d",
+   "sidecar_sha256": "656ae1fe4d0a1b90e6bcd13f012df189f2786b493bddc64080f55cdc4c403b8c",
    "source_repo": "mulligan/sim-square-broad-c02-dagger-sobol-with-cf",
    "state": "complete_source_sidecar_mapping"
   },
@@ -30917,7 +30917,7 @@
    ],
    "parent_repo": "mulligan/sim-square-broad-c02-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "3b31f72368a3e4bfe56020b30fba0483d94c4dacf55381bdc73a9a121545f74a",
+   "sidecar_sha256": "56760867f70c11ecbfac311e5e6a0bd43f43400af0f81b38b6f61788786409ac",
    "source_repo": "mulligan/sim-square-broad-c02-dagger-sobol-no-cf",
    "state": "complete_source_sidecar_mapping"
   },
@@ -31371,7 +31371,7 @@
    ],
    "parent_repo": "mulligan/sim-square-broad-c03-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "2f57f9e58b44747034418da8647efadc20853d61be4be49ad6a26914161dc616",
+   "sidecar_sha256": "d94cceaab7fed8f58362c5ae2f3ffc758119cc3d6a31971df12dba38ea70d752",
    "source_repo": "mulligan/sim-square-broad-c03-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -31783,7 +31783,7 @@
    ],
    "parent_repo": "mulligan/sim-square-broad-c03-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "65b4fbaa339592a920c2c24c0053b286c980d35c68f03b667a73bc43acdf55cd",
+   "sidecar_sha256": "c96f04bd4d6a956270d630344ad5754837e8e8a7dd3cc5eb6ee9b45ca326b15e",
    "source_repo": "mulligan/sim-square-broad-c03-dagger-mulligan-no-cf",
    "state": "complete_source_sidecar_mapping"
   },
@@ -32202,7 +32202,7 @@
    ],
    "parent_repo": "mulligan/sim-square-broad-c03-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "f4827e57c896f8d91baa8f7a9bcef43894aae0b88eec6f77a37b62f0560ec3a1",
+   "sidecar_sha256": "e46097298bf28814ac63b3b4c53de41736364ff791d65354339c0e1b2470d71b",
    "source_repo": "mulligan/sim-square-broad-c03-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -33677,7 +33677,7 @@
    ],
    "parent_repo": "mulligan/sim-square-narrow-c01-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "82b9734b901f79c8434a131d70885130d43af6759a68de87af24f30724289ac0",
+   "sidecar_sha256": "6454ed272c8811859a14e814c4be5af7ad40255d0d2738be3bee88a204e0e342",
    "source_repo": "mulligan/sim-square-narrow-c01-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -34089,7 +34089,7 @@
    ],
    "parent_repo": "mulligan/sim-square-narrow-c01-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "ca3fe86564f5f3cf61dc679991b75870fcd549b368567b91cf4f47ed438b29ee",
+   "sidecar_sha256": "ae3ac783104b643cf98f7b2154460618d1ef63471679663813ccb2134efb13e6",
    "source_repo": "mulligan/sim-square-narrow-c01-dagger-mulligan-no-cf",
    "state": "complete_source_sidecar_mapping"
   },
@@ -34508,7 +34508,7 @@
    ],
    "parent_repo": "mulligan/sim-square-narrow-c01-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "28ef2f20222530a6517fb81760350400377d54e82da6d6a0ad39e22e1c914afb",
+   "sidecar_sha256": "5c5b06455a169e665e551ac07fab503845e4eb881a49148ceadbab84878719d0",
    "source_repo": "mulligan/sim-square-narrow-c01-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -34920,7 +34920,7 @@
    ],
    "parent_repo": "mulligan/sim-square-narrow-c01-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "1f909b5abd62247aa5d7a71c35d50a31f51800a8426b986fbb6f90bf8db4b86f",
+   "sidecar_sha256": "8af6f53428b62e51ff96ef917dc2ab8cdd50a3a8dad0e547cbe3db70cecf389b",
    "source_repo": "mulligan/sim-square-narrow-c01-dagger-sobol-with-cf",
    "state": "complete_source_sidecar_mapping"
   },
@@ -35332,7 +35332,7 @@
    ],
    "parent_repo": "mulligan/sim-square-narrow-c01-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "7fffa6ca9c694d747a93f73a2214ac353131b1f39456fd4c4dc69ad4d67d77e6",
+   "sidecar_sha256": "b65987c1e151c17f6ad81c4b04b1c66b610ca7a6deedce59dd0379b2d55a01b0",
    "source_repo": "mulligan/sim-square-narrow-c01-dagger-sobol-no-cf",
    "state": "complete_source_sidecar_mapping"
   },
@@ -35786,7 +35786,7 @@
    ],
    "parent_repo": "mulligan/sim-square-narrow-c02-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "83e9348a5efef537e820f376bbb0380f232e49b4c4821a718323f50b7325aae3",
+   "sidecar_sha256": "045e43c4353fc7297cee412b91f4f02c8bdea278f551aa79926305af4d2ee596",
    "source_repo": "mulligan/sim-square-narrow-c02-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -36198,7 +36198,7 @@
    ],
    "parent_repo": "mulligan/sim-square-narrow-c02-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "95f30006fe1fe3bc37536fc8d56f8c97536a352b0fca2bcf4c78cef5cd750d1b",
+   "sidecar_sha256": "eca670dbd1bd195713720c1ccb77fa6c67d534b7c3cb98ae2bb439466192ae7e",
    "source_repo": "mulligan/sim-square-narrow-c02-dagger-mulligan-no-cf",
    "state": "complete_source_sidecar_mapping"
   },
@@ -36617,7 +36617,7 @@
    ],
    "parent_repo": "mulligan/sim-square-narrow-c02-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "8f97ea1f35d9cdabac5bf63a6ad91bd2a0bbe3ee2ea1e14885388501b0e6239f",
+   "sidecar_sha256": "0763dec08c2c1726868b0261cfac996b10c78c0668f886295145f1891e851dac",
    "source_repo": "mulligan/sim-square-narrow-c02-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },
@@ -37078,7 +37078,7 @@
    ],
    "parent_repo": "mulligan/sim-square-narrow-c03-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "bf85bb3f7f6ba31424c78cb9e8265a3ec36d3e8801f3bd8a3c078713b1749fad",
+   "sidecar_sha256": "3da733398887d2040e8f8d77569f2d8747084422f58229a562aafd6b3562c8d5",
    "source_repo": "mulligan/sim-square-narrow-c03-dagger-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -37490,7 +37490,7 @@
    ],
    "parent_repo": "mulligan/sim-square-narrow-c03-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "ac567810ecdc3203030d618671d2515ec27742d75fd605e6b3f04c5d132b7a55",
+   "sidecar_sha256": "1406ab541e665a52c0f5346929c851b034cf9933f89258f8df82a62bd6549e7a",
    "source_repo": "mulligan/sim-square-narrow-c03-dagger-mulligan-no-cf",
    "state": "complete_source_sidecar_mapping"
   },
@@ -37909,7 +37909,7 @@
    ],
    "parent_repo": "mulligan/sim-square-narrow-c03-dagger-mixed",
    "sidecar": "meta/protocol_split_manifest.jsonl",
-   "sidecar_sha256": "fae352b308d042d5fd137ee3efab55747c3e2d86a117b03b352ff5a111f1c7b4",
+   "sidecar_sha256": "a85ee7e2af18de7855f271645e611bb6fa017ff4b52357b969f02794193fb5ea",
    "source_repo": "mulligan/sim-square-narrow-c03-dagger-mulligan",
    "state": "complete_source_sidecar_mapping"
   },

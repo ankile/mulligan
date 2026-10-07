@@ -18,8 +18,8 @@ paper:
   - mulligan/real-routing-d2-r00-r05-eval b01 (HG-DAgger)
   collections: []
 dataset_revisions:
-  mulligan/real-routing-d2-c00-teleop-baseline: 83940e1cc5926abc24c88686b0be6688207f4fec
-  mulligan/real-routing-d2-c00-teleop-validation: 17384f6b0b7742a57a4dc052fabce27af6ee53d3
+  mulligan/real-routing-d2-c00-teleop-baseline: 07d07801febea152677c3ca3f4fa33597fa67305
+  mulligan/real-routing-d2-c00-teleop-validation: 25838c59cd68b8436ec16baf8217d8809c68defc
 dataset_episodes: {}
 args:
   task: routing_d2

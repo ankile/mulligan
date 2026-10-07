@@ -108,48 +108,8 @@ def build_tables(inputs: dict[str, Path]) -> tuple[dict[str, str], dict]:
             rows,
         )
     }
-    coverage = pd.read_csv(inputs["real/collection/stage_census/coverage_by_repo.csv"])
-    counts = {
-        (row["dataset"], row["part"]): row["episodes"]
-        for row in json.loads(
-            inputs["real/collection/stage_census/episode_counts.json"].read_text()
-        )
-    }
-    assert len(coverage) == 36 and not coverage.duplicated(["dataset", "part"]).any()
-    assert set(zip(coverage.dataset, coverage.part)) == set(counts)
-    assert set(coverage.line) == {
-        "marker_d2",
-        "square_d2",
-        "routing_d2",
-        "square_fixed_peg",
-        "insert_marker_d1",
-    }
-    for row in coverage.itertuples():
-        assert row.total_episodes == counts[(row.dataset, row.part)]
-        assert row.n_vlm == row.n_both + row.n_vlm_only
-        assert row.n_human == row.n_both + row.n_human_only
-        assert (
-            row.total_episodes == row.n_both + row.n_vlm_only + row.n_human_only + row.n_unlabeled
-        )
-    totals = coverage.groupby("line").agg(
-        repos=("dataset", "size"),
-        episodes=("total_episodes", "sum"),
-        vlm=("n_vlm", "sum"),
-        human=("n_human", "sum"),
-        both=("n_both", "sum"),
-    )
-
-    assert totals.sum().to_dict() == {
-        "repos": 36,
-        "episodes": 4793,
-        "vlm": 4325,
-        "human": 516,
-        "both": 503,
-    }
     report = dict(
         schema="mulligan.paper.appendix.reference_data.analysis.v1",
-        census_scope="36 repositories in the stage-label census; not complete campaign totals",
-        coverage=totals.astype(int).to_dict(orient="index"),
         recap=recap_results,
     )
     return outputs, report

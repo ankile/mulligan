@@ -532,7 +532,7 @@ def test_real_episode_save_writes_zero_intervention_without_dagger_sources():
         episode_data=episode_data,
         episode_success=True,
         camera_keys=["image_cam_left"],
-        task_name="insert_marker_d1",
+        task_name="marker_d2",
         saved_episode_count=0,
         default_source=DataSource.AUTONOMOUS,
     )
@@ -562,7 +562,7 @@ def test_real_episode_save_rejects_source_length_mismatch():
             episode_data=episode_data,
             episode_success=True,
             camera_keys=["image_cam_left"],
-            task_name="insert_marker_d1",
+            task_name="marker_d2",
             saved_episode_count=0,
             sources=[DataSource.AUTONOMOUS],
         )

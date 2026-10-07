@@ -18,7 +18,7 @@ export default defineSchema({
     task: v.string(), // matches policies.environment / datasets.task
     status: statusValidator,
     reason: v.optional(v.string()),
-    superseded_by: v.optional(v.string()), // e.g. insert_marker_d1_v0 -> insert_marker_d1
+    superseded_by: v.optional(v.string()), // e.g. pilot_task_v0 -> pilot_task
     updated_at: v.float64(),
     updated_by: v.string(),
   }).index("by_task", ["task"]),

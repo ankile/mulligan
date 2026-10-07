@@ -35,7 +35,7 @@ def test_exactly_the_paper_tasks_are_registered():
 
 
 def test_retired_tasks_are_not_registered():
-    for name in ("insert_marker_d1", "Square_D1"):
+    for name in ("retired_marker_task", "Square_D1"):
         with pytest.raises(KeyError, match="unknown real task"):
             get_task_spec(name)
 

@@ -134,7 +134,7 @@ def test_task_name_is_stored_as_the_collection_task_name(
     assert blind_dagger.parse_args().task_name == stored
 
 
-@pytest.mark.parametrize("task", ["insert_marker_d1", "Square_D1", "droid_teleop"])
+@pytest.mark.parametrize("task", ["retired_marker_task", "Square_D1", "droid_teleop"])
 def test_parse_args_rejects_unreleased_tasks(
     monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str], task: str
 ) -> None:

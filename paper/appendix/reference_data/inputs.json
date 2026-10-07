@@ -21,16 +21,6 @@
       "size": 63363
     },
     {
-      "path": "real/collection/stage_census/coverage_by_repo.csv",
-      "sha256": "73ce9c34c8734f5cc659d0c7af662ca3e6cf0c69a04d577358f15eacd1dc6784",
-      "size": 2559
-    },
-    {
-      "path": "real/collection/stage_census/episode_counts.json",
-      "sha256": "3016c988e044e691b0f390e83c0267542c5ddeb779544dc1a2f71a1e608bab49",
-      "size": 3482
-    },
-    {
       "path": "sim/results/recap/runs.csv",
       "sha256": "ffb128f5f6a60fe483eea4fcef3bc8c0536fc731518b705cfb81a88567a77146",
       "size": 13803

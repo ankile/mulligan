@@ -8,7 +8,7 @@ import pytest
 from mulligan.sim.eval import grid_eval
 from mulligan.sim.eval.shards import format_counts, inspect_dir, merge_dir, scan_results
 
-ARTIFACT = "hf://mulligan/sim-square-narrow-r01-mulligan-divl@05e15eb4f0324587337fc7a8e3374398c6044443/seed-1"
+ARTIFACT = "hf://mulligan/sim-square-narrow-r01-mulligan-divl@93356d9ead01cc93ee3e7f1d1cb9ea7e1f51f1f7/seed-1"
 
 
 def _manifest(tmp_path: Path) -> tuple[dict, Path]:

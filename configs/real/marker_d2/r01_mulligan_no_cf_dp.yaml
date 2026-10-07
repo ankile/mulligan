@@ -17,9 +17,9 @@ paper:
   - mulligan/real-marker-d2-r01-eval b01 (HG-DAgger+Mulligan no-CF)
   collections: []
 dataset_revisions:
-  mulligan/real-marker-d2-c00-teleop-sobol: 2eceb8cab17e48e970e082d37ce6d0aac03b4522
-  mulligan/real-marker-d2-c00-teleop-validation: 66e508d55f3b6820f610b1270f2dd94884f785f5
-  mulligan/real-marker-d2-c01-dagger-mulligan-no-cf: 3bfb5f0e7eb5267d2e83f8ca7aef5ca2315cce21
+  mulligan/real-marker-d2-c00-teleop-sobol: 75b42b8fd891766f40eeac678420702d5fd695c4
+  mulligan/real-marker-d2-c00-teleop-validation: 7c6b5d250f5179dea28d93418e2285915be7399c
+  mulligan/real-marker-d2-c01-dagger-mulligan-no-cf: e0d6c771ad3580560e2a42c9bdd1a0ef609cbb5f
 dataset_episodes: {}
 args:
   task: marker_d2

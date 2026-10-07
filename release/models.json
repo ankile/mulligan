@@ -17,168 +17,168 @@
   "critics_dp_artifact_resolved": "17/18"
  },
  "dataset_revisions": {
-  "mulligan/real-marker-d2-c00-teleop-baseline": "fca1b80fd41df0eb8cded11d03c8810a5c42f5ba",
-  "mulligan/real-marker-d2-c00-teleop-sobol": "2eceb8cab17e48e970e082d37ce6d0aac03b4522",
-  "mulligan/real-marker-d2-c00-teleop-validation": "66e508d55f3b6820f610b1270f2dd94884f785f5",
-  "mulligan/real-marker-d2-c01-dagger-baseline": "01134563b9add62154621843b4054bbde34bb822",
-  "mulligan/real-marker-d2-c01-dagger-mulligan": "e9ed902ab91abeca9523cbcfa5475ac31bc31127",
-  "mulligan/real-marker-d2-c01-dagger-mulligan-no-cf": "3bfb5f0e7eb5267d2e83f8ca7aef5ca2315cce21",
-  "mulligan/real-marker-d2-c02-dagger-baseline": "0686daf8fd52db9343d4494b3064c0af7a7d66ba",
-  "mulligan/real-marker-d2-c02-dagger-mulligan": "0e44650843b7ff7b95527535993a0161a4bf9548",
-  "mulligan/real-marker-d2-c02-dagger-mulligan-no-cf": "351661d2be04e8f774ec4a20c388049a7d4f63e9",
-  "mulligan/real-marker-d2-c03-dagger-baseline": "2037414f3049817bcb92a6d306acfe2cd54da98b",
-  "mulligan/real-marker-d2-c03-dagger-mulligan": "37cc25fecdb4909fe8819cbb12ef36425f1e09bf",
-  "mulligan/real-marker-d2-c03-dagger-mulligan-no-cf": "cc4c49a2c0ca7f35146e9c3f2cc0d653567a2a39",
-  "mulligan/real-marker-d2-c04-dagger-baseline": "4b90ffdc954665d421e61ed11cd2888d40d6dd7e",
-  "mulligan/real-marker-d2-c04-dagger-mulligan": "8cb1da880180467ea491b422042a9daf478d2b97",
-  "mulligan/real-marker-d2-c04-dagger-mulligan-no-cf": "f1fc13ef6b2f580460376c07b87619d827532b30",
-  "mulligan/real-marker-d2-c05-dagger-baseline": "bce232476f4eaff4307edc0bb59f1c8d621c3443",
-  "mulligan/real-marker-d2-c05-dagger-mulligan": "7ba1fe7b63cfb7a138ea275478a030c28ef17d5a",
-  "mulligan/real-marker-d2-r00-eval-b01-baseline-dp-policy-rollouts": "78e9b8a39889f419e3398ea47cdaa971967309d9",
-  "mulligan/real-marker-d2-r00-eval-b01-sobol-dp-policy-rollouts": "cdbd3986a183a78289fd689a42c7a23a8bd1d2cd",
-  "mulligan/real-marker-d2-r01-eval-b01-mulligan-dp-policy-rollouts": "03474279db1740f329d04a3cba18fddb10c924ca",
-  "mulligan/real-marker-d2-r02-eval-b01-baseline-dp-policy-rollouts": "791fa889cf01152c0113e665bc3374ad0bb85bfe",
-  "mulligan/real-marker-d2-r02-eval-b01-mulligan-dp-policy-rollouts": "4337635445d7de14ea9a521bdc94d68eca972ffa",
-  "mulligan/real-marker-d2-r02-eval-b03": "9476c18be0d3d72067d3e78fe415a810e7b76f05",
-  "mulligan/real-marker-d2-r03-eval-b01-mulligan-dp-policy-rollouts": "bf91aa1575ddbe9aceb0a9d5c8e5ba544473b630",
-  "mulligan/real-marker-d2-r03-eval-b01-mulligan-idql-policy-rollouts": "246353ec7bfc9914e6a9a822dc44665d04b9be08",
-  "mulligan/real-marker-d2-r04-eval-b01-mulligan-dp-policy-rollouts": "3973fbd014af177a3b55e227dac03f9076198a11",
-  "mulligan/real-marker-d2-r04-eval-b01-mulligan-idql-policy-rollouts": "8660a0f1006af95f22873ee25c808e1e416c9c20",
-  "mulligan/real-routing-d2-c00-teleop-baseline": "83940e1cc5926abc24c88686b0be6688207f4fec",
-  "mulligan/real-routing-d2-c00-teleop-sobol": "dd8047c135935a35b416d7ecb9ca0f70fbb7fd94",
-  "mulligan/real-routing-d2-c00-teleop-validation": "17384f6b0b7742a57a4dc052fabce27af6ee53d3",
-  "mulligan/real-routing-d2-c01-dagger-baseline": "d4f7eb220a07fae9b80da1ea23d7bdface370a4b",
-  "mulligan/real-routing-d2-c01-dagger-mulligan": "df4cb987e512dbcf1f040a5b8e8164e71ca3b62e",
-  "mulligan/real-routing-d2-c02-dagger-baseline": "d70d194c9fcceacc4310fd6bfd524e09ad145589",
-  "mulligan/real-routing-d2-c02-dagger-mulligan": "9602d31be7f110332e38f1132305d3e287f38485",
-  "mulligan/real-routing-d2-c03-dagger-baseline": "889bdf8bc8eb9905068dc55b6f22c6d8203b5b3f",
-  "mulligan/real-routing-d2-c03-dagger-mulligan": "7f6a0e0870ae390841a1f8e5dd827e9c03740152",
-  "mulligan/real-routing-d2-c04-dagger-baseline": "5194bdc9472e23e5280e909fd591e38990f870c8",
-  "mulligan/real-routing-d2-c04-dagger-mulligan": "b06e5eca3b80dc2dc7e15f0bd481e2811889f40b",
-  "mulligan/real-routing-d2-c05-dagger-baseline": "41dfc8593a08ab06618caca75fcceff20b7fe0a8",
-  "mulligan/real-routing-d2-c05-dagger-mulligan": "b87ac2170ee3a843827ac819f393ec3b79d0b6db",
-  "mulligan/real-routing-d2-c06-dagger-baseline": "a7a2b54e49bdba92933ec3cb73e92dccceafea63",
-  "mulligan/real-routing-d2-c06-dagger-mulligan": "c3d2547928b74256685239a1bdf61e92d321d1ed",
-  "mulligan/real-routing-d2-c07-dagger-baseline": "ec0dbdd10b819230d2f7ad5467144775222f4f1f",
-  "mulligan/real-routing-d2-c07-dagger-mulligan": "03be2c955ee2a966203fed8b23866a1a936ffd28",
-  "mulligan/real-routing-d2-c08-dagger-baseline": "4f7328ece7f300ab344f4ee327e5332875286dd1",
-  "mulligan/real-routing-d2-c08-dagger-mulligan": "14e313966b07171941086ee58f717e205915a548",
-  "mulligan/real-routing-d2-c09-dagger-baseline": "0b023f838dcd537b31b436c17a05639689db628a",
-  "mulligan/real-routing-d2-c09-dagger-mulligan": "8f1e2137c2b22508ef43f6847a827edf28cea766",
-  "mulligan/real-routing-d2-velocity-r00-eval-b01-baseline-dp-policy-rollouts": "6bbbb3cac5d8b18f6a9299722a2db45dadb059fc",
-  "mulligan/real-routing-d2-velocity-r00-eval-b01-sobol-dp-policy-rollouts": "c8d3a92818f44f613cffe6b378a82960fcbd1829",
-  "mulligan/real-routing-d2-velocity-r01-eval-b01-baseline-dp-policy-rollouts": "cddbbf6b5779a1a60e1ba12ebfa3a619a17f86eb",
-  "mulligan/real-routing-d2-velocity-r01-eval-b01-mulligan-dp-policy-rollouts": "8b11063053cb732a302559a33c6d77b5f8c2c567",
-  "mulligan/real-routing-d2-velocity-r02-eval-b01-baseline-dp-policy-rollouts": "ae7db6fa338ac5731b56f3ef4bf764977776b8d7",
-  "mulligan/real-routing-d2-velocity-r02-eval-b01-mulligan-dp-policy-rollouts": "81df4a641380c996b01fcc0db6fa7c54ad5ab3c2",
-  "mulligan/real-routing-d2-velocity-r03-eval-b01-baseline-dp-policy-rollouts": "458e02ec29da7102e1a03eaea85a7574964742de",
-  "mulligan/real-routing-d2-velocity-r03-eval-b01-mulligan-dp-policy-rollouts": "140ec230f52068f1d6fa80c5aa6efebcc6f1be99",
-  "mulligan/real-routing-d2-velocity-r04-eval-b01-baseline-dp-policy-rollouts": "ad99ed5b7ee15cd193a2abae2962ab715589fb17",
-  "mulligan/real-routing-d2-velocity-r04-eval-b01-mulligan-dp-policy-rollouts": "4960fc5011f6ed48320b34e29bb00306121e0f88",
-  "mulligan/real-routing-d2-velocity-r04-eval-b01-mulligan-idql-policy-rollouts": "0d153ad879f907c9a2c442caa57f3e8f542099e4",
-  "mulligan/real-routing-d2-velocity-r05-eval-b01-baseline-dp-policy-rollouts": "eec0025f1846e18d006ea59a9b8d6cde7f361a0c",
-  "mulligan/real-routing-d2-velocity-r05-eval-b01-mulligan-dp-policy-rollouts": "edf70cfba9dba983937a1c270910922c0d4f1aa7",
-  "mulligan/real-routing-d2-velocity-r05-eval-b01-mulligan-idql-policy-rollouts": "58ac1a98705a6233ae9f61e5290a8152bb3eaf36",
-  "mulligan/real-routing-d2-velocity-r06-eval-b01-baseline-dp-policy-rollouts": "dbca33db555d609dc0eb394f8c3b9d6b3363b816",
-  "mulligan/real-routing-d2-velocity-r06-eval-b01-mulligan-dp-policy-rollouts": "0b3fea139668c521a2656897f6d1694aa3680335",
-  "mulligan/real-routing-d2-velocity-r06-eval-b01-mulligan-idql-policy-rollouts": "8537cedef985c16cb6cfaea64a834f5dcb9910f7",
-  "mulligan/real-routing-d2-velocity-r07-eval-b01-baseline-dp-policy-rollouts": "7ebfb94106c227dd68ab905aea39e620b18f6d1e",
-  "mulligan/real-routing-d2-velocity-r07-eval-b01-mulligan-dp-policy-rollouts": "c90a76ceec1580711c6648ef386bf0fdc30b5074",
-  "mulligan/real-routing-d2-velocity-r07-eval-b01-mulligan-idql-policy-rollouts": "899670d4d9f83d28387b6692b9eb19f235e1e846",
-  "mulligan/real-routing-d2-velocity-r08-eval-b01-mulligan-dp-policy-rollouts": "036c5ea3740642d05af8ab2231d1760e25c1c986",
-  "mulligan/real-routing-d2-velocity-r08-eval-b01-mulligan-idql-policy-rollouts": "2cf902fd49b165b6e0c3bce75f340a9dcd91a66b",
-  "mulligan/real-square-d2-c00-teleop-baseline": "bd4d3e3af42686f45cc305e4b4858c495a7576f4",
-  "mulligan/real-square-d2-c00-teleop-sobol": "3297332740f7ed1897a25015e0d307f3afe7fa9b",
-  "mulligan/real-square-d2-c00-teleop-validation": "30c8e47be25efb9efb40d5a0e84cd0e502223c12",
-  "mulligan/real-square-d2-c01-dagger-baseline": "9703aa9d81dabf5fc8a2b1f24b08cf9323caa59c",
-  "mulligan/real-square-d2-c01-dagger-mulligan": "aaf4407363220180e1ab72cc76dbadfa3a780ac6",
-  "mulligan/real-square-d2-c01-dagger-mulligan-no-cf": "40032e2691ae1f4c162a3b26c511cd901e8c9976",
-  "mulligan/real-square-d2-c02-dagger-baseline": "24752e40603f12d44f1753f8720e4aceb3a1c74b",
-  "mulligan/real-square-d2-c02-dagger-mulligan": "469a31c0ee4830868256a667178e74a29b1c27d8",
-  "mulligan/real-square-d2-c02-dagger-mulligan-no-cf": "a1bc4f795378e3aea1711d6aeb037c943ea27e75",
-  "mulligan/real-square-d2-c03-dagger-baseline": "abac64edc07c4100b52fa7b23bfbe30a945d048a",
-  "mulligan/real-square-d2-c03-dagger-mulligan": "71882a30cd33550b506c04d9f526d7448efe54c1",
-  "mulligan/real-square-d2-c03-dagger-mulligan-no-cf": "88795c105f98ed2e105f9311afbb8d6fe8574084",
-  "mulligan/real-square-d2-c04-dagger-baseline": "a67fbd955aa220052b53a15dc43472c8825d4274",
-  "mulligan/real-square-d2-c04-dagger-mulligan": "16e48f7c2b9f5cb20ac7ebcfb0b51721368e66fb",
-  "mulligan/real-square-d2-c04-dagger-mulligan-no-cf": "0e09c4b495fe3e85399d60ed7ff6af3e2245d3ba",
-  "mulligan/real-square-d2-c05-dagger-baseline": "04b4ac5e46ccd3f8a4c050ea6a3f7be28d1fb5bd",
-  "mulligan/real-square-d2-c05-dagger-mulligan": "167b4d1b7f11c931c6771d638b8b67791f132010",
-  "mulligan/real-square-d2-r01-eval-b01-baseline-dp-policy-rollouts": "78a3ccf37f82c83c41d84a91103aea35a3c398f8",
-  "mulligan/real-square-d2-r01-eval-b01-mulligan-dp-policy-rollouts": "b9e7f70b21b664dab9beabd5a0f855af81a67186",
-  "mulligan/real-square-d2-r02-eval-b01-mulligan-dp-policy-rollouts": "5f987f3b8dd6a6d79863138d3d5c71e12380de67",
-  "mulligan/real-square-d2-r03-eval-b01-baseline-dp-policy-rollouts": "0951199cc385704863b7b35a4d5ce62979e2e67a",
-  "mulligan/real-square-d2-r03-eval-b01-mulligan-dp-policy-rollouts": "cff03c20064540781b50342ff6afd7e5bc445048",
-  "mulligan/real-square-d2-r03-eval-b02-mulligan-dp-policy-rollouts": "555d81156f474d7171c60ae53a94098f13d9c146",
-  "mulligan/real-square-d2-r03-eval-b02-mulligan-idql-policy-rollouts": "4ce078e892eb32e3c1678521be78b7baed35838e",
-  "mulligan/real-square-d2-r03-eval-b03-mulligan-dp-policy-rollouts": "b40b59935996637c54e6428f23ecab49cbeaeb70",
-  "mulligan/real-square-d2-r03-eval-b03-mulligan-idql-policy-rollouts": "7b8458add3d8dfa0058ade20d9500550f2e0d890",
-  "mulligan/real-square-d2-r04-eval-b01-mulligan-dp-policy-rollouts": "f389c7270b8835f1c2892ed0137bb38371997463",
-  "mulligan/real-square-d2-r04-eval-b01-mulligan-idql-policy-rollouts": "56aeb500630e8a7a048109cfc5f53381ac261a58",
-  "mulligan/real-square-d2-r05-eval-b02-mulligan-dp-policy-rollouts": "6b2dffbe4e035f17018827336cf4dcc8ff8e3724",
-  "mulligan/real-square-d2-r05-eval-b02-mulligan-idql-policy-rollouts": "a512f37da02eca67be7a67fbbded9843fbdf00eb",
-  "mulligan/sim-square-broad-c00-teleop-baseline": "d65b70543ccc7d4e607c510e2b317fcc7b5fe1d0",
-  "mulligan/sim-square-broad-c00-teleop-baseline-first100": "3e384188d6e96db7205f8846a5d3b700077f8712",
-  "mulligan/sim-square-broad-c00-teleop-sobol": "9b76670ef02cb5bc67b1dafd92f3b845d5fa2312",
-  "mulligan/sim-square-broad-c00-teleop-sobol-first100": "e321768d7f1518297f73107368b14cefdfa39765",
-  "mulligan/sim-square-broad-c01-auto-bc-n1-shared-policy-rollouts": "343a51a7a3f19193c266472bca45d61a70cbf72e",
-  "mulligan/sim-square-broad-c01-auto-iql-n32-policy-rollouts": "9a0a723e3b90c28e01c3ba2e89d8fa9bda54ccfe",
-  "mulligan/sim-square-broad-c01-baseline-policy-rollouts": "d5acc63bf723b43116eba6b49ae25247bdf3b7f8",
-  "mulligan/sim-square-broad-c01-dagger-baseline": "2d7f945f32f547e44da017eb4fb8347d1f33229b",
-  "mulligan/sim-square-broad-c01-dagger-mulligan": "530d80e4f21f03f0f907cd04062ac754383ba645",
-  "mulligan/sim-square-broad-c01-dagger-mulligan-no-cf": "bbc9c10c5591b5ee23e72d5719c314e9b6b44f63",
-  "mulligan/sim-square-broad-c01-dagger-sobol-no-cf": "b68bd122588615101fae93a3106155890068f7d4",
-  "mulligan/sim-square-broad-c01-dagger-sobol-with-cf": "5b2ca658ff670ee69cd47b826fe8fbdfa63c4210",
-  "mulligan/sim-square-broad-c01-sobol-policy-rollouts": "8c21f4573818bfc1784302e099b6fc15d2994509",
-  "mulligan/sim-square-broad-c02-auto-filtered-bc-n1-policy-rollouts": "efdc15402ef46b2c59babef06242191803f77f5f",
-  "mulligan/sim-square-broad-c02-auto-iql-n32-policy-rollouts": "7821b0459b5599ac183a819779b44ba346dd25d4",
-  "mulligan/sim-square-broad-c02-auto-iql-success-bc-n32-policy-rollouts": "b3e64c16968dc9116fac11887e367c293efc19f7",
-  "mulligan/sim-square-broad-c02-auto-plain-il-n1-policy-rollouts": "7ff7b370c25f1e7d05a78ada22f6224f21c855d8",
-  "mulligan/sim-square-broad-c02-baseline-policy-rollouts": "a126419e5068607e5f792c04f69b8d5592dd4a86",
-  "mulligan/sim-square-broad-c02-dagger-baseline": "9a86f1bcfef4368842471f3bbbf3582c7a7253ca",
-  "mulligan/sim-square-broad-c02-dagger-mulligan": "5e8991a6c266892f37751f6d1732c3728c062903",
-  "mulligan/sim-square-broad-c02-dagger-mulligan-no-cf": "c5a921d52d6ef770e952f37959ae005341246009",
-  "mulligan/sim-square-broad-c02-dagger-sobol-no-cf": "5e3b5448baeec7f4a3b0d14a43779b51aac9c2dc",
-  "mulligan/sim-square-broad-c02-dagger-sobol-with-cf": "45c818887d5ad2af2c3512c53f1ab1ef69e3e54d",
-  "mulligan/sim-square-broad-c02-mulligan-policy-rollouts": "99d6631e1ca6b92790354b0e548e313d50141184",
-  "mulligan/sim-square-broad-c03-auto-filtered-bc-n1-policy-rollouts": "bf773402aee59dded341ac2f81e9a4d9a701da90",
-  "mulligan/sim-square-broad-c03-auto-iql-n32-policy-rollouts": "ed37e9e8e0798c50d15e425a6fe204cdfb37e678",
-  "mulligan/sim-square-broad-c03-auto-iql-success-bc-n32-policy-rollouts": "cbfdad0ae82ca047f64c2cb2ec09eb40fe90c5a1",
-  "mulligan/sim-square-broad-c03-auto-plain-il-n1-policy-rollouts": "5c8792209e751fc4c067431cb864156cbb21d9fc",
-  "mulligan/sim-square-broad-c03-baseline-policy-rollouts": "296ecc2edfaf449ee49a8d0ef8f533c693d70349",
-  "mulligan/sim-square-broad-c03-dagger-baseline": "880e5ba4904024d10311fc8df9a53c583762829f",
-  "mulligan/sim-square-broad-c03-dagger-mulligan": "5805f0cdb7b4a4782d44ef68baf739cc20da3215",
-  "mulligan/sim-square-broad-c03-dagger-mulligan-no-cf": "ec1c943c0e52b5e9c8331ae3fa766b9c43222ca3",
-  "mulligan/sim-square-broad-c03-mulligan-policy-rollouts": "d74668f92f0ea1dec110c8ab0fe31a5c26d1295c",
-  "mulligan/sim-square-narrow-c00-teleop-baseline": "c92daf4da49fba126e876d00da07278f7c24e5d4",
-  "mulligan/sim-square-narrow-c00-teleop-sobol": "be8b5ba803a31ae633d6d61c30d2548cfc9a382c",
-  "mulligan/sim-square-narrow-c01-auto-bc-n1-shared-policy-rollouts": "fe2e6872474dbb475b14e2612038f627a405659c",
-  "mulligan/sim-square-narrow-c01-auto-iql-n32-policy-rollouts": "6800d10fdadf1e80f6f8a482efe9575cf028f49e",
-  "mulligan/sim-square-narrow-c01-baseline-policy-rollouts": "390d13ef86cf25fc8fbd8a1a74cd807a8d0011d0",
-  "mulligan/sim-square-narrow-c01-dagger-baseline": "2f3f9e3974c58f608043d33ae6df9fa6371e286b",
-  "mulligan/sim-square-narrow-c01-dagger-mulligan": "edd45cb479f89abe7403fa7bd797bfaf678138e1",
-  "mulligan/sim-square-narrow-c01-dagger-mulligan-no-cf": "25b2a5d03d769add4d856102029b76312853f491",
-  "mulligan/sim-square-narrow-c01-dagger-sobol-no-cf": "72d609535cd21d7311f453a52c04e686a200bf90",
-  "mulligan/sim-square-narrow-c01-dagger-sobol-with-cf": "a4747c67d528f6e6ee462508143868705b3b3ea9",
-  "mulligan/sim-square-narrow-c01-sobol-policy-rollouts": "68e68af0628088c2bb34c5502a60599c4b7fa848",
-  "mulligan/sim-square-narrow-c02-auto-filtered-bc-n1-policy-rollouts": "3913e025d952022c18bc384ca2f4d933d40f460b",
-  "mulligan/sim-square-narrow-c02-auto-iql-n32-policy-rollouts": "468ae9a8edbca4e83ab06b9e63d5f420f80def1b",
-  "mulligan/sim-square-narrow-c02-auto-iql-success-bc-n32-policy-rollouts": "4aeba7702a3df6ed5c483eb7798707e1a1c16e92",
-  "mulligan/sim-square-narrow-c02-auto-plain-il-n1-policy-rollouts": "dd3ba581d352884231e21f2a69316ab40d06bfc0",
-  "mulligan/sim-square-narrow-c02-baseline-policy-rollouts": "74f5784de09833ae6036f42900afa6d21084aa90",
-  "mulligan/sim-square-narrow-c02-dagger-baseline": "b35457653143a19c932d3102715313f5299e3f73",
-  "mulligan/sim-square-narrow-c02-dagger-mulligan": "a313faa86ab1eadbaee13e6ef95da38090418d81",
-  "mulligan/sim-square-narrow-c02-dagger-mulligan-no-cf": "1c760f2d437018aca2a124f96c29fd612a6d8d99",
-  "mulligan/sim-square-narrow-c02-mulligan-policy-rollouts": "ea6970ef1676132cfc4f369b6cf3d9520d79b72c",
-  "mulligan/sim-square-narrow-c03-auto-filtered-bc-n1-policy-rollouts": "22faa569124a2429a71d4a56cc5033c9e0e6cdce",
-  "mulligan/sim-square-narrow-c03-auto-iql-n32-policy-rollouts": "20a51e29266ca956334ab7b3bf092e38f946316d",
-  "mulligan/sim-square-narrow-c03-auto-iql-success-bc-n32-policy-rollouts": "760bd38592bdb83fb2d38d95c6e116a23bbcc9b3",
-  "mulligan/sim-square-narrow-c03-auto-plain-il-n1-policy-rollouts": "a2955d95e5fbd61a5735efce3337bead46956954",
-  "mulligan/sim-square-narrow-c03-baseline-policy-rollouts": "a36182cf2e63c18edaf889c01f923528dbe8ded2",
-  "mulligan/sim-square-narrow-c03-dagger-baseline": "e9b1dd47b42d9858ab31c6de51386bf2ebd0164f",
-  "mulligan/sim-square-narrow-c03-dagger-mulligan": "946b716f121cf8e131bc284dede14dede9522b0a",
-  "mulligan/sim-square-narrow-c03-dagger-mulligan-no-cf": "14c8b7bdc05d4a471365ddf903ddd44947e0ba6a",
-  "mulligan/sim-square-narrow-c03-mulligan-policy-rollouts": "1871d76ba2c6011d6e9a4a39f2c1b97899afaa1c"
+  "mulligan/real-marker-d2-c00-teleop-baseline": "e4171f202c1c92850ce902d44a2c8452ad5eede5",
+  "mulligan/real-marker-d2-c00-teleop-sobol": "75b42b8fd891766f40eeac678420702d5fd695c4",
+  "mulligan/real-marker-d2-c00-teleop-validation": "7c6b5d250f5179dea28d93418e2285915be7399c",
+  "mulligan/real-marker-d2-c01-dagger-baseline": "c4e0e92d6f14245e3b1f5b36c3e567a0a8607cae",
+  "mulligan/real-marker-d2-c01-dagger-mulligan": "dc10d60b90d968e6e4725de9ac5813586522f14c",
+  "mulligan/real-marker-d2-c01-dagger-mulligan-no-cf": "e0d6c771ad3580560e2a42c9bdd1a0ef609cbb5f",
+  "mulligan/real-marker-d2-c02-dagger-baseline": "fcb868a120b2ed20b841b1b6b750ac0b09a22e3f",
+  "mulligan/real-marker-d2-c02-dagger-mulligan": "79e992c750959a5caa2454b7a2309f0d8301cce5",
+  "mulligan/real-marker-d2-c02-dagger-mulligan-no-cf": "5bdf751779d54752ea7b4a95708613cf810f046c",
+  "mulligan/real-marker-d2-c03-dagger-baseline": "579f2bfdb6c434a55df0df3b6f0eb2eb549e6a97",
+  "mulligan/real-marker-d2-c03-dagger-mulligan": "8ce1881d79ccadd00e31d65a207f0865d5d3119c",
+  "mulligan/real-marker-d2-c03-dagger-mulligan-no-cf": "6b23461df2c70fe4ba43f39034d111b48866a103",
+  "mulligan/real-marker-d2-c04-dagger-baseline": "646c6c4714dcb147595107e7810cb8406a26d172",
+  "mulligan/real-marker-d2-c04-dagger-mulligan": "bd4a9cc41316cd19186fea3640685c6061d7ab50",
+  "mulligan/real-marker-d2-c04-dagger-mulligan-no-cf": "8da2363c57701a797d6a64182fa4842251c35a5b",
+  "mulligan/real-marker-d2-c05-dagger-baseline": "a99d43d231dee704c2edf74c34331ca6c4803823",
+  "mulligan/real-marker-d2-c05-dagger-mulligan": "fba86051362cd99c8de4cd540990b885d6afd3a8",
+  "mulligan/real-marker-d2-r00-eval-b01-baseline-dp-policy-rollouts": "4db234d3967a3b285a3018c1e634d3a586b4a331",
+  "mulligan/real-marker-d2-r00-eval-b01-sobol-dp-policy-rollouts": "1e6401cf1a6c70a80151652ac79890c74d9024da",
+  "mulligan/real-marker-d2-r01-eval-b01-mulligan-dp-policy-rollouts": "590d880793c920f345f60f9dd67a572d7800d5cc",
+  "mulligan/real-marker-d2-r02-eval-b01-baseline-dp-policy-rollouts": "cfadd582e291214506929b2ca8888d2355acd3b5",
+  "mulligan/real-marker-d2-r02-eval-b01-mulligan-dp-policy-rollouts": "ac01b0f995a1f88e20d8b2b53e9099ab1c853cc1",
+  "mulligan/real-marker-d2-r02-eval-b03": "94fc5594f809e45a8fe482838c6bfce6c8b8f130",
+  "mulligan/real-marker-d2-r03-eval-b01-mulligan-dp-policy-rollouts": "86a87d3d705e58d665b1f9d525481d8a85d30709",
+  "mulligan/real-marker-d2-r03-eval-b01-mulligan-idql-policy-rollouts": "e1e72bb2b8beb5cb5be26ca966280d4da48502ec",
+  "mulligan/real-marker-d2-r04-eval-b01-mulligan-dp-policy-rollouts": "2014f5102d219d258ba446716f5dcb348f803a78",
+  "mulligan/real-marker-d2-r04-eval-b01-mulligan-idql-policy-rollouts": "74b1781b8af1738dc355ed08f6148406ce9c884e",
+  "mulligan/real-routing-d2-c00-teleop-baseline": "07d07801febea152677c3ca3f4fa33597fa67305",
+  "mulligan/real-routing-d2-c00-teleop-sobol": "b4691ca1af51ce3ac847379ff921aaa2af6832ff",
+  "mulligan/real-routing-d2-c00-teleop-validation": "25838c59cd68b8436ec16baf8217d8809c68defc",
+  "mulligan/real-routing-d2-c01-dagger-baseline": "0e0e0c13077b5eb8fce90cde094fbcaf49496c4f",
+  "mulligan/real-routing-d2-c01-dagger-mulligan": "f588017db87e5fcc7cb95f25520b090075dca18b",
+  "mulligan/real-routing-d2-c02-dagger-baseline": "5529dae3eb673c7e61dfe635777491587bd50f2c",
+  "mulligan/real-routing-d2-c02-dagger-mulligan": "fbb8721c4db59bca9776838142c0c5c1a2433147",
+  "mulligan/real-routing-d2-c03-dagger-baseline": "618264c8dcc6ef28dd1a05af29cae657eb694a9b",
+  "mulligan/real-routing-d2-c03-dagger-mulligan": "cbd51692536602867221bb0e5f438bc2666ea7e9",
+  "mulligan/real-routing-d2-c04-dagger-baseline": "55e31a5f268a929568fb2d289230c2304ed10801",
+  "mulligan/real-routing-d2-c04-dagger-mulligan": "089f72e8c9023650f82e2042e508355b65d4896b",
+  "mulligan/real-routing-d2-c05-dagger-baseline": "38c888cdce7a59bfd8f8ff00854b811a7480e8a7",
+  "mulligan/real-routing-d2-c05-dagger-mulligan": "cd2e484d5e47ff757ee8d853d385bfdfed7bcf32",
+  "mulligan/real-routing-d2-c06-dagger-baseline": "be55b306eef7559e537a88966a8081c3622410bd",
+  "mulligan/real-routing-d2-c06-dagger-mulligan": "3efde434513ff6f6b2cd6ad777345d1e1ea19373",
+  "mulligan/real-routing-d2-c07-dagger-baseline": "9a106255b72451d65f553c6a694e2240d4eabbd1",
+  "mulligan/real-routing-d2-c07-dagger-mulligan": "c889ca705dbdc1506ec5e0c638ac5a83580d1b8f",
+  "mulligan/real-routing-d2-c08-dagger-baseline": "6d31575e2c0e3df34387e0819fb483c4799b3359",
+  "mulligan/real-routing-d2-c08-dagger-mulligan": "4d88a9a306ca5bf2c2a5e05a2742b788d7a340dc",
+  "mulligan/real-routing-d2-c09-dagger-baseline": "928af91480b18d556c7e97f2a4d05db8c5300f71",
+  "mulligan/real-routing-d2-c09-dagger-mulligan": "293ad9e9dbfe81c8843d1ce8c1de78eccb6dfb99",
+  "mulligan/real-routing-d2-velocity-r00-eval-b01-baseline-dp-policy-rollouts": "a68862865b98939b2bedd36f0a5357386a37c249",
+  "mulligan/real-routing-d2-velocity-r00-eval-b01-sobol-dp-policy-rollouts": "e97905914a2a07111b9e9a3b56029895e6be0d6a",
+  "mulligan/real-routing-d2-velocity-r01-eval-b01-baseline-dp-policy-rollouts": "d8baaa026749b0909d2c1ec90a2ca8e9c217912f",
+  "mulligan/real-routing-d2-velocity-r01-eval-b01-mulligan-dp-policy-rollouts": "07585a00d77cbcbcdc7db66f4818d5226567825f",
+  "mulligan/real-routing-d2-velocity-r02-eval-b01-baseline-dp-policy-rollouts": "3aea2d998bfe2494cc6d30ddb6373a6f482349c8",
+  "mulligan/real-routing-d2-velocity-r02-eval-b01-mulligan-dp-policy-rollouts": "73a94d2963d56d668bc8d23d51c41bfa00256d9a",
+  "mulligan/real-routing-d2-velocity-r03-eval-b01-baseline-dp-policy-rollouts": "711460704e8a58899880bc7fc40f2dbc3b0c5fec",
+  "mulligan/real-routing-d2-velocity-r03-eval-b01-mulligan-dp-policy-rollouts": "71316298f7778c1bf7ea359f3eb75ef5d897c355",
+  "mulligan/real-routing-d2-velocity-r04-eval-b01-baseline-dp-policy-rollouts": "79e35332b26d4885d5c7162a1a3eba71456463e1",
+  "mulligan/real-routing-d2-velocity-r04-eval-b01-mulligan-dp-policy-rollouts": "154fa382cd7f73769ec2d3a81c7667e7b1478dfe",
+  "mulligan/real-routing-d2-velocity-r04-eval-b01-mulligan-idql-policy-rollouts": "43a0cdb231d753a3a638b40da71b59c921e5304b",
+  "mulligan/real-routing-d2-velocity-r05-eval-b01-baseline-dp-policy-rollouts": "158c95719153649a241ff35eeb6a4f887418bf2b",
+  "mulligan/real-routing-d2-velocity-r05-eval-b01-mulligan-dp-policy-rollouts": "47ba00f34a7fbec47b47c228b3853c0990263449",
+  "mulligan/real-routing-d2-velocity-r05-eval-b01-mulligan-idql-policy-rollouts": "d593ea6cf10f27324ebfcd2e35c8f42ab385b451",
+  "mulligan/real-routing-d2-velocity-r06-eval-b01-baseline-dp-policy-rollouts": "2e993c671846eb7fa78cd3655b885095e4b827b4",
+  "mulligan/real-routing-d2-velocity-r06-eval-b01-mulligan-dp-policy-rollouts": "463b1e876a87e5ab0d5fa4324efa532161911217",
+  "mulligan/real-routing-d2-velocity-r06-eval-b01-mulligan-idql-policy-rollouts": "9c8e187b4e9fbb92ed26624b3967adfac82430ff",
+  "mulligan/real-routing-d2-velocity-r07-eval-b01-baseline-dp-policy-rollouts": "03e3f99dc41c82bcb392966fa179e7f824813836",
+  "mulligan/real-routing-d2-velocity-r07-eval-b01-mulligan-dp-policy-rollouts": "0366778366c12634444a4e4e60130c72d0503049",
+  "mulligan/real-routing-d2-velocity-r07-eval-b01-mulligan-idql-policy-rollouts": "a4adc3008126549cf8d9a31ae707f7b20220dccd",
+  "mulligan/real-routing-d2-velocity-r08-eval-b01-mulligan-dp-policy-rollouts": "3848a0e6744d1e6050b6f574fd6e6f9332872746",
+  "mulligan/real-routing-d2-velocity-r08-eval-b01-mulligan-idql-policy-rollouts": "f36eee1aa0a12a5a3cfe7279a71f42f27d79bab8",
+  "mulligan/real-square-d2-c00-teleop-baseline": "481c7bae53f9d16217252578ea0da44e84732f3f",
+  "mulligan/real-square-d2-c00-teleop-sobol": "59ba60fbf71ea3e771722343d80c6fe26ce561c6",
+  "mulligan/real-square-d2-c00-teleop-validation": "cf5b061c26361ae9406982b8ab7b6f51c8d52856",
+  "mulligan/real-square-d2-c01-dagger-baseline": "66cda2b039d41ec5e19b93ccae1c9de267f9684f",
+  "mulligan/real-square-d2-c01-dagger-mulligan": "ab3462641d91bd5ca447f8e36e97969e60d61c4f",
+  "mulligan/real-square-d2-c01-dagger-mulligan-no-cf": "144fc3bdfa021668740690a95336eb5400cc2c90",
+  "mulligan/real-square-d2-c02-dagger-baseline": "dace3986ae45eaf062db3675311d4bdd1e5707f8",
+  "mulligan/real-square-d2-c02-dagger-mulligan": "4318cb60f0cae6cf159b6f296c05d0d64f573f23",
+  "mulligan/real-square-d2-c02-dagger-mulligan-no-cf": "1add21ffb89d56b2f16ae5873bb98372939824a7",
+  "mulligan/real-square-d2-c03-dagger-baseline": "2c410919da9c60de6265aecf6fcc1d34106ce4a7",
+  "mulligan/real-square-d2-c03-dagger-mulligan": "0770c51203b06065d0777ddb5616f18651d3d923",
+  "mulligan/real-square-d2-c03-dagger-mulligan-no-cf": "8c35e4e931422e2160f4050cde5b6e22f492138d",
+  "mulligan/real-square-d2-c04-dagger-baseline": "e807cb5e40e14126fa2edd5795dd09346f000407",
+  "mulligan/real-square-d2-c04-dagger-mulligan": "a8455df5b1d5563b0d4e133030469076b9ff9222",
+  "mulligan/real-square-d2-c04-dagger-mulligan-no-cf": "9360f9feac037f563d1ff858728953e802d60241",
+  "mulligan/real-square-d2-c05-dagger-baseline": "7d74c82fc008abff57dec566f95668f16c292fc6",
+  "mulligan/real-square-d2-c05-dagger-mulligan": "f2591e216ed916fa809047fb3813dd5070c342b0",
+  "mulligan/real-square-d2-r01-eval-b01-baseline-dp-policy-rollouts": "8195ad0597c571f852d053c585f96f1628b67034",
+  "mulligan/real-square-d2-r01-eval-b01-mulligan-dp-policy-rollouts": "a31e721e1f0ecc26d915c6d134fba4dd8b43ba91",
+  "mulligan/real-square-d2-r02-eval-b01-mulligan-dp-policy-rollouts": "3aa8b9644afb4468be7c0d67feb06f2895e445b4",
+  "mulligan/real-square-d2-r03-eval-b01-baseline-dp-policy-rollouts": "e176944c7d94c0bfbe3532c24ea98b5fc9e6f491",
+  "mulligan/real-square-d2-r03-eval-b01-mulligan-dp-policy-rollouts": "b9dfd9ee75e533ca251dae7b6043d31cdf3e8b55",
+  "mulligan/real-square-d2-r03-eval-b02-mulligan-dp-policy-rollouts": "f96dc5a20c4bef9779bb77e4b1abb6dfc468d28c",
+  "mulligan/real-square-d2-r03-eval-b02-mulligan-idql-policy-rollouts": "3f6e587cf6290544dd1a01e4c9f71843bea68cc4",
+  "mulligan/real-square-d2-r03-eval-b03-mulligan-dp-policy-rollouts": "8b6fb30916293e99068e3828196aff034e3633c3",
+  "mulligan/real-square-d2-r03-eval-b03-mulligan-idql-policy-rollouts": "c0a0e59ef9c6c0e5e01c82328ca45df0445b6420",
+  "mulligan/real-square-d2-r04-eval-b01-mulligan-dp-policy-rollouts": "f919c74c12198d3a2911af79cf2c0aa6af7e98d6",
+  "mulligan/real-square-d2-r04-eval-b01-mulligan-idql-policy-rollouts": "c772b1ebd9fe3177ec8b50c82b4befb21ec0b419",
+  "mulligan/real-square-d2-r05-eval-b02-mulligan-dp-policy-rollouts": "316239180a539571767dd28e3f94a40e4d02d117",
+  "mulligan/real-square-d2-r05-eval-b02-mulligan-idql-policy-rollouts": "a0b885d29915412b60d03db24dc9626141533962",
+  "mulligan/sim-square-broad-c00-teleop-baseline": "839fa3e2f9bd30b0bb76c10500506a4b083b706f",
+  "mulligan/sim-square-broad-c00-teleop-baseline-first100": "9fb6c680731ee334dc4627f4a64ec429988a7d64",
+  "mulligan/sim-square-broad-c00-teleop-sobol": "3eec8b3d64ad8db45efa9e6a0bdf5428983eed1c",
+  "mulligan/sim-square-broad-c00-teleop-sobol-first100": "36ff4365bfeb5d6a4714c39eb302ab3ee034f844",
+  "mulligan/sim-square-broad-c01-auto-bc-n1-shared-policy-rollouts": "5cacb3a5ae504060d678284b43640c4c9e520e98",
+  "mulligan/sim-square-broad-c01-auto-iql-n32-policy-rollouts": "517b3cf35711dbc20e018411d8876aad68b48553",
+  "mulligan/sim-square-broad-c01-baseline-policy-rollouts": "128b43efad335783e2716ac99ab788354a901d93",
+  "mulligan/sim-square-broad-c01-dagger-baseline": "4eef8a948dd6eed46d7ac417aa02426a51cabff0",
+  "mulligan/sim-square-broad-c01-dagger-mulligan": "052668954ba48bd0e9a6508555b08024bbc72c8e",
+  "mulligan/sim-square-broad-c01-dagger-mulligan-no-cf": "aeb201787e0b564a71d304c94097f16533eb43e6",
+  "mulligan/sim-square-broad-c01-dagger-sobol-no-cf": "ae0620a805757ca0ef4c6a32eaa14cae6fd42d3b",
+  "mulligan/sim-square-broad-c01-dagger-sobol-with-cf": "a8dbdc27b3f6793e8b03c705a75838106c2dcdb2",
+  "mulligan/sim-square-broad-c01-sobol-policy-rollouts": "2d2c060149d1bd2c23a021ea5ee812f1e85b345a",
+  "mulligan/sim-square-broad-c02-auto-filtered-bc-n1-policy-rollouts": "0a1bfcd1d74d5a34e173b70dc03a655aecdfcfdd",
+  "mulligan/sim-square-broad-c02-auto-iql-n32-policy-rollouts": "5e306b7dea9abaeb371f8a12bb02a74377189666",
+  "mulligan/sim-square-broad-c02-auto-iql-success-bc-n32-policy-rollouts": "9e5a8066d93b4859e6da7cb4aa2a02d3dc9d915b",
+  "mulligan/sim-square-broad-c02-auto-plain-il-n1-policy-rollouts": "c685687d96a7438380f8de3ba5a6d9ec91986c3c",
+  "mulligan/sim-square-broad-c02-baseline-policy-rollouts": "0bab3f642326d64b337d143c42f1c9ae03f047d0",
+  "mulligan/sim-square-broad-c02-dagger-baseline": "b2761819143fe0d3b253b5d27000b3f2e5ddb682",
+  "mulligan/sim-square-broad-c02-dagger-mulligan": "72f14daa22747c60b934ff9a242412fe411cb124",
+  "mulligan/sim-square-broad-c02-dagger-mulligan-no-cf": "3495e4899541d206517d47c139b9163efacd90a1",
+  "mulligan/sim-square-broad-c02-dagger-sobol-no-cf": "b8ed142e1b5df4a938bb8b1fb88ab6d3e3355e98",
+  "mulligan/sim-square-broad-c02-dagger-sobol-with-cf": "c34ceb9ef5d1118ca54cfef1d9e6aa730cd1869b",
+  "mulligan/sim-square-broad-c02-mulligan-policy-rollouts": "79d16888726a417012f06de51c0a3f82a96de22b",
+  "mulligan/sim-square-broad-c03-auto-filtered-bc-n1-policy-rollouts": "4d7cd1253523b2aa7cffd2394a4768fdb9464520",
+  "mulligan/sim-square-broad-c03-auto-iql-n32-policy-rollouts": "063c64d3bdea4845aac3138b7034637dd984a449",
+  "mulligan/sim-square-broad-c03-auto-iql-success-bc-n32-policy-rollouts": "c1275732b2de0bf929cbc814518d0892d26b8fee",
+  "mulligan/sim-square-broad-c03-auto-plain-il-n1-policy-rollouts": "de810e312865bf10f1b87d56153c1f464c3d7899",
+  "mulligan/sim-square-broad-c03-baseline-policy-rollouts": "94e99d39a6da65d56c06abdb5bca7c3f3a28f253",
+  "mulligan/sim-square-broad-c03-dagger-baseline": "11f3025d25bb5a4600b18f053827988d1fd372dc",
+  "mulligan/sim-square-broad-c03-dagger-mulligan": "abba59082afbc53466d313083318d1ef2c049940",
+  "mulligan/sim-square-broad-c03-dagger-mulligan-no-cf": "2d6625ff02906445eafed3852214a975f150157e",
+  "mulligan/sim-square-broad-c03-mulligan-policy-rollouts": "ca52a8a6b73d200a3c9cc24be7bf3f4cc52f8222",
+  "mulligan/sim-square-narrow-c00-teleop-baseline": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
+  "mulligan/sim-square-narrow-c00-teleop-sobol": "e01d0970ed8522d3c5c210e88a040dc3864a421b",
+  "mulligan/sim-square-narrow-c01-auto-bc-n1-shared-policy-rollouts": "551fc0dfd45c3eb88bd2113720f2c6d0098e6eea",
+  "mulligan/sim-square-narrow-c01-auto-iql-n32-policy-rollouts": "5bb4e65f40f888d5153242da93302939dbdaa066",
+  "mulligan/sim-square-narrow-c01-baseline-policy-rollouts": "28c45548a399f568a96e5ff5ceb1158e0091c189",
+  "mulligan/sim-square-narrow-c01-dagger-baseline": "812814a8e622a6b536cc4a0ae9175da4d1de4cb0",
+  "mulligan/sim-square-narrow-c01-dagger-mulligan": "76143af3be6192a3c69063f99e590c18db379bdc",
+  "mulligan/sim-square-narrow-c01-dagger-mulligan-no-cf": "7aa34f12f3c1db13110ca5edfcb33f6669370e9a",
+  "mulligan/sim-square-narrow-c01-dagger-sobol-no-cf": "27a4a93b4cf30b315f4cea0095840205d98662d9",
+  "mulligan/sim-square-narrow-c01-dagger-sobol-with-cf": "2b07a5c026f1aef5e0710bf96eaa35c6fa92ae1f",
+  "mulligan/sim-square-narrow-c01-sobol-policy-rollouts": "dcdb0d1a7ad234fed48e95209bc55b95f237c48a",
+  "mulligan/sim-square-narrow-c02-auto-filtered-bc-n1-policy-rollouts": "af88e4ecdbeb537d30e6e8e9142e941a664aee46",
+  "mulligan/sim-square-narrow-c02-auto-iql-n32-policy-rollouts": "a4e2f7d8a1f0b3f28da8dab3eaa45c55d07e451d",
+  "mulligan/sim-square-narrow-c02-auto-iql-success-bc-n32-policy-rollouts": "c1f694c917037b64a046f6f6ef1efe4dbabd1e86",
+  "mulligan/sim-square-narrow-c02-auto-plain-il-n1-policy-rollouts": "21251261f211f84946ff52448335de95c7051b75",
+  "mulligan/sim-square-narrow-c02-baseline-policy-rollouts": "40c2e95d2328a4a0173bd1eb452328d3d1705959",
+  "mulligan/sim-square-narrow-c02-dagger-baseline": "9d495e770469112d0055c95e5d57fbfc94227765",
+  "mulligan/sim-square-narrow-c02-dagger-mulligan": "05150e4b67e45b066f2d26085f5b919cbdc769a5",
+  "mulligan/sim-square-narrow-c02-dagger-mulligan-no-cf": "2defd85e29f7d094d4f19287392369b6e9b61ace",
+  "mulligan/sim-square-narrow-c02-mulligan-policy-rollouts": "b22d240b77ee4f5095a35acdf3152d28cbbf03c5",
+  "mulligan/sim-square-narrow-c03-auto-filtered-bc-n1-policy-rollouts": "a0003225998b143411b3ab5499e2246fa15cff95",
+  "mulligan/sim-square-narrow-c03-auto-iql-n32-policy-rollouts": "11283c9863ea9b910edc821ce26e85101af342d4",
+  "mulligan/sim-square-narrow-c03-auto-iql-success-bc-n32-policy-rollouts": "d7fe816316dc990a8b6d11f5745ad0f8c1744dd6",
+  "mulligan/sim-square-narrow-c03-auto-plain-il-n1-policy-rollouts": "297c476740279c9ce28f6e4ab82fde1c17f62084",
+  "mulligan/sim-square-narrow-c03-baseline-policy-rollouts": "bf98081f14d244a6cc33c98ee1364f8b2abce5e0",
+  "mulligan/sim-square-narrow-c03-dagger-baseline": "4fd07ced4a7d65b7be746a465f86af8720246241",
+  "mulligan/sim-square-narrow-c03-dagger-mulligan": "082ddca4c2a1dc42aa00fa9c07123aa5cbd36f59",
+  "mulligan/sim-square-narrow-c03-dagger-mulligan-no-cf": "674d30546afa8877f915b5a36429dee29b7c1e70",
+  "mulligan/sim-square-narrow-c03-mulligan-policy-rollouts": "349185f1522c208a2b262dbc17f9936abae59844"
  },
  "not_released": [
   {
@@ -7190,7 +7190,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r00-baseline-divl",
-   "revision": "fd60980f8dcb158fc0807a208f6119610174d74a",
+   "revision": "4f2417b8a16dd65b5712f905316420db483833c4",
    "tag": "release-1",
    "extra_files": [
     {
@@ -7201,7 +7201,7 @@
     {
      "path": "release.json",
      "size": 13930,
-     "sha256": "7f5c1af9fc1a816aa1d5d67e9ecdb7f9e20db1bc9b91a0e83ff54b5bbd9d467f"
+     "sha256": "9b3509ef6f2517788a43548572784d16b63558d90f8a9fba9b1770e43ea81793"
     }
    ],
    "checkpoints": [
@@ -7218,8 +7218,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 964,
-       "sha256": "399e967a2c853b32c3a5428c3732cd31a45eeff7c77acd4c003fb81c5636a6d8"
+       "size": 838,
+       "sha256": "5f1fbcaae40c196de0a9c8f292fb9e7dbc8e5af8e3291db32554463b2bb4202c"
       },
       {
        "path": "seed-1/metadata.json",
@@ -7272,8 +7272,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 964,
-       "sha256": "8f135d16f4d0b8f8968ffa5a95402eb8d50dbdbb24ee8b734952732fdea665ca"
+       "size": 838,
+       "sha256": "3cd2b0656d8141c38f742e1f3db9ba6860a47384a58efa647940af0fb9c2e676"
       },
       {
        "path": "seed-2/metadata.json",
@@ -7326,8 +7326,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 964,
-       "sha256": "7fbf18f89f10e886006711d02a93cb1b45603aa2e336863e8f9b758f3f28137a"
+       "size": 838,
+       "sha256": "1f8b6621acbdf7529216a5f1e6d40164c620dd57c4779186ace3205ddb9eb25c"
       },
       {
        "path": "seed-3/metadata.json",
@@ -7380,8 +7380,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 964,
-       "sha256": "382d76d878d5dc0b5495d490a682e30f89ba38bc786e005bfab45dbcadd0b91b"
+       "size": 838,
+       "sha256": "2a046883c544762c8558b38869219b17e27df76ec2e415a505c321bddf12094b"
       },
       {
        "path": "seed-4/metadata.json",
@@ -7434,8 +7434,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 964,
-       "sha256": "f88d787a9e9f8dc13783421f63b090ac0de752de660e3f21150d05ee6501e772"
+       "size": 838,
+       "sha256": "5fb38437d2984726deba15b3ead46075d3d39ba93c2156680b9c93377ba67bae"
       },
       {
        "path": "seed-5/metadata.json",
@@ -7479,7 +7479,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r00-baseline-first100-divl",
-   "revision": "eb1b80ad667a5ae0cfb4f073257c04095ed74e83",
+   "revision": "727e16e5c765a094396bc5ca4150abce8f0ec7d4",
    "tag": "release-1",
    "extra_files": [
     {
@@ -7490,7 +7490,7 @@
     {
      "path": "release.json",
      "size": 14164,
-     "sha256": "c6d9fbf7390dbecef8308794d11a3ebaa090e82e5c3de4d28b702193ee5bf8df"
+     "sha256": "159a858e5beaaa639757c4a53235722b014455a9f07b459ba1c7b390879c7f9f"
     }
    ],
    "checkpoints": [
@@ -7507,8 +7507,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 991,
-       "sha256": "38edb51275d1f4390008f2c8ef26cb8e39a0f2f1afbd401ded54eb5369292188"
+       "size": 856,
+       "sha256": "be3a029694601c67fe226b57dce1d9143c3a36101061ec54a2f47fc10aa7d980"
       },
       {
        "path": "seed-1/metadata.json",
@@ -7561,8 +7561,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 991,
-       "sha256": "ec4b648dfc0882e75d5cef6d4933d5dc3ddad85d3918f11fa25689fa20c9453c"
+       "size": 856,
+       "sha256": "aa484bc5b3c45b1291bb4b20947c7b354b91e015c76211c0c8ccf3b3984c742f"
       },
       {
        "path": "seed-2/metadata.json",
@@ -7615,8 +7615,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 991,
-       "sha256": "f169d8e9c21b6a5a6eb03d5aa93ec82259f0b3aa0b1a55aef2b635134fb24c41"
+       "size": 856,
+       "sha256": "9e9e54edc46805e3c055402011f45b2848fbef44ed51b14408eecf47656a1678"
       },
       {
        "path": "seed-3/metadata.json",
@@ -7669,8 +7669,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 991,
-       "sha256": "ed740a11e7ccb6229a12d1dd816388c0f288a5b3d590d04f82bc301ec15519ee"
+       "size": 856,
+       "sha256": "60a6a76e42785d16731f1010e4c9555790d67e3466a1be5ff1923b7524c7fe83"
       },
       {
        "path": "seed-4/metadata.json",
@@ -7723,8 +7723,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 991,
-       "sha256": "3a3a847e506e6860350610846903dba89f25a6afafdfdfb283e548feda4a7bf0"
+       "size": 856,
+       "sha256": "004b2979ddb2fa9bebcc982a8abe14433bec595866fb85eb8bf6c9d244d326f8"
       },
       {
        "path": "seed-5/metadata.json",
@@ -8236,7 +8236,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r00-sobol-divl",
-   "revision": "66a2b6107f8a02d703fb3aff7f08a3fa3f660913",
+   "revision": "09e70f28d73e63ea1bcfe22321a6ed49d1814cb8",
    "tag": "release-1",
    "extra_files": [
     {
@@ -8247,7 +8247,7 @@
     {
      "path": "release.json",
      "size": 13737,
-     "sha256": "2a0538d934146696c42f0d5789427a12aa0e77a250fd394eb45a4477a5353a12"
+     "sha256": "184171d7c42000be095a3362a370c808f0fb52c5544329f7c776ccda1af7723d"
     }
    ],
    "checkpoints": [
@@ -8264,8 +8264,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 955,
-       "sha256": "c2d3a308e9116d73ab7378b9639a18fcfd5fcb5293e11eaffe6ec24aee2a71f6"
+       "size": 832,
+       "sha256": "553f521926fb042d0ac270aebd0cfa3c09ffefba6b433d1b8493acce9a14d568"
       },
       {
        "path": "seed-1/metadata.json",
@@ -8318,8 +8318,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 955,
-       "sha256": "58d6aa60acab13c8b33589d1c317cc34c3278f8afccc2aa0f1649b50eb8a544e"
+       "size": 832,
+       "sha256": "7c21923a53e17c7de33be7f80f02e2a1cdfe174c9e3d330b213a3a119a71827a"
       },
       {
        "path": "seed-2/metadata.json",
@@ -8372,8 +8372,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 955,
-       "sha256": "65ab219440354559cb3193b27bfb4e2002f45d4d2113772b52596ae77e3c17d2"
+       "size": 832,
+       "sha256": "d2c7aacb9c0d509a2527818fa80a049cb60fc702ba6e672219487bf82b1d0669"
       },
       {
        "path": "seed-3/metadata.json",
@@ -8426,8 +8426,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 955,
-       "sha256": "f02fd1f35b5f6615fd24c397f058cd10b561d055241f68fc3ccc23f6e8ca52e8"
+       "size": 832,
+       "sha256": "28e892b0518e9ed086147e45f53168aee3b782694fe01f1892d2b20f7df5f2d8"
       },
       {
        "path": "seed-4/metadata.json",
@@ -8480,8 +8480,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 955,
-       "sha256": "2845b40d83b1edd9c1350a5566fd137e1b95f42340384a5831fc7f2ac48e83d0"
+       "size": 832,
+       "sha256": "e25df07a0f6218337c03b5551590ee15ea8c0767c142307620cde5709a32d14b"
       },
       {
        "path": "seed-5/metadata.json",
@@ -8525,7 +8525,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r00-sobol-first100-divl",
-   "revision": "b96e47dc02b6a0787b1930bd4ac12e22d3defaf4",
+   "revision": "9340e59cef8d438bed4f20a1b8800f7aef1023d6",
    "tag": "release-1",
    "extra_files": [
     {
@@ -8536,7 +8536,7 @@
     {
      "path": "release.json",
      "size": 13971,
-     "sha256": "4048618ff05afb7bd84e69e642052aa74c695bfb630dd3bfee2110fe1f813a2b"
+     "sha256": "bb282254898142a2215aaf4d1f6bd110f73f1c4107594e90fa4e9ff3134ac72d"
     }
    ],
    "checkpoints": [
@@ -8553,8 +8553,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 982,
-       "sha256": "c7236d999ed45ae12bd331ed7a2f2d20edf5e7efeefcc67a802875904d53e515"
+       "size": 850,
+       "sha256": "cdfabd0b962908dd2d136fcfcb7719b1c8c6a497ce45f8930a3353221175f750"
       },
       {
        "path": "seed-1/metadata.json",
@@ -8607,8 +8607,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 982,
-       "sha256": "827db45ea8e2eebc168ca6ab0ed8c93c7adeeb7b2309b2414921b7f681644b1e"
+       "size": 850,
+       "sha256": "491bac9abfbd0f7844d0aebe114ddf8070f57a3165e7f94f8601a987f3afed97"
       },
       {
        "path": "seed-2/metadata.json",
@@ -8661,8 +8661,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 982,
-       "sha256": "3d9b90e91e86698aec2afd7e678c407e28fe62b45e08ef9ab2aaff08fd947550"
+       "size": 850,
+       "sha256": "a999c6e8e160b211eb0e5f0c07c7e05c37f644412e929a1f17d56f93295b545c"
       },
       {
        "path": "seed-3/metadata.json",
@@ -8715,8 +8715,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 982,
-       "sha256": "ce4f5f03907eb2cdf4fd9e6dcb9cd963fc295459713b88bb8486fa73e0da41b0"
+       "size": 850,
+       "sha256": "ef5ca17d3376cc8e033de1676af8869ebea100115106b75facfe5d7e4237caa9"
       },
       {
        "path": "seed-4/metadata.json",
@@ -8769,8 +8769,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 982,
-       "sha256": "d38f32b910a30e1b4bf44255932cb939fba81f60881e248df36f25d96ca2e4d2"
+       "size": 850,
+       "sha256": "71ce56c7678c2d5af17906d78ca50150b9fb63ff09654e8b6c9cd46512fa537f"
       },
       {
        "path": "seed-5/metadata.json",
@@ -9491,7 +9491,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r01-auto-iql-n32-divl",
-   "revision": "76804a7336ac72a0230fd8ad5d9b7f0ba8cfd400",
+   "revision": "ac760f11fa64b329eb008a774931f1679b2ff6ac",
    "tag": "release-1",
    "extra_files": [
     {
@@ -9501,8 +9501,8 @@
     },
     {
      "path": "release.json",
-     "size": 14214,
-     "sha256": "c306a95e561844cdb5b17b354d05ffa773480c3f00fd33923663db8bdcda9a4c"
+     "size": 14204,
+     "sha256": "6acf9aefd56bdd82dbb1f3362ba6df11b5847abc48b6c48e5bec88dd4f6bebf2"
     }
    ],
    "checkpoints": [
@@ -9519,8 +9519,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1144,
-       "sha256": "18426981f4e0d0baab17806110cefe92c7f1f93c5020c7ddee87d8987a99b8b0"
+       "size": 908,
+       "sha256": "398f010d03fdeefafa2cd4b4ae1c11c897024f0f570eefa54f3fb4079fabf1ca"
       },
       {
        "path": "seed-1/metadata.json",
@@ -9574,8 +9574,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1144,
-       "sha256": "4278552ae50fdfd8871db57da46219428fb42312e7bb18e378db3546c48a8036"
+       "size": 908,
+       "sha256": "2ef3ba9007fa1087d435a4e2a37817de19d2955e19f0e7c971272775ca055b3c"
       },
       {
        "path": "seed-2/metadata.json",
@@ -9629,8 +9629,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1144,
-       "sha256": "fef40f65c7d7b5af509ca9f2438ce1f7cd0bcd0c24879b3442753948360ae822"
+       "size": 908,
+       "sha256": "6c7e676d19ee0bbf0f158af8c44bc2458be648dd0de1c06a9906b5c031b16456"
       },
       {
        "path": "seed-3/metadata.json",
@@ -9684,8 +9684,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1144,
-       "sha256": "a27de5cd89892e847f1e4d9169f6025a54f74a8946c96fd1089b5651eda22861"
+       "size": 908,
+       "sha256": "9bac1bb28418fe5bbe5fafd79c5deb78fb0699ae22a7330de84cbb438b34e327"
       },
       {
        "path": "seed-4/metadata.json",
@@ -9739,8 +9739,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1144,
-       "sha256": "117f2e27fe48f7ca7d90b0ca059a1f6afc593128805e223fd7b36b92c17a4f7b"
+       "size": 908,
+       "sha256": "c9a8e5cab18bde8d60f94c38dd5c85cfbfec4e2e5e8335b047d00f72fe7e95d5"
       },
       {
        "path": "seed-5/metadata.json",
@@ -10029,7 +10029,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r01-auto-iql-success-bc-n32-divl",
-   "revision": "d9490727a4b759c613f4a85e0083df2a5d89c7ad",
+   "revision": "871d84b001a73bf28851fd7e9f83d11d93df63e2",
    "tag": "release-1",
    "extra_files": [
     {
@@ -10039,8 +10039,8 @@
     },
     {
      "path": "release.json",
-     "size": 14720,
-     "sha256": "5f4c8d46f507a62c0a3eccb684561703bad6309525b28d62a0fccc7aac450ad5"
+     "size": 14710,
+     "sha256": "686a09b28c9faad499c872dd494add7ab4d3d23eaa20aec0268a64f74dc926b5"
     }
    ],
    "checkpoints": [
@@ -10057,8 +10057,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1155,
-       "sha256": "ee42cb69f23278e6e1d83aa4a240ca23147e46ef547629d98cf74e36377316d0"
+       "size": 919,
+       "sha256": "27edd46c427cff9d38a431b3320b0b57961d16530383269e9aa00773f3b51e5d"
       },
       {
        "path": "seed-1/metadata.json",
@@ -10112,8 +10112,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1155,
-       "sha256": "b83bc8fed3c1146f72e35f09c84ce40e954875104d553b127817aeac89692fd5"
+       "size": 919,
+       "sha256": "f4fec695c2d6bab00d05e5d5e8bafd9172fcc9100d61721a2fd5184d8263c5cd"
       },
       {
        "path": "seed-2/metadata.json",
@@ -10167,8 +10167,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1155,
-       "sha256": "0e5326cc889d665e7c05e751e82e4b181013be9ebba45386a6bd0df04023a8ab"
+       "size": 919,
+       "sha256": "f054db00fd97beb24cd00b5caf94ddb16abc5ac8f427bd2072316a946dd2bf96"
       },
       {
        "path": "seed-3/metadata.json",
@@ -10222,8 +10222,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1155,
-       "sha256": "3cd275c5683621a90aff6653f5a87761d26073b3702d114cddc729a4ed992203"
+       "size": 919,
+       "sha256": "f7dd24210dd012d13c95a537dd091e0b2338dae28496e13b9c4e1ddab93a6473"
       },
       {
        "path": "seed-4/metadata.json",
@@ -10277,8 +10277,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1155,
-       "sha256": "ef9a042bb9ee185d353df19e80974cf957e14947ddb2f1217a80ffe76040a5a4"
+       "size": 919,
+       "sha256": "ab068b42a9df9ff709b9cddaca1aaaf1248e624e323956c0ae432108a9c2d90a"
       },
       {
        "path": "seed-5/metadata.json",
@@ -10811,7 +10811,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r01-baseline-divl",
-   "revision": "c59ec5b7f7e8f40272486e5bbd61ac7f1e47eff8",
+   "revision": "bc1b4e8972d993109a585978e640ffe21b4ea00c",
    "tag": "release-1",
    "extra_files": [
     {
@@ -10821,8 +10821,8 @@
     },
     {
      "path": "release.json",
-     "size": 14640,
-     "sha256": "7e5678151c2e50e19307911d35a473faf7b4ac5c8d2b1abbba5f0e9283abb54f"
+     "size": 14630,
+     "sha256": "bdedc07a843112ca19c427a834b373bbea082c8f92cc969f02b66b2fffe9e973"
     }
    ],
    "checkpoints": [
@@ -10839,8 +10839,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1282,
-       "sha256": "17674da2fbdfce0e216f657c13084b8c9f192636c007ca2f7f99367eec0c7a5f"
+       "size": 953,
+       "sha256": "7d852654844f91cd9c66fa47c8aabc731ec252d5ad259952c1875e00c63ecc40"
       },
       {
        "path": "seed-1/metadata.json",
@@ -10895,8 +10895,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1282,
-       "sha256": "25121855c46cbcb5d541ec9bfff7931c7307fdf8bf8d3c313cc00c70983da70a"
+       "size": 953,
+       "sha256": "55a422d71fc2ce6e6b3066f0103abdcf3072b89c4c0d5837ea81b4abe4bf1297"
       },
       {
        "path": "seed-2/metadata.json",
@@ -10951,8 +10951,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1282,
-       "sha256": "01eee288ffd4d1b187078032f37be1e5106ac53db548184a46e405773bc3cae9"
+       "size": 953,
+       "sha256": "b7b16b8dcd033a23be67b2733b53685e0b2a2b0184ae0a9c5ca2effd3703fe99"
       },
       {
        "path": "seed-3/metadata.json",
@@ -11007,8 +11007,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1282,
-       "sha256": "706a7c80c33376fe2dc95eeed23b54b7ab2c36a2bf87f1d43dbc54abcfc50ae0"
+       "size": 953,
+       "sha256": "f30d6cb961dcb54350df61687055049af6e7a034b453bad36d2c707bdce99d92"
       },
       {
        "path": "seed-4/metadata.json",
@@ -11063,8 +11063,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1282,
-       "sha256": "3be00549526dabe141af28534b8134b6715c2d3fbe01850312e0c842c629a2e8"
+       "size": 953,
+       "sha256": "014bd27aa3020dc830fcdc24bc752bae1e99229861e4b7778b69e4a85249fcc0"
       },
       {
        "path": "seed-5/metadata.json",
@@ -11359,7 +11359,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r01-baseline-straddled-auto-success-divl",
-   "revision": "9e9d1405604d2367f6adfb9df8f770f5d84c6d94",
+   "revision": "33c4c5f6bd893aa11604736e5a75d2f7a845a6bf",
    "tag": "release-1",
    "extra_files": [
     {
@@ -11369,8 +11369,8 @@
     },
     {
      "path": "release.json",
-     "size": 15423,
-     "sha256": "f57ed3529ef70bdbf6c3c52dd9103f18d180195ccb7bd1d02d3bfb312d5ef68e"
+     "size": 15413,
+     "sha256": "d7f835675f0a6eaea2d08db095e2f548003f20add6254673fd0b3aabfbc7039d"
     }
    ],
    "checkpoints": [
@@ -11387,8 +11387,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1305,
-       "sha256": "a63d255f15b6e6f4a3d6216b9b9580ac54f8e17003d5f05777dc1faf2ca9517e"
+       "size": 976,
+       "sha256": "dd5d56012753bc73d68b2d1a797772c3bf43ae4ccbc54555c51a62b9a38afc4c"
       },
       {
        "path": "seed-1/metadata.json",
@@ -11443,8 +11443,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1305,
-       "sha256": "b6ac5be6d893fb8dc89f0b32031eafe8b3e295e5361a31c5e36c09d366496317"
+       "size": 976,
+       "sha256": "e32bcc9d04c9b67c7efe8ad1abf79b4f0661350a1b316b06061caa29f249d4cd"
       },
       {
        "path": "seed-2/metadata.json",
@@ -11499,8 +11499,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1305,
-       "sha256": "3cbe1bed683cdd31fd93e5800fbd6ea6f1aa9cd486754abdc58936ad9fc72192"
+       "size": 976,
+       "sha256": "70d860067abe719cbcbb126ab022d34ff424e42baaca41fbad57f87c32fb1a2f"
       },
       {
        "path": "seed-3/metadata.json",
@@ -11555,8 +11555,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1305,
-       "sha256": "58b94ca8d4068a1ebf362ff1e7a3f3343ba8607e4abcf91c54fd840c7abd84da"
+       "size": 976,
+       "sha256": "9906977309a4d9f487f2306beaf514874747bd619e7ad5d5f7c0501e8fffe0fd"
       },
       {
        "path": "seed-4/metadata.json",
@@ -11611,8 +11611,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1305,
-       "sha256": "2ec008b86371c1bb18bec4fe9d039c4ef10e7b8b3bcb4154457ac8466a07f3a5"
+       "size": 976,
+       "sha256": "bb782807f9ea6254b530cccbfa50a39e6824886f31f8fcc0c7f12767965c8516"
       },
       {
        "path": "seed-5/metadata.json",
@@ -11862,7 +11862,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r01-mulligan-divl",
-   "revision": "57beeb80977bdd4f2cbc2543806c32147d77b40a",
+   "revision": "e2581a6cbe57a0ed547e87ab0216ae7f7d374d29",
    "tag": "release-1",
    "extra_files": [
     {
@@ -11872,8 +11872,8 @@
     },
     {
      "path": "release.json",
-     "size": 14580,
-     "sha256": "dc08825e5cc69792aba133dcb192771356a4f9dac7c3201b539bd91731476f4c"
+     "size": 14570,
+     "sha256": "14d451c4aeae5f5750b33578dd29c5c37e2237eb8bc32984a735f8beec428cbb"
     }
    ],
    "checkpoints": [
@@ -11890,8 +11890,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1270,
-       "sha256": "569f2f94da870104b72bb7eb74b65eb29be71f1d2ccf52022199d9017b75372b"
+       "size": 947,
+       "sha256": "905ea67dc8662087cffec722d1162ed1a910032cdf7291f604b28fda4cbe0cad"
       },
       {
        "path": "seed-1/metadata.json",
@@ -11946,8 +11946,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1270,
-       "sha256": "049356f055e89529f2ecfe38c66692115a2336b60bd8d952891a7476a438a336"
+       "size": 947,
+       "sha256": "957c4d2af37feb9545ba5af36b718b14428adb95335e07f871839e8d79ac1198"
       },
       {
        "path": "seed-2/metadata.json",
@@ -12002,8 +12002,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1270,
-       "sha256": "dd2c78b333157eb6fcd3b7787d8ace2c677f24bfdc61b3a0609ef92e38255818"
+       "size": 947,
+       "sha256": "38cb2a17ce2e40134d0ebd6c76c3a3d6d978c0c6f28ef88b96adea3f79d07741"
       },
       {
        "path": "seed-3/metadata.json",
@@ -12058,8 +12058,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1270,
-       "sha256": "c7e280ee3231502e8b36147d2fa854d1ad10c7f28a688cba12e46d478be3fad7"
+       "size": 947,
+       "sha256": "60ce74c5794f2493d1c94db2d4cae7be76113878b68a5c01e8ecb618d362093e"
       },
       {
        "path": "seed-4/metadata.json",
@@ -12114,8 +12114,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1270,
-       "sha256": "b805559c872760709cb4de5e9b3ff43dfcc5728266950711f9fdff453fddaacc"
+       "size": 947,
+       "sha256": "f5a648149483fc2afc62fec0c93f484eb7ed4d208a87d8ce02c3af964d6f058d"
       },
       {
        "path": "seed-5/metadata.json",
@@ -12410,7 +12410,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r01-mulligan-no-cf-divl",
-   "revision": "7148a7e4d10b2c905f85641b1468a6c64ddf9fdc",
+   "revision": "fe17e3329eaf6d7396d140dd78c5ba733ab408f0",
    "tag": "release-1",
    "extra_files": [
     {
@@ -12420,8 +12420,8 @@
     },
     {
      "path": "release.json",
-     "size": 14626,
-     "sha256": "b1d2c0e07ede64e24622fb5a3c12dad6dff608cca4b8702879959d8ff7fba9ff"
+     "size": 14616,
+     "sha256": "fba5d4024d2ce7172c1b2a9ff896eb264c704f5708f392509a7029460cc072c8"
     }
    ],
    "checkpoints": [
@@ -12438,8 +12438,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1288,
-       "sha256": "e0d71efd29d9ec3df8fb3e1a53782aac1ecbb8bf0079b6cc8a704ee165847cbf"
+       "size": 959,
+       "sha256": "c4b733b7f990430dbe025c0b0c7778432ddf7e65beaae5aacb96f6f1a34061f4"
       },
       {
        "path": "seed-1/metadata.json",
@@ -12494,8 +12494,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1288,
-       "sha256": "cc4a4d86f868cc4f61a45f380f2842a2d2b14850328b88f884494b8872622844"
+       "size": 959,
+       "sha256": "2023b5026a0c150b4ff5af165fd426977ab0a36f4007825ac2afb18aca4fca63"
       },
       {
        "path": "seed-2/metadata.json",
@@ -12550,8 +12550,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1288,
-       "sha256": "6d76044aef859709f89a66201f228753afc164a339f23018abdcf27cf78d755c"
+       "size": 959,
+       "sha256": "c26e54ff4dbc1f7dec3c70ce5cae2e50cf10017f0c6c3b5195de2e8c724b960c"
       },
       {
        "path": "seed-3/metadata.json",
@@ -12606,8 +12606,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1288,
-       "sha256": "278f79e76108de8c48c0ac9b8e375a6d29567e9f3ebf58605089fc4a08d783c6"
+       "size": 959,
+       "sha256": "303e16c988310aa26418bdab317faae6a158975bc15480b4f8b1cdb047ae9bcd"
       },
       {
        "path": "seed-4/metadata.json",
@@ -12662,8 +12662,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1288,
-       "sha256": "ed7edeb4b5400f8498a7f6c312074f0f18cf3715a797fc0597a44c2c3dc96369"
+       "size": 959,
+       "sha256": "acf2efb37329516bfaeeb8a5960e405e5377fa7c77f23d6d082c3d7064441fd4"
       },
       {
        "path": "seed-5/metadata.json",
@@ -12913,7 +12913,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r01-sobol-no-cf-divl",
-   "revision": "a7a5f3d3b450787036cd0c6d1eeb50dd53775ebb",
+   "revision": "f8e234cc73250c61dd3efca955322f2ab5373933",
    "tag": "release-1",
    "extra_files": [
     {
@@ -12923,8 +12923,8 @@
     },
     {
      "path": "release.json",
-     "size": 14473,
-     "sha256": "44a18906c19464df28eb89a97186f03475681bc566004fe92eab6b32e21660cf"
+     "size": 14463,
+     "sha256": "ce12d9df9fcefe515e598a16fcd74cb8502890e058383f6f2bd2a65217187bd3"
     }
    ],
    "checkpoints": [
@@ -12941,8 +12941,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1279,
-       "sha256": "0fd8007881a5b51e7ac9944ad1dfd67260705cde3fdc6c58224d3251aee9be61"
+       "size": 953,
+       "sha256": "bda8775a59acf8b9e61afc2124c42239a670abaf12b193044d5534f82f1e6b32"
       },
       {
        "path": "seed-1/metadata.json",
@@ -12997,8 +12997,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1279,
-       "sha256": "9fa8c349c0e6a934a1e711a269e4345dc6cc4580b71c0912116854c9aedf33f9"
+       "size": 953,
+       "sha256": "b2363a5683fc246cd7864d129e86a851bdbf8f8e173791d8844bbfa1258ee272"
       },
       {
        "path": "seed-2/metadata.json",
@@ -13053,8 +13053,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1279,
-       "sha256": "1c624894b0c6ca743a50f869f7dccbd3f97b86f897ecb73d6851111f497b9604"
+       "size": 953,
+       "sha256": "f90b2ce9d82f8177dcdaecea34e97a57c49a04faa135f5c2bfe5ef7242d8d449"
       },
       {
        "path": "seed-3/metadata.json",
@@ -13109,8 +13109,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1279,
-       "sha256": "5b1f181f5bcf4f7ecd967cd909bda9f7460c57fd0e3740da3fb229ed0860b111"
+       "size": 953,
+       "sha256": "9ad6841d12f4abe53dd9d365fdffcf271fb651e1c94a8a4d778c9383c3f6aa12"
       },
       {
        "path": "seed-4/metadata.json",
@@ -13165,8 +13165,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1279,
-       "sha256": "4b0c2754f8de8259421249b4319661fda91f0329fd766072a2460d1ad46fd222"
+       "size": 953,
+       "sha256": "429d28283a2be94c31f2830e407ecfd6ac5921f76ae8ffb26a30f87e7c9f21d4"
       },
       {
        "path": "seed-5/metadata.json",
@@ -13416,7 +13416,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r01-sobol-with-cf-divl",
-   "revision": "ddc1ed63af225cc0a26a847b93f377d3a5421225",
+   "revision": "818e604303166af84a4ddaf162ec02dd958384d7",
    "tag": "release-1",
    "extra_files": [
     {
@@ -13426,8 +13426,8 @@
     },
     {
      "path": "release.json",
-     "size": 14575,
-     "sha256": "19f09003e4b8d3a255da4d3f711655c6e3192f93f2acc79afec4c4e782eadffa"
+     "size": 14565,
+     "sha256": "8c4015317aba6d351d42c4236a1fec978c2bea460bc3406b7d4653a7fcb92d18"
     }
    ],
    "checkpoints": [
@@ -13444,8 +13444,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1285,
-       "sha256": "3df31e308837d2062fdbe6e478b7c06c5379297cca1bb5f3931a5424c34e8e7e"
+       "size": 957,
+       "sha256": "ed3c87860780001bc2a6e8827d7dc360f0b3d2fe92193a00605b8467c5c7dd2b"
       },
       {
        "path": "seed-1/metadata.json",
@@ -13500,8 +13500,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1285,
-       "sha256": "589a69e8a7c8a5ffcfbde13ccbafe8575b65594ed2d866f5b4ccd9ddf388e886"
+       "size": 957,
+       "sha256": "03180b1a591ab7266871919f249d96e684c966edfd0ff0b00efc839c6cd0d3e4"
       },
       {
        "path": "seed-2/metadata.json",
@@ -13556,8 +13556,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1285,
-       "sha256": "5ede8049d8bd1172fb469196c3137f33a0bfd14c2dec3acb88533e27ddf56e2e"
+       "size": 957,
+       "sha256": "2e2dea8eedf3379bf04785bae1c7e3b308cde90d4833da0e725cb96ba03ca4a4"
       },
       {
        "path": "seed-3/metadata.json",
@@ -13612,8 +13612,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1285,
-       "sha256": "6e717219f073d367bdd6492f57933da8c036d270149e19e0f36aeada9850f6fc"
+       "size": 957,
+       "sha256": "f9079826a60ad14776b8452680bf040e05f014b94f7aaf9425de9e6d5f651c6d"
       },
       {
        "path": "seed-4/metadata.json",
@@ -13668,8 +13668,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1285,
-       "sha256": "238658b748e26dee91f3d99ad56149295a43b0ca455dad0e9977d93b8c4a858d"
+       "size": 957,
+       "sha256": "9b6a5b75ea69034043b9a98e42bdd4bcf7e57fa839a986326b21982392158a4c"
       },
       {
        "path": "seed-5/metadata.json",
@@ -14168,7 +14168,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r02-auto-iql-n32-divl",
-   "revision": "50f1723ed2b10fa97b7226adf94f4fe8eb90b619",
+   "revision": "9189791fb9100524bac7b243f10a251fee73b16d",
    "tag": "release-1",
    "extra_files": [
     {
@@ -14178,8 +14178,8 @@
     },
     {
      "path": "release.json",
-     "size": 14564,
-     "sha256": "fb21f9930421114582aecb29a9d33216b1a6f9488c571ec223a5109a29fbc740"
+     "size": 14554,
+     "sha256": "1760910a25670e0472e52f5bc425836635b403fe688a44cd6d809348d0c201ad"
     }
    ],
    "checkpoints": [
@@ -14196,8 +14196,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1320,
-       "sha256": "d3e8b81d85a9853b909f6b5cb6ce612cb04273ed9f5f335b6f18ac9b93d2d1ac"
+       "size": 974,
+       "sha256": "3c8c91362de287839a4c44c1a054135f2a0ec59b606cbc5876093837cc50b556"
       },
       {
        "path": "seed-1/metadata.json",
@@ -14252,8 +14252,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1320,
-       "sha256": "a4363b5be32af2c10d6ec5091f78a2ed4ba165e86c8c1c78d7cd345163570868"
+       "size": 974,
+       "sha256": "abe7ae04103857eeb2cb7786e989dc71ca697a9cd1620878b167895e6b3cf815"
       },
       {
        "path": "seed-2/metadata.json",
@@ -14308,8 +14308,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1320,
-       "sha256": "8d91b01fce4db3fed76bfb1a762bd65c4b1e004d6f0606d72f56fad66856413a"
+       "size": 974,
+       "sha256": "a829d3cd924e72fe019cfe643f876273879066c32f957fe1746b9579f70551a7"
       },
       {
        "path": "seed-3/metadata.json",
@@ -14364,8 +14364,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1320,
-       "sha256": "c79fb2b47e032cd91d8d33b0ad58f4b846b64722c61381d3894a1e1c122dc3c3"
+       "size": 974,
+       "sha256": "097e07226054c85bdc7da635c164f0c491f5f5e07a3d823459661786f7f92d37"
       },
       {
        "path": "seed-4/metadata.json",
@@ -14420,8 +14420,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1320,
-       "sha256": "b5084175dd4e62a6b5223ea69de3cb54883aa661c95354a173d2cb2a7e1176cd"
+       "size": 974,
+       "sha256": "7f444b255321973470ccd288be621be27b7065fcb4d406efc9eecf0a837fa142"
       },
       {
        "path": "seed-5/metadata.json",
@@ -14716,7 +14716,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r02-auto-iql-success-bc-n32-divl",
-   "revision": "25eef3c5a5ab1ca755b964cf76c9cc65f0bf424a",
+   "revision": "2f82f7b16b8fea7e75dced5646ff07a198415db9",
    "tag": "release-1",
    "extra_files": [
     {
@@ -14726,8 +14726,8 @@
     },
     {
      "path": "release.json",
-     "size": 15125,
-     "sha256": "6a04db946adf0fcfb134d2e17298b0de601e7ed4cacbb8d4cf3575458776f706"
+     "size": 15115,
+     "sha256": "cc1bb1d861bd4b4d735ff55f2fd33a16dc59785d24a371f94e4e57e6b5b6edaa"
     }
    ],
    "checkpoints": [
@@ -14744,8 +14744,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1353,
-       "sha256": "f448d6573fff086cbe604b8242545d48efdf06a186fddbcfd93cc98b29d3b5ea"
+       "size": 996,
+       "sha256": "cc3352b758535b4b43d6b71d6e52e20550c11b1912b79a36c260877d31e5be1c"
       },
       {
        "path": "seed-1/metadata.json",
@@ -14800,8 +14800,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1353,
-       "sha256": "afe3f219fca063aecb11f77f3526550f02f22f34dd67a8e4b1a44503ed52d744"
+       "size": 996,
+       "sha256": "adf6949ed259616400ab07cb7cbbca399ae6adbe603c7b0a3bbadbba589a5c80"
       },
       {
        "path": "seed-2/metadata.json",
@@ -14856,8 +14856,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1353,
-       "sha256": "8581408123a11bf4fefc0acb365dcdce723e70376064f07c2a046c50362dcbae"
+       "size": 996,
+       "sha256": "641157005e70773ffb3abcbaf1f7b584d1d6d8172721b547971bd569e50c5c58"
       },
       {
        "path": "seed-3/metadata.json",
@@ -14912,8 +14912,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1353,
-       "sha256": "11a5a2df9443b3f0cee32f9f5858789f83fdd6849fbca2456d374be631edf08e"
+       "size": 996,
+       "sha256": "776100a6d13f4bc1b72bf2ee5939be1301f551a392c61bf5404bdf53178daa42"
       },
       {
        "path": "seed-4/metadata.json",
@@ -14968,8 +14968,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1353,
-       "sha256": "8f15274fc49b53a7d5864f1c9197df6dc643cf36f1759c1b7168e409181bce38"
+       "size": 996,
+       "sha256": "c6fc7d2fc3668d12547de1ef18ec2a31b1f2746f3da0b0ad29889e6ee92526c4"
       },
       {
        "path": "seed-5/metadata.json",
@@ -15513,7 +15513,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r02-baseline-divl",
-   "revision": "2422e5c7025c1eab3091fae36fcde41661e48494",
+   "revision": "69551e3aaacee583ff383de3314656fad967eb22",
    "tag": "release-1",
    "extra_files": [
     {
@@ -15524,7 +15524,7 @@
     {
      "path": "release.json",
      "size": 15255,
-     "sha256": "0301aa3fa63430df86a276dc27c9861c79d8034c483da0ee5732e4620ce51de8"
+     "sha256": "5126e13a90d939dc456f0150aa071da5adc98637aa6e66b4f4b5787e6b4f10b6"
     }
    ],
    "checkpoints": [
@@ -15541,8 +15541,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1600,
-       "sha256": "0b04a5592dd63bc75ecde811ef851952e2a01deb23584394a3cc3622a339bdd2"
+       "size": 1068,
+       "sha256": "a8cc7cd5ec080b76b61beb09419c1f15023988ebd8bc3383e34a6a9f1105e5a0"
       },
       {
        "path": "seed-1/metadata.json",
@@ -15599,8 +15599,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1600,
-       "sha256": "a39822dece5d6c16b17e0cbc577e37c1bfba748d35577ce64fb1e350263fad46"
+       "size": 1068,
+       "sha256": "797dd986ebaaad85e0742f7165ca4da63d593cc41f15af5eca2b6cddf311e184"
       },
       {
        "path": "seed-2/metadata.json",
@@ -15657,8 +15657,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1600,
-       "sha256": "2cbd57de22db150c6638100b701a23eddf00f61603ccf6415fc742ca0b2d9cb6"
+       "size": 1068,
+       "sha256": "8faa43e6ffef9759f5eb82ff521ea7c55619f5d84059149f4890946d22702ed1"
       },
       {
        "path": "seed-3/metadata.json",
@@ -15715,8 +15715,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1600,
-       "sha256": "35d301849b41bc5f8d849502b4723d89b8d64f6478a53fc4c091026a609c498e"
+       "size": 1068,
+       "sha256": "43d4a7f70de8961d7c5e26b2e75b501ddf39289dfb5fbf4f57976eaebeb804cd"
       },
       {
        "path": "seed-4/metadata.json",
@@ -15773,8 +15773,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1600,
-       "sha256": "90e93872a6ab8b8adeba0e1c5f9cf6972081412a735b63746009896bc374a64a"
+       "size": 1068,
+       "sha256": "9643eb25980ff0a939fae0c78e2e501c7bcf57ed009896f868c9026a866ec4ed"
       },
       {
        "path": "seed-5/metadata.json",
@@ -16081,7 +16081,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r02-mulligan-divl",
-   "revision": "3139b35096c1dceb9356567f68f86ae3fe1749ae",
+   "revision": "23089e61a55700713c1ac9e463a2f3f27f8ab6fe",
    "tag": "release-1",
    "extra_files": [
     {
@@ -16092,7 +16092,7 @@
     {
      "path": "release.json",
      "size": 15195,
-     "sha256": "f1ff2c6f69241bde2bb28b8fa4f02f495bc8937cd73a4b5b5a5300c8b40619cf"
+     "sha256": "b9f4cf349de5bbe5b1720aed0e491af64fa489a2f0093a4216dc3cffb9f0b906"
     }
    ],
    "checkpoints": [
@@ -16109,8 +16109,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1588,
-       "sha256": "3a5e18decc28180d954c355a2ba926ca239cc6c710c6cefe2643c338ca11b35e"
+       "size": 1062,
+       "sha256": "058597bdce7a75e938681ca3d86e9dd7530396a99c90cd41d842a1b12ee180ba"
       },
       {
        "path": "seed-1/metadata.json",
@@ -16167,8 +16167,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1588,
-       "sha256": "9d327a085be4fcc75d3636c78e3f46f8ead7262d81c356bfbc6e153c0cb545b6"
+       "size": 1062,
+       "sha256": "a18b53789b183321a1c70353949fa07fa8b042b8a43ad3e5c3e57419d094bb1e"
       },
       {
        "path": "seed-2/metadata.json",
@@ -16225,8 +16225,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1588,
-       "sha256": "e344c3739fedecfdba369ccc07b8781be45fbdde1ffc29a85902c478cdf7a266"
+       "size": 1062,
+       "sha256": "69918e33030ff86aa5801082d2821925985ba5424acddd2280ec8f9d1d73f941"
       },
       {
        "path": "seed-3/metadata.json",
@@ -16283,8 +16283,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1588,
-       "sha256": "7c48eacf2a752680940074271f476e4cb3e674fbb2fda4542a6fb6c5a3899484"
+       "size": 1062,
+       "sha256": "3fd462174359797c432fcd4b2fef3d753e13dd4088e10d40a59b361cb02f74cb"
       },
       {
        "path": "seed-4/metadata.json",
@@ -16341,8 +16341,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1588,
-       "sha256": "79e93b572508aaa4847a552cb73a5c59bbe0c6237b17e1ac76fea63921094025"
+       "size": 1062,
+       "sha256": "795b5bd65f1f2633888a8cecde3f9dce0c9b9bd2301189cfb0a27f386fccb73d"
       },
       {
        "path": "seed-5/metadata.json",
@@ -16649,7 +16649,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r02-mulligan-no-cf-divl",
-   "revision": "f06a647aadc8a94376a62dbd63b4661e50eed176",
+   "revision": "f5cde0236c27c8ca3a7f31e0f9087dd09a3d57dc",
    "tag": "release-1",
    "extra_files": [
     {
@@ -16660,7 +16660,7 @@
     {
      "path": "release.json",
      "size": 15271,
-     "sha256": "8cdd260785c7418b4f664d0c78836703e4ed1a0f3d481fd5da233df2e3e234d7"
+     "sha256": "2c419001d9c90fcc052db954662c98996c806619d5dbb7cbe01cf61a73e57391"
     }
    ],
    "checkpoints": [
@@ -16677,8 +16677,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1618,
-       "sha256": "b323cbd13f934109a34710cf0ba8ddb154d7b8b948d49dc69636c425bfe24579"
+       "size": 1080,
+       "sha256": "6d1e80b6cb10fe898db8ee7d6415f297e07708ff2df819b0cb8d035b879bed79"
       },
       {
        "path": "seed-1/metadata.json",
@@ -16735,8 +16735,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1618,
-       "sha256": "05093240ae9e531e105dd069f6af476682e73ef449dc465da70b742aa6a3ddf2"
+       "size": 1080,
+       "sha256": "3d6db1bff2cb6c3cd63a2f8d22756958cfebdb216f2a3468a09cc14de0b0de36"
       },
       {
        "path": "seed-2/metadata.json",
@@ -16793,8 +16793,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1618,
-       "sha256": "9b1fb86b0054a8047e98337d346b45e727be0f472b18210b77ad0ffe8f8caf5b"
+       "size": 1080,
+       "sha256": "ff76e94dcdcc15827102cb1d8e4cb9b072a838abed827a8e2ca02c617d380e35"
       },
       {
        "path": "seed-3/metadata.json",
@@ -16851,8 +16851,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1618,
-       "sha256": "845abd8eb7a2684f1531424aec7ea408da46b7d7005246315e434527eaf72e83"
+       "size": 1080,
+       "sha256": "e45740f5a6947bd61b02c64d7c2dc8d65288e473b4477db011849cf6b95c97b6"
       },
       {
        "path": "seed-4/metadata.json",
@@ -16909,8 +16909,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1618,
-       "sha256": "1704aef09c059f2b910c03dc22754b26f2a76d432af012baf2800b2be00ad0f3"
+       "size": 1080,
+       "sha256": "1dce719f0120d20dc7065060a728815669596d694bfab4a1dd36cef1e24384d1"
       },
       {
        "path": "seed-5/metadata.json",
@@ -17172,7 +17172,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r02-sobol-no-cf-divl",
-   "revision": "1c1f8733d80b27fb1836728f8c2fa85a72a04e77",
+   "revision": "858599485822bba758f47ed33d2c477afbbd9347",
    "tag": "release-1",
    "extra_files": [
     {
@@ -17183,7 +17183,7 @@
     {
      "path": "release.json",
      "size": 15103,
-     "sha256": "b3fed3c2103aa99a42b16fdd96365ca342a923a810f6cf0702d4c9afe40417c9"
+     "sha256": "9aaf1996bc741b9280b3ab00c76503a4e212c765ae1cf93dc3065df5311dcfbf"
     }
    ],
    "checkpoints": [
@@ -17200,8 +17200,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1603,
-       "sha256": "42d651e574fb3ffc11801903be3ef95126546559456e44ffdecb58c14dd16ead"
+       "size": 1071,
+       "sha256": "cc48944b4b542a4f662a38dc2af315436c45f080893c93716e22732b927d582b"
       },
       {
        "path": "seed-1/metadata.json",
@@ -17258,8 +17258,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1603,
-       "sha256": "cc362d74602a5acd9915b24813ecc02944a217bc3931d6783ee872a7f023e080"
+       "size": 1071,
+       "sha256": "34fc1f57d829e0ea441eb4ac90ddc426ea82540dfeb0b41fcdf3abf04c7325a6"
       },
       {
        "path": "seed-2/metadata.json",
@@ -17316,8 +17316,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1603,
-       "sha256": "407534245a00f75275b0fb7e2c60c572c8ce851dbc52e84d01293335a7f509f0"
+       "size": 1071,
+       "sha256": "373d5bffb49ccdb78d356932b769750b95d23e6372e57d2b84600061d0cce841"
       },
       {
        "path": "seed-3/metadata.json",
@@ -17374,8 +17374,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1603,
-       "sha256": "72d85ea24613dd39b86f3fc9558bb99c0d252fb1f68a0195237ae15b30759801"
+       "size": 1071,
+       "sha256": "74e52ec600bddd514a70c692cc7e74db26b08fa6697e593b6e11591af3fa67b3"
       },
       {
        "path": "seed-4/metadata.json",
@@ -17432,8 +17432,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1603,
-       "sha256": "e79a6a2dc05f8821a935a2da4d6a90d1427f803179ec5fa7db6bc7d4ab7f5d5e"
+       "size": 1071,
+       "sha256": "d609ef4cdfe46147d1af24a9dcac834472a5cd9ecc9b341757307e4ccb2bc62d"
       },
       {
        "path": "seed-5/metadata.json",
@@ -17695,7 +17695,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r02-sobol-with-cf-divl",
-   "revision": "3dea5655007ddc739a7923a4eb421a44ae6d597b",
+   "revision": "4aa665c876ea8100812420fbcefccf2d087521c6",
    "tag": "release-1",
    "extra_files": [
     {
@@ -17706,7 +17706,7 @@
     {
      "path": "release.json",
      "size": 15215,
-     "sha256": "5552a75e6eb9aa410749d46757ea225b746476c4dbd240644827bc1573d9792c"
+     "sha256": "fed1fe512078ae8ed9c8229c7142f48d5dbdab3b5ed0230338fe5b317acc679f"
     }
    ],
    "checkpoints": [
@@ -17723,8 +17723,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1613,
-       "sha256": "9c1f910b3ca3eb16dc29073ba8d27293cc7fb33f700cc5bd02264fe8e465b956"
+       "size": 1077,
+       "sha256": "6e53ea4d20866a870623d1bc8546a14f1ecfd71ed87e085e65499e3804e566ba"
       },
       {
        "path": "seed-1/metadata.json",
@@ -17781,8 +17781,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1613,
-       "sha256": "efe850b0dc97c1e41f7a922c7c976d8fcd0856f6ae5d4e8996eb69626046f39b"
+       "size": 1077,
+       "sha256": "7ea628633437a5c28bcb9400721d44e8ee15e97c018b416ba621fb03dd1215e4"
       },
       {
        "path": "seed-2/metadata.json",
@@ -17839,8 +17839,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1613,
-       "sha256": "9e7740d93283cb0effd67041f8a93eb18913688e4c68c63fcc2ffc98575e7052"
+       "size": 1077,
+       "sha256": "64e7b63734d6b0ca05ce55996b142523e7b4235ee5bccd13a14ba079ed767b9e"
       },
       {
        "path": "seed-3/metadata.json",
@@ -17897,8 +17897,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1613,
-       "sha256": "27f778299d1b6916af32d1edee95bcc96551f6bb6ee99fe24747108898b66120"
+       "size": 1077,
+       "sha256": "26c3c78be0e75f3bc82f3eb18ee7e7471987603e8d3941f6d893b2ce93a5fd50"
       },
       {
        "path": "seed-4/metadata.json",
@@ -17955,8 +17955,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1613,
-       "sha256": "f4db9bec912824d7e88d73acd6361260b95fff814a31a161528047e9a20fddde"
+       "size": 1077,
+       "sha256": "a840599c8b20e279f16bf5ffad63c3c8250ecaed0d4ff11f4c73e31b92639c33"
       },
       {
        "path": "seed-5/metadata.json",
@@ -18472,7 +18472,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r03-auto-iql-n32-divl",
-   "revision": "4bcd1922e3fce06190019f8354fa01b20c317042",
+   "revision": "004fb2c53ee83bf99f9037c70cebe29199037e78",
    "tag": "release-1",
    "extra_files": [
     {
@@ -18483,7 +18483,7 @@
     {
      "path": "release.json",
      "size": 14914,
-     "sha256": "7533b7d502f28cba3c64507d047fd6a3bc62d8f796d16cba8d6f00ff2955db1c"
+     "sha256": "6116c5a659df91fa9080369c5cc28bff8a85050db92dadf2be77ec818f086539"
     }
    ],
    "checkpoints": [
@@ -18500,8 +18500,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1496,
-       "sha256": "39ed77752259a1390b9494c96c47e308729fd160b484997ce5c91854c1419c83"
+       "size": 1040,
+       "sha256": "3748cc0bd226c22ba15fadd3a180d3297953c2ab3058e1a6b963165be26b2513"
       },
       {
        "path": "seed-1/metadata.json",
@@ -18557,8 +18557,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1496,
-       "sha256": "0084991b6b8d5d0ee32938e7a88a9bf2a720e627ebf110f573ef3ac41d6fbdab"
+       "size": 1040,
+       "sha256": "d76f82d2304a0f564999fb2eea6606a79d12a5ab45be46d0866e4d5f6b00ae76"
       },
       {
        "path": "seed-2/metadata.json",
@@ -18614,8 +18614,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1496,
-       "sha256": "bc3cacea0d78f039dc61798e512b1b5d8cf2e9c7a440be5ec3f3087a63a78e0c"
+       "size": 1040,
+       "sha256": "d54fb0fe16b78b8583c94801ad182ed459393c8289268f543e39debe554b11a9"
       },
       {
        "path": "seed-3/metadata.json",
@@ -18671,8 +18671,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1496,
-       "sha256": "de93ad00120a952f7c5fe793b24a6bc41d4c9491608f0bfa7855ecebd3ff3412"
+       "size": 1040,
+       "sha256": "87b62bd4f939b6e00becabe5a50ffa3dc03a35cdcd1df2a914932a03e9f85551"
       },
       {
        "path": "seed-4/metadata.json",
@@ -18728,8 +18728,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1496,
-       "sha256": "edc11014cc7c8fb5a50c57facfd499f16948dd9d31a2ff9f84b6fcb4d34fceae"
+       "size": 1040,
+       "sha256": "f5087cdafd0f1169520354c55370aae111408df6bdd9f83029a30d50e73b1d4a"
       },
       {
        "path": "seed-5/metadata.json",
@@ -19030,7 +19030,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r03-auto-iql-success-bc-n32-divl",
-   "revision": "639698168aca007b640a1561041419b1e7a4d4d3",
+   "revision": "659a395e325d5a6031433da308d0d48c44a35bdc",
    "tag": "release-1",
    "extra_files": [
     {
@@ -19041,7 +19041,7 @@
     {
      "path": "release.json",
      "size": 15530,
-     "sha256": "86024a9e5193522cd03dc111be890cd0a0767392df37ebbd0612b7a420854a92"
+     "sha256": "73f61818d3ad62531fe63d9563ea01ca3e4994b7840a832d911188ed96f2d958"
     }
    ],
    "checkpoints": [
@@ -19058,8 +19058,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1551,
-       "sha256": "939de943721bd8eb31a660a75e6e980fb7fb7a68a580e1a71ecc95c879232bff"
+       "size": 1073,
+       "sha256": "ce77b12d13bace2f7e0319b4139e8f796f7f2511117f707183ba98d3a1bc7a94"
       },
       {
        "path": "seed-1/metadata.json",
@@ -19115,8 +19115,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1551,
-       "sha256": "dfad2ae36896d5e5651dbc6b1af3af652c4e79001c66d2ec97698ed0cb80ef55"
+       "size": 1073,
+       "sha256": "b3b6dd6b9feede75507bddaa2d8aa5cf603bfa938b1df47093cee5922f78192f"
       },
       {
        "path": "seed-2/metadata.json",
@@ -19172,8 +19172,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1551,
-       "sha256": "7034d494a425b6c1ba53ecdec0fe079cba22bf09ae76a82c14c502cbf230747c"
+       "size": 1073,
+       "sha256": "7d9f19fb0e35b02c800d419b34757cd2389f86a404fbd47c6fad50abafc9240e"
       },
       {
        "path": "seed-3/metadata.json",
@@ -19229,8 +19229,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1551,
-       "sha256": "08fcc36c9b209b99f4870a89f514443b6f1a4321d4ae54a65efc24cc89cfdf60"
+       "size": 1073,
+       "sha256": "9b286414ff280343dbcbb6255d2c912fa3bb0f437bef103c79bbe9f24d6763c1"
       },
       {
        "path": "seed-4/metadata.json",
@@ -19286,8 +19286,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1551,
-       "sha256": "1267afb5b0253ab5590670a43a0cbf28cd3170db13e9efc577391309156b0876"
+       "size": 1073,
+       "sha256": "e1d924e9d07b9f9892cb57fe9a4fafb0adc95af3c1d9eb26a4f82dabbeb067bb"
       },
       {
        "path": "seed-5/metadata.json",
@@ -19842,7 +19842,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r03-baseline-divl",
-   "revision": "4b7e5008e7b9036eda81f31d4d4a23084877139e",
+   "revision": "d18d38044392b862d98fa84756df6bea53bcbb92",
    "tag": "release-1",
    "extra_files": [
     {
@@ -19853,7 +19853,7 @@
     {
      "path": "release.json",
      "size": 15870,
-     "sha256": "c4363bc0fc6ae31cd78931ce532e3d02054bc868ef3789faf991ae7d4311dbd3"
+     "sha256": "cebe07204993a4a9fc3d4d89968cc34b87d151e2a095d64ca54248fb35685f2b"
     }
    ],
    "checkpoints": [
@@ -19870,8 +19870,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1918,
-       "sha256": "e2c93e3d53570b037c3cc1890660015731dd532aa2b389b2d22c1efe720c6765"
+       "size": 1183,
+       "sha256": "c84e6d6cbbe7cbdfdf65df7b0c1efba148edbb6d31953c8e78deeb6d274777e5"
       },
       {
        "path": "seed-1/metadata.json",
@@ -19930,8 +19930,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1918,
-       "sha256": "aaa1c06d6d93696188ffcad4cfe222a8b6133c5638764446dc4cf7ced6129e01"
+       "size": 1183,
+       "sha256": "59acf9aaf4d592e2ae27b0e2a66cd9f1c77e54eaf383fbcbb9ecef2f03c0cea4"
       },
       {
        "path": "seed-2/metadata.json",
@@ -19990,8 +19990,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1918,
-       "sha256": "cc9e257597a0589008c574407ed3ddbe71fc33f9342e7fffa28cdc659b574950"
+       "size": 1183,
+       "sha256": "31b4238d52310122f0dd8dd2661efbe87f7a64b45ffa596a6ec6d9f92f8a60d1"
       },
       {
        "path": "seed-3/metadata.json",
@@ -20050,8 +20050,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1918,
-       "sha256": "f0b50802db9fed67aee2cf34a58576b41cda97fc0fd28e914e84d29315b19669"
+       "size": 1183,
+       "sha256": "4fb69f817b3cc64f5d2bd74b77cec3b5533d733c0c5ca5ff094e975259416462"
       },
       {
        "path": "seed-4/metadata.json",
@@ -20110,8 +20110,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1918,
-       "sha256": "51717cb6f124f3204cbb871e0ca17bd0b184cfb0f3c9877279f9d05b04f63879"
+       "size": 1183,
+       "sha256": "c8e760034d1c3ce9dfbce0ac759e68cb85bc1b4ce25b8937744efc954cd00dfe"
       },
       {
        "path": "seed-5/metadata.json",
@@ -20430,7 +20430,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r03-mulligan-divl",
-   "revision": "68734f6307e2cf0e1e7f6a12ce09616deae4e2ae",
+   "revision": "8d23e3dded853f961de359add19a3c7cecaae0d4",
    "tag": "release-1",
    "extra_files": [
     {
@@ -20441,7 +20441,7 @@
     {
      "path": "release.json",
      "size": 15810,
-     "sha256": "6b1bc168818bb54cd2fc50a7a3cdc83479069fa5ad1e55b46b926b5e919f4cb2"
+     "sha256": "3d1c64059e7a37317b329632dd02494542678cf3dfdb1bdb873fe34849a7f254"
     }
    ],
    "checkpoints": [
@@ -20458,8 +20458,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1906,
-       "sha256": "4cc919d46197fcf3a90a7ec47c2916986d42a9a9b019c96efdaad6818208c505"
+       "size": 1177,
+       "sha256": "b1afb6769ac970f40789d2c1bf80cfa79e442ebd5e0a68a1a5dce0ce7fe0a0c9"
       },
       {
        "path": "seed-1/metadata.json",
@@ -20518,8 +20518,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1906,
-       "sha256": "02b85668cb058669339aa386ff79ac1d8d690565e49b50efc2063014d2d27014"
+       "size": 1177,
+       "sha256": "4694e5388cc44f3fe56a2f3c019d46b8951b5c0e391ac3ed738a216a13edf8e1"
       },
       {
        "path": "seed-2/metadata.json",
@@ -20578,8 +20578,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1906,
-       "sha256": "b935e72e48808a1513db1735b4dcb9c613ba5b471b238458218007130dc9517e"
+       "size": 1177,
+       "sha256": "d4b4dd4e161411fa625a30b9aca43fe0d7397961b484dd152acbd90a6e22810a"
       },
       {
        "path": "seed-3/metadata.json",
@@ -20638,8 +20638,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1906,
-       "sha256": "2dad2e1a8092e7d92c1c56864edb827d6ffeede416c9e7f9a0cffd536b45400b"
+       "size": 1177,
+       "sha256": "1801dfcab81296c122d3d921e84ff6fb4329c331c638d03d88700bb205a228a4"
       },
       {
        "path": "seed-4/metadata.json",
@@ -20698,8 +20698,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1906,
-       "sha256": "9863272c87c467d640f6ae0f312d7249ea4bcc35459fa578b3cdcc342b084c42"
+       "size": 1177,
+       "sha256": "41a48c0d75562523b3551651fc2dcad92e2cc6e3774e058d4f7f3a9ebadbf42d"
       },
       {
        "path": "seed-5/metadata.json",
@@ -21018,7 +21018,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r03-mulligan-no-cf-divl",
-   "revision": "22a1615ca291d433251ba01eedd0b39086b3286c",
+   "revision": "32280a3de01eac10f9b05f8266b1fd502be395f1",
    "tag": "release-1",
    "extra_files": [
     {
@@ -21029,7 +21029,7 @@
     {
      "path": "release.json",
      "size": 15916,
-     "sha256": "df31bd25e3cc0ff2bc0c5dbefd30c5751807a074cd8fa9d2c9049c3bda43404b"
+     "sha256": "ab0950f0bcbb3da166434a6c6ea46b2ecf89350624dc750bb3b4191648ea8e6e"
     }
    ],
    "checkpoints": [
@@ -21046,8 +21046,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1948,
-       "sha256": "dace3e79bb15ef9276a6b4a30704826313286600ae0091f77194442b5687502d"
+       "size": 1201,
+       "sha256": "87276c6bb54e4dee3331ff903db3c72758e7c565f8b41df29f5540b81b2678bf"
       },
       {
        "path": "seed-1/metadata.json",
@@ -21106,8 +21106,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1948,
-       "sha256": "1accb89073715727995607b287855d6d04ad832d87827bde408ab06cf347ec42"
+       "size": 1201,
+       "sha256": "3dcbac2a09e3eecfa3f5ec433912a680d991c87037ecccaafa4304971f6fe70e"
       },
       {
        "path": "seed-2/metadata.json",
@@ -21166,8 +21166,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1948,
-       "sha256": "12aadb33a1ec08c4e53118c6fc964507165ce4921375368f8d632068dd6a1d90"
+       "size": 1201,
+       "sha256": "baad53d8b2e48d41eedfcd5f110ba5f0f2148afcad7fe6ccda91ac6cff31bd9f"
       },
       {
        "path": "seed-3/metadata.json",
@@ -21226,8 +21226,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1948,
-       "sha256": "b8270bc72f56e9718d027ae31432cff766e605a2da5ec50a9786976dec0cbd5c"
+       "size": 1201,
+       "sha256": "9c554030ede594c3dc87c34328be78caf215ef9ba3a8262ed3b91128a182c5b6"
       },
       {
        "path": "seed-4/metadata.json",
@@ -21286,8 +21286,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1948,
-       "sha256": "dec60d545d9ed59ef3216aaa651bbf07f906aee778c8ba7bb5b4bad1a583ebf1"
+       "size": 1201,
+       "sha256": "a1ba270fe699032de869032a0458fda20e7c41cf0d559da89c8f94bba6083d26"
       },
       {
        "path": "seed-5/metadata.json",
@@ -21561,7 +21561,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r00-baseline-divl",
-   "revision": "cc09df4540c0c002913353d0c915406ace648dc1",
+   "revision": "876135c4a23fbf354df319361ee929d326a94a41",
    "tag": "release-1",
    "extra_files": [
     {
@@ -21572,7 +21572,7 @@
     {
      "path": "release.json",
      "size": 13981,
-     "sha256": "31a16bd22134e5f046734936b990880554f2be8952d2fa80ff7766dfab9e07a7"
+     "sha256": "fd8395179f7594a1f74534f40e38a672fa116bff45db9100f0587a2f2da6fcb5"
     }
    ],
    "checkpoints": [
@@ -21589,8 +21589,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 967,
-       "sha256": "7dd400d115d5424e5613ef8eb80d492e4cd9c50130800a47926860c705e6ccdf"
+       "size": 840,
+       "sha256": "32f5cc74f8e0061d4d8466a158d07e4687c9c9556f91713e6724cb5eccf282e4"
       },
       {
        "path": "seed-1/metadata.json",
@@ -21643,8 +21643,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 967,
-       "sha256": "de83ea30d64dd3870db02a6a9d31db246c2247a78cb76b2d4667dd75f8730773"
+       "size": 840,
+       "sha256": "e23b473fee092646f3e97c4307d19cbb1ce5c9698f0fbfa761c8cb2146dfcaf2"
       },
       {
        "path": "seed-2/metadata.json",
@@ -21697,8 +21697,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 967,
-       "sha256": "bdab87bf1ec25b27fe3570db857e4baf4abd7c08de0edcd54ef1659912c6b4c3"
+       "size": 840,
+       "sha256": "7fbf9b7c4e1c09462d04ba9a807885047d6d784e7afde3c35b5ba0f704993a88"
       },
       {
        "path": "seed-3/metadata.json",
@@ -21751,8 +21751,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 967,
-       "sha256": "b8bf302c24383608ceb956392ac3a9a8cf5ae4f2c1dc3caf6de3ea6304f74acd"
+       "size": 840,
+       "sha256": "55e87d718d56c0317e9462018c28c4532c33f9e5c3210a0d06473b5cd66abf20"
       },
       {
        "path": "seed-4/metadata.json",
@@ -21805,8 +21805,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 967,
-       "sha256": "3e89b4aadf06e7d41a799699d6301ade17d483facdc0a1ac9ab639220b40985f"
+       "size": 840,
+       "sha256": "65b2d75e7beed582519de1bac9f7a84174c324697cdf7efbc1a13ba28686cde8"
       },
       {
        "path": "seed-5/metadata.json",
@@ -22124,7 +22124,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r00-sobol-divl",
-   "revision": "919346e0e09ce692fd51f2d65f5b858b7b2e3555",
+   "revision": "62d773f964724264e2fecbf4fb6a2d2480ada8da",
    "tag": "release-1",
    "extra_files": [
     {
@@ -22135,7 +22135,7 @@
     {
      "path": "release.json",
      "size": 13788,
-     "sha256": "8c6302dbd04d1faa41ba38f0e5711e09be399de0f07687d01a5a76afea614bcf"
+     "sha256": "652abef8d8379ba9e3c06aaae87befb9cd203bf9824ddbfd54add7741e2f7cee"
     }
    ],
    "checkpoints": [
@@ -22152,8 +22152,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 958,
-       "sha256": "40305a768e933c15941de96efaa1a1c2b241bf2047456af9a042c2e15955505f"
+       "size": 834,
+       "sha256": "2b3afa75d492dee01619a2b5ca98daf77c611f3034ac2d598805b428410b920a"
       },
       {
        "path": "seed-1/metadata.json",
@@ -22206,8 +22206,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 958,
-       "sha256": "bf5b175f256d3946c43033c8204ff30d7da91b9abbfc904b3ff673a43b771b13"
+       "size": 834,
+       "sha256": "c7b1a42e0d2d64d244ec86a8a7a194cffa468b6e8a10847fd033909eb5399edd"
       },
       {
        "path": "seed-2/metadata.json",
@@ -22260,8 +22260,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 958,
-       "sha256": "c17049246aff3930fcfe66c9a581ee3eec630885738c1a536f6c8f45ea102deb"
+       "size": 834,
+       "sha256": "1f566fd54f1296a4202479a66235ceb3a264da9a0e81eec90da6efccc378948e"
       },
       {
        "path": "seed-3/metadata.json",
@@ -22314,8 +22314,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 958,
-       "sha256": "5e92e574b01d9203b374192a6ae47738bb642c9a8224aabed3cec3749c1f9514"
+       "size": 834,
+       "sha256": "815f45ff3d10de05f158f2aa437744affb9e3e61cbbc357ab73c244714b18de6"
       },
       {
        "path": "seed-4/metadata.json",
@@ -22368,8 +22368,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 958,
-       "sha256": "bb5c2de8c3854d7164534eba85cb021d315b405d2fa1f068f499711edf22bc0e"
+       "size": 834,
+       "sha256": "eb0da959ef9a1b03dc622198f8537ff4ddb742839c006f9a5758841da4c90812"
       },
       {
        "path": "seed-5/metadata.json",
@@ -22896,7 +22896,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r01-auto-iql-n32-divl",
-   "revision": "e2eed3fa17a7f02ae18888dff8dfdaadc5a9fbbf",
+   "revision": "f0eb0477db52b977faaa6d00d9757aa87b25c4ec",
    "tag": "release-1",
    "extra_files": [
     {
@@ -22906,8 +22906,8 @@
     },
     {
      "path": "release.json",
-     "size": 14270,
-     "sha256": "285b8d9e1171b8f1b177f3067c93b656ac9546f4596dc42a0225c03fdb4b6af4"
+     "size": 14260,
+     "sha256": "6d33818f65f04dfe468a9eb3f1b5fda1a4c992c38cb2e4d237f4ce23118b4685"
     }
    ],
    "checkpoints": [
@@ -22924,8 +22924,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1149,
-       "sha256": "1f149965f9351da31c39f94bad6c9ce4dfd98975e9801d7ceb504e5f31ec793d"
+       "size": 911,
+       "sha256": "4667b1ed82f65dd99ac1f2dbeade106656f11d13dfea6a1835c5ee3d3fbda522"
       },
       {
        "path": "seed-1/metadata.json",
@@ -22979,8 +22979,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1149,
-       "sha256": "7e62e67a482b0a4cfef4d2337013f7e56a79ec366f4dd64810f469c950ddf68c"
+       "size": 911,
+       "sha256": "17bbba1347eb4206310feb182b3f283eed6991f7cdca7473a6493660f91efebe"
       },
       {
        "path": "seed-2/metadata.json",
@@ -23034,8 +23034,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1149,
-       "sha256": "4bf43cc60791fee2eba79134c7b64b94a02dddb37ff2ab669f51ef256a9b88cb"
+       "size": 911,
+       "sha256": "6e92d1fffd536fca200779584840b01a5926752f92edf63f6ea3df9fa19f7410"
       },
       {
        "path": "seed-3/metadata.json",
@@ -23089,8 +23089,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1149,
-       "sha256": "0380e322321dcd05510c869a2ecae7a5f5889abfc7c729bb0d429b97f036bc3e"
+       "size": 911,
+       "sha256": "fa1a1d9fd5ae82b0756723079bb1a178b1cc0d461758056be9e64b91a8b8e6f5"
       },
       {
        "path": "seed-4/metadata.json",
@@ -23144,8 +23144,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1149,
-       "sha256": "2a3a745b4a6e94d68bb2ed07327440f92c625f04a9bf92470b86be6e9b4824d1"
+       "size": 911,
+       "sha256": "e8761026c6523b55eb4af038fb2437d3f26d34ed74a1c6a0d335dff71951e398"
       },
       {
        "path": "seed-5/metadata.json",
@@ -23434,7 +23434,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r01-auto-iql-success-bc-n32-divl",
-   "revision": "0fcb1ca47a26180213e97f5f67002a9eba921516",
+   "revision": "3503d7f74566b5cd443bed7b560c55fb8c9c1048",
    "tag": "release-1",
    "extra_files": [
     {
@@ -23444,8 +23444,8 @@
     },
     {
      "path": "release.json",
-     "size": 14776,
-     "sha256": "0b4191a9063f772aae7c259e5dc9d91b2f75f55551e8bf7fcdfb17af027d6527"
+     "size": 14766,
+     "sha256": "ccd1fff6725db7ea0d043b8351294d01a9ca0f58fd0897b62fbfb74116218bce"
     }
    ],
    "checkpoints": [
@@ -23462,8 +23462,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1160,
-       "sha256": "0f8fc37df298aaa067d89b2763117d6808bbb1fbdf1cafe550f6dff9dbb21042"
+       "size": 922,
+       "sha256": "d915cc800e056662c345d49cf769c209b1a2c6f900dc480a7bf2e791d1f8d23d"
       },
       {
        "path": "seed-1/metadata.json",
@@ -23517,8 +23517,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1160,
-       "sha256": "1b14427a357f80e2631f910f3e9c828f2c626053cfbef0c3eaba0a3a8cd8a4fc"
+       "size": 922,
+       "sha256": "3ebbb5023b8ea5479da8be0b418c8be013762d4b6a1ba9e61b9b1277b7d74471"
       },
       {
        "path": "seed-2/metadata.json",
@@ -23572,8 +23572,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1160,
-       "sha256": "751a4f605436e477bacec57dcc7a75490a5a474fede41d45e16a1f6cf64dd8df"
+       "size": 922,
+       "sha256": "ace77676cf27b3315f184590f3acbe715acb9eb02b669e164b6e432524130909"
       },
       {
        "path": "seed-3/metadata.json",
@@ -23627,8 +23627,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1160,
-       "sha256": "6613fe5db5960c7265f17577ea9991ab3707fa897efdc392acff986b612ec838"
+       "size": 922,
+       "sha256": "c99198a08974ce0fcf1586a42c88eac3c82ff663ad0ad6d0dc92fc0a8b154f13"
       },
       {
        "path": "seed-4/metadata.json",
@@ -23682,8 +23682,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1160,
-       "sha256": "0a7169cb4c42786ca7c76301e5000903fcfe7cf7a5ef4aef5b071f35c0e8eb7c"
+       "size": 922,
+       "sha256": "114eebb21d4f8ed8e44cf5997662ab4db98dd30d9a4cbaa2e184066281124b79"
       },
       {
        "path": "seed-5/metadata.json",
@@ -24216,7 +24216,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r01-baseline-divl",
-   "revision": "412f3a4bb09a5a011c6b206ee8de3093cec2711e",
+   "revision": "cfde1ce3b7d40de46995fc8b335708f46c817442",
    "tag": "release-1",
    "extra_files": [
     {
@@ -24226,8 +24226,8 @@
     },
     {
      "path": "release.json",
-     "size": 14701,
-     "sha256": "69fcd329ecaf939a5d90ba36b7d9ae994615471afcaf24994b5d9a987584e397"
+     "size": 14691,
+     "sha256": "222499d14575a1435cd64a5ffb90ab3786cdc36798641dba63e04a0ad8c79144"
     }
    ],
    "checkpoints": [
@@ -24244,8 +24244,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1289,
-       "sha256": "209710abdfd37c8f1c2351bf6ce88652675f9ed7496aa2427c223ecb64657fde"
+       "size": 957,
+       "sha256": "97d82fad546cc18c66b588053ae0a81f8f87e60aac1c0b10b1b7ff71b65c0eda"
       },
       {
        "path": "seed-1/metadata.json",
@@ -24300,8 +24300,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1289,
-       "sha256": "e0d0c2350bf4ea4cd9a41751d6e94fa1af7cacd96a3f4748684382f37538f9c1"
+       "size": 957,
+       "sha256": "89bed44b70aab9928ae3cc622d3434a1d83727d975afdeab4357fa5c6c1b3c8f"
       },
       {
        "path": "seed-2/metadata.json",
@@ -24356,8 +24356,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1289,
-       "sha256": "e974838975b409f0fbb0c87a8f749adfc3dab397064d88bdd51a5255a125c651"
+       "size": 957,
+       "sha256": "7d5ba9c2c41f5f5598a92eac42bb35f434c2388b804ef530640cc82f91fbe243"
       },
       {
        "path": "seed-3/metadata.json",
@@ -24412,8 +24412,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1289,
-       "sha256": "e5026fdba03bc5efbd2d9b840785e66dbe175ab3797862239e7bf71d4ec7a846"
+       "size": 957,
+       "sha256": "8b7fff95ab34d912335ebe9a02e3da2f772cc7d7ce86e10ce1ba5c6957631584"
       },
       {
        "path": "seed-4/metadata.json",
@@ -24468,8 +24468,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1289,
-       "sha256": "939f53125d41c446cca271fc7e2d49085f0678804b58e346e30baf3f4a2900a1"
+       "size": 957,
+       "sha256": "42282545267d49ee35c9e579eaa6fba10a5c2a78b578fa9830b2c03313c3c675"
       },
       {
        "path": "seed-5/metadata.json",
@@ -24764,7 +24764,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r01-baseline-straddled-auto-success-divl",
-   "revision": "b40e5f489dc83641ab5a0a605e8bff22a5451f9f",
+   "revision": "f4a6e37dd3a556cb9c5790038bc2cece5b16a6ac",
    "tag": "release-1",
    "extra_files": [
     {
@@ -24774,8 +24774,8 @@
     },
     {
      "path": "release.json",
-     "size": 15484,
-     "sha256": "447de84c2f63c91029944495dcabd1d8d746c4a0994ce619ddaf769207472fbc"
+     "size": 15474,
+     "sha256": "2ea3a63e0c222839a926f110b5f1c252cffecc6cafc73bfed1ae0571cff02643"
     }
    ],
    "checkpoints": [
@@ -24792,8 +24792,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1312,
-       "sha256": "7782bd76ada8a693fd83084ef26817f44b49a58b1822136a0771319bd79141c3"
+       "size": 980,
+       "sha256": "16b04d6638666644b9bc04be36d741287c0773c5b3052c5a71804e3c7ca1d4d7"
       },
       {
        "path": "seed-1/metadata.json",
@@ -24848,8 +24848,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1312,
-       "sha256": "bd654dd360e5b47a41f59d379eca364e7a936fd05733967ced5c249bd6c36a2c"
+       "size": 980,
+       "sha256": "b8d3404610810387f2094341e7890541d5361f9402fac65dba09e5f876e0ba33"
       },
       {
        "path": "seed-2/metadata.json",
@@ -24904,8 +24904,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1312,
-       "sha256": "bc75505cae6ba3c74419dfb039584aaab5ed2cf26fb35f05c5a496d28900db5d"
+       "size": 980,
+       "sha256": "4f42abfe5d0fca30fa0c22e37298dfc3647151e4c148d6ab6071c3a7b20750e0"
       },
       {
        "path": "seed-3/metadata.json",
@@ -24960,8 +24960,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1312,
-       "sha256": "c876cb841db43dfa3e57effdda9793050c7614644e5434e3d8e6bfc76c7f994b"
+       "size": 980,
+       "sha256": "b4a948960c64365bccbd4921ce2e0b3389f185a68800fd6e6b632a856e953b9e"
       },
       {
        "path": "seed-4/metadata.json",
@@ -25016,8 +25016,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1312,
-       "sha256": "1bff88991ef39f974103ac029454afffefb36b69a3674e5f8c3f9e29c52921ee"
+       "size": 980,
+       "sha256": "95038fcd660feffedf226c5f7ddfad66ee1a2626e03a132d761ca09c7740d803"
       },
       {
        "path": "seed-5/metadata.json",
@@ -25267,7 +25267,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r01-mulligan-divl",
-   "revision": "05e15eb4f0324587337fc7a8e3374398c6044443",
+   "revision": "93356d9ead01cc93ee3e7f1d1cb9ea7e1f51f1f7",
    "tag": "release-1",
    "extra_files": [
     {
@@ -25277,8 +25277,8 @@
     },
     {
      "path": "release.json",
-     "size": 14641,
-     "sha256": "ba1910cee3fa3ced275e2540e393ae7179b2ef08a0c1dfdca7cef4c2bc5aff64"
+     "size": 14631,
+     "sha256": "0628134a5f5684de8c8eea8a8097cbe9de28ab5f3c79553183bd6eb3afb100fa"
     }
    ],
    "checkpoints": [
@@ -25295,8 +25295,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1277,
-       "sha256": "a417d288f18e599170f8fdb780d1e66cb2a0860f2752b500230cc138f00370c5"
+       "size": 951,
+       "sha256": "f1f512fa4eea7762da9154b4d6769321132e9c486ceb088d8203e65c85be2b41"
       },
       {
        "path": "seed-1/metadata.json",
@@ -25351,8 +25351,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1277,
-       "sha256": "7dae11f5dee6a7ef7429f0fcc2348782d2721a0da1f1d09a9a3984bd9006a912"
+       "size": 951,
+       "sha256": "a6a69c5f7d39ccd125312ef97fc787ab35cfa351935b1f2958c5c75c58f6bfc5"
       },
       {
        "path": "seed-2/metadata.json",
@@ -25407,8 +25407,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1277,
-       "sha256": "95c2b0d5149711bb00f4bd30b10a108344a34e249a950c317593210acc7951be"
+       "size": 951,
+       "sha256": "854790c5a90743fc1bb35db9cabcfb0998b47050596daafeea063cf1af21c8ed"
       },
       {
        "path": "seed-3/metadata.json",
@@ -25463,8 +25463,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1277,
-       "sha256": "d7be55ce3b857b5c014f9745063ff34e770406a7f56635946362b2a32baeb9e6"
+       "size": 951,
+       "sha256": "bda0fe28c58eaa3ccd5457991d12aa1be93af2e7969143885aedbb5ed53e3e68"
       },
       {
        "path": "seed-4/metadata.json",
@@ -25519,8 +25519,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1277,
-       "sha256": "c32b53f5c53832cd2a5bc44dc2ef7cb1aca2c2902c7f085dc85c3988ae8c62f0"
+       "size": 951,
+       "sha256": "2db55ae8003d31aa9eca02378df8661428379e4e0f62c8ae4442ce629857f4ed"
       },
       {
        "path": "seed-5/metadata.json",
@@ -25815,7 +25815,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r01-mulligan-no-cf-divl",
-   "revision": "2a285c7d9064bf14522be04b02b77b4b881a188d",
+   "revision": "61dba7085b601d6e3ce944f76cd67e8c5428918e",
    "tag": "release-1",
    "extra_files": [
     {
@@ -25825,8 +25825,8 @@
     },
     {
      "path": "release.json",
-     "size": 14687,
-     "sha256": "068251698f5207829d57da9b1158588590a640c0213db221084d8aced6606e89"
+     "size": 14677,
+     "sha256": "581b5f70df73b622d14ad48d4eb90b88946b8edeb66759651340e5f8393501ae"
     }
    ],
    "checkpoints": [
@@ -25843,8 +25843,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1295,
-       "sha256": "46a51dce6e8999e2bdcac93462d139f69ec4275185d0c43ee72631eeb7c86f8f"
+       "size": 963,
+       "sha256": "1f0360021e03a9440d09c39447453327e045316cb8c7201570368c5ffdf2c121"
       },
       {
        "path": "seed-1/metadata.json",
@@ -25899,8 +25899,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1295,
-       "sha256": "1c5a1027c52e359b0db98a4b269efc7255e849c14e8e3398a5c2b40b128163f4"
+       "size": 963,
+       "sha256": "ec0c5474a0068c55780ef6e5c3a75ed3d8b0f3691e0722123581b0636a3e3a1b"
       },
       {
        "path": "seed-2/metadata.json",
@@ -25955,8 +25955,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1295,
-       "sha256": "3709fb509a284dea2f21bd823e707c252aa7bf373f2a48142c4723750d5f2225"
+       "size": 963,
+       "sha256": "94ada911957e7edebf29d77febe4b3a2236009f58a40e3a586a9faf5673af1d4"
       },
       {
        "path": "seed-3/metadata.json",
@@ -26011,8 +26011,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1295,
-       "sha256": "a77313e7b5c15dd56be8eb7bf6efdb14a1a32e881032566b5ca18fc49e452bd5"
+       "size": 963,
+       "sha256": "f18cebc2ae5d616a0410c532cadc3782e4c1ad58d24b3c15d73968e36c8bfa11"
       },
       {
        "path": "seed-4/metadata.json",
@@ -26067,8 +26067,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1295,
-       "sha256": "459f60a25e41ed33198827f2521dc894c4284738058a9ca92cc3f8769ad99ceb"
+       "size": 963,
+       "sha256": "32c0a99bafd005ed187a4f0769bf207e9a2069694ab1509e5ebf598d4d48cb13"
       },
       {
        "path": "seed-5/metadata.json",
@@ -26318,7 +26318,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r01-sobol-no-cf-divl",
-   "revision": "6d0407c3ebeccf05a8cb48a02a29f71925f9b00c",
+   "revision": "15d7a9bd272d7111e2b76addf75c70ef385da19f",
    "tag": "release-1",
    "extra_files": [
     {
@@ -26328,8 +26328,8 @@
     },
     {
      "path": "release.json",
-     "size": 14534,
-     "sha256": "5c01096cb9575feb47e6df6a81e218c5a9e0db2063ab4eb80c6fee38bdea5cdc"
+     "size": 14524,
+     "sha256": "07abe5560359fbf7737c767fff107cd61771c2a340d3f0899536feced87ad468"
     }
    ],
    "checkpoints": [
@@ -26346,8 +26346,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1286,
-       "sha256": "aff77bb8e96ea1d6c17f497932c8c914e5194b3728f7965c3516ef89375b6cfe"
+       "size": 957,
+       "sha256": "e49a6efe698deff876c0a9c94e56cad7dacf3ee1d3b68ba25fd1eadc5c13ef8e"
       },
       {
        "path": "seed-1/metadata.json",
@@ -26402,8 +26402,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1286,
-       "sha256": "2635ee2410dd704e625f9c58a19b54c713b5b7df240013cca7d230e8b76341ba"
+       "size": 957,
+       "sha256": "0e479dcaf0ecad3cbe0e269add1f0251978872001c49e41d61f77aad28118ee0"
       },
       {
        "path": "seed-2/metadata.json",
@@ -26458,8 +26458,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1286,
-       "sha256": "d3f060de7f9c6174f5c08c119a568bebc8b48fa55183bfbf79997ea9fa5defff"
+       "size": 957,
+       "sha256": "98fe61880db0bb5adba5b90e1dca6a01395108c258002d82bada5f1fe939eb7e"
       },
       {
        "path": "seed-3/metadata.json",
@@ -26514,8 +26514,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1286,
-       "sha256": "aabaa833cea6356a8ca6b0a84d522b3f5f4fc4b570b55b4ec14f976e31058678"
+       "size": 957,
+       "sha256": "4e793005d17a60f52b460ee84c22c438207ee48c85442894a9a45f0f2d9c049b"
       },
       {
        "path": "seed-4/metadata.json",
@@ -26570,8 +26570,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1286,
-       "sha256": "ebf7ef2299096674b12d3d32a369179994798c0e2195f19b434069d39cbede04"
+       "size": 957,
+       "sha256": "be6f729ad0685a4436c327251dd5f1736d36225ce06fcd9e50042e61eb94308c"
       },
       {
        "path": "seed-5/metadata.json",
@@ -26821,7 +26821,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r01-sobol-with-cf-divl",
-   "revision": "3db581d0da88bef7fec6c0f27bbc39144ad9ef6e",
+   "revision": "d638ec1901b8dd4b8053207007d2a49cd92286e5",
    "tag": "release-1",
    "extra_files": [
     {
@@ -26831,8 +26831,8 @@
     },
     {
      "path": "release.json",
-     "size": 14636,
-     "sha256": "0f1abd8ffe9fbf7a6b585c9e4d28074b8da6c1d869c06972a783f52b1b44f5ca"
+     "size": 14626,
+     "sha256": "f9faa6a850384e7ae390756863be60ad01d4402a7012d4cf2d6bec711f911ab7"
     }
    ],
    "checkpoints": [
@@ -26849,8 +26849,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1292,
-       "sha256": "46ee29b9657c594ea687a6dbdafc3444ecfc45e52ca9b4ec296a52e99bc22aa4"
+       "size": 961,
+       "sha256": "a73964819dec9778ea146753758ca00e0b498b6d00be34ab7a1483a227f3f677"
       },
       {
        "path": "seed-1/metadata.json",
@@ -26905,8 +26905,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1292,
-       "sha256": "138b8d5e97bb296c08ab110a9ce48d9ccb0a4dc4e18ab03e055c2343ffd310dc"
+       "size": 961,
+       "sha256": "024d4f3d768eb1379a168a723957fc0d8f6982b26a44ec0d7e2df2da40aecde3"
       },
       {
        "path": "seed-2/metadata.json",
@@ -26961,8 +26961,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1292,
-       "sha256": "404723ffc04568d3bc764817ce9234ba4facdd98e1554dce6043d94292150786"
+       "size": 961,
+       "sha256": "e7e755198154fd5cadcb87958d4d1c4e8e5ebc93c0008192aa48b6ca3c2124b7"
       },
       {
        "path": "seed-3/metadata.json",
@@ -27017,8 +27017,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1292,
-       "sha256": "37eb3e4da9cbf9794e0b62e261a871ddafed2f4642c434fc039d94fad3bd1b5a"
+       "size": 961,
+       "sha256": "d6d956731e87f36eb5884ca93462a3be69015581b620ae12a36c5678a186221c"
       },
       {
        "path": "seed-4/metadata.json",
@@ -27073,8 +27073,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1292,
-       "sha256": "2a9d6b0c9d80b0b9a39f788423c19c5dd1025c055bb95df0645bdc70fad73bb4"
+       "size": 961,
+       "sha256": "5195df59d4118f760d637467328dbec452e80ef4ae5354ec0b58ef5abb19a96b"
       },
       {
        "path": "seed-5/metadata.json",
@@ -27573,7 +27573,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r02-auto-iql-n32-divl",
-   "revision": "993c27f4933d50f8808feb6f541be1bcd62cc59a",
+   "revision": "6b562913d3cfae0d40560da3f617b3fb7a0b9a29",
    "tag": "release-1",
    "extra_files": [
     {
@@ -27583,8 +27583,8 @@
     },
     {
      "path": "release.json",
-     "size": 14625,
-     "sha256": "b5c6525009106cacf2e81e48fd24c5e31dc6eb1b7d7117f8cfb4687303575558"
+     "size": 14615,
+     "sha256": "42c49da847fc21a5755920574c365d029a22ec4556567684548088346edcd651"
     }
    ],
    "checkpoints": [
@@ -27601,8 +27601,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1327,
-       "sha256": "2cd4587ca2b3eff75b7eef32a313d9a142d33e885182b76e254e36f5777ceb39"
+       "size": 978,
+       "sha256": "9322b59273ce4be3c2f528160c454e1887b408d269e98c51e3210d12835671b3"
       },
       {
        "path": "seed-1/metadata.json",
@@ -27657,8 +27657,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1327,
-       "sha256": "ca17a09d215e84ff120a643d32091fffb082700421b740ca37ec37d344cc2e0a"
+       "size": 978,
+       "sha256": "d71f247ae721ee7c12daaf8e790189759aa43bdea6605ae37c096fa1e7cc01f8"
       },
       {
        "path": "seed-2/metadata.json",
@@ -27713,8 +27713,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1327,
-       "sha256": "b8089b9ecebba023816b37e482481d9a3cd1fce992fa3c69fd65bcab73531097"
+       "size": 978,
+       "sha256": "75d650da2fc1cae02371304237daf3540c9d252ebf22f749efe290c72947309c"
       },
       {
        "path": "seed-3/metadata.json",
@@ -27769,8 +27769,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1327,
-       "sha256": "c39cb675815e0f9bc4c2b3dd2befd659987d52e966561973f4cb5781beb09476"
+       "size": 978,
+       "sha256": "08ef5eddea7cf1263cbbe8229873cb4a2078f5aaecffc54e13197ce18b099867"
       },
       {
        "path": "seed-4/metadata.json",
@@ -27825,8 +27825,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1327,
-       "sha256": "50b2ffa2d7da5ec4ebec05176dd262d3c2700ff5a5962faa47f1164f206bd655"
+       "size": 978,
+       "sha256": "92558b983e118a2a472512dd9d3c93385f8ea882f3013b07e078b3d3a16e4955"
       },
       {
        "path": "seed-5/metadata.json",
@@ -28121,7 +28121,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r02-auto-iql-success-bc-n32-divl",
-   "revision": "04c4667950ca630a097434bb0e480cfd517fdce3",
+   "revision": "7b9cbdea6d1a8f4be65c2f75aa0b73058213f658",
    "tag": "release-1",
    "extra_files": [
     {
@@ -28132,7 +28132,7 @@
     {
      "path": "release.json",
      "size": 15186,
-     "sha256": "4ebfe880e453a5d8a0207653947abec84bea5520ca09a008ba01ef005803eb35"
+     "sha256": "4f5c20cfc2572d96328ddee49476055790688a26bd0398a57a289588d9b22212"
     }
    ],
    "checkpoints": [
@@ -28149,8 +28149,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1360,
-       "sha256": "b6e3ab4d3e18ca997698dc77b7f6dc87f382d6529ca99e502ec820752184d378"
+       "size": 1000,
+       "sha256": "9e24c8a26d1056b154bd63acc9d87299d136506c89d0df6f6d0d842a17d0e832"
       },
       {
        "path": "seed-1/metadata.json",
@@ -28205,8 +28205,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1360,
-       "sha256": "2e4e30fc6eed0682271479c61bd2f210964687afbe4097907363a163fe370903"
+       "size": 1000,
+       "sha256": "6abd09b2e655f5f092c9e0c4c1dbf93815dd6015163170db3da619c3258aab26"
       },
       {
        "path": "seed-2/metadata.json",
@@ -28261,8 +28261,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1360,
-       "sha256": "2af383d9ec3aad032e58199f279e1b1810a267b887e0407f9cf8349445a14d8f"
+       "size": 1000,
+       "sha256": "6026b2d847aa10f755b7c867f7e38c85c9fa6c7c0f829151d2536edd3de3ba48"
       },
       {
        "path": "seed-3/metadata.json",
@@ -28317,8 +28317,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1360,
-       "sha256": "d6f131aadc8b7ebdf41ede218a723c978c090d2a4500496b43f8647a33b62970"
+       "size": 1000,
+       "sha256": "d0063e77a29a8b4ea6f7d6ed1513f3012b5b20de069642c00e3b683f675a31df"
       },
       {
        "path": "seed-4/metadata.json",
@@ -28373,8 +28373,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1360,
-       "sha256": "11945f7737fa81f444c389dfc428f11c99b80ef55c2a5a2482e02bae3cc2f1b4"
+       "size": 1000,
+       "sha256": "24b5f0169e47eaed8203db560e96b215c833eaa519e64c89f021549fe2fedca4"
       },
       {
        "path": "seed-5/metadata.json",
@@ -28918,7 +28918,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r02-baseline-divl",
-   "revision": "b2ec23a3d96f4cc92ee8f6fa553b6d8c15f00172",
+   "revision": "ac26508cd2f1dff570846e0e37c1054e91347bec",
    "tag": "release-1",
    "extra_files": [
     {
@@ -28929,7 +28929,7 @@
     {
      "path": "release.json",
      "size": 15326,
-     "sha256": "8e6a7bd0ca293f9d9390624e37dc013852423c124481b487f531dbbbba0bd3c4"
+     "sha256": "6286519ee0b7ebb85799fcc2b5e7a1add23b2ffb8a376998d8dce929520ac61e"
     }
    ],
    "checkpoints": [
@@ -28946,8 +28946,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1611,
-       "sha256": "5fc13f26f259fe07e8a18b62507f0b06effc215727e49903b5b4203d851c726e"
+       "size": 1074,
+       "sha256": "a3293b8500cbeb7cee6467f3ea5d67c4a14473540a54556901de982fcc7f5a5f"
       },
       {
        "path": "seed-1/metadata.json",
@@ -29004,8 +29004,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1611,
-       "sha256": "0d3267ffae9976bfa3a507c181671536ef70e1063347494ac79fbcc484264043"
+       "size": 1074,
+       "sha256": "908d3266c90196d739527165e13cdca82652a12bf881e68a25e4ba60ed3817c5"
       },
       {
        "path": "seed-2/metadata.json",
@@ -29062,8 +29062,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1611,
-       "sha256": "521a4ae23bbd22141e446d03bcf89dcfd96dc3d5d7e188e64560cf7645327bb6"
+       "size": 1074,
+       "sha256": "9655da03e7470410f114348953190aecef52d7c0d108e8d64a0056ddf0365c65"
       },
       {
        "path": "seed-3/metadata.json",
@@ -29120,8 +29120,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1611,
-       "sha256": "c47ac6f19c2c60ec509404c5c13dd61251daab83128cd10b36876b917f950af4"
+       "size": 1074,
+       "sha256": "5bcb167d049fbd875658d41cfa56191f35e90652ae0eb62f69eed348073187f1"
       },
       {
        "path": "seed-4/metadata.json",
@@ -29178,8 +29178,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1611,
-       "sha256": "32dc8734666527781b911061003e62a31967dc7f37c31894dcab44ff253a6130"
+       "size": 1074,
+       "sha256": "306c35725449489a1a36c046883dd56bf2423833d637b23e27723bf306f74993"
       },
       {
        "path": "seed-5/metadata.json",
@@ -29486,7 +29486,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r02-mulligan-divl",
-   "revision": "bf496aba24460ffa37735d8d9c44661242b1750a",
+   "revision": "d87f0481a1e3dfb330d1b2415e751ab6effdd98a",
    "tag": "release-1",
    "extra_files": [
     {
@@ -29497,7 +29497,7 @@
     {
      "path": "release.json",
      "size": 15266,
-     "sha256": "1aa5be34e20d5d86c63686593fca8db5e00f5231d348af5fc94325967c4abf47"
+     "sha256": "b4f1ba91538f1d41ec1f1f3777af95ce76dbfd9538b3edf96b55190bc4ed0405"
     }
    ],
    "checkpoints": [
@@ -29514,8 +29514,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1599,
-       "sha256": "7b5538a7b1b6f7e0b34e18729f69146dbc40cdc82888db01a8bcb975944b6a75"
+       "size": 1068,
+       "sha256": "3ccd25ffeaa9b3e394d7971755d61c2f4e5f013700d0cd2bdd4f8d16f295b1f4"
       },
       {
        "path": "seed-1/metadata.json",
@@ -29572,8 +29572,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1599,
-       "sha256": "1c022a016c0f428cfda42d0bf7ada2d4223f96a0be965f196751f4f3893d45e3"
+       "size": 1068,
+       "sha256": "65a78e2ff6edebf8357feabb7018ec3c9ff515e7a32fd1b04602be3dd06a4076"
       },
       {
        "path": "seed-2/metadata.json",
@@ -29630,8 +29630,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1599,
-       "sha256": "51fbf14689b9069f7643e5f8a0163a3b74c05ec0dbb15c37056a497b30856240"
+       "size": 1068,
+       "sha256": "00305b15965fbed11a7ff9c7ab1dff459b79a620e934ee65b4781c1b5668052b"
       },
       {
        "path": "seed-3/metadata.json",
@@ -29688,8 +29688,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1599,
-       "sha256": "bc3b48ec735c8d806e44818c18a039249016515e2e4e56a21540b09da09fa2a3"
+       "size": 1068,
+       "sha256": "171ab971b08d1373a176bfc84e49f123b98f318d5641768b6fe4d4f74062f92e"
       },
       {
        "path": "seed-4/metadata.json",
@@ -29746,8 +29746,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1599,
-       "sha256": "0c5ad46559840da4fac7b3aa959f675ce73e6737e57a748b9e1412022edb7eac"
+       "size": 1068,
+       "sha256": "414d9d7e627cf283d88ec7983020c5c3574250a6b9fde3a17d4dad952f3e3939"
       },
       {
        "path": "seed-5/metadata.json",
@@ -30054,7 +30054,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r02-mulligan-no-cf-divl",
-   "revision": "634c3075659b6aae32b1783eca1c65745ac929b1",
+   "revision": "9b04c34b3071ada1f0d900d2d188ce0b50443cad",
    "tag": "release-1",
    "extra_files": [
     {
@@ -30065,7 +30065,7 @@
     {
      "path": "release.json",
      "size": 15342,
-     "sha256": "49a7529ead273f11966de2ae8274c1117d35c1c0f26c1046b34425a197587bfd"
+     "sha256": "0b1ac7a2c66af8a0faf2620b975cde31b628ff850d3e3fff65ffe60f4a1f769f"
     }
    ],
    "checkpoints": [
@@ -30082,8 +30082,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1629,
-       "sha256": "956ca11c5facbb98d0cac42501aad1951bb500d69694fa3f7901a5638e240201"
+       "size": 1086,
+       "sha256": "adfbade2540bda7d245858aabdb5bbe9d763b319635830c28f5994eb79fc152f"
       },
       {
        "path": "seed-1/metadata.json",
@@ -30140,8 +30140,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1629,
-       "sha256": "cf44782b5d8068b0162858ca8b94f678148058a055439f26efc87a76e2917bc9"
+       "size": 1086,
+       "sha256": "a86f318d2bf5c971bae01e43990d5080433108ce405e81eda33811df610866f8"
       },
       {
        "path": "seed-2/metadata.json",
@@ -30198,8 +30198,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1629,
-       "sha256": "3a5d13580d8fdd8e662e76ba302c29d644c25da6ea72fd166ade83a370dea899"
+       "size": 1086,
+       "sha256": "09b335ba1125c08ce7e5e58e48a409a9c188837c9cc6989a059737252985adfe"
       },
       {
        "path": "seed-3/metadata.json",
@@ -30256,8 +30256,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1629,
-       "sha256": "3d08dd07c4f72b7f51732cc63d08374f234d343aeb35f1e91ccfe3f0bd48506c"
+       "size": 1086,
+       "sha256": "76fc7c1dc9815d15d9a837fbd3ec8f3305d360669c1a0e0432ac1296fad266c2"
       },
       {
        "path": "seed-4/metadata.json",
@@ -30314,8 +30314,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1629,
-       "sha256": "6564f38c29d71ea35eaf9aca9ea9bfa158f7cc4be93cf79f22293b5c1663014a"
+       "size": 1086,
+       "sha256": "05e735331d062e734e3794be0c2fafe95f6f20dbde8a0d991c245a6cf851529f"
       },
       {
        "path": "seed-5/metadata.json",
@@ -30831,7 +30831,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r03-auto-iql-n32-divl",
-   "revision": "42cfb5933475946bd1abeb1a615ca3808a43cce8",
+   "revision": "d6f79fb6bedeb45a9d6da783b68fe515be0faaf1",
    "tag": "release-1",
    "extra_files": [
     {
@@ -30842,7 +30842,7 @@
     {
      "path": "release.json",
      "size": 14980,
-     "sha256": "aab34c2e72ff2be31cfa37f2b27a4aa7feb9494ae825ab4ffc73583a86738eff"
+     "sha256": "e16dccb6be3553ef4262a01afd2c42005a926100b009fcc7ba04aae6a0e2aff9"
     }
    ],
    "checkpoints": [
@@ -30859,8 +30859,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1505,
-       "sha256": "b013e891c14e7e74fe44e8d51a8bed812450c341dc1acbd5572c8a195c4cc6e9"
+       "size": 1045,
+       "sha256": "090953b54f6d83df94da96f85e0e21aabd69a2e623e4961615e35dd2e8b42723"
       },
       {
        "path": "seed-1/metadata.json",
@@ -30916,8 +30916,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1505,
-       "sha256": "c63ea841430cd37f599e075b1b2e4cfecc8d48309176af755c7949359e870cfd"
+       "size": 1045,
+       "sha256": "fac38972ee86624d2b8db3fa89b7acbdd79ee4a10e7cc69c634e155306758b34"
       },
       {
        "path": "seed-2/metadata.json",
@@ -30973,8 +30973,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1505,
-       "sha256": "511cfae20c4cbdd4a83450a65d49f864fed9677b02d0b4a9ae921ee01d597964"
+       "size": 1045,
+       "sha256": "71b6f47a419f9820bdb08e5cc42d57b60ac57e03e6657d369b6236cc0e22014e"
       },
       {
        "path": "seed-3/metadata.json",
@@ -31030,8 +31030,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1505,
-       "sha256": "b74fa87f1910f7e2c3d8a633bd6fef5d73abcbe11d6688a730ce6f1e2e8054c6"
+       "size": 1045,
+       "sha256": "1f5d5f74a52944eb7bc8accca3a385dd80ade9a2b9e33e4efa3446c049078616"
       },
       {
        "path": "seed-4/metadata.json",
@@ -31087,8 +31087,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1505,
-       "sha256": "c061d36dca1855631758ca991cb88ed7385663c56f23d01ec9cbbce4794e3ab7"
+       "size": 1045,
+       "sha256": "70565e60a344b911d8bcfa3e8a4306d55c2a44631c64f0689a127a4321446996"
       },
       {
        "path": "seed-5/metadata.json",
@@ -31389,7 +31389,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r03-auto-iql-success-bc-n32-divl",
-   "revision": "3e1fbd63abaf1d44ac12fa88078578753743807f",
+   "revision": "7d5bc898d4ce7311d1e195c2e9c4179911e0ce93",
    "tag": "release-1",
    "extra_files": [
     {
@@ -31400,7 +31400,7 @@
     {
      "path": "release.json",
      "size": 15596,
-     "sha256": "6c3f472ef697b19704c74a41fcacad40cd14b2e795a2d6a791279c80b4b76dfc"
+     "sha256": "079191b0f1af3c837e46bc9f769ff5594a4a5de140fcbe0537a0651444c8e0d4"
     }
    ],
    "checkpoints": [
@@ -31417,8 +31417,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1560,
-       "sha256": "d299001e5485882b85380e5c3e3c4978565d7814d2ba4cb4ff60fbc85b5f0b9b"
+       "size": 1078,
+       "sha256": "640ad2f51db1af31d5ce303e9ac964257bd1780dc49efa99cf5e06e7f68e5a94"
       },
       {
        "path": "seed-1/metadata.json",
@@ -31474,8 +31474,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1560,
-       "sha256": "10c61ce39d23bc1abe3b296b23598b7e4cc914812ad945477fc4955346180847"
+       "size": 1078,
+       "sha256": "c4c25923d5fb738d9a3d9491897fb9cc781931db1102b8a942b83aca9220cf3b"
       },
       {
        "path": "seed-2/metadata.json",
@@ -31531,8 +31531,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1560,
-       "sha256": "e1f183b42aad84c59d42d093b5417fe1c87a73ddde74e5f02da2d5e234f97849"
+       "size": 1078,
+       "sha256": "ebc657af2d2c75f30201776330e40b826e1fb615df4a75779c9a9fdd69bc556f"
       },
       {
        "path": "seed-3/metadata.json",
@@ -31588,8 +31588,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1560,
-       "sha256": "25f447b1ae6069afad6090894ee382a2eb42a5cae2cc49bb8979db9665d8d3c4"
+       "size": 1078,
+       "sha256": "2eb44c3ddbceb4d19f48cf142b3823736d07bac363f994dce723f0e0d1fce90e"
       },
       {
        "path": "seed-4/metadata.json",
@@ -31645,8 +31645,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1560,
-       "sha256": "1b688fee6124690e2e2542d100a5b15404cc73cf5ca4281f32970b56f4dafb22"
+       "size": 1078,
+       "sha256": "f0ed1da27983e625a530a0de292aa2efba0969551abfb62695c25ec69fada8ca"
       },
       {
        "path": "seed-5/metadata.json",
@@ -32201,7 +32201,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r03-baseline-divl",
-   "revision": "414c3494f57c66239110dfdecfd4cc6d44f52635",
+   "revision": "0de91f3209beeda486116b3fd1f873b438914cff",
    "tag": "release-1",
    "extra_files": [
     {
@@ -32212,7 +32212,7 @@
     {
      "path": "release.json",
      "size": 15396,
-     "sha256": "9b6e6bea93642d9862ebebcdc1c395434013ddca0e630b98640a44754d399a61"
+     "sha256": "b161900c2cee93e5250d319e9d86a19e0c960b78ab87499d76d630fbf23b2351"
     }
    ],
    "checkpoints": [
@@ -32229,8 +32229,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1763,
-       "sha256": "9e3be6610f28f353c5ef6b46bcd3dc477eae08e305f0a4b8bcaff451e7ebb07d"
+       "size": 1128,
+       "sha256": "05d2fb9deed650e61e0948dc9f68486578b7766afe4d7a0d03b294ee0f0753e1"
       },
       {
        "path": "seed-1/metadata.json",
@@ -32288,8 +32288,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1763,
-       "sha256": "a5cb4e73693c2fd6f2b3ff929f6bf76dd6239976164b3549d90b973617894251"
+       "size": 1128,
+       "sha256": "ebd79124fc2c1d7492f89b2be3208100201858ae9f646432e548d9c14548ff07"
       },
       {
        "path": "seed-2/metadata.json",
@@ -32347,8 +32347,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1763,
-       "sha256": "9745950f709848ec21b89a819d11214fd81384a6706bd8d413691f5890a8ee8d"
+       "size": 1128,
+       "sha256": "d523ed6ded65680707144123a718ff43b06db5aebaf1c40c9b6c15c0cd3df1c3"
       },
       {
        "path": "seed-3/metadata.json",
@@ -32406,8 +32406,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1763,
-       "sha256": "024cfa2c3625385c0399abc6382a47f7af4eb300301f4bb1d38abad90e3616c4"
+       "size": 1128,
+       "sha256": "cabd001681479bd70777e2c35e7d0f3c6413dbe71e9c03e51f90e8f3c4214d99"
       },
       {
        "path": "seed-4/metadata.json",
@@ -32465,8 +32465,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1763,
-       "sha256": "e9abbf88731bfd86cd399dda4738fa94a8b60a4409c3d9da5025c9aedd13e1dd"
+       "size": 1128,
+       "sha256": "85ed559a7f952f9f797e5639475093322ac81239b30ffc9a49b0a3e34f8dabb0"
       },
       {
        "path": "seed-5/metadata.json",
@@ -32734,7 +32734,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r03-baseline-with-c03-rollouts-divl",
-   "revision": "dd35592eeba7a42728781a3b4acce2a40c840ffc",
+   "revision": "69d78c990c4d2dae8e6ff953baa7b2235ee5006c",
    "tag": "release-1",
    "extra_files": [
     {
@@ -32745,7 +32745,7 @@
     {
      "path": "release.json",
      "size": 16779,
-     "sha256": "d9bcca7b4cfff9b80d9c91ec198d1b63c9693476e31f69a9835cdc4bf1f3edf4"
+     "sha256": "22810a88093e8da5fa0d539d3559582c2aba1ac9d3f088d54200f0fb41ab14ac"
     }
    ],
    "checkpoints": [
@@ -32762,8 +32762,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1951,
-       "sha256": "c0a69e9c70ce074eac31a96f007f66b53b33fc4ecdf132851de84502fafe2c9e"
+       "size": 1209,
+       "sha256": "4e303276d1c936b9aedae1d392605a1513ed0ddbdd860cff1fe3e42fa0204191"
       },
       {
        "path": "seed-1/metadata.json",
@@ -32822,8 +32822,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1951,
-       "sha256": "56d2805a976b4a3ae2bbbde1b744092410c06c3429606e02e8bfd16c3efdccd3"
+       "size": 1209,
+       "sha256": "a8b5a8f8a1a4263c8e71858befca54671599d67ef0c103d62cc976a28892b7ee"
       },
       {
        "path": "seed-2/metadata.json",
@@ -32882,8 +32882,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1951,
-       "sha256": "df1e2f87167c129878229b06ce63ceb367fb276c70201a693072934fa8673eb5"
+       "size": 1209,
+       "sha256": "cd56aee5973c95be7f2be84b3e8840efefcf1746b4bb1a68d965ed01ea6c73ff"
       },
       {
        "path": "seed-3/metadata.json",
@@ -32942,8 +32942,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1951,
-       "sha256": "3e49498c2fe32f4ad171b2efeeeedb335dd643eb932d31ebbcdc897f221b0de2"
+       "size": 1209,
+       "sha256": "810938600993c3ff5e7cdb5d1b5d4a0620c03895b92707e61f7555510581699f"
       },
       {
        "path": "seed-4/metadata.json",
@@ -33002,8 +33002,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1951,
-       "sha256": "b9bf28906a6f48e87db0a9efa3e6cdd1a1bc9f06cc12dac1d84df2b0af2fa30e"
+       "size": 1209,
+       "sha256": "ceda9f5c84d344d7d0a297bdeacb3bf451b557b34460bd32b270523e63e96e8f"
       },
       {
        "path": "seed-5/metadata.json",
@@ -33322,7 +33322,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r03-mulligan-divl",
-   "revision": "38eaa910f1a6f22864e1c95d315ae6e1542676d7",
+   "revision": "68134f17e2e9b121382750276fcc7736af112aae",
    "tag": "release-1",
    "extra_files": [
     {
@@ -33333,7 +33333,7 @@
     {
      "path": "release.json",
      "size": 15891,
-     "sha256": "2fb32a7af9b98f39db5f50714eb14e345e8d5579f7c02374192a102bfc4cddef"
+     "sha256": "c9cacb9ba19fa880d76c17c289f8d3917718a6d2c7c09f4bdec6979c30f01176"
     }
    ],
    "checkpoints": [
@@ -33350,8 +33350,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1921,
-       "sha256": "ebaf56e854d7fcb3879adf17cf1f40770064bf418b980f1196ced5694887230e"
+       "size": 1185,
+       "sha256": "10d5e5b3911f998ab22e0032607a4516a26e222256e86e54299eff4a398616dc"
       },
       {
        "path": "seed-1/metadata.json",
@@ -33410,8 +33410,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1921,
-       "sha256": "8e5f4cccf23b234910930318ef85f018f63b697331f69f9d5e77653febf99dd8"
+       "size": 1185,
+       "sha256": "5dc6eb1a8c23a4277f99d9c7e1113f02fa3325a13de4290916778603c9778f55"
       },
       {
        "path": "seed-2/metadata.json",
@@ -33470,8 +33470,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1921,
-       "sha256": "8e127464ea58999c097eeb88f7c3bf03112b29381a23ca76053d0f3df01dc799"
+       "size": 1185,
+       "sha256": "3d7cf4fc6dd0006f8fd3af16b57d82a0deb92329bb5000a7d67b4b5562c2bc4d"
       },
       {
        "path": "seed-3/metadata.json",
@@ -33530,8 +33530,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1921,
-       "sha256": "60a6c62317b7f42968be66c6d5f637bf025ef053be89c6c3bac21bbb6ab2e824"
+       "size": 1185,
+       "sha256": "24cbbf0502902146789a75f48d561f846813698e42460c667d5aa2d931b78c49"
       },
       {
        "path": "seed-4/metadata.json",
@@ -33590,8 +33590,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1921,
-       "sha256": "1ef705bff684764371e2ad64aa74ed3b1b57bc7b35833398c9b6a5a04844052e"
+       "size": 1185,
+       "sha256": "69da0d1b7e3a8f60a42bef87f7f17520d09a8ed474d0e62c602bcf7968d534e7"
       },
       {
        "path": "seed-5/metadata.json",
@@ -33910,7 +33910,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r03-mulligan-no-c03-rollouts-divl",
-   "revision": "74cb0bbc716be2bbcb45965067e7cb45d8c9260b",
+   "revision": "21a37032f46e63187eb6fbd3020b5ef7d17c51eb",
    "tag": "release-1",
    "extra_files": [
     {
@@ -33921,7 +33921,7 @@
     {
      "path": "release.json",
      "size": 16072,
-     "sha256": "e3c02cf46de4935c3c1318d4109b608016244fd9677dd8063ed2457d0b881b75"
+     "sha256": "a3b15cfa3e7a94a02972a266a49d1941354a8078dc67886fff87e809b97ec937"
     }
    ],
    "checkpoints": [
@@ -33938,8 +33938,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1767,
-       "sha256": "a5404b52ffd1f46ea5cea57161fc7612bffc0be2fed5f76083312f2b6dbfb19f"
+       "size": 1138,
+       "sha256": "54c9b02b7e7f5056bc3c3cc009964c6304c1971f7bbcd4daff63e662e1f95edc"
       },
       {
        "path": "seed-1/metadata.json",
@@ -33997,8 +33997,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1767,
-       "sha256": "c207faf6c595bbc87ae6b2a46b2ce45ca6ee31b2d40a846239c909492a98eed9"
+       "size": 1138,
+       "sha256": "d16cdb5c716e9da2dd1b807a044b3f3340408e975c62ef16f130cb7e60413ccb"
       },
       {
        "path": "seed-2/metadata.json",
@@ -34056,8 +34056,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1767,
-       "sha256": "615ed10cf9b6d47f5e3f11a238ea24cb30a7cee3a8b4d473ef082c3394441f19"
+       "size": 1138,
+       "sha256": "2edebf2bc20db6fbcc42eaeddb33c2b5b3e6b02820d9810dde6a634e5232ed24"
       },
       {
        "path": "seed-3/metadata.json",
@@ -34115,8 +34115,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1767,
-       "sha256": "c0a808479fdd2dd70bb9c0be0cca5394e5e49c51bbdf7eb603ee8555a3c82c76"
+       "size": 1138,
+       "sha256": "880b8b33d443d00e2e6d7d9a61e926b8242dd3ab4c2608a0d9ac5d876a7ab3a2"
       },
       {
        "path": "seed-4/metadata.json",
@@ -34174,8 +34174,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1767,
-       "sha256": "d15ced56f470ec1de4cc102471418a1e3e64ad0060483578725811090c63229e"
+       "size": 1138,
+       "sha256": "fcaa62ca7525a7b4151c8616c6030754ebcf61296251668eeab81a21ac9f1da1"
       },
       {
        "path": "seed-5/metadata.json",
@@ -34443,7 +34443,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r03-mulligan-no-cf-divl",
-   "revision": "b04942ccddfb9817da8c910eaace68c80d7e5111",
+   "revision": "a7cc858c3ca9a852b6453c3e34de90225c73adaa",
    "tag": "release-1",
    "extra_files": [
     {
@@ -34454,7 +34454,7 @@
     {
      "path": "release.json",
      "size": 15997,
-     "sha256": "d29611773f906eff72a141639c343605951abe02f8bf81e3e7c7bb2db451185e"
+     "sha256": "58a5cd597cd4f32251034267c0c2566add83b958640e1df27bac4cb4a62cfab5"
     }
    ],
    "checkpoints": [
@@ -34471,8 +34471,8 @@
      "files": [
       {
        "path": "seed-1/critic_value_summary.json",
-       "size": 1963,
-       "sha256": "5310c91fa0b23d1f53487dbf2b1e5d5cc79af7cb2021d555f88e3aad5d1e4b82"
+       "size": 1209,
+       "sha256": "c988c1977fa6f25faf752273adbec7d8222c48a45656ab996e2a5e7cf55b4c30"
       },
       {
        "path": "seed-1/metadata.json",
@@ -34531,8 +34531,8 @@
      "files": [
       {
        "path": "seed-2/critic_value_summary.json",
-       "size": 1963,
-       "sha256": "442c69b6f5036fcc950401e6481e6104deaf0c221347f206d9bc73e5dbb1ff7d"
+       "size": 1209,
+       "sha256": "8ea61f9dd4d8d2c00179d3b0b43efc929064446d0d8dfd78a17a93c9155f46cc"
       },
       {
        "path": "seed-2/metadata.json",
@@ -34591,8 +34591,8 @@
      "files": [
       {
        "path": "seed-3/critic_value_summary.json",
-       "size": 1963,
-       "sha256": "b6bb873ef6fa9e426e102161fa30e97d4da0ca9b44f07f2c334c5d2bb2039b68"
+       "size": 1209,
+       "sha256": "3e67a34dda8c404c2caa96d26f2531187c3bd32c888bf1d6c522aa59799dfa4a"
       },
       {
        "path": "seed-3/metadata.json",
@@ -34651,8 +34651,8 @@
      "files": [
       {
        "path": "seed-4/critic_value_summary.json",
-       "size": 1963,
-       "sha256": "7b798155bd6c92c17544e6a2351452d1cd16202f5d63c931223124aef7b064c3"
+       "size": 1209,
+       "sha256": "9cd3f51ba5fccc3319bde6df199009032728ddbd615911eda828e4f498d1583a"
       },
       {
        "path": "seed-4/metadata.json",
@@ -34711,8 +34711,8 @@
      "files": [
       {
        "path": "seed-5/critic_value_summary.json",
-       "size": 1963,
-       "sha256": "2a284e1e0ed7a0ff1f4509df2effc6a33e2b0bb3ed228f3456c8a348b1338f33"
+       "size": 1209,
+       "sha256": "38117061de6316974954722c07ed2fa6a712d26d915883557038d9fb43351616"
       },
       {
        "path": "seed-5/metadata.json",

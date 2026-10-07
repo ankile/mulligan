@@ -7,7 +7,7 @@ describe("orderTaskChips", () => {
   const statuses = new Map<string, EntityStatus>([
     ["square_d2", "mainline"],
     ["routing_d2", "mainline"],
-    ["insert_marker_d1_v0", "retired"],
+    ["pilot_task_v0", "retired"],
     ["franka_pick_cube", "retired"],
     ["marker_d2_ablate", "ablation"],
     ["smoke", "testing"],
@@ -15,7 +15,7 @@ describe("orderTaskChips", () => {
 
   test("mainline first, then ablation, testing, retired; alphabetical within", () => {
     const chips = orderTaskChips(
-      ["smoke", "insert_marker_d1_v0", "square_d2", "franka_pick_cube", "marker_d2_ablate", "routing_d2"],
+      ["smoke", "pilot_task_v0", "square_d2", "franka_pick_cube", "marker_d2_ablate", "routing_d2"],
       statuses,
     );
     expect(chips.map((c) => c.task)).toEqual([
@@ -24,7 +24,7 @@ describe("orderTaskChips", () => {
       "marker_d2_ablate",
       "smoke",
       "franka_pick_cube",
-      "insert_marker_d1_v0",
+      "pilot_task_v0",
     ]);
   });
 

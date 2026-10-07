@@ -22,13 +22,13 @@ paper:
   - mulligan/real-square-d2-r05-screen b03 (HiL-IDQL+Mulligan actor, N=16)
   collections: []
 dataset_revisions:
-  mulligan/real-square-d2-c00-teleop-sobol: 3297332740f7ed1897a25015e0d307f3afe7fa9b
-  mulligan/real-square-d2-c00-teleop-validation: 30c8e47be25efb9efb40d5a0e84cd0e502223c12
-  mulligan/real-square-d2-c01-dagger-mulligan: aaf4407363220180e1ab72cc76dbadfa3a780ac6
-  mulligan/real-square-d2-c02-dagger-mulligan: 469a31c0ee4830868256a667178e74a29b1c27d8
-  mulligan/real-square-d2-c03-dagger-mulligan: 71882a30cd33550b506c04d9f526d7448efe54c1
-  mulligan/real-square-d2-c04-dagger-mulligan: 16e48f7c2b9f5cb20ac7ebcfb0b51721368e66fb
-  mulligan/real-square-d2-c05-dagger-mulligan: 167b4d1b7f11c931c6771d638b8b67791f132010
+  mulligan/real-square-d2-c00-teleop-sobol: 59ba60fbf71ea3e771722343d80c6fe26ce561c6
+  mulligan/real-square-d2-c00-teleop-validation: cf5b061c26361ae9406982b8ab7b6f51c8d52856
+  mulligan/real-square-d2-c01-dagger-mulligan: ab3462641d91bd5ca447f8e36e97969e60d61c4f
+  mulligan/real-square-d2-c02-dagger-mulligan: 4318cb60f0cae6cf159b6f296c05d0d64f573f23
+  mulligan/real-square-d2-c03-dagger-mulligan: 0770c51203b06065d0777ddb5616f18651d3d923
+  mulligan/real-square-d2-c04-dagger-mulligan: a8455df5b1d5563b0d4e133030469076b9ff9222
+  mulligan/real-square-d2-c05-dagger-mulligan: f2591e216ed916fa809047fb3813dd5070c342b0
 dataset_episodes: {}
 args:
   task: square_d2

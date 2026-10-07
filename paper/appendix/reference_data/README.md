@@ -40,20 +40,7 @@ summary. Rates are already in percent. This table uses the six-step RECAP
 campaign and its scalar-IQL (DP+IQL) controls, not the DIVL heads. Run and
 checkpoint identifiers (release ids) remain in the source records. Reproducing the table does not rerun the simulator.
 
-The **stage-label census** of 36 per-repository records is checked and
-summarized in `analysis.json`; the paper prints no coverage table. Episode counts are checked against the
-independently preserved `episode_counts.json`. Each repository must occur once,
-label intersections and disjoint counts must add up, and the five-line totals
-must agree. Percentages are computed from summed counts, not averaged from repository
-percentages. The final-round training-set ledger is built by the
-[data_ledger](../data_ledger/README.md) package, not from this census.
-
-The census is not the entire collection campaign. Many included repositories
-are evaluation or diagnostic datasets, and coverage includes partially labeled
-repositories; the paper's text and headings give its scope. The Route
-Cable census covers the collection and evaluation datasets of the velocity-action
-lineage and excludes the final 15-arm evaluation (`mulligan/real-routing-d2-r00-r05-eval`). `paper/build/cache/reference_data/data/analysis.json` records the
-computed totals and paired results.
+`paper/build/cache/reference_data/data/analysis.json` records the computed RECAP results.
 
 ## Authored tables and assets
 

@@ -20,16 +20,16 @@ paper:
   collections:
   - mulligan/real-square-d2-c04-dagger-mixed
 dataset_revisions:
-  mulligan/real-square-d2-c00-teleop-sobol: 3297332740f7ed1897a25015e0d307f3afe7fa9b
-  mulligan/real-square-d2-c00-teleop-validation: 30c8e47be25efb9efb40d5a0e84cd0e502223c12
-  mulligan/real-square-d2-c01-dagger-mulligan: aaf4407363220180e1ab72cc76dbadfa3a780ac6
-  mulligan/real-square-d2-c02-dagger-mulligan: 469a31c0ee4830868256a667178e74a29b1c27d8
-  mulligan/real-square-d2-c03-dagger-mulligan: 71882a30cd33550b506c04d9f526d7448efe54c1
-  mulligan/real-square-d2-r01-eval-b01-baseline-dp-policy-rollouts: 78a3ccf37f82c83c41d84a91103aea35a3c398f8
-  mulligan/real-square-d2-r01-eval-b01-mulligan-dp-policy-rollouts: b9e7f70b21b664dab9beabd5a0f855af81a67186
-  mulligan/real-square-d2-r02-eval-b01-mulligan-dp-policy-rollouts: 5f987f3b8dd6a6d79863138d3d5c71e12380de67
-  mulligan/real-square-d2-r03-eval-b01-baseline-dp-policy-rollouts: 0951199cc385704863b7b35a4d5ce62979e2e67a
-  mulligan/real-square-d2-r03-eval-b01-mulligan-dp-policy-rollouts: cff03c20064540781b50342ff6afd7e5bc445048
+  mulligan/real-square-d2-c00-teleop-sobol: 59ba60fbf71ea3e771722343d80c6fe26ce561c6
+  mulligan/real-square-d2-c00-teleop-validation: cf5b061c26361ae9406982b8ab7b6f51c8d52856
+  mulligan/real-square-d2-c01-dagger-mulligan: ab3462641d91bd5ca447f8e36e97969e60d61c4f
+  mulligan/real-square-d2-c02-dagger-mulligan: 4318cb60f0cae6cf159b6f296c05d0d64f573f23
+  mulligan/real-square-d2-c03-dagger-mulligan: 0770c51203b06065d0777ddb5616f18651d3d923
+  mulligan/real-square-d2-r01-eval-b01-baseline-dp-policy-rollouts: 8195ad0597c571f852d053c585f96f1628b67034
+  mulligan/real-square-d2-r01-eval-b01-mulligan-dp-policy-rollouts: a31e721e1f0ecc26d915c6d134fba4dd8b43ba91
+  mulligan/real-square-d2-r02-eval-b01-mulligan-dp-policy-rollouts: 3aa8b9644afb4468be7c0d67feb06f2895e445b4
+  mulligan/real-square-d2-r03-eval-b01-baseline-dp-policy-rollouts: e176944c7d94c0bfbe3532c24ea98b5fc9e6f491
+  mulligan/real-square-d2-r03-eval-b01-mulligan-dp-policy-rollouts: b9dfd9ee75e533ca251dae7b6043d31cdf3e8b55
 dataset_episodes: {}
 args:
   repo-ids:

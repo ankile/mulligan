@@ -18,17 +18,17 @@ paper:
   - mulligan/real-routing-d2-r00-r05-eval b01 (HG-DAgger)
   collections: []
 dataset_revisions:
-  mulligan/real-routing-d2-c00-teleop-baseline: 83940e1cc5926abc24c88686b0be6688207f4fec
-  mulligan/real-routing-d2-c00-teleop-validation: 17384f6b0b7742a57a4dc052fabce27af6ee53d3
-  mulligan/real-routing-d2-c01-dagger-baseline: d4f7eb220a07fae9b80da1ea23d7bdface370a4b
-  mulligan/real-routing-d2-c02-dagger-baseline: d70d194c9fcceacc4310fd6bfd524e09ad145589
-  mulligan/real-routing-d2-c03-dagger-baseline: 889bdf8bc8eb9905068dc55b6f22c6d8203b5b3f
-  mulligan/real-routing-d2-c04-dagger-baseline: 5194bdc9472e23e5280e909fd591e38990f870c8
-  mulligan/real-routing-d2-c05-dagger-baseline: 41dfc8593a08ab06618caca75fcceff20b7fe0a8
-  mulligan/real-routing-d2-c06-dagger-baseline: a7a2b54e49bdba92933ec3cb73e92dccceafea63
-  mulligan/real-routing-d2-c07-dagger-baseline: ec0dbdd10b819230d2f7ad5467144775222f4f1f
-  mulligan/real-routing-d2-c08-dagger-baseline: 4f7328ece7f300ab344f4ee327e5332875286dd1
-  mulligan/real-routing-d2-c09-dagger-baseline: 0b023f838dcd537b31b436c17a05639689db628a
+  mulligan/real-routing-d2-c00-teleop-baseline: 07d07801febea152677c3ca3f4fa33597fa67305
+  mulligan/real-routing-d2-c00-teleop-validation: 25838c59cd68b8436ec16baf8217d8809c68defc
+  mulligan/real-routing-d2-c01-dagger-baseline: 0e0e0c13077b5eb8fce90cde094fbcaf49496c4f
+  mulligan/real-routing-d2-c02-dagger-baseline: 5529dae3eb673c7e61dfe635777491587bd50f2c
+  mulligan/real-routing-d2-c03-dagger-baseline: 618264c8dcc6ef28dd1a05af29cae657eb694a9b
+  mulligan/real-routing-d2-c04-dagger-baseline: 55e31a5f268a929568fb2d289230c2304ed10801
+  mulligan/real-routing-d2-c05-dagger-baseline: 38c888cdce7a59bfd8f8ff00854b811a7480e8a7
+  mulligan/real-routing-d2-c06-dagger-baseline: be55b306eef7559e537a88966a8081c3622410bd
+  mulligan/real-routing-d2-c07-dagger-baseline: 9a106255b72451d65f553c6a694e2240d4eabbd1
+  mulligan/real-routing-d2-c08-dagger-baseline: 6d31575e2c0e3df34387e0819fb483c4799b3359
+  mulligan/real-routing-d2-c09-dagger-baseline: 928af91480b18d556c7e97f2a4d05db8c5300f71
 dataset_episodes: {}
 args:
   task: routing_d2

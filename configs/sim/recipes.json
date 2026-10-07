@@ -86,7 +86,7 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
-          "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+          "revision": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
           "role": "training-view",
           "episodes": 100
         }
@@ -230,7 +230,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-narrow-r00-baseline-divl",
-          "revision": "cc09df4540c0c002913353d0c915406ace648dc1"
+          "revision": "876135c4a23fbf354df319361ee929d326a94a41"
         },
         "checkpoints": [
           {
@@ -297,7 +297,7 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-sobol",
-          "revision": "be8b5ba803a31ae633d6d61c30d2548cfc9a382c",
+          "revision": "e01d0970ed8522d3c5c210e88a040dc3864a421b",
           "role": "training-view",
           "episodes": 100
         }
@@ -441,7 +441,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-narrow-r00-sobol-divl",
-          "revision": "919346e0e09ce692fd51f2d65f5b858b7b2e3555"
+          "revision": "62d773f964724264e2fecbf4fb6a2d2480ada8da"
         },
         "checkpoints": [
           {
@@ -504,13 +504,13 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
-          "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+          "revision": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "fe2e6872474dbb475b14e2612038f627a405659c",
+          "revision": "551fc0dfd45c3eb88bd2113720f2c6d0098e6eea",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -622,13 +622,13 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
-          "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+          "revision": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-iql-n32-policy-rollouts",
-          "revision": "6800d10fdadf1e80f6f8a482efe9575cf028f49e",
+          "revision": "5bb4e65f40f888d5153242da93302939dbdaa066",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -751,7 +751,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-narrow-r01-auto-iql-n32-divl",
-          "revision": "e2eed3fa17a7f02ae18888dff8dfdaadc5a9fbbf"
+          "revision": "f0eb0477db52b977faaa6d00d9757aa87b25c4ec"
         },
         "checkpoints": [
           {
@@ -825,13 +825,13 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
-          "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+          "revision": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-iql-n32-policy-rollouts",
-          "revision": "6800d10fdadf1e80f6f8a482efe9575cf028f49e",
+          "revision": "5bb4e65f40f888d5153242da93302939dbdaa066",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -954,7 +954,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-narrow-r01-auto-iql-success-bc-n32-divl",
-          "revision": "0fcb1ca47a26180213e97f5f67002a9eba921516"
+          "revision": "3503d7f74566b5cd443bed7b560c55fb8c9c1048"
         },
         "checkpoints": [
           {
@@ -1028,13 +1028,13 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
-          "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+          "revision": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "fe2e6872474dbb475b14e2612038f627a405659c",
+          "revision": "551fc0dfd45c3eb88bd2113720f2c6d0098e6eea",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -1151,19 +1151,19 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
-          "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+          "revision": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-dagger-baseline",
-          "revision": "2f3f9e3974c58f608043d33ae6df9fa6371e286b",
+          "revision": "812814a8e622a6b536cc4a0ae9175da4d1de4cb0",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-baseline-policy-rollouts",
-          "revision": "390d13ef86cf25fc8fbd8a1a74cd807a8d0011d0",
+          "revision": "28c45548a399f568a96e5ff5ceb1158e0091c189",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -1283,7 +1283,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-narrow-r01-baseline-divl",
-          "revision": "412f3a4bb09a5a011c6b206ee8de3093cec2711e"
+          "revision": "cfde1ce3b7d40de46995fc8b335708f46c817442"
         },
         "checkpoints": [
           {
@@ -1349,19 +1349,19 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
-          "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+          "revision": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-dagger-baseline",
-          "revision": "2f3f9e3974c58f608043d33ae6df9fa6371e286b",
+          "revision": "812814a8e622a6b536cc4a0ae9175da4d1de4cb0",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-baseline-policy-rollouts",
-          "revision": "390d13ef86cf25fc8fbd8a1a74cd807a8d0011d0",
+          "revision": "28c45548a399f568a96e5ff5ceb1158e0091c189",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -1481,7 +1481,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-narrow-r01-baseline-straddled-auto-success-divl",
-          "revision": "b40e5f489dc83641ab5a0a605e8bff22a5451f9f"
+          "revision": "f4a6e37dd3a556cb9c5790038bc2cece5b16a6ac"
         },
         "checkpoints": [
           {
@@ -1547,19 +1547,19 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-sobol",
-          "revision": "be8b5ba803a31ae633d6d61c30d2548cfc9a382c",
+          "revision": "e01d0970ed8522d3c5c210e88a040dc3864a421b",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-dagger-mulligan-no-cf",
-          "revision": "25b2a5d03d769add4d856102029b76312853f491",
+          "revision": "7aa34f12f3c1db13110ca5edfcb33f6669370e9a",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-sobol-policy-rollouts",
-          "revision": "68e68af0628088c2bb34c5502a60599c4b7fa848",
+          "revision": "dcdb0d1a7ad234fed48e95209bc55b95f237c48a",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -1679,7 +1679,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-narrow-r01-mulligan-no-cf-divl",
-          "revision": "2a285c7d9064bf14522be04b02b77b4b881a188d"
+          "revision": "61dba7085b601d6e3ce944f76cd67e8c5428918e"
         },
         "checkpoints": [
           {
@@ -1748,19 +1748,19 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-sobol",
-          "revision": "be8b5ba803a31ae633d6d61c30d2548cfc9a382c",
+          "revision": "e01d0970ed8522d3c5c210e88a040dc3864a421b",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-dagger-mulligan",
-          "revision": "edd45cb479f89abe7403fa7bd797bfaf678138e1",
+          "revision": "76143af3be6192a3c69063f99e590c18db379bdc",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-sobol-policy-rollouts",
-          "revision": "68e68af0628088c2bb34c5502a60599c4b7fa848",
+          "revision": "dcdb0d1a7ad234fed48e95209bc55b95f237c48a",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -1879,7 +1879,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-narrow-r01-mulligan-divl",
-          "revision": "05e15eb4f0324587337fc7a8e3374398c6044443"
+          "revision": "93356d9ead01cc93ee3e7f1d1cb9ea7e1f51f1f7"
         },
         "checkpoints": [
           {
@@ -1944,19 +1944,19 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-sobol",
-          "revision": "be8b5ba803a31ae633d6d61c30d2548cfc9a382c",
+          "revision": "e01d0970ed8522d3c5c210e88a040dc3864a421b",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-dagger-sobol-with-cf",
-          "revision": "a4747c67d528f6e6ee462508143868705b3b3ea9",
+          "revision": "2b07a5c026f1aef5e0710bf96eaa35c6fa92ae1f",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-sobol-policy-rollouts",
-          "revision": "68e68af0628088c2bb34c5502a60599c4b7fa848",
+          "revision": "dcdb0d1a7ad234fed48e95209bc55b95f237c48a",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -2076,7 +2076,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-narrow-r01-sobol-with-cf-divl",
-          "revision": "3db581d0da88bef7fec6c0f27bbc39144ad9ef6e"
+          "revision": "d638ec1901b8dd4b8053207007d2a49cd92286e5"
         },
         "checkpoints": [
           {
@@ -2141,19 +2141,19 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-sobol",
-          "revision": "be8b5ba803a31ae633d6d61c30d2548cfc9a382c",
+          "revision": "e01d0970ed8522d3c5c210e88a040dc3864a421b",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-dagger-sobol-no-cf",
-          "revision": "72d609535cd21d7311f453a52c04e686a200bf90",
+          "revision": "27a4a93b4cf30b315f4cea0095840205d98662d9",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-sobol-policy-rollouts",
-          "revision": "68e68af0628088c2bb34c5502a60599c4b7fa848",
+          "revision": "dcdb0d1a7ad234fed48e95209bc55b95f237c48a",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -2273,7 +2273,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-narrow-r01-sobol-no-cf-divl",
-          "revision": "6d0407c3ebeccf05a8cb48a02a29f71925f9b00c"
+          "revision": "15d7a9bd272d7111e2b76addf75c70ef385da19f"
         },
         "checkpoints": [
           {
@@ -2336,19 +2336,19 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
-          "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+          "revision": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "fe2e6872474dbb475b14e2612038f627a405659c",
+          "revision": "551fc0dfd45c3eb88bd2113720f2c6d0098e6eea",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-auto-filtered-bc-n1-policy-rollouts",
-          "revision": "3913e025d952022c18bc384ca2f4d933d40f460b",
+          "revision": "af88e4ecdbeb537d30e6e8e9142e941a664aee46",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -2461,19 +2461,19 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
-          "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+          "revision": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-iql-n32-policy-rollouts",
-          "revision": "6800d10fdadf1e80f6f8a482efe9575cf028f49e",
+          "revision": "5bb4e65f40f888d5153242da93302939dbdaa066",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-auto-iql-n32-policy-rollouts",
-          "revision": "468ae9a8edbca4e83ab06b9e63d5f420f80def1b",
+          "revision": "a4e2f7d8a1f0b3f28da8dab3eaa45c55d07e451d",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -2597,7 +2597,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-narrow-r02-auto-iql-n32-divl",
-          "revision": "993c27f4933d50f8808feb6f541be1bcd62cc59a"
+          "revision": "6b562913d3cfae0d40560da3f617b3fb7a0b9a29"
         },
         "checkpoints": [
           {
@@ -2671,19 +2671,19 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
-          "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+          "revision": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-iql-n32-policy-rollouts",
-          "revision": "6800d10fdadf1e80f6f8a482efe9575cf028f49e",
+          "revision": "5bb4e65f40f888d5153242da93302939dbdaa066",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-auto-iql-success-bc-n32-policy-rollouts",
-          "revision": "4aeba7702a3df6ed5c483eb7798707e1a1c16e92",
+          "revision": "c1f694c917037b64a046f6f6ef1efe4dbabd1e86",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -2806,7 +2806,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-narrow-r02-auto-iql-success-bc-n32-divl",
-          "revision": "04c4667950ca630a097434bb0e480cfd517fdce3"
+          "revision": "7b9cbdea6d1a8f4be65c2f75aa0b73058213f658"
         },
         "checkpoints": [
           {
@@ -2880,19 +2880,19 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
-          "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+          "revision": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "fe2e6872474dbb475b14e2612038f627a405659c",
+          "revision": "551fc0dfd45c3eb88bd2113720f2c6d0098e6eea",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-auto-plain-il-n1-policy-rollouts",
-          "revision": "dd3ba581d352884231e21f2a69316ab40d06bfc0",
+          "revision": "21251261f211f84946ff52448335de95c7051b75",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -3008,31 +3008,31 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
-          "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+          "revision": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-dagger-baseline",
-          "revision": "2f3f9e3974c58f608043d33ae6df9fa6371e286b",
+          "revision": "812814a8e622a6b536cc4a0ae9175da4d1de4cb0",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-dagger-baseline",
-          "revision": "b35457653143a19c932d3102715313f5299e3f73",
+          "revision": "9d495e770469112d0055c95e5d57fbfc94227765",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-baseline-policy-rollouts",
-          "revision": "390d13ef86cf25fc8fbd8a1a74cd807a8d0011d0",
+          "revision": "28c45548a399f568a96e5ff5ceb1158e0091c189",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-baseline-policy-rollouts",
-          "revision": "74f5784de09833ae6036f42900afa6d21084aa90",
+          "revision": "40c2e95d2328a4a0173bd1eb452328d3d1705959",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -3154,7 +3154,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-narrow-r02-baseline-divl",
-          "revision": "b2ec23a3d96f4cc92ee8f6fa553b6d8c15f00172"
+          "revision": "ac26508cd2f1dff570846e0e37c1054e91347bec"
         },
         "checkpoints": [
           {
@@ -3218,31 +3218,31 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-sobol",
-          "revision": "be8b5ba803a31ae633d6d61c30d2548cfc9a382c",
+          "revision": "e01d0970ed8522d3c5c210e88a040dc3864a421b",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-dagger-mulligan-no-cf",
-          "revision": "25b2a5d03d769add4d856102029b76312853f491",
+          "revision": "7aa34f12f3c1db13110ca5edfcb33f6669370e9a",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-dagger-mulligan-no-cf",
-          "revision": "1c760f2d437018aca2a124f96c29fd612a6d8d99",
+          "revision": "2defd85e29f7d094d4f19287392369b6e9b61ace",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-sobol-policy-rollouts",
-          "revision": "68e68af0628088c2bb34c5502a60599c4b7fa848",
+          "revision": "dcdb0d1a7ad234fed48e95209bc55b95f237c48a",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-mulligan-policy-rollouts",
-          "revision": "ea6970ef1676132cfc4f369b6cf3d9520d79b72c",
+          "revision": "b22d240b77ee4f5095a35acdf3152d28cbbf03c5",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -3364,7 +3364,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-narrow-r02-mulligan-no-cf-divl",
-          "revision": "634c3075659b6aae32b1783eca1c65745ac929b1"
+          "revision": "9b04c34b3071ada1f0d900d2d188ce0b50443cad"
         },
         "checkpoints": [
           {
@@ -3431,31 +3431,31 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-sobol",
-          "revision": "be8b5ba803a31ae633d6d61c30d2548cfc9a382c",
+          "revision": "e01d0970ed8522d3c5c210e88a040dc3864a421b",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-dagger-mulligan",
-          "revision": "edd45cb479f89abe7403fa7bd797bfaf678138e1",
+          "revision": "76143af3be6192a3c69063f99e590c18db379bdc",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-dagger-mulligan",
-          "revision": "a313faa86ab1eadbaee13e6ef95da38090418d81",
+          "revision": "05150e4b67e45b066f2d26085f5b919cbdc769a5",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-sobol-policy-rollouts",
-          "revision": "68e68af0628088c2bb34c5502a60599c4b7fa848",
+          "revision": "dcdb0d1a7ad234fed48e95209bc55b95f237c48a",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-mulligan-policy-rollouts",
-          "revision": "ea6970ef1676132cfc4f369b6cf3d9520d79b72c",
+          "revision": "b22d240b77ee4f5095a35acdf3152d28cbbf03c5",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -3577,7 +3577,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-narrow-r02-mulligan-divl",
-          "revision": "bf496aba24460ffa37735d8d9c44661242b1750a"
+          "revision": "d87f0481a1e3dfb330d1b2415e751ab6effdd98a"
         },
         "checkpoints": [
           {
@@ -3640,25 +3640,25 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
-          "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+          "revision": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "fe2e6872474dbb475b14e2612038f627a405659c",
+          "revision": "551fc0dfd45c3eb88bd2113720f2c6d0098e6eea",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-auto-filtered-bc-n1-policy-rollouts",
-          "revision": "3913e025d952022c18bc384ca2f4d933d40f460b",
+          "revision": "af88e4ecdbeb537d30e6e8e9142e941a664aee46",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c03-auto-filtered-bc-n1-policy-rollouts",
-          "revision": "22faa569124a2429a71d4a56cc5033c9e0e6cdce",
+          "revision": "a0003225998b143411b3ab5499e2246fa15cff95",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -3770,25 +3770,25 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
-          "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+          "revision": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-iql-n32-policy-rollouts",
-          "revision": "6800d10fdadf1e80f6f8a482efe9575cf028f49e",
+          "revision": "5bb4e65f40f888d5153242da93302939dbdaa066",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-auto-iql-n32-policy-rollouts",
-          "revision": "468ae9a8edbca4e83ab06b9e63d5f420f80def1b",
+          "revision": "a4e2f7d8a1f0b3f28da8dab3eaa45c55d07e451d",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c03-auto-iql-n32-policy-rollouts",
-          "revision": "20a51e29266ca956334ab7b3bf092e38f946316d",
+          "revision": "11283c9863ea9b910edc821ce26e85101af342d4",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -3911,7 +3911,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-narrow-r03-auto-iql-n32-divl",
-          "revision": "42cfb5933475946bd1abeb1a615ca3808a43cce8"
+          "revision": "d6f79fb6bedeb45a9d6da783b68fe515be0faaf1"
         },
         "checkpoints": [
           {
@@ -3985,25 +3985,25 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
-          "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+          "revision": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-iql-n32-policy-rollouts",
-          "revision": "6800d10fdadf1e80f6f8a482efe9575cf028f49e",
+          "revision": "5bb4e65f40f888d5153242da93302939dbdaa066",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-auto-iql-success-bc-n32-policy-rollouts",
-          "revision": "4aeba7702a3df6ed5c483eb7798707e1a1c16e92",
+          "revision": "c1f694c917037b64a046f6f6ef1efe4dbabd1e86",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c03-auto-iql-success-bc-n32-policy-rollouts",
-          "revision": "760bd38592bdb83fb2d38d95c6e116a23bbcc9b3",
+          "revision": "d7fe816316dc990a8b6d11f5745ad0f8c1744dd6",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -4126,7 +4126,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-narrow-r03-auto-iql-success-bc-n32-divl",
-          "revision": "3e1fbd63abaf1d44ac12fa88078578753743807f"
+          "revision": "7d5bc898d4ce7311d1e195c2e9c4179911e0ce93"
         },
         "checkpoints": [
           {
@@ -4200,25 +4200,25 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
-          "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+          "revision": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "fe2e6872474dbb475b14e2612038f627a405659c",
+          "revision": "551fc0dfd45c3eb88bd2113720f2c6d0098e6eea",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-auto-plain-il-n1-policy-rollouts",
-          "revision": "dd3ba581d352884231e21f2a69316ab40d06bfc0",
+          "revision": "21251261f211f84946ff52448335de95c7051b75",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c03-auto-plain-il-n1-policy-rollouts",
-          "revision": "a2955d95e5fbd61a5735efce3337bead46956954",
+          "revision": "297c476740279c9ce28f6e4ab82fde1c17f62084",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -4331,37 +4331,37 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
-          "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+          "revision": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-dagger-baseline",
-          "revision": "2f3f9e3974c58f608043d33ae6df9fa6371e286b",
+          "revision": "812814a8e622a6b536cc4a0ae9175da4d1de4cb0",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-dagger-baseline",
-          "revision": "b35457653143a19c932d3102715313f5299e3f73",
+          "revision": "9d495e770469112d0055c95e5d57fbfc94227765",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c03-dagger-baseline",
-          "revision": "e9b1dd47b42d9858ab31c6de51386bf2ebd0164f",
+          "revision": "4fd07ced4a7d65b7be746a465f86af8720246241",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-baseline-policy-rollouts",
-          "revision": "390d13ef86cf25fc8fbd8a1a74cd807a8d0011d0",
+          "revision": "28c45548a399f568a96e5ff5ceb1158e0091c189",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-baseline-policy-rollouts",
-          "revision": "74f5784de09833ae6036f42900afa6d21084aa90",
+          "revision": "40c2e95d2328a4a0173bd1eb452328d3d1705959",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -4483,7 +4483,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-narrow-r03-baseline-divl",
-          "revision": "414c3494f57c66239110dfdecfd4cc6d44f52635"
+          "revision": "0de91f3209beeda486116b3fd1f873b438914cff"
         },
         "checkpoints": [
           {
@@ -4549,43 +4549,43 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
-          "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+          "revision": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-dagger-baseline",
-          "revision": "2f3f9e3974c58f608043d33ae6df9fa6371e286b",
+          "revision": "812814a8e622a6b536cc4a0ae9175da4d1de4cb0",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-dagger-baseline",
-          "revision": "b35457653143a19c932d3102715313f5299e3f73",
+          "revision": "9d495e770469112d0055c95e5d57fbfc94227765",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c03-dagger-baseline",
-          "revision": "e9b1dd47b42d9858ab31c6de51386bf2ebd0164f",
+          "revision": "4fd07ced4a7d65b7be746a465f86af8720246241",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-baseline-policy-rollouts",
-          "revision": "390d13ef86cf25fc8fbd8a1a74cd807a8d0011d0",
+          "revision": "28c45548a399f568a96e5ff5ceb1158e0091c189",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-baseline-policy-rollouts",
-          "revision": "74f5784de09833ae6036f42900afa6d21084aa90",
+          "revision": "40c2e95d2328a4a0173bd1eb452328d3d1705959",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c03-baseline-policy-rollouts",
-          "revision": "a36182cf2e63c18edaf889c01f923528dbe8ded2",
+          "revision": "bf98081f14d244a6cc33c98ee1364f8b2abce5e0",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -4707,7 +4707,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-narrow-r03-baseline-with-c03-rollouts-divl",
-          "revision": "dd35592eeba7a42728781a3b4acce2a40c840ffc"
+          "revision": "69d78c990c4d2dae8e6ff953baa7b2235ee5006c"
         },
         "checkpoints": [
           {
@@ -4771,43 +4771,43 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-sobol",
-          "revision": "be8b5ba803a31ae633d6d61c30d2548cfc9a382c",
+          "revision": "e01d0970ed8522d3c5c210e88a040dc3864a421b",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-dagger-mulligan-no-cf",
-          "revision": "25b2a5d03d769add4d856102029b76312853f491",
+          "revision": "7aa34f12f3c1db13110ca5edfcb33f6669370e9a",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-dagger-mulligan-no-cf",
-          "revision": "1c760f2d437018aca2a124f96c29fd612a6d8d99",
+          "revision": "2defd85e29f7d094d4f19287392369b6e9b61ace",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c03-dagger-mulligan-no-cf",
-          "revision": "14c8b7bdc05d4a471365ddf903ddd44947e0ba6a",
+          "revision": "674d30546afa8877f915b5a36429dee29b7c1e70",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-sobol-policy-rollouts",
-          "revision": "68e68af0628088c2bb34c5502a60599c4b7fa848",
+          "revision": "dcdb0d1a7ad234fed48e95209bc55b95f237c48a",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-mulligan-policy-rollouts",
-          "revision": "ea6970ef1676132cfc4f369b6cf3d9520d79b72c",
+          "revision": "b22d240b77ee4f5095a35acdf3152d28cbbf03c5",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c03-mulligan-policy-rollouts",
-          "revision": "1871d76ba2c6011d6e9a4a39f2c1b97899afaa1c",
+          "revision": "349185f1522c208a2b262dbc17f9936abae59844",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -4929,7 +4929,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-narrow-r03-mulligan-no-cf-divl",
-          "revision": "b04942ccddfb9817da8c910eaace68c80d7e5111"
+          "revision": "a7cc858c3ca9a852b6453c3e34de90225c73adaa"
         },
         "checkpoints": [
           {
@@ -4997,43 +4997,43 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-sobol",
-          "revision": "be8b5ba803a31ae633d6d61c30d2548cfc9a382c",
+          "revision": "e01d0970ed8522d3c5c210e88a040dc3864a421b",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-dagger-mulligan",
-          "revision": "edd45cb479f89abe7403fa7bd797bfaf678138e1",
+          "revision": "76143af3be6192a3c69063f99e590c18db379bdc",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-dagger-mulligan",
-          "revision": "a313faa86ab1eadbaee13e6ef95da38090418d81",
+          "revision": "05150e4b67e45b066f2d26085f5b919cbdc769a5",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c03-dagger-mulligan",
-          "revision": "946b716f121cf8e131bc284dede14dede9522b0a",
+          "revision": "082ddca4c2a1dc42aa00fa9c07123aa5cbd36f59",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-sobol-policy-rollouts",
-          "revision": "68e68af0628088c2bb34c5502a60599c4b7fa848",
+          "revision": "dcdb0d1a7ad234fed48e95209bc55b95f237c48a",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-mulligan-policy-rollouts",
-          "revision": "ea6970ef1676132cfc4f369b6cf3d9520d79b72c",
+          "revision": "b22d240b77ee4f5095a35acdf3152d28cbbf03c5",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c03-mulligan-policy-rollouts",
-          "revision": "1871d76ba2c6011d6e9a4a39f2c1b97899afaa1c",
+          "revision": "349185f1522c208a2b262dbc17f9936abae59844",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -5155,7 +5155,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-narrow-r03-mulligan-divl",
-          "revision": "38eaa910f1a6f22864e1c95d315ae6e1542676d7"
+          "revision": "68134f17e2e9b121382750276fcc7736af112aae"
         },
         "checkpoints": [
           {
@@ -5219,37 +5219,37 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-sobol",
-          "revision": "be8b5ba803a31ae633d6d61c30d2548cfc9a382c",
+          "revision": "e01d0970ed8522d3c5c210e88a040dc3864a421b",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-dagger-mulligan",
-          "revision": "edd45cb479f89abe7403fa7bd797bfaf678138e1",
+          "revision": "76143af3be6192a3c69063f99e590c18db379bdc",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-dagger-mulligan",
-          "revision": "a313faa86ab1eadbaee13e6ef95da38090418d81",
+          "revision": "05150e4b67e45b066f2d26085f5b919cbdc769a5",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c03-dagger-mulligan",
-          "revision": "946b716f121cf8e131bc284dede14dede9522b0a",
+          "revision": "082ddca4c2a1dc42aa00fa9c07123aa5cbd36f59",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-sobol-policy-rollouts",
-          "revision": "68e68af0628088c2bb34c5502a60599c4b7fa848",
+          "revision": "dcdb0d1a7ad234fed48e95209bc55b95f237c48a",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-mulligan-policy-rollouts",
-          "revision": "ea6970ef1676132cfc4f369b6cf3d9520d79b72c",
+          "revision": "b22d240b77ee4f5095a35acdf3152d28cbbf03c5",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -5371,7 +5371,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-narrow-r03-mulligan-no-c03-rollouts-divl",
-          "revision": "74cb0bbc716be2bbcb45965067e7cb45d8c9260b"
+          "revision": "21a37032f46e63187eb6fbd3020b5ef7d17c51eb"
         },
         "checkpoints": [
           {
@@ -5437,7 +5437,7 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-baseline",
-          "revision": "d65b70543ccc7d4e607c510e2b317fcc7b5fe1d0",
+          "revision": "839fa3e2f9bd30b0bb76c10500506a4b083b706f",
           "role": "training-view",
           "episodes": 200
         }
@@ -5584,7 +5584,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r00-baseline-divl",
-          "revision": "fd60980f8dcb158fc0807a208f6119610174d74a"
+          "revision": "4f2417b8a16dd65b5712f905316420db483833c4"
         },
         "checkpoints": [
           {
@@ -5648,7 +5648,7 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-baseline-first100",
-          "revision": "3e384188d6e96db7205f8846a5d3b700077f8712",
+          "revision": "9fb6c680731ee334dc4627f4a64ec429988a7d64",
           "role": "training-view",
           "episodes": 100
         }
@@ -5795,7 +5795,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r00-baseline-first100-divl",
-          "revision": "eb1b80ad667a5ae0cfb4f073257c04095ed74e83"
+          "revision": "727e16e5c765a094396bc5ca4150abce8f0ec7d4"
         },
         "checkpoints": [
           {
@@ -5862,7 +5862,7 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-sobol",
-          "revision": "9b76670ef02cb5bc67b1dafd92f3b845d5fa2312",
+          "revision": "3eec8b3d64ad8db45efa9e6a0bdf5428983eed1c",
           "role": "training-view",
           "episodes": 200
         }
@@ -5982,7 +5982,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r00-sobol-divl",
-          "revision": "66a2b6107f8a02d703fb3aff7f08a3fa3f660913"
+          "revision": "09e70f28d73e63ea1bcfe22321a6ed49d1814cb8"
         },
         "checkpoints": [
           {
@@ -6046,7 +6046,7 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-sobol-first100",
-          "revision": "e321768d7f1518297f73107368b14cefdfa39765",
+          "revision": "36ff4365bfeb5d6a4714c39eb302ab3ee034f844",
           "role": "training-view",
           "episodes": 100
         }
@@ -6193,7 +6193,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r00-sobol-first100-divl",
-          "revision": "b96e47dc02b6a0787b1930bd4ac12e22d3defaf4"
+          "revision": "9340e59cef8d438bed4f20a1b8800f7aef1023d6"
         },
         "checkpoints": [
           {
@@ -6256,13 +6256,13 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-baseline",
-          "revision": "d65b70543ccc7d4e607c510e2b317fcc7b5fe1d0",
+          "revision": "839fa3e2f9bd30b0bb76c10500506a4b083b706f",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "343a51a7a3f19193c266472bca45d61a70cbf72e",
+          "revision": "5cacb3a5ae504060d678284b43640c4c9e520e98",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -6374,13 +6374,13 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-baseline",
-          "revision": "d65b70543ccc7d4e607c510e2b317fcc7b5fe1d0",
+          "revision": "839fa3e2f9bd30b0bb76c10500506a4b083b706f",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-iql-n32-policy-rollouts",
-          "revision": "9a0a723e3b90c28e01c3ba2e89d8fa9bda54ccfe",
+          "revision": "517b3cf35711dbc20e018411d8876aad68b48553",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -6503,7 +6503,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r01-auto-iql-n32-divl",
-          "revision": "76804a7336ac72a0230fd8ad5d9b7f0ba8cfd400"
+          "revision": "ac760f11fa64b329eb008a774931f1679b2ff6ac"
         },
         "checkpoints": [
           {
@@ -6577,13 +6577,13 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-baseline",
-          "revision": "d65b70543ccc7d4e607c510e2b317fcc7b5fe1d0",
+          "revision": "839fa3e2f9bd30b0bb76c10500506a4b083b706f",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-iql-n32-policy-rollouts",
-          "revision": "9a0a723e3b90c28e01c3ba2e89d8fa9bda54ccfe",
+          "revision": "517b3cf35711dbc20e018411d8876aad68b48553",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -6706,7 +6706,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r01-auto-iql-success-bc-n32-divl",
-          "revision": "d9490727a4b759c613f4a85e0083df2a5d89c7ad"
+          "revision": "871d84b001a73bf28851fd7e9f83d11d93df63e2"
         },
         "checkpoints": [
           {
@@ -6780,13 +6780,13 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-baseline",
-          "revision": "d65b70543ccc7d4e607c510e2b317fcc7b5fe1d0",
+          "revision": "839fa3e2f9bd30b0bb76c10500506a4b083b706f",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "343a51a7a3f19193c266472bca45d61a70cbf72e",
+          "revision": "5cacb3a5ae504060d678284b43640c4c9e520e98",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -6901,19 +6901,19 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-baseline",
-          "revision": "d65b70543ccc7d4e607c510e2b317fcc7b5fe1d0",
+          "revision": "839fa3e2f9bd30b0bb76c10500506a4b083b706f",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-baseline",
-          "revision": "2d7f945f32f547e44da017eb4fb8347d1f33229b",
+          "revision": "4eef8a948dd6eed46d7ac417aa02426a51cabff0",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c01-baseline-policy-rollouts",
-          "revision": "d5acc63bf723b43116eba6b49ae25247bdf3b7f8",
+          "revision": "128b43efad335783e2716ac99ab788354a901d93",
           "role": "policy-rollouts",
           "episodes": 200
         }
@@ -7035,7 +7035,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r01-baseline-divl",
-          "revision": "c59ec5b7f7e8f40272486e5bbd61ac7f1e47eff8"
+          "revision": "bc1b4e8972d993109a585978e640ffe21b4ea00c"
         },
         "checkpoints": [
           {
@@ -7099,19 +7099,19 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-baseline",
-          "revision": "d65b70543ccc7d4e607c510e2b317fcc7b5fe1d0",
+          "revision": "839fa3e2f9bd30b0bb76c10500506a4b083b706f",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-baseline",
-          "revision": "2d7f945f32f547e44da017eb4fb8347d1f33229b",
+          "revision": "4eef8a948dd6eed46d7ac417aa02426a51cabff0",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c01-baseline-policy-rollouts",
-          "revision": "d5acc63bf723b43116eba6b49ae25247bdf3b7f8",
+          "revision": "128b43efad335783e2716ac99ab788354a901d93",
           "role": "policy-rollouts",
           "episodes": 200
         }
@@ -7233,7 +7233,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r01-baseline-straddled-auto-success-divl",
-          "revision": "9e9d1405604d2367f6adfb9df8f770f5d84c6d94"
+          "revision": "33c4c5f6bd893aa11604736e5a75d2f7a845a6bf"
         },
         "checkpoints": [
           {
@@ -7297,19 +7297,19 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-sobol",
-          "revision": "9b76670ef02cb5bc67b1dafd92f3b845d5fa2312",
+          "revision": "3eec8b3d64ad8db45efa9e6a0bdf5428983eed1c",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-mulligan-no-cf",
-          "revision": "bbc9c10c5591b5ee23e72d5719c314e9b6b44f63",
+          "revision": "aeb201787e0b564a71d304c94097f16533eb43e6",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c01-sobol-policy-rollouts",
-          "revision": "8c21f4573818bfc1784302e099b6fc15d2994509",
+          "revision": "2d2c060149d1bd2c23a021ea5ee812f1e85b345a",
           "role": "policy-rollouts",
           "episodes": 200
         }
@@ -7431,7 +7431,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r01-mulligan-no-cf-divl",
-          "revision": "7148a7e4d10b2c905f85641b1468a6c64ddf9fdc"
+          "revision": "fe17e3329eaf6d7396d140dd78c5ba733ab408f0"
         },
         "checkpoints": [
           {
@@ -7498,19 +7498,19 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-sobol",
-          "revision": "9b76670ef02cb5bc67b1dafd92f3b845d5fa2312",
+          "revision": "3eec8b3d64ad8db45efa9e6a0bdf5428983eed1c",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-mulligan",
-          "revision": "530d80e4f21f03f0f907cd04062ac754383ba645",
+          "revision": "052668954ba48bd0e9a6508555b08024bbc72c8e",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c01-sobol-policy-rollouts",
-          "revision": "8c21f4573818bfc1784302e099b6fc15d2994509",
+          "revision": "2d2c060149d1bd2c23a021ea5ee812f1e85b345a",
           "role": "policy-rollouts",
           "episodes": 200
         }
@@ -7631,7 +7631,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r01-mulligan-divl",
-          "revision": "57beeb80977bdd4f2cbc2543806c32147d77b40a"
+          "revision": "e2581a6cbe57a0ed547e87ab0216ae7f7d374d29"
         },
         "checkpoints": [
           {
@@ -7695,19 +7695,19 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-sobol",
-          "revision": "9b76670ef02cb5bc67b1dafd92f3b845d5fa2312",
+          "revision": "3eec8b3d64ad8db45efa9e6a0bdf5428983eed1c",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-sobol-with-cf",
-          "revision": "5b2ca658ff670ee69cd47b826fe8fbdfa63c4210",
+          "revision": "a8dbdc27b3f6793e8b03c705a75838106c2dcdb2",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c01-sobol-policy-rollouts",
-          "revision": "8c21f4573818bfc1784302e099b6fc15d2994509",
+          "revision": "2d2c060149d1bd2c23a021ea5ee812f1e85b345a",
           "role": "policy-rollouts",
           "episodes": 200
         }
@@ -7829,7 +7829,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r01-sobol-with-cf-divl",
-          "revision": "ddc1ed63af225cc0a26a847b93f377d3a5421225"
+          "revision": "818e604303166af84a4ddaf162ec02dd958384d7"
         },
         "checkpoints": [
           {
@@ -7893,19 +7893,19 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-sobol",
-          "revision": "9b76670ef02cb5bc67b1dafd92f3b845d5fa2312",
+          "revision": "3eec8b3d64ad8db45efa9e6a0bdf5428983eed1c",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-sobol-no-cf",
-          "revision": "b68bd122588615101fae93a3106155890068f7d4",
+          "revision": "ae0620a805757ca0ef4c6a32eaa14cae6fd42d3b",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c01-sobol-policy-rollouts",
-          "revision": "8c21f4573818bfc1784302e099b6fc15d2994509",
+          "revision": "2d2c060149d1bd2c23a021ea5ee812f1e85b345a",
           "role": "policy-rollouts",
           "episodes": 200
         }
@@ -8027,7 +8027,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r01-sobol-no-cf-divl",
-          "revision": "a7a5f3d3b450787036cd0c6d1eeb50dd53775ebb"
+          "revision": "f8e234cc73250c61dd3efca955322f2ab5373933"
         },
         "checkpoints": [
           {
@@ -8090,19 +8090,19 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-baseline",
-          "revision": "d65b70543ccc7d4e607c510e2b317fcc7b5fe1d0",
+          "revision": "839fa3e2f9bd30b0bb76c10500506a4b083b706f",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "343a51a7a3f19193c266472bca45d61a70cbf72e",
+          "revision": "5cacb3a5ae504060d678284b43640c4c9e520e98",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-auto-filtered-bc-n1-policy-rollouts",
-          "revision": "efdc15402ef46b2c59babef06242191803f77f5f",
+          "revision": "0a1bfcd1d74d5a34e173b70dc03a655aecdfcfdd",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -8214,19 +8214,19 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-baseline",
-          "revision": "d65b70543ccc7d4e607c510e2b317fcc7b5fe1d0",
+          "revision": "839fa3e2f9bd30b0bb76c10500506a4b083b706f",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-iql-n32-policy-rollouts",
-          "revision": "9a0a723e3b90c28e01c3ba2e89d8fa9bda54ccfe",
+          "revision": "517b3cf35711dbc20e018411d8876aad68b48553",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-auto-iql-n32-policy-rollouts",
-          "revision": "7821b0459b5599ac183a819779b44ba346dd25d4",
+          "revision": "5e306b7dea9abaeb371f8a12bb02a74377189666",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -8349,7 +8349,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r02-auto-iql-n32-divl",
-          "revision": "50f1723ed2b10fa97b7226adf94f4fe8eb90b619"
+          "revision": "9189791fb9100524bac7b243f10a251fee73b16d"
         },
         "checkpoints": [
           {
@@ -8423,19 +8423,19 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-baseline",
-          "revision": "d65b70543ccc7d4e607c510e2b317fcc7b5fe1d0",
+          "revision": "839fa3e2f9bd30b0bb76c10500506a4b083b706f",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-iql-n32-policy-rollouts",
-          "revision": "9a0a723e3b90c28e01c3ba2e89d8fa9bda54ccfe",
+          "revision": "517b3cf35711dbc20e018411d8876aad68b48553",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-auto-iql-success-bc-n32-policy-rollouts",
-          "revision": "b3e64c16968dc9116fac11887e367c293efc19f7",
+          "revision": "9e5a8066d93b4859e6da7cb4aa2a02d3dc9d915b",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -8558,7 +8558,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r02-auto-iql-success-bc-n32-divl",
-          "revision": "25eef3c5a5ab1ca755b964cf76c9cc65f0bf424a"
+          "revision": "2f82f7b16b8fea7e75dced5646ff07a198415db9"
         },
         "checkpoints": [
           {
@@ -8632,19 +8632,19 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-baseline",
-          "revision": "d65b70543ccc7d4e607c510e2b317fcc7b5fe1d0",
+          "revision": "839fa3e2f9bd30b0bb76c10500506a4b083b706f",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "343a51a7a3f19193c266472bca45d61a70cbf72e",
+          "revision": "5cacb3a5ae504060d678284b43640c4c9e520e98",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-auto-plain-il-n1-policy-rollouts",
-          "revision": "7ff7b370c25f1e7d05a78ada22f6224f21c855d8",
+          "revision": "c685687d96a7438380f8de3ba5a6d9ec91986c3c",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -8759,31 +8759,31 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-baseline",
-          "revision": "d65b70543ccc7d4e607c510e2b317fcc7b5fe1d0",
+          "revision": "839fa3e2f9bd30b0bb76c10500506a4b083b706f",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-baseline",
-          "revision": "2d7f945f32f547e44da017eb4fb8347d1f33229b",
+          "revision": "4eef8a948dd6eed46d7ac417aa02426a51cabff0",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-dagger-baseline",
-          "revision": "9a86f1bcfef4368842471f3bbbf3582c7a7253ca",
+          "revision": "b2761819143fe0d3b253b5d27000b3f2e5ddb682",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c01-baseline-policy-rollouts",
-          "revision": "d5acc63bf723b43116eba6b49ae25247bdf3b7f8",
+          "revision": "128b43efad335783e2716ac99ab788354a901d93",
           "role": "policy-rollouts",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c02-baseline-policy-rollouts",
-          "revision": "a126419e5068607e5f792c04f69b8d5592dd4a86",
+          "revision": "0bab3f642326d64b337d143c42f1c9ae03f047d0",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -8905,7 +8905,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r02-baseline-divl",
-          "revision": "2422e5c7025c1eab3091fae36fcde41661e48494"
+          "revision": "69551e3aaacee583ff383de3314656fad967eb22"
         },
         "checkpoints": [
           {
@@ -8969,31 +8969,31 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-sobol",
-          "revision": "9b76670ef02cb5bc67b1dafd92f3b845d5fa2312",
+          "revision": "3eec8b3d64ad8db45efa9e6a0bdf5428983eed1c",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-mulligan-no-cf",
-          "revision": "bbc9c10c5591b5ee23e72d5719c314e9b6b44f63",
+          "revision": "aeb201787e0b564a71d304c94097f16533eb43e6",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-dagger-mulligan-no-cf",
-          "revision": "c5a921d52d6ef770e952f37959ae005341246009",
+          "revision": "3495e4899541d206517d47c139b9163efacd90a1",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c01-sobol-policy-rollouts",
-          "revision": "8c21f4573818bfc1784302e099b6fc15d2994509",
+          "revision": "2d2c060149d1bd2c23a021ea5ee812f1e85b345a",
           "role": "policy-rollouts",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c02-mulligan-policy-rollouts",
-          "revision": "99d6631e1ca6b92790354b0e548e313d50141184",
+          "revision": "79d16888726a417012f06de51c0a3f82a96de22b",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -9115,7 +9115,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r02-mulligan-no-cf-divl",
-          "revision": "f06a647aadc8a94376a62dbd63b4661e50eed176"
+          "revision": "f5cde0236c27c8ca3a7f31e0f9087dd09a3d57dc"
         },
         "checkpoints": [
           {
@@ -9182,31 +9182,31 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-sobol",
-          "revision": "9b76670ef02cb5bc67b1dafd92f3b845d5fa2312",
+          "revision": "3eec8b3d64ad8db45efa9e6a0bdf5428983eed1c",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-mulligan",
-          "revision": "530d80e4f21f03f0f907cd04062ac754383ba645",
+          "revision": "052668954ba48bd0e9a6508555b08024bbc72c8e",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-dagger-mulligan",
-          "revision": "5e8991a6c266892f37751f6d1732c3728c062903",
+          "revision": "72f14daa22747c60b934ff9a242412fe411cb124",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c01-sobol-policy-rollouts",
-          "revision": "8c21f4573818bfc1784302e099b6fc15d2994509",
+          "revision": "2d2c060149d1bd2c23a021ea5ee812f1e85b345a",
           "role": "policy-rollouts",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c02-mulligan-policy-rollouts",
-          "revision": "99d6631e1ca6b92790354b0e548e313d50141184",
+          "revision": "79d16888726a417012f06de51c0a3f82a96de22b",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -9328,7 +9328,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r02-mulligan-divl",
-          "revision": "3139b35096c1dceb9356567f68f86ae3fe1749ae"
+          "revision": "23089e61a55700713c1ac9e463a2f3f27f8ab6fe"
         },
         "checkpoints": [
           {
@@ -9392,31 +9392,31 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-sobol",
-          "revision": "9b76670ef02cb5bc67b1dafd92f3b845d5fa2312",
+          "revision": "3eec8b3d64ad8db45efa9e6a0bdf5428983eed1c",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-sobol-with-cf",
-          "revision": "5b2ca658ff670ee69cd47b826fe8fbdfa63c4210",
+          "revision": "a8dbdc27b3f6793e8b03c705a75838106c2dcdb2",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-dagger-sobol-with-cf",
-          "revision": "45c818887d5ad2af2c3512c53f1ab1ef69e3e54d",
+          "revision": "c34ceb9ef5d1118ca54cfef1d9e6aa730cd1869b",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c01-sobol-policy-rollouts",
-          "revision": "8c21f4573818bfc1784302e099b6fc15d2994509",
+          "revision": "2d2c060149d1bd2c23a021ea5ee812f1e85b345a",
           "role": "policy-rollouts",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c02-mulligan-policy-rollouts",
-          "revision": "99d6631e1ca6b92790354b0e548e313d50141184",
+          "revision": "79d16888726a417012f06de51c0a3f82a96de22b",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -9538,7 +9538,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r02-sobol-with-cf-divl",
-          "revision": "3dea5655007ddc739a7923a4eb421a44ae6d597b"
+          "revision": "4aa665c876ea8100812420fbcefccf2d087521c6"
         },
         "checkpoints": [
           {
@@ -9602,31 +9602,31 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-sobol",
-          "revision": "9b76670ef02cb5bc67b1dafd92f3b845d5fa2312",
+          "revision": "3eec8b3d64ad8db45efa9e6a0bdf5428983eed1c",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-sobol-no-cf",
-          "revision": "b68bd122588615101fae93a3106155890068f7d4",
+          "revision": "ae0620a805757ca0ef4c6a32eaa14cae6fd42d3b",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-dagger-sobol-no-cf",
-          "revision": "5e3b5448baeec7f4a3b0d14a43779b51aac9c2dc",
+          "revision": "b8ed142e1b5df4a938bb8b1fb88ab6d3e3355e98",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c01-sobol-policy-rollouts",
-          "revision": "8c21f4573818bfc1784302e099b6fc15d2994509",
+          "revision": "2d2c060149d1bd2c23a021ea5ee812f1e85b345a",
           "role": "policy-rollouts",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c02-mulligan-policy-rollouts",
-          "revision": "99d6631e1ca6b92790354b0e548e313d50141184",
+          "revision": "79d16888726a417012f06de51c0a3f82a96de22b",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -9748,7 +9748,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r02-sobol-no-cf-divl",
-          "revision": "1c1f8733d80b27fb1836728f8c2fa85a72a04e77"
+          "revision": "858599485822bba758f47ed33d2c477afbbd9347"
         },
         "checkpoints": [
           {
@@ -9811,25 +9811,25 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-baseline",
-          "revision": "d65b70543ccc7d4e607c510e2b317fcc7b5fe1d0",
+          "revision": "839fa3e2f9bd30b0bb76c10500506a4b083b706f",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "343a51a7a3f19193c266472bca45d61a70cbf72e",
+          "revision": "5cacb3a5ae504060d678284b43640c4c9e520e98",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-auto-filtered-bc-n1-policy-rollouts",
-          "revision": "efdc15402ef46b2c59babef06242191803f77f5f",
+          "revision": "0a1bfcd1d74d5a34e173b70dc03a655aecdfcfdd",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c03-auto-filtered-bc-n1-policy-rollouts",
-          "revision": "bf773402aee59dded341ac2f81e9a4d9a701da90",
+          "revision": "4d7cd1253523b2aa7cffd2394a4768fdb9464520",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -9941,25 +9941,25 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-baseline",
-          "revision": "d65b70543ccc7d4e607c510e2b317fcc7b5fe1d0",
+          "revision": "839fa3e2f9bd30b0bb76c10500506a4b083b706f",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-iql-n32-policy-rollouts",
-          "revision": "9a0a723e3b90c28e01c3ba2e89d8fa9bda54ccfe",
+          "revision": "517b3cf35711dbc20e018411d8876aad68b48553",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-auto-iql-n32-policy-rollouts",
-          "revision": "7821b0459b5599ac183a819779b44ba346dd25d4",
+          "revision": "5e306b7dea9abaeb371f8a12bb02a74377189666",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c03-auto-iql-n32-policy-rollouts",
-          "revision": "ed37e9e8e0798c50d15e425a6fe204cdfb37e678",
+          "revision": "063c64d3bdea4845aac3138b7034637dd984a449",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -10082,7 +10082,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r03-auto-iql-n32-divl",
-          "revision": "4bcd1922e3fce06190019f8354fa01b20c317042"
+          "revision": "004fb2c53ee83bf99f9037c70cebe29199037e78"
         },
         "checkpoints": [
           {
@@ -10156,25 +10156,25 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-baseline",
-          "revision": "d65b70543ccc7d4e607c510e2b317fcc7b5fe1d0",
+          "revision": "839fa3e2f9bd30b0bb76c10500506a4b083b706f",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-iql-n32-policy-rollouts",
-          "revision": "9a0a723e3b90c28e01c3ba2e89d8fa9bda54ccfe",
+          "revision": "517b3cf35711dbc20e018411d8876aad68b48553",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-auto-iql-success-bc-n32-policy-rollouts",
-          "revision": "b3e64c16968dc9116fac11887e367c293efc19f7",
+          "revision": "9e5a8066d93b4859e6da7cb4aa2a02d3dc9d915b",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c03-auto-iql-success-bc-n32-policy-rollouts",
-          "revision": "cbfdad0ae82ca047f64c2cb2ec09eb40fe90c5a1",
+          "revision": "c1275732b2de0bf929cbc814518d0892d26b8fee",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -10297,7 +10297,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r03-auto-iql-success-bc-n32-divl",
-          "revision": "639698168aca007b640a1561041419b1e7a4d4d3"
+          "revision": "659a395e325d5a6031433da308d0d48c44a35bdc"
         },
         "checkpoints": [
           {
@@ -10371,25 +10371,25 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-baseline",
-          "revision": "d65b70543ccc7d4e607c510e2b317fcc7b5fe1d0",
+          "revision": "839fa3e2f9bd30b0bb76c10500506a4b083b706f",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "343a51a7a3f19193c266472bca45d61a70cbf72e",
+          "revision": "5cacb3a5ae504060d678284b43640c4c9e520e98",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-auto-plain-il-n1-policy-rollouts",
-          "revision": "7ff7b370c25f1e7d05a78ada22f6224f21c855d8",
+          "revision": "c685687d96a7438380f8de3ba5a6d9ec91986c3c",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c03-auto-plain-il-n1-policy-rollouts",
-          "revision": "5c8792209e751fc4c067431cb864156cbb21d9fc",
+          "revision": "de810e312865bf10f1b87d56153c1f464c3d7899",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -10504,43 +10504,43 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-baseline",
-          "revision": "d65b70543ccc7d4e607c510e2b317fcc7b5fe1d0",
+          "revision": "839fa3e2f9bd30b0bb76c10500506a4b083b706f",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-baseline",
-          "revision": "2d7f945f32f547e44da017eb4fb8347d1f33229b",
+          "revision": "4eef8a948dd6eed46d7ac417aa02426a51cabff0",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-dagger-baseline",
-          "revision": "9a86f1bcfef4368842471f3bbbf3582c7a7253ca",
+          "revision": "b2761819143fe0d3b253b5d27000b3f2e5ddb682",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c03-dagger-baseline",
-          "revision": "880e5ba4904024d10311fc8df9a53c583762829f",
+          "revision": "11f3025d25bb5a4600b18f053827988d1fd372dc",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c01-baseline-policy-rollouts",
-          "revision": "d5acc63bf723b43116eba6b49ae25247bdf3b7f8",
+          "revision": "128b43efad335783e2716ac99ab788354a901d93",
           "role": "policy-rollouts",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c02-baseline-policy-rollouts",
-          "revision": "a126419e5068607e5f792c04f69b8d5592dd4a86",
+          "revision": "0bab3f642326d64b337d143c42f1c9ae03f047d0",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c03-baseline-policy-rollouts",
-          "revision": "296ecc2edfaf449ee49a8d0ef8f533c693d70349",
+          "revision": "94e99d39a6da65d56c06abdb5bca7c3f3a28f253",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -10662,7 +10662,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r03-baseline-divl",
-          "revision": "4b7e5008e7b9036eda81f31d4d4a23084877139e"
+          "revision": "d18d38044392b862d98fa84756df6bea53bcbb92"
         },
         "checkpoints": [
           {
@@ -10726,43 +10726,43 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-sobol",
-          "revision": "9b76670ef02cb5bc67b1dafd92f3b845d5fa2312",
+          "revision": "3eec8b3d64ad8db45efa9e6a0bdf5428983eed1c",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-mulligan-no-cf",
-          "revision": "bbc9c10c5591b5ee23e72d5719c314e9b6b44f63",
+          "revision": "aeb201787e0b564a71d304c94097f16533eb43e6",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-dagger-mulligan-no-cf",
-          "revision": "c5a921d52d6ef770e952f37959ae005341246009",
+          "revision": "3495e4899541d206517d47c139b9163efacd90a1",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c03-dagger-mulligan-no-cf",
-          "revision": "ec1c943c0e52b5e9c8331ae3fa766b9c43222ca3",
+          "revision": "2d6625ff02906445eafed3852214a975f150157e",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c01-sobol-policy-rollouts",
-          "revision": "8c21f4573818bfc1784302e099b6fc15d2994509",
+          "revision": "2d2c060149d1bd2c23a021ea5ee812f1e85b345a",
           "role": "policy-rollouts",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c02-mulligan-policy-rollouts",
-          "revision": "99d6631e1ca6b92790354b0e548e313d50141184",
+          "revision": "79d16888726a417012f06de51c0a3f82a96de22b",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c03-mulligan-policy-rollouts",
-          "revision": "d74668f92f0ea1dec110c8ab0fe31a5c26d1295c",
+          "revision": "ca52a8a6b73d200a3c9cc24be7bf3f4cc52f8222",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -10884,7 +10884,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r03-mulligan-no-cf-divl",
-          "revision": "22a1615ca291d433251ba01eedd0b39086b3286c"
+          "revision": "32280a3de01eac10f9b05f8266b1fd502be395f1"
         },
         "checkpoints": [
           {
@@ -10952,43 +10952,43 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-sobol",
-          "revision": "9b76670ef02cb5bc67b1dafd92f3b845d5fa2312",
+          "revision": "3eec8b3d64ad8db45efa9e6a0bdf5428983eed1c",
           "role": "training-view",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-mulligan",
-          "revision": "530d80e4f21f03f0f907cd04062ac754383ba645",
+          "revision": "052668954ba48bd0e9a6508555b08024bbc72c8e",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-dagger-mulligan",
-          "revision": "5e8991a6c266892f37751f6d1732c3728c062903",
+          "revision": "72f14daa22747c60b934ff9a242412fe411cb124",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c03-dagger-mulligan",
-          "revision": "5805f0cdb7b4a4782d44ef68baf739cc20da3215",
+          "revision": "abba59082afbc53466d313083318d1ef2c049940",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c01-sobol-policy-rollouts",
-          "revision": "8c21f4573818bfc1784302e099b6fc15d2994509",
+          "revision": "2d2c060149d1bd2c23a021ea5ee812f1e85b345a",
           "role": "policy-rollouts",
           "episodes": 200
         },
         {
           "repo": "mulligan/sim-square-broad-c02-mulligan-policy-rollouts",
-          "revision": "99d6631e1ca6b92790354b0e548e313d50141184",
+          "revision": "79d16888726a417012f06de51c0a3f82a96de22b",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c03-mulligan-policy-rollouts",
-          "revision": "d74668f92f0ea1dec110c8ab0fe31a5c26d1295c",
+          "revision": "ca52a8a6b73d200a3c9cc24be7bf3f4cc52f8222",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -11110,7 +11110,7 @@
         "parent_stage": "idql_agent",
         "model": {
           "repo": "mulligan/sim-square-broad-r03-mulligan-divl",
-          "revision": "68734f6307e2cf0e1e7f6a12ce09616deae4e2ae"
+          "revision": "8d23e3dded853f961de359add19a3c7cecaae0d4"
         },
         "checkpoints": [
           {
@@ -11172,7 +11172,7 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
-          "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+          "revision": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
           "role": "training-view",
           "episodes": 100
         }
@@ -11269,7 +11269,7 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
-          "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+          "revision": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
           "role": "training-view",
           "episodes": 100
         }
@@ -11322,7 +11322,7 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
-          "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+          "revision": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
           "role": "training-view",
           "episodes": 100
         }
@@ -11374,7 +11374,7 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-baseline",
-          "revision": "d65b70543ccc7d4e607c510e2b317fcc7b5fe1d0",
+          "revision": "839fa3e2f9bd30b0bb76c10500506a4b083b706f",
           "role": "training-view",
           "episodes": 200
         }
@@ -11468,7 +11468,7 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
-          "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+          "revision": "c4f8222e80a6100d19e3d8c7f1ba141debf412fd",
           "role": "training-view",
           "episodes": 100
         }
@@ -11521,7 +11521,7 @@
       "datasets": [
         {
           "repo": "mulligan/sim-square-broad-c00-teleop-baseline",
-          "revision": "d65b70543ccc7d4e607c510e2b317fcc7b5fe1d0",
+          "revision": "839fa3e2f9bd30b0bb76c10500506a4b083b706f",
           "role": "training-view",
           "episodes": 200
         }
@@ -11562,7 +11562,7 @@
         {
           "kind": "blind",
           "input": "mulligan/sim-square-narrow-c00-teleop-mixed",
-          "input_revision": "8677f782a0f3bbfa7895704434cd062cad9090ae",
+          "input_revision": "7b04ad1d6d90006baf9fa9beca65dbd9dee6cef8",
           "manifest": "data/sim/start_manifests/square_narrow/r00/blind_inputs/square_narrow_r0_mixed_manifest.json",
           "expected_per_source": "baseline_uniform=100,sobol=100",
           "targets": {
@@ -11602,7 +11602,7 @@
         {
           "kind": "protocol_quota",
           "input": "mulligan/sim-square-narrow-c01-dagger-mixed",
-          "input_revision": "fb1c24b5a7e517c03e28f7b4850c50aa13cff514",
+          "input_revision": "5e35db0146dcc083bbebcba8fe5990e996fa00e4",
           "manifest": "data/sim/start_manifests/square_narrow/r01/blind_inputs/square_narrow_r1_manifest.json",
           "expected_per_protocol": "no_cf=100,with_cf=100",
           "expected_protocol_arms": "no_cf=baseline_uniform,sobol,mulligan;with_cf=sobol,mulligan",
@@ -11662,7 +11662,7 @@
         {
           "kind": "protocol_quota",
           "input": "mulligan/sim-square-narrow-c02-dagger-mixed",
-          "input_revision": "7a4cf7c4e90d68f2aa5f3e1d6bb570193d2aef6d",
+          "input_revision": "b9a331152b262fb4dc6bc2250b55e37f5cf1e26c",
           "manifest": "data/sim/start_manifests/square_narrow/r02/blind_inputs/square_narrow_r2_manifest.json",
           "expected_per_protocol": "no_cf=100,with_cf=100",
           "expected_protocol_arms": "no_cf=baseline_uniform,mulligan;with_cf=mulligan",
@@ -11727,7 +11727,7 @@
         {
           "kind": "protocol_quota",
           "input": "mulligan/sim-square-narrow-c03-dagger-mixed",
-          "input_revision": "0a02eb1cb52b7885078fae1de218a174cdc6cbe2",
+          "input_revision": "766c5d0d52bcbc8b6345847d1a07799f08d0bd87",
           "manifest": "data/sim/start_manifests/square_narrow/r03/blind_inputs/square_narrow_r3_manifest.json",
           "expected_per_protocol": "no_cf=100,with_cf=100",
           "expected_protocol_arms": "no_cf=baseline_uniform,mulligan;with_cf=mulligan",
@@ -11763,7 +11763,7 @@
         {
           "kind": "blind",
           "input": "mulligan/sim-square-broad-c00-teleop-mixed",
-          "input_revision": "839e9c0805d41f8b815d1d50e4f383dd85522ad7",
+          "input_revision": "4f7b587dcd8c0cd3d47d193e4a6a8fa235391376",
           "manifest": "data/sim/start_manifests/square_broad/r00/blind_inputs/square_broad_r0_mixed_manifest.json",
           "expected_per_source": "baseline_uniform=200,sobol=200",
           "targets": {
@@ -11775,7 +11775,7 @@
         {
           "kind": "blind",
           "input": "mulligan/sim-square-broad-c00-teleop-mixed",
-          "input_revision": "839e9c0805d41f8b815d1d50e4f383dd85522ad7",
+          "input_revision": "4f7b587dcd8c0cd3d47d193e4a6a8fa235391376",
           "manifest": "data/sim/start_manifests/square_broad/r00/blind_inputs/square_broad_r0_mixed_manifest.json",
           "expected_per_source": "baseline_uniform=100,sobol=100",
           "max_source_episodes": 200,
@@ -11816,7 +11816,7 @@
         {
           "kind": "protocol_quota",
           "input": "mulligan/sim-square-broad-c01-dagger-mixed",
-          "input_revision": "c966c478cec1d1e82257291cde2f3c8396cc1964",
+          "input_revision": "c3be0739feb396a7544202db9ac27d2e86d1e016",
           "manifest": "data/sim/start_manifests/square_broad/r01/blind_inputs/square_broad_r1_manifest.json",
           "expected_per_protocol": "no_cf=100,with_cf=100",
           "expected_protocol_arms": "no_cf=baseline_uniform,sobol,mulligan;with_cf=sobol,mulligan",
@@ -11876,7 +11876,7 @@
         {
           "kind": "protocol_quota",
           "input": "mulligan/sim-square-broad-c02-dagger-mixed",
-          "input_revision": "f6c486e94502e5ed63522b2314672247d0ef5f29",
+          "input_revision": "52c0fa32b81e5d8b2b4c580e3088164e391fe203",
           "manifest": "data/sim/start_manifests/square_broad/r02/blind_inputs/square_broad_r2_manifest.json",
           "expected_per_protocol": "no_cf=100,with_cf=100",
           "expected_protocol_arms": "no_cf=baseline_uniform,sobol,mulligan;with_cf=sobol,mulligan",
@@ -11936,7 +11936,7 @@
         {
           "kind": "protocol_quota",
           "input": "mulligan/sim-square-broad-c03-dagger-mixed",
-          "input_revision": "000fe3bdafd6b4c6d11e1b06c20e0784578ad155",
+          "input_revision": "4ee1ee22e79716f97c62b4b690359ec51edeb33e",
           "manifest": "data/sim/start_manifests/square_broad/r03/blind_inputs/square_broad_r3_manifest.json",
           "expected_per_protocol": "no_cf=100,with_cf=100",
           "expected_protocol_arms": "no_cf=baseline_uniform,mulligan;with_cf=mulligan",

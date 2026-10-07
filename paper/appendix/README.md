@@ -42,7 +42,7 @@ the full paper registry, including main-text figures.
 | [value_learning](value_learning/README.md) | Real-world offline value diagnostics | Original FQE producer outputs, evaluator seeds, and per-episode training probes |
 | [real_results](real_results/README.md) | Real-world results, paired tests, substages, collection and effort | Frozen per-state outcomes, stage batteries, collection ledgers, and explicitly selected evaluation sessions |
 | [simulation](simulation/README.md) | Simulation efficiency, sampling, critic ablations and DIVL/REDQ | Archived seed summaries, run records, reset states, and a documented raster digitization |
-| [reference_data](reference_data/README.md) | RECAP, the dated stage census, authored tables and collection illustrations | Raw seed/census records; separately identified authored specifications and cited literature transcriptions |
+| [reference_data](reference_data/README.md) | RECAP, authored tables and collection illustrations | Raw seed records; separately identified authored specifications and cited literature transcriptions |
 | [productivity](productivity/README.md) | All-task collection success, with compact main-text companion | Frozen fresh-episode counts and actual collector held-out evaluations |
 | [data_ledger](data_ledger/README.md) | Final-round training-set ledger (episodes and frames per task) and per-round real-world data composition | Pinned collection ledgers, actor provenance, rollout accounting, and documented constants |
 | [hilserl](hilserl/README.md) | HiL-SERL in simulation: per-session eval curves vs. RLPD and operator-cost table | Per-milestone eval CSVs and session totals, one seed per session |
@@ -77,7 +77,7 @@ by several packages is stored once:
 ```text
 real/results/{marker,square,routing}/   eval outcomes, stage batteries, headline tables
 real/results/round_datasets.json        the round-dataset lock (release/round-datasets.json)
-real/collection/                        split ledgers, collection success, stage census
+real/collection/                        split ledgers, collection success
 real/training/, real/value_learning/    training-run records, offline value studies
 sim/{results,critic,sampling,efficiency,collection}/
 assets/{illustrations,reset_ranges}/    restored exports, reset composites

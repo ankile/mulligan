@@ -28,7 +28,7 @@ EVAL_REPO = "mulligan/real-routing-d2-r00-r05-eval"
 EVAL_REVISION = pinned_revision(EVAL_REPO)
 # Revision of the eval repo the pinned snapshot was taken from (provenance only; the
 # pinned files below are identical at EVAL_REVISION).
-SOURCE_EVAL_REVISION = "29b4e100690aad63f98eef87d2c127f8e2245e16"
+SOURCE_EVAL_REVISION = "e86d47c0368f616b62a3c9ed9b73bc89ac3d42d5"
 MANIFEST_PATH = (
     REPO_ROOT / "data/real/manifests/routing_d2/lineage/"
     "routing_d2_lineage_eval_heldout_independent_sobol.json"
@@ -57,7 +57,7 @@ SOURCE_SHA256 = {
     ".outcome_edit_progress.json": (
         "fb8218c54e841f61b575fe586955480ef926cde80a1b167d27855bee00c2bc76"
     ),
-    ".label_history.jsonl": ("d754fa9eb963131c11157e9a2982c2f43b96e905677b1cdf631795375ef93d55"),
+    ".label_history.jsonl": ("ed0bf5fc8c8e219763c890414cbf13ead4a786dbda253645faf2419a39827707"),
     "meta/initial_states_manifest.json": MANIFEST_SHA256,
 }
 

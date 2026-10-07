@@ -115,7 +115,7 @@ def test_stage_spec_matches_golden(name):
 
 def test_only_paper_tasks_registered():
     assert [s.name for s in ss.registered_label_specs()] == list(TASKS)
-    for retired in ("insert_marker_d1", "Square_D1"):
+    for retired in ("retired_marker_task", "Square_D1"):
         with pytest.raises(KeyError, match="unknown stage-label task"):
             ss.get_label_task_spec(retired)
 

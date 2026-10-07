@@ -15,7 +15,7 @@ paper:
   - App. B.6
 eval_dataset:
   repo: mulligan/real-square-d2-r04-eval
-  revision: 3a0c7be7d34fc6a3e28809ead34a6db8ec1bac05
+  revision: 0441337970c8bb53c13f529566d5d6e96b6d2a03
 sessions:
 - session_id: b01
   seed: 2026070304

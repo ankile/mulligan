@@ -589,7 +589,7 @@ def test_eval_resolves_hf_artifact_and_forwards_env_seed(tmp_path, monkeypatch) 
     write_json_atomic(manifest_path, manifest)
     checkpoint_dir = tmp_path / "hf-cache" / "seed-1"
     checkpoint_dir.mkdir(parents=True)
-    ref = "hf://mulligan/sim-square-narrow-r01-mulligan-divl@05e15eb4f0324587337fc7a8e3374398c6044443/seed-1"
+    ref = "hf://mulligan/sim-square-narrow-r01-mulligan-divl@93356d9ead01cc93ee3e7f1d1cb9ea7e1f51f1f7/seed-1"
 
     resolved: list[str] = []
 

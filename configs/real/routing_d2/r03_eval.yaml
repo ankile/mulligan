@@ -13,7 +13,7 @@ paper:
   - App. B.1
 eval_dataset:
   repo: mulligan/real-routing-d2-r00-r05-eval
-  revision: 29b4e100690aad63f98eef87d2c127f8e2245e16
+  revision: e86d47c0368f616b62a3c9ed9b73bc89ac3d42d5
 sessions:
 - session_id: b01
   seed: 2026090701

@@ -23,7 +23,7 @@ SCHEMA = "mulligan.paper.appendix.inputs.v3"
 EVIDENCE_ENV = "MULLIGAN_PAPER_EVIDENCE"
 HF_REPO = "mulligan/paper-evidence"
 # The release-1 commit of mulligan/paper-evidence (release/revisions.json).
-HF_REVISION: str = "4bf9994af8a4299d0a5810a10347d85215b400f2"
+HF_REVISION: str = "9db323805b28983849eccccde8ab392b7468f31f"
 # Evidence directory of each real-world task key (``real/{results,collection}/<dir>/``).
 REAL_DIRS = {"marker_d2": "marker", "square_d2": "square", "routing_d2": "routing"}
 # Labels of every evidence file requested in this process, cache hit or not; paper.figures

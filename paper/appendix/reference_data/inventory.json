@@ -220,7 +220,6 @@
   ],
   "limitations": [
     "RECAP raw analysis unit is the training seed: archived source run records retain run and checkpoint release ids, grid evidence paths, and per-seed rates. This package does not rerun robot or simulator rollouts.",
-    "Stage census analysis unit is the source repository; repositories published inside one merged release dataset are numbered by part. Coverage inputs are the stage-label census, not the entire collection campaign or the final 15-arm Route Cable evaluation.",
     "Authored specification and literature tables are the frozen manuscript's table bodies, each pinned by sha256. This is transcription drift validation, not fresh verification against every training artifact or re-extraction from cited papers.",
     "Teleop cards are archived author-approved raster exports; exact export restoration avoids changing operator-card annotations or typography."
   ],
