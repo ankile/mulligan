@@ -115,12 +115,10 @@ owns the project):
 npx wrangler@4.132.0 pages deploy dist-release --project-name <project>
 ```
 
-The staged `_headers` allow Cloudflare Web Analytics, which Cloudflare injects when it is enabled
-for the Pages project (Metrics, Web Analytics). It sets no cookies and reports page views by
-referrer, country, path and device.
-On `arena.mulligan.page` only, `src/release/trackClicks.ts` also posts each followed link to another
-host or download to the paper site's click counter (`connect-src https://mulligan.page`); a copy served
-from any other origin sends nothing.
+On `arena.mulligan.page` only, `src/release/analytics.ts` posts each page view (path, referring host,
+`utm_source` or `ref`) and each followed link to another host or download to the paper site's visit
+counter (`connect-src https://mulligan.page`). It sets no cookies; a copy served from any other origin
+sends nothing.
 
 Run the browser check against the preview URL Wrangler prints before promoting it. The build is
 deterministic: with the same bun, Node and `bun.lock`, two `package:release` runs give the same files

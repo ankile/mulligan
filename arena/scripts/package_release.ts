@@ -48,7 +48,7 @@ mkdirSync(join(TARGET, "data"), { recursive: true });
 for (const { name } of sums) copyFileSync(join(DATA, name), join(TARGET, "data", name));
 copyFileSync(join(ROOT, "public", "favicon.svg"), join(TARGET, "favicon.svg"));
 const headers = `/*
-  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'none'; script-src 'self' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://huggingface.co https://*.hf.co; media-src 'self' https://huggingface.co https://*.huggingface.co https://*.hf.co https://*.xethub.hf.co; connect-src 'self' https://cloudflareinsights.com https://mulligan.page https://huggingface.co https://*.huggingface.co https://*.hf.co https://*.xethub.hf.co; upgrade-insecure-requests
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'none'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://huggingface.co https://*.hf.co; media-src 'self' https://huggingface.co https://*.huggingface.co https://*.hf.co https://*.xethub.hf.co; connect-src 'self' https://mulligan.page https://huggingface.co https://*.huggingface.co https://*.hf.co https://*.xethub.hf.co; upgrade-insecure-requests
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
   Referrer-Policy: strict-origin-when-cross-origin

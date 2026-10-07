@@ -93,11 +93,11 @@
     "src/release/ReleaseLinks.tsx",
     "src/release/ReleaseProvider.tsx",
     "src/release/adapter.ts",
+    "src/release/analytics.ts",
     "src/release/api.ts",
     "src/release/client.ts",
     "src/release/main.tsx",
     "src/release/overview-main.tsx",
-    "src/release/trackClicks.ts",
     "src/release/types.ts"
   ]
 }

@@ -10,8 +10,8 @@ import {
 import type { UISnapshot } from "./adapter";
 import App from "../App";
 import "../index.css";
-import { trackOutboundClicks } from "./trackClicks";
-trackOutboundClicks();
+import { trackVisits } from "./analytics";
+trackVisits();
 const root = createRoot(document.getElementById("root")!);
 async function load(path: string) {
   const r = await fetch(path);

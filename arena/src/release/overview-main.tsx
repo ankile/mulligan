@@ -1,8 +1,8 @@
 import { createRoot } from "react-dom/client";
 import { validateRelease } from "./types";
 import Overview from "./Overview";
-import { trackOutboundClicks } from "./trackClicks";
-trackOutboundClicks();
+import { trackVisits } from "./analytics";
+trackVisits();
 const root = createRoot(document.getElementById("root")!);
 fetch("/data/release.json").then(r => {
   if (!r.ok) throw new Error(`Release returned ${r.status}`);
