@@ -1,0 +1,63 @@
+# Run: python -m mulligan.real.train.launch configs/real/routing_d2/velocity/r01_mulligan_dp.yaml --output-dir <dir>
+kind: dp-actor
+trainer: mulligan.real.train.policy
+checkpoint:
+  repo: mulligan/real-routing-d2-velocity-r01-mulligan-dp
+  revision: 7fec775d7d7c59586ab9a250505f85e4be75cb8c
+  step: 75000
+retrain: exact
+paper:
+  task: Route Cable
+  round: velocity R1
+  arm: HG-DAgger+Mulligan
+  seed: 1
+  results: []
+  evaluations: []
+  collections:
+  - mulligan/real-routing-d2-c02-dagger-mixed
+dataset_revisions:
+  mulligan/real-routing-d2-c00-teleop-sobol: 16a1a3301199918236da525bb30c064c4f28d7f3
+  mulligan/real-routing-d2-c00-teleop-validation: aea89ca1dcde5bf0f3eafba80d4ed6be5c6f16af
+  mulligan/real-routing-d2-c01-dagger-mulligan: cba50487f61ebc907e2ffcc9428187c1e9aaf73d
+dataset_episodes: {}
+args:
+  task: routing_d2
+  repo-ids:
+  - mulligan/real-routing-d2-c00-teleop-sobol
+  - mulligan/real-routing-d2-c01-dagger-mulligan
+  filter-dagger: true
+  num-workers: 24
+  seed: 1
+  eval-repo-ids:
+  - mulligan/real-routing-d2-c00-teleop-validation
+  eval-batch-size: 64
+  num-eval-batches: 128
+  model-init-seed: 0
+  n-action-steps: 6
+  image-height: 224
+  image-width: 224
+  training-steps: 100000
+  batch-size: 64
+  save-freq: 25000
+  scheduler-name: cosine
+  no-uint8-native-images: true
+  drop-n-last-frames: 2
+  spatial-softmax-num-keypoints: 32
+  eval-freq: 5000
+  no-decoded-frame-cache: true
+camera_crops:
+  side_1:
+  - 140
+  - 120
+  - 560
+  - 470
+  side_2:
+  - 130
+  - 120
+  - 440
+  - 445
+  wrist_left:
+  - 180
+  - 0
+  - 639
+  - 413

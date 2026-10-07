@@ -1,0 +1,133 @@
+name: Test Suite
+
+# Full install from the committed uv.lock (all extras) on a CPU runner.
+#
+# The lock pins torch 2.11.0+cu128 and the jax-cuda12-plugin wheels for linux
+# x86_64. GitHub runners have no GPU, but the CUDA wheels import and run on CPU
+# (torch.cuda.is_available() is False), so CI installs the lock as-is and
+# exercises the shipped environment. The cost is several GB of nvidia-* wheels,
+# hence the "Free up disk space" step. GPU checks are manual runs, not part of CI.
+
+on:
+  pull_request:
+    branches: [main]
+    paths-ignore:
+      - "**/*.md"
+      - "docs/**"
+  push:
+    branches: [main]
+    paths-ignore:
+      - "**/*.md"
+      - "docs/**"
+  schedule:
+    - cron: "17 9 * * 1"
+  workflow_dispatch:
+
+concurrency:
+  group: test-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  MUJOCO_GL: egl
+  PYOPENGL_PLATFORM: egl
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Free up disk space
+        run: |
+          # Room for the CUDA torch + jax wheels the lock pins (nvidia-* is ~3 GB).
+          sudo rm -rf /usr/share/dotnet
+          sudo rm -rf /usr/local/lib/android
+          sudo rm -rf /opt/ghc
+          sudo rm -rf /opt/hostedtoolcache/CodeQL
+          sudo docker image prune --all --force
+          df -h
+
+      - name: Checkout code
+        uses: actions/checkout@v7
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Install system dependencies
+        run: |
+          # libgl1 + libglib2.0-0: opencv-python. ffmpeg: torchcodec. libegl1: MuJoCo EGL rendering.
+          sudo apt-get update
+          sudo apt-get install -y libgl1 libglib2.0-0 ffmpeg libegl1
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v9.0.0
+        with:
+          enable-cache: true
+          prune-cache: true
+
+      - name: Check the lock matches pyproject.toml
+        run: uv lock --check
+
+      - name: Install package and dependencies (uv sync --frozen --all-extras)
+        run: uv sync --frozen --all-extras
+
+      - name: Verify TorchCodec runtime
+        run: |
+          # Fails fast with a focused error if the FFmpeg shared libraries are missing.
+          uv run --no-sync python -c "from torchcodec.decoders import VideoDecoder; print('TorchCodec runtime OK')"
+
+      - name: Verify imports and a single OpenCV distribution
+        run: |
+          uv run --no-sync python -c "import mulligan, lerobot, robosuite, mimicgen, torchcodec, jax, torch, cv2; print('imports OK')"
+          uv run --no-sync python - <<'PY'
+          from importlib.metadata import distributions
+          cv = sorted({d.metadata["Name"] for d in distributions() if d.metadata["Name"].lower().startswith("opencv")})
+          assert cv == ["opencv-python"], cv
+          print("OpenCV distributions:", cv)
+          PY
+
+      - name: Run tests
+        run: |
+          uv run --no-sync python -m pytest -v --tb=short --color=yes \
+            -m "not network and not gpu and not hardware"
+
+  arena:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.3.14
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - uses: astral-sh/setup-uv@v9.0.0
+      - name: Install, closure, lint, unit tests
+        working-directory: arena
+        run: |
+          bun install --frozen-lockfile
+          bun run check:closure
+          bun run lint
+          bun test
+      - name: Self-deploy app (type-check, API types, build against a placeholder Convex URL)
+        working-directory: arena
+        env:
+          VITE_CONVEX_URL: https://example.convex.cloud
+        run: |
+          bun run typecheck
+          bun run check:api
+          bun run build
+      - name: Build, verify data, leak check
+        working-directory: arena
+        run: |
+          bun run package:release data/release.json
+          bun run verify:data
+          bun run leak-check
+      - name: Browser check (Chrome from the image)
+        run: uv tool run --with playwright==1.63.0 pytest tests/release/test_arena_build.py -rs

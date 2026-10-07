@@ -1,0 +1,67 @@
+# Derived from mulligan/real-square-d2-r04-eval/meta/round_dataset.json.
+# Record of the round's blinded evaluation sessions: the arms (actor, critic, N) of each session.
+# The plotted point of a round pools every counted session of the same checkpoint (actor + critic + N).
+# A session's start manifest is `manifest` (shipped under data/real/manifests) or, for a subset of a
+# shipped manifest, `manifest_in_eval_dataset` (a file of the eval dataset); both match manifest_sha256.
+# Re-run a session with mulligan.real.eval.manifest_eval (docs/real_robot_eval.md).
+task: square_d2
+round: 4
+paper:
+  task: Thread Nut
+  results:
+  - Fig. 5
+  - Fig. 7
+  - App. B.1
+  - App. B.6
+eval_dataset:
+  repo: mulligan/real-square-d2-r04-eval
+  revision: cfb8759d68a0744cb7167efb3cfae6cdd80b3309
+sessions:
+- session_id: b01
+  seed: 2026070304
+  manifest_sha256: b792439b046b335d8229185156d5c861cea63e041f90eed2555793a60d919dde
+  manifest: data/real/manifests/square_d2/r04/square_d2_r4_eval_heldout_independent_sobol.json
+  n_starts: 50
+  arms:
+  - policy_key: hg_dagger
+    method: HG-DAgger
+    role: counted
+    episodes: 50
+    actor:
+      repo: mulligan/real-square-d2-r04-baseline-dp
+      revision: 35fcb31eef4ecf573b69a1435b458e009708ef38
+      step: 100000
+      config: configs/real/square_d2/r04_baseline_dp.yaml
+  - policy_key: hg_dagger_mulligan_no_cf
+    method: HG-DAgger+Mulligan no-CF
+    role: no-cf-ablation
+    episodes: 50
+    actor:
+      repo: mulligan/real-square-d2-r04-mulligan-no-cf-dp
+      revision: 0d9423bf9fad8d9caa062d8b26e7845a2583a140
+      step: 100000
+      config: configs/real/square_d2/r04_mulligan_no_cf_dp.yaml
+  - policy_key: hg_dagger_mulligan
+    method: HG-DAgger+Mulligan
+    role: counted
+    episodes: 50
+    actor:
+      repo: mulligan/real-square-d2-r04-mulligan-dp
+      revision: 8b905b3c57419cec77a51348e5647112d5d30a35
+      step: 100000
+      config: configs/real/square_d2/r04_mulligan_dp.yaml
+  - policy_key: hil_idql_mulligan
+    method: HiL-IDQL+Mulligan
+    role: counted
+    episodes: 50
+    actor:
+      repo: mulligan/real-square-d2-r04-mulligan-dp
+      revision: 8b905b3c57419cec77a51348e5647112d5d30a35
+      step: 100000
+      config: configs/real/square_d2/r04_mulligan_dp.yaml
+    critic:
+      repo: mulligan/real-square-d2-r04-mulligan-idql-critic
+      revision: 6e178583609e48df511e6566bee48bbfeed37bfd
+      step: 150000
+      config: configs/real/square_d2/r04_critic.yaml
+    num_action_samples: 16

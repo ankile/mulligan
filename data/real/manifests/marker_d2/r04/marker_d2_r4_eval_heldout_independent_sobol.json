@@ -1,0 +1,930 @@
+{
+  "task": "marker_d2",
+  "schema": "real_manual_initial_states_v1",
+  "keys": [
+    "pen_x",
+    "pen_y",
+    "pen_yaw",
+    "holder_x",
+    "holder_y"
+  ],
+  "units": {
+    "pen_x": "m",
+    "pen_y": "m",
+    "pen_yaw": "rad",
+    "holder_x": "m",
+    "holder_y": "m"
+  },
+  "operator_frame": {
+    "description": "Manual marker_d2 placement targets in the operator frame. +x is forward, +y is left, yaw is the object heading. Sampled scene placements are recorded in the same frame.",
+    "display_units": {
+      "pen_x": "in",
+      "pen_y": "in",
+      "pen_yaw": "deg",
+      "holder_x": "in",
+      "holder_y": "in"
+    }
+  },
+  "bounds": {
+    "pen_x": [
+      -0.07619999999999999,
+      0.07619999999999999
+    ],
+    "pen_y": [
+      -0.15239999999999998,
+      0.15239999999999998
+    ],
+    "pen_yaw": [
+      -3.141592653589793,
+      3.141592653589793
+    ],
+    "holder_x": [
+      0.15239999999999998,
+      0.2032
+    ],
+    "holder_y": [
+      -0.1016,
+      0.0
+    ]
+  },
+  "bounds_display": {
+    "pen_x_in": [
+      -2.9999999999999996,
+      2.9999999999999996
+    ],
+    "pen_y_in": [
+      -5.999999999999999,
+      5.999999999999999
+    ],
+    "pen_yaw_deg": [
+      -180.0,
+      180.0
+    ],
+    "holder_x_in": [
+      5.999999999999999,
+      8.0
+    ],
+    "holder_y_in": [
+      -4.0,
+      0.0
+    ]
+  },
+  "sampled_placements": {
+    "holder": {
+      "keys": [
+        "holder_x",
+        "holder_y"
+      ],
+      "bounds": [
+        [
+          0.15239999999999998,
+          0.2032
+        ],
+        [
+          -0.1016,
+          0.0
+        ]
+      ],
+      "snap_m": 0.0254,
+      "grid_dims": [
+        3,
+        5
+      ]
+    }
+  },
+  "match_tolerance": 1e-09,
+  "phase": "R4_three_arm_heldout_eval",
+  "arms": [
+    "eval_sobol_independent"
+  ],
+  "arm_counts": {
+    "eval_sobol_independent": 50
+  },
+  "seeds": {
+    "sobol": 2026070604
+  },
+  "order_policy": "holder_batched_serpentine_v1",
+  "order_policy_description": "Rows are grouped by the red-holder grid cell to reduce manual setup moves. Holder cells traverse x columns in a serpentine y path; within each holder cell, rows keep original Sobol stream order.",
+  "source_index_order_placement_changes": 47,
+  "placement_changes": 14,
+  "placement_moves_reduced_by": 33,
+  "sobol_stream": {
+    "start_index": 0,
+    "end_index_exclusive": 50
+  },
+  "registry_usage_id": "marker_d2_r4_heldout_eval_independent_sobol_seed2026070604",
+  "within_set_min_periodic_dist": 0.2996130604368524,
+  "cross_set_min_periodic_dist_to_prior_manifests": {
+    "<local-path>/marker_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json": 0.032378999342918734,
+    "<local-path>/marker_d2_r0_eval_heldout_sobol50.json": 0.032378999342918734,
+    "<local-path>/marker_d2_r1_promote25_fill25_blind_dagger.json": 0.032378999342918734,
+    "<local-path>/marker_d2_r2_promote25_fill25_blind_dagger.json": 0.08229300140120312,
+    "<local-path>/marker_d2_r3_promote25_fill25_blind_dagger.json": 0.13373109549109313,
+    "<local-path>/marker_d2_r4_promote25_fill25_blind_dagger.json": 0.14307973779008412,
+    "<local-path>/marker_d2_r1_eval_heldout_independent_sobol.json": 0.05032547681217209,
+    "<local-path>/marker_d2_r2_eval_heldout_independent_sobol.json": 0.1529944028106627,
+    "<local-path>/marker_d2_r3_eval_heldout_independent_sobol.json": 0.1009700384357998
+  },
+  "states": [
+    {
+      "pen_x": -0.011424615636840454,
+      "pen_y": -0.13284063309654592,
+      "pen_yaw": 2.3275814451784553,
+      "holder_x": 0.15239999999999998,
+      "holder_y": -0.1016,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 0,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 0,
+      "manifest_idx": 0,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.061330455023422825,
+      "pen_y": 0.11563356259837743,
+      "pen_yaw": -2.8088757937285145,
+      "holder_x": 0.15239999999999998,
+      "holder_y": -0.1016,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 19,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 19,
+      "manifest_idx": 1,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.02375778177380561,
+      "pen_y": 0.11174726274982094,
+      "pen_yaw": -1.3289013302116308,
+      "holder_x": 0.15239999999999998,
+      "holder_y": -0.1016,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 41,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 41,
+      "manifest_idx": 2,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.001198885675147171,
+      "pen_y": -0.08536924920827149,
+      "pen_yaw": -2.3700201368974536,
+      "holder_x": 0.15239999999999998,
+      "holder_y": -0.1016,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 46,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 46,
+      "manifest_idx": 3,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.06324600028954447,
+      "pen_y": 0.12552000492587684,
+      "pen_yaw": -0.9904106603851344,
+      "holder_x": 0.15239999999999998,
+      "holder_y": -0.07619999999999999,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 13,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 13,
+      "manifest_idx": 4,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.039844676562398665,
+      "pen_y": -0.14699613800793884,
+      "pen_yaw": -0.9024984065783204,
+      "holder_x": 0.15239999999999998,
+      "holder_y": -0.07619999999999999,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 20,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 20,
+      "manifest_idx": 5,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.01787832639478147,
+      "pen_y": -0.1236794371984899,
+      "pen_yaw": 0.12257114132859659,
+      "holder_x": 0.15239999999999998,
+      "holder_y": -0.07619999999999999,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 30,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 30,
+      "manifest_idx": 6,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.07325628191940485,
+      "pen_y": 0.07775125376433134,
+      "pen_yaw": 0.54301774133712,
+      "holder_x": 0.15239999999999998,
+      "holder_y": -0.07619999999999999,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 35,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 35,
+      "manifest_idx": 7,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.035653232616931194,
+      "pen_y": 0.14946095735281706,
+      "pen_yaw": 2.0197448075983013,
+      "holder_x": 0.15239999999999998,
+      "holder_y": -0.0508,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 25,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 25,
+      "manifest_idx": 8,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.016271701084077356,
+      "pen_y": 0.053923950093984596,
+      "pen_yaw": 2.6117231927770472,
+      "holder_x": 0.15239999999999998,
+      "holder_y": -0.0508,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 33,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 33,
+      "manifest_idx": 9,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.05649403190910815,
+      "pen_y": -0.10851969756111501,
+      "pen_yaw": 1.5872042521251322,
+      "holder_x": 0.15239999999999998,
+      "holder_y": -0.0508,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 36,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 36,
+      "manifest_idx": 10,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.028309536694362758,
+      "pen_y": -0.036923348075151435,
+      "pen_yaw": -0.06368318221444325,
+      "holder_x": 0.15239999999999998,
+      "holder_y": -0.025400000000000006,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 8,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 8,
+      "manifest_idx": 11,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.006190730012208226,
+      "pen_y": 0.0064537414155900474,
+      "pen_yaw": -2.0659815564930546,
+      "holder_x": 0.15239999999999998,
+      "holder_y": -0.025400000000000006,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 15,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 15,
+      "manifest_idx": 12,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.0687115033172071,
+      "pen_y": -0.00426797877922655,
+      "pen_yaw": 0.8501300647695396,
+      "holder_x": 0.15239999999999998,
+      "holder_y": 0.0,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 2,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 2,
+      "manifest_idx": 13,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.05149521125368772,
+      "pen_y": 0.030942467683553687,
+      "pen_yaw": 2.8493606413192047,
+      "holder_x": 0.15239999999999998,
+      "holder_y": 0.0,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 5,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 5,
+      "manifest_idx": 14,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.020661786014959216,
+      "pen_y": -0.027913560086488723,
+      "pen_yaw": -2.1770804766890213,
+      "holder_x": 0.15239999999999998,
+      "holder_y": 0.0,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 22,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 22,
+      "manifest_idx": 15,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.04512624675370752,
+      "pen_y": 0.10890097226500511,
+      "pen_yaw": 2.7113577213779436,
+      "holder_x": 0.17779999999999999,
+      "holder_y": 0.0,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 11,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 11,
+      "manifest_idx": 16,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.06557402563020587,
+      "pen_y": -0.07753716203346847,
+      "pen_yaw": 1.394074646633288,
+      "holder_x": 0.17779999999999999,
+      "holder_y": 0.0,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 12,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 12,
+      "manifest_idx": 17,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.042683784499391905,
+      "pen_y": 0.05936820779666305,
+      "pen_yaw": -1.8241256841909008,
+      "holder_x": 0.17779999999999999,
+      "holder_y": 0.0,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 43,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 43,
+      "manifest_idx": 18,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.058547161607444276,
+      "pen_y": -0.05203554337620735,
+      "pen_yaw": -0.7093310460966866,
+      "holder_x": 0.17779999999999999,
+      "holder_y": 0.0,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 44,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 44,
+      "manifest_idx": 19,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.013792467818409204,
+      "pen_y": 0.08558332277163863,
+      "pen_yaw": -1.9208721550297425,
+      "holder_x": 0.17779999999999999,
+      "holder_y": -0.025400000000000006,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 1,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 1,
+      "manifest_idx": 20,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.00438789617344737,
+      "pen_y": 0.015596333798021084,
+      "pen_yaw": -0.3442830471479761,
+      "holder_x": 0.17779999999999999,
+      "holder_y": -0.025400000000000006,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 17,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 17,
+      "manifest_idx": 21,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.05460261634178459,
+      "pen_y": 0.02090919565558433,
+      "pen_yaw": 1.1347684262426636,
+      "holder_x": 0.17779999999999999,
+      "holder_y": -0.025400000000000006,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 27,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 27,
+      "manifest_idx": 22,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.03735287153162062,
+      "pen_y": -0.06564704476967453,
+      "pen_yaw": 1.493860476073615,
+      "holder_x": 0.17779999999999999,
+      "holder_y": -0.025400000000000006,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 38,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 38,
+      "manifest_idx": 23,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.04752854450717568,
+      "pen_y": -0.1369442624643445,
+      "pen_yaw": -3.115382744104716,
+      "holder_x": 0.17779999999999999,
+      "holder_y": -0.0508,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 10,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 10,
+      "manifest_idx": 24,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.07520351087227463,
+      "pen_y": -0.014173024622350927,
+      "pen_yaw": 2.9583617603961914,
+      "holder_x": 0.17779999999999999,
+      "holder_y": -0.0508,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 28,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 28,
+      "manifest_idx": 25,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.060878088921681034,
+      "pen_y": 0.00450031067579984,
+      "pen_yaw": 0.3053060233699143,
+      "holder_x": 0.17779999999999999,
+      "holder_y": -0.0508,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 45,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 45,
+      "manifest_idx": 26,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.032656358288973564,
+      "pen_y": 0.1404697728797793,
+      "pen_yaw": 0.20567753369484842,
+      "holder_x": 0.17779999999999999,
+      "holder_y": -0.07619999999999999,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 7,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 7,
+      "manifest_idx": 27,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.02302855240479111,
+      "pen_y": 0.0750197526142001,
+      "pen_yaw": 1.770708043908913,
+      "holder_x": 0.17779999999999999,
+      "holder_y": -0.07619999999999999,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 23,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 23,
+      "manifest_idx": 28,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.01863781401179731,
+      "pen_y": -0.006221282346546647,
+      "pen_yaw": -3.018838460247774,
+      "holder_x": 0.17779999999999999,
+      "holder_y": -0.07619999999999999,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 32,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 32,
+      "manifest_idx": 29,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.00906755480580032,
+      "pen_y": -0.09495836230069397,
+      "pen_yaw": -1.4415390997868511,
+      "holder_x": 0.17779999999999999,
+      "holder_y": -0.07619999999999999,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 48,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 48,
+      "manifest_idx": 30,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.056934779613465075,
+      "pen_y": -0.06903857813626527,
+      "pen_yaw": -1.5380981766714108,
+      "holder_x": 0.17779999999999999,
+      "holder_y": -0.1016,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 26,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 26,
+      "manifest_idx": 31,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.07279677599184214,
+      "pen_y": 0.042362853274494405,
+      "pen_yaw": -2.555440983345684,
+      "holder_x": 0.17779999999999999,
+      "holder_y": -0.1016,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 29,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 29,
+      "manifest_idx": 32,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.02594759831652045,
+      "pen_y": 0.06600967394560575,
+      "pen_yaw": 0.44321225027780775,
+      "holder_x": 0.2032,
+      "holder_y": -0.1016,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 9,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 9,
+      "manifest_idx": 33,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.008626952157542112,
+      "pen_y": -0.05369121283516287,
+      "pen_yaw": 1.6868135015016197,
+      "holder_x": 0.2032,
+      "holder_y": -0.1016,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 14,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 14,
+      "manifest_idx": 34,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.034912503223121165,
+      "pen_y": 0.03728629177585244,
+      "pen_yaw": -1.0871511859249017,
+      "holder_x": 0.2032,
+      "holder_y": -0.1016,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 39,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 39,
+      "manifest_idx": 35,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.04917773186042904,
+      "pen_y": -0.059005596788227546,
+      "pen_yaw": -2.466740954004857,
+      "holder_x": 0.2032,
+      "holder_y": -0.07619999999999999,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 4,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 4,
+      "manifest_idx": 36,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.0402785751208663,
+      "pen_y": -0.030579578485339876,
+      "pen_yaw": 2.227789670439054,
+      "holder_x": 0.2032,
+      "holder_y": -0.07619999999999999,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 42,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 42,
+      "manifest_idx": 37,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.07110323638804256,
+      "pen_y": 0.052268189797550435,
+      "pen_yaw": -1.2323437981685628,
+      "holder_x": 0.2032,
+      "holder_y": -0.0508,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 3,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 3,
+      "manifest_idx": 38,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.030214241075143214,
+      "pen_y": -0.11136607888340949,
+      "pen_yaw": -0.6127928011655754,
+      "holder_x": 0.2032,
+      "holder_y": -0.0508,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 6,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 6,
+      "manifest_idx": 39,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.0019465825874358383,
+      "pen_y": -0.04454891113266349,
+      "pen_yaw": 0.7502974395056929,
+      "holder_x": 0.2032,
+      "holder_y": -0.0508,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 16,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 16,
+      "manifest_idx": 40,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.04224331810735166,
+      "pen_y": 0.09884938740134236,
+      "pen_yaw": 1.2842790108957791,
+      "holder_x": 0.2032,
+      "holder_y": -0.0508,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 21,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 21,
+      "manifest_idx": 41,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.059006367487460354,
+      "pen_y": -0.08742389504089951,
+      "pen_yaw": 2.427453206426759,
+      "holder_x": 0.2032,
+      "holder_y": -0.025400000000000006,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 18,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 18,
+      "manifest_idx": 42,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.05416899909563361,
+      "pen_y": 0.13732584033831952,
+      "pen_yaw": -1.9694179855241551,
+      "holder_x": 0.2032,
+      "holder_y": -0.025400000000000006,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 37,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 37,
+      "manifest_idx": 43,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.021402234096452588,
+      "pen_y": -0.14008832217827438,
+      "pen_yaw": 0.9497332752201952,
+      "holder_x": 0.2032,
+      "holder_y": -0.025400000000000006,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 40,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 40,
+      "manifest_idx": 44,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.0036287086039781535,
+      "pen_y": 0.1330544034898281,
+      "pen_yaw": 2.749549204960818,
+      "holder_x": 0.2032,
+      "holder_y": -0.025400000000000006,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 47,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 47,
+      "manifest_idx": 45,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.03808181958831846,
+      "pen_y": -0.10237460373044013,
+      "pen_yaw": -1.6410065111251766,
+      "holder_x": 0.2032,
+      "holder_y": 0.0,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 24,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 24,
+      "manifest_idx": 46,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": -0.015524304219335316,
+      "pen_y": 0.09474422798976301,
+      "pen_yaw": -0.500900487830171,
+      "holder_x": 0.2032,
+      "holder_y": 0.0,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 31,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 31,
+      "manifest_idx": 47,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.07565557692646979,
+      "pen_y": -0.1253061800301075,
+      "pen_yaw": -0.16039805402277274,
+      "holder_x": 0.2032,
+      "holder_y": 0.0,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 34,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 34,
+      "manifest_idx": 48,
+      "order_policy": "holder_batched_serpentine_v1"
+    },
+    {
+      "pen_x": 0.006624492314457886,
+      "pen_y": 0.12346558107733724,
+      "pen_yaw": 1.0351666670067425,
+      "holder_x": 0.2032,
+      "holder_y": 0.0,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 49,
+      "sobol_seed": 2026070604,
+      "sobol_stream_index": 49,
+      "manifest_idx": 49,
+      "order_policy": "holder_batched_serpentine_v1"
+    }
+  ]
+}

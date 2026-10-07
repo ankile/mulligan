@@ -1,0 +1,45 @@
+{
+  "files": [
+    {
+      "path": "assets/illustrations/overview_funnel.pdf",
+      "sha256": "9eb1e7f66966fab68f9e9f92956ce162f05c1d65227ed8568de49726386c96b6",
+      "size": 36755
+    },
+    {
+      "path": "assets/illustrations/real_world_marker_d2_teleop_card.png",
+      "sha256": "2c689461e9b4309bf12d13b4a233050c2d5ec0449659c54020be34210a31cd07",
+      "size": 27849
+    },
+    {
+      "path": "assets/illustrations/real_world_routing_d2_teleop_card.png",
+      "sha256": "b65245eb5f7559d3e29ee1bde69aff97a69d39ddbfc3031bafe57146c27a76a1",
+      "size": 87527
+    },
+    {
+      "path": "assets/illustrations/real_world_square_d2_teleop_card.png",
+      "sha256": "40a30f914bd3f9eae2b838445e6fddaebd02913e35b98ace1833c89b80fc8740",
+      "size": 63363
+    },
+    {
+      "path": "real/collection/stage_census/coverage_by_repo.csv",
+      "sha256": "73ce9c34c8734f5cc659d0c7af662ca3e6cf0c69a04d577358f15eacd1dc6784",
+      "size": 2559
+    },
+    {
+      "path": "real/collection/stage_census/episode_counts.json",
+      "sha256": "3016c988e044e691b0f390e83c0267542c5ddeb779544dc1a2f71a1e608bab49",
+      "size": 3482
+    },
+    {
+      "path": "sim/results/recap/runs.csv",
+      "sha256": "ffb128f5f6a60fe483eea4fcef3bc8c0536fc731518b705cfb81a88567a77146",
+      "size": 13803
+    },
+    {
+      "path": "sim/results/recap/summary.json",
+      "sha256": "9a6e3931d7a76f5f615252e5fdf882f51a973fa330a2d8721ebdc2fed3aacd56",
+      "size": 12024
+    }
+  ],
+  "schema": "mulligan.paper.appendix.inputs.v3"
+}

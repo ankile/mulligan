@@ -1,0 +1,56 @@
+# Derived from mulligan/real-marker-d2-r04-eval/meta/round_dataset.json.
+# Record of the round's blinded evaluation sessions: the arms (actor, critic, N) of each session.
+# The plotted point of a round pools every counted session of the same checkpoint (actor + critic + N).
+# A session's start manifest is `manifest` (shipped under data/real/manifests) or, for a subset of a
+# shipped manifest, `manifest_in_eval_dataset` (a file of the eval dataset); both match manifest_sha256.
+# Re-run a session with mulligan.real.eval.manifest_eval (docs/real_robot_eval.md).
+task: marker_d2
+round: 4
+paper:
+  task: Insert Marker
+  results:
+  - Fig. 5
+  - App. B.1
+eval_dataset:
+  repo: mulligan/real-marker-d2-r04-eval
+  revision: 0cdc7a3c814c06bd6b0094b4d3d4aaa644c4ccef
+sessions:
+- session_id: b01
+  seed: 2026070604
+  manifest_sha256: fa987edac44a1db8361fe9052208c0b72ac234801f0ed4336c21187b342882cc
+  manifest: data/real/manifests/marker_d2/r04/marker_d2_r4_eval_heldout_independent_sobol.json
+  n_starts: 50
+  arms:
+  - policy_key: hg_dagger
+    method: HG-DAgger
+    role: counted
+    episodes: 50
+    actor:
+      repo: mulligan/real-marker-d2-r04-baseline-dp
+      revision: 5fd5fda05a659e364fc14ed49352e9274f58c304
+      step: 100000
+      config: configs/real/marker_d2/r04_baseline_dp.yaml
+  - policy_key: hg_dagger_mulligan
+    method: HG-DAgger+Mulligan
+    role: counted
+    episodes: 50
+    actor:
+      repo: mulligan/real-marker-d2-r04-mulligan-dp
+      revision: 86e4acd0de60f7d686a3ba1bfb148f7aa5704625
+      step: 100000
+      config: configs/real/marker_d2/r04_mulligan_dp.yaml
+  - policy_key: hil_idql_mulligan
+    method: HiL-IDQL+Mulligan
+    role: counted
+    episodes: 50
+    actor:
+      repo: mulligan/real-marker-d2-r04-mulligan-dp
+      revision: 86e4acd0de60f7d686a3ba1bfb148f7aa5704625
+      step: 100000
+      config: configs/real/marker_d2/r04_mulligan_dp.yaml
+    critic:
+      repo: mulligan/real-marker-d2-r04-mulligan-idql-critic
+      revision: cb6739de2bf922889f89f1f56cb506a26bac0374
+      step: 125000
+      config: configs/real/marker_d2/r04_critic.yaml
+    num_action_samples: 16

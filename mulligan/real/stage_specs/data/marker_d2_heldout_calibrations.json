@@ -1,0 +1,866 @@
+{
+  "r0_heldout_stage_calibrations": {
+    "dataset_repo_id": "mulligan/real-marker-d2-r00-eval",
+    "episodes": [
+      {
+        "episode_index": 8,
+        "reason": "human-reviewed H2 S3/S4 boundary case",
+        "fields": {
+          "max_stage_v2": 4,
+          "final_state": "marker_partially_in_holder_held",
+          "early_failure_mode_v2": "timeout_holding_marker",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": false,
+          "marker_released_time_s": null,
+          "grasp_lost": false,
+          "grasp_lost_time_s": null,
+          "hole_alignment_time_s": 12.47,
+          "insertion_contact_time_s": 7.93
+        }
+      },
+      {
+        "episode_index": 15,
+        "reason": "human-reviewed H2 S3/S4 boundary case",
+        "fields": {
+          "max_stage_v2": 3,
+          "final_state": "marker_in_gripper_at_holder",
+          "early_failure_mode_v2": "timeout_holding_marker",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": false,
+          "marker_released_time_s": null,
+          "grasp_lost": false,
+          "grasp_lost_time_s": null,
+          "hole_alignment_time_s": null,
+          "insertion_contact_time_s": 8.67
+        }
+      },
+      {
+        "episode_index": 19,
+        "reason": "human-reviewed H2 S3/S4 boundary case",
+        "fields": {
+          "max_stage_v2": 3,
+          "final_state": "marker_in_gripper_at_holder",
+          "early_failure_mode_v2": "timeout_holding_marker",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": false,
+          "marker_released_time_s": null,
+          "grasp_lost": false,
+          "grasp_lost_time_s": null,
+          "hole_alignment_time_s": null,
+          "insertion_contact_time_s": 9.13
+        }
+      },
+      {
+        "episode_index": 31,
+        "reason": "human-reviewed H2 wrong-hole boundary case",
+        "fields": {
+          "max_stage_v2": 3,
+          "final_state": "marker_in_gripper_at_holder",
+          "early_failure_mode_v2": "wrong_hole_partial_insert",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": false,
+          "marker_released_time_s": null,
+          "grasp_lost": false,
+          "grasp_lost_time_s": null,
+          "hole_alignment_time_s": null,
+          "insertion_contact_time_s": 10.27
+        }
+      },
+      {
+        "episode_index": 34,
+        "reason": "human-reviewed H2 S3/S4 boundary case",
+        "fields": {
+          "max_stage_v2": 4,
+          "final_state": "marker_partially_in_holder_held",
+          "early_failure_mode_v2": "timeout_holding_marker",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": false,
+          "marker_released_time_s": null,
+          "grasp_lost": false,
+          "grasp_lost_time_s": null,
+          "hole_alignment_time_s": 26.07,
+          "insertion_contact_time_s": 10.6
+        }
+      },
+      {
+        "episode_index": 39,
+        "reason": "human-reviewed H2 S3/S4 boundary case",
+        "fields": {
+          "max_stage_v2": 3,
+          "final_state": "marker_in_gripper_at_holder",
+          "early_failure_mode_v2": "timeout_holding_marker",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": false,
+          "marker_released_time_s": null,
+          "grasp_lost": false,
+          "grasp_lost_time_s": null,
+          "hole_alignment_time_s": null,
+          "insertion_contact_time_s": 7.13
+        }
+      },
+      {
+        "episode_index": 41,
+        "reason": "human-reviewed H2 S3/S4 boundary case",
+        "fields": {
+          "max_stage_v2": 3,
+          "final_state": "marker_in_gripper_at_holder",
+          "early_failure_mode_v2": "timeout_holding_marker",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": false,
+          "marker_released_time_s": null,
+          "grasp_lost": false,
+          "grasp_lost_time_s": null,
+          "hole_alignment_time_s": null,
+          "insertion_contact_time_s": 12.07
+        }
+      },
+      {
+        "episode_index": 44,
+        "reason": "human-reviewed late full seating while held",
+        "fields": {
+          "max_stage_v2": 6,
+          "final_state": "marker_fully_seated_held",
+          "early_failure_mode_v2": "timeout_holding_marker",
+          "marker_fully_seated": true,
+          "marker_fully_seated_time_s": 26.73,
+          "marker_released": false,
+          "marker_released_time_s": null,
+          "grasp_lost": false,
+          "hole_alignment_time_s": 25.73,
+          "insertion_contact_time_s": 24.47
+        }
+      },
+      {
+        "episode_index": 54,
+        "reason": "human-reviewed late hole alignment without release",
+        "fields": {
+          "max_stage_v2": 5,
+          "final_state": "marker_in_gripper_at_holder",
+          "early_failure_mode_v2": "timeout_holding_marker",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": false,
+          "marker_released_time_s": null,
+          "grasp_lost": false,
+          "hole_alignment_time_s": 30.53,
+          "insertion_contact_time_s": 8.93
+        }
+      },
+      {
+        "episode_index": 58,
+        "reason": "human-reviewed holder contact without hole alignment",
+        "fields": {
+          "max_stage_v2": 3,
+          "final_state": "marker_in_gripper_at_holder",
+          "early_failure_mode_v2": "timeout_holding_marker",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": false,
+          "marker_released_time_s": null,
+          "grasp_lost": false,
+          "hole_alignment_time_s": null,
+          "insertion_contact_time_s": 8.93
+        }
+      },
+      {
+        "episode_index": 64,
+        "reason": "human-reviewed H2 S3/S4 boundary case",
+        "fields": {
+          "max_stage_v2": 4,
+          "final_state": "marker_partially_in_holder_held",
+          "early_failure_mode_v2": "timeout_holding_marker",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": false,
+          "marker_released_time_s": null,
+          "grasp_lost": false,
+          "grasp_lost_time_s": null,
+          "hole_alignment_time_s": 9.07,
+          "insertion_contact_time_s": 7.73
+        }
+      },
+      {
+        "episode_index": 65,
+        "reason": "human-reviewed H2 S3/S4 boundary case",
+        "fields": {
+          "max_stage_v2": 3,
+          "final_state": "marker_in_gripper_at_holder",
+          "early_failure_mode_v2": "timeout_holding_marker",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": false,
+          "marker_released_time_s": null,
+          "grasp_lost": false,
+          "grasp_lost_time_s": null,
+          "hole_alignment_time_s": null,
+          "insertion_contact_time_s": 8.07
+        }
+      },
+      {
+        "episode_index": 67,
+        "reason": "human-reviewed H2 S3/S4 boundary case",
+        "fields": {
+          "max_stage_v2": 4,
+          "final_state": "marker_partially_in_holder_held",
+          "early_failure_mode_v2": "timeout_holding_marker",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": false,
+          "marker_released_time_s": null,
+          "grasp_lost": false,
+          "grasp_lost_time_s": null,
+          "hole_alignment_time_s": 9.93,
+          "insertion_contact_time_s": 8.13
+        }
+      },
+      {
+        "episode_index": 72,
+        "reason": "human-reviewed slip during insertion after hole entry",
+        "fields": {
+          "max_stage_v2": 4,
+          "final_state": "marker_on_table",
+          "early_failure_mode_v2": "marker_slipped_during_insertion",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": false,
+          "marker_released_time_s": null,
+          "grasp_lost": true,
+          "grasp_lost_time_s": 10.73,
+          "hole_alignment_time_s": 9.93,
+          "insertion_contact_time_s": 9.6
+        }
+      },
+      {
+        "episode_index": 76,
+        "reason": "human-reviewed holder contact slip without hole alignment",
+        "fields": {
+          "max_stage_v2": 3,
+          "final_state": "marker_on_table",
+          "early_failure_mode_v2": "marker_slipped_during_insertion",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": false,
+          "marker_released_time_s": null,
+          "grasp_lost": false,
+          "grasp_lost_time_s": 9.67,
+          "hole_alignment_time_s": null,
+          "insertion_contact_time_s": 8.33
+        }
+      },
+      {
+        "episode_index": 82,
+        "reason": "human-reviewed H2 slipping-at-holder boundary case",
+        "fields": {
+          "max_stage_v2": 3,
+          "final_state": "marker_in_gripper_at_holder",
+          "early_failure_mode_v2": "marker_slipped_during_insertion",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": false,
+          "marker_released_time_s": null,
+          "grasp_lost": false,
+          "grasp_lost_time_s": null,
+          "hole_alignment_time_s": null,
+          "insertion_contact_time_s": 8.73
+        }
+      },
+      {
+        "episode_index": 83,
+        "reason": "human-reviewed H2 S3/S4 boundary case",
+        "fields": {
+          "max_stage_v2": 3,
+          "final_state": "marker_in_gripper_at_holder",
+          "early_failure_mode_v2": "timeout_holding_marker",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": false,
+          "marker_released_time_s": null,
+          "grasp_lost": false,
+          "grasp_lost_time_s": null,
+          "hole_alignment_time_s": null,
+          "insertion_contact_time_s": 9.07
+        }
+      },
+      {
+        "episode_index": 85,
+        "reason": "human-reviewed held partial contact without hole alignment",
+        "fields": {
+          "max_stage_v2": 3,
+          "final_state": "marker_partially_in_holder_held",
+          "early_failure_mode_v2": "timeout_holding_marker",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": false,
+          "marker_released_time_s": null,
+          "grasp_lost": false,
+          "hole_alignment_time_s": null,
+          "insertion_contact_time_s": 7.33
+        }
+      },
+      {
+        "episode_index": 92,
+        "reason": "human-reviewed H2 S3/S4 boundary case",
+        "fields": {
+          "max_stage_v2": 3,
+          "final_state": "marker_in_gripper_at_holder",
+          "early_failure_mode_v2": "timeout_holding_marker",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": false,
+          "marker_released_time_s": null,
+          "grasp_lost": false,
+          "grasp_lost_time_s": null,
+          "hole_alignment_time_s": null,
+          "insertion_contact_time_s": 8.2
+        }
+      },
+      {
+        "episode_index": 90,
+        "reason": "human-reviewed bad pregrasp misalignment despite holder-side contact",
+        "fields": {
+          "max_stage_v2": 1,
+          "final_state": "marker_in_gripper_at_holder",
+          "early_failure_mode_v2": "pregrasp_misalignment",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": false,
+          "marker_released_time_s": null,
+          "grasp_lost": false,
+          "insertion_contact_time_s": null,
+          "hole_alignment_time_s": null
+        }
+      },
+      {
+        "episode_index": 69,
+        "reason": "human-reviewed release at holder without retained insertion",
+        "fields": {
+          "max_stage_v2": 3,
+          "final_state": "marker_on_table",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": false,
+          "marker_released_time_s": 9.33,
+          "grasp_lost": false,
+          "hole_alignment_time_s": null,
+          "insertion_contact_time_s": 8.87
+        }
+      },
+      {
+        "episode_index": 93,
+        "reason": "human-reviewed release at holder without retained insertion",
+        "fields": {
+          "max_stage_v2": 3,
+          "final_state": "marker_on_table",
+          "early_failure_mode_v2": "marker_released_at_holder",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": true,
+          "marker_released_time_s": 10.13,
+          "grasp_lost": false,
+          "hole_alignment_time_s": null,
+          "insertion_contact_time_s": 9.93
+        }
+      },
+      {
+        "episode_index": 95,
+        "reason": "human-reviewed release next to holder without useful holder contact",
+        "fields": {
+          "max_stage_v2": 2,
+          "final_state": "marker_on_table",
+          "early_failure_mode_v2": "marker_released_at_holder",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": false,
+          "marker_released_time_s": 7.33,
+          "grasp_lost": false,
+          "insertion_contact_time_s": null,
+          "hole_alignment_time_s": null
+        }
+      },
+      {
+        "episode_index": 97,
+        "reason": "human-reviewed release while hovering over holder",
+        "fields": {
+          "max_stage_v2": 2,
+          "final_state": "marker_on_table",
+          "early_failure_mode_v2": "dropped_marker_during_transport",
+          "marker_fully_seated": false,
+          "marker_fully_seated_time_s": null,
+          "marker_released": true,
+          "marker_released_time_s": 10.87,
+          "grasp_lost": false,
+          "insertion_contact_time_s": null,
+          "hole_alignment_time_s": null
+        }
+      }
+    ]
+  },
+  "r1_heldout_review_calibrations": {
+    "dataset_repo_id": "mulligan/real-marker-d2-r01-eval",
+    "episodes": [
+      {
+        "episode_index": 5,
+        "reason": "manual-review-confirmed",
+        "fields": {
+          "max_stage_v2": 3,
+          "final_state": "marker_in_gripper_at_holder",
+          "early_failure_mode_v2": "timeout_holding_marker",
+          "approach_reached": true,
+          "pregrasp_alignment_reached": true,
+          "grasp_acquired": true,
+          "grasp_lost": false,
+          "marker_fully_seated": false,
+          "marker_released": false,
+          "approach_time_s": 1.33,
+          "pregrasp_alignment_time_s": 2.27,
+          "grasp_attempt_time_s": 3.13,
+          "grasp_acquired_time_s": 3.47,
+          "grasp_lost_time_s": null,
+          "insertion_contact_time_s": 7.4,
+          "hole_alignment_time_s": null,
+          "marker_fully_seated_time_s": null,
+          "marker_released_time_s": null
+        }
+      },
+      {
+        "episode_index": 9,
+        "reason": "manual-review-confirmed",
+        "fields": {
+          "max_stage_v2": 0,
+          "final_state": "marker_on_table",
+          "early_failure_mode_v2": "pregrasp_misalignment",
+          "approach_reached": true,
+          "pregrasp_alignment_reached": false,
+          "grasp_acquired": false,
+          "grasp_lost": false,
+          "marker_fully_seated": false,
+          "marker_released": false,
+          "approach_time_s": 1.4,
+          "pregrasp_alignment_time_s": null,
+          "grasp_attempt_time_s": null,
+          "grasp_acquired_time_s": null,
+          "grasp_lost_time_s": null,
+          "insertion_contact_time_s": null,
+          "hole_alignment_time_s": null,
+          "marker_fully_seated_time_s": null,
+          "marker_released_time_s": null
+        }
+      },
+      {
+        "episode_index": 11,
+        "reason": "manual-review-confirmed",
+        "fields": {
+          "max_stage_v2": 0,
+          "final_state": "marker_on_table",
+          "early_failure_mode_v2": "pregrasp_misalignment",
+          "approach_reached": true,
+          "pregrasp_alignment_reached": false,
+          "grasp_acquired": false,
+          "grasp_lost": false,
+          "marker_fully_seated": false,
+          "marker_released": false,
+          "approach_time_s": 2.07,
+          "pregrasp_alignment_time_s": null,
+          "grasp_attempt_time_s": null,
+          "grasp_acquired_time_s": null,
+          "grasp_lost_time_s": null,
+          "insertion_contact_time_s": null,
+          "hole_alignment_time_s": null,
+          "marker_fully_seated_time_s": null,
+          "marker_released_time_s": null
+        }
+      },
+      {
+        "episode_index": 16,
+        "reason": "manual-review-confirmed",
+        "fields": {
+          "max_stage_v2": 7,
+          "final_state": "marker_fully_seated_released",
+          "early_failure_mode_v2": "none",
+          "approach_reached": true,
+          "pregrasp_alignment_reached": true,
+          "grasp_acquired": true,
+          "grasp_lost": false,
+          "marker_fully_seated": true,
+          "marker_released": true,
+          "approach_time_s": 1.4,
+          "pregrasp_alignment_time_s": 2.4,
+          "grasp_attempt_time_s": 3.0,
+          "grasp_acquired_time_s": 3.33,
+          "grasp_lost_time_s": null,
+          "insertion_contact_time_s": 8.13,
+          "hole_alignment_time_s": 9.6,
+          "marker_fully_seated_time_s": 10.2,
+          "marker_released_time_s": 10.73
+        }
+      },
+      {
+        "episode_index": 22,
+        "reason": "manual-review-corrected",
+        "fields": {
+          "max_stage_v2": 2,
+          "final_state": "marker_partially_in_holder_held",
+          "early_failure_mode_v2": "transport_orientation_wrong_for_insertion",
+          "approach_reached": true,
+          "pregrasp_alignment_reached": true,
+          "grasp_acquired": true,
+          "grasp_lost": false,
+          "marker_fully_seated": false,
+          "marker_released": false,
+          "approach_time_s": 1.4,
+          "pregrasp_alignment_time_s": 2.27,
+          "grasp_attempt_time_s": 2.8,
+          "grasp_acquired_time_s": 3.2,
+          "grasp_lost_time_s": null,
+          "insertion_contact_time_s": 12.93,
+          "hole_alignment_time_s": null,
+          "marker_fully_seated_time_s": null,
+          "marker_released_time_s": null
+        }
+      },
+      {
+        "episode_index": 27,
+        "reason": "manual-review-corrected",
+        "fields": {
+          "max_stage_v2": 3,
+          "final_state": "marker_in_gripper_at_holder",
+          "early_failure_mode_v2": "timeout_holding_marker",
+          "approach_reached": true,
+          "pregrasp_alignment_reached": true,
+          "grasp_acquired": true,
+          "grasp_lost": false,
+          "marker_fully_seated": false,
+          "marker_released": false,
+          "approach_time_s": 2.8,
+          "pregrasp_alignment_time_s": 9.2,
+          "grasp_attempt_time_s": 9.8,
+          "grasp_acquired_time_s": 17.8,
+          "grasp_lost_time_s": null,
+          "insertion_contact_time_s": 21.73,
+          "hole_alignment_time_s": null,
+          "marker_fully_seated_time_s": null,
+          "marker_released_time_s": null
+        }
+      },
+      {
+        "episode_index": 28,
+        "reason": "manual-review-confirmed",
+        "fields": {
+          "max_stage_v2": 5,
+          "final_state": "marker_partially_in_holder_released",
+          "early_failure_mode_v2": "released_partial_insert_not_seated",
+          "approach_reached": true,
+          "pregrasp_alignment_reached": true,
+          "grasp_acquired": true,
+          "grasp_lost": false,
+          "marker_fully_seated": false,
+          "marker_released": true,
+          "approach_time_s": 3.13,
+          "pregrasp_alignment_time_s": 3.87,
+          "grasp_attempt_time_s": 4.67,
+          "grasp_acquired_time_s": 4.93,
+          "grasp_lost_time_s": null,
+          "insertion_contact_time_s": 9.2,
+          "hole_alignment_time_s": 9.27,
+          "marker_fully_seated_time_s": null,
+          "marker_released_time_s": 9.8
+        }
+      },
+      {
+        "episode_index": 29,
+        "reason": "manual-review-corrected",
+        "fields": {
+          "max_stage_v2": 3,
+          "final_state": "marker_on_table",
+          "early_failure_mode_v2": "marker_released_at_holder",
+          "approach_reached": true,
+          "pregrasp_alignment_reached": true,
+          "grasp_acquired": true,
+          "grasp_lost": false,
+          "marker_fully_seated": false,
+          "marker_released": true,
+          "approach_time_s": 1.8,
+          "pregrasp_alignment_time_s": 3.53,
+          "grasp_attempt_time_s": 4.47,
+          "grasp_acquired_time_s": 4.8,
+          "grasp_lost_time_s": null,
+          "insertion_contact_time_s": 9.87,
+          "hole_alignment_time_s": null,
+          "marker_fully_seated_time_s": null,
+          "marker_released_time_s": 11.13
+        }
+      },
+      {
+        "episode_index": 30,
+        "reason": "manual-review-confirmed",
+        "fields": {
+          "max_stage_v2": 4,
+          "final_state": "marker_on_table",
+          "early_failure_mode_v2": "marker_slipped_during_insertion",
+          "approach_reached": true,
+          "pregrasp_alignment_reached": true,
+          "grasp_acquired": true,
+          "grasp_lost": true,
+          "marker_fully_seated": false,
+          "marker_released": false,
+          "approach_time_s": 2.33,
+          "pregrasp_alignment_time_s": 3.47,
+          "grasp_attempt_time_s": 4.13,
+          "grasp_acquired_time_s": 4.47,
+          "grasp_lost_time_s": 24.4,
+          "insertion_contact_time_s": 8.87,
+          "hole_alignment_time_s": 22.53,
+          "marker_fully_seated_time_s": null,
+          "marker_released_time_s": null
+        }
+      },
+      {
+        "episode_index": 31,
+        "reason": "manual-review-confirmed",
+        "fields": {
+          "max_stage_v2": 3,
+          "final_state": "marker_in_gripper_at_holder",
+          "early_failure_mode_v2": "timeout_holding_marker",
+          "approach_reached": true,
+          "pregrasp_alignment_reached": true,
+          "grasp_acquired": true,
+          "grasp_lost": false,
+          "marker_fully_seated": false,
+          "marker_released": false,
+          "approach_time_s": 1.93,
+          "pregrasp_alignment_time_s": 3.47,
+          "grasp_attempt_time_s": 4.47,
+          "grasp_acquired_time_s": 4.87,
+          "grasp_lost_time_s": null,
+          "insertion_contact_time_s": 9.13,
+          "hole_alignment_time_s": null,
+          "marker_fully_seated_time_s": null,
+          "marker_released_time_s": null
+        }
+      },
+      {
+        "episode_index": 38,
+        "reason": "manual-review-corrected",
+        "fields": {
+          "max_stage_v2": 3,
+          "final_state": "marker_partially_in_holder_held",
+          "early_failure_mode_v2": "wrong_hole_partial_insert",
+          "approach_reached": true,
+          "pregrasp_alignment_reached": true,
+          "grasp_acquired": true,
+          "grasp_lost": false,
+          "marker_fully_seated": false,
+          "marker_released": false,
+          "approach_time_s": 1.53,
+          "pregrasp_alignment_time_s": 2.27,
+          "grasp_attempt_time_s": 3.33,
+          "grasp_acquired_time_s": 3.67,
+          "grasp_lost_time_s": null,
+          "insertion_contact_time_s": 7.13,
+          "hole_alignment_time_s": null,
+          "marker_fully_seated_time_s": null,
+          "marker_released_time_s": null
+        }
+      },
+      {
+        "episode_index": 39,
+        "reason": "manual-review-corrected",
+        "fields": {
+          "max_stage_v2": 3,
+          "final_state": "marker_on_table",
+          "early_failure_mode_v2": "marker_released_at_holder",
+          "approach_reached": true,
+          "pregrasp_alignment_reached": true,
+          "grasp_acquired": true,
+          "grasp_lost": false,
+          "marker_fully_seated": false,
+          "marker_released": false,
+          "approach_time_s": 2.0,
+          "pregrasp_alignment_time_s": 3.2,
+          "grasp_attempt_time_s": 5.27,
+          "grasp_acquired_time_s": 5.47,
+          "grasp_lost_time_s": null,
+          "insertion_contact_time_s": 11.0,
+          "hole_alignment_time_s": 8.4,
+          "marker_fully_seated_time_s": null,
+          "marker_released_time_s": 11.27
+        }
+      },
+      {
+        "episode_index": 44,
+        "reason": "manual-review-confirmed",
+        "fields": {
+          "max_stage_v2": 5,
+          "final_state": "marker_partially_in_holder_released",
+          "early_failure_mode_v2": "released_partial_insert_not_seated",
+          "approach_reached": true,
+          "pregrasp_alignment_reached": true,
+          "grasp_acquired": true,
+          "grasp_lost": false,
+          "marker_fully_seated": false,
+          "marker_released": true,
+          "approach_time_s": 2.53,
+          "pregrasp_alignment_time_s": 4.07,
+          "grasp_attempt_time_s": 4.8,
+          "grasp_acquired_time_s": 5.07,
+          "grasp_lost_time_s": null,
+          "insertion_contact_time_s": 9.33,
+          "hole_alignment_time_s": 10.53,
+          "marker_fully_seated_time_s": null,
+          "marker_released_time_s": 11.13
+        }
+      },
+      {
+        "episode_index": 48,
+        "reason": "manual-review-corrected",
+        "fields": {
+          "max_stage_v2": 3,
+          "final_state": "marker_in_gripper_at_holder",
+          "early_failure_mode_v2": "timeout_holding_marker",
+          "approach_reached": true,
+          "pregrasp_alignment_reached": true,
+          "grasp_acquired": true,
+          "grasp_lost": false,
+          "marker_fully_seated": false,
+          "marker_released": false,
+          "approach_time_s": 1.93,
+          "pregrasp_alignment_time_s": 2.73,
+          "grasp_attempt_time_s": 3.2,
+          "grasp_acquired_time_s": 3.6,
+          "grasp_lost_time_s": null,
+          "insertion_contact_time_s": 7.73,
+          "hole_alignment_time_s": null,
+          "marker_fully_seated_time_s": null,
+          "marker_released_time_s": null
+        }
+      },
+      {
+        "episode_index": 52,
+        "reason": "manual-review-corrected",
+        "fields": {
+          "max_stage_v2": 3,
+          "final_state": "marker_on_table",
+          "early_failure_mode_v2": "marker_slipped_during_insertion",
+          "approach_reached": true,
+          "pregrasp_alignment_reached": true,
+          "grasp_acquired": true,
+          "grasp_lost": false,
+          "marker_fully_seated": false,
+          "marker_released": false,
+          "approach_time_s": 2.33,
+          "pregrasp_alignment_time_s": 3.4,
+          "grasp_attempt_time_s": 4.07,
+          "grasp_acquired_time_s": 4.33,
+          "grasp_lost_time_s": 11.53,
+          "insertion_contact_time_s": 8.87,
+          "hole_alignment_time_s": null,
+          "marker_fully_seated_time_s": null,
+          "marker_released_time_s": null
+        }
+      },
+      {
+        "episode_index": 57,
+        "reason": "manual-review-confirmed",
+        "fields": {
+          "max_stage_v2": 0,
+          "final_state": "marker_on_table",
+          "early_failure_mode_v2": "pregrasp_misalignment",
+          "approach_reached": true,
+          "pregrasp_alignment_reached": false,
+          "grasp_acquired": false,
+          "grasp_lost": false,
+          "marker_fully_seated": false,
+          "marker_released": false,
+          "approach_time_s": 1.87,
+          "pregrasp_alignment_time_s": null,
+          "grasp_attempt_time_s": null,
+          "grasp_acquired_time_s": null,
+          "grasp_lost_time_s": null,
+          "insertion_contact_time_s": null,
+          "hole_alignment_time_s": null,
+          "marker_fully_seated_time_s": null,
+          "marker_released_time_s": null
+        }
+      },
+      {
+        "episode_index": 62,
+        "reason": "manual-review-confirmed",
+        "fields": {
+          "max_stage_v2": 5,
+          "final_state": "marker_partially_in_holder_released",
+          "early_failure_mode_v2": "released_partial_insert_not_seated",
+          "approach_reached": true,
+          "pregrasp_alignment_reached": true,
+          "grasp_acquired": true,
+          "grasp_lost": false,
+          "marker_fully_seated": false,
+          "marker_released": true,
+          "approach_time_s": 2.47,
+          "pregrasp_alignment_time_s": 3.2,
+          "grasp_attempt_time_s": 4.07,
+          "grasp_acquired_time_s": 4.33,
+          "grasp_lost_time_s": null,
+          "insertion_contact_time_s": 8.73,
+          "hole_alignment_time_s": 9.07,
+          "marker_fully_seated_time_s": null,
+          "marker_released_time_s": 20.13
+        }
+      },
+      {
+        "episode_index": 69,
+        "reason": "manual-review-confirmed",
+        "fields": {
+          "max_stage_v2": 0,
+          "final_state": "marker_on_table",
+          "early_failure_mode_v2": "pregrasp_misalignment",
+          "approach_reached": true,
+          "pregrasp_alignment_reached": false,
+          "grasp_acquired": false,
+          "grasp_lost": false,
+          "marker_fully_seated": false,
+          "marker_released": false,
+          "approach_time_s": 2.33,
+          "pregrasp_alignment_time_s": null,
+          "grasp_attempt_time_s": null,
+          "grasp_acquired_time_s": null,
+          "grasp_lost_time_s": null,
+          "insertion_contact_time_s": null,
+          "hole_alignment_time_s": null,
+          "marker_fully_seated_time_s": null,
+          "marker_released_time_s": null
+        }
+      },
+      {
+        "episode_index": 70,
+        "reason": "manual-review-confirmed",
+        "fields": {
+          "max_stage_v2": 0,
+          "final_state": "marker_on_table",
+          "early_failure_mode_v2": "pregrasp_misalignment",
+          "approach_reached": true,
+          "pregrasp_alignment_reached": false,
+          "grasp_acquired": false,
+          "grasp_lost": false,
+          "marker_fully_seated": false,
+          "marker_released": false,
+          "approach_time_s": 2.33,
+          "pregrasp_alignment_time_s": null,
+          "grasp_attempt_time_s": null,
+          "grasp_acquired_time_s": null,
+          "grasp_lost_time_s": null,
+          "insertion_contact_time_s": null,
+          "hole_alignment_time_s": null,
+          "marker_fully_seated_time_s": null,
+          "marker_released_time_s": null
+        }
+      }
+    ]
+  }
+}

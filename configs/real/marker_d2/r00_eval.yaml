@@ -1,0 +1,41 @@
+# Derived from mulligan/real-marker-d2-r00-eval/meta/round_dataset.json.
+# Record of the round's blinded evaluation sessions: the arms (actor, critic, N) of each session.
+# The plotted point of a round pools every counted session of the same checkpoint (actor + critic + N).
+# A session's start manifest is `manifest` (shipped under data/real/manifests) or, for a subset of a
+# shipped manifest, `manifest_in_eval_dataset` (a file of the eval dataset); both match manifest_sha256.
+# Re-run a session with mulligan.real.eval.manifest_eval (docs/real_robot_eval.md).
+task: marker_d2
+round: 0
+paper:
+  task: Insert Marker
+  results:
+  - Fig. 5
+  - App. B.1
+eval_dataset:
+  repo: mulligan/real-marker-d2-r00-eval
+  revision: 37ee00a122d5999b60da094948414664317f105d
+sessions:
+- session_id: b01
+  seed: 2026062103
+  manifest_sha256: 228160d76de2e9e352a581948f93196e4461c8236d03e9a770f66756e05d275a
+  manifest: data/real/manifests/marker_d2/r00/marker_d2_r0_eval_heldout_sobol50.json
+  n_starts: 50
+  arms:
+  - policy_key: hg_dagger
+    method: HG-DAgger
+    role: counted
+    episodes: 50
+    actor:
+      repo: mulligan/real-marker-d2-r00-baseline-dp
+      revision: c9d0d2de62500538d29148409cc75dc256673189
+      step: 50000
+      config: configs/real/marker_d2/r00_baseline_dp.yaml
+  - policy_key: hg_dagger_mulligan
+    method: HG-DAgger+Mulligan
+    role: counted
+    episodes: 50
+    actor:
+      repo: mulligan/real-marker-d2-r00-sobol-dp
+      revision: 1a42420dd0a60e5392bbfd41592207f6e5afdfa2
+      step: 50000
+      config: configs/real/marker_d2/r00_sobol_dp.yaml

@@ -1,0 +1,146 @@
+# Run: python -m mulligan.real.train.launch configs/real/routing_d2/r05_critic.yaml --output-dir <dir>
+kind: idql-critic
+trainer: mulligan.real.train.critic
+checkpoint:
+  repo: mulligan/real-routing-d2-r05-mulligan-idql-critic
+  revision: 548a254c7d1e6ae641971e8cebcc3ca764b50205
+  step: 314000
+retrain: exact
+paper:
+  task: Route Cable
+  round: R5
+  arm: HiL-IDQL+Mulligan
+  seed: 1
+  results:
+  - Fig. 5
+  - App. B.1
+  evaluations:
+  - mulligan/real-routing-d2-r00-r05-eval b01 (HiL-IDQL+Mulligan, N=32)
+  collections: []
+dataset_revisions:
+  mulligan/real-routing-d2-c01-dagger-mulligan: cba50487f61ebc907e2ffcc9428187c1e9aaf73d
+  mulligan/real-routing-d2-c02-dagger-mulligan: 794203d5fade5f5bb74579f14cb7b1fbeaf61ba5
+  mulligan/real-routing-d2-c03-dagger-mulligan: c031570959bc6b9d90737d10fc4ba2ec3a70c074
+  mulligan/real-routing-d2-c04-dagger-mulligan: 11b168c376d5d172e355e4ea214774b34c23f025
+  mulligan/real-routing-d2-c05-dagger-mulligan: a0a349452a6561555e0b6943a905df15efd21c23
+  mulligan/real-routing-d2-c06-dagger-mulligan: 94db8527052ebda1fa7199bf7dfa5b4e08f7f7fb
+  mulligan/real-routing-d2-c07-dagger-mulligan: 07c98d2e1a9ce501307fa11ef7dec0ebff14250c
+  mulligan/real-routing-d2-c08-dagger-mulligan: 759654177534b6fc03902951520923eb53d85a4e
+  mulligan/real-routing-d2-c09-dagger-mulligan: 00d73a2be56021195951add76a38cfc28f231ce1
+  mulligan/real-routing-d2-velocity-r00-eval-b01-baseline-dp-policy-rollouts: 42a58891d0a1971a16050a6904f866aed73e3e7a
+  mulligan/real-routing-d2-velocity-r00-eval-b01-sobol-dp-policy-rollouts: e11ac736d36f002fb40aadba256d3adaecdefe21
+  mulligan/real-routing-d2-velocity-r01-eval-b01-baseline-dp-policy-rollouts: cbc8ab34db54a94d45280546c5408af8514dec40
+  mulligan/real-routing-d2-velocity-r01-eval-b01-mulligan-dp-policy-rollouts: 5f279e4c12cf714353d8d8b7ce06e94496734f94
+  mulligan/real-routing-d2-velocity-r02-eval-b01-baseline-dp-policy-rollouts: 4b13b691a6f71d0ca508691de4a39446a25773fa
+  mulligan/real-routing-d2-velocity-r02-eval-b01-mulligan-dp-policy-rollouts: 59082e6f6e81f5ae7543013a7abce1004414b672
+  mulligan/real-routing-d2-velocity-r03-eval-b01-baseline-dp-policy-rollouts: dee187470367e27d3e563d1a2390b8e3ccbf6436
+  mulligan/real-routing-d2-velocity-r03-eval-b01-mulligan-dp-policy-rollouts: 488f1847c89b5fc078146bae5f50e8b1ef76d285
+  mulligan/real-routing-d2-velocity-r04-eval-b01-baseline-dp-policy-rollouts: c38fd266c3d083cfe582a6ec3cd3767cb54d259f
+  mulligan/real-routing-d2-velocity-r04-eval-b01-mulligan-dp-policy-rollouts: 69727e9ee3c176df91642fcd40c4a646cf2b3fa3
+  mulligan/real-routing-d2-velocity-r04-eval-b01-mulligan-idql-policy-rollouts: 5b293724bd36685992fe7f5decec7758abd376da
+  mulligan/real-routing-d2-velocity-r05-eval-b01-baseline-dp-policy-rollouts: 846d51ce7ac61438cd05b261471eb9b5c737b98e
+  mulligan/real-routing-d2-velocity-r05-eval-b01-mulligan-dp-policy-rollouts: 5648ddaf8ab6ba5503e5dae21ca1dfa4221a013f
+  mulligan/real-routing-d2-velocity-r05-eval-b01-mulligan-idql-policy-rollouts: 0b79ad71045c20bccf8a266287d081c3825ef4b0
+  mulligan/real-routing-d2-velocity-r06-eval-b01-baseline-dp-policy-rollouts: 6656acb3b2334ed77c7797a5a91278ed71be156e
+  mulligan/real-routing-d2-velocity-r06-eval-b01-mulligan-dp-policy-rollouts: d306cfdb1d4bc494f4a1016122dba8f9351a2a26
+  mulligan/real-routing-d2-velocity-r06-eval-b01-mulligan-idql-policy-rollouts: afdd9bea0bcf053f6fe4e231c6fb330207283b7d
+  mulligan/real-routing-d2-velocity-r07-eval-b01-baseline-dp-policy-rollouts: 6cc1745ec2dbfd1745de51dae79218870b96b287
+  mulligan/real-routing-d2-velocity-r07-eval-b01-mulligan-dp-policy-rollouts: cd5834a8c2e292d1c24b0a244212ff503019329c
+  mulligan/real-routing-d2-velocity-r07-eval-b01-mulligan-idql-policy-rollouts: 1b608b458cb79f0763a30ff998511286af27e1e3
+  mulligan/real-routing-d2-velocity-r08-eval-b01-mulligan-dp-policy-rollouts: e0256ed06eda877e7e4dcd1deaae574c7be85fe2
+  mulligan/real-routing-d2-velocity-r08-eval-b01-mulligan-idql-policy-rollouts: ad41758be41b27d5ba6a8393eff61c9862016af4
+dataset_episodes: {}
+args:
+  repo-ids:
+  - mulligan/real-routing-d2-c01-dagger-mulligan
+  - mulligan/real-routing-d2-c02-dagger-mulligan
+  - mulligan/real-routing-d2-c03-dagger-mulligan
+  - mulligan/real-routing-d2-c04-dagger-mulligan
+  - mulligan/real-routing-d2-c05-dagger-mulligan
+  - mulligan/real-routing-d2-c06-dagger-mulligan
+  - mulligan/real-routing-d2-c07-dagger-mulligan
+  - mulligan/real-routing-d2-c08-dagger-mulligan
+  - mulligan/real-routing-d2-c09-dagger-mulligan
+  - mulligan/real-routing-d2-velocity-r00-eval-b01-sobol-dp-policy-rollouts
+  - mulligan/real-routing-d2-velocity-r01-eval-b01-mulligan-dp-policy-rollouts
+  - mulligan/real-routing-d2-velocity-r02-eval-b01-mulligan-dp-policy-rollouts
+  - mulligan/real-routing-d2-velocity-r03-eval-b01-mulligan-dp-policy-rollouts
+  - mulligan/real-routing-d2-velocity-r04-eval-b01-mulligan-dp-policy-rollouts
+  - mulligan/real-routing-d2-velocity-r04-eval-b01-mulligan-idql-policy-rollouts
+  - mulligan/real-routing-d2-velocity-r05-eval-b01-mulligan-dp-policy-rollouts
+  - mulligan/real-routing-d2-velocity-r05-eval-b01-mulligan-idql-policy-rollouts
+  - mulligan/real-routing-d2-velocity-r06-eval-b01-mulligan-dp-policy-rollouts
+  - mulligan/real-routing-d2-velocity-r06-eval-b01-mulligan-idql-policy-rollouts
+  - mulligan/real-routing-d2-velocity-r07-eval-b01-mulligan-dp-policy-rollouts
+  - mulligan/real-routing-d2-velocity-r07-eval-b01-mulligan-idql-policy-rollouts
+  - mulligan/real-routing-d2-velocity-r08-eval-b01-mulligan-dp-policy-rollouts
+  - mulligan/real-routing-d2-velocity-r08-eval-b01-mulligan-idql-policy-rollouts
+  encoder-artifact: hf://mulligan/real-routing-d2-r05-mulligan-dp@0560377e95ab94bed23456ff17d6ee27cc0a9180
+  camera-filter: _left
+  image-height: 224
+  image-width: 224
+  chunk-size: 12
+  n-action-steps: 6
+  num-action-samples: 16
+  hidden-dims:
+  - 1024
+  - 1024
+  - 1024
+  gamma: 0.997
+  intervention-negative-reward: 0.0
+  reward-shift: 0.0
+  batch-size: 256
+  training-steps: 314000
+  eval-freq: 0
+  eval-video-freq: 25000
+  checkpoint-freq: 25000
+  resume-checkpoint-freq: 5000
+  log-freq: 5000
+  buffer-capacity-gb: 24
+  buffer-refresh-rate: 16
+  num-workers: 16
+  prefetch-factor: 4
+  multiprocessing-context: spawn
+  video-backend: torchcodec
+  proprio-dropout: 0.5
+  augmentation: gpu
+  seed: 1
+  clip-targets-min: 0.0
+  clip-targets-max: 2.0
+  camera-keys:
+  - side_1
+  - side_2
+  - wrist_left
+  eval-repo-ids:
+  - mulligan/real-routing-d2-velocity-r00-eval-b01-baseline-dp-policy-rollouts
+  - mulligan/real-routing-d2-velocity-r01-eval-b01-baseline-dp-policy-rollouts
+  - mulligan/real-routing-d2-velocity-r02-eval-b01-baseline-dp-policy-rollouts
+  - mulligan/real-routing-d2-velocity-r03-eval-b01-baseline-dp-policy-rollouts
+  - mulligan/real-routing-d2-velocity-r04-eval-b01-baseline-dp-policy-rollouts
+  - mulligan/real-routing-d2-velocity-r05-eval-b01-baseline-dp-policy-rollouts
+  - mulligan/real-routing-d2-velocity-r06-eval-b01-baseline-dp-policy-rollouts
+  - mulligan/real-routing-d2-velocity-r07-eval-b01-baseline-dp-policy-rollouts
+  iql-recipe: divl
+  async-buffer-refresh: true
+  enable-tf32: true
+  cudnn-benchmark: true
+  encoder-autocast-bf16: true
+  channels-last: true
+  uint8-native-images: true
+  precompute-embeddings: true
+  embedding-cache-augmented-views: 10
+  target-view-sampling: independent
+  target-view-samples: 4
+  action-mode: relative
+  action-film-head: true
+  action-film-hidden: 256
+  action-film-arm-dims: 9
+  td-horizon-steps: 846
+  td-lambda-curriculum: true
+  td-lambda-initial: 0.995
+  td-lambda-hold-steps: 12560
+  td-lambda-cosine-end-step: 188400
+  critic-lr-schedule: warmup_cosine
+  critic-lr-warmup-steps: 12560
+  critic-lr-min-frac: 0.1
+  lr: 1e-4

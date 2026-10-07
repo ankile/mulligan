@@ -1,0 +1,1049 @@
+{
+ "task": "marker_d2",
+ "schema": "real_manual_initial_states_v1",
+ "keys": [
+  "pen_x",
+  "pen_y",
+  "pen_yaw",
+  "holder_x",
+  "holder_y"
+ ],
+ "units": {
+  "holder_x": "m",
+  "holder_y": "m",
+  "pen_x": "m",
+  "pen_y": "m",
+  "pen_yaw": "rad"
+ },
+ "operator_frame": {
+  "display_units": {
+   "holder_x": "in",
+   "holder_y": "in",
+   "pen_x": "in",
+   "pen_y": "in",
+   "pen_yaw": "deg"
+  },
+  "origin": "same real tabletop origin as square_d2/routing_d2",
+  "x": "+forward from operator",
+  "y": "+left from operator",
+  "yaw": "z rotation, 0 means pen local +x points +forward"
+ },
+ "bounds": {
+  "holder_x": [
+   0.15239999999999998,
+   0.2032
+  ],
+  "holder_y": [
+   -0.1016,
+   0.0
+  ],
+  "pen_x": [
+   -0.07619999999999999,
+   0.07619999999999999
+  ],
+  "pen_y": [
+   -0.15239999999999998,
+   0.15239999999999998
+  ],
+  "pen_yaw": [
+   -3.141592653589793,
+   3.141592653589793
+  ]
+ },
+ "bounds_display": {
+  "holder_x_in": [
+   5.999999999999999,
+   8.0
+  ],
+  "holder_y_in": [
+   -4.0,
+   0.0
+  ],
+  "pen_x_in": [
+   -2.9999999999999996,
+   2.9999999999999996
+  ],
+  "pen_y_in": [
+   -5.999999999999999,
+   5.999999999999999
+  ],
+  "pen_yaw_deg": [
+   -180.0,
+   180.0
+  ]
+ },
+ "sampled_placements": {
+  "holder": {
+   "bounds_in": [
+    [
+     5.999999999999999,
+     8.0
+    ],
+    [
+     -4.0,
+     0.0
+    ]
+   ],
+   "bounds_m": [
+    [
+     0.15239999999999998,
+     0.2032
+    ],
+    [
+     -0.1016,
+     0.0
+    ]
+   ],
+   "description": "RED marker holder sampled jointly with the pen, snapped to a 1-inch grid; operator places the holder at the snapped (holder_x, holder_y)",
+   "grid_dims": [
+    3,
+    5
+   ],
+   "grid_points_in": [
+    [
+     5.999999999999999,
+     -4.0
+    ],
+    [
+     5.999999999999999,
+     -2.9999999999999996
+    ],
+    [
+     5.999999999999999,
+     -2.0
+    ],
+    [
+     5.999999999999999,
+     -1.0000000000000002
+    ],
+    [
+     5.999999999999999,
+     0.0
+    ],
+    [
+     7.0,
+     -4.0
+    ],
+    [
+     7.0,
+     -2.9999999999999996
+    ],
+    [
+     7.0,
+     -2.0
+    ],
+    [
+     7.0,
+     -1.0000000000000002
+    ],
+    [
+     7.0,
+     0.0
+    ],
+    [
+     8.0,
+     -4.0
+    ],
+    [
+     8.0,
+     -2.9999999999999996
+    ],
+    [
+     8.0,
+     -2.0
+    ],
+    [
+     8.0,
+     -1.0000000000000002
+    ],
+    [
+     8.0,
+     0.0
+    ]
+   ],
+   "keys": [
+    "holder_x",
+    "holder_y"
+   ],
+   "n_grid_points": 15,
+   "snap_in": 1.0,
+   "snap_m": 0.0254
+  }
+ },
+ "arms": [
+  "eval_heldout"
+ ],
+ "arm_counts": {
+  "eval_heldout": 50
+ },
+ "samplers": {
+  "eval_heldout": {
+   "n_states": 50,
+   "note": "downstream eval/heldout set; an INDEPENDENT Sobol stream (its own seed, not a continuation of mulligan_sobol) so eval starts are independent of training starts",
+   "role": "held_out_eval",
+   "seed": 2026062103,
+   "space": "joint pen + holder (holder snapped to grid)",
+   "stream_end_index_exclusive": 50,
+   "stream_start_index": 0,
+   "type": "scrambled_sobol"
+  }
+ },
+ "seeds": {
+  "eval_heldout": 2026062103
+ },
+ "phase": "R0_eval_heldout_sobol50_paired",
+ "scrambled_manifest_order": false,
+ "derived_from": "<local-path>/marker_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json",
+ "states": [
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.2032,
+   "holder_y": -0.0508,
+   "manifest_idx": 0,
+   "pen_x": -0.057441371290013185,
+   "pen_y": -0.08921835820600389,
+   "pen_yaw": 1.2847694863660504,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 0,
+   "source": "eval_heldout",
+   "source_index": 0,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.15239999999999998,
+   "holder_y": -0.0508,
+   "manifest_idx": 1,
+   "pen_x": 0.046044370388612144,
+   "pen_y": 0.059170714344084246,
+   "pen_yaw": -0.6730466927420129,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 1,
+   "source": "eval_heldout",
+   "source_index": 1,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.2032,
+   "holder_y": -0.1016,
+   "manifest_idx": 2,
+   "pen_x": 0.01151740910187364,
+   "pen_y": -0.04800122186914085,
+   "pen_yaw": 1.8027018282355929,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 2,
+   "source": "eval_heldout",
+   "source_index": 2,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.15239999999999998,
+   "holder_y": 0.0,
+   "manifest_idx": 3,
+   "pen_x": -0.03720191255807876,
+   "pen_y": 0.0988846664071083,
+   "pen_yaw": -2.5102025590065846,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 3,
+   "source": "eval_heldout",
+   "source_index": 3,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.17779999999999999,
+   "holder_y": 0.0,
+   "manifest_idx": 4,
+   "pen_x": -0.009429324574023484,
+   "pen_y": -0.027797401660680773,
+   "pen_yaw": -1.1896079643809765,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 4,
+   "source": "eval_heldout",
+   "source_index": 4,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.17779999999999999,
+   "holder_y": -0.07619999999999999,
+   "manifest_idx": 5,
+   "pen_x": 0.020807730759680274,
+   "pen_y": 0.1286138539396226,
+   "pen_yaw": 0.7681947441774133,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 5,
+   "source": "eval_heldout",
+   "source_index": 5,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.15239999999999998,
+   "holder_y": -0.07619999999999999,
+   "manifest_idx": 6,
+   "pen_x": 0.07438469204641879,
+   "pen_y": -0.14037844033688304,
+   "pen_yaw": -1.897768986152882,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 6,
+   "source": "eval_heldout",
+   "source_index": 6,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.2032,
+   "holder_y": -0.025400000000000006,
+   "manifest_idx": 7,
+   "pen_x": -0.048718783305957906,
+   "pen_y": 0.01753527056649326,
+   "pen_yaw": 2.4151518676951955,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 7,
+   "source": "eval_heldout",
+   "source_index": 7,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.17779999999999999,
+   "holder_y": -0.0508,
+   "manifest_idx": 8,
+   "pen_x": -0.042506056146696204,
+   "pen_y": -0.06804965548664331,
+   "pen_yaw": -2.178385499094157,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 8,
+   "source": "eval_heldout",
+   "source_index": 8,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.17779999999999999,
+   "holder_y": -0.0508,
+   "manifest_idx": 9,
+   "pen_x": 0.0632606549296528,
+   "pen_y": 0.07915311535969374,
+   "pen_yaw": 2.9442735023408373,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 9,
+   "source": "eval_heldout",
+   "source_index": 9,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.2032,
+   "holder_y": 0.0,
+   "manifest_idx": 10,
+   "pen_x": 0.03111261366158724,
+   "pen_y": -0.10905575365126131,
+   "pen_yaw": -0.9306589534752754,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 10,
+   "source": "eval_heldout",
+   "source_index": 10,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.15239999999999998,
+   "holder_y": -0.1016,
+   "manifest_idx": 11,
+   "pen_x": -0.015120517433434726,
+   "pen_y": 0.0390165101341903,
+   "pen_yaw": 0.26687653471888817,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 11,
+   "source": "eval_heldout",
+   "source_index": 11,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.15239999999999998,
+   "holder_y": -0.1016,
+   "manifest_idx": 12,
+   "pen_x": -0.024289644294977188,
+   "pen_y": -0.11973342249467966,
+   "pen_yaw": 2.2796680692797437,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 12,
+   "source": "eval_heldout",
+   "source_index": 12,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.2032,
+   "holder_y": -0.025400000000000006,
+   "manifest_idx": 13,
+   "pen_x": 0.003516450796276327,
+   "pen_y": 0.03786347850859165,
+   "pen_yaw": -2.84297446554935,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 13,
+   "source": "eval_heldout",
+   "source_index": 13,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.15239999999999998,
+   "holder_y": -0.025400000000000006,
+   "manifest_idx": 14,
+   "pen_x": 0.054714492064341896,
+   "pen_y": -0.00736574743017554,
+   "pen_yaw": 0.8294707473574734,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 14,
+   "source": "eval_heldout",
+   "source_index": 14,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.17779999999999999,
+   "holder_y": -0.07619999999999999,
+   "manifest_idx": 15,
+   "pen_x": -0.07072518300823866,
+   "pen_y": 0.1493623896047473,
+   "pen_yaw": -0.3680782113863641,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 15,
+   "source": "eval_heldout",
+   "source_index": 15,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.15239999999999998,
+   "holder_y": 0.0,
+   "manifest_idx": 16,
+   "pen_x": -0.07209050210528074,
+   "pen_y": -0.010019655773788688,
+   "pen_yaw": 3.097707644985892,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 16,
+   "source": "eval_heldout",
+   "source_index": 16,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.2032,
+   "holder_y": -0.1016,
+   "manifest_idx": 17,
+   "pen_x": 0.0501499496396631,
+   "pen_y": 0.13717882243394852,
+   "pen_yaw": -1.988303959492206,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 17,
+   "source": "eval_heldout",
+   "source_index": 17,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.17779999999999999,
+   "holder_y": -0.07619999999999999,
+   "manifest_idx": 18,
+   "pen_x": 0.006095658371597534,
+   "pen_y": -0.1271998152963817,
+   "pen_yaw": 0.07633883385313256,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 18,
+   "source": "eval_heldout",
+   "source_index": 18,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.17779999999999999,
+   "holder_y": -0.0508,
+   "manifest_idx": 19,
+   "pen_x": -0.023273713392019266,
+   "pen_y": 0.020876739992201326,
+   "pen_yaw": -1.0838286824550103,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 19,
+   "source": "eval_heldout",
+   "source_index": 19,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.2032,
+   "holder_y": -0.025400000000000006,
+   "manifest_idx": 20,
+   "pen_x": -0.013513943076878782,
+   "pen_y": -0.10223351211994886,
+   "pen_yaw": -2.9965285323668707,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 20,
+   "source": "eval_heldout",
+   "source_index": 20,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.17779999999999999,
+   "holder_y": -0.07619999999999999,
+   "manifest_idx": 21,
+   "pen_x": 0.03547308969050646,
+   "pen_y": 0.05536840822175143,
+   "pen_yaw": 2.089514518998259,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 21,
+   "source": "eval_heldout",
+   "source_index": 21,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.2032,
+   "holder_y": -0.07619999999999999,
+   "manifest_idx": 22,
+   "pen_x": 0.060477380958572025,
+   "pen_y": -0.0659422208726406,
+   "pen_yaw": -0.177612333946628,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 22,
+   "source": "eval_heldout",
+   "source_index": 22,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.15239999999999998,
+   "holder_y": 0.0,
+   "manifest_idx": 23,
+   "pen_x": -0.04328073179014027,
+   "pen_y": 0.09078089795932173,
+   "pen_yaw": 0.9825207394182565,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 23,
+   "source": "eval_heldout",
+   "source_index": 23,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.15239999999999998,
+   "holder_y": -0.1016,
+   "manifest_idx": 24,
+   "pen_x": -0.05596688285954296,
+   "pen_y": -0.1472041700273752,
+   "pen_yaw": -0.45861234208487467,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 24,
+   "source": "eval_heldout",
+   "source_index": 24,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.17779999999999999,
+   "holder_y": 0.0,
+   "manifest_idx": 25,
+   "pen_x": 0.06854987832047044,
+   "pen_y": 0.0011891860775649632,
+   "pen_yaw": 1.51202586926087,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 25,
+   "source": "eval_heldout",
+   "source_index": 25,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.15239999999999998,
+   "holder_y": -0.025400000000000006,
+   "manifest_idx": 26,
+   "pen_x": 0.02687916703373193,
+   "pen_y": -0.02990134811550378,
+   "pen_yaw": -2.737196026264198,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 26,
+   "source": "eval_heldout",
+   "source_index": 26,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.2032,
+   "holder_y": -0.0508,
+   "manifest_idx": 27,
+   "pen_x": -8.674127608535032e-06,
+   "pen_y": 0.11698025774136184,
+   "pen_yaw": 1.5878128143427626,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 27,
+   "source": "eval_heldout",
+   "source_index": 27,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.2032,
+   "holder_y": -0.07619999999999999,
+   "manifest_idx": 28,
+   "pen_x": -0.029562566900253294,
+   "pen_y": -0.0453414999268949,
+   "pen_yaw": 0.5536885700942551,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 28,
+   "source": "eval_heldout",
+   "source_index": 28,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.15239999999999998,
+   "holder_y": -0.025400000000000006,
+   "manifest_idx": 29,
+   "pen_x": 0.01699816558733583,
+   "pen_y": 0.1110647454187274,
+   "pen_yaw": -1.4169840841947472,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 29,
+   "source": "eval_heldout",
+   "source_index": 29,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.17779999999999999,
+   "holder_y": -0.025400000000000006,
+   "manifest_idx": 30,
+   "pen_x": 0.03961887687407434,
+   "pen_y": -0.08175777900293468,
+   "pen_yaw": 2.6420254107803425,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 30,
+   "source": "eval_heldout",
+   "source_index": 30,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.17779999999999999,
+   "holder_y": -0.1016,
+   "manifest_idx": 31,
+   "pen_x": -0.06647077563218771,
+   "pen_y": 0.07616094101965426,
+   "pen_yaw": -1.6829519829395858,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 31,
+   "source": "eval_heldout",
+   "source_index": 31,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.15239999999999998,
+   "holder_y": -0.025400000000000006,
+   "manifest_idx": 32,
+   "pen_x": -0.06397002452909946,
+   "pen_y": -0.05587394490614532,
+   "pen_yaw": -0.8518415033721127,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 32,
+   "source": "eval_heldout",
+   "source_index": 32,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.2032,
+   "holder_y": -0.07619999999999999,
+   "manifest_idx": 33,
+   "pen_x": 0.041862121892720455,
+   "pen_y": 0.10202526549696922,
+   "pen_yaw": 0.33148628828303295,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 33,
+   "source": "eval_heldout",
+   "source_index": 33,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.17779999999999999,
+   "holder_y": -0.1016,
+   "manifest_idx": 34,
+   "pen_x": 0.014476585450395943,
+   "pen_y": -0.09087052616402505,
+   "pen_yaw": -2.3469404273749124,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 34,
+   "source": "eval_heldout",
+   "source_index": 34,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.2032,
+   "holder_y": 0.0,
+   "manifest_idx": 35,
+   "pen_x": -0.031821990073844786,
+   "pen_y": 0.0655552969291806,
+   "pen_yaw": 2.7653817821654947,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 35,
+   "source": "eval_heldout",
+   "source_index": 35,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.17779999999999999,
+   "holder_y": 0.0,
+   "manifest_idx": 36,
+   "pen_x": -0.0029006713349372104,
+   "pen_y": -0.1373425223574042,
+   "pen_yaw": 0.9470088302161255,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 36,
+   "source": "eval_heldout",
+   "source_index": 36,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.17779999999999999,
+   "holder_y": -0.1016,
+   "manifest_idx": 37,
+   "pen_x": 0.024989979255571962,
+   "pen_y": 0.00955793908908964,
+   "pen_yaw": -0.23634441621359947,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 37,
+   "source": "eval_heldout",
+   "source_index": 37,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.2032,
+   "holder_y": -0.0508,
+   "manifest_idx": 38,
+   "pen_x": 0.07142551569789646,
+   "pen_y": -0.021308210635185232,
+   "pen_yaw": 2.2518674645986847,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 38,
+   "source": "eval_heldout",
+   "source_index": 38,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.15239999999999998,
+   "holder_y": -0.0508,
+   "manifest_idx": 39,
+   "pen_x": -0.05409870579019188,
+   "pen_y": 0.12706636709198355,
+   "pen_yaw": -2.860426294110917,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 39,
+   "source": "eval_heldout",
+   "source_index": 39,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.17779999999999999,
+   "holder_y": -0.07619999999999999,
+   "manifest_idx": 40,
+   "pen_x": -0.04550243952646851,
+   "pen_y": -0.11090104663074016,
+   "pen_yaw": 1.9186999616005957,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 40,
+   "source": "eval_heldout",
+   "source_index": 40,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.17779999999999999,
+   "holder_y": -0.025400000000000006,
+   "manifest_idx": 41,
+   "pen_x": 0.05791793947666882,
+   "pen_y": 0.04580321661159395,
+   "pen_yaw": -2.383064737491714,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 41,
+   "source": "eval_heldout",
+   "source_index": 41,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.15239999999999998,
+   "holder_y": 0.0,
+   "manifest_idx": 42,
+   "pen_x": 0.0376784739319235,
+   "pen_y": -0.07572947151213884,
+   "pen_yaw": 1.2523729548404763,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 42,
+   "source": "eval_heldout",
+   "source_index": 42,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.2032,
+   "holder_y": -0.1016,
+   "manifest_idx": 43,
+   "pen_x": -0.01097547596879303,
+   "pen_y": 0.08189122720733283,
+   "pen_yaw": -0.6920385176106074,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 43,
+   "source": "eval_heldout",
+   "source_index": 43,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.2032,
+   "holder_y": -0.1016,
+   "manifest_idx": 44,
+   "pen_x": -0.02129326091520488,
+   "pen_y": -0.0006836493931710597,
+   "pen_yaw": -1.8174235707809756,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 44,
+   "source": "eval_heldout",
+   "source_index": 44,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.15239999999999998,
+   "holder_y": 0.0,
+   "manifest_idx": 45,
+   "pen_x": 0.008859166249260308,
+   "pen_y": 0.14741241551488637,
+   "pen_yaw": 2.4843695791421396,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 45,
+   "source": "eval_heldout",
+   "source_index": 45,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.2032,
+   "holder_y": -0.0508,
+   "manifest_idx": 46,
+   "pen_x": 0.04814863179400562,
+   "pen_y": -0.11689062953665852,
+   "pen_yaw": -1.3535549815923111,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 46,
+   "source": "eval_heldout",
+   "source_index": 46,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.15239999999999998,
+   "holder_y": -0.0508,
+   "manifest_idx": 47,
+   "pen_x": -0.07487022447288036,
+   "pen_y": 0.030288270923495286,
+   "pen_yaw": 0.5908310360841931,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 47,
+   "source": "eval_heldout",
+   "source_index": 47,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.2032,
+   "holder_y": 0.0,
+   "manifest_idx": 48,
+   "pen_x": -0.06790581944882869,
+   "pen_y": -0.12907533444687722,
+   "pen_yaw": -2.573626512137382,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 48,
+   "source": "eval_heldout",
+   "source_index": 48,
+   "sources": [
+    "eval_heldout"
+   ]
+  },
+  {
+   "arm_id": "eval_heldout",
+   "holder_x": 0.15239999999999998,
+   "holder_y": -0.07619999999999999,
+   "manifest_idx": 49,
+   "pen_x": 0.05667631349042057,
+   "pen_y": 0.027633211214840414,
+   "pen_yaw": 1.765554025520502,
+   "sample_source": "scrambled_sobol",
+   "sampler_seed": 2026062103,
+   "sobol_stream_index": 49,
+   "source": "eval_heldout",
+   "source_index": 49,
+   "sources": [
+    "eval_heldout"
+   ]
+  }
+ ]
+}

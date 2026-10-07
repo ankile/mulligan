@@ -1,0 +1,124 @@
+{
+  "n_seeds": {
+    "reference_utd20": 5,
+    "early_kill": 5,
+    "utd40": 5
+  },
+  "metrics": {
+    "auc_0_300k": {
+      "mean": {
+        "reference_utd20": 0.3324,
+        "early_kill": 0.3218,
+        "utd40": 0.3204
+      },
+      "early_kill_minus_reference": {
+        "diff": -0.0106,
+        "ci95": [
+          -0.0868,
+          0.0656
+        ],
+        "welch_p": 0.757
+      },
+      "utd40_minus_reference": {
+        "diff": -0.012,
+        "ci95": [
+          -0.1184,
+          0.0944
+        ],
+        "welch_p": 0.795
+      }
+    },
+    "sr_300k": {
+      "mean": {
+        "reference_utd20": 0.84,
+        "early_kill": 0.776,
+        "utd40": 0.808
+      },
+      "early_kill_minus_reference": {
+        "diff": -0.064,
+        "ci95": [
+          -0.2144,
+          0.0864
+        ],
+        "welch_p": 0.345
+      },
+      "utd40_minus_reference": {
+        "diff": -0.032,
+        "ci95": [
+          -0.218,
+          0.154
+        ],
+        "welch_p": 0.687
+      }
+    },
+    "sr_mean_250_300k": {
+      "mean": {
+        "reference_utd20": 0.76,
+        "early_kill": 0.7273,
+        "utd40": 0.7533
+      },
+      "early_kill_minus_reference": {
+        "diff": -0.0327,
+        "ci95": [
+          -0.1623,
+          0.0969
+        ],
+        "welch_p": 0.575
+      },
+      "utd40_minus_reference": {
+        "diff": -0.0067,
+        "ci95": [
+          -0.2193,
+          0.206
+        ],
+        "welch_p": 0.94
+      }
+    },
+    "first_step_k_sr_ge_0.2": {
+      "mean": {
+        "reference_utd20": 144.0,
+        "early_kill": 128.0,
+        "utd40": 124.0
+      },
+      "early_kill_minus_reference": {
+        "diff": -16.0,
+        "ci95": [
+          -41.5024,
+          9.5024
+        ],
+        "welch_p": 0.184
+      },
+      "utd40_minus_reference": {
+        "diff": -20.0,
+        "ci95": [
+          -39.833,
+          -0.167
+        ],
+        "welch_p": 0.049
+      }
+    },
+    "first_step_k_sr_ge_0.5": {
+      "mean": {
+        "reference_utd20": 184.0,
+        "early_kill": 188.0,
+        "utd40": 196.0
+      },
+      "early_kill_minus_reference": {
+        "diff": 4.0,
+        "ci95": [
+          -31.3632,
+          39.3632
+        ],
+        "welch_p": 0.799
+      },
+      "utd40_minus_reference": {
+        "diff": 12.0,
+        "ci95": [
+          -46.9911,
+          70.9911
+        ],
+        "welch_p": 0.63
+      }
+    }
+  }
+}

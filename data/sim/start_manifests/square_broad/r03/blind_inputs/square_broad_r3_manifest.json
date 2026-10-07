@@ -1,0 +1,3382 @@
+{
+  "task": "square_broad",
+  "keys": [
+    "nut_x",
+    "nut_y",
+    "nut_yaw",
+    "peg_x",
+    "peg_y"
+  ],
+  "match_tolerance": 0.001,
+  "states": [
+    {
+      "nut_x": -0.06385917115916216,
+      "nut_y": 0.16921660667753724,
+      "nut_yaw": 2.835353862410516,
+      "peg_x": -0.07401323548366766,
+      "peg_y": -0.1936984397597653,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 56
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 0
+    },
+    {
+      "nut_x": 0.046487980751757516,
+      "nut_y": 0.06840845427883063,
+      "nut_yaw": -1.2194018031872182,
+      "peg_x": -0.06088226924432334,
+      "peg_y": -0.18677373159187308,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 9
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 1
+    },
+    {
+      "nut_x": 0.08556724384427071,
+      "nut_y": 0.0343302496522665,
+      "nut_yaw": -2.897148036564602,
+      "peg_x": -0.07373028956353665,
+      "peg_y": -0.044944012910127645,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 9
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 2
+    },
+    {
+      "nut_x": -0.1041231604184653,
+      "nut_y": -0.18541245082650737,
+      "nut_yaw": -2.2472426948064426,
+      "peg_x": -0.05861949836215592,
+      "peg_y": 0.07626589545487195,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 59
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 3
+    },
+    {
+      "nut_x": 0.10922168422833682,
+      "nut_y": 0.2516634162044771,
+      "nut_yaw": 0.8989553559253372,
+      "peg_x": 0.2887927173583903,
+      "peg_y": -0.04331524747356147,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 14
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 4
+    },
+    {
+      "nut_x": 0.05599524527331408,
+      "nut_y": 0.15100951221250225,
+      "nut_yaw": -2.317349085685049,
+      "peg_x": 0.010631832923531134,
+      "peg_y": -0.0788388097787177,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 62
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 5
+    },
+    {
+      "nut_x": 0.1105209737774605,
+      "nut_y": 0.025192191643346906,
+      "nut_yaw": -0.9748276567854472,
+      "peg_x": -0.043966790660372596,
+      "peg_y": -0.09758450028932542,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 54
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 6
+    },
+    {
+      "nut_x": -0.10498913855592401,
+      "nut_y": -0.2540248235727495,
+      "nut_yaw": -1.592278838613055,
+      "peg_x": 0.09512646966659291,
+      "peg_y": 0.18129310490330947,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 64
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 7
+    },
+    {
+      "nut_x": 0.09853917278364073,
+      "nut_y": 0.20075895876949107,
+      "nut_yaw": 1.3768604518358796,
+      "peg_x": 0.18480784222353572,
+      "peg_y": -0.05329371348029191,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 42
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 8
+    },
+    {
+      "nut_x": 0.11457489799722127,
+      "nut_y": -0.08915616878452767,
+      "nut_yaw": -0.11332195528201883,
+      "peg_x": 0.2883171909483818,
+      "peg_y": -0.17062772484317376,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 28
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 9
+    },
+    {
+      "nut_x": 0.10666175425301395,
+      "nut_y": 0.2356223897332958,
+      "nut_yaw": -1.7325444303771236,
+      "peg_x": 0.09360971955307895,
+      "peg_y": -0.1325491425631265,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 86
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 10
+    },
+    {
+      "nut_x": -0.09018534241996423,
+      "nut_y": -0.027231997065747637,
+      "nut_yaw": -1.8242840046616993,
+      "peg_x": 0.2905794200502091,
+      "peg_y": 0.12353074994697683,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 78
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 11
+    },
+    {
+      "nut_x": -0.03969604885205627,
+      "nut_y": 0.24974084090441462,
+      "nut_yaw": -0.5973237415485797,
+      "peg_x": 0.25144434757530687,
+      "peg_y": 0.03802991546690465,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 2
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 12
+    },
+    {
+      "nut_x": 0.07715723324098207,
+      "nut_y": -0.23216362283444253,
+      "nut_yaw": -1.2049395011609767,
+      "peg_x": 0.12859690163507276,
+      "peg_y": 0.17905031747056727,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 3
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 13
+    },
+    {
+      "nut_x": -0.08761587575168478,
+      "nut_y": 0.23064068160840862,
+      "nut_yaw": -0.6155682451506856,
+      "peg_x": 0.06278468995548178,
+      "peg_y": -0.07567995327520008,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 73
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 14
+    },
+    {
+      "nut_x": 0.11079293297757108,
+      "nut_y": 0.11343558104706625,
+      "nut_yaw": -0.04882326183824137,
+      "peg_x": -0.06376304062800928,
+      "peg_y": 0.19048060550545126,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 25
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 15
+    },
+    {
+      "nut_x": -0.0157304124505923,
+      "nut_y": -0.2527682391135798,
+      "nut_yaw": -1.5380999645988365,
+      "peg_x": 0.2439149263834778,
+      "peg_y": 0.19723714595615421,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 43
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 16
+    },
+    {
+      "nut_x": 0.11123333379174997,
+      "nut_y": -0.13704484869531577,
+      "nut_yaw": 1.8482380229450293,
+      "peg_x": 0.21390388668539453,
+      "peg_y": -0.0007614176543541684,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 68
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 17
+    },
+    {
+      "nut_x": -0.0035939839645016958,
+      "nut_y": -0.13184626410993072,
+      "nut_yaw": 0.45740378577768936,
+      "peg_x": 0.07657211540871042,
+      "peg_y": 0.1445325582335017,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 83
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 18
+    },
+    {
+      "nut_x": -0.0726740871429952,
+      "nut_y": 0.2116666769684969,
+      "nut_yaw": -0.25601635346688223,
+      "peg_x": 0.02704446114707676,
+      "peg_y": 0.07935585905184278,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 49
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 19
+    },
+    {
+      "nut_x": -0.004608478955924505,
+      "nut_y": 0.12510848480276765,
+      "nut_yaw": -2.175577152812405,
+      "peg_x": 0.26553992256522185,
+      "peg_y": 0.18784910850226882,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 11
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 20
+    },
+    {
+      "nut_x": 0.0914438331927891,
+      "nut_y": -0.09716937650501983,
+      "nut_yaw": -3.099365229531939,
+      "peg_x": -0.02671021199696258,
+      "peg_y": 0.04342096444628277,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 42
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 21
+    },
+    {
+      "nut_x": -0.11045803455130354,
+      "nut_y": -0.0002478535687856498,
+      "nut_yaw": 2.4499146530912457,
+      "peg_x": -0.09808237050829433,
+      "peg_y": -0.1984170173031935,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 15
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 22
+    },
+    {
+      "nut_x": -0.08014594965640574,
+      "nut_y": 0.05754865413833954,
+      "nut_yaw": -1.5731245536986194,
+      "peg_x": 0.046920617357887245,
+      "peg_y": -0.18940400446068534,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 82
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 23
+    },
+    {
+      "nut_x": 0.10260780192555748,
+      "nut_y": 0.033515017198121444,
+      "nut_yaw": 2.0712107848940686,
+      "peg_x": 0.2695360537318853,
+      "peg_y": -0.0716231994550893,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 27
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 24
+    },
+    {
+      "nut_x": -0.020779452298359383,
+      "nut_y": 0.1762466170209926,
+      "nut_yaw": 1.0640410287479192,
+      "peg_x": 0.2190909967646383,
+      "peg_y": -0.12455350628373495,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 75
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 25
+    },
+    {
+      "nut_x": -0.09263586049062777,
+      "nut_y": 0.21463188215441986,
+      "nut_yaw": 1.0458902900633547,
+      "peg_x": 0.19165362391789073,
+      "peg_y": 0.19839295093314235,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 27
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 26
+    },
+    {
+      "nut_x": -0.002650923849934081,
+      "nut_y": -0.10505324166319516,
+      "nut_yaw": 2.1778929672246425,
+      "peg_x": 0.19619869030524376,
+      "peg_y": 0.10777232546544963,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 20
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 27
+    },
+    {
+      "nut_x": 0.09489426349846146,
+      "nut_y": 0.24031671818873412,
+      "nut_yaw": -0.008614232793412668,
+      "peg_x": 0.2051478421207454,
+      "peg_y": 0.151722681715374,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 71
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 28
+    },
+    {
+      "nut_x": -0.011542584280936088,
+      "nut_y": -0.15972098425364328,
+      "nut_yaw": 2.7493892989487616,
+      "peg_x": 0.19348193600882915,
+      "peg_y": 0.06814399142103378,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 31
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 29
+    },
+    {
+      "nut_x": 0.01567136682230401,
+      "nut_y": -0.08271102269675665,
+      "nut_yaw": 0.9366492888164366,
+      "peg_x": 0.10595014383785051,
+      "peg_y": -0.1870921625141979,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 70
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 30
+    },
+    {
+      "nut_x": 0.11017081211321057,
+      "nut_y": -0.18633348324336113,
+      "nut_yaw": 2.744220373713607,
+      "peg_x": 0.29453366100788114,
+      "peg_y": 0.17593821398913861,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 1
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 31
+    },
+    {
+      "nut_x": -0.05716143260270423,
+      "nut_y": -0.2381023499537967,
+      "nut_yaw": -0.9259809477922443,
+      "peg_x": 0.14397498401399897,
+      "peg_y": -0.03068706563587656,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 89
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 32
+    },
+    {
+      "nut_x": -0.061905982699920654,
+      "nut_y": 0.2506552214170489,
+      "nut_yaw": -3.0791326067164104,
+      "peg_x": 0.19225228831345884,
+      "peg_y": -0.006685834009902664,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 91
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 33
+    },
+    {
+      "nut_x": -0.08859577947495403,
+      "nut_y": 0.02688801159730958,
+      "nut_yaw": 2.215752143009327,
+      "peg_x": 0.2524797636620907,
+      "peg_y": -0.04078951836192268,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 50
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 34
+    },
+    {
+      "nut_x": 0.06633821917730041,
+      "nut_y": -0.18962881708622092,
+      "nut_yaw": -0.11226313646239916,
+      "peg_x": 0.2908368976451501,
+      "peg_y": -0.12652621662904556,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 79
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 35
+    },
+    {
+      "nut_x": -0.026853103010310075,
+      "nut_y": 0.01230065376607431,
+      "nut_yaw": -2.1955686788678594,
+      "peg_x": 0.21728220512542415,
+      "peg_y": -0.013686307680497889,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 22
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 36
+    },
+    {
+      "nut_x": 0.03560022428614397,
+      "nut_y": -0.2540767065978195,
+      "nut_yaw": -2.3077123340131456,
+      "peg_x": 0.18179462207725464,
+      "peg_y": 0.13782754476679976,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 54
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 37
+    },
+    {
+      "nut_x": 0.09289092886952367,
+      "nut_y": 0.0396728872637937,
+      "nut_yaw": -1.6561082940165976,
+      "peg_x": 0.16384236576073272,
+      "peg_y": -0.19800767453302479,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 45
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 38
+    },
+    {
+      "nut_x": 0.10237933464692002,
+      "nut_y": -0.0861469639321217,
+      "nut_yaw": 1.0059932419244229,
+      "peg_x": 0.10861203950098972,
+      "peg_y": 0.18351865764169328,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 53
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 39
+    },
+    {
+      "nut_x": 0.07776507402879383,
+      "nut_y": -0.20475421227165203,
+      "nut_yaw": -0.2818213274028647,
+      "peg_x": -0.04639107686128688,
+      "peg_y": 0.10000723515915938,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 60
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 40
+    },
+    {
+      "nut_x": -0.07726710225779646,
+      "nut_y": -0.03451100159765777,
+      "nut_yaw": 1.6346026813862853,
+      "peg_x": 0.2634506660396687,
+      "peg_y": -0.17251945210107256,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 16
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 41
+    },
+    {
+      "nut_x": 0.06542205215154985,
+      "nut_y": -0.20546790403245008,
+      "nut_yaw": -0.11295318592649739,
+      "peg_x": 0.1292034239607585,
+      "peg_y": -0.01877330762368762,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 12
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 42
+    },
+    {
+      "nut_x": 0.03024881056187155,
+      "nut_y": 0.1673488866940948,
+      "nut_yaw": -0.3569753133995155,
+      "peg_x": 0.2150739866784511,
+      "peg_y": 0.0012051810640080485,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 6
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 43
+    },
+    {
+      "nut_x": -0.0849091903919922,
+      "nut_y": -0.08449440087556229,
+      "nut_yaw": 1.9303228080566965,
+      "peg_x": 0.2564329720650249,
+      "peg_y": -0.19480761782705552,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 37
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 44
+    },
+    {
+      "nut_x": -0.05185188967590161,
+      "nut_y": -0.043029784869146104,
+      "nut_yaw": -3.0123282231075827,
+      "peg_x": 0.020593493136690497,
+      "peg_y": -0.18030917449631773,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 95
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 45
+    },
+    {
+      "nut_x": -0.040818057113179346,
+      "nut_y": -0.18544885018563226,
+      "nut_yaw": 1.3538947072257557,
+      "peg_x": 0.2727517451612166,
+      "peg_y": 0.19001211839665177,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 55
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 46
+    },
+    {
+      "nut_x": 0.06530442504453278,
+      "nut_y": -0.13292822593880904,
+      "nut_yaw": 2.3980775660609606,
+      "peg_x": 0.14683922294806023,
+      "peg_y": -0.023603536049598667,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 69
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 47
+    },
+    {
+      "nut_x": -0.07253548553036324,
+      "nut_y": -0.005812744569635042,
+      "nut_yaw": 3.0682570413751744,
+      "peg_x": 0.23289214627808694,
+      "peg_y": -0.11308164348694878,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 24
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 48
+    },
+    {
+      "nut_x": 0.10935845503487375,
+      "nut_y": -0.07023195000104934,
+      "nut_yaw": 1.0107388559247648,
+      "peg_x": -0.09669902934480193,
+      "peg_y": 0.04650718947323562,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 70
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 49
+    },
+    {
+      "nut_x": 0.015144216066285146,
+      "nut_y": -0.17230655592622451,
+      "nut_yaw": -0.2554496948269507,
+      "peg_x": 0.15471500418288217,
+      "peg_y": -0.031054645875825543,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 41
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 50
+    },
+    {
+      "nut_x": 0.0685340208001435,
+      "nut_y": 0.23360485665500164,
+      "nut_yaw": -0.16026097859874522,
+      "peg_x": 0.19640494473278522,
+      "peg_y": -0.13412160538136958,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 12
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 51
+    },
+    {
+      "nut_x": -0.022362776218177532,
+      "nut_y": -0.22668093760204222,
+      "nut_yaw": 3.121112924359082,
+      "peg_x": -0.03330907610867154,
+      "peg_y": -0.0614845219363081,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 46
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 52
+    },
+    {
+      "nut_x": 0.07200801786305318,
+      "nut_y": 0.08035753003641133,
+      "nut_yaw": 1.538191682616322,
+      "peg_x": -0.09800666303258852,
+      "peg_y": 0.02629009488721562,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 40
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 53
+    },
+    {
+      "nut_x": -0.06275844267920311,
+      "nut_y": 0.24061323062820666,
+      "nut_yaw": 2.770336118015834,
+      "peg_x": -0.08132953215105086,
+      "peg_y": -0.017615349827251242,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 97
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 54
+    },
+    {
+      "nut_x": -0.06238559140862778,
+      "nut_y": 0.0011824210132591606,
+      "nut_yaw": 0.25031647238115085,
+      "peg_x": 0.10964483683384638,
+      "peg_y": 0.17633719490236754,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 32
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 55
+    },
+    {
+      "nut_x": -0.11400525608843746,
+      "nut_y": -0.198397794264143,
+      "nut_yaw": -0.4927181728134835,
+      "peg_x": -0.027333080691117173,
+      "peg_y": -0.08921918825168862,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 39
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 56
+    },
+    {
+      "nut_x": 0.0067407064309154,
+      "nut_y": 0.23042227427423567,
+      "nut_yaw": 0.8544712169102091,
+      "peg_x": -0.001982805196919818,
+      "peg_y": -0.19327857519410943,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 2
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 57
+    },
+    {
+      "nut_x": -0.060446615536354914,
+      "nut_y": -0.05807965442884677,
+      "nut_yaw": 2.5929813529249266,
+      "peg_x": 0.09739060851740106,
+      "peg_y": -0.07195623360667189,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 96
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 58
+    },
+    {
+      "nut_x": -0.10812763985591138,
+      "nut_y": 0.0973951729622008,
+      "nut_yaw": -0.3162004152880775,
+      "peg_x": 0.21087548799364456,
+      "peg_y": 0.199195608689626,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 62
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 59
+    },
+    {
+      "nut_x": -0.010639659035481405,
+      "nut_y": 0.18906299997841375,
+      "nut_yaw": 0.9358019405853941,
+      "peg_x": 0.14165317207388148,
+      "peg_y": 0.12252510085204499,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 94
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 60
+    },
+    {
+      "nut_x": -0.02697608361944924,
+      "nut_y": -0.1803353562947952,
+      "nut_yaw": -1.2519683476688928,
+      "peg_x": 0.2913224618317872,
+      "peg_y": -0.024753961377110667,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 57
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 61
+    },
+    {
+      "nut_x": -0.1043941187800379,
+      "nut_y": 0.23390371877962807,
+      "nut_yaw": 1.8635311337017706,
+      "peg_x": 0.2663315244126031,
+      "peg_y": -0.10229650725373247,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 23
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 62
+    },
+    {
+      "nut_x": 0.011208724195710465,
+      "nut_y": 0.028508307849530512,
+      "nut_yaw": 2.5456633426085613,
+      "peg_x": -0.06285596760397333,
+      "peg_y": 0.1629420685202081,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 17
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 63
+    },
+    {
+      "nut_x": -0.09862789015525239,
+      "nut_y": 0.2135189322741135,
+      "nut_yaw": -0.24471806367768068,
+      "peg_x": 0.22518900412484685,
+      "peg_y": 0.11460781522059782,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 81
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 64
+    },
+    {
+      "nut_x": 0.09090197773424567,
+      "nut_y": -0.06486938703637438,
+      "nut_yaw": -0.3751022681450653,
+      "peg_x": 0.1691630042921712,
+      "peg_y": -0.1759887823433054,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 86
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 65
+    },
+    {
+      "nut_x": 0.05706958413540221,
+      "nut_y": -0.20311124640060405,
+      "nut_yaw": 1.3182250775247253,
+      "peg_x": 0.11537141084575686,
+      "peg_y": -0.07732703433005113,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 23
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 66
+    },
+    {
+      "nut_x": -0.10481378877698386,
+      "nut_y": 0.12221145343755724,
+      "nut_yaw": 2.450013498399687,
+      "peg_x": -0.09810742699504744,
+      "peg_y": -0.03712707415635466,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 26
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 67
+    },
+    {
+      "nut_x": -0.0004160774863669614,
+      "nut_y": 0.23805930588524377,
+      "nut_yaw": 2.959266988927512,
+      "peg_x": 0.2516725608850856,
+      "peg_y": -0.02887434856077925,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 79
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 68
+    },
+    {
+      "nut_x": -0.0540100812223761,
+      "nut_y": -0.2448072282961318,
+      "nut_yaw": 1.7850450025322235,
+      "peg_x": 0.20163708300129077,
+      "peg_y": -0.011328743533095181,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 72
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 69
+    },
+    {
+      "nut_x": 0.06751866236907371,
+      "nut_y": -0.25448196146032914,
+      "nut_yaw": 1.0781059228045606,
+      "peg_x": 0.1890911409064108,
+      "peg_y": 0.09710994273287443,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 18
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 70
+    },
+    {
+      "nut_x": -0.11407568778141215,
+      "nut_y": -0.2543671748526363,
+      "nut_yaw": 0.4772890989622809,
+      "peg_x": -0.05071682343614947,
+      "peg_y": 0.18533414172816082,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 34
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 71
+    },
+    {
+      "nut_x": -0.04990760712945276,
+      "nut_y": 0.204225146609243,
+      "nut_yaw": -1.6970564767621148,
+      "peg_x": -0.09051505064010486,
+      "peg_y": 0.07450270115648111,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 47
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 72
+    },
+    {
+      "nut_x": -0.0521699335236159,
+      "nut_y": 0.16434568984601272,
+      "nut_yaw": -2.26440721153922,
+      "peg_x": 0.14057370473794192,
+      "peg_y": 0.0609329030599548,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 10
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 73
+    },
+    {
+      "nut_x": 0.07008687995374203,
+      "nut_y": -0.15632783093489705,
+      "nut_yaw": 1.3283576162266177,
+      "peg_x": -0.05277805887162686,
+      "peg_y": -0.07915628142654896,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 6
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 74
+    },
+    {
+      "nut_x": -0.11248754385141105,
+      "nut_y": 0.24069909500919245,
+      "nut_yaw": -2.3569464844142463,
+      "peg_x": -0.06448972291830182,
+      "peg_y": 0.029571048843171827,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 37
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 75
+    },
+    {
+      "nut_x": 0.010867669147407319,
+      "nut_y": 0.08682528880109319,
+      "nut_yaw": 0.49454034795320867,
+      "peg_x": 0.1814999077002402,
+      "peg_y": 0.09230876690704598,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 33
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 76
+    },
+    {
+      "nut_x": 0.10665845631975883,
+      "nut_y": -0.10208852512354319,
+      "nut_yaw": -0.6204949808142972,
+      "peg_x": -0.08832941279452658,
+      "peg_y": -0.0302230858281817,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 24
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 77
+    },
+    {
+      "nut_x": -0.01739482714620723,
+      "nut_y": 0.21629035632063087,
+      "nut_yaw": -2.657887498198716,
+      "peg_x": 0.019751707639718452,
+      "peg_y": 0.07950336616164233,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 72
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 78
+    },
+    {
+      "nut_x": 0.07529150820405552,
+      "nut_y": 0.00755644206243361,
+      "nut_yaw": -1.0513569084820666,
+      "peg_x": 0.02017665685161063,
+      "peg_y": 0.18021230108499092,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 94
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 79
+    },
+    {
+      "nut_x": 0.03905569703078736,
+      "nut_y": -0.23659519781939453,
+      "nut_yaw": -0.4271706175780108,
+      "peg_x": -0.02459944019138094,
+      "peg_y": -0.037950887716312026,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 92
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 80
+    },
+    {
+      "nut_x": 0.05750187034414385,
+      "nut_y": 0.24340046832819656,
+      "nut_yaw": -2.776340353410645,
+      "peg_x": 0.030962313498521243,
+      "peg_y": 0.10794320715078976,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 90
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 81
+    },
+    {
+      "nut_x": 0.007689635677766524,
+      "nut_y": 0.1070059438761169,
+      "nut_yaw": 2.8552322281177895,
+      "peg_x": 0.10771150442274677,
+      "peg_y": 0.19852725771363344,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 32
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 82
+    },
+    {
+      "nut_x": 0.01402800602034697,
+      "nut_y": -0.06372862072527308,
+      "nut_yaw": 2.982651726623737,
+      "peg_x": 0.2213893000436735,
+      "peg_y": 0.06838347913128912,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 40
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 83
+    },
+    {
+      "nut_x": 0.10424585713593477,
+      "nut_y": -0.19609891638833368,
+      "nut_yaw": -2.7163213120480685,
+      "peg_x": 0.24083131341200784,
+      "peg_y": -0.10079830331157416,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 76
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 84
+    },
+    {
+      "nut_x": -0.024790356026758387,
+      "nut_y": -0.11556203796341455,
+      "nut_yaw": -0.03542394772893109,
+      "peg_x": -0.05279363224133378,
+      "peg_y": 0.1848470935441427,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 15
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 85
+    },
+    {
+      "nut_x": 0.11457218675181603,
+      "nut_y": -0.13883399740443456,
+      "nut_yaw": -1.226131388209153,
+      "peg_x": -0.06583619366489164,
+      "peg_y": 0.1637535820233748,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 49
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 86
+    },
+    {
+      "nut_x": -0.029212156469002368,
+      "nut_y": -0.2280984600260854,
+      "nut_yaw": 1.6046457173750257,
+      "peg_x": -0.09119612611830236,
+      "peg_y": -0.031855145841836935,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 4
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 87
+    },
+    {
+      "nut_x": 0.10640868884884168,
+      "nut_y": 0.1727930336674064,
+      "nut_yaw": 0.48615198689182604,
+      "peg_x": 0.14838441406716926,
+      "peg_y": -0.138414604830704,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 7
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 88
+    },
+    {
+      "nut_x": 0.11466552035295764,
+      "nut_y": 0.04003672898890687,
+      "nut_yaw": -2.7031835545791125,
+      "peg_x": -0.08387314072146729,
+      "peg_y": -0.15069038248276942,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 84
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 89
+    },
+    {
+      "nut_x": 0.0528850359963139,
+      "nut_y": 0.06544369320627946,
+      "nut_yaw": -0.4155015762963492,
+      "peg_x": 0.2731808013635213,
+      "peg_y": 0.04278397321542887,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 11
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 90
+    },
+    {
+      "nut_x": 0.05498291510287344,
+      "nut_y": 0.23261595675280206,
+      "nut_yaw": -1.5503538172549574,
+      "peg_x": 0.11651521850689958,
+      "peg_y": 0.11153926954807125,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 76
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 91
+    },
+    {
+      "nut_x": 0.08372768659505193,
+      "nut_y": 0.11221405586280908,
+      "nut_yaw": -1.3978201770663667,
+      "peg_x": 0.12907618905939416,
+      "peg_y": -0.12549683814059664,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 52
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 92
+    },
+    {
+      "nut_x": 0.0584645458089466,
+      "nut_y": -0.1816232234668857,
+      "nut_yaw": 0.23481340735980183,
+      "peg_x": 0.06709885134521337,
+      "peg_y": 0.050327244288645545,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 88
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 93
+    },
+    {
+      "nut_x": -0.02531744710366504,
+      "nut_y": 0.1629792805607821,
+      "nut_yaw": -0.29658327033023957,
+      "peg_x": -0.02256078028351252,
+      "peg_y": 0.016604453720541063,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 99
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 94
+    },
+    {
+      "nut_x": 0.030846054447793078,
+      "nut_y": 0.10125034284482165,
+      "nut_yaw": -0.7461740334272475,
+      "peg_x": 0.2810710275524686,
+      "peg_y": 0.1881204004603506,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 56
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 95
+    },
+    {
+      "nut_x": 0.10619333779439331,
+      "nut_y": 0.16469102731905877,
+      "nut_yaw": -1.3491474902997505,
+      "peg_x": -0.05967606827616692,
+      "peg_y": -0.1948013409972191,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 5
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 96
+    },
+    {
+      "nut_x": 0.05890561629407966,
+      "nut_y": -0.16590312452156192,
+      "nut_yaw": -1.490533481411228,
+      "peg_x": -0.08936224631630695,
+      "peg_y": 0.09553618581502821,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 50
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 97
+    },
+    {
+      "nut_x": -0.0076751158350395615,
+      "nut_y": 0.25218044708892806,
+      "nut_yaw": 1.1926866509632976,
+      "peg_x": 0.2000510856418586,
+      "peg_y": 0.19335439116329922,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 30
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 98
+    },
+    {
+      "nut_x": 0.01758041698171335,
+      "nut_y": -0.11786434662093856,
+      "nut_yaw": 0.9723459231452694,
+      "peg_x": 0.13655001072095133,
+      "peg_y": 0.006392350875558395,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 48
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 99
+    },
+    {
+      "nut_x": 0.058334987637215216,
+      "nut_y": -0.145676757451139,
+      "nut_yaw": 0.055700158085346896,
+      "peg_x": -0.05795863630891423,
+      "peg_y": -0.07879715682248874,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 39
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 100
+    },
+    {
+      "nut_x": 0.09710980926105607,
+      "nut_y": -0.06230375362832974,
+      "nut_yaw": 1.4522225300729117,
+      "peg_x": 0.010461376522586538,
+      "peg_y": 0.07559524786301264,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 36
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 101
+    },
+    {
+      "nut_x": 0.048741811459274684,
+      "nut_y": -0.07384681530139933,
+      "nut_yaw": -1.5736269634124271,
+      "peg_x": 0.1313836984266291,
+      "peg_y": -0.19928865008970809,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 93
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 102
+    },
+    {
+      "nut_x": -0.09789030000819335,
+      "nut_y": -0.08140425697944695,
+      "nut_yaw": 0.48027487523806034,
+      "peg_x": 0.051275723856411215,
+      "peg_y": 0.19004228185243793,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 44
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 103
+    },
+    {
+      "nut_x": 0.07536591643842523,
+      "nut_y": 0.06026862368728869,
+      "nut_yaw": -3.028442898166754,
+      "peg_x": -0.05688760224001657,
+      "peg_y": 0.14120051346083412,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 63
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 104
+    },
+    {
+      "nut_x": 0.10513697779058827,
+      "nut_y": -0.15865321823935047,
+      "nut_yaw": -1.3669350583866005,
+      "peg_x": 0.0035921307775536315,
+      "peg_y": -0.07175638862044939,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 74
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 105
+    },
+    {
+      "nut_x": -0.053675580650070685,
+      "nut_y": -0.11152642242137029,
+      "nut_yaw": -2.9470514670049206,
+      "peg_x": 0.10778761517381433,
+      "peg_y": 0.17390219060852113,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 38
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 106
+    },
+    {
+      "nut_x": 0.07194438517197695,
+      "nut_y": -0.12435323063787815,
+      "nut_yaw": -1.3566808532601808,
+      "peg_x": -0.07929557981099206,
+      "peg_y": -0.1664232772738915,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 45
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 107
+    },
+    {
+      "nut_x": 0.031323712399761464,
+      "nut_y": -0.020628815584540328,
+      "nut_yaw": 1.2747151412901658,
+      "peg_x": 0.12275692826117904,
+      "peg_y": -0.14435962824796073,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 47
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 108
+    },
+    {
+      "nut_x": 0.0886797957361204,
+      "nut_y": 0.21267630749662314,
+      "nut_yaw": -0.8258843219764107,
+      "peg_x": -0.09016158321958155,
+      "peg_y": 0.1991327409642319,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 58
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 109
+    },
+    {
+      "nut_x": -0.09140115492923276,
+      "nut_y": -0.18584146913597194,
+      "nut_yaw": 3.1198881399149183,
+      "peg_x": 0.2842082908566489,
+      "peg_y": 0.1396055020121545,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 36
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 110
+    },
+    {
+      "nut_x": -0.07610926989925484,
+      "nut_y": -0.20846169725159397,
+      "nut_yaw": 2.688578478995434,
+      "peg_x": -0.06363632417604875,
+      "peg_y": 0.1953923071815069,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 99
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 111
+    },
+    {
+      "nut_x": -0.10574862075969577,
+      "nut_y": -0.03129556054249405,
+      "nut_yaw": -1.8626220925665449,
+      "peg_x": 0.2767363980412484,
+      "peg_y": -0.17277846410870554,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 3
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 112
+    },
+    {
+      "nut_x": 0.10271491553375851,
+      "nut_y": 0.23811793750764332,
+      "nut_yaw": 2.045068196892033,
+      "peg_x": 0.1709346093043103,
+      "peg_y": 0.0930745255873946,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 20
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 113
+    },
+    {
+      "nut_x": 0.11417217518995047,
+      "nut_y": -0.003088733741021865,
+      "nut_yaw": 0.37821562531936825,
+      "peg_x": 0.25579048967812346,
+      "peg_y": 0.04028900269251262,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 96
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 114
+    },
+    {
+      "nut_x": -0.05914457334368428,
+      "nut_y": 0.1031474208783682,
+      "nut_yaw": 2.813149403933446,
+      "peg_x": 0.23174251400518756,
+      "peg_y": -0.02477885415098413,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 63
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 115
+    },
+    {
+      "nut_x": -0.061417545098751775,
+      "nut_y": -0.17743696517978147,
+      "nut_yaw": -1.3148027714827801,
+      "peg_x": 0.03262923721964017,
+      "peg_y": -0.06291476924509048,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 89
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 116
+    },
+    {
+      "nut_x": -0.09288272041582958,
+      "nut_y": -0.11621638395536804,
+      "nut_yaw": -2.791446584553162,
+      "peg_x": 0.2969777871725279,
+      "peg_y": -0.04858430648024181,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 85
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 117
+    },
+    {
+      "nut_x": -0.10943255122143306,
+      "nut_y": 0.09151864752993782,
+      "nut_yaw": 2.293018416808553,
+      "peg_x": 0.18597873891664754,
+      "peg_y": -0.17985621273733782,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 26
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 118
+    },
+    {
+      "nut_x": 0.04984317894906999,
+      "nut_y": 0.18475372575423843,
+      "nut_yaw": 0.21482761061193045,
+      "peg_x": -0.09462403419737697,
+      "peg_y": -0.1875647561012031,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 65
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 119
+    },
+    {
+      "nut_x": -0.0630714810107388,
+      "nut_y": 0.032567165930058095,
+      "nut_yaw": -2.4578248702121,
+      "peg_x": 0.21083386708923454,
+      "peg_y": 0.07650498451377286,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 34
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 120
+    },
+    {
+      "nut_x": -0.0557246277939363,
+      "nut_y": 0.2539117519584022,
+      "nut_yaw": 0.8848935339413266,
+      "peg_x": 0.11943166493323251,
+      "peg_y": 0.03511558382743357,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 33
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 121
+    },
+    {
+      "nut_x": -0.045137577307669124,
+      "nut_y": -0.02374172566792307,
+      "nut_yaw": 1.5515101231771116,
+      "peg_x": 0.15746276668015716,
+      "peg_y": -0.002065419391568346,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 13
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 122
+    },
+    {
+      "nut_x": 0.10526883497511082,
+      "nut_y": -0.24009185260384178,
+      "nut_yaw": 1.3502462355976084,
+      "peg_x": 0.17053676111238644,
+      "peg_y": 0.11601411253665134,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 91
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 123
+    },
+    {
+      "nut_x": -0.11211151589477547,
+      "nut_y": -0.2387133281976299,
+      "nut_yaw": 0.796072866615404,
+      "peg_x": 0.20946019272477087,
+      "peg_y": -0.12766537576308457,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 65
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 124
+    },
+    {
+      "nut_x": -0.039107208253496145,
+      "nut_y": -0.10437140055360059,
+      "nut_yaw": 2.3969003996206952,
+      "peg_x": 0.1315252310140759,
+      "peg_y": -0.003621689459517574,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 92
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 125
+    },
+    {
+      "nut_x": 0.10077799743407422,
+      "nut_y": 0.16355868071000101,
+      "nut_yaw": 2.733236146790765,
+      "peg_x": 0.2950331062598519,
+      "peg_y": -0.19468289957955795,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 64
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 126
+    },
+    {
+      "nut_x": 0.11141993825991654,
+      "nut_y": 0.2084926632501175,
+      "nut_yaw": 2.74271182433559,
+      "peg_x": 0.0011640160531318777,
+      "peg_y": -0.09634990715662083,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 97
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 127
+    },
+    {
+      "nut_x": 0.041625491732778616,
+      "nut_y": -0.010105946304539842,
+      "nut_yaw": -0.8167004191517817,
+      "peg_x": -0.049153834186591895,
+      "peg_y": 0.16798851420079874,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 88
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 128
+    },
+    {
+      "nut_x": 0.10662083096711432,
+      "nut_y": -0.17737171689696873,
+      "nut_yaw": -1.8214048757470895,
+      "peg_x": 0.21622280894621318,
+      "peg_y": -0.021400726566267764,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 35
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 129
+    },
+    {
+      "nut_x": 0.09746626987090036,
+      "nut_y": 0.22408310309516766,
+      "nut_yaw": 1.7731301513270177,
+      "peg_x": 0.2829098029587821,
+      "peg_y": 0.0388997560389574,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 87
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 130
+    },
+    {
+      "nut_x": -0.10559681031480175,
+      "nut_y": 0.11848717095643563,
+      "nut_yaw": 2.966663049500869,
+      "peg_x": 0.18810730465486716,
+      "peg_y": 0.06646860991096226,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 74
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 131
+    },
+    {
+      "nut_x": -0.09730495685198898,
+      "nut_y": 0.12245084493265879,
+      "nut_yaw": 0.9353501472877959,
+      "peg_x": 0.16919868074992309,
+      "peg_y": 0.011895831463558604,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 51
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 132
+    },
+    {
+      "nut_x": -0.09493984711814546,
+      "nut_y": -0.11777792381358348,
+      "nut_yaw": -0.19961330283243273,
+      "peg_x": 0.28446154037031646,
+      "peg_y": 0.08824928848428237,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 1
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 133
+    },
+    {
+      "nut_x": -0.10762830299737108,
+      "nut_y": -0.005978942453520014,
+      "nut_yaw": 3.0277026982372863,
+      "peg_x": 0.15713901608063638,
+      "peg_y": -0.19541585478514378,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 73
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 134
+    },
+    {
+      "nut_x": -0.038518801237435674,
+      "nut_y": 0.09374222865682391,
+      "nut_yaw": 1.4648561084639145,
+      "peg_x": 0.10698133629776799,
+      "peg_y": -0.14607768662058165,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 4
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 135
+    },
+    {
+      "nut_x": -0.032819948363864815,
+      "nut_y": -0.15241419156743496,
+      "nut_yaw": 2.6008966865954974,
+      "peg_x": 0.046398344571931815,
+      "peg_y": 0.04594983952501713,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 30
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 136
+    },
+    {
+      "nut_x": 0.03633610142177003,
+      "nut_y": -0.16488021554402044,
+      "nut_yaw": -0.773251855327449,
+      "peg_x": 0.2032572124161681,
+      "peg_y": -0.1920880300020672,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 18
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 137
+    },
+    {
+      "nut_x": 0.1025175856065881,
+      "nut_y": -0.2451199498378234,
+      "nut_yaw": 0.9126372495880712,
+      "peg_x": -0.07847156380497636,
+      "peg_y": 0.12664688947351166,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 0
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 138
+    },
+    {
+      "nut_x": 0.07655064694594611,
+      "nut_y": 0.1645182413532595,
+      "nut_yaw": 2.9343777769086588,
+      "peg_x": -0.022265895683009157,
+      "peg_y": 0.06625143765586194,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 28
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 139
+    },
+    {
+      "nut_x": -0.014828917721219761,
+      "nut_y": -0.1636879393222554,
+      "nut_yaw": -2.336829348655427,
+      "peg_x": -0.06627571870361276,
+      "peg_y": 0.18636921042264087,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 66
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 140
+    },
+    {
+      "nut_x": 0.08356863125005624,
+      "nut_y": 0.22636351247471925,
+      "nut_yaw": 1.461982121721542,
+      "peg_x": 0.11804157080458505,
+      "peg_y": -0.07936739251057877,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 43
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 141
+    },
+    {
+      "nut_x": 0.004907768127265594,
+      "nut_y": 0.08004623805152777,
+      "nut_yaw": 1.4353043066194555,
+      "peg_x": -0.08206697837520523,
+      "peg_y": 0.1993095907760855,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 21
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 142
+    },
+    {
+      "nut_x": -0.049616818367679796,
+      "nut_y": 0.19376063748510042,
+      "nut_yaw": 2.3202034757320504,
+      "peg_x": 0.03182386813851448,
+      "peg_y": 0.05052066073774891,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 93
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 143
+    },
+    {
+      "nut_x": 0.005898895945363608,
+      "nut_y": -0.21034205001804654,
+      "nut_yaw": 1.7493053854022929,
+      "peg_x": 0.26369476091930133,
+      "peg_y": 0.15339968354818012,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 53
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 144
+    },
+    {
+      "nut_x": 0.010988834044575777,
+      "nut_y": 0.234892724994683,
+      "nut_yaw": -0.680821370878562,
+      "peg_x": 0.27734231369292994,
+      "peg_y": 0.18608355933147763,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 80
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 145
+    },
+    {
+      "nut_x": 0.022692877557361255,
+      "nut_y": 0.13600449529767644,
+      "nut_yaw": 0.9988410196275774,
+      "peg_x": -0.02440463675317961,
+      "peg_y": -0.19295233173706877,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 61
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 146
+    },
+    {
+      "nut_x": -0.10295290875072492,
+      "nut_y": -0.029173963385816903,
+      "nut_yaw": -0.5722219543560967,
+      "peg_x": 0.2954404955864287,
+      "peg_y": 0.14470892447858458,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 61
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 147
+    },
+    {
+      "nut_x": 0.09625667837807349,
+      "nut_y": 0.15770983164381225,
+      "nut_yaw": 0.788500015680015,
+      "peg_x": 0.26549831123809986,
+      "peg_y": -0.19546885726664961,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 16
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 148
+    },
+    {
+      "nut_x": -0.10778995029628277,
+      "nut_y": 0.10470882629044354,
+      "nut_yaw": 3.030670606041282,
+      "peg_x": 0.02904258668422699,
+      "peg_y": -0.015494032204151159,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 13
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 149
+    },
+    {
+      "nut_x": 0.0883332088732111,
+      "nut_y": -0.19547820115322442,
+      "nut_yaw": -0.582260499992767,
+      "peg_x": 0.2308319731221464,
+      "peg_y": -0.19900395881832755,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 67
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 150
+    },
+    {
+      "nut_x": -0.05533576798008457,
+      "nut_y": -0.2528056512807256,
+      "nut_yaw": 1.507092480688005,
+      "peg_x": 0.06324328135915411,
+      "peg_y": 0.029456829470456303,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 83
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 151
+    },
+    {
+      "nut_x": -0.06924481007049235,
+      "nut_y": -0.014554714557168558,
+      "nut_yaw": 2.9337923891704873,
+      "peg_x": 0.291490380971304,
+      "peg_y": -0.048980303017610666,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 85
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 152
+    },
+    {
+      "nut_x": -0.08960013210943847,
+      "nut_y": 0.035487368835688704,
+      "nut_yaw": 0.4427658400779606,
+      "peg_x": -0.09168661796895604,
+      "peg_y": 0.17745755658027468,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 41
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 153
+    },
+    {
+      "nut_x": -0.07657522531217739,
+      "nut_y": 0.18146317548211943,
+      "nut_yaw": 1.4758359544731006,
+      "peg_x": 0.0728546399610829,
+      "peg_y": -0.13163289589362276,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 5
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 154
+    },
+    {
+      "nut_x": -0.03977122417200697,
+      "nut_y": -0.21619543389487278,
+      "nut_yaw": 2.0573060033353316,
+      "peg_x": 0.2662862613793032,
+      "peg_y": -0.18623504379046155,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 82
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 155
+    },
+    {
+      "nut_x": 0.040032661056823585,
+      "nut_y": -0.10983010170762073,
+      "nut_yaw": -0.6018903924452732,
+      "peg_x": -0.04129898936764498,
+      "peg_y": 0.11380259124587433,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 75
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 156
+    },
+    {
+      "nut_x": -0.1043473428826946,
+      "nut_y": -0.1360848699087787,
+      "nut_yaw": 2.6470247459750764,
+      "peg_x": -0.0016648159171437776,
+      "peg_y": -0.032511680533416604,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 25
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 157
+    },
+    {
+      "nut_x": 0.10962138807275702,
+      "nut_y": -0.23505748745889574,
+      "nut_yaw": -3.0295378293069684,
+      "peg_x": -0.005588587240185475,
+      "peg_y": -0.15787230379571893,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 31
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 158
+    },
+    {
+      "nut_x": -0.05215640049181271,
+      "nut_y": -0.08806822300549666,
+      "nut_yaw": -0.6237106198172109,
+      "peg_x": 0.019621664969970268,
+      "peg_y": 0.16853556275568632,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 8
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 159
+    },
+    {
+      "nut_x": -0.10860039223140713,
+      "nut_y": -0.23822634013946434,
+      "nut_yaw": -1.1930748911530809,
+      "peg_x": 0.22158775064697997,
+      "peg_y": -0.139243849678588,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 52
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 160
+    },
+    {
+      "nut_x": 0.0483627821666127,
+      "nut_y": -0.15591637226740312,
+      "nut_yaw": 0.22045865957608868,
+      "peg_x": 0.23735278455527728,
+      "peg_y": 0.13084833850286165,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 80
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 161
+    },
+    {
+      "nut_x": -0.07816071187722674,
+      "nut_y": -0.14633886804875734,
+      "nut_yaw": 1.1262836179861644,
+      "peg_x": 0.23351711219226948,
+      "peg_y": -0.10716572554100733,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 21
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 162
+    },
+    {
+      "nut_x": -0.002379692429252886,
+      "nut_y": -0.23447113759732033,
+      "nut_yaw": 1.5808726606193355,
+      "peg_x": 0.17226073214798468,
+      "peg_y": 0.19714824511984935,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 90
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 163
+    },
+    {
+      "nut_x": 0.07309086122095211,
+      "nut_y": -0.22574155886537348,
+      "nut_yaw": -0.833271801961414,
+      "peg_x": 0.2834219312789812,
+      "peg_y": 0.0777418419872502,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 48
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 164
+    },
+    {
+      "nut_x": 0.004945484325249924,
+      "nut_y": -0.05748054670964811,
+      "nut_yaw": -1.939470522257307,
+      "peg_x": 0.22472779167971693,
+      "peg_y": 0.038433221369131354,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 87
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 165
+    },
+    {
+      "nut_x": 0.10669639218696404,
+      "nut_y": -0.11829066133091204,
+      "nut_yaw": -0.7047470475771656,
+      "peg_x": -0.05277458259395909,
+      "peg_y": -0.18261754332425575,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 78
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 166
+    },
+    {
+      "nut_x": 0.09210407946112613,
+      "nut_y": 0.10688187338251681,
+      "nut_yaw": 2.302819660961709,
+      "peg_x": 0.22056657781119351,
+      "peg_y": 0.03790352531820487,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 81
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 167
+    },
+    {
+      "nut_x": 0.0845354353613819,
+      "nut_y": 0.053599934936692406,
+      "nut_yaw": 3.0264524533554757,
+      "peg_x": 0.2632614933795734,
+      "peg_y": -0.19563336665492181,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 98
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 168
+    },
+    {
+      "nut_x": -0.11226629504002632,
+      "nut_y": 0.2461079964414239,
+      "nut_yaw": -2.5340643328309578,
+      "peg_x": 0.21028982475399974,
+      "peg_y": -0.07740134112536907,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 10
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 169
+    },
+    {
+      "nut_x": 0.054726063072801825,
+      "nut_y": 0.16722208315331966,
+      "nut_yaw": -1.348894064471194,
+      "peg_x": 0.053396114104025866,
+      "peg_y": -0.18699654989168832,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 69
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 170
+    },
+    {
+      "nut_x": -0.11006636723354245,
+      "nut_y": -0.17514886257760615,
+      "nut_yaw": 1.8737053115454403,
+      "peg_x": -0.09358873248150741,
+      "peg_y": 0.15153084442007053,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 84
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 171
+    },
+    {
+      "nut_x": 0.056875678049322406,
+      "nut_y": 0.131965907487742,
+      "nut_yaw": -2.5846712171863158,
+      "peg_x": 0.16154512893266856,
+      "peg_y": -0.06111518121595136,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 71
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 172
+    },
+    {
+      "nut_x": 0.054347248858093264,
+      "nut_y": 0.03732913306600705,
+      "nut_yaw": -0.7404023765932397,
+      "peg_x": -0.08939858290268905,
+      "peg_y": -0.03461649034469394,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 17
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 173
+    },
+    {
+      "nut_x": 0.11371651720529448,
+      "nut_y": -0.22080337909197825,
+      "nut_yaw": 1.0905028930888632,
+      "peg_x": -0.015002183978226752,
+      "peg_y": 0.04923093380538965,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 19
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 174
+    },
+    {
+      "nut_x": -0.11274710504201038,
+      "nut_y": 0.25336153644071757,
+      "nut_yaw": -0.38279736213143734,
+      "peg_x": 0.08406688836288884,
+      "peg_y": -0.03738394272208287,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 98
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 175
+    },
+    {
+      "nut_x": 0.07758726813953822,
+      "nut_y": -0.13134128183830257,
+      "nut_yaw": 2.051776276688919,
+      "peg_x": -0.06988426363610763,
+      "peg_y": -0.1878587818198917,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 38
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 176
+    },
+    {
+      "nut_x": -0.014718917857497904,
+      "nut_y": 0.12034630898831161,
+      "nut_yaw": 1.2543929782688181,
+      "peg_x": 0.1715758929264604,
+      "peg_y": -0.12145337849767071,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 58
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 177
+    },
+    {
+      "nut_x": -0.10840803561823832,
+      "nut_y": -0.2528406748863855,
+      "nut_yaw": -1.4215004915027776,
+      "peg_x": 0.290615860644058,
+      "peg_y": 0.06271771904692847,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 22
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 178
+    },
+    {
+      "nut_x": 0.06617850543554764,
+      "nut_y": 0.22327514156862988,
+      "nut_yaw": -2.701185140495863,
+      "peg_x": 0.022186001870831792,
+      "peg_y": 0.08211617770953616,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 59
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 179
+    },
+    {
+      "nut_x": 0.08176703216685512,
+      "nut_y": -0.11374955554440624,
+      "nut_yaw": 1.4026595453679356,
+      "peg_x": -0.06766796531496211,
+      "peg_y": -0.0336789125671319,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 95
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 180
+    },
+    {
+      "nut_x": -0.01687568271532655,
+      "nut_y": -0.13430629880167544,
+      "nut_yaw": -1.5071757808809352,
+      "peg_x": -0.06519594676792623,
+      "peg_y": 0.028715122863650328,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 0
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 181
+    },
+    {
+      "nut_x": -0.0874781260926748,
+      "nut_y": -0.24621012450683974,
+      "nut_yaw": 1.7766302247817176,
+      "peg_x": -0.0889227946788474,
+      "peg_y": -0.08410188253014916,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 29
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 182
+    },
+    {
+      "nut_x": 0.07919239939446247,
+      "nut_y": 0.07236650010766549,
+      "nut_yaw": 1.0890016188479397,
+      "peg_x": 0.15239734418738263,
+      "peg_y": -0.10513030061207007,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 67
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 183
+    },
+    {
+      "nut_x": 0.07827267580040974,
+      "nut_y": 0.06912405818358253,
+      "nut_yaw": 2.2552154646852243,
+      "peg_x": -0.04713386073439732,
+      "peg_y": 0.11240941634618545,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 46
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 184
+    },
+    {
+      "nut_x": 0.04491495415779474,
+      "nut_y": -0.25087189014505384,
+      "nut_yaw": -0.9076819219832468,
+      "peg_x": 0.15999842111094278,
+      "peg_y": 0.1435048846198672,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 35
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 185
+    },
+    {
+      "nut_x": 0.0626304572771917,
+      "nut_y": 0.09916585543987405,
+      "nut_yaw": 2.66130874281912,
+      "peg_x": -0.022749551554257105,
+      "peg_y": -0.19999472520155004,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 29
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 186
+    },
+    {
+      "nut_x": -0.03616929801225327,
+      "nut_y": -0.25232953702342575,
+      "nut_yaw": -2.041204788294727,
+      "peg_x": 0.18551246515649658,
+      "peg_y": 0.09325872163107513,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 14
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 187
+    },
+    {
+      "nut_x": -0.10863903957247217,
+      "nut_y": 0.24282314969876784,
+      "nut_yaw": -0.7703591322930383,
+      "peg_x": 0.10616631822337946,
+      "peg_y": -0.025952712283716817,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 57
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 188
+    },
+    {
+      "nut_x": 0.08485110083086818,
+      "nut_y": -0.24790269895595718,
+      "nut_yaw": 2.8154284930092848,
+      "peg_x": -0.09161277494088878,
+      "peg_y": -0.003954295480289749,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 77
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 189
+    },
+    {
+      "nut_x": 0.007437668433412911,
+      "nut_y": -0.17490644856356086,
+      "nut_yaw": -1.8668894421587843,
+      "peg_x": 0.012330552190542216,
+      "peg_y": -0.002014540135860443,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 8
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 190
+    },
+    {
+      "nut_x": -0.09523633705503828,
+      "nut_y": -0.2338723616585825,
+      "nut_yaw": 1.8165403153425377,
+      "peg_x": 0.23882609600750535,
+      "peg_y": 0.1479031708961559,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 19
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 191
+    },
+    {
+      "nut_x": 0.025913912881066495,
+      "nut_y": 0.2184960212764644,
+      "nut_yaw": -0.9758881594729711,
+      "peg_x": 0.025211540566976887,
+      "peg_y": -0.02448862466837118,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 77
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 192
+    },
+    {
+      "nut_x": 0.05472367520648043,
+      "nut_y": 0.19172585071536985,
+      "nut_yaw": 0.6763725360014909,
+      "peg_x": -0.0014463820577951952,
+      "peg_y": -0.04169892204663092,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 68
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 193
+    },
+    {
+      "nut_x": -0.10000492777839914,
+      "nut_y": 0.1561191063699558,
+      "nut_yaw": -1.353232783983093,
+      "peg_x": -0.09152607076406608,
+      "peg_y": -0.14280014521635498,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 51
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 194
+    },
+    {
+      "nut_x": -0.02522940506518062,
+      "nut_y": 0.13708722227636932,
+      "nut_yaw": -1.6040890395554515,
+      "peg_x": 0.1576947786644439,
+      "peg_y": 0.013285100032262104,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 55
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 195
+    },
+    {
+      "nut_x": -0.004639181503101067,
+      "nut_y": 0.13235697377123412,
+      "nut_yaw": 2.9234913973027155,
+      "peg_x": -0.019458250064173427,
+      "peg_y": -0.03148492527845431,
+      "sources": [
+        "baseline_uniform"
+      ],
+      "source": "baseline_uniform",
+      "source_indices": {
+        "baseline_uniform": 44
+      },
+      "policy_source": "baseline_policy",
+      "manifest_index": 196
+    },
+    {
+      "nut_x": -0.06455343726692067,
+      "nut_y": 0.23206956745720891,
+      "nut_yaw": -0.806445956494442,
+      "peg_x": -0.09382594225387515,
+      "peg_y": -0.047613432068410455,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 66
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 197
+    },
+    {
+      "nut_x": 0.10139733226908564,
+      "nut_y": -0.2538700286716383,
+      "nut_yaw": -2.21833557937357,
+      "peg_x": 0.14418331058886688,
+      "peg_y": 0.0656651494797501,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 60
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 198
+    },
+    {
+      "nut_x": 0.08885438239201902,
+      "nut_y": -0.23700071258470418,
+      "nut_yaw": -0.07427535279229236,
+      "peg_x": 0.20918679758906364,
+      "peg_y": 0.0030245203524827957,
+      "sources": [
+        "mulligan"
+      ],
+      "source": "mulligan",
+      "source_indices": {
+        "mulligan": 7
+      },
+      "policy_source": "mulligan_policy",
+      "manifest_index": 199
+    }
+  ],
+  "_meta": {
+    "task": "square_broad",
+    "stage": "r3",
+    "n_unique_states": 200,
+    "n_arm_state_memberships": 200,
+    "n_per_arm": 100,
+    "arms": [
+      "baseline_uniform",
+      "mulligan"
+    ],
+    "arm_counts": {
+      "baseline_uniform": 100,
+      "mulligan": 100
+    },
+    "policy_sources": {
+      "baseline_uniform": "baseline_policy",
+      "mulligan": "mulligan_policy"
+    },
+    "policy_counts_unique_states": {
+      "baseline_policy": 100,
+      "mulligan_policy": 100
+    },
+    "shared_source_groups": {},
+    "locked_sampler": {
+      "locked_states_json": "<local-path>/square_broad_mulligan_r3.json",
+      "locked_states_sha256": "9eca09e73bc980269f538934f3bf4e3b97021bec35e20b1c9938ff6908ab70a8",
+      "locked_state_hash": "f6d73e9f230b60b59f0daa27153315f4d580cbe02149596624dcfca3453a7464",
+      "selected_label": "blended_p0_b1.00_r1",
+      "selection_rule": "Constrain entropy_norm >= 0.97 * min(reference), prior+candidate p95 <= 1.05 * max(reference), and standalone candidate p95 <= 1.05 * max(reference). Among feasible candidates within one state of the best Q1+Q2 hard-tail mass (anchored on seed-1 square_broad_r2_mulligan_with_cf_human_only per-cell grid SR), choose the higher-entropy/lower-Q5+Q6 frontier point. HU/Oracle never enters the fit.",
+      "selected_row": {
+        "label": "blended_p0_b1.00_r1",
+        "n": 100,
+        "mean_anchor_grid_sr_pct": 65.03395000000002,
+        "q1_q2_pct": 75.0,
+        "q5_q6_pct": 6.0,
+        "q1_pct": 52.0,
+        "q2_pct": 23.0,
+        "q3_pct": 11.0,
+        "q4_pct": 8.0,
+        "q5_pct": 4.0,
+        "q6_pct": 2.0,
+        "q1_count": 52,
+        "q2_count": 23,
+        "q3_count": 11,
+        "q4_count": 8,
+        "q5_count": 4,
+        "q6_count": 2,
+        "family": "blended",
+        "n_perturb": 0,
+        "beta": 1.0,
+        "rep": 1,
+        "pred_hardness_mean": 0.706199480333194,
+        "grid_hardness_mean": 0.341943218,
+        "boot_mean_hardness_sd": 0.01236929046300433,
+        "entropy_norm": 0.9849485002168004,
+        "candidate_p95": 0.45631680574885936,
+        "prior_plus_candidate_p95": 0.2829949412916853,
+        "mean_min_dist_to_prior": 0.2990174546133628,
+        "feasible": true,
+        "objective_q1q2": 75.0,
+        "near_best_tail": true,
+        "selected": true
+      },
+      "envelope": {
+        "floor_entropy_norm": 0.9338579761644225,
+        "ceil_prior_plus_p95": 0.2998407672751663,
+        "ceil_candidate_p95": 0.45926667173304464,
+        "near_best_tail_pp": 1.0,
+        "max_feasible_q1_q2_pct": 76.0
+      },
+      "sampler_summary": "<local-path>/square_broad_r3_sampler_prep_summary.json",
+      "sampler_selected": "<local-path>/square_broad_r3_mulligan_selected.json",
+      "component_counts": {
+        "promoted_r3_diagnostic_failure": 14,
+        "blended_weighted_fps_fill": 86
+      }
+    },
+    "promoted_diagnostic_failures": 14,
+    "baseline_seed": 2026061101,
+    "shuffle_seed": 2026061102,
+    "qpos_layout": "nut_qpos[0:7] (x,y,z,qw,qx,qy,qz) + peg_body_pos[7:9] (peg_x,peg_y)",
+    "match_tolerance": 0.001,
+    "external_disjoint_tolerance": 1e-06,
+    "min_pairwise_distance_unique_manifest": 0.08290161577135034,
+    "disjoint_checks": [
+      {
+        "path": "<local-path>/square_broad_baseline_uniform_r0.json",
+        "n_states": 200,
+        "min_periodic_l2": 0.04487427649966895
+      },
+      {
+        "path": "<local-path>/square_broad_sobol_r0.json",
+        "n_states": 200,
+        "min_periodic_l2": 0.07150422523904926
+      },
+      {
+        "path": "<local-path>/square_broad_sobol_r1_diagnostic_sobol_200_399.json",
+        "n_states": 200,
+        "min_periodic_l2": 0.06699622390604786
+      },
+      {
+        "path": "<local-path>/square_broad_baseline_uniform_r1_policy_rollout.json",
+        "n_states": 200,
+        "min_periodic_l2": 0.04485158819073918
+      },
+      {
+        "path": "<local-path>/square_broad_baseline_uniform_r1.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.04485158819073918
+      },
+      {
+        "path": "<local-path>/square_broad_mulligan_r1.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.07498638342288365
+      },
+      {
+        "path": "<local-path>/square_broad_sobol_r1.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.06699622390604786
+      },
+      {
+        "path": "<local-path>/square_broad_mulligan_r2_diagnostic_sobol_400_499.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.0569572241355607
+      },
+      {
+        "path": "<local-path>/square_broad_baseline_uniform_r2_policy_rollout.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.0691606908465235
+      },
+      {
+        "path": "<local-path>/square_broad_sobol_r2_sobol_500_599.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.056286405200846476
+      },
+      {
+        "path": "<local-path>/square_broad_baseline_uniform_r2.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.0691606908465235
+      },
+      {
+        "path": "<local-path>/square_broad_sobol_r2.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.0569572241355607
+      },
+      {
+        "path": "<local-path>/square_broad_mulligan_r2.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.047959858793765325
+      },
+      {
+        "path": "<local-path>/square_broad_baseline_uniform_r3_policy_rollout.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.06626472745084955
+      },
+      {
+        "path": "<local-path>/square_broad_sobol_r3_sobol_800_899.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.06729938569018602
+      },
+      {
+        "path": "<local-path>/square_broad_valid_sobol30k_seed2026052499.json",
+        "n_states": 30000,
+        "min_periodic_l2": 0.024469490038784906
+      }
+    ],
+    "generator": "<local-path>/make_square_broad_r3_inputs.py",
+    "duplicates_collapsed": []
+  }
+}

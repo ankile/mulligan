@@ -1,0 +1,41 @@
+# Robot-station camera layout (mulligan.real.robot.cameras).
+#
+# The ZED serials below are placeholders. The role names and default crop boxes are
+# those of the station the paper's real-robot data was collected on. Training and
+# evaluation on the released datasets read only the roles and crops: the datasets store
+# cameras under the ROLE names below, and training crops each role with the default box
+# below unless the task spec replaces it (`camera_crop_overrides` in
+# mulligan/real/lifecycle/tasks.py). Marker and Square use these defaults; Cable
+# replaces the side_1 and side_2 boxes and keeps the wrist_left default. Each trained
+# policy stores the boxes it used in its `camera_crop_boxes`, and eval reads them from
+# there.
+#
+# A station copies this file, replaces the placeholder serials with its own cameras, and
+# points MULLIGAN_STATION_CONFIG at the copy. Keep the role names: datasets, policies
+# and task specs refer to cameras by role. See docs/station.md.
+
+cameras:
+  # Role -> DROID camera key "<ZED serial>_<eye>". The wrist is a ZED stereo camera
+  # recorded as both eyes; the two side cameras are recorded left eye only.
+  roles:
+    wrist_left: "10000001_left"
+    wrist_right: "10000001_right"
+    side_1: "20000002_left"
+    side_2: "30000003_left"
+
+  # Cameras that physically exist but are never stored: the side cameras' right eyes.
+  excluded:
+    - "20000002_right"
+    - "30000003_right"
+
+  # Default crop box per role in STORED-frame pixels (640x480; the native 1280x720 ZED
+  # frame is downscaled first), (x0, y0, x1, y1), half-open. Full frames are stored; the
+  # crop is applied on the fly at train and eval time and carried in the policy config.
+  # Task specs can replace individual boxes (see the header).
+  # Native (1280x720) boxes for reference: wrist_left (360,0,1278,620), wrist_right
+  # (2,0,920,620), side_1 (275,0,1160,670), side_2 (260,100,960,650).
+  default_crops:
+    wrist_left: [180, 0, 639, 413]
+    wrist_right: [1, 0, 460, 413]  # horizontal mirror of wrist_left about width 640
+    side_1: [138, 0, 580, 447]
+    side_2: [130, 67, 480, 433]

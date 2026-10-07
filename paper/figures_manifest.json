@@ -1,0 +1,1496 @@
+{
+  "figures": {
+    "ablations_sim_real.pdf": {
+      "entry": "ablations_sim_real",
+      "evidence": true,
+      "height_pt": 116.64,
+      "sha256": "6eebe77ffe1bcf3a0a286793f9f1d4bc44a06e32876c1cdd29a238820eb80958",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "mulligan/real/lifecycle/stats.py",
+          "sha256": "e485a3ace0300c3b7e5850f35cd51dc21cea95da4f511f54bf558a6377c03881"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/component_panels/__init__.py",
+          "sha256": "9b962a162a85a000b032b09d865a7fdb4956b4c9ec38b2d5caf0d4e99106246a"
+        },
+        {
+          "path": "paper/appendix/component_panels/inputs.json",
+          "sha256": "9cf6b3e0d1e5d1a342793816f2d3ce152ee67d3ffa8a7889f51c42edce12a6f6"
+        },
+        {
+          "path": "paper/appendix/component_panels/plot.py",
+          "sha256": "93b3dfdfb9637d72303c0536d532b2b31006308b03d270f92fbdabd46e0b8d01"
+        },
+        {
+          "path": "paper/appendix/component_panels/prepare.py",
+          "sha256": "05bec50d18d9ceb45492908ed666d30e73247d6e7c03da7cb53be2ce2229a52c"
+        },
+        {
+          "path": "paper/plotting/burden_progression.py",
+          "sha256": "e2000a6317f76b66d9dd0429fa4e7b61ca87258bcd19eb201db7f3ed3261af45"
+        },
+        {
+          "path": "paper/plotting/cf_ablation.py",
+          "sha256": "0a7db91a4d6dc4d4a4b04ea893d031a7f9654b5a62b3ba7413ce3421732b8d4b"
+        },
+        {
+          "path": "paper/plotting/composition_analysis.py",
+          "sha256": "2fc08a7bef6db0c8b1c28bb45e49b55ef947ae845b282207380e6e7e84d05f8e"
+        },
+        {
+          "path": "paper/plotting/square_narrow_r1_intervention.py",
+          "sha256": "d7a49545b4633995631840cfe6193c8dc17b0db4a5f655d77a91290c9382d6bd"
+        },
+        {
+          "path": "paper/plotting/square_narrow_r1_sampler.py",
+          "sha256": "005080018c69fc794acd15111e72983b0bfab64a8c15cc53136ac20d36974fd1"
+        },
+        {
+          "path": "paper/real_headline.py",
+          "sha256": "0512aba4b2573262901caaa2bc34e604d9b9751ceafc9faf809c683ce7799a8e"
+        }
+      ],
+      "width_frac": 1.0,
+      "width_pt": 396.0
+    },
+    "collection_burden_real_sim.pdf": {
+      "entry": "collection_burden_real_sim",
+      "evidence": true,
+      "height_pt": 151.2,
+      "sha256": "5c7e93e09c99327d9dd20c74e7241516e2c0aecbeb616e6d1b633e5bb3c52de2",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "mulligan/real/lifecycle/stats.py",
+          "sha256": "e485a3ace0300c3b7e5850f35cd51dc21cea95da4f511f54bf558a6377c03881"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/component_panels/__init__.py",
+          "sha256": "9b962a162a85a000b032b09d865a7fdb4956b4c9ec38b2d5caf0d4e99106246a"
+        },
+        {
+          "path": "paper/appendix/component_panels/inputs.json",
+          "sha256": "9cf6b3e0d1e5d1a342793816f2d3ce152ee67d3ffa8a7889f51c42edce12a6f6"
+        },
+        {
+          "path": "paper/appendix/component_panels/plot.py",
+          "sha256": "93b3dfdfb9637d72303c0536d532b2b31006308b03d270f92fbdabd46e0b8d01"
+        },
+        {
+          "path": "paper/appendix/component_panels/prepare.py",
+          "sha256": "05bec50d18d9ceb45492908ed666d30e73247d6e7c03da7cb53be2ce2229a52c"
+        },
+        {
+          "path": "paper/plotting/burden_progression.py",
+          "sha256": "e2000a6317f76b66d9dd0429fa4e7b61ca87258bcd19eb201db7f3ed3261af45"
+        },
+        {
+          "path": "paper/plotting/cf_ablation.py",
+          "sha256": "0a7db91a4d6dc4d4a4b04ea893d031a7f9654b5a62b3ba7413ce3421732b8d4b"
+        },
+        {
+          "path": "paper/plotting/composition_analysis.py",
+          "sha256": "2fc08a7bef6db0c8b1c28bb45e49b55ef947ae845b282207380e6e7e84d05f8e"
+        },
+        {
+          "path": "paper/plotting/square_narrow_r1_intervention.py",
+          "sha256": "d7a49545b4633995631840cfe6193c8dc17b0db4a5f655d77a91290c9382d6bd"
+        },
+        {
+          "path": "paper/plotting/square_narrow_r1_sampler.py",
+          "sha256": "005080018c69fc794acd15111e72983b0bfab64a8c15cc53136ac20d36974fd1"
+        },
+        {
+          "path": "paper/real_headline.py",
+          "sha256": "0512aba4b2573262901caaa2bc34e604d9b9751ceafc9faf809c683ce7799a8e"
+        }
+      ],
+      "width_frac": 0.68,
+      "width_pt": 269.28
+    },
+    "headline_real_sim.pdf": {
+      "entry": "headline_real_sim",
+      "evidence": true,
+      "height_pt": 288.0,
+      "sha256": "4cdf24abc24149d6ff818fa7b8fde55fb20f520e7df93a3d5f1c42dd657f56a7",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/real_results/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "paper/appendix/real_results/config.json",
+          "sha256": "f2b24ca1d2e3de63568a1d43a911685f5e4bb5e35800476e4c2e5e57908ed9ae"
+        },
+        {
+          "path": "paper/appendix/real_results/inputs.json",
+          "sha256": "baafe0ca9b5f17feee8adcbc1e23fea404d53af7506575a70ad8911a9ad3ca88"
+        },
+        {
+          "path": "paper/appendix/real_results/plot.py",
+          "sha256": "4f40e06ffc1eac338299a0bc34bcfc6a42ec7097fd86a95d8d15ecf6743cad6f"
+        },
+        {
+          "path": "paper/appendix/real_results/prepare.py",
+          "sha256": "24d52a92171661c21a04341e0838f24ae8c8fe935554c4c297eb401ded1a19a1"
+        },
+        {
+          "path": "paper/appendix/real_results/statistics.py",
+          "sha256": "2e0efeeafc308a8bd99479927b5b436157622f893429f9fc04c5fc286a31be63"
+        },
+        {
+          "path": "paper/data/sim/partial_headline.csv",
+          "sha256": "95cb57791442397fa63bc07c8d043116c8e524bb22be7eaa023260376e72f4c0"
+        },
+        {
+          "path": "paper/plotting/sim_paper_headline.py",
+          "sha256": "39aa39509ef511c4f1188b1014df5d298219faa603c490ee3c4aa01faa4ec413"
+        },
+        {
+          "path": "paper/plotting/sim_paper_headline_combined.py",
+          "sha256": "758c4d0e2ad0394a39fa0bff6e5d825662aafd3da5b1bc998fcf80a3537aab3b"
+        },
+        {
+          "path": "paper/real_headline.py",
+          "sha256": "0512aba4b2573262901caaa2bc34e604d9b9751ceafc9faf809c683ce7799a8e"
+        }
+      ],
+      "width_frac": 1.0,
+      "width_pt": 396.0
+    },
+    "initial_state_marker_hardest.jpg": {
+      "entry": "initial_states",
+      "evidence": false,
+      "sha256": "19db370c59b0b8c1514299e92629eda8d1b0db81f71eb8d43180dceb1d2a3bc4"
+    },
+    "initial_state_marker_typical.jpg": {
+      "entry": "initial_states",
+      "evidence": false,
+      "sha256": "b46a94b9f828f59810c5fc6ef8d723f2fdc433c1c5a96d4f8dccdff77ff2625c"
+    },
+    "initial_state_nut_hardest.jpg": {
+      "entry": "initial_states",
+      "evidence": false,
+      "sha256": "4429d9ed650d336a38fd884c2874d481831e45a217ecc8df16bb6ba32554d379"
+    },
+    "initial_state_nut_reorientation.jpg": {
+      "entry": "initial_states",
+      "evidence": false,
+      "sha256": "41205be47f547ff4df2abcf48b1549ab5e482b79bb675282c2119dda307012cd"
+    },
+    "initial_state_nut_typical.jpg": {
+      "entry": "initial_states",
+      "evidence": false,
+      "sha256": "d7a4f2fef9e13b2722a80c692f527eb93b75f460c20425f317de9789e5b758f0"
+    },
+    "overview_eval_protocol.pdf": {
+      "entry": "overview_eval_protocol",
+      "evidence": false,
+      "height_pt": 169.2,
+      "sha256": "19ea1873d8efc1e2a92315ba806053f65730f57302f70c3c820f9bc935916629",
+      "sources": [],
+      "width_frac": 1.0,
+      "width_pt": 396.0
+    },
+    "overview_funnel.pdf": {
+      "entry": "restored_reference_data",
+      "evidence": true,
+      "sha256": "9eb1e7f66966fab68f9e9f92956ce162f05c1d65227ed8568de49726386c96b6"
+    },
+    "overview_state_evolution.pdf": {
+      "entry": "restored_state_evolution",
+      "evidence": true,
+      "sha256": "b413aac0edf602eb798852059cef55274b7783992128a691a57343ed988b2b0e"
+    },
+    "overview_teaser.pdf": {
+      "entry": "overview_teaser",
+      "evidence": true,
+      "sha256": "295e7d8272c01eb6e424afb7cded182b97a27003a3471bc0710cc1d548bf664b"
+    },
+    "real_world_burden_progression.pdf": {
+      "entry": "real_world_burden_progression",
+      "evidence": true,
+      "height_pt": 432.0,
+      "sha256": "20ddff172fde47fabba8849026aa850bee82fd6dfa4c30bff133fe88db65646d",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "mulligan/real/lifecycle/stats.py",
+          "sha256": "e485a3ace0300c3b7e5850f35cd51dc21cea95da4f511f54bf558a6377c03881"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/real_results/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "paper/appendix/real_results/config.json",
+          "sha256": "f2b24ca1d2e3de63568a1d43a911685f5e4bb5e35800476e4c2e5e57908ed9ae"
+        },
+        {
+          "path": "paper/appendix/real_results/inputs.json",
+          "sha256": "baafe0ca9b5f17feee8adcbc1e23fea404d53af7506575a70ad8911a9ad3ca88"
+        },
+        {
+          "path": "paper/appendix/real_results/plot.py",
+          "sha256": "4f40e06ffc1eac338299a0bc34bcfc6a42ec7097fd86a95d8d15ecf6743cad6f"
+        },
+        {
+          "path": "paper/appendix/real_results/prepare.py",
+          "sha256": "24d52a92171661c21a04341e0838f24ae8c8fe935554c4c297eb401ded1a19a1"
+        },
+        {
+          "path": "paper/appendix/real_results/statistics.py",
+          "sha256": "2e0efeeafc308a8bd99479927b5b436157622f893429f9fc04c5fc286a31be63"
+        },
+        {
+          "path": "paper/plotting/burden_progression.py",
+          "sha256": "e2000a6317f76b66d9dd0429fa4e7b61ca87258bcd19eb201db7f3ed3261af45"
+        },
+        {
+          "path": "paper/plotting/cf_ablation.py",
+          "sha256": "0a7db91a4d6dc4d4a4b04ea893d031a7f9654b5a62b3ba7413ce3421732b8d4b"
+        },
+        {
+          "path": "paper/plotting/dagger_collection_success.py",
+          "sha256": "1c2d54b782a6b471a683bdbaaaadabacd4d498aa90fa0380aa3e93eaef638d73"
+        },
+        {
+          "path": "paper/real_headline.py",
+          "sha256": "0512aba4b2573262901caaa2bc34e604d9b9751ceafc9faf809c683ce7799a8e"
+        }
+      ],
+      "width_frac": 1.0,
+      "width_pt": 396.0
+    },
+    "real_world_cf_ablation.pdf": {
+      "entry": "real_world_cf_ablation",
+      "evidence": true,
+      "height_pt": 158.4,
+      "sha256": "95e09cd5ef32e0e627c43b5eb7caf14402838beb3c6f7c5318ace874cf34be83",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "mulligan/real/lifecycle/stats.py",
+          "sha256": "e485a3ace0300c3b7e5850f35cd51dc21cea95da4f511f54bf558a6377c03881"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/real_results/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "paper/appendix/real_results/config.json",
+          "sha256": "f2b24ca1d2e3de63568a1d43a911685f5e4bb5e35800476e4c2e5e57908ed9ae"
+        },
+        {
+          "path": "paper/appendix/real_results/inputs.json",
+          "sha256": "baafe0ca9b5f17feee8adcbc1e23fea404d53af7506575a70ad8911a9ad3ca88"
+        },
+        {
+          "path": "paper/appendix/real_results/plot.py",
+          "sha256": "4f40e06ffc1eac338299a0bc34bcfc6a42ec7097fd86a95d8d15ecf6743cad6f"
+        },
+        {
+          "path": "paper/appendix/real_results/prepare.py",
+          "sha256": "24d52a92171661c21a04341e0838f24ae8c8fe935554c4c297eb401ded1a19a1"
+        },
+        {
+          "path": "paper/appendix/real_results/statistics.py",
+          "sha256": "2e0efeeafc308a8bd99479927b5b436157622f893429f9fc04c5fc286a31be63"
+        },
+        {
+          "path": "paper/plotting/burden_progression.py",
+          "sha256": "e2000a6317f76b66d9dd0429fa4e7b61ca87258bcd19eb201db7f3ed3261af45"
+        },
+        {
+          "path": "paper/plotting/cf_ablation.py",
+          "sha256": "0a7db91a4d6dc4d4a4b04ea893d031a7f9654b5a62b3ba7413ce3421732b8d4b"
+        },
+        {
+          "path": "paper/plotting/dagger_collection_success.py",
+          "sha256": "1c2d54b782a6b471a683bdbaaaadabacd4d498aa90fa0380aa3e93eaef638d73"
+        },
+        {
+          "path": "paper/real_headline.py",
+          "sha256": "0512aba4b2573262901caaa2bc34e604d9b9751ceafc9faf809c683ce7799a8e"
+        }
+      ],
+      "width_frac": 1.0,
+      "width_pt": 396.0
+    },
+    "real_world_dagger_collection_success.pdf": {
+      "entry": "real_world_dagger_collection_success",
+      "evidence": true,
+      "height_pt": 165.6,
+      "sha256": "cccca9e63dad4bdcedbbe22d903f226e4b1987a7816f93773473bce6e9da68d1",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "mulligan/real/lifecycle/stats.py",
+          "sha256": "e485a3ace0300c3b7e5850f35cd51dc21cea95da4f511f54bf558a6377c03881"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/productivity/__init__.py",
+          "sha256": "579a216a7346ab7470f8e7d6bec17942bbdb230143905396f70a6a4150d0037c"
+        },
+        {
+          "path": "paper/appendix/productivity/inputs.json",
+          "sha256": "05b546f21e5aaeb8ec86ece3bbb39f69bc657a7c5221afe51500291761490946"
+        },
+        {
+          "path": "paper/appendix/productivity/plot.py",
+          "sha256": "f6690be31f211d18a7024a52f597310a4f4e3e912502c1e0a8f2ea0af68621d0"
+        },
+        {
+          "path": "paper/appendix/productivity/prepare.py",
+          "sha256": "58024edc4e756b10bdeffa4ef0e11bec61c4cfaf68835f4357e82fc91de1bb0d"
+        },
+        {
+          "path": "paper/appendix/productivity/teaser.py",
+          "sha256": "3f25715fcde20e7318f869d21e784143008fc2405c9805269409109cf2113564"
+        },
+        {
+          "path": "paper/appendix/real_results/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "paper/appendix/real_results/config.json",
+          "sha256": "f2b24ca1d2e3de63568a1d43a911685f5e4bb5e35800476e4c2e5e57908ed9ae"
+        },
+        {
+          "path": "paper/appendix/real_results/inputs.json",
+          "sha256": "baafe0ca9b5f17feee8adcbc1e23fea404d53af7506575a70ad8911a9ad3ca88"
+        },
+        {
+          "path": "paper/appendix/real_results/plot.py",
+          "sha256": "4f40e06ffc1eac338299a0bc34bcfc6a42ec7097fd86a95d8d15ecf6743cad6f"
+        },
+        {
+          "path": "paper/appendix/real_results/prepare.py",
+          "sha256": "24d52a92171661c21a04341e0838f24ae8c8fe935554c4c297eb401ded1a19a1"
+        },
+        {
+          "path": "paper/appendix/real_results/statistics.py",
+          "sha256": "2e0efeeafc308a8bd99479927b5b436157622f893429f9fc04c5fc286a31be63"
+        },
+        {
+          "path": "paper/plotting/collection_success_mixed.py",
+          "sha256": "176d31797cd16882c409e2295fe5db2803371702a13697ae62df17eb7f7efaf7"
+        },
+        {
+          "path": "paper/plotting/throughput_mixed.py",
+          "sha256": "a61ad8bac2648c671da03b73b6816f38f339652fd51976b6667a707b9db2407d"
+        },
+        {
+          "path": "paper/real_headline.py",
+          "sha256": "0512aba4b2573262901caaa2bc34e604d9b9751ceafc9faf809c683ce7799a8e"
+        }
+      ],
+      "width_frac": 1.0,
+      "width_pt": 396.0
+    },
+    "real_world_dagger_collection_success_detailed.pdf": {
+      "entry": "real_world_dagger_collection_success_detailed",
+      "evidence": true,
+      "height_pt": 165.6,
+      "sha256": "0fdff0360220c46f692ccc18c6a1c0bb3ba3c3181c957994ef77b56b0e41898c",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "mulligan/real/lifecycle/stats.py",
+          "sha256": "e485a3ace0300c3b7e5850f35cd51dc21cea95da4f511f54bf558a6377c03881"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/real_results/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "paper/appendix/real_results/config.json",
+          "sha256": "f2b24ca1d2e3de63568a1d43a911685f5e4bb5e35800476e4c2e5e57908ed9ae"
+        },
+        {
+          "path": "paper/appendix/real_results/inputs.json",
+          "sha256": "baafe0ca9b5f17feee8adcbc1e23fea404d53af7506575a70ad8911a9ad3ca88"
+        },
+        {
+          "path": "paper/appendix/real_results/plot.py",
+          "sha256": "4f40e06ffc1eac338299a0bc34bcfc6a42ec7097fd86a95d8d15ecf6743cad6f"
+        },
+        {
+          "path": "paper/appendix/real_results/prepare.py",
+          "sha256": "24d52a92171661c21a04341e0838f24ae8c8fe935554c4c297eb401ded1a19a1"
+        },
+        {
+          "path": "paper/appendix/real_results/statistics.py",
+          "sha256": "2e0efeeafc308a8bd99479927b5b436157622f893429f9fc04c5fc286a31be63"
+        },
+        {
+          "path": "paper/plotting/burden_progression.py",
+          "sha256": "e2000a6317f76b66d9dd0429fa4e7b61ca87258bcd19eb201db7f3ed3261af45"
+        },
+        {
+          "path": "paper/plotting/cf_ablation.py",
+          "sha256": "0a7db91a4d6dc4d4a4b04ea893d031a7f9654b5a62b3ba7413ce3421732b8d4b"
+        },
+        {
+          "path": "paper/plotting/dagger_collection_success.py",
+          "sha256": "1c2d54b782a6b471a683bdbaaaadabacd4d498aa90fa0380aa3e93eaef638d73"
+        },
+        {
+          "path": "paper/real_headline.py",
+          "sha256": "0512aba4b2573262901caaa2bc34e604d9b9751ceafc9faf809c683ce7799a8e"
+        }
+      ],
+      "width_frac": 1.0,
+      "width_pt": 396.0
+    },
+    "real_world_dagger_collection_success_square.pdf": {
+      "entry": "real_world_dagger_collection_success_square",
+      "evidence": true,
+      "height_pt": 151.2,
+      "sha256": "cf7b131ddcb21b6d76c702cbc7d26a932cd1256bfaab33f128d853f27105daca",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "mulligan/real/lifecycle/stats.py",
+          "sha256": "e485a3ace0300c3b7e5850f35cd51dc21cea95da4f511f54bf558a6377c03881"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/productivity/__init__.py",
+          "sha256": "579a216a7346ab7470f8e7d6bec17942bbdb230143905396f70a6a4150d0037c"
+        },
+        {
+          "path": "paper/appendix/productivity/inputs.json",
+          "sha256": "05b546f21e5aaeb8ec86ece3bbb39f69bc657a7c5221afe51500291761490946"
+        },
+        {
+          "path": "paper/appendix/productivity/plot.py",
+          "sha256": "f6690be31f211d18a7024a52f597310a4f4e3e912502c1e0a8f2ea0af68621d0"
+        },
+        {
+          "path": "paper/appendix/productivity/prepare.py",
+          "sha256": "58024edc4e756b10bdeffa4ef0e11bec61c4cfaf68835f4357e82fc91de1bb0d"
+        },
+        {
+          "path": "paper/appendix/productivity/teaser.py",
+          "sha256": "3f25715fcde20e7318f869d21e784143008fc2405c9805269409109cf2113564"
+        },
+        {
+          "path": "paper/appendix/real_results/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "paper/appendix/real_results/config.json",
+          "sha256": "f2b24ca1d2e3de63568a1d43a911685f5e4bb5e35800476e4c2e5e57908ed9ae"
+        },
+        {
+          "path": "paper/appendix/real_results/inputs.json",
+          "sha256": "baafe0ca9b5f17feee8adcbc1e23fea404d53af7506575a70ad8911a9ad3ca88"
+        },
+        {
+          "path": "paper/appendix/real_results/plot.py",
+          "sha256": "4f40e06ffc1eac338299a0bc34bcfc6a42ec7097fd86a95d8d15ecf6743cad6f"
+        },
+        {
+          "path": "paper/appendix/real_results/prepare.py",
+          "sha256": "24d52a92171661c21a04341e0838f24ae8c8fe935554c4c297eb401ded1a19a1"
+        },
+        {
+          "path": "paper/appendix/real_results/statistics.py",
+          "sha256": "2e0efeeafc308a8bd99479927b5b436157622f893429f9fc04c5fc286a31be63"
+        },
+        {
+          "path": "paper/plotting/collection_success_mixed.py",
+          "sha256": "176d31797cd16882c409e2295fe5db2803371702a13697ae62df17eb7f7efaf7"
+        },
+        {
+          "path": "paper/plotting/throughput_mixed.py",
+          "sha256": "a61ad8bac2648c671da03b73b6816f38f339652fd51976b6667a707b9db2407d"
+        },
+        {
+          "path": "paper/real_headline.py",
+          "sha256": "0512aba4b2573262901caaa2bc34e604d9b9751ceafc9faf809c683ce7799a8e"
+        }
+      ],
+      "width_frac": 0.3,
+      "width_pt": 118.8
+    },
+    "real_world_data_composition.pdf": {
+      "entry": "real_world_data_composition",
+      "evidence": true,
+      "height_pt": 223.2,
+      "sha256": "b439c2c152a41dda356740ee7e29b9cc0bc340cc61cd00c0419f67ef416bf144",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/data_ledger/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "paper/appendix/data_ledger/inputs.json",
+          "sha256": "fb85388c9a3689f4fb1159e5e982ecb1ea7f22691b36660ed6229b06f9db694e"
+        },
+        {
+          "path": "paper/appendix/data_ledger/plot.py",
+          "sha256": "bc9c73c35a1228f828ee3fa2e0760a2036602123137e2d69651a2a44ad1ff870"
+        },
+        {
+          "path": "paper/appendix/data_ledger/prepare.py",
+          "sha256": "f5946209f4e95cde7877d078a79017bb20ec806bb907dad135c9b4723fcb04b8"
+        },
+        {
+          "path": "paper/appendix/data_ledger/tracker_values.json",
+          "sha256": "fab815afdbe2ff89ba0d05ddf37ef57a5b267039083b21e715c84cc2b8fc59a8"
+        }
+      ],
+      "width_frac": 1.0,
+      "width_pt": 396.0
+    },
+    "real_world_headline_mulligan_vs_baseline_detailed.pdf": {
+      "entry": "real_world_headline_mulligan_vs_baseline_detailed",
+      "evidence": true,
+      "height_pt": 183.6,
+      "sha256": "5b2c174c3cb5a65d943a33c2583a9b51d930a9259b6600d0dcb1fda9cfac4727",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "mulligan/real/lifecycle/stats.py",
+          "sha256": "e485a3ace0300c3b7e5850f35cd51dc21cea95da4f511f54bf558a6377c03881"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/real_results/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "paper/appendix/real_results/config.json",
+          "sha256": "f2b24ca1d2e3de63568a1d43a911685f5e4bb5e35800476e4c2e5e57908ed9ae"
+        },
+        {
+          "path": "paper/appendix/real_results/inputs.json",
+          "sha256": "baafe0ca9b5f17feee8adcbc1e23fea404d53af7506575a70ad8911a9ad3ca88"
+        },
+        {
+          "path": "paper/appendix/real_results/plot.py",
+          "sha256": "4f40e06ffc1eac338299a0bc34bcfc6a42ec7097fd86a95d8d15ecf6743cad6f"
+        },
+        {
+          "path": "paper/appendix/real_results/prepare.py",
+          "sha256": "24d52a92171661c21a04341e0838f24ae8c8fe935554c4c297eb401ded1a19a1"
+        },
+        {
+          "path": "paper/appendix/real_results/statistics.py",
+          "sha256": "2e0efeeafc308a8bd99479927b5b436157622f893429f9fc04c5fc286a31be63"
+        },
+        {
+          "path": "paper/plotting/burden_progression.py",
+          "sha256": "e2000a6317f76b66d9dd0429fa4e7b61ca87258bcd19eb201db7f3ed3261af45"
+        },
+        {
+          "path": "paper/plotting/cf_ablation.py",
+          "sha256": "0a7db91a4d6dc4d4a4b04ea893d031a7f9654b5a62b3ba7413ce3421732b8d4b"
+        },
+        {
+          "path": "paper/plotting/dagger_collection_success.py",
+          "sha256": "1c2d54b782a6b471a683bdbaaaadabacd4d498aa90fa0380aa3e93eaef638d73"
+        },
+        {
+          "path": "paper/real_headline.py",
+          "sha256": "0512aba4b2573262901caaa2bc34e604d9b9751ceafc9faf809c683ce7799a8e"
+        }
+      ],
+      "width_frac": 1.0,
+      "width_pt": 396.0
+    },
+    "real_world_marker_d2_init_ranges_side1.png": {
+      "entry": "reset_ranges",
+      "evidence": true,
+      "sha256": "4011b020170de6a1f4dae8c698169133a407ea7e104e07bde40c3a3e12aa09ae"
+    },
+    "real_world_marker_d2_substage.pdf": {
+      "entry": "real_world_marker_d2_substage",
+      "evidence": true,
+      "height_pt": 162.0,
+      "sha256": "b710edf6b516cd5e2a705b4f1aa6781ee7d846bb2234b32c1e98c6a4e73e4689",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "mulligan/real/lifecycle/stats.py",
+          "sha256": "e485a3ace0300c3b7e5850f35cd51dc21cea95da4f511f54bf558a6377c03881"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/real_results/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "paper/appendix/real_results/config.json",
+          "sha256": "f2b24ca1d2e3de63568a1d43a911685f5e4bb5e35800476e4c2e5e57908ed9ae"
+        },
+        {
+          "path": "paper/appendix/real_results/inputs.json",
+          "sha256": "baafe0ca9b5f17feee8adcbc1e23fea404d53af7506575a70ad8911a9ad3ca88"
+        },
+        {
+          "path": "paper/appendix/real_results/plot.py",
+          "sha256": "4f40e06ffc1eac338299a0bc34bcfc6a42ec7097fd86a95d8d15ecf6743cad6f"
+        },
+        {
+          "path": "paper/appendix/real_results/prepare.py",
+          "sha256": "24d52a92171661c21a04341e0838f24ae8c8fe935554c4c297eb401ded1a19a1"
+        },
+        {
+          "path": "paper/appendix/real_results/statistics.py",
+          "sha256": "2e0efeeafc308a8bd99479927b5b436157622f893429f9fc04c5fc286a31be63"
+        },
+        {
+          "path": "paper/plotting/burden_progression.py",
+          "sha256": "e2000a6317f76b66d9dd0429fa4e7b61ca87258bcd19eb201db7f3ed3261af45"
+        },
+        {
+          "path": "paper/plotting/cf_ablation.py",
+          "sha256": "0a7db91a4d6dc4d4a4b04ea893d031a7f9654b5a62b3ba7413ce3421732b8d4b"
+        },
+        {
+          "path": "paper/plotting/dagger_collection_success.py",
+          "sha256": "1c2d54b782a6b471a683bdbaaaadabacd4d498aa90fa0380aa3e93eaef638d73"
+        },
+        {
+          "path": "paper/real_headline.py",
+          "sha256": "0512aba4b2573262901caaa2bc34e604d9b9751ceafc9faf809c683ce7799a8e"
+        }
+      ],
+      "width_frac": 1.0,
+      "width_pt": 396.0
+    },
+    "real_world_marker_d2_teleop_card.png": {
+      "entry": "restored_reference_data",
+      "evidence": true,
+      "sha256": "2c689461e9b4309bf12d13b4a233050c2d5ec0449659c54020be34210a31cd07"
+    },
+    "real_world_routing_d2_teleop_card.png": {
+      "entry": "restored_reference_data",
+      "evidence": true,
+      "sha256": "b65245eb5f7559d3e29ee1bde69aff97a69d39ddbfc3031bafe57146c27a76a1"
+    },
+    "real_world_square_d2_init_ranges_side1.png": {
+      "entry": "reset_ranges",
+      "evidence": true,
+      "sha256": "a44165d81df60932b8fc446465bb146e56bd09b8dbe1306bb787530f58c3f70f"
+    },
+    "real_world_square_d2_reset_card.pdf": {
+      "entry": "real_world_square_d2_reset_card",
+      "evidence": false,
+      "height_pt": 108.306,
+      "sha256": "05be2049639b1915a865ea4e163b1c6c5d45bd64217eb65531b46e08547358f5",
+      "sources": [
+        {
+          "path": "mulligan/real/lifecycle/tasks.py",
+          "sha256": "ec5fdaa01e3d92b545fb564a0c46f37204c8c75951d273cfd584bb3720c20b46"
+        },
+        {
+          "path": "mulligan/real/operator_ui/cards.py",
+          "sha256": "f62543b352c4189da129e86967ada749c67468d7dd9ab706b12e532bd5638148"
+        },
+        {
+          "path": "paper/data/real/square_d2_reset_card_target.json",
+          "sha256": "1c8bd2ae51801de43101336ece7e7c318ca7e05625379c2ef1b21b8f59445597"
+        }
+      ],
+      "width_frac": 0.3,
+      "width_pt": 118.8
+    },
+    "real_world_square_d2_substage.pdf": {
+      "entry": "real_world_square_d2_substage",
+      "evidence": true,
+      "height_pt": 162.0,
+      "sha256": "2ae5e515c35018bd9c6f2bfaec5220cdf0743f9c52813e77102688cb7bb31f56",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "mulligan/real/lifecycle/stats.py",
+          "sha256": "e485a3ace0300c3b7e5850f35cd51dc21cea95da4f511f54bf558a6377c03881"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/real_results/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "paper/appendix/real_results/config.json",
+          "sha256": "f2b24ca1d2e3de63568a1d43a911685f5e4bb5e35800476e4c2e5e57908ed9ae"
+        },
+        {
+          "path": "paper/appendix/real_results/inputs.json",
+          "sha256": "baafe0ca9b5f17feee8adcbc1e23fea404d53af7506575a70ad8911a9ad3ca88"
+        },
+        {
+          "path": "paper/appendix/real_results/plot.py",
+          "sha256": "4f40e06ffc1eac338299a0bc34bcfc6a42ec7097fd86a95d8d15ecf6743cad6f"
+        },
+        {
+          "path": "paper/appendix/real_results/prepare.py",
+          "sha256": "24d52a92171661c21a04341e0838f24ae8c8fe935554c4c297eb401ded1a19a1"
+        },
+        {
+          "path": "paper/appendix/real_results/statistics.py",
+          "sha256": "2e0efeeafc308a8bd99479927b5b436157622f893429f9fc04c5fc286a31be63"
+        },
+        {
+          "path": "paper/plotting/burden_progression.py",
+          "sha256": "e2000a6317f76b66d9dd0429fa4e7b61ca87258bcd19eb201db7f3ed3261af45"
+        },
+        {
+          "path": "paper/plotting/cf_ablation.py",
+          "sha256": "0a7db91a4d6dc4d4a4b04ea893d031a7f9654b5a62b3ba7413ce3421732b8d4b"
+        },
+        {
+          "path": "paper/plotting/dagger_collection_success.py",
+          "sha256": "1c2d54b782a6b471a683bdbaaaadabacd4d498aa90fa0380aa3e93eaef638d73"
+        },
+        {
+          "path": "paper/real_headline.py",
+          "sha256": "0512aba4b2573262901caaa2bc34e604d9b9751ceafc9faf809c683ce7799a8e"
+        }
+      ],
+      "width_frac": 1.0,
+      "width_pt": 396.0
+    },
+    "real_world_square_d2_teleop_card.png": {
+      "entry": "restored_reference_data",
+      "evidence": true,
+      "sha256": "40a30f914bd3f9eae2b838445e6fddaebd02913e35b98ace1833c89b80fc8740"
+    },
+    "real_world_success_speed.pdf": {
+      "entry": "real_world_success_speed",
+      "evidence": true,
+      "height_pt": 165.6,
+      "sha256": "174d0b770cf7dbc39f84c1f44c4b35f053c5e9b82779b6699516a6efa5ba70d2",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "mulligan/real/lifecycle/stats.py",
+          "sha256": "e485a3ace0300c3b7e5850f35cd51dc21cea95da4f511f54bf558a6377c03881"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/real_results/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "paper/appendix/real_results/config.json",
+          "sha256": "f2b24ca1d2e3de63568a1d43a911685f5e4bb5e35800476e4c2e5e57908ed9ae"
+        },
+        {
+          "path": "paper/appendix/real_results/inputs.json",
+          "sha256": "baafe0ca9b5f17feee8adcbc1e23fea404d53af7506575a70ad8911a9ad3ca88"
+        },
+        {
+          "path": "paper/appendix/real_results/plot.py",
+          "sha256": "4f40e06ffc1eac338299a0bc34bcfc6a42ec7097fd86a95d8d15ecf6743cad6f"
+        },
+        {
+          "path": "paper/appendix/real_results/prepare.py",
+          "sha256": "24d52a92171661c21a04341e0838f24ae8c8fe935554c4c297eb401ded1a19a1"
+        },
+        {
+          "path": "paper/appendix/real_results/statistics.py",
+          "sha256": "2e0efeeafc308a8bd99479927b5b436157622f893429f9fc04c5fc286a31be63"
+        },
+        {
+          "path": "paper/plotting/burden_progression.py",
+          "sha256": "e2000a6317f76b66d9dd0429fa4e7b61ca87258bcd19eb201db7f3ed3261af45"
+        },
+        {
+          "path": "paper/plotting/cf_ablation.py",
+          "sha256": "0a7db91a4d6dc4d4a4b04ea893d031a7f9654b5a62b3ba7413ce3421732b8d4b"
+        },
+        {
+          "path": "paper/plotting/dagger_collection_success.py",
+          "sha256": "1c2d54b782a6b471a683bdbaaaadabacd4d498aa90fa0380aa3e93eaef638d73"
+        },
+        {
+          "path": "paper/real_headline.py",
+          "sha256": "0512aba4b2573262901caaa2bc34e604d9b9751ceafc9faf809c683ce7799a8e"
+        }
+      ],
+      "width_frac": 1.0,
+      "width_pt": 396.0
+    },
+    "real_world_success_throughput.pdf": {
+      "entry": "real_world_success_throughput",
+      "evidence": true,
+      "height_pt": 165.6,
+      "sha256": "5105ee57d0903acbb023f4c95c857aa2ac2d0e3652a7e9a2a21eb41d23af999f",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "mulligan/real/lifecycle/stats.py",
+          "sha256": "e485a3ace0300c3b7e5850f35cd51dc21cea95da4f511f54bf558a6377c03881"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/real_results/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "paper/appendix/real_results/config.json",
+          "sha256": "f2b24ca1d2e3de63568a1d43a911685f5e4bb5e35800476e4c2e5e57908ed9ae"
+        },
+        {
+          "path": "paper/appendix/real_results/inputs.json",
+          "sha256": "baafe0ca9b5f17feee8adcbc1e23fea404d53af7506575a70ad8911a9ad3ca88"
+        },
+        {
+          "path": "paper/appendix/real_results/plot.py",
+          "sha256": "4f40e06ffc1eac338299a0bc34bcfc6a42ec7097fd86a95d8d15ecf6743cad6f"
+        },
+        {
+          "path": "paper/appendix/real_results/prepare.py",
+          "sha256": "24d52a92171661c21a04341e0838f24ae8c8fe935554c4c297eb401ded1a19a1"
+        },
+        {
+          "path": "paper/appendix/real_results/statistics.py",
+          "sha256": "2e0efeeafc308a8bd99479927b5b436157622f893429f9fc04c5fc286a31be63"
+        },
+        {
+          "path": "paper/plotting/burden_progression.py",
+          "sha256": "e2000a6317f76b66d9dd0429fa4e7b61ca87258bcd19eb201db7f3ed3261af45"
+        },
+        {
+          "path": "paper/plotting/cf_ablation.py",
+          "sha256": "0a7db91a4d6dc4d4a4b04ea893d031a7f9654b5a62b3ba7413ce3421732b8d4b"
+        },
+        {
+          "path": "paper/plotting/dagger_collection_success.py",
+          "sha256": "1c2d54b782a6b471a683bdbaaaadabacd4d498aa90fa0380aa3e93eaef638d73"
+        },
+        {
+          "path": "paper/real_headline.py",
+          "sha256": "0512aba4b2573262901caaa2bc34e604d9b9751ceafc9faf809c683ce7799a8e"
+        }
+      ],
+      "width_frac": 1.0,
+      "width_pt": 396.0
+    },
+    "real_world_success_throughput_headline.pdf": {
+      "entry": "real_world_success_throughput_headline",
+      "evidence": true,
+      "height_pt": 108.0,
+      "sha256": "5559215a03ea890741642371617bb52a833efc25a4018f50bc1bebc332138cb2",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "mulligan/real/lifecycle/stats.py",
+          "sha256": "e485a3ace0300c3b7e5850f35cd51dc21cea95da4f511f54bf558a6377c03881"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/productivity/__init__.py",
+          "sha256": "579a216a7346ab7470f8e7d6bec17942bbdb230143905396f70a6a4150d0037c"
+        },
+        {
+          "path": "paper/appendix/productivity/inputs.json",
+          "sha256": "05b546f21e5aaeb8ec86ece3bbb39f69bc657a7c5221afe51500291761490946"
+        },
+        {
+          "path": "paper/appendix/productivity/plot.py",
+          "sha256": "f6690be31f211d18a7024a52f597310a4f4e3e912502c1e0a8f2ea0af68621d0"
+        },
+        {
+          "path": "paper/appendix/productivity/prepare.py",
+          "sha256": "58024edc4e756b10bdeffa4ef0e11bec61c4cfaf68835f4357e82fc91de1bb0d"
+        },
+        {
+          "path": "paper/appendix/productivity/teaser.py",
+          "sha256": "3f25715fcde20e7318f869d21e784143008fc2405c9805269409109cf2113564"
+        },
+        {
+          "path": "paper/appendix/real_results/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "paper/appendix/real_results/config.json",
+          "sha256": "f2b24ca1d2e3de63568a1d43a911685f5e4bb5e35800476e4c2e5e57908ed9ae"
+        },
+        {
+          "path": "paper/appendix/real_results/inputs.json",
+          "sha256": "baafe0ca9b5f17feee8adcbc1e23fea404d53af7506575a70ad8911a9ad3ca88"
+        },
+        {
+          "path": "paper/appendix/real_results/plot.py",
+          "sha256": "4f40e06ffc1eac338299a0bc34bcfc6a42ec7097fd86a95d8d15ecf6743cad6f"
+        },
+        {
+          "path": "paper/appendix/real_results/prepare.py",
+          "sha256": "24d52a92171661c21a04341e0838f24ae8c8fe935554c4c297eb401ded1a19a1"
+        },
+        {
+          "path": "paper/appendix/real_results/statistics.py",
+          "sha256": "2e0efeeafc308a8bd99479927b5b436157622f893429f9fc04c5fc286a31be63"
+        },
+        {
+          "path": "paper/plotting/collection_success_mixed.py",
+          "sha256": "176d31797cd16882c409e2295fe5db2803371702a13697ae62df17eb7f7efaf7"
+        },
+        {
+          "path": "paper/plotting/throughput_mixed.py",
+          "sha256": "a61ad8bac2648c671da03b73b6816f38f339652fd51976b6667a707b9db2407d"
+        },
+        {
+          "path": "paper/real_headline.py",
+          "sha256": "0512aba4b2573262901caaa2bc34e604d9b9751ceafc9faf809c683ce7799a8e"
+        }
+      ],
+      "width_frac": 1.0,
+      "width_pt": 396.0
+    },
+    "real_world_value_fqe.pdf": {
+      "entry": "real_world_value_fqe",
+      "evidence": true,
+      "height_pt": 219.6,
+      "sha256": "41f8c576144ce7a7ef17d8108e293bb291b7296043334db254cd488401e320f5",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/value_learning/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "paper/appendix/value_learning/dataset.json",
+          "sha256": "5743fa506c5ae5043e5889dc5f104599aa3c4e513cb49c31a627ec7db29e7942"
+        },
+        {
+          "path": "paper/appendix/value_learning/plot.py",
+          "sha256": "403e4beb0c2d03fe51c9edb6a1ad7f74fb247237e31cd684c21e708c072cbd95"
+        },
+        {
+          "path": "paper/appendix/value_learning/prepare.py",
+          "sha256": "3bc5e368f094bd438d54940b9902681a5f3d519ad1f2414e3286c84583b8a872"
+        },
+        {
+          "path": "paper/appendix/value_learning/sources.json",
+          "sha256": "a7b2591d7b69863dd30ee00311cb0736d6d6e23fe59f8e1efb66a6286e5fdcc4"
+        }
+      ],
+      "width_frac": 1.0,
+      "width_pt": 396.0
+    },
+    "real_world_value_training.pdf": {
+      "entry": "real_world_value_training",
+      "evidence": true,
+      "height_pt": 183.6,
+      "sha256": "b3ecbd5b5cba256179d8fffa2d4e96c98f70d04729b62f8c28f788e44da29f8b",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/value_learning/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "paper/appendix/value_learning/dataset.json",
+          "sha256": "5743fa506c5ae5043e5889dc5f104599aa3c4e513cb49c31a627ec7db29e7942"
+        },
+        {
+          "path": "paper/appendix/value_learning/plot.py",
+          "sha256": "403e4beb0c2d03fe51c9edb6a1ad7f74fb247237e31cd684c21e708c072cbd95"
+        },
+        {
+          "path": "paper/appendix/value_learning/prepare.py",
+          "sha256": "3bc5e368f094bd438d54940b9902681a5f3d519ad1f2414e3286c84583b8a872"
+        },
+        {
+          "path": "paper/appendix/value_learning/sources.json",
+          "sha256": "a7b2591d7b69863dd30ee00311cb0736d6d6e23fe59f8e1efb66a6286e5fdcc4"
+        }
+      ],
+      "width_frac": 1.0,
+      "width_pt": 396.0
+    },
+    "sim_hilserl_sessions.pdf": {
+      "entry": "sim_hilserl_sessions",
+      "evidence": true,
+      "height_pt": 169.2,
+      "sha256": "c9ae6a627368aeaa93d94f9b1ad32da660e4bf93c38d6286579d8564837ee73c",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/hilserl/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "paper/appendix/hilserl/inputs.json",
+          "sha256": "5138cd4ca31405be4ffe5daaa347a56e292bac7e795c230eab8af0b751b67f3d"
+        },
+        {
+          "path": "paper/appendix/hilserl/plot.py",
+          "sha256": "1cc230acbcbe2d966e2c1b6186d2dd0c93658e48b6fe24a68e293a5a5d2679bb"
+        },
+        {
+          "path": "paper/appendix/hilserl/prepare.py",
+          "sha256": "a6e5518c618a2e71cb7ac54f5133d099dbc0c4486028d233db5eb33d20a0de39"
+        }
+      ],
+      "width_frac": 1.0,
+      "width_pt": 396.0
+    },
+    "sim_state_rlpd_vs_mulligan_compact.pdf": {
+      "entry": "sim_state_rlpd_vs_mulligan_compact",
+      "evidence": false,
+      "height_pt": 122.4,
+      "sha256": "3848e2c735ea11043a7a0a1baa6c13a6ed94037001308042ebd8d46d56f88661",
+      "sources": [
+        {
+          "path": "paper/data/online_rl/hilserl_sessions_eval.csv",
+          "sha256": "1be2db0ba2af033329153e1248925cd8fad2c616fd976334291922d25051573c"
+        },
+        {
+          "path": "paper/data/online_rl/hilserl_square_broad_eval.csv",
+          "sha256": "45c12302f821fcdb66faa7f7d1809819e8ee0721e677825c0d4926e527b40a8e"
+        },
+        {
+          "path": "paper/data/online_rl/state_rlpd_learning_curves.csv",
+          "sha256": "2ffb5583278fc2b9fd97199cbfa5bc5bf1eb7a2da3204d844af817ee33ea2fa2"
+        },
+        {
+          "path": "paper/data/online_rl/state_rlpd_learning_curves_square_broad.csv",
+          "sha256": "b5a5d67f5f6fba5281602af41aee6d7be4881d1fe73df2341becf967989eabac"
+        },
+        {
+          "path": "paper/data/online_rl/state_rlpd_ours_reference.csv",
+          "sha256": "7906e7fbf58a28a0cef8511049a45e5b72e2b2d2761d5336ca33ca67edb122ec"
+        },
+        {
+          "path": "paper/data/online_rl/state_rlpd_ours_reference_square_broad.csv",
+          "sha256": "d940adc2f0a03590fc51fdec2dcfe1d4c97b453c8163e32e76c472efaeff3993"
+        },
+        {
+          "path": "paper/plotting/state_rlpd_learning_curves.py",
+          "sha256": "3574c70d33ba601166039400c1146644681d331f33f9424e2008daeec145252c"
+        }
+      ],
+      "width_frac": 0.36,
+      "width_pt": 142.56
+    },
+    "sim_success_speed.pdf": {
+      "entry": "sim_success_speed",
+      "evidence": true,
+      "height_pt": 183.6,
+      "sha256": "2a38b5f98dc887566c93494972813ea97ff56c1cee4dee8e96542a3730aef742",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/simulation/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "paper/appendix/simulation/inputs.json",
+          "sha256": "98ba6390eefa55965cc8a0433098caada97d8e7bd7f54dd8eb66d2de4da12f3d"
+        },
+        {
+          "path": "paper/appendix/simulation/plot.py",
+          "sha256": "fdbcbcab4cca22997b0c7dcb63e8018dc514c5cfd56b8c90da575b600f534e13"
+        },
+        {
+          "path": "paper/appendix/simulation/prepare.py",
+          "sha256": "c99298bf675175615933a108b4767a4436066b2c90e05fc189147ba3df301f55"
+        },
+        {
+          "path": "paper/appendix/simulation/tables.py",
+          "sha256": "a3e88dac4d2aed20326081bf3c1e1a3b1e96c34cd8b1257ca41ed06652b532a3"
+        }
+      ],
+      "width_frac": 1.0,
+      "width_pt": 396.0
+    },
+    "sim_success_throughput.pdf": {
+      "entry": "sim_success_throughput",
+      "evidence": true,
+      "height_pt": 183.6,
+      "sha256": "93f9abe3ac242cd75fed4282e03dd75c10685262bba3e0fa7f3ad48d07a55191",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/simulation/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "paper/appendix/simulation/inputs.json",
+          "sha256": "98ba6390eefa55965cc8a0433098caada97d8e7bd7f54dd8eb66d2de4da12f3d"
+        },
+        {
+          "path": "paper/appendix/simulation/plot.py",
+          "sha256": "fdbcbcab4cca22997b0c7dcb63e8018dc514c5cfd56b8c90da575b600f534e13"
+        },
+        {
+          "path": "paper/appendix/simulation/prepare.py",
+          "sha256": "c99298bf675175615933a108b4767a4436066b2c90e05fc189147ba3df301f55"
+        },
+        {
+          "path": "paper/appendix/simulation/tables.py",
+          "sha256": "a3e88dac4d2aed20326081bf3c1e1a3b1e96c34cd8b1257ca41ed06652b532a3"
+        }
+      ],
+      "width_frac": 1.0,
+      "width_pt": 396.0
+    },
+    "square_narrow_init_distribution_sobol_vs_uniform.pdf": {
+      "entry": "square_narrow_init_distribution_sobol_vs_uniform",
+      "evidence": true,
+      "height_pt": 255.6,
+      "sha256": "4aad448a2c2a4a199a4b26f95c3d165d4b3f1d26dcaef0575cb8d011b1120013",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/simulation/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "paper/appendix/simulation/inputs.json",
+          "sha256": "98ba6390eefa55965cc8a0433098caada97d8e7bd7f54dd8eb66d2de4da12f3d"
+        },
+        {
+          "path": "paper/appendix/simulation/plot.py",
+          "sha256": "fdbcbcab4cca22997b0c7dcb63e8018dc514c5cfd56b8c90da575b600f534e13"
+        },
+        {
+          "path": "paper/appendix/simulation/prepare.py",
+          "sha256": "c99298bf675175615933a108b4767a4436066b2c90e05fc189147ba3df301f55"
+        },
+        {
+          "path": "paper/appendix/simulation/tables.py",
+          "sha256": "a3e88dac4d2aed20326081bf3c1e1a3b1e96c34cd8b1257ca41ed06652b532a3"
+        }
+      ],
+      "width_frac": 1.0,
+      "width_pt": 396.0
+    },
+    "square_narrow_r2_bucket_success_sorted.pdf": {
+      "entry": "square_narrow_r2_bucket_success_sorted",
+      "evidence": true,
+      "height_pt": 165.6,
+      "sha256": "320046884aa2bc7ff60ce470dfce0371b0ec74d087661550c557444a42fe840a",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/simulation/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "paper/appendix/simulation/inputs.json",
+          "sha256": "98ba6390eefa55965cc8a0433098caada97d8e7bd7f54dd8eb66d2de4da12f3d"
+        },
+        {
+          "path": "paper/appendix/simulation/plot.py",
+          "sha256": "fdbcbcab4cca22997b0c7dcb63e8018dc514c5cfd56b8c90da575b600f534e13"
+        },
+        {
+          "path": "paper/appendix/simulation/prepare.py",
+          "sha256": "c99298bf675175615933a108b4767a4436066b2c90e05fc189147ba3df301f55"
+        },
+        {
+          "path": "paper/appendix/simulation/tables.py",
+          "sha256": "a3e88dac4d2aed20326081bf3c1e1a3b1e96c34cd8b1257ca41ed06652b532a3"
+        }
+      ],
+      "width_frac": 1.0,
+      "width_pt": 396.0
+    },
+    "task_sequence_cable.jpg": {
+      "entry": "task_sequences",
+      "evidence": false,
+      "sha256": "bc566fbd5e5d1c2e4ad2ab9e48f8edde4cabeef03dc96a68299f7cd8792f64b1"
+    },
+    "task_sequence_marker.jpg": {
+      "entry": "task_sequences",
+      "evidence": false,
+      "sha256": "24475d6a5c6ade95e333a09b35fbbed3df3ec3eaffe73b2e5495216a65574934"
+    },
+    "task_sequence_nut.jpg": {
+      "entry": "task_sequences",
+      "evidence": false,
+      "sha256": "036f8856479458b1ae10cb974a18c1418d937283bbf529cd32239351f453c95b"
+    },
+    "value_learning_bar_chart.pdf": {
+      "entry": "value_learning_bar_chart",
+      "evidence": true,
+      "height_pt": 241.2,
+      "sha256": "82c1e99c5eebaa7f26eb050adeda76ab052e803d93955ed5495de3c57f90c457",
+      "sources": [
+        {
+          "path": "mulligan/plotting/colors.py",
+          "sha256": "d346ae633b5f561a72fc0bf56f187d8724fe43aa2a092711832874017110ecfe"
+        },
+        {
+          "path": "mulligan/plotting/paper.py",
+          "sha256": "9cc4ec543d7acd238dc72863ba8c8d3d37ae649d3d6d3a4005139974aa650bf5"
+        },
+        {
+          "path": "paper/appendix/artifacts.py",
+          "sha256": "702c52c30c4f5bd9cc4291f26546734e582bc404ec27f7c7305b094e7c26a70c"
+        },
+        {
+          "path": "paper/appendix/simulation/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "paper/appendix/simulation/inputs.json",
+          "sha256": "98ba6390eefa55965cc8a0433098caada97d8e7bd7f54dd8eb66d2de4da12f3d"
+        },
+        {
+          "path": "paper/appendix/simulation/plot.py",
+          "sha256": "fdbcbcab4cca22997b0c7dcb63e8018dc514c5cfd56b8c90da575b600f534e13"
+        },
+        {
+          "path": "paper/appendix/simulation/prepare.py",
+          "sha256": "c99298bf675175615933a108b4767a4436066b2c90e05fc189147ba3df301f55"
+        },
+        {
+          "path": "paper/appendix/simulation/tables.py",
+          "sha256": "a3e88dac4d2aed20326081bf3c1e1a3b1e96c34cd8b1257ca41ed06652b532a3"
+        }
+      ],
+      "width_frac": 1.0,
+      "width_pt": 396.0
+    }
+  },
+  "schema": "mulligan.paper.figures.v1"
+}

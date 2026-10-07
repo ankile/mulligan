@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+
+# Environments
+.venv/
+venv/
+.env
+.env.local
+robot/.venv/
+robot/wheels/
+
+# Tool caches
+.pytest_cache/
+/pytest-of-*/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+.nfs*
+
+# Run outputs
+wandb/
+outputs/
+checkpoints/
+eval_videos/
+
+# Paper build products and the optional local paper-evidence mirror
+paper/build/
+paper/pinned/
+
+# Arena
+arena/node_modules/
+arena/dist-release/

@@ -1,0 +1,69 @@
+# Run: python -m mulligan.real.train.launch configs/real/square_d2/r05_baseline_dp.yaml --output-dir <dir>
+kind: dp-actor
+trainer: mulligan.real.train.policy
+checkpoint:
+  repo: mulligan/real-square-d2-r05-baseline-dp
+  revision: 1ba724715a56f33ce1860189220dab9b09409a66
+  step: 100000
+retrain: exact
+paper:
+  task: Thread Nut
+  round: R5
+  arm: HG-DAgger
+  seed: 1
+  results:
+  - Fig. 5
+  - App. B.1
+  evaluations:
+  - mulligan/real-square-d2-r05-eval b01 (HG-DAgger)
+  - mulligan/real-square-d2-r05-screen b02 (HG-DAgger)
+  collections: []
+dataset_revisions:
+  mulligan/real-square-d2-c00-teleop-baseline: 241bcd27b55f1bc557b8af269b794306d5b5b635
+  mulligan/real-square-d2-c00-teleop-validation: 40d06aec811e4472bf46b955b3d5adcc06608b11
+  mulligan/real-square-d2-c01-dagger-baseline: 93f0472675421606fa5d9004b42000b17b971bb3
+  mulligan/real-square-d2-c02-dagger-baseline: 6c3b54f30c5ccffd35426ade19a8947482b1bc32
+  mulligan/real-square-d2-c03-dagger-baseline: 725080b5a0927051e149508101dff4e07330f9f3
+  mulligan/real-square-d2-c04-dagger-baseline: e43ad12905966e82e5e3414a2ba4d6042b0e8ef5
+  mulligan/real-square-d2-c05-dagger-baseline: 7050e7d02161735de49e3492453ebb6fa5ff4a15
+dataset_episodes: {}
+args:
+  task: square_d2
+  repo-ids:
+  - mulligan/real-square-d2-c00-teleop-baseline
+  - mulligan/real-square-d2-c01-dagger-baseline
+  - mulligan/real-square-d2-c02-dagger-baseline
+  - mulligan/real-square-d2-c03-dagger-baseline
+  - mulligan/real-square-d2-c04-dagger-baseline
+  - mulligan/real-square-d2-c05-dagger-baseline
+  filter-dagger: true
+  num-workers: 24
+  seed: 1
+  eval-repo-ids:
+  - mulligan/real-square-d2-c00-teleop-validation
+  eval-batch-size: 64
+  num-eval-batches: 128
+  model-init-seed: 0
+  training-steps: 100000
+  save-freq: 25000
+  eval-freq: 5000
+  n-action-steps: 6
+  image-height: 224
+  image-width: 224
+  batch-size: 64
+  scheduler-name: cosine
+  no-uint8-native-images: true
+  drop-n-last-frames: 2
+  spatial-softmax-num-keypoints: 32
+  no-decoded-frame-cache: true
+camera_crops:
+  side_1:
+  - 138
+  - 0
+  - 580
+  - 447
+  wrist_left:
+  - 180
+  - 0
+  - 639
+  - 413

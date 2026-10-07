@@ -1,0 +1,959 @@
+{
+  "task": "square_d2",
+  "schema": "real_manual_initial_states_v1",
+  "keys": [
+    "nut_x",
+    "nut_y",
+    "nut_yaw",
+    "peg_x",
+    "peg_y"
+  ],
+  "units": {
+    "nut_x": "m",
+    "nut_y": "m",
+    "nut_yaw": "rad",
+    "peg_x": "m",
+    "peg_y": "m"
+  },
+  "operator_frame": {
+    "description": "Manual square_d2 placement targets in the operator frame. +x is forward, +y is left, yaw is the object heading. Sampled scene placements are recorded in the same frame.",
+    "display_units": {
+      "nut_x": "in",
+      "nut_y": "in",
+      "nut_yaw": "deg",
+      "peg_x": "in",
+      "peg_y": "in"
+    }
+  },
+  "bounds": {
+    "nut_x": [
+      -0.127,
+      0.127
+    ],
+    "nut_y": [
+      -0.2286,
+      0.2286
+    ],
+    "nut_yaw": [
+      -3.141592653589793,
+      3.141592653589793
+    ],
+    "peg_x": [
+      0.2413,
+      0.29209999999999997
+    ],
+    "peg_y": [
+      -0.1143,
+      -0.0127
+    ]
+  },
+  "bounds_display": {
+    "nut_x_in": [
+      -5.0,
+      5.0
+    ],
+    "nut_y_in": [
+      -9.0,
+      9.0
+    ],
+    "nut_yaw_deg": [
+      -180.0,
+      180.0
+    ],
+    "peg_x_in": [
+      9.5,
+      11.5
+    ],
+    "peg_y_in": [
+      -4.5,
+      -0.5
+    ]
+  },
+  "sampled_placements": {
+    "peg": {
+      "keys": [
+        "peg_x",
+        "peg_y"
+      ],
+      "bounds": [
+        [
+          0.2413,
+          0.29209999999999997
+        ],
+        [
+          -0.1143,
+          -0.0127
+        ]
+      ],
+      "snap_m": 0.0254,
+      "grid_dims": [
+        3,
+        5
+      ]
+    }
+  },
+  "match_tolerance": 1e-09,
+  "phase": "R3_three_arm_heldout_eval",
+  "arms": [
+    "eval_sobol_independent"
+  ],
+  "arm_counts": {
+    "eval_sobol_independent": 50
+  },
+  "seeds": {
+    "sobol": 2026063004
+  },
+  "order_policy": "peg_batched_serpentine_v1",
+  "order_policy_description": "Rows are grouped by the square-peg grid cell to reduce manual setup moves. Peg cells traverse y rows in a serpentine x path; within each peg cell, rows keep original Sobol stream order.",
+  "source_index_order_placement_changes": 46,
+  "placement_changes": 14,
+  "placement_moves_reduced_by": 32,
+  "manual_state_corrections": [
+    {
+      "manifest_idx": 5,
+      "updates": {
+        "peg_x": {
+          "old": 0.29209999999999997,
+          "new": 0.2667
+        }
+      },
+      "reason": "Round 6 operator-reviewed reset frame: peg was at x=+10.5 in, not +11.5 in."
+    },
+    {
+      "manifest_idx": 21,
+      "updates": {
+        "peg_y": {
+          "old": -0.0635,
+          "new": -0.0635
+        }
+      },
+      "reason": "Round 22 operator-reviewed reset frame confirmed peg y=-2.5 in."
+    },
+    {
+      "manifest_idx": 23,
+      "updates": {
+        "peg_x": {
+          "old": 0.2667,
+          "new": 0.2413
+        }
+      },
+      "reason": "Round 24 operator-reviewed reset frame: peg was at x=+9.5 in, not +10.5 in."
+    }
+  ],
+  "sobol_stream": {
+    "start_index": 0,
+    "end_index_exclusive": 50
+  },
+  "registry_usage_id": "square_d2_r3_heldout_eval_independent_sobol_seed2026063004",
+  "within_set_min_periodic_dist": 0.18666024748211177,
+  "cross_set_min_periodic_dist_to_prior_manifests": {
+    "<local-path>/square_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json": 0.02053103581089591,
+    "<local-path>/square_d2_r1_promote25_fill25_blind_dagger.json": 0.04068821866694428,
+    "<local-path>/square_d2_r2_promote25_fill25_blind_dagger.json": 0.10932405410680446,
+    "<local-path>/square_d2_r3_promote25_fill25_blind_dagger.json": 0.0919522481788617,
+    "<local-path>/square_d2_r1_eval_heldout_independent_sobol.json": 0.047783811347331104,
+    "<local-path>/square_d2_r2_eval_heldout_independent_sobol.json": 0.14490068475477308
+  },
+  "states": [
+    {
+      "nut_x": 0.07052870130538941,
+      "nut_y": 0.00960238955765963,
+      "nut_yaw": 2.9354578643684164,
+      "peg_x": 0.2413,
+      "peg_y": -0.1143,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 11,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 11,
+      "manifest_idx": 0,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.10539688487537205,
+      "nut_y": -0.17638233329840003,
+      "nut_yaw": 0.8423132019315407,
+      "peg_x": 0.2413,
+      "peg_y": -0.1143,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 12,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 12,
+      "manifest_idx": 1,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.02877109394036234,
+      "nut_y": -0.22252836374156176,
+      "nut_yaw": -0.8857518274160792,
+      "peg_x": 0.2413,
+      "peg_y": -0.1143,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 24,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 24,
+      "manifest_idx": 2,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.04942696435377003,
+      "nut_y": 0.04863022996410729,
+      "nut_yaw": -2.7948113519794906,
+      "peg_x": 0.2667,
+      "peg_y": -0.1143,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 31,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 31,
+      "manifest_idx": 3,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.072213054779917,
+      "nut_y": 0.07282385294102131,
+      "nut_yaw": -1.3207991456831238,
+      "peg_x": 0.2667,
+      "peg_y": -0.1143,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 37,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 37,
+      "manifest_idx": 4,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.10880869018658995,
+      "nut_y": -0.05869175358340145,
+      "nut_yaw": 1.5352557795084456,
+      "peg_x": 0.2667,
+      "peg_y": -0.1143,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 2,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 2,
+      "manifest_idx": 5,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.05382899091206492,
+      "nut_y": 0.15920828875266016,
+      "nut_yaw": -2.6754639261887285,
+      "peg_x": 0.29209999999999997,
+      "peg_y": -0.1143,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 17,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 17,
+      "manifest_idx": 6,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.027220002122223377,
+      "nut_y": -0.1116651487916708,
+      "nut_yaw": -1.393844488657713,
+      "peg_x": 0.29209999999999997,
+      "peg_y": -0.1143,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 22,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 22,
+      "manifest_idx": 7,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.07872508315183221,
+      "nut_y": 0.19082509683296087,
+      "nut_yaw": -1.0074920722373584,
+      "peg_x": 0.29209999999999997,
+      "peg_y": -0.1143,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 43,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 43,
+      "manifest_idx": 8,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.09769858384877445,
+      "nut_y": -0.024069489304348823,
+      "nut_yaw": -3.0622857637623584,
+      "peg_x": 0.29209999999999997,
+      "peg_y": -0.1143,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 44,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 44,
+      "manifest_idx": 9,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.08042153788171708,
+      "nut_y": 0.1308385698158294,
+      "nut_yaw": 1.318511645050969,
+      "peg_x": 0.29209999999999997,
+      "peg_y": -0.0889,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 27,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 27,
+      "manifest_idx": 10,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.03977640599943698,
+      "nut_y": 0.21921574472486974,
+      "nut_yaw": 2.790891000703981,
+      "peg_x": 0.29209999999999997,
+      "peg_y": -0.0889,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 33,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 33,
+      "manifest_idx": 11,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.005183704588562252,
+      "nut_y": -0.051999531567469226,
+      "nut_yaw": 0.895679248018709,
+      "peg_x": 0.29209999999999997,
+      "peg_y": -0.0889,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 38,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 38,
+      "manifest_idx": 12,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.0640186420250684,
+      "nut_y": 0.12769149231053886,
+      "nut_yaw": 2.6327929815954665,
+      "peg_x": 0.2667,
+      "peg_y": -0.0889,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 5,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 5,
+      "manifest_idx": 13,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.010809005171060565,
+      "nut_y": -0.08703253340274095,
+      "nut_yaw": -2.5088041965763197,
+      "peg_x": 0.2667,
+      "peg_y": -0.0889,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 8,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 8,
+      "manifest_idx": 14,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.12272838199697435,
+      "nut_y": -0.19465495126582683,
+      "nut_yaw": 3.059926369484116,
+      "peg_x": 0.2667,
+      "peg_y": -0.0889,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 18,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 18,
+      "manifest_idx": 15,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.032103596713393925,
+      "nut_y": 0.03756044609919193,
+      "nut_yaw": -1.1569470484484443,
+      "peg_x": 0.2413,
+      "peg_y": -0.0889,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 1,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 1,
+      "manifest_idx": 16,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.013350711392238743,
+      "nut_y": -0.20474496691189706,
+      "nut_yaw": -3.0168786942270813,
+      "peg_x": 0.2413,
+      "peg_y": -0.0889,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 6,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 6,
+      "manifest_idx": 17,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.10110842196084559,
+      "nut_y": -0.141799529671669,
+      "nut_yaw": -2.35850964582787,
+      "peg_x": 0.2413,
+      "peg_y": -0.0889,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 34,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 34,
+      "manifest_idx": 18,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.04715466151386499,
+      "nut_y": 0.10113683649189772,
+      "nut_yaw": 2.6855112007437567,
+      "peg_x": 0.2413,
+      "peg_y": -0.0889,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 47,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 47,
+      "manifest_idx": 19,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.061567729756236075,
+      "nut_y": 0.09752953317202626,
+      "nut_yaw": 1.2662473752343475,
+      "peg_x": 0.2413,
+      "peg_y": -0.0889,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 49,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 49,
+      "manifest_idx": 20,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.007830094853416097,
+      "nut_y": 0.17804030875191093,
+      "nut_yaw": 2.1773904690300183,
+      "peg_x": 0.2413,
+      "peg_y": -0.0635,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 23,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 23,
+      "manifest_idx": 21,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.08317016620188952,
+      "nut_y": -0.09989913482666016,
+      "nut_yaw": 1.802603040303536,
+      "peg_x": 0.2413,
+      "peg_y": -0.0635,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 42,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 42,
+      "manifest_idx": 22,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.09133806269243361,
+      "nut_y": -0.04694658383913339,
+      "nut_yaw": -0.2753810275708659,
+      "peg_x": 0.2413,
+      "peg_y": -0.0635,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 4,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 4,
+      "manifest_idx": 23,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.08594171229749918,
+      "nut_y": 0.020296317458152774,
+      "nut_yaw": 1.0159244724863896,
+      "peg_x": 0.2667,
+      "peg_y": -0.0635,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 21,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 21,
+      "manifest_idx": 24,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.04500341025926173,
+      "nut_y": -0.12510091117322444,
+      "nut_yaw": 0.4329310492702323,
+      "peg_x": 0.2667,
+      "peg_y": -0.0635,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 30,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 30,
+      "manifest_idx": 25,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.0026400917265564094,
+      "nut_y": -0.16967991846576333,
+      "nut_yaw": 1.3900439913346014,
+      "peg_x": 0.2667,
+      "peg_y": -0.0635,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 40,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 40,
+      "manifest_idx": 26,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.11776594071090221,
+      "nut_y": 0.11423005925752225,
+      "nut_yaw": -1.6241949784002159,
+      "peg_x": 0.29209999999999997,
+      "peg_y": -0.0635,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 13,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 13,
+      "manifest_idx": 27,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.03948376076109708,
+      "nut_y": 0.15554408483617008,
+      "nut_yaw": -1.276228748255741,
+      "peg_x": 0.29209999999999997,
+      "peg_y": -0.0635,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 15,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 15,
+      "manifest_idx": 28,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.12316132406517866,
+      "nut_y": -0.08372813021019102,
+      "nut_yaw": 2.3670139397229892,
+      "peg_x": 0.29209999999999997,
+      "peg_y": -0.0635,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 28,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 28,
+      "manifest_idx": 29,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.03425384970195591,
+      "nut_y": -0.19228776347525417,
+      "nut_yaw": -2.059573922640814,
+      "peg_x": 0.29209999999999997,
+      "peg_y": -0.0635,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 48,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 48,
+      "manifest_idx": 30,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.01785853238776325,
+      "nut_y": 0.08496050255410373,
+      "nut_yaw": 0.6525639905038205,
+      "peg_x": 0.29209999999999997,
+      "peg_y": -0.03810000000000001,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 7,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 7,
+      "manifest_idx": 31,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.09090527012757957,
+      "nut_y": -0.1577665655426681,
+      "nut_yaw": -0.5864350433277354,
+      "peg_x": 0.29209999999999997,
+      "peg_y": -0.03810000000000001,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 10,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 10,
+      "manifest_idx": 32,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.00045002353563905473,
+      "nut_y": 0.06015914746485648,
+      "nut_yaw": 1.6793168187661207,
+      "peg_x": 0.29209999999999997,
+      "peg_y": -0.03810000000000001,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 25,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 25,
+      "manifest_idx": 33,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.11224561300687491,
+      "nut_y": 0.22487476011067628,
+      "nut_yaw": -2.330128280224358,
+      "peg_x": 0.2667,
+      "peg_y": -0.03810000000000001,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 3,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 3,
+      "manifest_idx": 34,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.0735038924906403,
+      "nut_y": -0.15434174336269496,
+      "nut_yaw": -1.7941017307612985,
+      "peg_x": 0.2667,
+      "peg_y": -0.03810000000000001,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 20,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 20,
+      "manifest_idx": 35,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.12047680027410387,
+      "nut_y": 0.03272714339420199,
+      "nut_yaw": 0.009727890279962903,
+      "peg_x": 0.2667,
+      "peg_y": -0.03810000000000001,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 35,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 35,
+      "manifest_idx": 36,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.08360492596589028,
+      "nut_y": -0.21063082164935767,
+      "nut_yaw": 2.1028231177891037,
+      "peg_x": 0.2667,
+      "peg_y": -0.03810000000000001,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 36,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 36,
+      "manifest_idx": 37,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.04246161509305238,
+      "nut_y": -0.007281663860008114,
+      "nut_yaw": 0.33127214048291753,
+      "peg_x": 0.2413,
+      "peg_y": -0.03810000000000001,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 16,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 16,
+      "manifest_idx": 38,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.05220432404801251,
+      "nut_y": -0.0706015638448298,
+      "nut_yaw": -0.4367405464653671,
+      "peg_x": 0.2413,
+      "peg_y": -0.03810000000000001,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 32,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 32,
+      "manifest_idx": 39,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.12599515888653695,
+      "nut_y": 0.1434108688797802,
+      "nut_yaw": 0.7050193993450069,
+      "peg_x": 0.2413,
+      "peg_y": -0.03810000000000001,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 45,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 45,
+      "manifest_idx": 40,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.0587874632626772,
+      "nut_y": -0.01818706822358071,
+      "nut_yaw": 2.0496734431375314,
+      "peg_x": 0.2413,
+      "peg_y": -0.012700000000000003,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 14,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 14,
+      "manifest_idx": 41,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.0769157905317843,
+      "nut_y": -0.036530400613322855,
+      "nut_yaw": -2.1051735356020114,
+      "peg_x": 0.2413,
+      "peg_y": -0.012700000000000003,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 26,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 26,
+      "manifest_idx": 42,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.09591260523535311,
+      "nut_y": 0.20688424701690675,
+      "nut_yaw": -0.0012984977905019512,
+      "peg_x": 0.2413,
+      "peg_y": -0.012700000000000003,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 29,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 29,
+      "manifest_idx": 43,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.025494627719745033,
+      "nut_y": 0.11460181220658125,
+      "nut_yaw": -1.669266559858211,
+      "peg_x": 0.2413,
+      "peg_y": -0.012700000000000003,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 39,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 39,
+      "manifest_idx": 44,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.022260708449408417,
+      "nut_y": 0.19565496588125827,
+      "nut_yaw": 0.15441225552452442,
+      "peg_x": 0.2667,
+      "peg_y": -0.012700000000000003,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 9,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 9,
+      "manifest_idx": 45,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.10242257557064294,
+      "nut_y": 0.08891157775707545,
+      "nut_yaw": -0.707297900105138,
+      "peg_x": 0.2667,
+      "peg_y": -0.012700000000000003,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 19,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 19,
+      "manifest_idx": 46,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.029898712314665316,
+      "nut_y": 0.003939831510186204,
+      "nut_yaw": -2.181319796770862,
+      "peg_x": 0.2667,
+      "peg_y": -0.012700000000000003,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 41,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 41,
+      "manifest_idx": 47,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": 0.06033840179257094,
+      "nut_y": -0.1289294945910573,
+      "nut_yaw": 1.9479847610414671,
+      "peg_x": 0.29209999999999997,
+      "peg_y": -0.012700000000000003,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 0,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 0,
+      "manifest_idx": 48,
+      "order_policy": "peg_batched_serpentine_v1"
+    },
+    {
+      "nut_x": -0.0506552921589464,
+      "nut_y": -0.18143882368840278,
+      "nut_yaw": -0.3213417121207165,
+      "peg_x": 0.29209999999999997,
+      "peg_y": -0.012700000000000003,
+      "source": "eval_sobol_independent",
+      "sources": [
+        "eval_sobol_independent"
+      ],
+      "source_index": 46,
+      "sobol_seed": 2026063004,
+      "sobol_stream_index": 46,
+      "manifest_idx": 49,
+      "order_policy": "peg_batched_serpentine_v1"
+    }
+  ]
+}

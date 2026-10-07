@@ -1,0 +1,1632 @@
+{
+  "task": "square_narrow",
+  "keys": [
+    "nut_x",
+    "nut_y",
+    "nut_yaw"
+  ],
+  "match_tolerance": 0.001,
+  "states": [
+    {
+      "nut_x": -0.11190500543139253,
+      "nut_y": 0.1990981523320079,
+      "nut_yaw": -1.9564362552972696,
+      "source": "sobol",
+      "source_index": 57,
+      "manifest_index": 0
+    },
+    {
+      "nut_x": -0.11221213914087487,
+      "nut_y": 0.15346603899262845,
+      "nut_yaw": -1.3896002063577477,
+      "source": "sobol",
+      "source_index": 31,
+      "manifest_index": 1
+    },
+    {
+      "nut_x": -0.11421372221093158,
+      "nut_y": 0.17425596701912582,
+      "nut_yaw": 1.3104317144322843,
+      "source": "sobol",
+      "source_index": 50,
+      "manifest_index": 2
+    },
+    {
+      "nut_x": -0.11430636397514823,
+      "nut_y": 0.2125383880368552,
+      "nut_yaw": 2.058706530094648,
+      "source": "baseline_uniform",
+      "source_index": 86,
+      "manifest_index": 3
+    },
+    {
+      "nut_x": -0.11235862219528178,
+      "nut_y": 0.1342866122536361,
+      "nut_yaw": 2.7032560576482734,
+      "source": "sobol",
+      "source_index": 36,
+      "manifest_index": 4
+    },
+    {
+      "nut_x": -0.11269920235594343,
+      "nut_y": 0.1886003240798014,
+      "nut_yaw": -1.774451418236563,
+      "source": "baseline_uniform",
+      "source_index": 9,
+      "manifest_index": 5
+    },
+    {
+      "nut_x": -0.1114610325758609,
+      "nut_y": 0.12480820942782765,
+      "nut_yaw": 1.8744174782837204,
+      "source": "baseline_uniform",
+      "source_index": 31,
+      "manifest_index": 6
+    },
+    {
+      "nut_x": -0.11147056522566105,
+      "nut_y": 0.19847165159454008,
+      "nut_yaw": -0.9164809908956104,
+      "source": "baseline_uniform",
+      "source_index": 66,
+      "manifest_index": 7
+    },
+    {
+      "nut_x": -0.11457196724740022,
+      "nut_y": 0.11956830621996671,
+      "nut_yaw": 2.325773500767352,
+      "source": "baseline_uniform",
+      "source_index": 70,
+      "manifest_index": 8
+    },
+    {
+      "nut_x": -0.1149305822390099,
+      "nut_y": 0.16718658392317592,
+      "nut_yaw": -0.5140668792803664,
+      "source": "sobol",
+      "source_index": 47,
+      "manifest_index": 9
+    },
+    {
+      "nut_x": -0.11465247809115252,
+      "nut_y": 0.21568502681315826,
+      "nut_yaw": -2.628998851070049,
+      "source": "baseline_uniform",
+      "source_index": 33,
+      "manifest_index": 10
+    },
+    {
+      "nut_x": -0.11167470683175677,
+      "nut_y": 0.1575133204893493,
+      "nut_yaw": 2.0010110483806853,
+      "source": "baseline_uniform",
+      "source_index": 42,
+      "manifest_index": 11
+    },
+    {
+      "nut_x": -0.11159831724564849,
+      "nut_y": 0.1883564012637362,
+      "nut_yaw": -0.3465720750666055,
+      "source": "sobol",
+      "source_index": 37,
+      "manifest_index": 12
+    },
+    {
+      "nut_x": -0.11423289667331338,
+      "nut_y": 0.11663592720404267,
+      "nut_yaw": -0.30883942111011287,
+      "source": "sobol",
+      "source_index": 67,
+      "manifest_index": 13
+    },
+    {
+      "nut_x": -0.11497992572789,
+      "nut_y": 0.1793564416235313,
+      "nut_yaw": 2.0842400322318566,
+      "source": "sobol",
+      "source_index": 34,
+      "manifest_index": 14
+    },
+    {
+      "nut_x": -0.1108015263345618,
+      "nut_y": 0.16884063413495737,
+      "nut_yaw": -1.6589063553190415,
+      "source": "baseline_uniform",
+      "source_index": 39,
+      "manifest_index": 15
+    },
+    {
+      "nut_x": -0.11157944440990988,
+      "nut_y": 0.15524190688040107,
+      "nut_yaw": 0.7265951822686834,
+      "source": "sobol",
+      "source_index": 32,
+      "manifest_index": 16
+    },
+    {
+      "nut_x": -0.1102592143530575,
+      "nut_y": 0.1238818559889114,
+      "nut_yaw": 1.7575034630991002,
+      "source": "baseline_uniform",
+      "source_index": 8,
+      "manifest_index": 17
+    },
+    {
+      "nut_x": -0.11301123345180891,
+      "nut_y": 0.15626809190493077,
+      "nut_yaw": -1.895803140244652,
+      "source": "sobol",
+      "source_index": 95,
+      "manifest_index": 18
+    },
+    {
+      "nut_x": -0.11342818467148953,
+      "nut_y": 0.19604458632310723,
+      "nut_yaw": 0.8715473704700409,
+      "source": "baseline_uniform",
+      "source_index": 75,
+      "manifest_index": 19
+    },
+    {
+      "nut_x": -0.11394997845966634,
+      "nut_y": 0.14351848147257068,
+      "nut_yaw": -2.4651761090003856,
+      "source": "baseline_uniform",
+      "source_index": 67,
+      "manifest_index": 20
+    },
+    {
+      "nut_x": -0.11084487441595595,
+      "nut_y": 0.19810011202469469,
+      "nut_yaw": 0.7624868533008473,
+      "source": "sobol",
+      "source_index": 70,
+      "manifest_index": 21
+    },
+    {
+      "nut_x": -0.11391187186142422,
+      "nut_y": 0.1506913451568925,
+      "nut_yaw": -0.6374181389202973,
+      "source": "baseline_uniform",
+      "source_index": 56,
+      "manifest_index": 22
+    },
+    {
+      "nut_x": -0.11422584370627792,
+      "nut_y": 0.120542394653894,
+      "nut_yaw": -2.0947792451752365,
+      "source": "sobol",
+      "source_index": 51,
+      "manifest_index": 23
+    },
+    {
+      "nut_x": -0.1118256952938928,
+      "nut_y": 0.1979841236582651,
+      "nut_yaw": -2.007633090271266,
+      "source": "baseline_uniform",
+      "source_index": 28,
+      "manifest_index": 24
+    },
+    {
+      "nut_x": -0.11337067337124251,
+      "nut_y": 0.13139779614750297,
+      "nut_yaw": 1.3729019737121897,
+      "source": "sobol",
+      "source_index": 84,
+      "manifest_index": 25
+    },
+    {
+      "nut_x": -0.11484538708242086,
+      "nut_y": 0.1383569225611985,
+      "nut_yaw": -1.9586639823839807,
+      "source": "baseline_uniform",
+      "source_index": 7,
+      "manifest_index": 26
+    },
+    {
+      "nut_x": -0.11163562649206003,
+      "nut_y": 0.20018540011718872,
+      "nut_yaw": 0.9650880867868734,
+      "source": "sobol",
+      "source_index": 38,
+      "manifest_index": 27
+    },
+    {
+      "nut_x": -0.11092202858325383,
+      "nut_y": 0.1505960948113352,
+      "nut_yaw": -0.2592316525302878,
+      "source": "sobol",
+      "source_index": 7,
+      "manifest_index": 28
+    },
+    {
+      "nut_x": -0.11195051189290713,
+      "nut_y": 0.11465267362943682,
+      "nut_yaw": -0.9455302023708665,
+      "source": "baseline_uniform",
+      "source_index": 45,
+      "manifest_index": 29
+    },
+    {
+      "nut_x": -0.11320940344466501,
+      "nut_y": 0.17577547059033666,
+      "nut_yaw": -1.241359307815355,
+      "source": "baseline_uniform",
+      "source_index": 24,
+      "manifest_index": 30
+    },
+    {
+      "nut_x": -0.11411948060249877,
+      "nut_y": 0.1689096506353963,
+      "nut_yaw": 0.42713525018078835,
+      "source": "baseline_uniform",
+      "source_index": 54,
+      "manifest_index": 31
+    },
+    {
+      "nut_x": -0.1144079842117039,
+      "nut_y": 0.13414434671460504,
+      "nut_yaw": -0.6818217989435897,
+      "source": "baseline_uniform",
+      "source_index": 10,
+      "manifest_index": 32
+    },
+    {
+      "nut_x": -0.11339877000908943,
+      "nut_y": 0.12495888256911902,
+      "nut_yaw": -1.4468368021151923,
+      "source": "baseline_uniform",
+      "source_index": 29,
+      "manifest_index": 33
+    },
+    {
+      "nut_x": -0.11274502588047228,
+      "nut_y": 0.22433118596673013,
+      "nut_yaw": 1.1045541120609146,
+      "source": "sobol",
+      "source_index": 94,
+      "manifest_index": 34
+    },
+    {
+      "nut_x": -0.11041241838278515,
+      "nut_y": 0.1195435866387561,
+      "nut_yaw": 0.14707602564396005,
+      "source": "sobol",
+      "source_index": 76,
+      "manifest_index": 35
+    },
+    {
+      "nut_x": -0.11109730418375736,
+      "nut_y": 0.20041217407908413,
+      "nut_yaw": 0.47361261250254216,
+      "source": "baseline_uniform",
+      "source_index": 65,
+      "manifest_index": 36
+    },
+    {
+      "nut_x": -0.11128825990962594,
+      "nut_y": 0.11853399974139553,
+      "nut_yaw": 2.8057422993185837,
+      "source": "baseline_uniform",
+      "source_index": 48,
+      "manifest_index": 37
+    },
+    {
+      "nut_x": -0.11187239096042205,
+      "nut_y": 0.12162755866069347,
+      "nut_yaw": 1.5153041691980782,
+      "source": "sobol",
+      "source_index": 44,
+      "manifest_index": 38
+    },
+    {
+      "nut_x": -0.11347195594413464,
+      "nut_y": 0.1462731490796432,
+      "nut_yaw": -1.7532563850458431,
+      "source": "sobol",
+      "source_index": 39,
+      "manifest_index": 39
+    },
+    {
+      "nut_x": -0.11359472755142101,
+      "nut_y": 0.1995812834166548,
+      "nut_yaw": -0.4500074640705707,
+      "source": "baseline_uniform",
+      "source_index": 72,
+      "manifest_index": 40
+    },
+    {
+      "nut_x": -0.11316784257534614,
+      "nut_y": 0.19323618021793665,
+      "nut_yaw": 1.551488716429712,
+      "source": "sobol",
+      "source_index": 74,
+      "manifest_index": 41
+    },
+    {
+      "nut_x": -0.11358137723396868,
+      "nut_y": 0.15265679054761205,
+      "nut_yaw": 1.916045676525572,
+      "source": "baseline_uniform",
+      "source_index": 36,
+      "manifest_index": 42
+    },
+    {
+      "nut_x": -0.11350206105679961,
+      "nut_y": 0.1830848549446091,
+      "nut_yaw": -1.3343586583312523,
+      "source": "sobol",
+      "source_index": 69,
+      "manifest_index": 43
+    },
+    {
+      "nut_x": -0.11072985505060645,
+      "nut_y": 0.21057819542009384,
+      "nut_yaw": -0.5516841031487325,
+      "source": "sobol",
+      "source_index": 73,
+      "manifest_index": 44
+    },
+    {
+      "nut_x": -0.11454385628462656,
+      "nut_y": 0.2227379170851782,
+      "nut_yaw": -0.19676196671426904,
+      "source": "sobol",
+      "source_index": 97,
+      "manifest_index": 45
+    },
+    {
+      "nut_x": -0.11320614525104747,
+      "nut_y": 0.12242901092860847,
+      "nut_yaw": -2.6777949808179393,
+      "source": "sobol",
+      "source_index": 83,
+      "manifest_index": 46
+    },
+    {
+      "nut_x": -0.11068108833794489,
+      "nut_y": 0.18554414923724888,
+      "nut_yaw": -2.7449390584377604,
+      "source": "baseline_uniform",
+      "source_index": 6,
+      "manifest_index": 47
+    },
+    {
+      "nut_x": -0.11205492194519406,
+      "nut_y": 0.16228120321917408,
+      "nut_yaw": -1.12739188399611,
+      "source": "baseline_uniform",
+      "source_index": 60,
+      "manifest_index": 48
+    },
+    {
+      "nut_x": -0.11201576740025646,
+      "nut_y": 0.16535456347744912,
+      "nut_yaw": 1.2261594407252518,
+      "source": "sobol",
+      "source_index": 16,
+      "manifest_index": 49
+    },
+    {
+      "nut_x": -0.11159754969452096,
+      "nut_y": 0.1780031632881322,
+      "nut_yaw": -1.8152906418913586,
+      "source": "baseline_uniform",
+      "source_index": 21,
+      "manifest_index": 50
+    },
+    {
+      "nut_x": -0.11324724155307084,
+      "nut_y": 0.1489106019137994,
+      "nut_yaw": 1.8655497800446819,
+      "source": "baseline_uniform",
+      "source_index": 49,
+      "manifest_index": 51
+    },
+    {
+      "nut_x": -0.11355227404282515,
+      "nut_y": 0.14809146645478904,
+      "nut_yaw": 2.415591100070987,
+      "source": "sobol",
+      "source_index": 24,
+      "manifest_index": 52
+    },
+    {
+      "nut_x": -0.11124864944941927,
+      "nut_y": 0.22260608832456236,
+      "nut_yaw": 2.743575680469731,
+      "source": "baseline_uniform",
+      "source_index": 80,
+      "manifest_index": 53
+    },
+    {
+      "nut_x": -0.11493728420072992,
+      "nut_y": 0.222426788304105,
+      "nut_yaw": 2.2622603126357097,
+      "source": "baseline_uniform",
+      "source_index": 25,
+      "manifest_index": 54
+    },
+    {
+      "nut_x": -0.111041022882119,
+      "nut_y": 0.17015939227771015,
+      "nut_yaw": 2.9579518975637598,
+      "source": "sobol",
+      "source_index": 18,
+      "manifest_index": 55
+    },
+    {
+      "nut_x": -0.11239721427963663,
+      "nut_y": 0.16176141897234628,
+      "nut_yaw": -2.6147836465767864,
+      "source": "baseline_uniform",
+      "source_index": 46,
+      "manifest_index": 56
+    },
+    {
+      "nut_x": -0.11102450236851688,
+      "nut_y": 0.12751570825694533,
+      "nut_yaw": -0.15142085881752987,
+      "source": "baseline_uniform",
+      "source_index": 79,
+      "manifest_index": 57
+    },
+    {
+      "nut_x": -0.11425587267002559,
+      "nut_y": 0.11664509650586483,
+      "nut_yaw": 2.681856859798658,
+      "source": "baseline_uniform",
+      "source_index": 89,
+      "manifest_index": 58
+    },
+    {
+      "nut_x": -0.11399687939725472,
+      "nut_y": 0.1547017029990645,
+      "nut_yaw": 2.2308371108662373,
+      "source": "baseline_uniform",
+      "source_index": 90,
+      "manifest_index": 59
+    },
+    {
+      "nut_x": -0.1111928241159445,
+      "nut_y": 0.17177748588646208,
+      "nut_yaw": 1.7097395312969628,
+      "source": "baseline_uniform",
+      "source_index": 62,
+      "manifest_index": 60
+    },
+    {
+      "nut_x": -0.11465315498187797,
+      "nut_y": 0.1553879343080132,
+      "nut_yaw": -0.18420308016705933,
+      "source": "baseline_uniform",
+      "source_index": 81,
+      "manifest_index": 61
+    },
+    {
+      "nut_x": -0.11429031525540324,
+      "nut_y": 0.22312741593842783,
+      "nut_yaw": 1.9173524834962565,
+      "source": "baseline_uniform",
+      "source_index": 91,
+      "manifest_index": 62
+    },
+    {
+      "nut_x": -0.11300667568253875,
+      "nut_y": 0.18910764066004404,
+      "nut_yaw": 0.14695078715409648,
+      "source": "baseline_uniform",
+      "source_index": 0,
+      "manifest_index": 63
+    },
+    {
+      "nut_x": -0.11295067446108599,
+      "nut_y": 0.13062795699108393,
+      "nut_yaw": -2.534973325757019,
+      "source": "sobol",
+      "source_index": 43,
+      "manifest_index": 64
+    },
+    {
+      "nut_x": -0.11349805096768752,
+      "nut_y": 0.1259451256180182,
+      "nut_yaw": 0.3847288991943456,
+      "source": "sobol",
+      "source_index": 52,
+      "manifest_index": 65
+    },
+    {
+      "nut_x": -0.11422962030715535,
+      "nut_y": 0.1947498272402292,
+      "nut_yaw": 0.39881227515664275,
+      "source": "baseline_uniform",
+      "source_index": 64,
+      "manifest_index": 66
+    },
+    {
+      "nut_x": -0.11402943403861346,
+      "nut_y": 0.1588617743793082,
+      "nut_yaw": 0.6692475536691713,
+      "source": "baseline_uniform",
+      "source_index": 22,
+      "manifest_index": 67
+    },
+    {
+      "nut_x": -0.11256515841658064,
+      "nut_y": 0.14557335040997715,
+      "nut_yaw": -2.6262498873807574,
+      "source": "sobol",
+      "source_index": 23,
+      "manifest_index": 68
+    },
+    {
+      "nut_x": -0.11407355059139063,
+      "nut_y": 0.11094285445287824,
+      "nut_yaw": -1.2968320768670776,
+      "source": "sobol",
+      "source_index": 35,
+      "manifest_index": 69
+    },
+    {
+      "nut_x": -0.1147466011191812,
+      "nut_y": 0.19157285724766554,
+      "nut_yaw": 0.18308315017094046,
+      "source": "sobol",
+      "source_index": 42,
+      "manifest_index": 70
+    },
+    {
+      "nut_x": -0.11102104196343533,
+      "nut_y": 0.21598133765626698,
+      "nut_yaw": 1.8791081669805747,
+      "source": "sobol",
+      "source_index": 78,
+      "manifest_index": 71
+    },
+    {
+      "nut_x": -0.11450952070376308,
+      "nut_y": 0.1284939284551006,
+      "nut_yaw": -1.7231251759513309,
+      "source": "baseline_uniform",
+      "source_index": 76,
+      "manifest_index": 72
+    },
+    {
+      "nut_x": -0.11014962280423556,
+      "nut_y": 0.15150296499487012,
+      "nut_yaw": -3.1212785497344,
+      "source": "sobol",
+      "source_index": 71,
+      "manifest_index": 73
+    },
+    {
+      "nut_x": -0.11035681785027161,
+      "nut_y": 0.16286210963036865,
+      "nut_yaw": -2.1860348812187693,
+      "source": "sobol",
+      "source_index": 15,
+      "manifest_index": 74
+    },
+    {
+      "nut_x": -0.11059560137425285,
+      "nut_y": 0.18100553425960242,
+      "nut_yaw": -2.7964284089592617,
+      "source": "sobol",
+      "source_index": 29,
+      "manifest_index": 75
+    },
+    {
+      "nut_x": -0.11285165555971736,
+      "nut_y": 0.20957935913000256,
+      "nut_yaw": 1.7392578506821268,
+      "source": "sobol",
+      "source_index": 54,
+      "manifest_index": 76
+    },
+    {
+      "nut_x": -0.11020178181236008,
+      "nut_y": 0.11854191096499563,
+      "nut_yaw": 2.7579000504527666,
+      "source": "sobol",
+      "source_index": 12,
+      "manifest_index": 77
+    },
+    {
+      "nut_x": -0.11493188560610611,
+      "nut_y": 0.2120931401103735,
+      "nut_yaw": -2.0072460451461054,
+      "source": "sobol",
+      "source_index": 17,
+      "manifest_index": 78
+    },
+    {
+      "nut_x": -0.11342136337508742,
+      "nut_y": 0.20785974683240055,
+      "nut_yaw": -2.450699834902145,
+      "source": "sobol",
+      "source_index": 9,
+      "manifest_index": 79
+    },
+    {
+      "nut_x": -0.11171124325091196,
+      "nut_y": 0.1769073898298666,
+      "nut_yaw": -1.4740644149167799,
+      "source": "sobol",
+      "source_index": 61,
+      "manifest_index": 80
+    },
+    {
+      "nut_x": -0.1144890523646507,
+      "nut_y": 0.12492166869807989,
+      "nut_yaw": -2.3327556810947216,
+      "source": "sobol",
+      "source_index": 75,
+      "manifest_index": 81
+    },
+    {
+      "nut_x": -0.11310557880745868,
+      "nut_y": 0.21385475785005836,
+      "nut_yaw": 2.8667172339138114,
+      "source": "sobol",
+      "source_index": 46,
+      "manifest_index": 82
+    },
+    {
+      "nut_x": -0.11108936605505676,
+      "nut_y": 0.16274246895158256,
+      "nut_yaw": 1.2300615947770508,
+      "source": "baseline_uniform",
+      "source_index": 59,
+      "manifest_index": 83
+    },
+    {
+      "nut_x": -0.11304600260266873,
+      "nut_y": 0.1960894689015645,
+      "nut_yaw": -2.129335973638945,
+      "source": "baseline_uniform",
+      "source_index": 14,
+      "manifest_index": 84
+    },
+    {
+      "nut_x": -0.11263389910566618,
+      "nut_y": 0.17492117085494102,
+      "nut_yaw": 0.614711067126195,
+      "source": "sobol",
+      "source_index": 2,
+      "manifest_index": 85
+    },
+    {
+      "nut_x": -0.11083378134520173,
+      "nut_y": 0.1783618962718174,
+      "nut_yaw": -0.10547974067172738,
+      "source": "sobol",
+      "source_index": 93,
+      "manifest_index": 86
+    },
+    {
+      "nut_x": -0.11102243917219726,
+      "nut_y": 0.18733024280052632,
+      "nut_yaw": 2.3249129304583924,
+      "source": "sobol",
+      "source_index": 90,
+      "manifest_index": 87
+    },
+    {
+      "nut_x": -0.11011345673447767,
+      "nut_y": 0.19259980998001994,
+      "nut_yaw": -2.155527790315981,
+      "source": "sobol",
+      "source_index": 85,
+      "manifest_index": 88
+    },
+    {
+      "nut_x": -0.11448543638429548,
+      "nut_y": 0.12986193160129908,
+      "nut_yaw": -3.124721214173568,
+      "source": "baseline_uniform",
+      "source_index": 44,
+      "manifest_index": 89
+    },
+    {
+      "nut_x": -0.11138457043783623,
+      "nut_y": 0.2130849452549592,
+      "nut_yaw": -0.8938951140909412,
+      "source": "sobol",
+      "source_index": 81,
+      "manifest_index": 90
+    },
+    {
+      "nut_x": -0.11234092257541306,
+      "nut_y": 0.13539096809923648,
+      "nut_yaw": -0.16640055904548623,
+      "source": "sobol",
+      "source_index": 59,
+      "manifest_index": 91
+    },
+    {
+      "nut_x": -0.11314572452857041,
+      "nut_y": 0.21245938001109022,
+      "nut_yaw": 2.686427718474927,
+      "source": "baseline_uniform",
+      "source_index": 4,
+      "manifest_index": 92
+    },
+    {
+      "nut_x": -0.11412495607899643,
+      "nut_y": 0.15962018355741253,
+      "nut_yaw": 0.7722083075042132,
+      "source": "baseline_uniform",
+      "source_index": 43,
+      "manifest_index": 93
+    },
+    {
+      "nut_x": -0.11117672042346566,
+      "nut_y": 0.1807668822086499,
+      "nut_yaw": -2.7873416963204747,
+      "source": "baseline_uniform",
+      "source_index": 37,
+      "manifest_index": 94
+    },
+    {
+      "nut_x": -0.11296488509077755,
+      "nut_y": 0.11118462213113293,
+      "nut_yaw": -0.47430756107885497,
+      "source": "baseline_uniform",
+      "source_index": 85,
+      "manifest_index": 95
+    },
+    {
+      "nut_x": -0.11210504819018786,
+      "nut_y": 0.1899094035057351,
+      "nut_yaw": -0.8453221201336327,
+      "source": "sobol",
+      "source_index": 21,
+      "manifest_index": 96
+    },
+    {
+      "nut_x": -0.1145731250493678,
+      "nut_y": 0.14281587253324687,
+      "nut_yaw": -0.7519592968887236,
+      "source": "sobol",
+      "source_index": 87,
+      "manifest_index": 97
+    },
+    {
+      "nut_x": -0.11046560052149033,
+      "nut_y": 0.19579454254307505,
+      "nut_yaw": 2.0142283502779037,
+      "source": "baseline_uniform",
+      "source_index": 92,
+      "manifest_index": 98
+    },
+    {
+      "nut_x": -0.11368568367007785,
+      "nut_y": 0.13010235466147332,
+      "nut_yaw": 2.3046093013637154,
+      "source": "baseline_uniform",
+      "source_index": 84,
+      "manifest_index": 99
+    },
+    {
+      "nut_x": -0.11239057208061194,
+      "nut_y": 0.1817052690697355,
+      "nut_yaw": 0.8021680981713692,
+      "source": "baseline_uniform",
+      "source_index": 50,
+      "manifest_index": 100
+    },
+    {
+      "nut_x": -0.11245551183534777,
+      "nut_y": 0.19525825014439296,
+      "nut_yaw": -2.551828100185828,
+      "source": "baseline_uniform",
+      "source_index": 69,
+      "manifest_index": 101
+    },
+    {
+      "nut_x": -0.11198898994636937,
+      "nut_y": 0.11610194802613905,
+      "nut_yaw": -1.3099130517895983,
+      "source": "baseline_uniform",
+      "source_index": 3,
+      "manifest_index": 102
+    },
+    {
+      "nut_x": -0.11021961244536953,
+      "nut_y": 0.12210466849708648,
+      "nut_yaw": 0.9746685398834423,
+      "source": "baseline_uniform",
+      "source_index": 38,
+      "manifest_index": 103
+    },
+    {
+      "nut_x": -0.11179624758269134,
+      "nut_y": 0.1989604278340973,
+      "nut_yaw": -2.7111486500599535,
+      "source": "baseline_uniform",
+      "source_index": 18,
+      "manifest_index": 104
+    },
+    {
+      "nut_x": -0.11412970816966984,
+      "nut_y": 0.11186043184716254,
+      "nut_yaw": -1.606610100365176,
+      "source": "sobol",
+      "source_index": 99,
+      "manifest_index": 105
+    },
+    {
+      "nut_x": -0.11425459425965664,
+      "nut_y": 0.1335052030185899,
+      "nut_yaw": 2.6392923939391597,
+      "source": "baseline_uniform",
+      "source_index": 87,
+      "manifest_index": 106
+    },
+    {
+      "nut_x": -0.11436678479960298,
+      "nut_y": 0.11288739828858525,
+      "nut_yaw": 0.4374560714012814,
+      "source": "sobol",
+      "source_index": 28,
+      "manifest_index": 107
+    },
+    {
+      "nut_x": -0.11286671649047769,
+      "nut_y": 0.2235603597573936,
+      "nut_yaw": -3.0840394843378522,
+      "source": "sobol",
+      "source_index": 33,
+      "manifest_index": 108
+    },
+    {
+      "nut_x": -0.11421337598608776,
+      "nut_y": 0.16983687664441613,
+      "nut_yaw": 3.0245138684457986,
+      "source": "baseline_uniform",
+      "source_index": 78,
+      "manifest_index": 109
+    },
+    {
+      "nut_x": -0.11386055575668161,
+      "nut_y": 0.14726766615640371,
+      "nut_yaw": 0.5837248412940848,
+      "source": "sobol",
+      "source_index": 88,
+      "manifest_index": 110
+    },
+    {
+      "nut_x": -0.11282669213443766,
+      "nut_y": 0.14305919422943478,
+      "nut_yaw": 1.233647609633957,
+      "source": "baseline_uniform",
+      "source_index": 27,
+      "manifest_index": 111
+    },
+    {
+      "nut_x": -0.112105196338375,
+      "nut_y": 0.19600967028643937,
+      "nut_yaw": 1.8305553846994496,
+      "source": "sobol",
+      "source_index": 10,
+      "manifest_index": 112
+    },
+    {
+      "nut_x": -0.1120757520968697,
+      "nut_y": 0.2149579072976485,
+      "nut_yaw": -0.6911149598721491,
+      "source": "sobol",
+      "source_index": 49,
+      "manifest_index": 113
+    },
+    {
+      "nut_x": -0.11297296069616897,
+      "nut_y": 0.170282516698195,
+      "nut_yaw": -2.672531342793598,
+      "source": "baseline_uniform",
+      "source_index": 97,
+      "manifest_index": 114
+    },
+    {
+      "nut_x": -0.11237488686549066,
+      "nut_y": 0.18231055948417635,
+      "nut_yaw": 2.5274751215867184,
+      "source": "sobol",
+      "source_index": 58,
+      "manifest_index": 115
+    },
+    {
+      "nut_x": -0.11272123051212762,
+      "nut_y": 0.13126445452777186,
+      "nut_yaw": 1.7639521491910415,
+      "source": "baseline_uniform",
+      "source_index": 2,
+      "manifest_index": 116
+    },
+    {
+      "nut_x": -0.11329447121396757,
+      "nut_y": 0.14182650249560208,
+      "nut_yaw": 0.8236130000305013,
+      "source": "baseline_uniform",
+      "source_index": 83,
+      "manifest_index": 117
+    },
+    {
+      "nut_x": -0.1102559413110382,
+      "nut_y": 0.18581652443118335,
+      "nut_yaw": 1.5624477476160603,
+      "source": "baseline_uniform",
+      "source_index": 77,
+      "manifest_index": 118
+    },
+    {
+      "nut_x": -0.11458248600183465,
+      "nut_y": 0.1232913401350379,
+      "nut_yaw": -0.6068413753905175,
+      "source": "sobol",
+      "source_index": 19,
+      "manifest_index": 119
+    },
+    {
+      "nut_x": -0.11149934027930103,
+      "nut_y": 0.1413644369225949,
+      "nut_yaw": -0.954138086446835,
+      "source": "sobol",
+      "source_index": 55,
+      "manifest_index": 120
+    },
+    {
+      "nut_x": -0.11272565340857814,
+      "nut_y": 0.14470456450230895,
+      "nut_yaw": 1.945929056983685,
+      "source": "baseline_uniform",
+      "source_index": 98,
+      "manifest_index": 121
+    },
+    {
+      "nut_x": -0.11412355991293617,
+      "nut_y": 0.16822953813709318,
+      "nut_yaw": -2.294850753905215,
+      "source": "sobol",
+      "source_index": 45,
+      "manifest_index": 122
+    },
+    {
+      "nut_x": -0.11255896595036782,
+      "nut_y": 0.20671812888234853,
+      "nut_yaw": 0.27591162210654385,
+      "source": "sobol",
+      "source_index": 22,
+      "manifest_index": 123
+    },
+    {
+      "nut_x": -0.11380355072738177,
+      "nut_y": 0.15308161448441068,
+      "nut_yaw": -0.22931401548996577,
+      "source": "baseline_uniform",
+      "source_index": 34,
+      "manifest_index": 124
+    },
+    {
+      "nut_x": -0.11102259568418238,
+      "nut_y": 0.20593308017804923,
+      "nut_yaw": 2.7807348707931947,
+      "source": "baseline_uniform",
+      "source_index": 40,
+      "manifest_index": 125
+    },
+    {
+      "nut_x": -0.11174956812985763,
+      "nut_y": 0.19400951518677176,
+      "nut_yaw": -2.73832546924146,
+      "source": "sobol",
+      "source_index": 53,
+      "manifest_index": 126
+    },
+    {
+      "nut_x": -0.11162623271548697,
+      "nut_y": 0.22327160793141537,
+      "nut_yaw": -2.3032709106246343,
+      "source": "baseline_uniform",
+      "source_index": 52,
+      "manifest_index": 127
+    },
+    {
+      "nut_x": -0.11317545460496764,
+      "nut_y": 0.17948152362893802,
+      "nut_yaw": 1.272401892657352,
+      "source": "baseline_uniform",
+      "source_index": 19,
+      "manifest_index": 128
+    },
+    {
+      "nut_x": -0.11409656580488259,
+      "nut_y": 0.1275388271920383,
+      "nut_yaw": -1.0469875307760232,
+      "source": "sobol",
+      "source_index": 11,
+      "manifest_index": 129
+    },
+    {
+      "nut_x": -0.1137862816564853,
+      "nut_y": 0.2000540858385964,
+      "nut_yaw": -1.6070726848031842,
+      "source": "baseline_uniform",
+      "source_index": 96,
+      "manifest_index": 130
+    },
+    {
+      "nut_x": -0.11469565769366837,
+      "nut_y": 0.21629976455328132,
+      "nut_yaw": -2.4945292505561563,
+      "source": "baseline_uniform",
+      "source_index": 13,
+      "manifest_index": 131
+    },
+    {
+      "nut_x": -0.11385337348955551,
+      "nut_y": 0.16697300383489916,
+      "nut_yaw": -1.0737166942772558,
+      "source": "baseline_uniform",
+      "source_index": 35,
+      "manifest_index": 132
+    },
+    {
+      "nut_x": -0.11145436551344948,
+      "nut_y": 0.11426762200805089,
+      "nut_yaw": 3.1028609646061964,
+      "source": "baseline_uniform",
+      "source_index": 93,
+      "manifest_index": 133
+    },
+    {
+      "nut_x": -0.11124730073288618,
+      "nut_y": 0.11203713296266297,
+      "nut_yaw": -2.5501316894180386,
+      "source": "baseline_uniform",
+      "source_index": 23,
+      "manifest_index": 134
+    },
+    {
+      "nut_x": -0.11204762964213096,
+      "nut_y": 0.17585228088814564,
+      "nut_yaw": -2.895852849900065,
+      "source": "baseline_uniform",
+      "source_index": 57,
+      "manifest_index": 135
+    },
+    {
+      "nut_x": -0.1113903645147416,
+      "nut_y": 0.14648485971564368,
+      "nut_yaw": 0.7850018910521359,
+      "source": "baseline_uniform",
+      "source_index": 47,
+      "manifest_index": 136
+    },
+    {
+      "nut_x": -0.11179733099765489,
+      "nut_y": 0.21829037381090172,
+      "nut_yaw": 2.9296386875656664,
+      "source": "baseline_uniform",
+      "source_index": 11,
+      "manifest_index": 137
+    },
+    {
+      "nut_x": -0.11067053199187775,
+      "nut_y": 0.17266281423624605,
+      "nut_yaw": -0.4019912037929072,
+      "source": "sobol",
+      "source_index": 13,
+      "manifest_index": 138
+    },
+    {
+      "nut_x": -0.11476975687196107,
+      "nut_y": 0.20373491032268404,
+      "nut_yaw": -1.5293586911995956,
+      "source": "baseline_uniform",
+      "source_index": 41,
+      "manifest_index": 139
+    },
+    {
+      "nut_x": -0.11255963019173675,
+      "nut_y": 0.13814679047268213,
+      "nut_yaw": -2.532601892387772,
+      "source": "baseline_uniform",
+      "source_index": 71,
+      "manifest_index": 140
+    },
+    {
+      "nut_x": -0.11433083237193793,
+      "nut_y": 0.17345803798176349,
+      "nut_yaw": -2.497616021469632,
+      "source": "sobol",
+      "source_index": 77,
+      "manifest_index": 141
+    },
+    {
+      "nut_x": -0.1133634786330023,
+      "nut_y": 0.2205815611826256,
+      "nut_yaw": -1.1849462764429621,
+      "source": "sobol",
+      "source_index": 1,
+      "manifest_index": 142
+    },
+    {
+      "nut_x": -0.11194611147468714,
+      "nut_y": 0.21827495896973603,
+      "nut_yaw": 0.8866447421792989,
+      "source": "baseline_uniform",
+      "source_index": 30,
+      "manifest_index": 143
+    },
+    {
+      "nut_x": -0.11145155522862507,
+      "nut_y": 0.11004744992036432,
+      "nut_yaw": -2.7783104317528844,
+      "source": "baseline_uniform",
+      "source_index": 5,
+      "manifest_index": 144
+    },
+    {
+      "nut_x": -0.11006278219093697,
+      "nut_y": 0.12584959229598877,
+      "nut_yaw": 2.56172154402749,
+      "source": "baseline_uniform",
+      "source_index": 51,
+      "manifest_index": 145
+    },
+    {
+      "nut_x": -0.11316154093042105,
+      "nut_y": 0.15956838955171407,
+      "nut_yaw": 1.9752322246934115,
+      "source": "sobol",
+      "source_index": 0,
+      "manifest_index": 146
+    },
+    {
+      "nut_x": -0.11163180688798074,
+      "nut_y": 0.12555771125406484,
+      "nut_yaw": 1.7327295668069826,
+      "source": "baseline_uniform",
+      "source_index": 74,
+      "manifest_index": 147
+    },
+    {
+      "nut_x": -0.1136688449069105,
+      "nut_y": 0.16615965775214137,
+      "nut_yaw": 1.677282701396968,
+      "source": "sobol",
+      "source_index": 80,
+      "manifest_index": 148
+    },
+    {
+      "nut_x": -0.11069528599085587,
+      "nut_y": 0.11590617844552642,
+      "nut_yaw": 0.49629408569056244,
+      "source": "baseline_uniform",
+      "source_index": 82,
+      "manifest_index": 149
+    },
+    {
+      "nut_x": -0.11043393987668297,
+      "nut_y": 0.20488643873948603,
+      "nut_yaw": -1.1345208244319114,
+      "source": "sobol",
+      "source_index": 41,
+      "manifest_index": 150
+    },
+    {
+      "nut_x": -0.11061584851851605,
+      "nut_y": 0.13949019340332597,
+      "nut_yaw": 0.09555116728965096,
+      "source": "sobol",
+      "source_index": 8,
+      "manifest_index": 151
+    },
+    {
+      "nut_x": -0.1116793066572692,
+      "nut_y": 0.11066434226988643,
+      "nut_yaw": 2.6745258667220435,
+      "source": "baseline_uniform",
+      "source_index": 68,
+      "manifest_index": 152
+    },
+    {
+      "nut_x": -0.1133529052477292,
+      "nut_y": 0.13263697082642467,
+      "nut_yaw": -1.8445505484999114,
+      "source": "sobol",
+      "source_index": 27,
+      "manifest_index": 153
+    },
+    {
+      "nut_x": -0.11040389090881596,
+      "nut_y": 0.18641218601725995,
+      "nut_yaw": 1.0578982078780905,
+      "source": "sobol",
+      "source_index": 26,
+      "manifest_index": 154
+    },
+    {
+      "nut_x": -0.11058189458909398,
+      "nut_y": 0.19938877763898666,
+      "nut_yaw": 0.08197978385482818,
+      "source": "baseline_uniform",
+      "source_index": 53,
+      "manifest_index": 155
+    },
+    {
+      "nut_x": -0.11344098625511526,
+      "nut_y": 0.16515120493642352,
+      "nut_yaw": -2.02548898627202,
+      "source": "baseline_uniform",
+      "source_index": 95,
+      "manifest_index": 156
+    },
+    {
+      "nut_x": -0.11022758242177368,
+      "nut_y": 0.15767999056261034,
+      "nut_yaw": -2.8837687378688224,
+      "source": "sobol",
+      "source_index": 63,
+      "manifest_index": 157
+    },
+    {
+      "nut_x": -0.11231465462477837,
+      "nut_y": 0.16234029200921032,
+      "nut_yaw": -2.9197049143851026,
+      "source": "baseline_uniform",
+      "source_index": 12,
+      "manifest_index": 158
+    },
+    {
+      "nut_x": -0.11135263804655815,
+      "nut_y": 0.16114216788671912,
+      "nut_yaw": 3.0454837868182913,
+      "source": "sobol",
+      "source_index": 48,
+      "manifest_index": 159
+    },
+    {
+      "nut_x": -0.11095224717097749,
+      "nut_y": 0.1286975532025099,
+      "nut_yaw": 1.627180958046825,
+      "source": "sobol",
+      "source_index": 20,
+      "manifest_index": 160
+    },
+    {
+      "nut_x": -0.11327694720978063,
+      "nut_y": 0.1777063341950998,
+      "nut_yaw": 2.6668572923964566,
+      "source": "sobol",
+      "source_index": 66,
+      "manifest_index": 161
+    },
+    {
+      "nut_x": -0.11276636262091051,
+      "nut_y": 0.1779356345171973,
+      "nut_yaw": 0.9658893435912308,
+      "source": "baseline_uniform",
+      "source_index": 94,
+      "manifest_index": 162
+    },
+    {
+      "nut_x": -0.11375490805530168,
+      "nut_y": 0.1802357088122517,
+      "nut_yaw": 0.8169010918951556,
+      "source": "sobol",
+      "source_index": 98,
+      "manifest_index": 163
+    },
+    {
+      "nut_x": -0.11251016036314539,
+      "nut_y": 0.13351581260561943,
+      "nut_yaw": -1.5344256261635123,
+      "source": "sobol",
+      "source_index": 91,
+      "manifest_index": 164
+    },
+    {
+      "nut_x": -0.11367922098829966,
+      "nut_y": 0.19365556297000433,
+      "nut_yaw": 2.408590509690602,
+      "source": "baseline_uniform",
+      "source_index": 73,
+      "manifest_index": 165
+    },
+    {
+      "nut_x": -0.113758485551941,
+      "nut_y": 0.15426750582642854,
+      "nut_yaw": 2.55804113882974,
+      "source": "sobol",
+      "source_index": 96,
+      "manifest_index": 166
+    },
+    {
+      "nut_x": -0.11114940286319651,
+      "nut_y": 0.1619154762942344,
+      "nut_yaw": -1.0970675410151802,
+      "source": "sobol",
+      "source_index": 79,
+      "manifest_index": 167
+    },
+    {
+      "nut_x": -0.1135706889868323,
+      "nut_y": 0.11184919552726463,
+      "nut_yaw": 2.0337773756978077,
+      "source": "baseline_uniform",
+      "source_index": 26,
+      "manifest_index": 168
+    },
+    {
+      "nut_x": -0.11416226859272025,
+      "nut_y": 0.1156378586217761,
+      "nut_yaw": 2.2628223276784176,
+      "source": "sobol",
+      "source_index": 60,
+      "manifest_index": 169
+    },
+    {
+      "nut_x": -0.11432534950579111,
+      "nut_y": 0.15671380975913818,
+      "nut_yaw": -1.3479625572436198,
+      "source": "baseline_uniform",
+      "source_index": 32,
+      "manifest_index": 170
+    },
+    {
+      "nut_x": -0.11116361437341508,
+      "nut_y": 0.13737773672211914,
+      "nut_yaw": 0.8777459789689281,
+      "source": "sobol",
+      "source_index": 4,
+      "manifest_index": 171
+    },
+    {
+      "nut_x": -0.11182304771978906,
+      "nut_y": 0.1140304419817403,
+      "nut_yaw": -2.9750299915177796,
+      "source": "sobol",
+      "source_index": 3,
+      "manifest_index": 172
+    },
+    {
+      "nut_x": -0.11434825554005067,
+      "nut_y": 0.18391764839179814,
+      "nut_yaw": -1.668792270113568,
+      "source": "sobol",
+      "source_index": 5,
+      "manifest_index": 173
+    },
+    {
+      "nut_x": -0.11392328292474332,
+      "nut_y": 0.13641363075003027,
+      "nut_yaw": 2.1200359347948803,
+      "source": "sobol",
+      "source_index": 68,
+      "manifest_index": 174
+    },
+    {
+      "nut_x": -0.11310678476282904,
+      "nut_y": 0.18402502431202572,
+      "nut_yaw": 0.5236486572066892,
+      "source": "baseline_uniform",
+      "source_index": 17,
+      "manifest_index": 175
+    },
+    {
+      "nut_x": -0.11330665957966732,
+      "nut_y": 0.15230188108514994,
+      "nut_yaw": 1.1669061090432926,
+      "source": "sobol",
+      "source_index": 56,
+      "manifest_index": 176
+    },
+    {
+      "nut_x": -0.11013047912817489,
+      "nut_y": 0.18681564566611836,
+      "nut_yaw": -3.131239619593652,
+      "source": "baseline_uniform",
+      "source_index": 20,
+      "manifest_index": 177
+    },
+    {
+      "nut_x": -0.1122772434602116,
+      "nut_y": 0.1418991847288012,
+      "nut_yaw": 0.9797635061394177,
+      "source": "baseline_uniform",
+      "source_index": 61,
+      "manifest_index": 178
+    },
+    {
+      "nut_x": -0.11211476829323982,
+      "nut_y": 0.207621642546588,
+      "nut_yaw": 1.6559664896952082,
+      "source": "baseline_uniform",
+      "source_index": 1,
+      "manifest_index": 179
+    },
+    {
+      "nut_x": -0.11305252308845987,
+      "nut_y": 0.20196093855891378,
+      "nut_yaw": -0.05739097259865655,
+      "source": "sobol",
+      "source_index": 25,
+      "manifest_index": 180
+    },
+    {
+      "nut_x": -0.11004138053661562,
+      "nut_y": 0.2217425903165713,
+      "nut_yaw": 2.1754803134872294,
+      "source": "sobol",
+      "source_index": 30,
+      "manifest_index": 181
+    },
+    {
+      "nut_x": -0.11422114183895465,
+      "nut_y": 0.19721008364576847,
+      "nut_yaw": 2.6187902574343704,
+      "source": "sobol",
+      "source_index": 6,
+      "manifest_index": 182
+    },
+    {
+      "nut_x": -0.11105917472562371,
+      "nut_y": 0.16141866446950848,
+      "nut_yaw": -0.21554702490209365,
+      "source": "baseline_uniform",
+      "source_index": 55,
+      "manifest_index": 183
+    },
+    {
+      "nut_x": -0.11110738123720988,
+      "nut_y": 0.15159097329193094,
+      "nut_yaw": -0.3718031818436742,
+      "source": "baseline_uniform",
+      "source_index": 15,
+      "manifest_index": 184
+    },
+    {
+      "nut_x": -0.11411164418527361,
+      "nut_y": 0.16922482292167842,
+      "nut_yaw": 0.322849518378328,
+      "source": "sobol",
+      "source_index": 82,
+      "manifest_index": 185
+    },
+    {
+      "nut_x": -0.11185059691214826,
+      "nut_y": 0.1438111855927855,
+      "nut_yaw": 1.914827564779725,
+      "source": "sobol",
+      "source_index": 40,
+      "manifest_index": 186
+    },
+    {
+      "nut_x": -0.11297527267675625,
+      "nut_y": 0.14216239423491062,
+      "nut_yaw": 2.9029977368681,
+      "source": "sobol",
+      "source_index": 72,
+      "manifest_index": 187
+    },
+    {
+      "nut_x": -0.11083732102815011,
+      "nut_y": 0.21887632198631762,
+      "nut_yaw": 0.5219219652419409,
+      "source": "sobol",
+      "source_index": 62,
+      "manifest_index": 188
+    },
+    {
+      "nut_x": -0.11270723607557961,
+      "nut_y": 0.1528598135734334,
+      "nut_yaw": -0.7654736839089442,
+      "source": "baseline_uniform",
+      "source_index": 88,
+      "manifest_index": 189
+    },
+    {
+      "nut_x": -0.11450936810561815,
+      "nut_y": 0.16056619792634072,
+      "nut_yaw": -2.5908085086565915,
+      "source": "baseline_uniform",
+      "source_index": 99,
+      "manifest_index": 190
+    },
+    {
+      "nut_x": -0.11267733238667693,
+      "nut_y": 0.15046578012026607,
+      "nut_yaw": 1.1061011757604007,
+      "source": "baseline_uniform",
+      "source_index": 63,
+      "manifest_index": 191
+    },
+    {
+      "nut_x": -0.11379719069798495,
+      "nut_y": 0.1340112789722229,
+      "nut_yaw": 2.058212310884641,
+      "source": "baseline_uniform",
+      "source_index": 16,
+      "manifest_index": 192
+    },
+    {
+      "nut_x": -0.11148356020156511,
+      "nut_y": 0.11014038685709238,
+      "nut_yaw": 2.465219080326995,
+      "source": "sobol",
+      "source_index": 92,
+      "manifest_index": 193
+    },
+    {
+      "nut_x": -0.11216021825568019,
+      "nut_y": 0.21785363277420403,
+      "nut_yaw": -1.71542793921352,
+      "source": "sobol",
+      "source_index": 65,
+      "manifest_index": 194
+    },
+    {
+      "nut_x": -0.11182281546799942,
+      "nut_y": 0.15690566854085775,
+      "nut_yaw": 0.9289768610093727,
+      "source": "sobol",
+      "source_index": 64,
+      "manifest_index": 195
+    },
+    {
+      "nut_x": -0.11480840059361104,
+      "nut_y": 0.21683160288259387,
+      "nut_yaw": 1.4032271829360194,
+      "source": "sobol",
+      "source_index": 14,
+      "manifest_index": 196
+    },
+    {
+      "nut_x": -0.11022630290195456,
+      "nut_y": 0.1635778461927212,
+      "nut_yaw": -0.8218698230031034,
+      "source": "baseline_uniform",
+      "source_index": 58,
+      "manifest_index": 197
+    },
+    {
+      "nut_x": -0.11316604659366152,
+      "nut_y": 0.20098783943802118,
+      "nut_yaw": -2.9442259282448995,
+      "source": "sobol",
+      "source_index": 89,
+      "manifest_index": 198
+    },
+    {
+      "nut_x": -0.11050710070318712,
+      "nut_y": 0.20408495819661765,
+      "nut_yaw": 3.1076665066238816,
+      "source": "sobol",
+      "source_index": 86,
+      "manifest_index": 199
+    }
+  ],
+  "_meta": {
+    "task": "square_narrow",
+    "n_states": 200,
+    "n_per_arm": 100,
+    "uniform_seed": 202605231,
+    "sobol_seed": 42,
+    "shuffle_seed": 202605230,
+    "min_pairwise_distance": 0.004786236883859881,
+    "square_narrow_sobol_sampler": "sobol2d_uniformx",
+    "square_narrow_sobol_dims": [
+      "nut_y",
+      "nut_yaw"
+    ],
+    "square_narrow_uniform_dims": [
+      "nut_x"
+    ],
+    "square_narrow_uniform_x_seed": 202605234,
+    "square_narrow_sobol_start_index": 0,
+    "square_narrow_sobol_pool_size": 1024,
+    "generator": "<local-path>/make_r0_inputs.py"
+  }
+}

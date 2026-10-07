@@ -1,0 +1,56 @@
+# Run: python -m mulligan.real.train.launch configs/real/square_d2/r00_sobol_dp.yaml --output-dir <dir>
+kind: dp-actor
+trainer: mulligan.real.train.policy
+checkpoint:
+  repo: mulligan/real-square-d2-r00-sobol-dp
+  revision: 76191643e3fdc608c3db6115cc917d0761c3a3a8
+  step: 75000
+retrain: exact
+paper:
+  task: Thread Nut
+  round: R0
+  arm: HG-DAgger+Mulligan
+  seed: 1
+  results:
+  - Fig. 5
+  - App. B.1
+  evaluations:
+  - mulligan/real-square-d2-r00-eval b01 (HG-DAgger+Mulligan)
+  collections:
+  - mulligan/real-square-d2-c01-dagger-mixed
+dataset_revisions:
+  mulligan/real-square-d2-c00-teleop-sobol: fcb4a833578373c70f0ffab63245ad1df5cd0145
+  mulligan/real-square-d2-c00-teleop-validation: 40d06aec811e4472bf46b955b3d5adcc06608b11
+dataset_episodes: {}
+args:
+  task: square_d2
+  repo-ids:
+  - mulligan/real-square-d2-c00-teleop-sobol
+  filter-dagger: true
+  num-workers: 24
+  seed: 1
+  eval-repo-ids:
+  - mulligan/real-square-d2-c00-teleop-validation
+  n-action-steps: 6
+  image-height: 224
+  image-width: 224
+  training-steps: 100000
+  batch-size: 64
+  save-freq: 25000
+  scheduler-name: cosine
+  drop-n-last-frames: 2
+  spatial-softmax-num-keypoints: 32
+  eval-freq: 5000
+  no-uint8-native-images: true
+  no-decoded-frame-cache: true
+camera_crops:
+  side_1:
+  - 138
+  - 0
+  - 580
+  - 447
+  wrist_left:
+  - 180
+  - 0
+  - 639
+  - 413

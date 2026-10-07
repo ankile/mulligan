@@ -1,0 +1,19 @@
+{
+  "experiment": "square_broad_r2_prep_rollouts",
+  "task": "square_broad",
+  "rollout_inputs": {
+    "mulligan_policy": "rollout_inputs/square_broad_mulligan_r2_diagnostic_sobol_400_499.json",
+    "baseline_uniform": "rollout_inputs/square_broad_baseline_uniform_r2_policy_rollout.json"
+  },
+  "coverage_reference": "init_states/square_broad_sobol_r2_sobol_500_599.json",
+  "rollout_datasets": {
+    "mulligan_policy": "mulligan/sim-square-broad-c02-mulligan-policy-rollouts",
+    "baseline_uniform": "mulligan/sim-square-broad-c02-baseline-policy-rollouts"
+  },
+  "pairwise_min_periodic_l2": {
+    "mulligan_r2_diagnostic_sobol_400_499": 0.12648865272146698,
+    "baseline_uniform_r2_policy_rollout": 0.08114353539903779,
+    "sobol_r2_sobol_500_599": 0.1477129721591824,
+    "combined_new": 0.05229573724450973
+  }
+}

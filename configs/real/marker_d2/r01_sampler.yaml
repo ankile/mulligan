@@ -1,0 +1,49 @@
+# Insert Marker (marker_d2) R1 start design (Alg. 2; mulligan.sampling.real_design). Promotes the R0 Ours policy's
+# held-out evaluation failures (upstream S0-S2 breakdowns first, then earliest failure),
+# fills the rest with pure farthest-point coverage, and holder-batches the paired manifest.
+# Paper: Alg. 2, App. F.4 and F.6. Builds the locked R1 collection manifest (`locked`), the starts
+# of mulligan/real-marker-d2-c01-dagger-mixed. `inputs` are relative to --inputs-root (the repository root
+# for the shipped manifests, `data/real/manifests/...`); the outcome and label tables are not
+# released (configs/real/README.md).
+# Run: python -m mulligan.sampling.real_design --config configs/real/marker_d2/r01_sampler.yaml --inputs-root . --input eval_outcomes=<csv> --input stage_labels=<csv> --out <file>
+task: marker_d2
+round: 1
+budget: 50
+source_eval_seed: 2026062103
+baseline_seed: 2026062302
+promotion:
+  pool: all_fail
+  arms: {mulligan: mulligan_r00_dp}
+  stage_column: max_stage_v2
+  failure_mode_column: early_failure_mode_v2
+  upstream_max_stage: 2
+  rank_keys: [phase, num_steps, stage, tiebreak]
+  tiebreak: stream_index
+  cap: 25
+fill:
+  seed: 2026062301
+  pool_size: 32768
+  beta: 0.0
+  placement_weight: 1.0
+order:
+  strategy: holder_pairs
+  seed: 2026062476
+  segments: phase
+  segment_names: {upstream: verbatim_upstream, later: verbatim_at_holder_plus_partial}
+  # The locked R1 manifest predates soft-weighted arm sampling: pairs strictly alternate arms.
+  alternate_arms: true
+inputs:
+  # The locked manifest was built from the outcome table as it stood before a later duration
+  # reconciliation rewrote num_steps; reproduce with that lock-time table.
+  eval_outcomes: <local-path>/paired_round_outcomes.csv
+  stage_labels: <local-path>/labels_joined.csv
+  support_manifests:
+    - data/real/manifests/marker_d2/r00/marker_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json
+  avoid_manifests:
+    - data/real/manifests/marker_d2/r00/marker_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json
+
+# The locked manifest this config produced.
+locked:
+  manifest:
+    path: data/real/manifests/marker_d2/r01/marker_d2_r1_promote25_fill25_blind_dagger.json
+    sha256: 424cdc5fdc4accdb948da1127be09a79963b01a8fd6ee54a54b74fd233573dc8

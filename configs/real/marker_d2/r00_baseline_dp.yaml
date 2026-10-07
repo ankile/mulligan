@@ -1,0 +1,56 @@
+# Run: python -m mulligan.real.train.launch configs/real/marker_d2/r00_baseline_dp.yaml --output-dir <dir>
+kind: dp-actor
+trainer: mulligan.real.train.policy
+checkpoint:
+  repo: mulligan/real-marker-d2-r00-baseline-dp
+  revision: c9d0d2de62500538d29148409cc75dc256673189
+  step: 50000
+retrain: exact
+paper:
+  task: Insert Marker
+  round: R0
+  arm: HG-DAgger
+  seed: 1
+  results:
+  - Fig. 5
+  - App. B.1
+  evaluations:
+  - mulligan/real-marker-d2-r00-eval b01 (HG-DAgger)
+  collections:
+  - mulligan/real-marker-d2-c01-dagger-mixed
+dataset_revisions:
+  mulligan/real-marker-d2-c00-teleop-baseline: fca1b80fd41df0eb8cded11d03c8810a5c42f5ba
+  mulligan/real-marker-d2-c00-teleop-validation: 66e508d55f3b6820f610b1270f2dd94884f785f5
+dataset_episodes: {}
+args:
+  task: marker_d2
+  repo-ids:
+  - mulligan/real-marker-d2-c00-teleop-baseline
+  filter-dagger: true
+  num-workers: 24
+  seed: 1
+  eval-repo-ids:
+  - mulligan/real-marker-d2-c00-teleop-validation
+  n-action-steps: 6
+  image-height: 224
+  image-width: 224
+  training-steps: 50000
+  batch-size: 64
+  save-freq: 25000
+  scheduler-name: cosine
+  drop-n-last-frames: 2
+  spatial-softmax-num-keypoints: 32
+  eval-freq: 10000
+  no-uint8-native-images: true
+  no-decoded-frame-cache: true
+camera_crops:
+  side_1:
+  - 138
+  - 0
+  - 580
+  - 447
+  wrist_left:
+  - 180
+  - 0
+  - 639
+  - 413

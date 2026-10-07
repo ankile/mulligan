@@ -1,0 +1,15 @@
+\begin{tabular}{>{\raggedright\arraybackslash}p{4.8cm}>{\raggedright\arraybackslash}p{8.0cm}}
+    \hline
+    Setting                     & Value                                                           \\
+    \hline
+    Candidates $N$, simulation  & $32$                                                            \\
+    Candidates $N$, \marker     & $16$ at R2--R4, $32$ at R5                                      \\
+    Candidates $N$, \nut        & $16$ at R3--R4, $32$ at R5                                      \\
+    Candidates $N$, \cable      & $32$ at R3--R5                                                  \\
+    Scored quantity             & $Q(s, a_{t:t+6})$, min over the $2$-network ensemble            \\
+    Selection rule              & argmax                                                          \\
+    Candidate draw              & one batched denoising pass over $N$ copies of the observation   \\
+    Rescoring cadence           & once per executed chunk, that is every $6$ steps                \\
+    Reranking during collection & simulation: the DAgger collector is itself deployed at $N = 32$ \\
+    \hline
+  \end{tabular}

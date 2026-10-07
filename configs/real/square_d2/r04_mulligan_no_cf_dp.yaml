@@ -1,0 +1,66 @@
+# Run: python -m mulligan.real.train.launch configs/real/square_d2/r04_mulligan_no_cf_dp.yaml --output-dir <dir>
+kind: dp-actor
+trainer: mulligan.real.train.policy
+checkpoint:
+  repo: mulligan/real-square-d2-r04-mulligan-no-cf-dp
+  revision: 0d9423bf9fad8d9caa062d8b26e7845a2583a140
+  step: 100000
+retrain: exact
+paper:
+  task: Thread Nut
+  round: R4
+  arm: HG-DAgger+Mulligan no-CF
+  seed: 1
+  results:
+  - Fig. 7
+  - App. B.6
+  evaluations:
+  - mulligan/real-square-d2-r04-eval b01 (HG-DAgger+Mulligan no-CF)
+  collections: []
+dataset_revisions:
+  mulligan/real-square-d2-c00-teleop-sobol: fcb4a833578373c70f0ffab63245ad1df5cd0145
+  mulligan/real-square-d2-c00-teleop-validation: 40d06aec811e4472bf46b955b3d5adcc06608b11
+  mulligan/real-square-d2-c01-dagger-mulligan: 7fde9f17e6794ff4242ac7bf3516ffecd79577e7
+  mulligan/real-square-d2-c02-dagger-mulligan: 1eca80eda2a44429932915943a06e188a9e27f8e
+  mulligan/real-square-d2-c03-dagger-mulligan: 11de641cf944b60d3704feda40ee3fb42759ab03
+  mulligan/real-square-d2-c04-dagger-mulligan-no-cf: 9b53a77bf400a4dcd3408795dc228427df576cb4
+dataset_episodes: {}
+args:
+  task: square_d2
+  repo-ids:
+  - mulligan/real-square-d2-c00-teleop-sobol
+  - mulligan/real-square-d2-c01-dagger-mulligan
+  - mulligan/real-square-d2-c02-dagger-mulligan
+  - mulligan/real-square-d2-c03-dagger-mulligan
+  - mulligan/real-square-d2-c04-dagger-mulligan-no-cf
+  filter-dagger: true
+  num-workers: 24
+  seed: 1
+  eval-repo-ids:
+  - mulligan/real-square-d2-c00-teleop-validation
+  eval-batch-size: 64
+  num-eval-batches: 128
+  model-init-seed: 0
+  training-steps: 100000
+  save-freq: 25000
+  eval-freq: 5000
+  n-action-steps: 6
+  image-height: 224
+  image-width: 224
+  batch-size: 64
+  scheduler-name: cosine
+  drop-n-last-frames: 2
+  spatial-softmax-num-keypoints: 32
+  no-uint8-native-images: true
+  no-decoded-frame-cache: true
+camera_crops:
+  side_1:
+  - 138
+  - 0
+  - 580
+  - 447
+  wrist_left:
+  - 180
+  - 0
+  - 639
+  - 413

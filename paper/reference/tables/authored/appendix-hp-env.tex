@@ -1,0 +1,19 @@
+\begin{tabular}{KVSV}
+    \hline
+    Setting                    & Simulation                                                                        & Real world                                                     \\
+    \hline
+    Platform                   & Robosuite with MimicGen assets                                                    & Franka Panda on DROID                                          \\
+    Control rate               & $20$\,Hz                                                                          & $15$\,Hz                                                       \\
+    Controller                 & operational-space pose, delta, base frame                                         & Cartesian velocity                                             \\
+    Per-step action limits     & $5$\,cm, $0.5$\,rad                                                               & ---                                                            \\
+    Cameras                    & none; state observations                                                          & ZED stereo, HD720 captured at $60$\,fps                        \\
+    Teleoperation              & \multicolumn{2}{B}{SpaceMouse, with operator-triggered interventions}                                                                              \\
+    Evaluation episode cap     & $400$ steps                                                                       & $600$ (\nut), $800$ (\marker), $850$ (\cable)                  \\
+    Collection episode cap     & \multicolumn{2}{B}{none; the operator ends the episode}                                                                                            \\
+    Rounds run                 & R0--R3                                                                            & R0--R5                                                         \\
+    Episodes per round per arm & $100$ ($200$ at R0 on \sqbroad)                                                   & $50$ ($100$ on \cable), $100$ at R0                            \\
+    Held-out evaluation set    & $8000$ (\sqnarrow) or $30000$ (\sqbroad) fixed Sobol initial states, reused across rounds & $50$ fresh Sobol initial states per round (one shared block on \cable) \\
+    Training-time evaluation   & $400$ fixed Sobol initial states, at the final step only                                  & held-out action-reconstruction loss every $5$k steps           \\
+    Replication unit           & $5$ training runs                                                                 & evaluation episodes                                            \\
+    \hline
+  \end{tabular}

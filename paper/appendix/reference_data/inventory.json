@@ -1,0 +1,228 @@
+{
+  "assets": [
+    {
+      "file": "figs/overview_funnel.pdf",
+      "kind": "authored vector export",
+      "reproduction": "Byte-exact restoration from the pinned paper-evidence export.",
+      "source": "assets/illustrations/overview_funnel.pdf"
+    },
+    {
+      "file": "figs/real_world_marker_d2_teleop_card.png",
+      "kind": "operator-card raster export",
+      "reproduction": "Byte-exact restoration from the pinned paper-evidence export.",
+      "source": "assets/illustrations/real_world_marker_d2_teleop_card.png"
+    },
+    {
+      "file": "figs/real_world_square_d2_teleop_card.png",
+      "kind": "operator-card raster export",
+      "reproduction": "Byte-exact restoration from the pinned paper-evidence export.",
+      "source": "assets/illustrations/real_world_square_d2_teleop_card.png"
+    },
+    {
+      "file": "figs/real_world_routing_d2_teleop_card.png",
+      "kind": "operator-card raster export",
+      "reproduction": "Byte-exact restoration from the pinned paper-evidence export.",
+      "source": "assets/illustrations/real_world_routing_d2_teleop_card.png"
+    }
+  ],
+  "authored_tables": [
+    {
+      "file": "appendix/prior_data.tex",
+      "kind": "authored cited literature transcription and task specification",
+      "label": "tab:appendix-prior-data",
+      "sha256": "d647040036defc13b72be868ac8500370a92ee254aaaec0c9a3a094b3d90936c",
+      "validation": "Exact table-body comparison with the frozen manuscript; no fresh source-paper or every-run verification."
+    },
+    {
+      "file": "appendix/prior_reset_ranges.tex",
+      "kind": "authored cited literature transcription and task specification",
+      "label": "tab:appendix-reset-ranges",
+      "sha256": "bc085571adaa355b10bd9d095b66f776458468f1b64f9e949ad4da26463b23d4",
+      "validation": "Exact table-body comparison with the frozen manuscript; no fresh source-paper or every-run verification."
+    },
+    {
+      "file": "appendix/hyperparameters.tex",
+      "kind": "authored configuration specification",
+      "label": "tab:appendix-hp-actor",
+      "sha256": "86d6990e3d24a7005f1902b0655b04138cf357d51aa000eb59c0d7b8886da727",
+      "validation": "Exact table-body comparison with the frozen manuscript; no fresh source-paper or every-run verification."
+    },
+    {
+      "file": "appendix/hyperparameters.tex",
+      "kind": "authored configuration specification",
+      "label": "tab:appendix-hp-critic-objective",
+      "sha256": "9f927cf2baec4ef151d0db568562bd57756e92f0c928a1fd3337d017abdff25d",
+      "validation": "Exact table-body comparison with the frozen manuscript; no fresh source-paper or every-run verification."
+    },
+    {
+      "file": "appendix/hyperparameters.tex",
+      "kind": "authored configuration specification",
+      "label": "tab:appendix-hp-critic-net",
+      "sha256": "3dadb739c3120ff1fec25dfd47c7059cecef98aa9c59dfc7049bc94f82b31656",
+      "validation": "Exact table-body comparison with the frozen manuscript; no fresh source-paper or every-run verification."
+    },
+    {
+      "file": "appendix/hyperparameters.tex",
+      "kind": "authored configuration specification",
+      "label": "tab:appendix-hp-bon",
+      "sha256": "1305573c87ef0ba452ca0cba5eae196a0c3bf32832a90c6e1e134d88f094f1d4",
+      "validation": "Exact table-body comparison with the frozen manuscript; no fresh source-paper or every-run verification."
+    },
+    {
+      "file": "appendix/hyperparameters.tex",
+      "kind": "authored configuration specification",
+      "label": "tab:appendix-hp-sampler",
+      "sha256": "609339f4edb3d7906a867c3caa29335fceaddb8c390d12fbd9083d6515d1d935",
+      "validation": "Exact table-body comparison with the frozen manuscript; no fresh source-paper or every-run verification."
+    },
+    {
+      "file": "appendix/hyperparameters.tex",
+      "kind": "authored configuration specification",
+      "label": "tab:appendix-hp-env",
+      "sha256": "3a9bfc96fc1251dd672b8fb7c4bf42e93ca05384a8870a443aab27289f7787e2",
+      "validation": "Exact table-body comparison with the frozen manuscript; no fresh source-paper or every-run verification."
+    },
+    {
+      "file": "appendix/data_collection.tex",
+      "kind": "authored transcription of the per-round counterfactual counts",
+      "label": "tab:appendix-cf-counts",
+      "sha256": "d6bdc2cad8096d2fe8e2a93c5ddfc823a19e46f9160fbcba207b5772be97842b",
+      "validation": "Exact table-body comparison with the frozen manuscript; no fresh source-paper or every-run verification."
+    },
+    {
+      "file": "appendix/tasks.tex",
+      "kind": "authored task specification",
+      "label": "tab:appendix-stage-ladders",
+      "sha256": "ee9eaf0c72bd23c5a8c21691afc852d872288d6cb49b04004f681bcd0f6b70da",
+      "validation": "Exact table-body comparison with the frozen manuscript; no fresh source-paper or every-run verification."
+    },
+    {
+      "file": "appendix/tasks.tex",
+      "kind": "authored task specification",
+      "label": "tab:task-summary",
+      "sha256": "b46d76475f0a60a7dd37eaef61f6c27031b8264e79049eabc6ae76d621e8ea92",
+      "validation": "Exact table-body comparison with the frozen manuscript; no fresh source-paper or every-run verification."
+    },
+    {
+      "file": "appendix/tasks.tex",
+      "kind": "authored task specification",
+      "label": "tab:task-reset-ranges",
+      "sha256": "08812180fcb3707ff507cec1585aa9599210bb324d978238dab37ddb063701b5",
+      "validation": "Exact table-body comparison with the frozen manuscript; no fresh source-paper or every-run verification."
+    },
+    {
+      "file": "appendix/tasks.tex",
+      "kind": "authored task specification",
+      "label": "tab:task-scoring",
+      "sha256": "691d8ce6fd6a4192e8231648140ec702893edaa0da5bfb9479eb5283d79fa549",
+      "validation": "Exact table-body comparison with the frozen manuscript; no fresh source-paper or every-run verification."
+    },
+    {
+      "file": "appendix/tasks.tex",
+      "kind": "authored task specification",
+      "label": "tab:cable-stage-ladder",
+      "sha256": "daa91a7bec35eaf7774371cc3f1185907953b1ccdff097f1274da8422e89b3d4",
+      "validation": "Exact table-body comparison with the frozen manuscript; no fresh source-paper or every-run verification."
+    },
+    {
+      "file": "appendix/results.tex",
+      "kind": "authored transcription of the routing_d2 collection-lineage counts",
+      "label": "tab:cable-collection-increments",
+      "sha256": "439cf56023359fd471becf1aad74a70f610dc3ed0b6324bbdab1ff007d5eeda8",
+      "validation": "Exact table-body comparison with the frozen manuscript; no fresh source-paper or every-run verification."
+    }
+  ],
+  "files": [
+    {
+      "assets": [],
+      "file": "appendix/prior_data.tex",
+      "prose_status": "Preserved; no new experiment results.",
+      "table_labels": [
+        "tab:appendix-prior-data"
+      ]
+    },
+    {
+      "assets": [
+        "overview_funnel.pdf",
+        "real_world_marker_d2_teleop_card.png",
+        "real_world_square_d2_teleop_card.png",
+        "real_world_routing_d2_teleop_card.png"
+      ],
+      "file": "appendix/data_collection.tex",
+      "prose_status": "Preserved; no new experiment results.",
+      "table_labels": [
+        "tab:appendix-data-ledger"
+      ]
+    },
+    {
+      "assets": [],
+      "file": "appendix/tasks.tex",
+      "prose_status": "Preserved; no new experiment results.",
+      "table_labels": [
+        "tab:task-summary",
+        "tab:task-reset-ranges",
+        "tab:task-scoring",
+        "tab:appendix-stage-ladders",
+        "tab:cable-stage-ladder"
+      ]
+    },
+    {
+      "assets": [],
+      "file": "appendix/eval_protocol.tex",
+      "prose_status": "Preserved; no new experiment results.",
+      "table_labels": []
+    },
+    {
+      "assets": [],
+      "file": "appendix/hyperparameters.tex",
+      "prose_status": "Preserved; no new experiment results.",
+      "table_labels": [
+        "tab:appendix-hp-actor",
+        "tab:appendix-hp-critic-objective",
+        "tab:appendix-hp-critic-net",
+        "tab:appendix-hp-bon",
+        "tab:appendix-hp-sampler",
+        "tab:appendix-hp-env"
+      ]
+    },
+    {
+      "assets": [],
+      "file": "appendix/implementation.tex",
+      "prose_status": "Preserved; no new experiment results.",
+      "table_labels": []
+    },
+    {
+      "assets": [],
+      "file": "appendix/baselines.tex",
+      "prose_status": "Preserved; no new experiment results.",
+      "table_labels": [
+        "tab:appendix-recap"
+      ]
+    },
+    {
+      "assets": [],
+      "file": "appendix/related_work.tex",
+      "prose_status": "Preserved; no new experiment results.",
+      "table_labels": []
+    }
+  ],
+  "generated_tables": [
+    {
+      "file": "appendix/baselines.tex",
+      "kind": "empirical from per-seed rates",
+      "label": "tab:appendix-recap",
+      "output": "appendix/generated/reference_recap.tex",
+      "sources": [
+        "sim/results/recap/runs.csv",
+        "sim/results/recap/summary.json"
+      ]
+    }
+  ],
+  "limitations": [
+    "RECAP raw analysis unit is the training seed: archived source run records retain run and checkpoint release ids, grid evidence paths, and per-seed rates. This package does not rerun robot or simulator rollouts.",
+    "Stage census analysis unit is the source repository; repositories published inside one merged release dataset are numbered by part. Coverage inputs are the stage-label census, not the entire collection campaign or the final 15-arm Route Cable evaluation.",
+    "Authored specification and literature tables are the frozen manuscript's table bodies, each pinned by sha256. This is transcription drift validation, not fresh verification against every training artifact or re-extraction from cited papers.",
+    "Teleop cards are archived author-approved raster exports; exact export restoration avoids changing operator-card annotations or typography."
+  ],
+  "schema": "mulligan.paper.appendix.reference_data.inventory.v1"
+}

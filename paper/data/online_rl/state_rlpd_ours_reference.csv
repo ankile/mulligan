@@ -1,0 +1,5 @@
+round,online_episodes,cumulative_collected_frames,success_rate_mean,success_rate_se,n_seeds
+0,0,0,0.794975,0.011263,5
+1,100,17844,0.93395,0.005239,5
+2,200,35926,0.95415,0.003607,5
+3,300,53811,0.96305,0.002987,5

@@ -1,0 +1,974 @@
+{
+  "states": [
+    {
+      "nut_x": 0.013761834502220141,
+      "nut_y": -0.04553906394168736,
+      "nut_yaw": -2.558786056715703,
+      "peg_x": 0.27125335671007633,
+      "peg_y": 0.17151230052113536,
+      "sobol_accepted_index": 500,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.10975060796365142,
+      "nut_y": 0.18475208030082285,
+      "nut_yaw": 0.36637450284292195,
+      "peg_x": -0.03796992041170597,
+      "peg_y": 0.06289810054004191,
+      "sobol_accepted_index": 501,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.06308866577222944,
+      "nut_y": -0.18594155612401664,
+      "nut_yaw": -1.334812584256232,
+      "peg_x": 0.19039815738797186,
+      "peg_y": -0.1002676546573639,
+      "sobol_accepted_index": 502,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.09203850178979338,
+      "nut_y": 0.21311405908316372,
+      "nut_yaw": -2.216241178609444,
+      "peg_x": 0.11141283772885799,
+      "peg_y": -0.19898270033299925,
+      "sobol_accepted_index": 503,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.08119998001493513,
+      "nut_y": -0.21329857528209686,
+      "nut_yaw": 2.4240547716568814,
+      "peg_x": -0.06071647331118584,
+      "peg_y": 0.03625299707055091,
+      "sobol_accepted_index": 504,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.04231246459297837,
+      "nut_y": 0.06667268774472179,
+      "nut_yaw": -0.10888605179254407,
+      "peg_x": 0.2297672972083092,
+      "peg_y": 0.12923646382987503,
+      "sobol_accepted_index": 505,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.016618643896654253,
+      "nut_y": 0.13222881727851926,
+      "nut_yaw": -2.265140186786553,
+      "peg_x": 0.22102768272161485,
+      "peg_y": 0.1167488466948271,
+      "sobol_accepted_index": 506,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.08183647149242461,
+      "nut_y": 0.019561248701065792,
+      "nut_yaw": -0.059228292376114045,
+      "peg_x": 0.13939130567014218,
+      "peg_y": -0.16147100888192656,
+      "sobol_accepted_index": 507,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.012712110579013822,
+      "nut_y": 0.23130567792803047,
+      "nut_yaw": 0.21888726848189677,
+      "peg_x": 0.07116584628820419,
+      "peg_y": -0.04629085920751094,
+      "sobol_accepted_index": 508,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.04511312164366245,
+      "nut_y": -0.23498377986252308,
+      "nut_yaw": -1.1877710132588746,
+      "peg_x": 0.28106747604906557,
+      "peg_y": 0.18404943719506267,
+      "sobol_accepted_index": 509,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.041266135806217796,
+      "nut_y": 0.06108779065310954,
+      "nut_yaw": 0.6349204728604914,
+      "peg_x": 0.1934458490461111,
+      "peg_y": -0.0764313779771328,
+      "sobol_accepted_index": 510,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.016164936712011704,
+      "nut_y": -0.06226550515741111,
+      "nut_yaw": -0.8177559100389056,
+      "peg_x": -0.04116217121481896,
+      "peg_y": 0.13828372694551944,
+      "sobol_accepted_index": 511,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.09031910915859044,
+      "nut_y": 0.16964647251181303,
+      "nut_yaw": 1.7669507728892073,
+      "peg_x": 0.2743093743920326,
+      "peg_y": 0.045347908139228815,
+      "sobol_accepted_index": 512,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.07959289121441543,
+      "nut_y": -0.1689564570877701,
+      "nut_yaw": -3.127979328963037,
+      "peg_x": 0.07797275818884372,
+      "peg_y": -0.183491100743413,
+      "sobol_accepted_index": 513,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.108591860961169,
+      "nut_y": 0.19800055721774695,
+      "nut_yaw": -0.47521058720555054,
+      "peg_x": 0.024122478067874903,
+      "peg_y": -0.11580600664019586,
+      "sobol_accepted_index": 514,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.06181761408224702,
+      "nut_y": -0.19632137032225727,
+      "nut_yaw": 1.075640121391431,
+      "peg_x": 0.2267207507044077,
+      "peg_y": 0.053852945938706376,
+      "sobol_accepted_index": 515,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.012267164774239059,
+      "nut_y": -0.08172393090091645,
+      "nut_yaw": 2.8947025349282143,
+      "peg_x": 0.1083564378321171,
+      "peg_y": -0.02436554916203021,
+      "sobol_accepted_index": 516,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.05489742142148317,
+      "nut_y": -0.07930125500075519,
+      "nut_yaw": 0.4978237428942518,
+      "peg_x": 0.2976440567523241,
+      "peg_y": -0.16840270496904852,
+      "sobol_accepted_index": 517,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.06503531641326844,
+      "nut_y": 0.21845991907641293,
+      "nut_yaw": -2.8198441273579213,
+      "peg_x": -0.01821811385452747,
+      "peg_y": -0.07228211537003518,
+      "sobol_accepted_index": 518,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.10462334037758411,
+      "nut_y": -0.21565711727365852,
+      "nut_yaw": 1.8265874651796743,
+      "peg_x": 0.16600922271609306,
+      "peg_y": 0.10962104983627796,
+      "sobol_accepted_index": 519,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.07567399617284537,
+      "nut_y": 0.18312625109218061,
+      "nut_yaw": 0.9393107563261633,
+      "peg_x": 0.1322862606495619,
+      "peg_y": 0.18961700052022934,
+      "sobol_accepted_index": 520,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.09358545254915952,
+      "nut_y": -0.17933429491706193,
+      "nut_yaw": -0.7557405012482055,
+      "peg_x": -0.08320273235440255,
+      "peg_y": -0.026856869831681257,
+      "sobol_accepted_index": 521,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.026347286570817238,
+      "nut_y": 0.03263824794441461,
+      "nut_yaw": 2.9551058431055957,
+      "peg_x": 0.20142335891723637,
+      "peg_y": -0.1323581703007221,
+      "sobol_accepted_index": 522,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.02988374894484877,
+      "nut_y": -0.03494742013514043,
+      "nut_yaw": -1.5931507215337373,
+      "peg_x": 0.04766167588531972,
+      "peg_y": 0.09511384256184102,
+      "sobol_accepted_index": 523,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.056247604852542286,
+      "nut_y": 0.24467164121568202,
+      "nut_yaw": 2.5851146966320933,
+      "peg_x": -0.0645702112466097,
+      "peg_y": -0.19062116257846357,
+      "sobol_accepted_index": 524,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.002286331364884972,
+      "nut_y": -0.24547542538493872,
+      "nut_yaw": -2.0091599457591767,
+      "peg_x": 0.11370254978537561,
+      "peg_y": 0.027476423233747493,
+      "sobol_accepted_index": 525,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.06817711484618486,
+      "nut_y": -0.0970419263932854,
+      "nut_yaw": -0.39268055530416834,
+      "peg_x": 0.24456761963665488,
+      "peg_y": -0.09450048953294754,
+      "sobol_accepted_index": 526,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.09673427045345306,
+      "nut_y": 0.014150386545807137,
+      "nut_yaw": -2.4499039372469555,
+      "peg_x": 0.2532394856214524,
+      "peg_y": -0.004739300534129132,
+      "sobol_accepted_index": 527,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.07882104389369489,
+      "nut_y": -0.013840311784297232,
+      "nut_yaw": 2.2425457798559556,
+      "peg_x": 0.09450126774609088,
+      "peg_y": 0.1677894376218319,
+      "sobol_accepted_index": 528,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.031228654813021436,
+      "nut_y": 0.15256075297482313,
+      "nut_yaw": -1.5204559112859575,
+      "peg_x": 0.18487668149173261,
+      "peg_y": 0.07328619621694088,
+      "sobol_accepted_index": 529,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.02286740023642779,
+      "nut_y": 0.026596859022974983,
+      "nut_yaw": 1.572181084087025,
+      "peg_x": 0.03978634104132653,
+      "peg_y": 0.17946636155247692,
+      "sobol_accepted_index": 530,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.03359142515808343,
+      "nut_y": -0.025286710225045694,
+      "nut_yaw": -2.9576605018373865,
+      "peg_x": 0.21112860552966597,
+      "peg_y": -0.041706263646483416,
+      "sobol_accepted_index": 531,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.07196961784735321,
+      "nut_y": 0.14113204258494078,
+      "nut_yaw": 0.7407162565023913,
+      "peg_x": -0.0793553363531828,
+      "peg_y": -0.14875826239585876,
+      "sobol_accepted_index": 532,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.09706862134858966,
+      "nut_y": -0.14193866045214237,
+      "nut_yaw": -0.9481943029558235,
+      "peg_x": 0.13027182519435884,
+      "peg_y": 0.08651385419070723,
+      "sobol_accepted_index": 533,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.06851843166165054,
+      "nut_y": 0.22427031079307197,
+      "nut_yaw": -1.829717085826651,
+      "peg_x": 0.1715364683419466,
+      "peg_y": 0.012774071842432011,
+      "sobol_accepted_index": 534,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.10091901560314,
+      "nut_y": -0.22608189018443228,
+      "nut_yaw": 2.798298966235481,
+      "peg_x": -0.019327560067176813,
+      "peg_y": -0.15042736195027828,
+      "sobol_accepted_index": 535,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.004642026117071513,
+      "nut_y": 0.117766126440838,
+      "nut_yaw": -0.5076663083966122,
+      "peg_x": 0.2898955129086972,
+      "peg_y": -0.05900683701038362,
+      "sobol_accepted_index": 536,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.05141759120859206,
+      "nut_y": -0.11746095246635377,
+      "nut_yaw": 1.0830697381105034,
+      "peg_x": 0.062314904853701586,
+      "peg_y": 0.12134584598243237,
+      "sobol_accepted_index": 537,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.03493655122816562,
+      "nut_y": 0.1627363466564566,
+      "nut_yaw": -0.13750723063095416,
+      "peg_x": -0.02530751042068005,
+      "peg_y": -0.013338496163487423,
+      "sobol_accepted_index": 538,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.024210783541202555,
+      "nut_y": -0.1599288397561759,
+      "nut_yaw": 1.499246589341138,
+      "peg_x": 0.17756522893905638,
+      "peg_y": 0.15138861238956453,
+      "sobol_accepted_index": 539,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.07511688577011227,
+      "nut_y": -0.05535452624782919,
+      "nut_yaw": 2.4350235032000063,
+      "peg_x": 0.25920854620635514,
+      "peg_y": -0.12039060220122338,
+      "sobol_accepted_index": 540,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.10405926405452193,
+      "nut_y": 0.08844525723718105,
+      "nut_yaw": 0.3705122144866486,
+      "peg_x": 0.24289281293749812,
+      "peg_y": -0.17889563329517844,
+      "sobol_accepted_index": 541,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.07166044943965973,
+      "nut_y": -0.09075130504556,
+      "nut_yaw": -1.3644160716231635,
+      "peg_x": 0.007973323389887807,
+      "peg_y": 0.040750908851623524,
+      "sobol_accepted_index": 542,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.005994170801714063,
+      "nut_y": -0.2032321060448885,
+      "nut_yaw": -2.5944299562386175,
+      "peg_x": -0.07288411855697632,
+      "peg_y": -0.08747502490878106,
+      "sobol_accepted_index": 543,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.009007678274065262,
+      "nut_y": 0.2094330921024084,
+      "nut_yaw": 1.1907275063286784,
+      "peg_x": 0.28137445226311686,
+      "peg_y": 0.0934455770999193,
+      "sobol_accepted_index": 544,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.06058672182261944,
+      "nut_y": 0.06909284817986189,
+      "nut_yaw": 2.715169933749034,
+      "peg_x": 0.15051612891256808,
+      "peg_y": -0.03457848764955998,
+      "sobol_accepted_index": 545,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.11455019176006317,
+      "nut_y": -0.07027357877232135,
+      "nut_yaw": -2.1153396576217998,
+      "peg_x": -0.002750979363918299,
+      "peg_y": 0.19733708649873732,
+      "sobol_accepted_index": 546,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.020101704308763138,
+      "nut_y": 0.19003607486374674,
+      "nut_yaw": -2.457716733172694,
+      "peg_x": 0.03268129602074624,
+      "peg_y": -0.170058948174119,
+      "sobol_accepted_index": 547,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.038013611799106006,
+      "nut_y": -0.1883617279585451,
+      "nut_yaw": 2.274617596232984,
+      "peg_x": 0.21642664633691314,
+      "peg_y": 0.007401059567928303,
+      "sobol_accepted_index": 548,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.04814965670928359,
+      "nut_y": 0.10725806199945509,
+      "nut_yaw": -2.873869604250173,
+      "peg_x": 0.10419554449617863,
+      "peg_y": -0.10251909047365189,
+      "sobol_accepted_index": 549,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.008562950957566498,
+      "nut_y": -0.10407638157717883,
+      "nut_yaw": 1.9044824752137917,
+      "peg_x": -0.05503724962472916,
+      "peg_y": 0.0655661102384329,
+      "sobol_accepted_index": 550,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.11229981135576965,
+      "nut_y": 0.2517071926407516,
+      "nut_yaw": -1.0603698372313737,
+      "peg_x": 0.2358373172581196,
+      "peg_y": 0.16945770308375357,
+      "sobol_accepted_index": 551,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.058338111601769924,
+      "nut_y": -0.25437761714681983,
+      "nut_yaw": 0.4843529064884162,
+      "peg_x": 0.013319435343146321,
+      "peg_y": -0.006402982398867607,
+      "sobol_accepted_index": 552,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.0868395531270653,
+      "nut_y": 0.14365770815871653,
+      "nut_yaw": 3.131367722263219,
+      "peg_x": 0.08448155000805854,
+      "peg_y": -0.09284424632787705,
+      "sobol_accepted_index": 553,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.0833008951600641,
+      "nut_y": -0.14733311128802598,
+      "nut_yaw": -1.745159572352523,
+      "peg_x": 0.26323629878461363,
+      "peg_y": 0.12969652079045774,
+      "sobol_accepted_index": 554,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.019648216469213373,
+      "nut_y": -0.004938363209366803,
+      "nut_yaw": -0.6190744777711914,
+      "peg_x": 0.19409373849630354,
+      "peg_y": -0.19832885675132275,
+      "sobol_accepted_index": 555,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.021186805339530115,
+      "nut_y": 0.11405537000857296,
+      "nut_yaw": 1.0218224666415203,
+      "peg_x": -0.05047314763069153,
+      "peg_y": -0.03994598127901555,
+      "sobol_accepted_index": 556,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.03909827585332097,
+      "nut_y": -0.11287417014129461,
+      "nut_yaw": -0.4216573344176142,
+      "peg_x": 0.10290330238640308,
+      "peg_y": 0.17809057980775833,
+      "sobol_accepted_index": 557,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.08534399316646159,
+      "nut_y": 0.2287151251360774,
+      "nut_yaw": 2.933209569940786,
+      "peg_x": 0.018667821213603025,
+      "peg_y": 0.08203102536499501,
+      "sobol_accepted_index": 558,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.08888044140301646,
+      "nut_y": -0.22940154880285263,
+      "nut_yaw": -1.940249482218913,
+      "peg_x": 0.23376080319285394,
+      "peg_y": -0.14387867823243142,
+      "sobol_accepted_index": 559,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.05987494656816125,
+      "nut_y": 0.13654867247678337,
+      "nut_yaw": -0.8624009513983646,
+      "peg_x": 0.26726327352225787,
+      "peg_y": -0.15531988777220251,
+      "sobol_accepted_index": 560,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.11383797524496912,
+      "nut_y": -0.13822449180297552,
+      "nut_yaw": 0.6792531753583546,
+      "peg_x": 0.08343347832560541,
+      "peg_y": 0.017269895970821375,
+      "sobol_accepted_index": 561,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.010604291632771504,
+      "nut_y": 0.0299199146591127,
+      "nut_yaw": -3.0680252127077305,
+      "peg_x": 0.19890503287315367,
+      "peg_y": 0.12271016128361228,
+      "sobol_accepted_index": 562,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.018045020615682014,
+      "nut_y": -0.19995616788044573,
+      "nut_yaw": 2.0795246903103672,
+      "peg_x": 0.28652752265334136,
+      "peg_y": -0.018218840286135685,
+      "sobol_accepted_index": 563,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.08753027168102563,
+      "nut_y": 0.09207716790027914,
+      "nut_yaw": -1.2293227904114636,
+      "peg_x": -0.004238530993461609,
+      "peg_y": -0.12215164452791215,
+      "sobol_accepted_index": 564,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.08399205411784351,
+      "nut_y": -0.0952574025001377,
+      "nut_yaw": 0.260174643672511,
+      "peg_x": 0.15488492734730244,
+      "peg_y": 0.05981256924569606,
+      "sobol_accepted_index": 565,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.11249305566772819,
+      "nut_y": 0.0487816759943962,
+      "nut_yaw": 2.5210113292352503,
+      "peg_x": 0.14643202126026153,
+      "peg_y": 0.039387359470129,
+      "sobol_accepted_index": 566,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.0585317954607308,
+      "nut_y": -0.050958896465599535,
+      "nut_yaw": -2.312565568324055,
+      "peg_x": -0.09395304434001446,
+      "peg_y": -0.17714753560721874,
+      "sobol_accepted_index": 567,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.047043498121201996,
+      "nut_y": 0.16723904709331694,
+      "nut_yaw": 1.3886933961054604,
+      "peg_x": 0.21557387821376325,
+      "peg_y": -0.08258325904607773,
+      "sobol_accepted_index": 568,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.0074572302028536736,
+      "nut_y": -0.16356414743699133,
+      "nut_yaw": -0.0026297590943076266,
+      "peg_x": 0.03690358027815818,
+      "peg_y": 0.14482773207128047,
+      "sobol_accepted_index": 569,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.004385172156617045,
+      "nut_y": 0.18572069487534465,
+      "nut_yaw": 2.1886258846873208,
+      "peg_x": 0.17939761132001877,
+      "peg_y": -0.12581416964530945,
+      "sobol_accepted_index": 570,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.05116117422468962,
+      "nut_y": -0.18491263498552143,
+      "nut_yaw": -2.396440191638781,
+      "peg_x": -0.030118783935904503,
+      "peg_y": 0.08896196000277995,
+      "sobol_accepted_index": 571,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.06965924634598196,
+      "nut_y": 0.04525587748736143,
+      "nut_yaw": 0.1733101786074469,
+      "peg_x": 0.2602566447108984,
+      "peg_y": 0.19596056416630747,
+      "sobol_accepted_index": 572,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.1020602706912905,
+      "nut_y": -0.046564586162567145,
+      "nut_yaw": -1.5585506140603795,
+      "peg_x": 0.08902371600270273,
+      "peg_y": -0.03281742297112941,
+      "sobol_accepted_index": 573,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.07350964102894068,
+      "nut_y": 0.06564814017154275,
+      "nut_yaw": -2.0538952433124544,
+      "peg_x": 0.010049864277243609,
+      "peg_y": -0.06632249653339387,
+      "sobol_accepted_index": 574,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.09860908407717943,
+      "nut_y": -0.0659538138192147,
+      "nut_yaw": 2.6293459077252894,
+      "peg_x": 0.23754440024495124,
+      "peg_y": 0.10327541045844557,
+      "sobol_accepted_index": 575,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.02221133777871727,
+      "nut_y": 0.21414395486935972,
+      "nut_yaw": -0.33262419863013815,
+      "peg_x": -0.07159189730882645,
+      "peg_y": 0.011896095424890507,
+      "sobol_accepted_index": 576,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.03293580053374172,
+      "nut_y": -0.21233287705108522,
+      "nut_yaw": 1.301061566139425,
+      "peg_x": 0.11918768025934698,
+      "peg_y": -0.17495073936879635,
+      "sobol_accepted_index": 577,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.05340299888513982,
+      "nut_y": 0.0036047022230923376,
+      "nut_yaw": -0.7048653482195877,
+      "peg_x": 0.20690630041062832,
+      "peg_y": 0.0669418666511774,
+      "sobol_accepted_index": 578,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.1025122222583741,
+      "nut_y": 0.14792938289232554,
+      "nut_yaw": -1.6347927548801449,
+      "peg_x": 0.12526523619890215,
+      "peg_y": -0.011282541230320936,
+      "sobol_accepted_index": 579,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.07011296723969282,
+      "nut_y": -0.15073641671799123,
+      "nut_yaw": 2.9962917268915437,
+      "peg_x": -0.07771827541291715,
+      "peg_y": 0.17394055426120758,
+      "sobol_accepted_index": 580,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.09905578635632992,
+      "nut_y": 0.24707517564296722,
+      "nut_yaw": 0.5456022845594339,
+      "peg_x": -0.02369633167982102,
+      "peg_y": 0.1252007190138102,
+      "sobol_accepted_index": 581,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.07395457312464714,
+      "nut_y": -0.2508716260269284,
+      "nut_yaw": -1.1463763301013095,
+      "peg_x": 0.17302399314939979,
+      "peg_y": -0.08795169517397881,
+      "sobol_accepted_index": 582,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.03518638571724296,
+      "nut_y": 0.11065699766390025,
+      "nut_yaw": 1.769574352617548,
+      "peg_x": 0.05716181360185146,
+      "peg_y": -0.196580021455884,
+      "sobol_accepted_index": 583,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.024460181910544637,
+      "nut_y": -0.1083524260763079,
+      "nut_yaw": -2.7633351012558767,
+      "peg_x": 0.29216736927628517,
+      "peg_y": 0.03382129669189454,
+      "sobol_accepted_index": 584,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.02569122325628996,
+      "nut_y": 0.23562482731416823,
+      "nut_yaw": -1.32284716077403,
+      "peg_x": 0.1182727374136448,
+      "peg_y": -0.05304781571030617,
+      "sobol_accepted_index": 585,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.02922812517732383,
+      "nut_y": -0.23842910343781115,
+      "nut_yaw": 0.329254144470998,
+      "peg_x": -0.06586852706968785,
+      "peg_y": 0.11500075049698355,
+      "sobol_accepted_index": 586,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.07721402021124958,
+      "nut_y": 0.12308183220215141,
+      "nut_yaw": -2.6451855478984525,
+      "peg_x": 0.24990991987288,
+      "peg_y": 0.018921370804309834,
+      "sobol_accepted_index": 587,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.06617613281123341,
+      "nut_y": 0.023009969294071175,
+      "nut_yaw": 1.5561390170133969,
+      "peg_x": 0.09853436388075351,
+      "peg_y": -0.1422147996723652,
+      "sobol_accepted_index": 588,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.10576459375210108,
+      "nut_y": -0.02070032972842456,
+      "nut_yaw": -0.19413675436935174,
+      "peg_x": 0.25218528062105183,
+      "peg_y": 0.08036257512867451,
+      "sobol_accepted_index": 589,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.05464100615121424,
+      "nut_y": -0.13131345399655403,
+      "nut_yaw": -2.2038905629452987,
+      "peg_x": 0.18305041156709193,
+      "peg_y": -0.0476674024015665,
+      "sobol_accepted_index": 590,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.03147849187254906,
+      "nut_y": 0.08504198125563561,
+      "nut_yaw": 2.7598212363978725,
+      "peg_x": 0.2953783068805933,
+      "peg_y": 0.14317625723779204,
+      "sobol_accepted_index": 591,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.09557239649817349,
+      "nut_y": 0.19372511308640245,
+      "nut_yaw": 1.1369165107818642,
+      "peg_x": 0.16451558545231817,
+      "peg_y": -0.18485541455447674,
+      "sobol_accepted_index": 592,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.07765873381868005,
+      "nut_y": -0.19292183429002763,
+      "nut_yaw": -0.5612022402344903,
+      "peg_x": -0.013843241706490511,
+      "peg_y": 0.047096770256757736,
+      "sobol_accepted_index": 593,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.0029208975750952965,
+      "nut_y": -0.05799347324296833,
+      "nut_yaw": 0.6963645477728422,
+      "peg_x": 0.20565177649259567,
+      "peg_y": 0.1575406573712826,
+      "sobol_accepted_index": 594,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.01430872650817036,
+      "nut_y": 0.03635301696136595,
+      "nut_yaw": -1.703488421084666,
+      "peg_x": -0.03933587446808815,
+      "peg_y": -0.1639069076627493,
+      "sobol_accepted_index": 595,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.04670929631218314,
+      "nut_y": -0.03953018987551332,
+      "nut_yaw": 3.09019915942733,
+      "peg_x": 0.18864064924418925,
+      "peg_y": 0.0008568353950977325,
+      "sobol_accepted_index": 596,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.11013024590909481,
+      "nut_y": -0.1760106237139553,
+      "nut_yaw": 0.8778627022766363,
+      "peg_x": 0.27027629911899564,
+      "peg_y": -0.07091777920722961,
+      "sobol_accepted_index": 597,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": -0.08163620685227216,
+      "nut_y": 0.2230470585823059,
+      "nut_yaw": 1.9614651590798688,
+      "peg_x": 0.22879117019474507,
+      "peg_y": -0.028232630714774137,
+      "sobol_accepted_index": 598,
+      "provenance": "sobol_r2_sobol_500_599"
+    },
+    {
+      "nut_x": 0.0923602184932679,
+      "nut_y": -0.21936751652508973,
+      "nut_yaw": -2.9303976365839035,
+      "peg_x": 0.01878019869327545,
+      "peg_y": 0.19137730374932288,
+      "sobol_accepted_index": 599,
+      "provenance": "sobol_r2_sobol_500_599"
+    }
+  ],
+  "_meta": {
+    "task": "square_broad",
+    "n_states": 100,
+    "generator": "<local-path>/make_square_broad_r2_prep_inputs.py",
+    "min_clearance": 0.13263,
+    "r2_diagnostic_sobol_indices": [
+      400,
+      499
+    ],
+    "r2_sobol_indices": [
+      500,
+      599
+    ],
+    "sobol_block_note": "R2 diagnostics use Sobol 400-499 (300-399 was used in R1); coverage reference 500-599.",
+    "disjoint_from": [
+      "<local-path>/square_broad_baseline_uniform_r0.json",
+      "<local-path>/square_broad_sobol_r0.json",
+      "<local-path>/square_broad_sobol_r1_diagnostic_sobol_200_399.json",
+      "<local-path>/square_broad_baseline_uniform_r1_policy_rollout.json",
+      "<local-path>/square_broad_baseline_uniform_r1.json",
+      "<local-path>/square_broad_mulligan_r1.json",
+      "<local-path>/square_broad_sobol_r1.json",
+      "<local-path>/square_broad_valid_sobol30k_seed2026052499.json"
+    ],
+    "source": "sobol_r2_sobol_500_599",
+    "purpose": "Held-out Sobol coverage reference for the R2 start design (not collected)",
+    "pairwise_min_periodic_l2": 0.1477129721591824,
+    "disjoint_reports": [
+      {
+        "path": "<local-path>/square_broad_baseline_uniform_r0.json",
+        "n_states": 200,
+        "min_periodic_l2": 0.06427321540121825
+      },
+      {
+        "path": "<local-path>/square_broad_sobol_r0.json",
+        "n_states": 200,
+        "min_periodic_l2": 0.09228388528725265
+      },
+      {
+        "path": "<local-path>/square_broad_sobol_r1_diagnostic_sobol_200_399.json",
+        "n_states": 200,
+        "min_periodic_l2": 0.11266391113250909
+      },
+      {
+        "path": "<local-path>/square_broad_baseline_uniform_r1_policy_rollout.json",
+        "n_states": 200,
+        "min_periodic_l2": 0.07053811899644459
+      },
+      {
+        "path": "<local-path>/square_broad_baseline_uniform_r1.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.07053811899644459
+      },
+      {
+        "path": "<local-path>/square_broad_mulligan_r1.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.07770860311362801
+      },
+      {
+        "path": "<local-path>/square_broad_sobol_r1.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.11266391113250909
+      },
+      {
+        "path": "<local-path>/square_broad_valid_sobol30k_seed2026052499.json",
+        "n_states": 30000,
+        "min_periodic_l2": 0.027458458668522694
+      }
+    ]
+  }
+}

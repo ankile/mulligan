@@ -1,0 +1,11 @@
+task,round,candidates,model_id,source_policy_name
+marker_d2,R2,16,hf://mulligan/real-marker-d2-r02-mulligan-idql-critic,mulligan_r02_idql_c125k_n16
+marker_d2,R3,16,hf://mulligan/real-marker-d2-r03-mulligan-idql-critic,mulligan_r03_idql_n16
+marker_d2,R4,16,hf://mulligan/real-marker-d2-r04-mulligan-idql-critic,mulligan_r04_idql_n16
+marker_d2,R5,32,hf://mulligan/real-marker-d2-r05-mulligan-idql-critic,mulligan_r05_idql_c200k_n32
+square_d2,R3,16,hf://mulligan/real-square-d2-r03-mulligan-idql-critic,mulligan_r03_idql_n16
+square_d2,R4,16,hf://mulligan/real-square-d2-r04-mulligan-idql-critic,mulligan_r04_idql_n16
+square_d2,R5,32,hf://mulligan/real-square-d2-r05-mulligan-idql-critic,mulligan_r05_idql_c200k_n32
+routing_d2,R3,32,hf://mulligan/real-routing-d2-r03-mulligan-idql-critic,mulligan_r06_idql_n32
+routing_d2,R4,32,hf://mulligan/real-routing-d2-r04-mulligan-idql-critic,mulligan_r08_idql_n32
+routing_d2,R5,32,hf://mulligan/real-routing-d2-r05-mulligan-idql-critic,mulligan_r09_idql_n32

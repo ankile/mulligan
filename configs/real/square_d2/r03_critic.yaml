@@ -1,0 +1,88 @@
+# Run: python -m mulligan.real.train.launch configs/real/square_d2/r03_critic.yaml --output-dir <dir>
+kind: idql-critic
+trainer: mulligan.real.train.critic
+checkpoint:
+  repo: mulligan/real-square-d2-r03-mulligan-idql-critic
+  revision: 409a4b50a2ed922e872954f8972fa25cb09ca748
+  step: 150000
+retrain: exact
+paper:
+  task: Thread Nut
+  round: R3
+  arm: HiL-IDQL+Mulligan
+  seed: 1
+  results:
+  - Fig. 5
+  - App. B.1
+  evaluations:
+  - mulligan/real-square-d2-r03-eval b02 (HiL-IDQL+Mulligan, N=16)
+  - mulligan/real-square-d2-r03-eval b03 (HiL-IDQL+Mulligan, N=16)
+  collections:
+  - mulligan/real-square-d2-c04-dagger-mixed
+dataset_revisions:
+  mulligan/real-square-d2-c00-teleop-sobol: fcb4a833578373c70f0ffab63245ad1df5cd0145
+  mulligan/real-square-d2-c00-teleop-validation: 40d06aec811e4472bf46b955b3d5adcc06608b11
+  mulligan/real-square-d2-c01-dagger-mulligan: 7fde9f17e6794ff4242ac7bf3516ffecd79577e7
+  mulligan/real-square-d2-c02-dagger-mulligan: 1eca80eda2a44429932915943a06e188a9e27f8e
+  mulligan/real-square-d2-c03-dagger-mulligan: 11de641cf944b60d3704feda40ee3fb42759ab03
+  mulligan/real-square-d2-r01-eval-b01-baseline-dp-policy-rollouts: d6be403c13ac5cde07557cbb288c6e96afbca4db
+  mulligan/real-square-d2-r01-eval-b01-mulligan-dp-policy-rollouts: b295590429b62821d02308867a06df897af05102
+  mulligan/real-square-d2-r02-eval-b01-mulligan-dp-policy-rollouts: a267ce2182dd41c035b345347947fcb6b0ba681b
+  mulligan/real-square-d2-r03-eval-b01-baseline-dp-policy-rollouts: 7dd78739ce55a8dddccee35200ac38cfa169d07b
+  mulligan/real-square-d2-r03-eval-b01-mulligan-dp-policy-rollouts: 802ef0cf331a079edf783ffb9973f6b2f01f2606
+dataset_episodes: {}
+args:
+  repo-ids:
+  - mulligan/real-square-d2-c00-teleop-sobol
+  - mulligan/real-square-d2-c01-dagger-mulligan
+  - mulligan/real-square-d2-c02-dagger-mulligan
+  - mulligan/real-square-d2-c03-dagger-mulligan
+  - mulligan/real-square-d2-r01-eval-b01-mulligan-dp-policy-rollouts
+  - mulligan/real-square-d2-r02-eval-b01-mulligan-dp-policy-rollouts
+  - mulligan/real-square-d2-r03-eval-b01-mulligan-dp-policy-rollouts
+  encoder-artifact: hf://mulligan/real-square-d2-r03-mulligan-dp@6ec0f2e22ce9835a3bac1ea5f485b1ed26c554da
+  camera-filter: _left
+  image-height: 224
+  image-width: 224
+  chunk-size: 12
+  n-action-steps: 6
+  num-action-samples: 16
+  hidden-dims:
+  - 1024
+  - 1024
+  - 1024
+  gamma: 0.99
+  intervention-negative-reward: 0.0
+  reward-shift: 0.0
+  batch-size: 256
+  training-steps: 150000
+  eval-freq: 25000
+  eval-video-freq: 25000
+  checkpoint-freq: 25000
+  resume-checkpoint-freq: 5000
+  log-freq: 5000
+  buffer-capacity-gb: 24
+  buffer-refresh-rate: 16
+  num-workers: 8
+  prefetch-factor: 1
+  multiprocessing-context: spawn
+  video-backend: torchcodec
+  proprio-dropout: 0.5
+  augmentation: gpu
+  seed: 1
+  camera-keys:
+  - side_1
+  - wrist_left
+  eval-repo-ids:
+  - mulligan/real-square-d2-c00-teleop-validation
+  - mulligan/real-square-d2-r01-eval-b01-baseline-dp-policy-rollouts
+  - mulligan/real-square-d2-r03-eval-b01-baseline-dp-policy-rollouts
+  num-atoms: 101
+  tau-base: 0.7
+  tau-entropy-alpha: 0.4
+  no-async-buffer-refresh: true
+  no-enable-tf32: true
+  no-cudnn-benchmark: true
+  no-encoder-autocast-bf16: true
+  no-channels-last: true
+  no-uint8-native-images: true

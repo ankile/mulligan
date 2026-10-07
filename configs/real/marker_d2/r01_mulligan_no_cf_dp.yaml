@@ -1,0 +1,59 @@
+# Run: python -m mulligan.real.train.launch configs/real/marker_d2/r01_mulligan_no_cf_dp.yaml --output-dir <dir>
+kind: dp-actor
+trainer: mulligan.real.train.policy
+checkpoint:
+  repo: mulligan/real-marker-d2-r01-mulligan-no-cf-dp
+  revision: fbb98c1f423735693a9c90f86526c3135a5716d4
+  step: 100000
+retrain: exact
+paper:
+  task: Insert Marker
+  round: R1
+  arm: HG-DAgger+Mulligan no-CF
+  seed: 1
+  results:
+  - Fig. 7
+  evaluations:
+  - mulligan/real-marker-d2-r01-eval b01 (HG-DAgger+Mulligan no-CF)
+  collections: []
+dataset_revisions:
+  mulligan/real-marker-d2-c00-teleop-sobol: 2eceb8cab17e48e970e082d37ce6d0aac03b4522
+  mulligan/real-marker-d2-c00-teleop-validation: 66e508d55f3b6820f610b1270f2dd94884f785f5
+  mulligan/real-marker-d2-c01-dagger-mulligan-no-cf: d06070f20234388e0e4a4ffbab0a2123cda6b101
+dataset_episodes: {}
+args:
+  task: marker_d2
+  repo-ids:
+  - mulligan/real-marker-d2-c00-teleop-sobol
+  - mulligan/real-marker-d2-c01-dagger-mulligan-no-cf
+  filter-dagger: true
+  num-workers: 24
+  seed: 1
+  eval-repo-ids:
+  - mulligan/real-marker-d2-c00-teleop-validation
+  eval-batch-size: 64
+  num-eval-batches: 128
+  model-init-seed: 0
+  training-steps: 200000
+  save-freq: 25000
+  eval-freq: 5000
+  n-action-steps: 6
+  image-height: 224
+  image-width: 224
+  batch-size: 64
+  scheduler-name: cosine
+  drop-n-last-frames: 2
+  spatial-softmax-num-keypoints: 32
+  no-uint8-native-images: true
+  no-decoded-frame-cache: true
+camera_crops:
+  side_1:
+  - 138
+  - 0
+  - 580
+  - 447
+  wrist_left:
+  - 180
+  - 0
+  - 639
+  - 413

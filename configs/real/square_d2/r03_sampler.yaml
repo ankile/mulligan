@@ -1,0 +1,51 @@
+# Thread Nut (square_d2) R3 start design (Alg. 2; mulligan.sampling.real_design). Promotes all R2 with-CF
+# DP held-out evaluation failures (23 < cap); pure coverage fill with peg axes at 0.6. The
+# promotion block is peg-batched with upstream S0-S2 failures first.
+# Paper: Alg. 2, App. F.4 and F.6. Builds the locked R3 collection manifest (`locked`), the starts
+# of mulligan/real-square-d2-c03-dagger-mixed. `inputs` are relative to --inputs-root (the repository root
+# for the shipped manifests, `data/real/manifests/...`); the outcome and label tables are not
+# released (configs/real/README.md).
+# Run: python -m mulligan.sampling.real_design --config configs/real/square_d2/r03_sampler.yaml --inputs-root . --input eval_outcomes=<csv> --input stage_labels=<csv> --out <file>
+task: square_d2
+round: 3
+budget: 50
+source_eval_seed: 2026062802
+baseline_seed: 2026063002
+promotion:
+  pool: all_fail
+  arms: {mulligan_with_cf: mulligan_with_cf}
+  stage_column: max_stage
+  failure_mode_column: failure_mode
+  upstream_max_stage: 2
+  rank_keys: [phase, num_steps, stage, tiebreak]
+  tiebreak: stream_index
+  cap: 25
+fill:
+  seed: 2026063001
+  pool_size: 32768
+  beta: 0.0
+  placement_weight: 0.6
+order:
+  strategy: peg_path
+  seed: 2026063006
+  split_by_phase: true
+  segment_names: {verbatim: verbatim_promotions}
+inputs:
+  eval_outcomes: <local-path>/paired_round_outcomes.csv
+  stage_labels: <local-path>/labels_joined.csv
+  support_manifests:
+    - data/real/manifests/square_d2/r00/square_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json
+    - data/real/manifests/square_d2/r01/square_d2_r1_promote25_fill25_blind_dagger.json
+    - data/real/manifests/square_d2/r02/square_d2_r2_promote25_fill25_blind_dagger.json
+  avoid_manifests:
+    - data/real/manifests/square_d2/r00/square_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json
+    - data/real/manifests/square_d2/r01/square_d2_r1_promote25_fill25_blind_dagger.json
+    - data/real/manifests/square_d2/r01/square_d2_r1_eval_heldout_independent_sobol.json
+    - data/real/manifests/square_d2/r02/square_d2_r2_promote25_fill25_blind_dagger.json
+    - data/real/manifests/square_d2/r02/square_d2_r2_eval_heldout_independent_sobol.json
+
+# The locked manifest this config produced.
+locked:
+  manifest:
+    path: data/real/manifests/square_d2/r03/square_d2_r3_promote25_fill25_blind_dagger.json
+    sha256: f783dab9d5dae978933f22941e838d9ed95ea72798a59398bf16395920f20eaa

@@ -1,0 +1,51 @@
+{
+  "experiment": "square_broad_r2",
+  "task": "square_broad",
+  "collection_dataset": "mulligan/sim-square-broad-c02-dagger-mixed",
+  "init_states_file": "<local-path>/square_broad_r2.json",
+  "manifest_file": "<local-path>/square_broad_r2_manifest.json",
+  "object_qpos_file": "<local-path>/square_broad_r2_object_qpos.npy",
+  "ledger_file": "<local-path>/square_broad_r2_ledger.jsonl",
+  "arms": [
+    "baseline_uniform",
+    "sobol",
+    "mulligan"
+  ],
+  "policy_sources": {
+    "baseline_uniform": "baseline_policy",
+    "sobol": "mulligan_policy",
+    "mulligan": "mulligan_policy"
+  },
+  "policy_artifacts": {
+    "baseline_policy": "mulligan/sim-square-broad-r01-baseline-idql/seed-1",
+    "mulligan_policy": "mulligan/sim-square-broad-r01-mulligan-idql/seed-1"
+  },
+  "protocol_targets": {
+    "no_cf": 100,
+    "with_cf": 100
+  },
+  "protocol_arms": {
+    "no_cf": [
+      "baseline_uniform",
+      "sobol",
+      "mulligan"
+    ],
+    "with_cf": [
+      "sobol",
+      "mulligan"
+    ]
+  },
+  "source_arm_files": {
+    "baseline_uniform": "<local-path>/square_broad_baseline_uniform_r2.json",
+    "sobol": "<local-path>/square_broad_sobol_r2.json",
+    "mulligan": "<local-path>/square_broad_mulligan_r2.json"
+  },
+  "split_targets": {
+    "no_cf.baseline_uniform": "mulligan/sim-square-broad-c02-dagger-baseline",
+    "no_cf.sobol": "mulligan/sim-square-broad-c02-dagger-sobol-no-cf",
+    "no_cf.mulligan": "mulligan/sim-square-broad-c02-dagger-mulligan-no-cf",
+    "with_cf.sobol": "mulligan/sim-square-broad-c02-dagger-sobol-with-cf",
+    "with_cf.mulligan": "mulligan/sim-square-broad-c02-dagger-mulligan"
+  },
+  "recipe": "baseline: 100 fresh IID uniform R2 starts -> baseline policy; sobol: 25 promoted diagnostic failures (Sobol 400-499) + 75 canonical Sobol fill (index 600+) -> mulligan policy; mulligan: grid-cell hardness-bonus sampler (the same 25 failures + 75 grid-hardness FPS fill) -> mulligan policy; the mulligan policy is the seed-1 R1 Mulligan with-CF agent"
+}

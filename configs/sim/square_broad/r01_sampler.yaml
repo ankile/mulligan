@@ -1,0 +1,93 @@
+# Square-Broad R1 collection starts: three arms, 100 starts each.
+# Mulligan arm: the selected failure-promotion and top-length search: no perturbations, beta 1.0,
+# candidate pool seed 202605310 + 2 + 1000 + 10000.
+# Paper: Alg. 2, App. F.4, F.5 and F.7. Builds the locked R1 collection starts (`locked`) of
+# mulligan/sim-square-broad-c01-dagger-mixed.
+# Run: python -m mulligan.sampling.sim_design --config configs/sim/square_broad/r01_sampler.yaml --out <dir> --check
+task: square_broad
+round: 1
+budget: 100
+
+arms:
+  # The baseline arm reused the first 100 starts of the R1 baseline-policy rollouts.
+  baseline_uniform:
+    policy_source: baseline_policy
+    starts:
+      file:
+        path: data/sim/start_manifests/square_broad/r01/rollout_inputs/square_broad_baseline_uniform_r1_policy_rollout.json
+
+  sobol:
+    policy_source: mulligan_policy
+    starts:
+      promote_then_sobol:
+        # R0 Sobol policy on accepted Sobol indices 200-299 (first 100 records).
+        diagnostics:
+          path: data/sim/start_manifests/square_broad/r01/init_states/square_broad_sobol_r1_diagnostic_rollouts_audit.json
+          limit: 100
+        sobol_start: 300
+
+  # Mulligan arm.
+  mulligan:
+    policy_source: mulligan_policy
+    starts:
+      select_initial_states:
+        diagnostics:
+          path: data/sim/start_manifests/square_broad/r01/init_states/square_broad_sobol_r1_diagnostic_rollouts_audit.json
+          limit: 100
+        prior:
+          - data/sim/start_manifests/square_broad/r00/init_states/square_broad_sobol_r0.json
+        candidates: {n: 9000, seed: 202616312}
+        distance: euclidean
+        # The Square-Broad builders measured the distance to the prior and promoted
+        # starts with a KD-tree over unit coordinates (no yaw wrap-around); the greedy
+        # updates wrap yaw.
+        prior_distance_periodic: false
+        eval_grid_feedback: false
+        hardness:
+          - beta: 1.0
+            normalize: minmax
+            signal:
+              length_model:
+                max_steps: 400
+                records:
+                  - path: data/sim/start_manifests/square_broad/r01/init_states/square_broad_sobol_r1_diagnostic_rollouts_audit.json
+                    limit: 100
+
+manifest:
+  shuffle_seed: 2026052701
+  match_tolerance: 1.0e-3
+  disjoint_tolerance: 1.0e-6
+  disjoint_from:
+    - data/sim/start_manifests/square_broad/r00/init_states/square_broad_baseline_uniform_r0.json
+    - data/sim/start_manifests/square_broad/r00/init_states/square_broad_sobol_r0.json
+  # Headline grid: 30,000 valid Sobol points (manifest_hash e0b50566...).
+  eval_grid:
+    generator: valid_sobol
+    num_points: 30000
+    seed: 2026052499
+    candidate_power: 16
+    states_sha256: 8d455233a0412a8c8eaf72817b92fbb284edf6d541bf685ccd048f065ecd19f5
+
+guardrail:
+  arm: mulligan
+  prior:
+    - data/sim/start_manifests/square_broad/r00/init_states/square_broad_sobol_r0.json
+  sobol_start: 300
+  test_points: {n: 12000, seed: 2026052607}
+  slack: 1.0
+  enforce: true
+
+locked:
+  manifest:
+    path: data/sim/start_manifests/square_broad/r01/blind_inputs/square_broad_r1_manifest.json
+    sha256: ea2f20c6b4d4c99c58693356fafadaace666c5c6b8afabf976ba4bc35a847cc0
+  arms:
+    baseline_uniform:
+      path: data/sim/start_manifests/square_broad/r01/init_states/square_broad_baseline_uniform_r1.json
+      sha256: d850dcac5deee55c387a3aee5b78014ccb313eaaba499264f46f5f760a66e055
+    sobol:
+      path: data/sim/start_manifests/square_broad/r01/init_states/square_broad_sobol_r1.json
+      sha256: b086ebddb694c27ee4fde3696b57580f1486ebb86b1403d89821457018917311
+    mulligan:
+      path: data/sim/start_manifests/square_broad/r01/init_states/square_broad_mulligan_r1.json
+      sha256: 28ef94b17fb5da7635c56f946dc6386b4819505b10d29258956f346f2c72f01c

@@ -1,0 +1,14 @@
+{
+  "experiment": "square_narrow_r3_prep_rollouts",
+  "generator": "<local-path>/make_square_narrow_r3_prep_inputs.py",
+  "inputs": {
+    "mulligan": "<local-path>/square_narrow_mulligan_r3_diagnostic_sobol_500_599.json"
+  },
+  "outputs": {
+    "mulligan": "mulligan/sim-square-narrow-c03-mulligan-policy-rollouts"
+  },
+  "notes": [
+    "Diagnostic rollouts only; use failures/lengths to prototype the R3 sampler.",
+    "Do not train on this diagnostic block except through explicitly promoted failure starts."
+  ]
+}

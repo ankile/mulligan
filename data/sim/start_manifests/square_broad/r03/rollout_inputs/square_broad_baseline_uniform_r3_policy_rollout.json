@@ -1,0 +1,913 @@
+{
+  "states": [
+    {
+      "nut_x": 0.0808212787380372,
+      "nut_y": -0.11023329233209012,
+      "nut_yaw": -0.8213891653401619,
+      "peg_x": -0.0512196571037606,
+      "peg_y": -0.0011874818652209407,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.08164096834268453,
+      "nut_y": 0.15731313913878903,
+      "nut_yaw": -0.25734137152383463,
+      "peg_x": 0.012987724724227337,
+      "peg_y": -0.18289724425370504,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.042908439091284,
+      "nut_y": -0.15613698489702332,
+      "nut_yaw": -1.4559850221858754,
+      "peg_x": 0.2261908164636038,
+      "peg_y": -0.09918204988215984,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.06647166627177305,
+      "nut_y": -0.25123527352452724,
+      "nut_yaw": 2.6141249921456353,
+      "peg_x": 0.22909916544982625,
+      "peg_y": -0.10057479126201213,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.026344460249965854,
+      "nut_y": -0.18984520885314832,
+      "nut_yaw": 2.0955700064597,
+      "peg_x": 0.05701401812697551,
+      "peg_y": 0.13627091870358427,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.014757463728461026,
+      "nut_y": 0.1266094731849533,
+      "nut_yaw": 0.29479280553838105,
+      "peg_x": 0.002407617368742926,
+      "peg_y": -0.07487137777221889,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.08148548646551247,
+      "nut_y": -0.12507694228551708,
+      "nut_yaw": -1.645883852243789,
+      "peg_x": 0.05446915858137932,
+      "peg_y": 0.13509492379314775,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.10480855408451682,
+      "nut_y": 0.1655229591348099,
+      "nut_yaw": 2.8327386480287204,
+      "peg_x": -0.08246173114019135,
+      "peg_y": -0.09362669743995161,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.007853179511879041,
+      "nut_y": -0.03842459697992395,
+      "nut_yaw": -1.0428795836097242,
+      "peg_x": 0.19801148167433816,
+      "peg_y": 0.0024834900915847447,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.05102792752702519,
+      "nut_y": 0.1755614078644056,
+      "nut_yaw": -2.650913994475297,
+      "peg_x": 0.0683297156198821,
+      "peg_y": -0.16732581101101085,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.02242262988703385,
+      "nut_y": 0.061753399543110876,
+      "nut_yaw": 1.2040419530497637,
+      "peg_x": 0.28536520027666124,
+      "peg_y": 0.1528391682100218,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.08459313435981115,
+      "nut_y": -0.2009923720368864,
+      "nut_yaw": 2.8690139265213217,
+      "peg_x": -0.079568850164838,
+      "peg_y": 0.19020402394069935,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.02959738970255925,
+      "nut_y": -0.2464949971852196,
+      "nut_yaw": 1.7863892965014196,
+      "peg_x": 0.19774396278042602,
+      "peg_y": -0.0661000324967452,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.01208794828712291,
+      "nut_y": 0.06897897610411091,
+      "nut_yaw": -0.6522834233233756,
+      "peg_x": 0.11724335584549381,
+      "peg_y": 0.1522421403425182,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.071004070250082,
+      "nut_y": -0.14611087486943322,
+      "nut_yaw": 0.1641273765476976,
+      "peg_x": 0.17235852327428888,
+      "peg_y": 0.002527008198942665,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.07518042438442532,
+      "nut_y": 0.08939066405324297,
+      "nut_yaw": 0.7533323243892669,
+      "peg_x": 0.28014589277295265,
+      "peg_y": -0.11332557340544591,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.10795436118913047,
+      "nut_y": 0.15451014392349305,
+      "nut_yaw": -1.4230006835930775,
+      "peg_x": 0.04149013444788868,
+      "peg_y": -0.1638855257020967,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.025822604651698625,
+      "nut_y": 0.08272435400406541,
+      "nut_yaw": 0.32765488989988034,
+      "peg_x": 0.24275092664513917,
+      "peg_y": 0.19724830575371516,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.09045022450609909,
+      "nut_y": 0.11343914548749207,
+      "nut_yaw": 0.6792649129373678,
+      "peg_x": -0.02997163067974898,
+      "peg_y": -0.07839626327429708,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.018304492856434526,
+      "nut_y": 0.05633265044154623,
+      "nut_yaw": 3.089876238567351,
+      "peg_x": 0.2563525703248756,
+      "peg_y": -0.019522631006279628,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.011348450475187621,
+      "nut_y": 0.22866569347675308,
+      "nut_yaw": -1.7559216011106757,
+      "peg_x": 0.15319465016381398,
+      "peg_y": 0.011513558833701115,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.0022061413838888877,
+      "nut_y": 0.15525111142900855,
+      "nut_yaw": 2.680903159743779,
+      "peg_x": 0.20370974192296556,
+      "peg_y": -0.0863212298321126,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.06679371808682166,
+      "nut_y": -0.21606426821781938,
+      "nut_yaw": 1.1901958790234426,
+      "peg_x": 0.02433613782664827,
+      "peg_y": -0.0573467406937489,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.0077088260552079235,
+      "nut_y": 0.07309323175818655,
+      "nut_yaw": 0.29333097718598866,
+      "peg_x": 0.23537713909064237,
+      "peg_y": 0.027230283150762785,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.10122565377772257,
+      "nut_y": 0.21946907862536053,
+      "nut_yaw": 3.0577566617986314,
+      "peg_x": 0.20805124928077826,
+      "peg_y": 0.11973414144916183,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.023068929652216144,
+      "nut_y": -0.008041428507365694,
+      "nut_yaw": -1.6970179607034193,
+      "peg_x": -0.09716779441798558,
+      "peg_y": 0.0845649423720175,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.055847422901032825,
+      "nut_y": 0.0074130396611440386,
+      "nut_yaw": -2.668527840062671,
+      "peg_x": 0.2500119041838992,
+      "peg_y": -0.02306236210116608,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.08607591688421591,
+      "nut_y": -0.1009859765843506,
+      "nut_yaw": -2.878735384155597,
+      "peg_x": 0.2770781650016879,
+      "peg_y": -0.08155442836242388,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.10150220195530774,
+      "nut_y": -0.22215394988526382,
+      "nut_yaw": 1.6274680665015033,
+      "peg_x": 0.0633120779102972,
+      "peg_y": 0.10227856658032292,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.08309220033356829,
+      "nut_y": 0.07457780842959388,
+      "nut_yaw": 1.74220511728259,
+      "peg_x": 0.17082854060931338,
+      "peg_y": 0.12924034085886071,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.0906387198884576,
+      "nut_y": 0.05968854396220008,
+      "nut_yaw": -2.0377029395146544,
+      "peg_x": 0.262986906255243,
+      "peg_y": -0.019053393028899412,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.10804895752686923,
+      "nut_y": 0.06722422270007894,
+      "nut_yaw": -0.05214450648769553,
+      "peg_x": 0.16508940944294934,
+      "peg_y": -0.07734181502464646,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.03536519631063283,
+      "nut_y": 0.08934040865206005,
+      "nut_yaw": 3.071294655458792,
+      "peg_x": 0.148407932582011,
+      "peg_y": -0.030946883060662067,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.11007387480112267,
+      "nut_y": -0.21251850557302682,
+      "nut_yaw": 2.1193190190074045,
+      "peg_x": 0.0995782981044504,
+      "peg_y": -0.16057583643414067,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.08133276950742675,
+      "nut_y": -0.12413655515545896,
+      "nut_yaw": -0.6808836590803806,
+      "peg_x": 0.01611377884806893,
+      "peg_y": 0.18641551492091607,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.03851490014311655,
+      "nut_y": -0.061650722956992504,
+      "nut_yaw": 3.0952525373627777,
+      "peg_x": 0.01284910528180791,
+      "peg_y": 0.15787857032788105,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.09080268650814642,
+      "nut_y": -0.10457879456902025,
+      "nut_yaw": 2.4442278355490332,
+      "peg_x": 0.16076061631532915,
+      "peg_y": 0.035967796065081575,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.09083187176627179,
+      "nut_y": -0.0818932030281693,
+      "nut_yaw": 2.1795204401555504,
+      "peg_x": 0.20299200391486602,
+      "peg_y": -0.07851396755199797,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.07785661330002973,
+      "nut_y": -0.08602232936131582,
+      "nut_yaw": -0.3216354290555423,
+      "peg_x": 0.20771687045882034,
+      "peg_y": -0.04401492710470456,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.05033081461488888,
+      "nut_y": 0.19021473929592614,
+      "nut_yaw": -1.5997200390311619,
+      "peg_x": 0.15601772256475335,
+      "peg_y": -0.0012746372021517904,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.04494628906044158,
+      "nut_y": -0.07600361776581369,
+      "nut_yaw": 2.071840630465922,
+      "peg_x": 0.2895523328656434,
+      "peg_y": -0.1779781084060105,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.10911999931827703,
+      "nut_y": 0.24467261223520048,
+      "nut_yaw": 0.9119570419533725,
+      "peg_x": 0.20133975700884751,
+      "peg_y": 0.12431400412456772,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.06694664833979813,
+      "nut_y": -0.10817489992057835,
+      "nut_yaw": -1.9115801714152474,
+      "peg_x": 0.20515633690332555,
+      "peg_y": 0.11998553891960168,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.10228946478712665,
+      "nut_y": 0.08696856759574989,
+      "nut_yaw": -2.94561092253933,
+      "peg_x": -0.01269004616997424,
+      "peg_y": -0.005180960230749682,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.05884651843081336,
+      "nut_y": -0.20589548788581527,
+      "nut_yaw": -2.7215348442200096,
+      "peg_x": 0.17556039436066337,
+      "peg_y": -0.1303210833844516,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.09414685700442292,
+      "nut_y": -0.05260634523925345,
+      "nut_yaw": 2.942385934315448,
+      "peg_x": 0.138623783158284,
+      "peg_y": 0.07664338851556518,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.10809785436919324,
+      "nut_y": 0.12591852721746594,
+      "nut_yaw": -1.060116599244168,
+      "peg_x": 0.0663127716424575,
+      "peg_y": -0.19726921228851332,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.017972582155836705,
+      "nut_y": 0.002479046679225383,
+      "nut_yaw": 0.5656840374282042,
+      "peg_x": 0.14827980725302645,
+      "peg_y": 0.07504372820968763,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.02656128828364339,
+      "nut_y": 0.0883273065539098,
+      "nut_yaw": 2.460396034550701,
+      "peg_x": -0.06772324731476327,
+      "peg_y": 0.19847088521630657,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.03977102554637783,
+      "nut_y": 0.2481432489952793,
+      "nut_yaw": 1.0376422853354796,
+      "peg_x": -0.07393408910797379,
+      "peg_y": -0.13035784738366898,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.06299895646712046,
+      "nut_y": 0.19484441014313436,
+      "nut_yaw": -0.05847586963030915,
+      "peg_x": 0.10536897106859386,
+      "peg_y": -0.06830303829473308,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.0410265874385843,
+      "nut_y": 0.22577278511963378,
+      "nut_yaw": -0.23506651378378374,
+      "peg_x": 0.252922041032431,
+      "peg_y": 0.12239712638697625,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.03270877022175085,
+      "nut_y": 0.10135275755029433,
+      "nut_yaw": 3.067975065633708,
+      "peg_x": 0.10559185512066294,
+      "peg_y": 0.16990057821635735,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.05906393648805795,
+      "nut_y": 0.10619335589994205,
+      "nut_yaw": -2.3754927637267698,
+      "peg_x": 0.2002694855207032,
+      "peg_y": -0.1371376565992887,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.09343212400857252,
+      "nut_y": -0.009085019826544832,
+      "nut_yaw": -2.3931649707526867,
+      "peg_x": -0.04020227627908817,
+      "peg_y": 0.1950188001144011,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.035156360602455514,
+      "nut_y": -0.040715695084152737,
+      "nut_yaw": 1.7550530824455421,
+      "peg_x": 0.001543100716073026,
+      "peg_y": -0.18358697572089253,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.06289154559015803,
+      "nut_y": 0.12590405718912784,
+      "nut_yaw": 0.8056549179092314,
+      "peg_x": 0.01640197102009608,
+      "peg_y": -0.04173738249249856,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.07450058001545162,
+      "nut_y": 0.22576945629637124,
+      "nut_yaw": -2.0236624639365033,
+      "peg_x": 0.038910521650899366,
+      "peg_y": 0.09615980849006411,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.0894427940391363,
+      "nut_y": 0.18055451080669355,
+      "nut_yaw": 0.6632999881484074,
+      "peg_x": 0.1805730910561946,
+      "peg_y": 0.18766904659560074,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.09926310625181299,
+      "nut_y": -0.1681263890374753,
+      "nut_yaw": -2.515812115189826,
+      "peg_x": 0.12535663767803926,
+      "peg_y": 0.04779689316272523,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.007581627535038257,
+      "nut_y": 0.23993953821771935,
+      "nut_yaw": -0.12655860914120787,
+      "peg_x": 0.11562278201582318,
+      "peg_y": -0.07498034978801713,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.018515973850045206,
+      "nut_y": 0.16923951702809992,
+      "nut_yaw": -1.5379932044338498,
+      "peg_x": 0.125213599214635,
+      "peg_y": 0.0860131014633303,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.02627557444309947,
+      "nut_y": -0.10110389585298696,
+      "nut_yaw": -0.3675376150890908,
+      "peg_x": 0.119935314919772,
+      "peg_y": -0.10927593357827235,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.037971692454886755,
+      "nut_y": 0.2444154232765075,
+      "nut_yaw": 0.6168904381968372,
+      "peg_x": -0.04252177474755841,
+      "peg_y": 0.0013342166088200769,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.046827015863945345,
+      "nut_y": -0.19789206128101156,
+      "nut_yaw": -2.1799821468698477,
+      "peg_x": 0.2782943753139987,
+      "peg_y": 0.09354419692363386,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.10208999945556538,
+      "nut_y": -0.1308402588318699,
+      "nut_yaw": -2.8849373993364695,
+      "peg_x": 0.1455719158786902,
+      "peg_y": -0.13956169041788488,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.026791534850792928,
+      "nut_y": -0.043655282032404125,
+      "nut_yaw": -1.2731359524586428,
+      "peg_x": 0.19397225932131693,
+      "peg_y": 0.06032560225378819,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.021590937046319578,
+      "nut_y": 0.05495334735652313,
+      "nut_yaw": 2.1830643260699123,
+      "peg_x": 0.23124201479230852,
+      "peg_y": 0.1792669805841433,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.026761164643140586,
+      "nut_y": 0.04393593320291572,
+      "nut_yaw": 3.1028138274888395,
+      "peg_x": 0.27605948579330974,
+      "peg_y": 0.026958501387333744,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.04724212821020274,
+      "nut_y": 0.043613347622171394,
+      "nut_yaw": 2.9498417509653523,
+      "peg_x": 0.07888924884751428,
+      "peg_y": -0.08556261948247182,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.11130767397111191,
+      "nut_y": 0.05440436236243529,
+      "nut_yaw": 0.47688638070672207,
+      "peg_x": 0.07258528388643412,
+      "peg_y": 0.19023176217112636,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.11326442353941465,
+      "nut_y": 0.07079104746602394,
+      "nut_yaw": 1.0907540158667537,
+      "peg_x": 0.2939235205824251,
+      "peg_y": -0.13172907154592112,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.07335567511104722,
+      "nut_y": 0.07728051436165484,
+      "nut_yaw": 2.84448187271048,
+      "peg_x": 0.13704471381881259,
+      "peg_y": -0.11062621540690093,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.10584021399874284,
+      "nut_y": -0.015146642678314531,
+      "nut_yaw": -0.4173318085347577,
+      "peg_x": 0.22964274181725894,
+      "peg_y": 0.10011861840871455,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.07830187558643831,
+      "nut_y": 0.24177480538810497,
+      "nut_yaw": 2.5303085871373208,
+      "peg_x": 0.03654415723127441,
+      "peg_y": -0.1437571283508007,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.09896671071631723,
+      "nut_y": -0.20220887881280603,
+      "nut_yaw": -1.8951295926104335,
+      "peg_x": 0.18151047202678897,
+      "peg_y": -0.06519285479149245,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.06272769017705777,
+      "nut_y": 0.07976504746980273,
+      "nut_yaw": -1.9613634464272005,
+      "peg_x": 0.19584435536455544,
+      "peg_y": -0.15405989272231513,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.07230191220686503,
+      "nut_y": -0.09545834364099015,
+      "nut_yaw": -2.4743687202109053,
+      "peg_x": 0.25934348959894293,
+      "peg_y": 0.1188410749900532,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.03568036699536398,
+      "nut_y": 0.18329468570014124,
+      "nut_yaw": 1.4677767211902708,
+      "peg_x": 0.16795104576686812,
+      "peg_y": 0.19195789845174877,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.06522007921641002,
+      "nut_y": -0.0175522823228986,
+      "nut_yaw": 0.4299058108180014,
+      "peg_x": -0.01741744134260928,
+      "peg_y": 0.1325106574609724,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.1058998661519305,
+      "nut_y": 0.03917688435350286,
+      "nut_yaw": -1.9243813571315878,
+      "peg_x": 0.2373123683861131,
+      "peg_y": -0.0213215281239853,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.04904336946574256,
+      "nut_y": -0.1397717364426911,
+      "nut_yaw": -0.9973673003225958,
+      "peg_x": 0.026332960192459953,
+      "peg_y": 0.058854492773924294,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.00010048661891981503,
+      "nut_y": -0.10963742142050384,
+      "nut_yaw": 0.47094853644104795,
+      "peg_x": 0.1745565258235168,
+      "peg_y": 0.018940623243461463,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.017989875036839104,
+      "nut_y": -0.17416321874713278,
+      "nut_yaw": -0.12691958106191814,
+      "peg_x": 0.18764162517065455,
+      "peg_y": -0.0031631962964871474,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.09223005889060353,
+      "nut_y": -0.01358420149516923,
+      "nut_yaw": 0.15298043093982505,
+      "peg_x": -0.007062648970513757,
+      "peg_y": 0.12803801991038072,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.05084118464222348,
+      "nut_y": -0.21852547504909653,
+      "nut_yaw": -2.9319149349512768,
+      "peg_x": 0.15352822168795013,
+      "peg_y": 0.09433480672960459,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.0816629262252659,
+      "nut_y": 0.09045579219695354,
+      "nut_yaw": 0.16742539671888013,
+      "peg_x": 0.24257105822904232,
+      "peg_y": 0.1379642922801227,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.1088759042991408,
+      "nut_y": -0.17565871249218706,
+      "nut_yaw": -2.0267330731334665,
+      "peg_x": 0.29932715604226123,
+      "peg_y": -0.06829064923705844,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.042167910180935186,
+      "nut_y": 0.23885215014867445,
+      "nut_yaw": 1.8165182291713862,
+      "peg_x": 0.012423610648133424,
+      "peg_y": -0.037392767511115865,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.0385481181129111,
+      "nut_y": -0.2420456260301127,
+      "nut_yaw": -1.5016818418314772,
+      "peg_x": -0.09413500272523959,
+      "peg_y": 0.06627637784745521,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.1058528593585704,
+      "nut_y": 0.20901069429216584,
+      "nut_yaw": -1.4756695543578133,
+      "peg_x": -0.0005816166347228646,
+      "peg_y": 0.07584624931613704,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.11418800943657058,
+      "nut_y": -0.08582626093245455,
+      "nut_yaw": -0.894172784254184,
+      "peg_x": 0.28559434847580856,
+      "peg_y": 0.1486996597774632,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.005911964526494923,
+      "nut_y": 0.13289890574405105,
+      "nut_yaw": -1.5861999430456386,
+      "peg_x": 0.07114700717883041,
+      "peg_y": -0.14290570649701553,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.09139345022496616,
+      "nut_y": 0.15282994773112135,
+      "nut_yaw": -2.809924355837496,
+      "peg_x": 0.20152917323808958,
+      "peg_y": -0.052432115265566154,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.07345923058599872,
+      "nut_y": 0.2036503460950716,
+      "nut_yaw": 1.064437413524451,
+      "peg_x": 0.24841484151566337,
+      "peg_y": -0.16080205047826668,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": 0.10157160274537295,
+      "nut_y": 0.19734771072555418,
+      "nut_yaw": 0.2302308745146009,
+      "peg_x": -0.09776536987405163,
+      "peg_y": 0.187084411281004,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.065494573154707,
+      "nut_y": 0.1754684417718605,
+      "nut_yaw": 2.6859327937696538,
+      "peg_x": 0.1789770385156577,
+      "peg_y": 0.19833677851112363,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.05418814850022054,
+      "nut_y": 0.09795304519168913,
+      "nut_yaw": 1.681994830949546,
+      "peg_x": -0.032453383431409355,
+      "peg_y": -0.15449338124512943,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.027055122683716765,
+      "nut_y": 0.04888720428791432,
+      "nut_yaw": 0.8373227111540102,
+      "peg_x": 0.20059142456852594,
+      "peg_y": 0.07896018061632298,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    },
+    {
+      "nut_x": -0.013052265439571262,
+      "nut_y": 0.20321185599740677,
+      "nut_yaw": -1.7935204817078632,
+      "peg_x": 0.1085165572480738,
+      "peg_y": 0.11459076595949724,
+      "provenance": "baseline_uniform_r3_policy_rollout"
+    }
+  ],
+  "_meta": {
+    "task": "square_broad",
+    "n_states": 100,
+    "generator": "<local-path>/make_square_broad_r3_prep_inputs.py",
+    "min_clearance": 0.13263,
+    "r3_diagnostic_sobol_indices": [
+      700,
+      799
+    ],
+    "r3_sobol_indices": [
+      800,
+      899
+    ],
+    "sobol_block_note": "R3 diagnostics use Sobol 700-799 (the R2 diagnostics and reference used 400-599, the R2 Sobol-arm fill 600-674); coverage reference 800-899.",
+    "disjoint_from": [
+      "<local-path>/square_broad_baseline_uniform_r0.json",
+      "<local-path>/square_broad_sobol_r0.json",
+      "<local-path>/square_broad_sobol_r1_diagnostic_sobol_200_399.json",
+      "<local-path>/square_broad_baseline_uniform_r1_policy_rollout.json",
+      "<local-path>/square_broad_baseline_uniform_r1.json",
+      "<local-path>/square_broad_mulligan_r1.json",
+      "<local-path>/square_broad_sobol_r1.json",
+      "<local-path>/square_broad_mulligan_r2_diagnostic_sobol_400_499.json",
+      "<local-path>/square_broad_baseline_uniform_r2_policy_rollout.json",
+      "<local-path>/square_broad_sobol_r2_sobol_500_599.json",
+      "<local-path>/square_broad_baseline_uniform_r2.json",
+      "<local-path>/square_broad_sobol_r2.json",
+      "<local-path>/square_broad_mulligan_r2.json",
+      "<local-path>/square_broad_valid_sobol30k_seed2026052499.json"
+    ],
+    "source": "baseline_uniform_r3_policy_rollout",
+    "policy_source": "baseline_uniform_no_cf_r2_human_only_seed1",
+    "policy_artifact": "mulligan/sim-square-broad-r02-baseline-idql/seed-1",
+    "purpose": "R3 baseline policy rollouts (diagnostics and critic training data)",
+    "seed": 202606061,
+    "pairwise_min_periodic_l2": 0.05423498215152905,
+    "disjoint_reports": [
+      {
+        "path": "<local-path>/square_broad_baseline_uniform_r0.json",
+        "n_states": 200,
+        "min_periodic_l2": 0.06876246569744261
+      },
+      {
+        "path": "<local-path>/square_broad_sobol_r0.json",
+        "n_states": 200,
+        "min_periodic_l2": 0.08701350637621441
+      },
+      {
+        "path": "<local-path>/square_broad_sobol_r1_diagnostic_sobol_200_399.json",
+        "n_states": 200,
+        "min_periodic_l2": 0.06077121298538161
+      },
+      {
+        "path": "<local-path>/square_broad_baseline_uniform_r1_policy_rollout.json",
+        "n_states": 200,
+        "min_periodic_l2": 0.05036247831943288
+      },
+      {
+        "path": "<local-path>/square_broad_baseline_uniform_r1.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.05036247831943288
+      },
+      {
+        "path": "<local-path>/square_broad_mulligan_r1.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.06077121298538161
+      },
+      {
+        "path": "<local-path>/square_broad_sobol_r1.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.06077121298538161
+      },
+      {
+        "path": "<local-path>/square_broad_mulligan_r2_diagnostic_sobol_400_499.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.07936127879578031
+      },
+      {
+        "path": "<local-path>/square_broad_baseline_uniform_r2_policy_rollout.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.0769323296358751
+      },
+      {
+        "path": "<local-path>/square_broad_sobol_r2_sobol_500_599.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.06685063636586192
+      },
+      {
+        "path": "<local-path>/square_broad_baseline_uniform_r2.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.0769323296358751
+      },
+      {
+        "path": "<local-path>/square_broad_sobol_r2.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.07936127879578031
+      },
+      {
+        "path": "<local-path>/square_broad_mulligan_r2.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.07936127879578031
+      },
+      {
+        "path": "<local-path>/square_broad_valid_sobol30k_seed2026052499.json",
+        "n_states": 30000,
+        "min_periodic_l2": 0.024426084685674174
+      }
+    ]
+  }
+}

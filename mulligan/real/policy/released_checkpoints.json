@@ -1,0 +1,516 @@
+{
+  "description": "Released real-robot checkpoints (Hugging Face repo + pinned revision) and, for each IDQL critic, the DP actor it was trained against (dp_checkpoint, a release id) and the released DP its metadata.json dp_artifact resolves to (dp_repo, dp_revision).",
+  "checkpoints": [
+    {
+      "repo": "mulligan/real-marker-d2-c05-collector-idql-critic",
+      "revision": "ed9ec82dc434fcbaf87faa1f148c5bc687f4f018",
+      "kind": "idql-critic",
+      "subfolder": null,
+      "dp_repo": "mulligan/real-marker-d2-r04-mulligan-dp",
+      "dp_revision": "86e4acd0de60f7d686a3ba1bfb148f7aa5704625",
+      "dp_resolution": "exact"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r00-baseline-dp",
+      "revision": "c9d0d2de62500538d29148409cc75dc256673189",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r00-sobol-dp",
+      "revision": "1a42420dd0a60e5392bbfd41592207f6e5afdfa2",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r01-baseline-dp",
+      "revision": "4cdaef1117c8f8ba6fd4c337c917377a6d020e82",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r01-mulligan-no-cf-dp",
+      "revision": "fbb98c1f423735693a9c90f86526c3135a5716d4",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r01-mulligan-dp",
+      "revision": "fc6579ee9694958f5ed6c40f901092666bb3f53e",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r02-baseline-dp",
+      "revision": "235fae559d4f1cb37a0623187f853f808d577f83",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r02-mulligan-no-cf-dp",
+      "revision": "ecc827f9c727855e12368ec1d5853692187da97b",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r02-mulligan-dp",
+      "revision": "75eac3bc9b96ab316c8aa26f455132c30ef6766e",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r02-mulligan-idql-critic",
+      "revision": "b5d06fac21260c3ada8c75098104fd43ffcd6f1a",
+      "kind": "idql-critic",
+      "subfolder": null,
+      "dp_repo": "mulligan/real-marker-d2-r02-mulligan-dp",
+      "dp_revision": "75eac3bc9b96ab316c8aa26f455132c30ef6766e",
+      "dp_resolution": "exact"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r03-baseline-dp",
+      "revision": "7414bcd82936fdcb22e75341de1c6669ed1c3cd9",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r03-mulligan-dp",
+      "revision": "0f03dc163abd47eeef0bee1ab51bd0c9304c6532",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r03-mulligan-idql-critic",
+      "revision": "aa3316f5f9a24bd95215dfc4b2fd0e0d25f4d18b",
+      "kind": "idql-critic",
+      "subfolder": null,
+      "dp_repo": "mulligan/real-marker-d2-r03-mulligan-dp",
+      "dp_revision": "0f03dc163abd47eeef0bee1ab51bd0c9304c6532",
+      "dp_resolution": "exact"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r04-baseline-dp",
+      "revision": "5fd5fda05a659e364fc14ed49352e9274f58c304",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r04-mulligan-dp",
+      "revision": "86e4acd0de60f7d686a3ba1bfb148f7aa5704625",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r04-mulligan-idql-critic",
+      "revision": "cb6739de2bf922889f89f1f56cb506a26bac0374",
+      "kind": "idql-critic",
+      "subfolder": null,
+      "dp_repo": "mulligan/real-marker-d2-r04-mulligan-dp",
+      "dp_revision": "86e4acd0de60f7d686a3ba1bfb148f7aa5704625",
+      "dp_resolution": "exact"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r05-baseline-dp",
+      "revision": "4ba17577900bc1475fc9df65472cc24938afadb7",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r05-mulligan-dp",
+      "revision": "cb461d1bb7fe776de45b45d305b98cfe82bc67f6",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r05-mulligan-idql-critic",
+      "revision": "abce857ca6fc88c06f941ed9082c5a68e8c21359",
+      "kind": "idql-critic",
+      "subfolder": null,
+      "dp_repo": "mulligan/real-marker-d2-r05-mulligan-dp",
+      "dp_revision": "cb461d1bb7fe776de45b45d305b98cfe82bc67f6",
+      "dp_resolution": "exact"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r05-mulligan-idql-critic-screen-b02",
+      "revision": "a0b56515356e1a350ebd0841f50d3dcbd2a4c59c",
+      "kind": "idql-critic",
+      "subfolder": null,
+      "dp_repo": "mulligan/real-marker-d2-r05-mulligan-dp",
+      "dp_revision": "cb461d1bb7fe776de45b45d305b98cfe82bc67f6",
+      "dp_resolution": "exact"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r00-baseline-dp",
+      "revision": "d5f20c5ae016a59f7669d55025eacc9d5dbd82de",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r00-sobol-dp",
+      "revision": "c2ea926ca2a2d9ef2b3aae9b623400d8aec45a3a",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r01-baseline-dp",
+      "revision": "cdd3442d0e7edbe8b3989dc5c20f2cb1042d4fcb",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r01-mulligan-dp",
+      "revision": "7fec775d7d7c59586ab9a250505f85e4be75cb8c",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r02-baseline-dp",
+      "revision": "e23f33b20e078b595026e66cc83c231405bafe8d",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r02-mulligan-dp",
+      "revision": "f27fb2fc46bd5b2539033288e584de52576bb53e",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r03-baseline-dp",
+      "revision": "a9ef81f692a1c9fde5c2f9a652ac9bf925ad9a84",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r03-mulligan-dp",
+      "revision": "7524c0175d206c966402ac20d9f7c228755988fa",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r04-baseline-dp",
+      "revision": "e39b62c5fb7e98aea3ceaf5691581cc24474df3b",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r04-mulligan-dp",
+      "revision": "b534104c842d4e2c47129c7d924e508706dff350",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r04-mulligan-idql-critic",
+      "revision": "9bd9d96e7ec6792797013adca0770d5e052de692",
+      "kind": "idql-critic",
+      "subfolder": null,
+      "dp_repo": "mulligan/real-routing-d2-velocity-r04-mulligan-dp",
+      "dp_revision": "b534104c842d4e2c47129c7d924e508706dff350",
+      "dp_resolution": "exact"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r05-baseline-dp",
+      "revision": "09c53210b212c825ac00b7273de7bf48a60a40b1",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r05-mulligan-dp",
+      "revision": "567aa6a039b70851f01fa4a79ada12f2caa09463",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r05-mulligan-idql-critic",
+      "revision": "bc42896bd00574106cf8cbbed33bfaa670a6f071",
+      "kind": "idql-critic",
+      "subfolder": null,
+      "dp_repo": "mulligan/real-routing-d2-velocity-r05-mulligan-dp",
+      "dp_revision": "567aa6a039b70851f01fa4a79ada12f2caa09463",
+      "dp_checkpoint": "unreleased/real/checkpoint-0002",
+      "dp_resolution": "version-mismatch"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r06-baseline-dp",
+      "revision": "ccaf4140afc67a45ff78053047dbe15e72eeb3c7",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r06-mulligan-dp",
+      "revision": "bde725bc5d8f33cdd05a4e0a9aa3f78a2089bb96",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r06-mulligan-idql-critic",
+      "revision": "f9ec14ac8747c14e5f8e19c7693ba25e9e6b4cdd",
+      "kind": "idql-critic",
+      "subfolder": null,
+      "dp_repo": "mulligan/real-routing-d2-velocity-r06-mulligan-dp",
+      "dp_revision": "bde725bc5d8f33cdd05a4e0a9aa3f78a2089bb96",
+      "dp_resolution": "exact"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r07-baseline-dp",
+      "revision": "af391b1a1d950ee85e7d153b35c1aa097318afc8",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r07-mulligan-dp",
+      "revision": "1493187cab70d83942a1aca9b056f6028c91fbbf",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r07-mulligan-idql-critic",
+      "revision": "4386087aef4bc879096f91c058853ff66a7fc935",
+      "kind": "idql-critic",
+      "subfolder": null,
+      "dp_repo": "mulligan/real-routing-d2-velocity-r07-mulligan-dp",
+      "dp_revision": "1493187cab70d83942a1aca9b056f6028c91fbbf",
+      "dp_resolution": "exact"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-r00-baseline-dp",
+      "revision": "62c85e172f1e5adf78b872828ffd26f6023a562a",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-r00-sobol-dp",
+      "revision": "45a65671428e0e96ad203b5f2d0611251079ac1c",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-r01-baseline-dp",
+      "revision": "67c7b6ba9f57ada645985e33818221f928eeccfa",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-r01-mulligan-dp",
+      "revision": "3a9bc6b750493d290ee828cb295de6936afe855b",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-r02-baseline-dp",
+      "revision": "c3707104e99ad2197c5b080fad8e53b2a45cdcf8",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-r02-mulligan-dp",
+      "revision": "43c08bd24144b99a24a2134a8f7ef4ea110def96",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-r03-baseline-dp",
+      "revision": "d4804b09817c1c5677603b6791a6598d6a7520ef",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-r03-mulligan-dp",
+      "revision": "b54041d126e611b4ccb39b45e8d2ef0b6183f4e5",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-r03-mulligan-idql-critic",
+      "revision": "3ca1bc5d9f7d50d86ec7e420f89279d0bca8e2e1",
+      "kind": "idql-critic",
+      "subfolder": null,
+      "dp_repo": "mulligan/real-routing-d2-r03-mulligan-dp",
+      "dp_revision": "b54041d126e611b4ccb39b45e8d2ef0b6183f4e5",
+      "dp_resolution": "exact"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-r04-baseline-dp",
+      "revision": "991f8c4309ec4b794d4db111cd5240fbf02315bf",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-r04-mulligan-dp",
+      "revision": "530ad1344471139633ab77b74c91e367b788d673",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-r04-mulligan-idql-critic",
+      "revision": "4b915924e9001101042492bd4b2b94467a783e17",
+      "kind": "idql-critic",
+      "subfolder": null,
+      "dp_repo": "mulligan/real-routing-d2-r04-mulligan-dp",
+      "dp_revision": "530ad1344471139633ab77b74c91e367b788d673",
+      "dp_resolution": "exact"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-r05-baseline-dp",
+      "revision": "9f515604321c31ef776f4e2e02cd3ff0d92fe40a",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-r05-mulligan-dp",
+      "revision": "0560377e95ab94bed23456ff17d6ee27cc0a9180",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-routing-d2-r05-mulligan-idql-critic",
+      "revision": "548a254c7d1e6ae641971e8cebcc3ca764b50205",
+      "kind": "idql-critic",
+      "subfolder": null,
+      "dp_repo": "mulligan/real-routing-d2-r05-mulligan-dp",
+      "dp_revision": "0560377e95ab94bed23456ff17d6ee27cc0a9180",
+      "dp_resolution": "exact"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r00-baseline-dp",
+      "revision": "e1b018f6e4b51da2cf2592ef634e44b5fe474399",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-square-d2-r00-sobol-dp",
+      "revision": "76191643e3fdc608c3db6115cc917d0761c3a3a8",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-square-d2-r01-baseline-dp",
+      "revision": "6fadc6210255a8eeee12dcee891a554eed85f734",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-square-d2-r01-mulligan-no-cf-dp",
+      "revision": "f88d73226dbd50f549f611972c3619c8fe117d03",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-square-d2-r01-mulligan-dp",
+      "revision": "d76638fcdc601d4240f0b3e72fcba178d61af123",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-square-d2-r02-baseline-dp",
+      "revision": "d0f7d89dafd57fcac18467ee8921c392ad7e30f0",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-square-d2-r02-mulligan-no-cf-dp",
+      "revision": "0b5bbaa1f71e96656c6a05d3652f070902aeef1c",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-square-d2-r02-mulligan-dp",
+      "revision": "1361ea35adc586e1cca5b39aa85be53aeb9d488e",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-square-d2-r03-baseline-dp",
+      "revision": "f5eca435adf454c4bd7a05f616614416633c6041",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-square-d2-r03-mulligan-no-cf-dp",
+      "revision": "b2ebe205d4df28c7713a873df3765af7e725e1ae",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-square-d2-r03-mulligan-dp",
+      "revision": "6ec0f2e22ce9835a3bac1ea5f485b1ed26c554da",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-square-d2-r03-mulligan-idql-critic",
+      "revision": "409a4b50a2ed922e872954f8972fa25cb09ca748",
+      "kind": "idql-critic",
+      "subfolder": null,
+      "dp_repo": "mulligan/real-square-d2-r03-mulligan-dp",
+      "dp_revision": "6ec0f2e22ce9835a3bac1ea5f485b1ed26c554da",
+      "dp_resolution": "exact"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r04-baseline-dp",
+      "revision": "35fcb31eef4ecf573b69a1435b458e009708ef38",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-square-d2-r04-mulligan-no-cf-dp",
+      "revision": "0d9423bf9fad8d9caa062d8b26e7845a2583a140",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-square-d2-r04-mulligan-dp",
+      "revision": "8b905b3c57419cec77a51348e5647112d5d30a35",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-square-d2-r04-mulligan-idql-critic",
+      "revision": "6e178583609e48df511e6566bee48bbfeed37bfd",
+      "kind": "idql-critic",
+      "subfolder": null,
+      "dp_repo": "mulligan/real-square-d2-r04-mulligan-dp",
+      "dp_revision": "8b905b3c57419cec77a51348e5647112d5d30a35",
+      "dp_resolution": "exact"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r05-baseline-dp",
+      "revision": "1ba724715a56f33ce1860189220dab9b09409a66",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-square-d2-r05-mulligan-dp",
+      "revision": "a00c68f6096a66a3deda038709493148b3168047",
+      "kind": "dp-actor",
+      "subfolder": null
+    },
+    {
+      "repo": "mulligan/real-square-d2-r05-mulligan-idql-critic",
+      "revision": "a83f964a2e27771882edd05efad014ba7ce33dff",
+      "kind": "idql-critic",
+      "subfolder": null,
+      "dp_repo": "mulligan/real-square-d2-r05-mulligan-dp",
+      "dp_revision": "a00c68f6096a66a3deda038709493148b3168047",
+      "dp_resolution": "exact"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r05-mulligan-idql-critic-screen-b02",
+      "revision": "e13e19c86b2f8585f8884b6e3a1e65621dd9b668",
+      "kind": "idql-critic",
+      "subfolder": null,
+      "dp_repo": "mulligan/real-square-d2-r05-mulligan-dp",
+      "dp_revision": "a00c68f6096a66a3deda038709493148b3168047",
+      "dp_resolution": "exact"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r05-mulligan-idql-critic-screen-b03",
+      "revision": "198e4e9b12b01f4efca32f61e091cd6ab7dc8d28",
+      "kind": "idql-critic",
+      "subfolder": null,
+      "dp_repo": "mulligan/real-square-d2-r05-mulligan-dp",
+      "dp_revision": "a00c68f6096a66a3deda038709493148b3168047",
+      "dp_resolution": "exact"
+    }
+  ]
+}

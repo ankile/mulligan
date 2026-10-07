@@ -1,0 +1,100 @@
+name: Network checks
+
+# Tests marked `network`: they read the public Hugging Face release (and other
+# public remote data) and check it against the frozen files in this repo. Kept off
+# pull requests so a Hub outage cannot block merges; runs weekly and on demand.
+on:
+  schedule:
+    - cron: "41 10 * * 1"
+  workflow_dispatch:
+
+concurrency:
+  group: network-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  MUJOCO_GL: egl
+  PYOPENGL_PLATFORM: egl
+
+jobs:
+  network:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Free up disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet
+          sudo rm -rf /usr/local/lib/android
+          sudo rm -rf /opt/ghc
+          sudo rm -rf /opt/hostedtoolcache/CodeQL
+          sudo docker image prune --all --force
+          df -h
+
+      - name: Checkout code
+        uses: actions/checkout@v7
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgl1 libglib2.0-0 ffmpeg libegl1
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v9.0.0
+        with:
+          enable-cache: true
+          prune-cache: true
+
+      - name: Install package and dependencies (uv sync --frozen --all-extras)
+        run: uv sync --frozen --all-extras
+
+      - name: Run network tests
+        run: |
+          uv run --no-sync python -m pytest -v --tb=short --color=yes -m network
+
+  # Rebuild every paper figure and appendix table from the published paper evidence and
+  # check them (paper/figures_manifest.json, the frozen manuscript tables). Manual only.
+  paper-rebuild:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v7
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgl1 libglib2.0-0 ffmpeg libegl1 poppler-utils ghostscript
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v9.0.0
+        with:
+          enable-cache: true
+          prune-cache: true
+
+      - name: Install package and dependencies (uv sync --frozen --all-extras)
+        run: uv sync --frozen --all-extras
+
+      # The runner image ships Google Chrome, which prints the teaser.
+      - name: Rebuild and check the figures
+        run: |
+          uv run --no-sync python -m paper.figures
+          uv run --no-sync python -m paper.figures --check
+
+      - name: Rebuild and check the appendix tables
+        run: uv run --no-sync python -m paper.appendix.build --check

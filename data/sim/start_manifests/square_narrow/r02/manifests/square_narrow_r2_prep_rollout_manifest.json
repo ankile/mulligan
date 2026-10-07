@@ -1,0 +1,23 @@
+{
+  "experiment": "square_narrow_r2_prep_rollouts",
+  "task": "square_narrow",
+  "rollout_inputs": {
+    "baseline_uniform": {
+      "states": "<local-path>/square_narrow_baseline_uniform_r2_policy_rollout.json",
+      "object_qpos": "<local-path>/square_narrow_baseline_uniform_r2_policy_rollout_object_qpos.npy"
+    },
+    "sobol_policy": {
+      "states": "<local-path>/square_narrow_sobol_r2_diagnostic_sobol_300_399.json",
+      "object_qpos": "<local-path>/square_narrow_sobol_r2_diagnostic_sobol_300_399_object_qpos.npy"
+    },
+    "mulligan_policy": {
+      "states": "<local-path>/square_narrow_sobol_r2_diagnostic_sobol_300_399.json",
+      "object_qpos": "<local-path>/square_narrow_sobol_r2_diagnostic_sobol_300_399_object_qpos.npy"
+    }
+  },
+  "rollout_datasets": {
+    "baseline_uniform": "mulligan/sim-square-narrow-c02-baseline-policy-rollouts",
+    "sobol_policy": "mulligan/sim-square-narrow-c02-sobol-policy-rollouts",
+    "mulligan_policy": "mulligan/sim-square-narrow-c02-mulligan-policy-rollouts"
+  }
+}

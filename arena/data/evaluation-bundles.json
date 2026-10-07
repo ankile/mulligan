@@ -1,0 +1,945 @@
+{
+ "description": "The two simulation evaluation bundles and their DIVL cells. A cell is evaluated for each of `seeds` on one locked grid of initial states (`grid.id`, a key of `grids` in configs/sim/recipes.json); `family` is `hil` (human-in-the-loop collection arms) or `autonomous_iql` (autonomous-collection baselines). `revision` is the repo's pin in release/revisions.json.",
+ "bundles": [
+  {
+   "repo": "mulligan/sim-square-narrow-r00-r03-eval",
+   "revision": "8826cfbdae8bbc7e03014753e85f4ea8e90cc056",
+   "tag": "release-1",
+   "episodes": 880000,
+   "evaluations": 110,
+   "mainline_seed_results": 160,
+   "cells": [
+    {
+     "cell": "square_narrow_r1_auto_iql_n32",
+     "family": "autonomous_iql",
+     "round": "r1",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_narrow_sobol8k",
+      "manifest_hash": "45a9963f5592f495477c44beabe8d3c3e3173e920c2b2ba009c1e69532e53b17",
+      "file_sha256": "068b2deb11e553cdedfb0f789081b6fd7c4112aa7e22ecc3b655f90492168476",
+      "num_points": 8000,
+      "num_cells": 80,
+      "shards": 1
+     }
+    },
+    {
+     "cell": "square_narrow_r1_auto_iql_success_bc_n32",
+     "family": "autonomous_iql",
+     "round": "r1",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_narrow_sobol8k",
+      "manifest_hash": "45a9963f5592f495477c44beabe8d3c3e3173e920c2b2ba009c1e69532e53b17",
+      "file_sha256": "068b2deb11e553cdedfb0f789081b6fd7c4112aa7e22ecc3b655f90492168476",
+      "num_points": 8000,
+      "num_cells": 80,
+      "shards": 1
+     }
+    },
+    {
+     "cell": "square_narrow_r2_auto_iql_n32",
+     "family": "autonomous_iql",
+     "round": "r2",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_narrow_sobol8k",
+      "manifest_hash": "45a9963f5592f495477c44beabe8d3c3e3173e920c2b2ba009c1e69532e53b17",
+      "file_sha256": "068b2deb11e553cdedfb0f789081b6fd7c4112aa7e22ecc3b655f90492168476",
+      "num_points": 8000,
+      "num_cells": 80,
+      "shards": 1
+     }
+    },
+    {
+     "cell": "square_narrow_r2_auto_iql_success_bc_n32",
+     "family": "autonomous_iql",
+     "round": "r2",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_narrow_sobol8k",
+      "manifest_hash": "45a9963f5592f495477c44beabe8d3c3e3173e920c2b2ba009c1e69532e53b17",
+      "file_sha256": "068b2deb11e553cdedfb0f789081b6fd7c4112aa7e22ecc3b655f90492168476",
+      "num_points": 8000,
+      "num_cells": 80,
+      "shards": 1
+     }
+    },
+    {
+     "cell": "square_narrow_r3_auto_iql_n32",
+     "family": "autonomous_iql",
+     "round": "r3",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_narrow_sobol8k",
+      "manifest_hash": "45a9963f5592f495477c44beabe8d3c3e3173e920c2b2ba009c1e69532e53b17",
+      "file_sha256": "068b2deb11e553cdedfb0f789081b6fd7c4112aa7e22ecc3b655f90492168476",
+      "num_points": 8000,
+      "num_cells": 80,
+      "shards": 1
+     }
+    },
+    {
+     "cell": "square_narrow_r3_auto_iql_success_bc_n32",
+     "family": "autonomous_iql",
+     "round": "r3",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_narrow_sobol8k",
+      "manifest_hash": "45a9963f5592f495477c44beabe8d3c3e3173e920c2b2ba009c1e69532e53b17",
+      "file_sha256": "068b2deb11e553cdedfb0f789081b6fd7c4112aa7e22ecc3b655f90492168476",
+      "num_points": 8000,
+      "num_cells": 80,
+      "shards": 1
+     }
+    },
+    {
+     "cell": "square_narrow_r0_baseline_uniform",
+     "family": "hil",
+     "round": "r0",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_narrow_equal_tile",
+      "manifest_hash": "41166760da933ccca99e5ac01694fbcb1ab2042312abcdded7ac7a67a724dbea",
+      "file_sha256": "d8ee57bff9e88fbe4ba2807d8d9ae672b2f62ccd6af3c9c02baeccf9f7117624",
+      "num_points": 8000,
+      "num_cells": 80,
+      "shards": 1
+     }
+    },
+    {
+     "cell": "square_narrow_r0_sobol",
+     "family": "hil",
+     "round": "r0",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_narrow_equal_tile",
+      "manifest_hash": "41166760da933ccca99e5ac01694fbcb1ab2042312abcdded7ac7a67a724dbea",
+      "file_sha256": "d8ee57bff9e88fbe4ba2807d8d9ae672b2f62ccd6af3c9c02baeccf9f7117624",
+      "num_points": 8000,
+      "num_cells": 80,
+      "shards": 1
+     }
+    },
+    {
+     "cell": "square_narrow_r1_baseline_uniform_no_cf_human_only",
+     "family": "hil",
+     "round": "r1",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_narrow_sobol8k",
+      "manifest_hash": "45a9963f5592f495477c44beabe8d3c3e3173e920c2b2ba009c1e69532e53b17",
+      "file_sha256": "068b2deb11e553cdedfb0f789081b6fd7c4112aa7e22ecc3b655f90492168476",
+      "num_points": 8000,
+      "num_cells": 80,
+      "shards": 1
+     }
+    },
+    {
+     "cell": "square_narrow_r1_baseline_uniform_no_cf_straddled_auto_success",
+     "family": "hil",
+     "round": "r1",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_narrow_sobol8k",
+      "manifest_hash": "45a9963f5592f495477c44beabe8d3c3e3173e920c2b2ba009c1e69532e53b17",
+      "file_sha256": "068b2deb11e553cdedfb0f789081b6fd7c4112aa7e22ecc3b655f90492168476",
+      "num_points": 8000,
+      "num_cells": 80,
+      "shards": 1
+     }
+    },
+    {
+     "cell": "square_narrow_r1_mulligan_with_cf_human_only",
+     "family": "hil",
+     "round": "r1",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_narrow_sobol8k",
+      "manifest_hash": "45a9963f5592f495477c44beabe8d3c3e3173e920c2b2ba009c1e69532e53b17",
+      "file_sha256": "068b2deb11e553cdedfb0f789081b6fd7c4112aa7e22ecc3b655f90492168476",
+      "num_points": 8000,
+      "num_cells": 80,
+      "shards": 1
+     }
+    },
+    {
+     "cell": "square_narrow_r1_mulligan_no_cf_human_only",
+     "family": "hil",
+     "round": "r1",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_narrow_sobol8k",
+      "manifest_hash": "45a9963f5592f495477c44beabe8d3c3e3173e920c2b2ba009c1e69532e53b17",
+      "file_sha256": "068b2deb11e553cdedfb0f789081b6fd7c4112aa7e22ecc3b655f90492168476",
+      "num_points": 8000,
+      "num_cells": 80,
+      "shards": 1
+     }
+    },
+    {
+     "cell": "square_narrow_r1_sobol_with_cf_human_only",
+     "family": "hil",
+     "round": "r1",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_narrow_sobol8k",
+      "manifest_hash": "45a9963f5592f495477c44beabe8d3c3e3173e920c2b2ba009c1e69532e53b17",
+      "file_sha256": "068b2deb11e553cdedfb0f789081b6fd7c4112aa7e22ecc3b655f90492168476",
+      "num_points": 8000,
+      "num_cells": 80,
+      "shards": 1
+     }
+    },
+    {
+     "cell": "square_narrow_r1_sobol_no_cf_human_only",
+     "family": "hil",
+     "round": "r1",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_narrow_sobol8k",
+      "manifest_hash": "45a9963f5592f495477c44beabe8d3c3e3173e920c2b2ba009c1e69532e53b17",
+      "file_sha256": "068b2deb11e553cdedfb0f789081b6fd7c4112aa7e22ecc3b655f90492168476",
+      "num_points": 8000,
+      "num_cells": 80,
+      "shards": 1
+     }
+    },
+    {
+     "cell": "square_narrow_r2_baseline_uniform_no_cf_human_only",
+     "family": "hil",
+     "round": "r2",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_narrow_sobol8k",
+      "manifest_hash": "45a9963f5592f495477c44beabe8d3c3e3173e920c2b2ba009c1e69532e53b17",
+      "file_sha256": "068b2deb11e553cdedfb0f789081b6fd7c4112aa7e22ecc3b655f90492168476",
+      "num_points": 8000,
+      "num_cells": 80,
+      "shards": 1
+     }
+    },
+    {
+     "cell": "square_narrow_r2_mulligan_with_cf_human_only",
+     "family": "hil",
+     "round": "r2",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_narrow_sobol8k",
+      "manifest_hash": "45a9963f5592f495477c44beabe8d3c3e3173e920c2b2ba009c1e69532e53b17",
+      "file_sha256": "068b2deb11e553cdedfb0f789081b6fd7c4112aa7e22ecc3b655f90492168476",
+      "num_points": 8000,
+      "num_cells": 80,
+      "shards": 1
+     }
+    },
+    {
+     "cell": "square_narrow_r2_mulligan_no_cf_human_only",
+     "family": "hil",
+     "round": "r2",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_narrow_sobol8k",
+      "manifest_hash": "45a9963f5592f495477c44beabe8d3c3e3173e920c2b2ba009c1e69532e53b17",
+      "file_sha256": "068b2deb11e553cdedfb0f789081b6fd7c4112aa7e22ecc3b655f90492168476",
+      "num_points": 8000,
+      "num_cells": 80,
+      "shards": 1
+     }
+    },
+    {
+     "cell": "square_narrow_r3_baseline_uniform_no_cf_human_only",
+     "family": "hil",
+     "round": "r3",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_narrow_sobol8k",
+      "manifest_hash": "45a9963f5592f495477c44beabe8d3c3e3173e920c2b2ba009c1e69532e53b17",
+      "file_sha256": "068b2deb11e553cdedfb0f789081b6fd7c4112aa7e22ecc3b655f90492168476",
+      "num_points": 8000,
+      "num_cells": 80,
+      "shards": 1
+     }
+    },
+    {
+     "cell": "square_narrow_r3_mulligan_with_cf_human_only",
+     "family": "hil",
+     "round": "r3",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_narrow_sobol8k",
+      "manifest_hash": "45a9963f5592f495477c44beabe8d3c3e3173e920c2b2ba009c1e69532e53b17",
+      "file_sha256": "068b2deb11e553cdedfb0f789081b6fd7c4112aa7e22ecc3b655f90492168476",
+      "num_points": 8000,
+      "num_cells": 80,
+      "shards": 1
+     }
+    },
+    {
+     "cell": "square_narrow_r3_mulligan_no_cf_human_only",
+     "family": "hil",
+     "round": "r3",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_narrow_sobol8k",
+      "manifest_hash": "45a9963f5592f495477c44beabe8d3c3e3173e920c2b2ba009c1e69532e53b17",
+      "file_sha256": "068b2deb11e553cdedfb0f789081b6fd7c4112aa7e22ecc3b655f90492168476",
+      "num_points": 8000,
+      "num_cells": 80,
+      "shards": 1
+     }
+    },
+    {
+     "cell": "square_narrow_r3_baseline_uniform_no_cf_human_only_with_c03_rollouts",
+     "family": "hil",
+     "round": "r3_c03_rollouts",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_narrow_sobol8k",
+      "manifest_hash": "45a9963f5592f495477c44beabe8d3c3e3173e920c2b2ba009c1e69532e53b17",
+      "file_sha256": "068b2deb11e553cdedfb0f789081b6fd7c4112aa7e22ecc3b655f90492168476",
+      "num_points": 8000,
+      "num_cells": 80,
+      "shards": 1
+     }
+    },
+    {
+     "cell": "square_narrow_r3_mulligan_with_cf_human_only_no_c03_rollouts",
+     "family": "hil",
+     "round": "r3_c03_rollouts",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_narrow_sobol8k",
+      "manifest_hash": "45a9963f5592f495477c44beabe8d3c3e3173e920c2b2ba009c1e69532e53b17",
+      "file_sha256": "068b2deb11e553cdedfb0f789081b6fd7c4112aa7e22ecc3b655f90492168476",
+      "num_points": 8000,
+      "num_cells": 80,
+      "shards": 1
+     }
+    }
+   ]
+  },
+  {
+   "repo": "mulligan/sim-square-broad-r00-r03-eval",
+   "revision": "79300a38305873d2869abab1538c3ed039bd08f0",
+   "tag": "release-1",
+   "episodes": 3600000,
+   "evaluations": 120,
+   "mainline_seed_results": 160,
+   "cells": [
+    {
+     "cell": "square_broad_r1_auto_iql_n32",
+     "family": "autonomous_iql",
+     "round": "r1",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r1_auto_iql_success_bc_n32",
+     "family": "autonomous_iql",
+     "round": "r1",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r2_auto_iql_n32",
+     "family": "autonomous_iql",
+     "round": "r2",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r2_auto_iql_success_bc_n32",
+     "family": "autonomous_iql",
+     "round": "r2",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r3_auto_iql_n32",
+     "family": "autonomous_iql",
+     "round": "r3",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r3_auto_iql_success_bc_n32",
+     "family": "autonomous_iql",
+     "round": "r3",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r0_baseline_uniform",
+     "family": "hil",
+     "round": "r0",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r0_sobol",
+     "family": "hil",
+     "round": "r0",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r0_first100_baseline_uniform",
+     "family": "hil",
+     "round": "r0_first100",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r0_first100_sobol",
+     "family": "hil",
+     "round": "r0_first100",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r1_baseline_uniform_no_cf_human_only",
+     "family": "hil",
+     "round": "r1",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r1_baseline_uniform_no_cf_straddled_auto_success",
+     "family": "hil",
+     "round": "r1",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r1_mulligan_with_cf_human_only",
+     "family": "hil",
+     "round": "r1",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r1_mulligan_no_cf_human_only",
+     "family": "hil",
+     "round": "r1",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r1_sobol_with_cf_human_only",
+     "family": "hil",
+     "round": "r1",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r1_sobol_no_cf_human_only",
+     "family": "hil",
+     "round": "r1",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r2_baseline_uniform_no_cf_human_only",
+     "family": "hil",
+     "round": "r2",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r2_mulligan_with_cf_human_only",
+     "family": "hil",
+     "round": "r2",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r2_mulligan_no_cf_human_only",
+     "family": "hil",
+     "round": "r2",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r2_sobol_with_cf_human_only",
+     "family": "hil",
+     "round": "r2",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r2_sobol_no_cf_human_only",
+     "family": "hil",
+     "round": "r2",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r3_baseline_uniform_no_cf_human_only",
+     "family": "hil",
+     "round": "r3",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r3_mulligan_with_cf_human_only",
+     "family": "hil",
+     "round": "r3",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    },
+    {
+     "cell": "square_broad_r3_mulligan_no_cf_human_only",
+     "family": "hil",
+     "round": "r3",
+     "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "grid": {
+      "id": "square_broad_sobol30k",
+      "manifest_hash": "e0b5056648639f54189386a92384212d4fb09949bda23b622c10f8427aaa085c",
+      "file_sha256": "304210db9e7b3d175970f846753e2cd26ab59686fef3693c6f24f29c3f55a5e5",
+      "num_points": 30000,
+      "num_cells": 720,
+      "shards": 4
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "files": [
+    {
+      "path": "assets/reset_ranges/marker_d2_clean.png",
+      "sha256": "2f3871a343ee4aac3024d5312f3efc5bcffdbc66fc152ef28bf141b5aaeac1a2",
+      "size": 279991
+    },
+    {
+      "path": "assets/reset_ranges/square_d2_clean.png",
+      "sha256": "459c891124825e0e896d18724206f9ada9d283ca66d2eb364a47816ef431668a",
+      "size": 284973
+    }
+  ],
+  "schema": "mulligan.paper.appendix.inputs.v3"
+}

@@ -1,0 +1,22 @@
+\begin{tabular}{llLcPll}
+    \hline
+    Method                          & Task            & Varies          & DoF & Position range                                           & Yaw                   & Source   \\
+    \hline
+    HiL-SERL~\citep{luo2024hilserl} & IKEA side panel & arm             & 3   & $8$\,cm in $x$, $y$                                      & $1^\circ$             & Tab.\ 6  \\
+    HiL-SERL~\citep{luo2024hilserl} & Cable clipping  & object          & 3   & $4$\,cm in $x$, $y$                                      & $10^\circ$            & Tab.\ 5  \\
+    ConRFT~\citep{chen2025conrft}   & Pick banana     & object          & 2   & $3$\,cm in $x$, $y$                                      & none                  & Tab.\ V  \\
+    ConRFT~\citep{chen2025conrft}   & Insert wheel    & object          & 2   & $2$\,cm in $x$, $y$                                      & none                  & Tab.\ XI \\
+    RL-100~\citep{lei2025rl100}     & Box folding     & object          & 3   & $75{\times}55$\,cm                                       & unstated$^{\ddagger}$ & Suppl.   \\
+    RL-100~\citep{lei2025rl100}     & Orange juicing  & object          & 3   & $29{\times}20$\,cm tray                                  & unstated$^{\ddagger}$ & Suppl.   \\
+    RL-100~\citep{lei2025rl100}     & Pouring         & object + target & 4   & cup $39{\times}16$, plate $28{\times}20$\,cm             & none                  & Suppl.   \\
+    RL-100~\citep{lei2025rl100}     & Unscrewing      & object          & 2   & $12.5$\,cm-diam.\ circle                                 & none                  & Suppl.   \\
+    SERL~\citep{luo2024serl}        & Cable routing   & arm             & 2   & $20{\times}20$\,cm                                       & none                  & Tab.\ 2  \\
+    SERL~\citep{luo2024serl}        & PCB insertion   & arm             & 2   & $10{\times}10$\,cm                                       & none                  & Tab.\ 2  \\
+    \hline
+    Ours                            & \marker         & object + target & 5   & pen $15.2{\times}30.5$, holder $5.1{\times}10.2$\,cm     & $360^\circ$           & ---      \\
+    Ours                            & \nut            & object + target & 5   & nut $25.4{\times}45.7$, peg $5.1{\times}10.2$\,cm        & $360^\circ$           & ---      \\
+    Ours                            & \cable          & object + target & 7   & rope $40.6$\,cm in $x$, each clip $40.6{\times}22.9$\,cm & clips $\pm45^\circ$   & ---      \\
+    Ours (sim)                      & \sqnarrow       & object          & 3   & nut $0.5{\times}11.5$\,cm, peg fixed                     & $360^\circ$           & ---      \\
+    Ours (sim)                      & \sqbroad        & object + target & 5   & nut $23.0{\times}51.0$, peg $40.0{\times}40.0$\,cm       & $360^\circ$           & ---      \\
+    \hline
+  \end{tabular}

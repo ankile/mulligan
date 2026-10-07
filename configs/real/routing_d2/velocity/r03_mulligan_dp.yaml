@@ -1,0 +1,67 @@
+# Run: python -m mulligan.real.train.launch configs/real/routing_d2/velocity/r03_mulligan_dp.yaml --output-dir <dir>
+kind: dp-actor
+trainer: mulligan.real.train.policy
+checkpoint:
+  repo: mulligan/real-routing-d2-velocity-r03-mulligan-dp
+  revision: 7524c0175d206c966402ac20d9f7c228755988fa
+  step: 100000
+retrain: exact
+paper:
+  task: Route Cable
+  round: velocity R3
+  arm: HG-DAgger+Mulligan
+  seed: 1
+  results: []
+  evaluations: []
+  collections:
+  - mulligan/real-routing-d2-c04-dagger-mixed
+dataset_revisions:
+  mulligan/real-routing-d2-c00-teleop-sobol: 16a1a3301199918236da525bb30c064c4f28d7f3
+  mulligan/real-routing-d2-c00-teleop-validation: aea89ca1dcde5bf0f3eafba80d4ed6be5c6f16af
+  mulligan/real-routing-d2-c01-dagger-mulligan: cba50487f61ebc907e2ffcc9428187c1e9aaf73d
+  mulligan/real-routing-d2-c02-dagger-mulligan: 794203d5fade5f5bb74579f14cb7b1fbeaf61ba5
+  mulligan/real-routing-d2-c03-dagger-mulligan: c031570959bc6b9d90737d10fc4ba2ec3a70c074
+dataset_episodes: {}
+args:
+  task: routing_d2
+  repo-ids:
+  - mulligan/real-routing-d2-c00-teleop-sobol
+  - mulligan/real-routing-d2-c01-dagger-mulligan
+  - mulligan/real-routing-d2-c02-dagger-mulligan
+  - mulligan/real-routing-d2-c03-dagger-mulligan
+  filter-dagger: true
+  num-workers: 24
+  seed: 1
+  eval-repo-ids:
+  - mulligan/real-routing-d2-c00-teleop-validation
+  eval-batch-size: 64
+  num-eval-batches: 128
+  model-init-seed: 0
+  uint8-native-images: true
+  n-action-steps: 6
+  image-height: 224
+  image-width: 224
+  training-steps: 100000
+  batch-size: 64
+  save-freq: 25000
+  scheduler-name: cosine
+  drop-n-last-frames: 2
+  spatial-softmax-num-keypoints: 32
+  eval-freq: 5000
+  no-decoded-frame-cache: true
+camera_crops:
+  side_1:
+  - 140
+  - 120
+  - 560
+  - 470
+  side_2:
+  - 130
+  - 120
+  - 440
+  - 445
+  wrist_left:
+  - 180
+  - 0
+  - 639
+  - 413

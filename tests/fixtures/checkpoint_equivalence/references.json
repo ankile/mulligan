@@ -1,0 +1,53 @@
+{
+  "cases": {
+    "divl-agent": {
+      "config_class": "IDQLDIVLConfig",
+      "fixture_sha256": "94faf2e25d3640d2524d3eced4d9613ed21fe336f0650673ea8926720a6c0ed5",
+      "keys": [
+        "bon.q_values",
+        "bon.sampled_actions",
+        "critic.q_aggregated",
+        "critic.q_per_network",
+        "critic.target_q_per_network",
+        "input.action",
+        "input.env_state",
+        "input.robot_state",
+        "select_action.chunk",
+        "select_action.q",
+        "select_action.v",
+        "value.logits",
+        "value.target_logits",
+        "value.v"
+      ],
+      "policy_sha256": "82b931bc6f559e7ad5f4baff5c3d00681f5ffb488bdd6b1c11f404806f07ec54"
+    },
+    "idql-agent": {
+      "config_class": "IDQLPolicyConfig",
+      "fixture_sha256": "c9565e81a66083beb230ffe3e877b8d108190dd3c455132eadd26c68da499e5f",
+      "keys": [
+        "bon.q_values",
+        "bon.sampled_actions",
+        "critic.q_aggregated",
+        "critic.q_per_network",
+        "critic.target_q_per_network",
+        "input.action",
+        "input.env_state",
+        "input.robot_state",
+        "select_action.chunk",
+        "select_action.q",
+        "select_action.v",
+        "value.target_v",
+        "value.v"
+      ],
+      "policy_sha256": "6a89ed105a7801705f74e11feade40695870937c5e83317e267ac09eaa716d22"
+    }
+  },
+  "recorded_with": {
+    "deterministic_algorithms": true,
+    "device": "cpu",
+    "num_threads": 4,
+    "python": "3.12.12",
+    "source": "the source repository before the rename",
+    "torch": "2.11.0+cu128"
+  }
+}

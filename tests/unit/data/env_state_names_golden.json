@@ -1,0 +1,131 @@
+{
+ "env_names": [
+  "Square_D0",
+  "Square_D1",
+  "Square_D1_Panda",
+  "Square_D2",
+  "square_broad",
+  "SQUARE",
+  "NutAssembly",
+  "NutAssemblySquare",
+  "NutAssemblySquare_Panda",
+  "NutAssemblyRound",
+  "NutAssembly_D0",
+  "PickPlace",
+  "Lift",
+  "Stack_D0",
+  "SquareThreading",
+  "NutAssembly_D0_Square",
+  "Unknown",
+  ""
+ ],
+ "shapes": [
+  0,
+  1,
+  7,
+  10,
+  13,
+  14,
+  15,
+  17,
+  23,
+  28,
+  29,
+  39,
+  41,
+  42,
+  44,
+  56,
+  57,
+  86,
+  87,
+  100
+ ],
+ "supported": {
+  "Square_D0": {
+   "14": "schema_00",
+   "17": "schema_01"
+  },
+  "Square_D1": {
+   "14": "schema_00",
+   "17": "schema_01"
+  },
+  "Square_D1_Panda": {
+   "14": "schema_00",
+   "17": "schema_01"
+  },
+  "Square_D2": {
+   "14": "schema_00",
+   "17": "schema_01"
+  },
+  "square_broad": {
+   "14": "schema_00",
+   "17": "schema_01"
+  },
+  "SQUARE": {
+   "14": "schema_00",
+   "17": "schema_01"
+  },
+  "NutAssembly": {},
+  "NutAssemblySquare": {
+   "14": "schema_00",
+   "17": "schema_01"
+  },
+  "NutAssemblySquare_Panda": {
+   "14": "schema_00",
+   "17": "schema_01"
+  },
+  "NutAssemblyRound": {},
+  "NutAssembly_D0": {},
+  "PickPlace": {},
+  "Lift": {},
+  "Stack_D0": {},
+  "SquareThreading": {
+   "14": "schema_00",
+   "17": "schema_01"
+  },
+  "NutAssembly_D0_Square": {
+   "14": "schema_00",
+   "17": "schema_01"
+  },
+  "Unknown": {},
+  "": {}
+ },
+ "schemas": {
+  "schema_00": [
+   "nut_to_eef_pos_x",
+   "nut_to_eef_pos_y",
+   "nut_to_eef_pos_z",
+   "nut_to_eef_quat_x",
+   "nut_to_eef_quat_y",
+   "nut_to_eef_quat_z",
+   "nut_to_eef_quat_w",
+   "nut_pos_x",
+   "nut_pos_y",
+   "nut_pos_z",
+   "nut_quat_x",
+   "nut_quat_y",
+   "nut_quat_z",
+   "nut_quat_w"
+  ],
+  "schema_01": [
+   "nut_to_eef_pos_x",
+   "nut_to_eef_pos_y",
+   "nut_to_eef_pos_z",
+   "nut_to_eef_quat_x",
+   "nut_to_eef_quat_y",
+   "nut_to_eef_quat_z",
+   "nut_to_eef_quat_w",
+   "nut_pos_x",
+   "nut_pos_y",
+   "nut_pos_z",
+   "nut_quat_x",
+   "nut_quat_y",
+   "nut_quat_z",
+   "nut_quat_w",
+   "peg_pos_x",
+   "peg_pos_y",
+   "peg_pos_z"
+  ]
+ }
+}

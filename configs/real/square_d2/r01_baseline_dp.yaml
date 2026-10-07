@@ -1,0 +1,61 @@
+# Run: python -m mulligan.real.train.launch configs/real/square_d2/r01_baseline_dp.yaml --output-dir <dir>
+kind: dp-actor
+trainer: mulligan.real.train.policy
+checkpoint:
+  repo: mulligan/real-square-d2-r01-baseline-dp
+  revision: 6fadc6210255a8eeee12dcee891a554eed85f734
+  step: 100000
+retrain: exact
+paper:
+  task: Thread Nut
+  round: R1
+  arm: HG-DAgger
+  seed: 1
+  results:
+  - Fig. 5
+  - App. B.1
+  evaluations:
+  - mulligan/real-square-d2-r01-eval b01 (HG-DAgger)
+  collections:
+  - mulligan/real-square-d2-c02-dagger-mixed
+dataset_revisions:
+  mulligan/real-square-d2-c00-teleop-baseline: 241bcd27b55f1bc557b8af269b794306d5b5b635
+  mulligan/real-square-d2-c00-teleop-validation: 40d06aec811e4472bf46b955b3d5adcc06608b11
+  mulligan/real-square-d2-c01-dagger-baseline: 93f0472675421606fa5d9004b42000b17b971bb3
+dataset_episodes: {}
+args:
+  task: square_d2
+  repo-ids:
+  - mulligan/real-square-d2-c00-teleop-baseline
+  - mulligan/real-square-d2-c01-dagger-baseline
+  filter-dagger: true
+  num-workers: 24
+  seed: 1
+  eval-repo-ids:
+  - mulligan/real-square-d2-c00-teleop-validation
+  eval-batch-size: 64
+  num-eval-batches: 128
+  model-init-seed: 0
+  training-steps: 200000
+  save-freq: 25000
+  eval-freq: 5000
+  n-action-steps: 6
+  image-height: 224
+  image-width: 224
+  batch-size: 64
+  scheduler-name: cosine
+  drop-n-last-frames: 2
+  spatial-softmax-num-keypoints: 32
+  no-uint8-native-images: true
+  no-decoded-frame-cache: true
+camera_crops:
+  side_1:
+  - 138
+  - 0
+  - 580
+  - 447
+  wrist_left:
+  - 180
+  - 0
+  - 639
+  - 413

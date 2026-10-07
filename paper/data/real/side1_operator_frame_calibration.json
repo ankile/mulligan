@@ -1,0 +1,55 @@
+{
+  "schema": "mulligan.real.side1_operator_frame_calibration.v1",
+  "note": "Subset of the round-0 side_1 camera calibration: 640x480 intrinsics and the per-line camera pose + operator-frame mapping for the two lines the paper overlays. Fit from the breadboard 1-inch hole lattice; operator translation pinned by the tabletop tape marks.",
+  "frame_convention": {
+    "lattice": "integer (i,j) indexes the breadboard HOLES; 1 lattice unit = 1 inch; holes sit at INTEGER operator coords, so t is integer per axis (the printed placement dots sit at half-integers BETWEEN holes)",
+    "operator_from_lattice": "op_x = sx*j + t[0]; op_y = sy*i + t[1]  (swap=true for all three lines)",
+    "operator_frame": "+x forward from operator, +y left from operator, inches (matches manifest operator_frame)"
+  },
+  "intrinsics_640x480": {
+    "fx": 272.6005,
+    "fy": 363.46746666666667,
+    "cx": 317.22405,
+    "cy": 234.59213333333335
+  },
+  "lines": {
+    "marker_d2": {
+      "pose_rotvec": [
+        -0.38656809462745884,
+        -1.252942811894795,
+        -2.306732608430291
+      ],
+      "pose_translation_in": [
+        -5.058812738347796,
+        3.2510781043494994,
+        13.698498929713942
+      ],
+      "swap": true,
+      "sx": 1,
+      "sy": 1,
+      "t_in": [
+        -9.0,
+        2.0
+      ]
+    },
+    "square_d2": {
+      "pose_rotvec": [
+        0.6971755579184818,
+        -2.432973920796586,
+        1.3241346184167344
+      ],
+      "pose_translation_in": [
+        -3.3637835114605825,
+        3.8046437382293155,
+        12.765759734959875
+      ],
+      "swap": true,
+      "sx": -1,
+      "sy": 1,
+      "t_in": [
+        -10.0,
+        0.0
+      ]
+    }
+  }
+}

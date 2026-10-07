@@ -1,0 +1,346 @@
+{
+  "figures": [
+    {
+      "file": "real_world_value_fqe.pdf",
+      "kind": "generated",
+      "package": "value_learning",
+      "width_frac": 1.0
+    },
+    {
+      "file": "real_world_value_training.pdf",
+      "kind": "generated",
+      "package": "value_learning",
+      "width_frac": 1.0
+    },
+    {
+      "file": "real_world_headline_mulligan_vs_baseline_detailed.pdf",
+      "kind": "generated",
+      "package": "real_results",
+      "width_frac": 1.0
+    },
+    {
+      "file": "real_world_marker_d2_substage.pdf",
+      "kind": "generated",
+      "package": "real_results",
+      "width_frac": 1.0
+    },
+    {
+      "file": "real_world_square_d2_substage.pdf",
+      "kind": "generated",
+      "package": "real_results",
+      "width_frac": 1.0
+    },
+    {
+      "file": "real_world_cf_ablation.pdf",
+      "kind": "generated",
+      "package": "real_results",
+      "width_frac": 1.0
+    },
+    {
+      "file": "real_world_dagger_collection_success.pdf",
+      "kind": "generated",
+      "package": "productivity",
+      "width_frac": 1.0
+    },
+    {
+      "file": "real_world_dagger_collection_success_detailed.pdf",
+      "kind": "generated",
+      "package": "real_results",
+      "width_frac": 1.0
+    },
+    {
+      "file": "real_world_burden_progression.pdf",
+      "kind": "generated",
+      "package": "real_results",
+      "width_frac": 1.0
+    },
+    {
+      "file": "real_world_data_composition.pdf",
+      "kind": "generated",
+      "package": "data_ledger",
+      "width_frac": 1.0
+    },
+    {
+      "file": "real_world_success_speed.pdf",
+      "kind": "generated",
+      "package": "real_results",
+      "width_frac": 1.0
+    },
+    {
+      "file": "real_world_success_throughput.pdf",
+      "kind": "generated",
+      "package": "real_results",
+      "width_frac": 1.0
+    },
+    {
+      "file": "value_learning_bar_chart.pdf",
+      "kind": "generated",
+      "package": "simulation",
+      "width_frac": 1.0
+    },
+    {
+      "file": "square_narrow_r2_bucket_success_sorted.pdf",
+      "kind": "generated",
+      "package": "simulation",
+      "width_frac": 1.0
+    },
+    {
+      "file": "square_narrow_init_distribution_sobol_vs_uniform.pdf",
+      "kind": "generated",
+      "package": "simulation",
+      "width_frac": 1.0
+    },
+    {
+      "file": "sim_success_speed.pdf",
+      "kind": "generated",
+      "package": "simulation",
+      "width_frac": 1.0
+    },
+    {
+      "file": "sim_success_throughput.pdf",
+      "kind": "generated",
+      "package": "simulation",
+      "width_frac": 1.0
+    },
+    {
+      "file": "overview_funnel.pdf",
+      "input": "assets/overview_funnel.pdf",
+      "kind": "restored",
+      "package": "reference_data"
+    },
+    {
+      "file": "real_world_marker_d2_teleop_card.png",
+      "input": "assets/real_world_marker_d2_teleop_card.png",
+      "kind": "restored",
+      "package": "reference_data"
+    },
+    {
+      "file": "real_world_square_d2_teleop_card.png",
+      "input": "assets/real_world_square_d2_teleop_card.png",
+      "kind": "restored",
+      "package": "reference_data"
+    },
+    {
+      "file": "real_world_routing_d2_teleop_card.png",
+      "input": "assets/real_world_routing_d2_teleop_card.png",
+      "kind": "restored",
+      "package": "reference_data"
+    },
+    {
+      "file": "overview_state_evolution.pdf",
+      "input": "sampling/state_evolution.pdf",
+      "kind": "restored",
+      "package": "simulation"
+    },
+    {
+      "file": "sim_hilserl_sessions.pdf",
+      "kind": "generated",
+      "package": "hilserl",
+      "width_frac": 1.0
+    },
+    {
+      "file": "initial_state_marker_typical.jpg",
+      "kind": "rendered",
+      "package": "real_results"
+    },
+    {
+      "file": "initial_state_marker_hardest.jpg",
+      "kind": "rendered",
+      "package": "real_results"
+    },
+    {
+      "file": "initial_state_nut_typical.jpg",
+      "kind": "rendered",
+      "package": "real_results"
+    },
+    {
+      "file": "initial_state_nut_hardest.jpg",
+      "kind": "rendered",
+      "package": "real_results"
+    },
+    {
+      "file": "initial_state_nut_reorientation.jpg",
+      "kind": "rendered",
+      "package": "real_results"
+    },
+    {
+      "file": "overview_eval_protocol.pdf",
+      "kind": "generated",
+      "package": "reference_data"
+    }
+  ],
+  "schema": "mulligan.paper.appendix.catalog.v1",
+  "tables": [
+    {
+      "kind": "generated",
+      "label": "tab:appendix-recap",
+      "output": "reference_recap.tex",
+      "package": "reference_data"
+    },
+    {
+      "kind": "generated",
+      "label": "tab:appendix-data-ledger",
+      "output": "data_ledger.tex",
+      "package": "data_ledger"
+    },
+    {
+      "kind": "generated",
+      "label": "tab:appendix-data-composition",
+      "output": "data_composition.tex",
+      "package": "data_ledger"
+    },
+    {
+      "kind": "authored",
+      "label": "tab:appendix-prior-data",
+      "package": "reference_data"
+    },
+    {
+      "kind": "authored",
+      "label": "tab:appendix-reset-ranges",
+      "package": "reference_data"
+    },
+    {
+      "kind": "authored",
+      "label": "tab:appendix-hp-actor",
+      "package": "reference_data"
+    },
+    {
+      "kind": "authored",
+      "label": "tab:appendix-hp-critic-objective",
+      "package": "reference_data"
+    },
+    {
+      "kind": "authored",
+      "label": "tab:appendix-hp-critic-net",
+      "package": "reference_data"
+    },
+    {
+      "kind": "authored",
+      "label": "tab:appendix-hp-bon",
+      "package": "reference_data"
+    },
+    {
+      "kind": "authored",
+      "label": "tab:appendix-hp-sampler",
+      "package": "reference_data"
+    },
+    {
+      "kind": "authored",
+      "label": "tab:appendix-hp-env",
+      "package": "reference_data"
+    },
+    {
+      "kind": "generated",
+      "label": "tab:appendix-campaign-mcnemar",
+      "output": "real_results_campaign.tex",
+      "package": "real_results"
+    },
+    {
+      "kind": "generated",
+      "label": "tab:appendix-final-round",
+      "output": "real_results_final_round.tex",
+      "package": "real_results"
+    },
+    {
+      "kind": "generated",
+      "label": "tab:routing-d2-progress",
+      "output": "real_results_routing_progress.tex",
+      "package": "real_results"
+    },
+    {
+      "kind": "generated",
+      "label": "tab:appendix-critic-variations",
+      "output": "critic_objective_table.tex",
+      "package": "simulation"
+    },
+    {
+      "kind": "generated",
+      "label": "tab:appendix-divl",
+      "output": "divl_regime_table.tex",
+      "package": "simulation"
+    },
+    {
+      "kind": "generated",
+      "label": "tab:appendix-divl-sampler",
+      "output": "divl_sampler_table.tex",
+      "package": "simulation"
+    },
+    {
+      "kind": "generated",
+      "label": "tab:appendix-redq",
+      "output": "redq_table.tex",
+      "package": "simulation"
+    },
+    {
+      "kind": "generated",
+      "label": "tab:appendix-sampler-ablation",
+      "output": "sampler_ablation_table.tex",
+      "package": "simulation"
+    },
+    {
+      "kind": "authored",
+      "label": "tab:task-summary",
+      "package": "reference_data"
+    },
+    {
+      "kind": "authored",
+      "label": "tab:task-reset-ranges",
+      "package": "reference_data"
+    },
+    {
+      "kind": "authored",
+      "label": "tab:task-scoring",
+      "package": "reference_data"
+    },
+    {
+      "kind": "authored",
+      "label": "tab:cable-stage-ladder",
+      "package": "reference_data"
+    },
+    {
+      "kind": "authored",
+      "label": "tab:appendix-cf-counts",
+      "package": "reference_data"
+    },
+    {
+      "kind": "authored",
+      "label": "tab:appendix-stage-ladders",
+      "package": "reference_data"
+    },
+    {
+      "kind": "authored",
+      "label": "tab:cable-collection-increments",
+      "package": "reference_data"
+    },
+    {
+      "kind": "generated",
+      "label": "tab:appendix-sim-significance",
+      "output": "sim_significance_table.tex",
+      "package": "paper_side"
+    },
+    {
+      "kind": "generated",
+      "label": "tab:appendix-divl-frozen",
+      "output": "divl_frozen_actor_table.tex",
+      "package": "paper_side"
+    },
+    {
+      "kind": "generated",
+      "label": "tab:training-compute",
+      "output": "training_compute.tex",
+      "package": "paper_side"
+    },
+    {
+      "kind": "generated",
+      "label": "tab:appendix-hilserl-sessions",
+      "output": "hilserl_sessions.tex",
+      "package": "hilserl"
+    },
+    {
+      "kind": "generated",
+      "label": "tab:appendix-critic-data",
+      "output": "critic_data_table.tex",
+      "package": "critic_data"
+    }
+  ]
+}

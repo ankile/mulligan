@@ -1,0 +1,125 @@
+{
+  "files": [
+    {
+      "path": "real/collection/campaign_episodes_by_source.csv",
+      "sha256": "319d1c288503ace5ce5233aaa624df501651bb3e4988f5a5e772508e6c2742d9",
+      "size": 233
+    },
+    {
+      "path": "real/collection/marker/human_frame_round_share.csv",
+      "sha256": "83318684b839932f62f3199a9a3fec74611c91e824c299aec907120636ca6907",
+      "size": 3634
+    },
+    {
+      "path": "real/collection/marker/r0_collected_stats.csv",
+      "sha256": "cc844dc1e1c8d9f1baefd193b7118f0b72fc4e4ae101cbd072a978a387d85e5a",
+      "size": 646
+    },
+    {
+      "path": "real/collection/marker/r1/split_episodes.csv",
+      "sha256": "fc1c2be2a68fe248b3f4d2412dfddb8b4ddf58e308473159ac9abff45160572c",
+      "size": 53260
+    },
+    {
+      "path": "real/collection/marker/r2/split_episodes.csv",
+      "sha256": "ee98529b385ad2a3445697b2f48c3e642ede0b630ea9f446f0f27f44b5d9ad93",
+      "size": 53887
+    },
+    {
+      "path": "real/collection/marker/r3/split_episodes.csv",
+      "sha256": "849afb6b4c096c9b6f1a409f8b39dd4c92e2a061655a0ebc15e9d9107a66c249",
+      "size": 53956
+    },
+    {
+      "path": "real/collection/marker/r4/split_episodes.csv",
+      "sha256": "771506450e463e27616d6b64960c8918c067a70ca1696a6ac09d39e90d855666",
+      "size": 54414
+    },
+    {
+      "path": "real/collection/marker/r5/split_episodes.csv",
+      "sha256": "ca2229af51ba2dcc6668eb8bd3002a2aa593dab4291327c1448013f9f81b72c3",
+      "size": 55580
+    },
+    {
+      "path": "real/collection/routing/increment_frame_counts.csv",
+      "sha256": "2908add50be9f9d4e690e13aa404b08c47532fd015ae6453296024f0e3b53f4b",
+      "size": 639
+    },
+    {
+      "path": "real/collection/routing/r0_episode_lengths.csv",
+      "sha256": "40ec370bcb1576901db6a31c97386f89916c28b68b28475c37a5863439527aca",
+      "size": 711
+    },
+    {
+      "path": "real/collection/routing/r1/split_episodes.csv",
+      "sha256": "a9d4ce96ab292f4a63bb26116f62f8cf0a5274d878af388b446f4ca2c6950a3d",
+      "size": 79229
+    },
+    {
+      "path": "real/collection/routing/r2/split_episodes.csv",
+      "sha256": "64d83e9314d7213060acef25ab195f26a71a01844f6f547d52d284e6d5d652e3",
+      "size": 78880
+    },
+    {
+      "path": "real/collection/routing/r3/split_episodes.csv",
+      "sha256": "3ebbccd795497165f7e3e611306fa32608525afa05494e4ceac5ce518569438b",
+      "size": 80022
+    },
+    {
+      "path": "real/collection/routing/r4/split_episodes.csv",
+      "sha256": "84efa63d799dffde83348e7d6edeaf5a3b3106abfc22448873e591a8f5909bb3",
+      "size": 81125
+    },
+    {
+      "path": "real/collection/routing/r5/split_episodes.csv",
+      "sha256": "f7d685937157bcf7dedfd0bf5aae9fa2b26ccd497195108b6914a0b030f5b070",
+      "size": 78813
+    },
+    {
+      "path": "real/collection/square/human_frame_round_share.csv",
+      "sha256": "78383f87d3414ece54b11f1b68fc30f1c29f7fe63316ab6b85ad6f7bd690a6a4",
+      "size": 3637
+    },
+    {
+      "path": "real/collection/square/r0_collected_stats.csv",
+      "sha256": "76bda8faee90783e821142403d52d704cc6ea8d9629a8006a14b1883e6dc3f76",
+      "size": 639
+    },
+    {
+      "path": "real/collection/square/r1/split_episodes.csv",
+      "sha256": "72cf6a57b2a6a27dac9300be1f40ee7805303ff35492dc8d77fa0cf42d3d469d",
+      "size": 52928
+    },
+    {
+      "path": "real/collection/square/r2/split_episodes.csv",
+      "sha256": "d7e85cbaa0910cab937a494d3eac72a10468c4677c7d54c1303acda9a41a7ff9",
+      "size": 53114
+    },
+    {
+      "path": "real/collection/square/r3/split_episodes.csv",
+      "sha256": "6f7167e063035c94b9d9ec2bf57ec8d1ac830cf6d9210f0a2290549ff7d9f720",
+      "size": 52982
+    },
+    {
+      "path": "real/collection/square/r4/split_episodes.csv",
+      "sha256": "4c3d74df2f7119e4204934807a6a542144b29c97037baf42b7ff6099d218fb1f",
+      "size": 53957
+    },
+    {
+      "path": "real/collection/square/r5/split_episodes.csv",
+      "sha256": "2782997193d94d185a24707520134c6aafe414378d85583fd98220caed35aebf",
+      "size": 53477
+    },
+    {
+      "path": "real/results/round_datasets.json",
+      "sha256": "a626ad69dbe7ea155ee97f19857441b91b3790510a32e72a6aa0a72ec0eb29c3",
+      "size": 1692337
+    },
+    {
+      "path": "real/training/routing/runs.json",
+      "sha256": "40d236b4011d0addd71034b7f777f63ce3dfc9099f70b1be93d0e015f32f765c",
+      "size": 8287
+    }
+  ],
+  "schema": "mulligan.paper.appendix.inputs.v3"
+}

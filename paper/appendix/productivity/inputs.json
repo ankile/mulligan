@@ -1,0 +1,35 @@
+{
+  "files": [
+    {
+      "path": "real/collection/marker/collection.csv",
+      "sha256": "c1592bb80b9746d9e4364976c54b244d918ab63ccd56a6b6456ae087d9d96cd5",
+      "size": 3921
+    },
+    {
+      "path": "real/collection/marker/collector_eval.csv",
+      "sha256": "824b3d97f7e2a7fe514f5cd9dc8df58518524be96f39a0557660b63763d7980a",
+      "size": 8092
+    },
+    {
+      "path": "real/collection/routing/collection.csv",
+      "sha256": "2e063ceca9aa3980b6fff7eeb1ca2bcd96f065b254faac2029b12dd32e7c6d35",
+      "size": 2629
+    },
+    {
+      "path": "real/collection/routing/collector_eval.csv",
+      "sha256": "09756e9be2c5239453b07171921c1923eb60b60f793da4edc03f36d7efd6d493",
+      "size": 1300
+    },
+    {
+      "path": "real/collection/square/collection.csv",
+      "sha256": "e175221eba43d7470de9ff2a354f1ca973870e06009822bd965d6d8f04629719",
+      "size": 3709
+    },
+    {
+      "path": "real/collection/square/collector_eval.csv",
+      "sha256": "b21e08cf91615984ee998d66c51ff6db415f41e0b52268ceff7d0014911569fe",
+      "size": 11821
+    }
+  ],
+  "schema": "mulligan.paper.appendix.inputs.v3"
+}

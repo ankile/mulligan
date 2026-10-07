@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Teaser figure (fig:overview)</title>
+<!--
+  Source for figs/overview_teaser.pdf. Edit here, then run
+  python3 -m figs.src.teaser.build_teaser from the repo root.
+  The middle panel uses recovered appendix counts from assets/bucket_counts.js.
+  The right-panel dots are a deterministic schematic.
+-->
+<style>
+@page { size: 1032px 345px; margin: 0; }
+html, body { margin: 0; padding: 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+* { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.fig { width: 1032px; height: 345px; background: #fff; display: flex; }
+.panel { flex: none; }
+.head { height: 26px; margin-bottom: 30px; display: flex; align-items: center; gap: 9px; }
+.chip { width: 26px; height: 26px; flex: none; border-radius: 6px; display: flex; align-items: center; justify-content: center; font: 700 15px/1 Helvetica; box-sizing: border-box; }
+.chip .sub { display: inline-block; font-size: 6.6px; transform: translateY(4.5px); }
+.title { font: 700 23px/1.1 Helvetica; color: #111; white-space: nowrap; }
+.gutter { width: 96px; flex: none; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 7px; font: 400 17px/1.3 Helvetica; color: #888; text-align: center; }
+.gutter svg { width: 15px; }
+.plot { width: 100%; height: auto; display: block; }
+</style>
+</head>
+<body>
+<div class="fig">
+
+  <!-- Panel 1: setting -->
+  <div class="panel" style="width:240px">
+    <div class="head"><div class="chip" style="background:#fff;border:1.5px solid #111;color:#111;font-size:13px"><span>S<span class="sub">0</span></span></div><div class="title">Diverse initial states</div></div>
+    <div style="position:relative;width:240px;height:288px;overflow:hidden;border-radius:6px;border:1px solid #ccd6e0;box-sizing:border-box">
+      <img src="assets/routing_init_overlay.png" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:70% 50%">
+    </div>
+  </div>
+
+  <div class="gutter"><svg viewBox="0 0 14 18"><path d="M3 2 L11 9 L3 16" stroke="#b6b6b3" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/></svg><div>roll out<br>policy π</div></div>
+
+  <!-- Panel 2: per-start success rate, hardest to easiest -->
+  <div class="panel" style="width:300px">
+    <div class="head"><div class="chip" style="background:#fff;border:1.5px solid #b03a3a;color:#b03a3a">!</div><div class="title">Concentrated failures</div></div>
+    <svg class="plot" viewBox="0 0 312 300">
+      <g stroke="#ececea" stroke-width="1" fill="none"><path d="M40 30 H306"/><path d="M40 135 H306"/></g>
+      <path d="M40 240 H306" stroke="#444" stroke-width="1.1" fill="none"/>
+      <g font-family="Helvetica" font-size="17" fill="#888" text-anchor="end"><text x="35" y="36">100</text><text x="35" y="141">50</text><text x="35" y="246">0</text></g>
+      <text x="13" y="135" font-family="Helvetica" font-size="17" fill="#8a8a87" text-anchor="middle" transform="rotate(-90 13 135)">success rate (%)</text>
+      <path id="srEasy" fill="#d6dbdf"/>
+      <path id="srHard" fill="#d62728"/>
+      <line id="hardBoundary" x1="106.2" y1="30" x2="106.2" y2="240" stroke="#999" stroke-width="1.2" stroke-dasharray="2 4"/>
+      <path id="overallLine" d="M40 59.4 H306" stroke="#8a98a3" stroke-width="1.6" stroke-dasharray="7 5" fill="none"/>
+      <text id="overallLabel" x="302" y="80" font-family="Helvetica" font-size="17" fill="#66727c" text-anchor="end" stroke="#ffffff" stroke-width="4" paint-order="stroke">overall 86%</text>
+      <g font-family="Helvetica" font-size="16" fill="#98a2ab" text-anchor="middle"><text x="42" y="258">1</text><text x="106.2" y="258">20</text><text x="303" y="258">80</text></g>
+      <text x="173" y="278" font-family="Helvetica" font-size="17" fill="#8a8a87" text-anchor="middle">initial states (hardest <tspan visibility="hidden">→</tspan> easiest)</text>
+      <text id="concentrationLabel" x="173" y="299" font-family="Helvetica" font-size="18.5" font-weight="700" fill="#b03a3a" text-anchor="middle"><tspan id="concentrationLead">hardest 25% </tspan><tspan visibility="hidden">→</tspan><tspan id="concentrationTail"> 95% of failures</tspan></text>
+      <!-- The arrows are drawn: the Linux fonts behind Helvetica have no U+2192 glyph. Each
+           hidden arrow keeps its advance; the paths sit where it is with these labels. -->
+      <path d="M214.64 271.04H224.31V268.04L227.96 271.68L224.31 275.32V272.32H214.64Z" fill="#8a8a87"/>
+      <path d="M154.79 291.30H165.15V287.85L169.38 292.08L165.15 296.32V292.87H154.79Z" fill="#b03a3a"/>
+    </svg>
+  </div>
+
+  <div class="gutter"><svg viewBox="0 0 14 18"><path d="M3 2 L11 9 L3 16" stroke="#b6b6b3" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/></svg><div>target the<br>hard states</div></div>
+
+  <!-- Panel 3: failures seed the next round's starts -->
+  <div class="panel" style="width:300px">
+    <div class="head"><div class="chip" style="background:#111;color:#fff">1</div><div class="title">Targeted collection</div></div>
+    <svg class="plot" viewBox="0 0 312 300">
+      <defs><radialGradient id="hard"><stop offset="0%" stop-color="#d62728" stop-opacity="0.17"/><stop offset="100%" stop-color="#d62728" stop-opacity="0"/></radialGradient></defs>
+      <text x="70" y="18" font-family="Helvetica" font-size="18.5" font-weight="700" fill="#333" text-anchor="middle">π fails here</text>
+      <text x="242" y="18" font-family="Helvetica" font-size="18.5" font-weight="700" fill="#333" text-anchor="middle">collect here</text>
+      <g transform="translate(0,28)">
+        <rect x="0.5" y="0.5" width="139" height="210" rx="6" fill="#f7f9fb" stroke="#ccd6e0"/>
+        <ellipse cx="84.4" cy="136" rx="48" ry="63" fill="url(#hard)"/>
+        <path id="succ" fill="#2ca02c"/>
+        <path id="fail" fill="none" stroke="#d62728" stroke-width="2.2" stroke-linecap="round"/>
+      </g>
+      <g transform="translate(172,28)">
+        <rect x="0.5" y="0.5" width="139" height="210" rx="6" fill="#f7f9fb" stroke="#ccd6e0"/>
+        <ellipse cx="84.4" cy="136" rx="48" ry="63" fill="url(#hard)"/>
+        <path id="succGhost" fill="#2ca02c" opacity="0.18"/>
+        <path id="retry" fill="#d62728"/>
+        <path id="fill" fill="#1f77b4"/>
+      </g>
+      <path d="M146 133 H162" stroke="#111" stroke-width="1.8"/><path d="M161 128 L169 133 L161 138 Z" fill="#111"/>
+      <g font-family="Helvetica" font-size="17" fill="#556">
+        <circle cx="8" cy="258" r="4.4" fill="#2ca02c"/><text x="17" y="263.5">success</text>
+        <path d="M92 254 L100 262 M92 262 L100 254" stroke="#d62728" stroke-width="2.2" stroke-linecap="round" fill="none"/><text x="107" y="263.5">failure</text>
+        <circle cx="186" cy="258" r="4.4" fill="#d62728"/><text x="195" y="263.5">retry</text>
+        <circle cx="252" cy="258" r="4.4" fill="#1f77b4"/><text x="261" y="263.5">fill</text>
+      </g>
+      <text x="156" y="299" font-family="Helvetica" font-size="18.5" font-weight="700" fill="#0b7e8c" text-anchor="middle">failures seed the next round</text>
+    </svg>
+  </div>
+
+</div>
+
+<script src="assets/bucket_counts.js"></script>
+<script>
+// Panel 2 uses recovered empirical counts; panel 3 is schematic. Deterministic (Halton sequence), no randomness.
+function halton(i, b) {
+  let f = 1, r = 0;
+  while (i > 0) { f /= b; r += f * (i % b); i = Math.floor(i / b); }
+  return r;
+}
+// Hard region of the unit square (matches the red ellipse in panel 3).
+function inFail(x, y) { return (x - 0.62) ** 2 / 0.075 + (y - 0.66) ** 2 / 0.055 < 1; }
+function crossAt(x, y, s) { return `M${(x - s).toFixed(1)} ${(y - s).toFixed(1)}L${(x + s).toFixed(1)} ${(y + s).toFixed(1)}M${(x - s).toFixed(1)} ${(y + s).toFixed(1)}L${(x + s).toFixed(1)} ${(y - s).toFixed(1)}`; }
+function circleAt(x, y, r) { return `M${(x - r).toFixed(1)} ${y.toFixed(1)}a${r} ${r} 0 1 0 ${2 * r} 0a${r} ${r} 0 1 0 ${-2 * r} 0`; }
+const set = (id, d) => document.getElementById(id).setAttribute('d', d);
+
+// Panel 2: 80 states, 50 rollouts each, recovered from the archived figure.
+const hardCount = bucketCounts.length / 4;
+const step = 266 / bucketCounts.length;
+const overall = 100 * bucketCounts.reduce((a, b) => a + b, 0) / (bucketCounts.length * bucketRollouts);
+const failures = bucketCounts.map(s => bucketRollouts - s);
+const hardFailureShare = 100 * failures.slice(0, hardCount).reduce((a, b) => a + b, 0) / failures.reduce((a, b) => a + b, 0);
+let srHard = '', srEasy = '';
+bucketCounts.forEach((successes, i) => {
+  const s = 100 * successes / bucketRollouts;
+  const x = 40 + i * step, y = 240 - s * 2.1, d = `M${x.toFixed(2)} 240V${y.toFixed(1)}h${(step * 0.78).toFixed(2)}V240Z`;
+  if (i < hardCount) srHard += d; else srEasy += d;
+});
+set('srHard', srHard); set('srEasy', srEasy);
+const boundary = 40 + hardCount * step;
+document.getElementById('hardBoundary').setAttribute('x1', boundary);
+document.getElementById('hardBoundary').setAttribute('x2', boundary);
+set('overallLine', `M40 ${240 - overall * 2.1} H306`);
+document.getElementById('overallLabel').textContent = `overall ${Math.round(overall)}%`;
+document.getElementById('concentrationLead').textContent = `hardest ${100 * hardCount / bucketCounts.length}% `;
+document.getElementById('concentrationTail').textContent = ` ${Math.round(hardFailureShare)}% of failures`;
+
+// Panel 3: 26 rollout starts; failures inside the hard region are retried,
+// and 10 coverage-fill starts go to gaps away from every previous start.
+const pts = [];
+for (let i = 1; i <= 26; i++) pts.push({ x: halton(i + 5, 2), y: halton(i + 5, 3) });
+const succ = [], fails = [];
+pts.forEach(p => (inFail(p.x, p.y) ? fails : succ).push(p));
+const fillPts = [];
+for (let i = 1; i <= 400 && fillPts.length < 10; i++) {
+  const u = halton(i + 120, 2), v = halton(i + 120, 3);
+  if (u < 0.05 || u > 0.95 || v < 0.05 || v > 0.95 || inFail(u, v)) continue;
+  const d2 = q => (q.x - u) ** 2 + (q.y - v) ** 2;
+  if (succ.some(s => d2(s) < 0.016)) continue;
+  if (fails.some(f => d2(f) < 0.014)) continue;
+  if (fillPts.some(f => d2(f) < 0.02)) continue;
+  fillPts.push({ x: u, y: v });
+}
+const pu = u => 10 + u * 120, pv = v => 10 + v * 194;
+const succD = succ.map(p => circleAt(pu(p.x), pv(p.y), 3.8)).join('');
+set('succ', succD); set('succGhost', succD);
+set('fail', fails.map(p => crossAt(pu(p.x), pv(p.y), 4.4)).join(''));
+set('retry', fails.map(p => circleAt(pu(p.x), pv(p.y), 4.2)).join(''));
+set('fill', fillPts.map(p => circleAt(pu(p.x), pv(p.y), 4)).join(''));
+</script>
+</body>
+</html>

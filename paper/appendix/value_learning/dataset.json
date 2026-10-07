@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "path": "real/value_learning/tables/fqe_policies.csv",
+      "rows": 16,
+      "sha256": "8690933edb613d67390471665ca384befa7eeb89e59cf6de31e453323d60ae00",
+      "size": 2518
+    },
+    {
+      "path": "real/value_learning/tables/fqe_seeds.csv",
+      "rows": 48,
+      "sha256": "a88c18bed3c33100871b92df6be269383b42f719e89529a26ce38f425c9a64ef",
+      "size": 1476
+    },
+    {
+      "path": "real/value_learning/tables/training_checkpoints.csv",
+      "rows": 9,
+      "sha256": "76b996e58fae41df2400046c336e6582adfb00261606bdf32ed46e48c7f47058",
+      "size": 600
+    },
+    {
+      "path": "real/value_learning/tables/training_episodes.csv",
+      "rows": 450,
+      "sha256": "de3ed274b70f45331334b73f1cc6a47cc920d59d3f06c3c1cb12782a069c9044",
+      "size": 45993
+    },
+    {
+      "path": "real/value_learning/tables/training_probes.csv",
+      "rows": 450,
+      "sha256": "7251b58c5910f674923141dc9b62bc9f52002ed8c6f83b54d5c3df235cd47ec8",
+      "size": 17767
+    }
+  ],
+  "schema": "mulligan.paper.appendix.value_learning.v3",
+  "sources_sha256": "a7b2591d7b69863dd30ee00311cb0736d6d6e23fe59f8e1efb66a6286e5fdcc4"
+}

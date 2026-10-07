@@ -1,0 +1,54 @@
+{
+  "experiment": "square_broad_r1",
+  "task": "square_broad",
+  "collection_dataset": "mulligan/sim-square-broad-c01-dagger-mixed",
+  "init_states_file": "<local-path>/square_broad_r1.json",
+  "manifest_file": "<local-path>/square_broad_r1_manifest.json",
+  "ledger_file": "<local-path>/square_broad_r1_ledger.jsonl",
+  "arms": [
+    "baseline_uniform",
+    "sobol",
+    "mulligan"
+  ],
+  "policy_sources": {
+    "baseline_uniform": "baseline_policy",
+    "sobol": "mulligan_policy",
+    "mulligan": "mulligan_policy"
+  },
+  "protocol_targets": {
+    "no_cf": 100,
+    "with_cf": 100
+  },
+  "protocol_arms": {
+    "no_cf": [
+      "baseline_uniform",
+      "sobol",
+      "mulligan"
+    ],
+    "with_cf": [
+      "sobol",
+      "mulligan"
+    ]
+  },
+  "source_arm_files": {
+    "baseline_uniform": "<local-path>/square_broad_baseline_uniform_r1.json",
+    "sobol": "<local-path>/square_broad_sobol_r1.json",
+    "mulligan": "<local-path>/square_broad_mulligan_r1.json"
+  },
+  "rollout_inputs": {
+    "baseline_uniform": "<local-path>/square_broad_baseline_uniform_r1_policy_rollout.json",
+    "sobol_diagnostic": "<local-path>/square_broad_sobol_r1_diagnostic_rollouts_audit.json"
+  },
+  "rollout_datasets": {
+    "baseline_uniform": "mulligan/sim-square-broad-c01-baseline-policy-rollouts",
+    "sobol_diagnostic": "mulligan/sim-square-broad-c01-sobol-policy-rollouts"
+  },
+  "split_targets": {
+    "no_cf.baseline_uniform": "mulligan/sim-square-broad-c01-dagger-baseline",
+    "no_cf.sobol": "mulligan/sim-square-broad-c01-dagger-sobol-no-cf",
+    "no_cf.mulligan": "mulligan/sim-square-broad-c01-dagger-mulligan-no-cf",
+    "with_cf.sobol": "mulligan/sim-square-broad-c01-dagger-sobol-with-cf",
+    "with_cf.mulligan": "mulligan/sim-square-broad-c01-dagger-mulligan"
+  },
+  "recipe": "baseline: the first 100 IID uniform starts; sobol: promoted diagnostic failures among the first 100 + canonical Sobol fill from index 300; mulligan: the selected hardness-model sampler"
+}

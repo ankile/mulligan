@@ -1,0 +1,5 @@
+{
+  "node": {
+    "externalPackages": ["parquet-wasm", "apache-arrow", "@huggingface/hub"]
+  }
+}

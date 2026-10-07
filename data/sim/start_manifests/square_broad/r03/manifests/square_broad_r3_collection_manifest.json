@@ -1,0 +1,44 @@
+{
+  "experiment": "square_broad_r3",
+  "task": "square_broad",
+  "collection_dataset": "mulligan/sim-square-broad-c03-dagger-mixed",
+  "init_states_file": "<local-path>/square_broad_r3.json",
+  "manifest_file": "<local-path>/square_broad_r3_manifest.json",
+  "object_qpos_file": "<local-path>/square_broad_r3_object_qpos.npy",
+  "ledger_file": "<local-path>/square_broad_r3_ledger.jsonl",
+  "arms": [
+    "baseline_uniform",
+    "mulligan"
+  ],
+  "policy_sources": {
+    "baseline_uniform": "baseline_policy",
+    "mulligan": "mulligan_policy"
+  },
+  "policy_artifacts": {
+    "baseline_policy": "mulligan/sim-square-broad-r02-baseline-idql/seed-1",
+    "mulligan_policy": "mulligan/sim-square-broad-r02-mulligan-idql/seed-1"
+  },
+  "protocol_targets": {
+    "no_cf": 100,
+    "with_cf": 100
+  },
+  "protocol_arms": {
+    "no_cf": [
+      "baseline_uniform",
+      "mulligan"
+    ],
+    "with_cf": [
+      "mulligan"
+    ]
+  },
+  "source_arm_files": {
+    "baseline_uniform": "<local-path>/square_broad_baseline_uniform_r3.json",
+    "mulligan": "<local-path>/square_broad_mulligan_r3.json"
+  },
+  "split_targets": {
+    "no_cf.baseline_uniform": "mulligan/sim-square-broad-c03-dagger-baseline",
+    "no_cf.mulligan": "mulligan/sim-square-broad-c03-dagger-mulligan-no-cf",
+    "with_cf.mulligan": "mulligan/sim-square-broad-c03-dagger-mulligan"
+  },
+  "recipe": "baseline: 100 fresh IID uniform R3 starts -> baseline R2 policy; mulligan: locked blended_p0_b1.00_r1 sampler (14 promoted R3 diagnostic failures from Sobol 700-799 + 86 blended length-model/grid-cell-hardness FPS fill) -> R2 Mulligan with-CF policy. R3 has no Sobol arm."
+}

@@ -1,0 +1,88 @@
+# Square-Narrow R1 collection starts: three arms, 100 starts each.
+# Paper: Alg. 2, App. F.4, F.5 and F.7. Builds the locked R1 collection starts (`locked`) of
+# mulligan/sim-square-narrow-c01-dagger-mixed.
+# Run: python -m mulligan.sampling.sim_design --config configs/sim/square_narrow/r01_sampler.yaml --out <dir> --check
+task: square_narrow
+round: 1
+budget: 100
+
+arms:
+  baseline_uniform:
+    policy_source: baseline_policy
+    starts:
+      uniform: {seed: 202605263}
+
+  sobol:
+    policy_source: mulligan_policy
+    starts:
+      promote_then_sobol:
+        # R0 Sobol policy on Sobol stream 100-199 (byte-identical to
+        # square_narrow_sobol_r1_diagnostic_rollouts_audit.json).
+        diagnostics:
+          path: data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_sobol_r0_eval_sobol_100_199_audit.json
+        sobol_start: 200
+
+  # Mulligan arm.
+  mulligan:
+    policy_source: mulligan_policy
+    starts:
+      select_initial_states:
+        diagnostics:
+          path: data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_sobol_r0_eval_sobol_100_199_audit.json
+        prior:
+          - data/sim/start_manifests/square_narrow/r00/init_states/square_narrow_sobol_r0.json
+        perturbation:
+          n: 20
+          seed: 202605352
+          sigma: {nut_y: 0.025, nut_yaw: 0.05}
+          resample: [nut_x]
+        candidates: {n: 50000, seed: 202605452}
+        # The Square-Narrow builders ranked candidates by the squared normalized
+        # distance times (1 + beta h).
+        distance: squared_euclidean
+        prior_distance_periodic: true
+        eval_grid_feedback: false
+        hardness:
+          - beta: 0.5
+            signal:
+              narrow_shape:
+                yaw_alpha: 4.0
+                weights: {y_norm: 0.37, y_edge: 0.23, yaw_sin_alpha: 0.40}
+
+manifest:
+  shuffle_seed: 202605264
+  match_tolerance: 1.0e-3
+  disjoint_tolerance: 1.0e-6
+  disjoint_from:
+    - data/sim/start_manifests/square_narrow/r00/init_states/square_narrow_baseline_uniform_r0.json
+    - data/sim/start_manifests/square_narrow/r00/init_states/square_narrow_sobol_r0.json
+  # R0/R1 headline grid: 80 equal-width cells x 100 Sobol points.
+  eval_grid:
+    generator: equal_tile
+    points_per_cell: 100
+    seed: 20260524
+    states_sha256: 5dc055c1c4ab8d5e65a51653a7198645d0748f84b2bd43eb5e73246d6e39b923
+
+guardrail:
+  arm: mulligan
+  prior:
+    - data/sim/start_manifests/square_narrow/r00/init_states/square_narrow_sobol_r0.json
+  sobol_start: 200
+  test_points: {n: 50000, seed: 202605460}
+  slack: 1.0
+  enforce: true
+
+locked:
+  manifest:
+    path: data/sim/start_manifests/square_narrow/r01/blind_inputs/square_narrow_r1_manifest.json
+    sha256: e41d214ebc3dd6fadb8060fbfa2dc73a85c599f0feb77573f5ac9d78ff101976
+  arms:
+    baseline_uniform:
+      path: data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_baseline_uniform_r1.json
+      sha256: d5685e32297ec028a7fc9a36fe868505f5a678757bf9b2b1ae00dcc31aea5ff3
+    sobol:
+      path: data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_sobol_r1.json
+      sha256: e976391003db6a729f94f808211f06013130aecaed5cfd7bb3aed7e002e68a57
+    mulligan:
+      path: data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_mulligan_r1.json
+      sha256: a8c2223679058e171b064374baf86c58022b81ca270215db7ca68f62f2ed15cc

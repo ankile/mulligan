@@ -1,0 +1,12 @@
+{
+ "schema_version": 1,
+ "fixtures": [
+  {
+   "name": "rlpd_sac_parity.npz",
+   "destination": "hf://datasets/mulligan/paper-evidence/fixtures/rlpd_sac_parity.npz",
+   "sha256": "e3b960156604148678bb1de35b803115374005739eddf4f314235f93c0aca956",
+   "size_bytes": 11892480,
+   "members": 69
+  }
+ ]
+}

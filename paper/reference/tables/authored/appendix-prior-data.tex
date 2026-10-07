@@ -1,0 +1,20 @@
+\begin{tabular}{llDIAWl}
+    \hline
+    Method                          & Task            & Demos                 & Human corrections                                                  & Autonomous experience                                    & Robot time                            & Source      \\
+    \hline
+    HiL-SERL~\citep{luo2024hilserl} & IKEA side panel & $20$                  & rate curve only$^{\dagger}$                                        & $31{,}000$ / $36{,}000$ transitions$^{\ddagger}$ (p1/p2) & $2$ / $1.75$\,h                       & Tab.\ 1, 6  \\
+    HiL-SERL~\citep{luo2024hilserl} & Cable clipping  & $20$                  & rate curve only$^{\dagger}$                                        & $28{,}000$ transitions$^{\ddagger}$                      & $1.25$\,h                             & Tab.\ 1, 5  \\
+    ConRFT~\citep{chen2025conrft}   & Pick banana     & $20$                  & rate curve only$^{\dagger}$                                        & $80$--$120$ episodes$^{*}$                               & $45$\,min                             & Tab.\ I, V  \\
+    ConRFT~\citep{chen2025conrft}   & Insert wheel    & $30$                  & rate curve only$^{\dagger}$                                        & $80$--$120$ episodes$^{*}$                               & $60$\,min                             & Tab.\ I, XI \\
+    RL-100~\citep{lei2025rl100}     & Box folding     & $200$ ($3$\,h)        & none$^{\S}$                                                        & $608$ offline + $186$ online epi.                        & $15.3$\,h                             & Tab.\ S3    \\
+    RL-100~\citep{lei2025rl100}     & Orange juicing  & $109$ ($2$\,h)$^{\P}$ & none$^{\S}$                                                        & $791$ offline + $990$ online epi.$^{\P}$                 & $31.5$\,h$^{\P}$                      & Tab.\ S3    \\
+    RL-100~\citep{lei2025rl100}     & Pouring         & $64$ ($1$\,h)         & none$^{\S}$                                                        & $741$ offline + $129$ online epi.                        & $9.3$\,h                              & Tab.\ S3    \\
+    RL-100~\citep{lei2025rl100}     & Unscrewing      & $31$ ($0.5$\,h)       & none$^{\S}$                                                        & $467$ offline + $288$ online epi.                        & $8$\,h                                & Tab.\ S3    \\
+    SERL~\citep{luo2024serl}        & Cable routing   & $20$                  & none$^{\S}$                                                        & unstated                                                 & $31$\,min                             & Tab.\ 2     \\
+    SERL~\citep{luo2024serl}        & PCB insertion   & $20$                  & none$^{\S}$                                                        & unstated                                                 & $20$\,min                             & Tab.\ 2     \\
+    \hline
+    Ours                            & \marker         & $100$ / arm (R0)      & R0--R5, $50$ epi.\ / round / arm; $38{,}017$ human frames$^{\|}$   & $43{,}509$ frames$^{\|}$                                 & $91$\,min $+$ $367$\,min eval$^{\|}$  & ---         \\
+    Ours                            & \nut            & $100$ / arm (R0)      & R0--R5, $50$ epi.\ / round / arm; $34{,}536$ human frames$^{\|}$   & $31{,}818$ frames$^{\|}$                                 & $74$\,min $+$ $277$\,min eval$^{\|}$  & ---         \\
+    Ours                            & \cable          & $100$ / arm (R0)      & R0--R5, $100$ epi.\ / round / arm; $112{,}292$ human frames$^{\|}$ & $103{,}183$ frames$^{\|}$                                & $244$\,min $+$ $322$\,min eval$^{\|}$ & ---         \\
+    \hline
+  \end{tabular}

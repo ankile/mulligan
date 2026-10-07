@@ -1,0 +1,104 @@
+{
+  "schema": "mulligan.paper.initial_states.v1",
+  "note": "Typical (median-length demonstration whose object points farthest from the robot) and hardest (longest demonstration) round-0 starts. repo/episode_index address the public round-0 teleoperation recordings (read at their release/revisions.json pin); the picks are recomputed on every build and must equal these. The Thread Nut strip samples the hardest demonstration at the listed times; its labels are set in the manuscript caption.",
+  "start_camera": "observation.images.side_2",
+  "strip_camera": "observation.images.side_1",
+  "start_crop": [
+    40,
+    40,
+    640,
+    450
+  ],
+  "strip_crop": [
+    0,
+    20,
+    400,
+    320
+  ],
+  "operator_box": [
+    380,
+    -40,
+    700,
+    225
+  ],
+  "enhance": {
+    "color": 1.12,
+    "brightness": 1.03,
+    "contrast": 1.03
+  },
+  "fps": 15,
+  "tasks": {
+    "marker": {
+      "repo": "mulligan/real-marker-d2-c00-teleop-mixed",
+      "obj": "pen",
+      "median_length": 190.5,
+      "picks": {
+        "typical": {
+          "episode_index": 188,
+          "x_m": -0.0707,
+          "y_m": 0.1494,
+          "yaw_deg": 338.9,
+          "length_steps": 189,
+          "length_s": 12.6
+        },
+        "hardest": {
+          "episode_index": 57,
+          "x_m": -0.0725,
+          "y_m": 0.0112,
+          "yaw_deg": 174.0,
+          "length_steps": 289,
+          "length_s": 19.27
+        }
+      }
+    },
+    "nut": {
+      "repo": "mulligan/real-square-d2-c00-teleop-mixed",
+      "obj": "nut",
+      "median_length": 152.0,
+      "picks": {
+        "typical": {
+          "episode_index": 117,
+          "x_m": 0.0607,
+          "y_m": -0.1789,
+          "yaw_deg": 3.5,
+          "length_steps": 152,
+          "length_s": 10.13
+        },
+        "hardest": {
+          "episode_index": 21,
+          "x_m": -0.1231,
+          "y_m": 0.1791,
+          "yaw_deg": 159.1,
+          "length_steps": 272,
+          "length_s": 18.13
+        }
+      }
+    }
+  },
+  "nut_reorientation": [
+    {
+      "time_s": 1.5,
+      "label": "start"
+    },
+    {
+      "time_s": 2.5,
+      "label": "finger by handle"
+    },
+    {
+      "time_s": 4.5,
+      "label": "rotate"
+    },
+    {
+      "time_s": 5.5,
+      "label": "reoriented"
+    },
+    {
+      "time_s": 9.0,
+      "label": "grasp"
+    },
+    {
+      "time_s": 10.0,
+      "label": "lift"
+    }
+  ]
+}

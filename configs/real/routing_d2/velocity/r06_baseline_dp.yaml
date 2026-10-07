@@ -1,0 +1,73 @@
+# Run: python -m mulligan.real.train.launch configs/real/routing_d2/velocity/r06_baseline_dp.yaml --output-dir <dir>
+kind: dp-actor
+trainer: mulligan.real.train.policy
+checkpoint:
+  repo: mulligan/real-routing-d2-velocity-r06-baseline-dp
+  revision: ccaf4140afc67a45ff78053047dbe15e72eeb3c7
+  step: 100000
+retrain: exact
+paper:
+  task: Route Cable
+  round: velocity R6
+  arm: HG-DAgger
+  seed: 1
+  results: []
+  evaluations: []
+  collections:
+  - mulligan/real-routing-d2-c07-dagger-mixed
+dataset_revisions:
+  mulligan/real-routing-d2-c00-teleop-baseline: b67f529fc91d371636f95da358cbd9d6535e7695
+  mulligan/real-routing-d2-c00-teleop-validation: aea89ca1dcde5bf0f3eafba80d4ed6be5c6f16af
+  mulligan/real-routing-d2-c01-dagger-baseline: 5330184a79232f450949c844a5a6cfd2f3fe2069
+  mulligan/real-routing-d2-c02-dagger-baseline: 65d22736e94e3f51f115cde5951dc2e1fe21f7e0
+  mulligan/real-routing-d2-c03-dagger-baseline: a44ad0fd15b7379c3154cd4a58762b26dd0bdce2
+  mulligan/real-routing-d2-c04-dagger-baseline: 70f4ad643fb6bb53509e40cbda46c66b346f1bb3
+  mulligan/real-routing-d2-c05-dagger-baseline: 15d187defba78bcf7a0b9e6088f773154b4002e6
+  mulligan/real-routing-d2-c06-dagger-baseline: a47228ef48cd89e8a6382558a485d6fc948d5894
+dataset_episodes: {}
+args:
+  task: routing_d2
+  repo-ids:
+  - mulligan/real-routing-d2-c00-teleop-baseline
+  - mulligan/real-routing-d2-c01-dagger-baseline
+  - mulligan/real-routing-d2-c02-dagger-baseline
+  - mulligan/real-routing-d2-c03-dagger-baseline
+  - mulligan/real-routing-d2-c04-dagger-baseline
+  - mulligan/real-routing-d2-c05-dagger-baseline
+  - mulligan/real-routing-d2-c06-dagger-baseline
+  filter-dagger: true
+  num-workers: 24
+  seed: 1
+  eval-repo-ids:
+  - mulligan/real-routing-d2-c00-teleop-validation
+  eval-batch-size: 64
+  num-eval-batches: 128
+  model-init-seed: 0
+  uint8-native-images: true
+  decoded-frame-cache: true
+  n-action-steps: 6
+  image-height: 224
+  image-width: 224
+  training-steps: 100000
+  batch-size: 64
+  save-freq: 25000
+  scheduler-name: cosine
+  drop-n-last-frames: 2
+  spatial-softmax-num-keypoints: 32
+  eval-freq: 5000
+camera_crops:
+  side_1:
+  - 140
+  - 120
+  - 560
+  - 470
+  side_2:
+  - 130
+  - 120
+  - 440
+  - 445
+  wrist_left:
+  - 180
+  - 0
+  - 639
+  - 413

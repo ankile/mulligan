@@ -1,0 +1,15 @@
+{
+  "files": [
+    {
+      "path": "sim/critic/data_ablation/paired_seeds.csv",
+      "sha256": "ea8866952d93bb6b5a63cc53450eeb6d233eddc0b68cce021de6a3cbee013ee8",
+      "size": 2338
+    },
+    {
+      "path": "sim/critic/data_ablation/summary.json",
+      "sha256": "82ad0e8822d6178e4427e877020648b8de3996131ae6f579c176b9ae0ff11695",
+      "size": 3091
+    }
+  ],
+  "schema": "mulligan.paper.appendix.inputs.v3"
+}

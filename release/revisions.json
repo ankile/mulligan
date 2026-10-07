@@ -1,0 +1,2033 @@
+{
+ "schema_version": 1,
+ "rule": "The one revision of every public mulligan/* repo that release code, configs, tests and manifests may pin: the repo's single commit (the Hub keeps no earlier history). Datasets: the release-1 tag. Models: the release-1 tag. Paper evidence (`mulligan/paper-evidence`, type evidence): the same tag.",
+ "dataset_tag": "release-1",
+ "model_tag": "release-1",
+ "counts": {
+  "dataset": 223,
+  "evidence": 1,
+  "model": 180
+ },
+ "repos": {
+  "mulligan/paper-evidence": {
+   "type": "evidence",
+   "revision": "2de22605e51b198f2fed644598f400a090f1564a",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c00-teleop-baseline": {
+   "type": "dataset",
+   "revision": "fca1b80fd41df0eb8cded11d03c8810a5c42f5ba",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c00-teleop-mixed": {
+   "type": "dataset",
+   "revision": "c39ac2200c3fbc6798345262ad77f65242adf48a",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c00-teleop-sobol": {
+   "type": "dataset",
+   "revision": "2eceb8cab17e48e970e082d37ce6d0aac03b4522",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c00-teleop-validation": {
+   "type": "dataset",
+   "revision": "66e508d55f3b6820f610b1270f2dd94884f785f5",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c01-dagger-baseline": {
+   "type": "dataset",
+   "revision": "bce514b6ceb3f818cd2d5b49aa08237d02828682",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c01-dagger-mixed": {
+   "type": "dataset",
+   "revision": "d743bd219a1ab561f1ba0c40eb4d59baa86d9b4d",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c01-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "b8d9e14d4179b19d9e6a678de01f9776edadbee9",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c01-dagger-mulligan-no-cf": {
+   "type": "dataset",
+   "revision": "d06070f20234388e0e4a4ffbab0a2123cda6b101",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c02-dagger-baseline": {
+   "type": "dataset",
+   "revision": "5bc9a56799a13e7e92471315c0ee1d1ef04dd703",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c02-dagger-mixed": {
+   "type": "dataset",
+   "revision": "116822bef6929a08226ca46e1d5d365fdf2aa761",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c02-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "a09b8f548a92170f0a47ed1eee519d016d885ad2",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c02-dagger-mulligan-no-cf": {
+   "type": "dataset",
+   "revision": "4967b190557d28c6637fa73913908dd4fa4998a7",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c03-dagger-baseline": {
+   "type": "dataset",
+   "revision": "9d1b10f372055b1d096ae17a12cacc246980804c",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c03-dagger-mixed": {
+   "type": "dataset",
+   "revision": "36a903fa1b98e313a008da71366fd0e44ce621ea",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c03-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "991285990c72a7c6d10ad063d8be055476f9a125",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c03-dagger-mulligan-no-cf": {
+   "type": "dataset",
+   "revision": "64aa752c243c1c0231b7fd869531c9911e787ca4",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c04-dagger-baseline": {
+   "type": "dataset",
+   "revision": "ded903b49bb026e43c332cd62a1ec1c34565939b",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c04-dagger-mixed": {
+   "type": "dataset",
+   "revision": "30177b410243c5fa566183b3955f3edc2e151ac4",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c04-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "de8d7c640976b7bf705ab074e57bd9906fa54989",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c04-dagger-mulligan-no-cf": {
+   "type": "dataset",
+   "revision": "f72f932f0b7f8fee38671f82b183c1892797c63c",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c05-collector-idql-critic": {
+   "type": "model",
+   "revision": "ed9ec82dc434fcbaf87faa1f148c5bc687f4f018",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c05-dagger-baseline": {
+   "type": "dataset",
+   "revision": "35d7a5b8a407c4fdc6a622da745473807caa3c19",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c05-dagger-mixed": {
+   "type": "dataset",
+   "revision": "805021d063931ac50d147e33aeef6f3859316284",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c05-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "a69371f52f96588b15e8e3b960b1c41d494b6f0c",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-c05-dagger-mulligan-no-cf": {
+   "type": "dataset",
+   "revision": "3fcb3189f246223d515e3443392477c3323541f5",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r00-baseline-dp": {
+   "type": "model",
+   "revision": "c9d0d2de62500538d29148409cc75dc256673189",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r00-eval": {
+   "type": "dataset",
+   "revision": "37ee00a122d5999b60da094948414664317f105d",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r00-eval-b01-baseline-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "0639d04f3b8c87c3d43d5ece4621148c77667cfa",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r00-eval-b01-sobol-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "3aef30fd38cdf974bb2762c1762e9a1d603f46fb",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r00-sobol-dp": {
+   "type": "model",
+   "revision": "1a42420dd0a60e5392bbfd41592207f6e5afdfa2",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r01-baseline-dp": {
+   "type": "model",
+   "revision": "4cdaef1117c8f8ba6fd4c337c917377a6d020e82",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r01-eval": {
+   "type": "dataset",
+   "revision": "2fb44cf460e68cb51ecbdb142905cc7826c42924",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r01-eval-b01-mulligan-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "e5467e7f7e1346bea4512970bc6a57235bed39f0",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r01-mulligan-dp": {
+   "type": "model",
+   "revision": "fc6579ee9694958f5ed6c40f901092666bb3f53e",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r01-mulligan-no-cf-dp": {
+   "type": "model",
+   "revision": "fbb98c1f423735693a9c90f86526c3135a5716d4",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r02-baseline-dp": {
+   "type": "model",
+   "revision": "235fae559d4f1cb37a0623187f853f808d577f83",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r02-eval": {
+   "type": "dataset",
+   "revision": "6c78bfab916e1736686cbf8001d7acd56ed875a1",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r02-eval-b01-baseline-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "3e9d5dcc8249a18ef53475eeb52482469c871709",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r02-eval-b01-mulligan-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "ac6bf9318abe9c7deb023291e695bbe48f9a6557",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r02-eval-b03": {
+   "type": "dataset",
+   "revision": "c4a5f0614a3d2cb92ddb4834c3bca6d615873d71",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r02-mulligan-dp": {
+   "type": "model",
+   "revision": "75eac3bc9b96ab316c8aa26f455132c30ef6766e",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r02-mulligan-idql-critic": {
+   "type": "model",
+   "revision": "b5d06fac21260c3ada8c75098104fd43ffcd6f1a",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r02-mulligan-no-cf-dp": {
+   "type": "model",
+   "revision": "ecc827f9c727855e12368ec1d5853692187da97b",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r03-baseline-dp": {
+   "type": "model",
+   "revision": "7414bcd82936fdcb22e75341de1c6669ed1c3cd9",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r03-eval": {
+   "type": "dataset",
+   "revision": "4dbb81f9404a10cc73d6d30bf6b823e435991565",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r03-eval-b01-baseline-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "21143b9df9c100d705525b3534557ef3e7d90dad",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r03-eval-b01-mulligan-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "5ad663429527edf30c34a36e7960daae272b6a85",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r03-eval-b01-mulligan-idql-policy-rollouts": {
+   "type": "dataset",
+   "revision": "67c5ba18af0e82bb652d6340b0d6e6da619968c6",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r03-mulligan-dp": {
+   "type": "model",
+   "revision": "0f03dc163abd47eeef0bee1ab51bd0c9304c6532",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r03-mulligan-idql-critic": {
+   "type": "model",
+   "revision": "aa3316f5f9a24bd95215dfc4b2fd0e0d25f4d18b",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r04-baseline-dp": {
+   "type": "model",
+   "revision": "5fd5fda05a659e364fc14ed49352e9274f58c304",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r04-eval": {
+   "type": "dataset",
+   "revision": "0cdc7a3c814c06bd6b0094b4d3d4aaa644c4ccef",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r04-eval-b01-baseline-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "662a9542c0554fe37337d476554532d74dc7e498",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r04-eval-b01-mulligan-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "10edac81758b6099fd2d9515b97f4c17803cd3e5",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r04-eval-b01-mulligan-idql-policy-rollouts": {
+   "type": "dataset",
+   "revision": "93ec13549077224147368320e4b7375a8f31b89c",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r04-mulligan-dp": {
+   "type": "model",
+   "revision": "86e4acd0de60f7d686a3ba1bfb148f7aa5704625",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r04-mulligan-idql-critic": {
+   "type": "model",
+   "revision": "cb6739de2bf922889f89f1f56cb506a26bac0374",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r05-baseline-dp": {
+   "type": "model",
+   "revision": "4ba17577900bc1475fc9df65472cc24938afadb7",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r05-eval": {
+   "type": "dataset",
+   "revision": "af7ef315a96204358f04734c99cc3bdf032ffdcf",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r05-mulligan-dp": {
+   "type": "model",
+   "revision": "cb461d1bb7fe776de45b45d305b98cfe82bc67f6",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r05-mulligan-idql-critic": {
+   "type": "model",
+   "revision": "abce857ca6fc88c06f941ed9082c5a68e8c21359",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r05-mulligan-idql-critic-screen-b02": {
+   "type": "model",
+   "revision": "a0b56515356e1a350ebd0841f50d3dcbd2a4c59c",
+   "tag": "release-1"
+  },
+  "mulligan/real-marker-d2-r05-screen": {
+   "type": "dataset",
+   "revision": "4ce484310aa0bebca39f9633bc102bc78f210398",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c00-teleop-baseline": {
+   "type": "dataset",
+   "revision": "b67f529fc91d371636f95da358cbd9d6535e7695",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c00-teleop-mixed": {
+   "type": "dataset",
+   "revision": "c29d12c8131568f958270c0222216d1c50b62b14",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c00-teleop-sobol": {
+   "type": "dataset",
+   "revision": "16a1a3301199918236da525bb30c064c4f28d7f3",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c00-teleop-validation": {
+   "type": "dataset",
+   "revision": "aea89ca1dcde5bf0f3eafba80d4ed6be5c6f16af",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c01-dagger-baseline": {
+   "type": "dataset",
+   "revision": "5330184a79232f450949c844a5a6cfd2f3fe2069",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c01-dagger-mixed": {
+   "type": "dataset",
+   "revision": "bf6f1651ca65517cb9e7ce20f6f77d3681deee4e",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c01-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "cba50487f61ebc907e2ffcc9428187c1e9aaf73d",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c02-dagger-baseline": {
+   "type": "dataset",
+   "revision": "65d22736e94e3f51f115cde5951dc2e1fe21f7e0",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c02-dagger-mixed": {
+   "type": "dataset",
+   "revision": "8edd383fc207870448142009b38a8ebd38d509b4",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c02-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "794203d5fade5f5bb74579f14cb7b1fbeaf61ba5",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c03-dagger-baseline": {
+   "type": "dataset",
+   "revision": "a44ad0fd15b7379c3154cd4a58762b26dd0bdce2",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c03-dagger-mixed": {
+   "type": "dataset",
+   "revision": "4a675bd6ce937ed98f3ba357094ea6b4585f8ab1",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c03-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "c031570959bc6b9d90737d10fc4ba2ec3a70c074",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c04-dagger-baseline": {
+   "type": "dataset",
+   "revision": "70f4ad643fb6bb53509e40cbda46c66b346f1bb3",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c04-dagger-mixed": {
+   "type": "dataset",
+   "revision": "ff57e6d1274aa51f35a2654c8a7c1ed2e477a98a",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c04-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "11b168c376d5d172e355e4ea214774b34c23f025",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c05-dagger-baseline": {
+   "type": "dataset",
+   "revision": "15d187defba78bcf7a0b9e6088f773154b4002e6",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c05-dagger-mixed": {
+   "type": "dataset",
+   "revision": "f4e02a5dc1da208e936fa9fd3bc74f683e3f4c3d",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c05-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "a0a349452a6561555e0b6943a905df15efd21c23",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c06-dagger-baseline": {
+   "type": "dataset",
+   "revision": "a47228ef48cd89e8a6382558a485d6fc948d5894",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c06-dagger-mixed": {
+   "type": "dataset",
+   "revision": "626dd15812a641609dcd9d5b2c4f7a53d8da347f",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c06-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "94db8527052ebda1fa7199bf7dfa5b4e08f7f7fb",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c07-dagger-baseline": {
+   "type": "dataset",
+   "revision": "c7d154cd7b7ccaa6f8d335d6cacf9d8b8a7e0d70",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c07-dagger-mixed": {
+   "type": "dataset",
+   "revision": "685617d9936faa9b702cda092dd225e7bfd3c356",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c07-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "07c98d2e1a9ce501307fa11ef7dec0ebff14250c",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c08-dagger-baseline": {
+   "type": "dataset",
+   "revision": "5f7effac0b9b624db2db37d76a468e26e259d8f6",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c08-dagger-mixed": {
+   "type": "dataset",
+   "revision": "280553ccb4d6b0c67109642da649c70c08cdee17",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c08-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "759654177534b6fc03902951520923eb53d85a4e",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c09-dagger-baseline": {
+   "type": "dataset",
+   "revision": "59a2f082d0698014869c0f431067499708053dee",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c09-dagger-mixed": {
+   "type": "dataset",
+   "revision": "bb7dd94ecd34644fc37b02761d3c8389292bb6e9",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-c09-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "00d73a2be56021195951add76a38cfc28f231ce1",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-r00-baseline-dp": {
+   "type": "model",
+   "revision": "62c85e172f1e5adf78b872828ffd26f6023a562a",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-r00-r05-eval": {
+   "type": "dataset",
+   "revision": "89b5cd9fed7f80792ea0146d5a90d3ade0a119e5",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-r00-sobol-dp": {
+   "type": "model",
+   "revision": "45a65671428e0e96ad203b5f2d0611251079ac1c",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-r01-baseline-dp": {
+   "type": "model",
+   "revision": "67c7b6ba9f57ada645985e33818221f928eeccfa",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-r01-mulligan-dp": {
+   "type": "model",
+   "revision": "3a9bc6b750493d290ee828cb295de6936afe855b",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-r02-baseline-dp": {
+   "type": "model",
+   "revision": "c3707104e99ad2197c5b080fad8e53b2a45cdcf8",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-r02-mulligan-dp": {
+   "type": "model",
+   "revision": "43c08bd24144b99a24a2134a8f7ef4ea110def96",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-r03-baseline-dp": {
+   "type": "model",
+   "revision": "d4804b09817c1c5677603b6791a6598d6a7520ef",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-r03-mulligan-dp": {
+   "type": "model",
+   "revision": "b54041d126e611b4ccb39b45e8d2ef0b6183f4e5",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-r03-mulligan-idql-critic": {
+   "type": "model",
+   "revision": "3ca1bc5d9f7d50d86ec7e420f89279d0bca8e2e1",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-r04-baseline-dp": {
+   "type": "model",
+   "revision": "991f8c4309ec4b794d4db111cd5240fbf02315bf",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-r04-mulligan-dp": {
+   "type": "model",
+   "revision": "530ad1344471139633ab77b74c91e367b788d673",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-r04-mulligan-idql-critic": {
+   "type": "model",
+   "revision": "4b915924e9001101042492bd4b2b94467a783e17",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-r05-baseline-dp": {
+   "type": "model",
+   "revision": "9f515604321c31ef776f4e2e02cd3ff0d92fe40a",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-r05-mulligan-dp": {
+   "type": "model",
+   "revision": "0560377e95ab94bed23456ff17d6ee27cc0a9180",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-r05-mulligan-idql-critic": {
+   "type": "model",
+   "revision": "548a254c7d1e6ae641971e8cebcc3ca764b50205",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r00-baseline-dp": {
+   "type": "model",
+   "revision": "d5f20c5ae016a59f7669d55025eacc9d5dbd82de",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r00-eval-b01": {
+   "type": "dataset",
+   "revision": "096045f148d6797086309b13c147d2c3e1b5bcce",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r00-eval-b01-baseline-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "42a58891d0a1971a16050a6904f866aed73e3e7a",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r00-eval-b01-sobol-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "e11ac736d36f002fb40aadba256d3adaecdefe21",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r00-sobol-dp": {
+   "type": "model",
+   "revision": "c2ea926ca2a2d9ef2b3aae9b623400d8aec45a3a",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r01-baseline-dp": {
+   "type": "model",
+   "revision": "cdd3442d0e7edbe8b3989dc5c20f2cb1042d4fcb",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r01-eval-b01": {
+   "type": "dataset",
+   "revision": "6bfecd48e9ff00708d3d4a1a1d29683dacda47bf",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r01-eval-b01-baseline-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "cbc8ab34db54a94d45280546c5408af8514dec40",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r01-eval-b01-mulligan-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "5f279e4c12cf714353d8d8b7ce06e94496734f94",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r01-mulligan-dp": {
+   "type": "model",
+   "revision": "7fec775d7d7c59586ab9a250505f85e4be75cb8c",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r02-baseline-dp": {
+   "type": "model",
+   "revision": "e23f33b20e078b595026e66cc83c231405bafe8d",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r02-eval-b01": {
+   "type": "dataset",
+   "revision": "e1a047f78814a01512ca9dc0582dd7f6dee0771d",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r02-eval-b01-baseline-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "4b13b691a6f71d0ca508691de4a39446a25773fa",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r02-eval-b01-mulligan-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "59082e6f6e81f5ae7543013a7abce1004414b672",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r02-mulligan-dp": {
+   "type": "model",
+   "revision": "f27fb2fc46bd5b2539033288e584de52576bb53e",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r03-baseline-dp": {
+   "type": "model",
+   "revision": "a9ef81f692a1c9fde5c2f9a652ac9bf925ad9a84",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r03-eval-b01": {
+   "type": "dataset",
+   "revision": "05509b82c257f20cca2a3e6986753784e9d06c51",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r03-eval-b01-baseline-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "dee187470367e27d3e563d1a2390b8e3ccbf6436",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r03-eval-b01-mulligan-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "488f1847c89b5fc078146bae5f50e8b1ef76d285",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r03-mulligan-dp": {
+   "type": "model",
+   "revision": "7524c0175d206c966402ac20d9f7c228755988fa",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r04-baseline-dp": {
+   "type": "model",
+   "revision": "e39b62c5fb7e98aea3ceaf5691581cc24474df3b",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r04-eval-b01": {
+   "type": "dataset",
+   "revision": "b0e2fb52c845efaabfd3490068c4dd9c33df6554",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r04-eval-b01-baseline-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "c38fd266c3d083cfe582a6ec3cd3767cb54d259f",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r04-eval-b01-mulligan-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "69727e9ee3c176df91642fcd40c4a646cf2b3fa3",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r04-eval-b01-mulligan-idql-policy-rollouts": {
+   "type": "dataset",
+   "revision": "5b293724bd36685992fe7f5decec7758abd376da",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r04-mulligan-dp": {
+   "type": "model",
+   "revision": "b534104c842d4e2c47129c7d924e508706dff350",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r04-mulligan-idql-critic": {
+   "type": "model",
+   "revision": "9bd9d96e7ec6792797013adca0770d5e052de692",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r05-baseline-dp": {
+   "type": "model",
+   "revision": "09c53210b212c825ac00b7273de7bf48a60a40b1",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r05-eval-b01": {
+   "type": "dataset",
+   "revision": "a028d5595d04ca9e2740d791af2f3b5060fb7955",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r05-eval-b01-baseline-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "846d51ce7ac61438cd05b261471eb9b5c737b98e",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r05-eval-b01-mulligan-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "5648ddaf8ab6ba5503e5dae21ca1dfa4221a013f",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r05-eval-b01-mulligan-idql-policy-rollouts": {
+   "type": "dataset",
+   "revision": "0b79ad71045c20bccf8a266287d081c3825ef4b0",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r05-mulligan-dp": {
+   "type": "model",
+   "revision": "567aa6a039b70851f01fa4a79ada12f2caa09463",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r05-mulligan-idql-critic": {
+   "type": "model",
+   "revision": "bc42896bd00574106cf8cbbed33bfaa670a6f071",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r06-baseline-dp": {
+   "type": "model",
+   "revision": "ccaf4140afc67a45ff78053047dbe15e72eeb3c7",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r06-eval-b01": {
+   "type": "dataset",
+   "revision": "900835a9aa89aa3ae78e8a40c10bcbfc18cb97f2",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r06-eval-b01-baseline-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "6656acb3b2334ed77c7797a5a91278ed71be156e",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r06-eval-b01-mulligan-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "d306cfdb1d4bc494f4a1016122dba8f9351a2a26",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r06-eval-b01-mulligan-idql-policy-rollouts": {
+   "type": "dataset",
+   "revision": "afdd9bea0bcf053f6fe4e231c6fb330207283b7d",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r06-mulligan-dp": {
+   "type": "model",
+   "revision": "bde725bc5d8f33cdd05a4e0a9aa3f78a2089bb96",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r06-mulligan-idql-critic": {
+   "type": "model",
+   "revision": "f9ec14ac8747c14e5f8e19c7693ba25e9e6b4cdd",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r07-baseline-dp": {
+   "type": "model",
+   "revision": "af391b1a1d950ee85e7d153b35c1aa097318afc8",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r07-eval-b01": {
+   "type": "dataset",
+   "revision": "e54a2c3d954f02f97e22d4966ab63501ead18643",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r07-eval-b01-baseline-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "6cc1745ec2dbfd1745de51dae79218870b96b287",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r07-eval-b01-mulligan-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "cd5834a8c2e292d1c24b0a244212ff503019329c",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r07-eval-b01-mulligan-idql-policy-rollouts": {
+   "type": "dataset",
+   "revision": "1b608b458cb79f0763a30ff998511286af27e1e3",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r07-mulligan-dp": {
+   "type": "model",
+   "revision": "1493187cab70d83942a1aca9b056f6028c91fbbf",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r07-mulligan-idql-critic": {
+   "type": "model",
+   "revision": "4386087aef4bc879096f91c058853ff66a7fc935",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r08-eval-b01": {
+   "type": "dataset",
+   "revision": "a8f93e26c15fb7a72e21a98396d50c09221642e0",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r08-eval-b01-mulligan-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "e0256ed06eda877e7e4dcd1deaae574c7be85fe2",
+   "tag": "release-1"
+  },
+  "mulligan/real-routing-d2-velocity-r08-eval-b01-mulligan-idql-policy-rollouts": {
+   "type": "dataset",
+   "revision": "ad41758be41b27d5ba6a8393eff61c9862016af4",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c00-teleop-baseline": {
+   "type": "dataset",
+   "revision": "241bcd27b55f1bc557b8af269b794306d5b5b635",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c00-teleop-mixed": {
+   "type": "dataset",
+   "revision": "71a36f92991d0399a40a764ec84665ad9fb34c00",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c00-teleop-sobol": {
+   "type": "dataset",
+   "revision": "fcb4a833578373c70f0ffab63245ad1df5cd0145",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c00-teleop-validation": {
+   "type": "dataset",
+   "revision": "40d06aec811e4472bf46b955b3d5adcc06608b11",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c01-dagger-baseline": {
+   "type": "dataset",
+   "revision": "93f0472675421606fa5d9004b42000b17b971bb3",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c01-dagger-mixed": {
+   "type": "dataset",
+   "revision": "11ec1cfc8502947f8077ed209f6777eb675f002c",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c01-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "7fde9f17e6794ff4242ac7bf3516ffecd79577e7",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c01-dagger-mulligan-no-cf": {
+   "type": "dataset",
+   "revision": "b5808adb35b64ed4f50a86a013bc40ae2ab06eac",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c02-dagger-baseline": {
+   "type": "dataset",
+   "revision": "6c3b54f30c5ccffd35426ade19a8947482b1bc32",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c02-dagger-mixed": {
+   "type": "dataset",
+   "revision": "460e6bc7a6f29e7550e03f1d22bce8cdb54e3b6f",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c02-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "1eca80eda2a44429932915943a06e188a9e27f8e",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c02-dagger-mulligan-no-cf": {
+   "type": "dataset",
+   "revision": "eac7d034f7d3b64c775873218000bd36e6f0ec95",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c03-dagger-baseline": {
+   "type": "dataset",
+   "revision": "725080b5a0927051e149508101dff4e07330f9f3",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c03-dagger-mixed": {
+   "type": "dataset",
+   "revision": "1346f9647bc02f3d2bfd4c36fbdd2b7e924b9e10",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c03-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "11de641cf944b60d3704feda40ee3fb42759ab03",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c03-dagger-mulligan-no-cf": {
+   "type": "dataset",
+   "revision": "53b7d81ee7a7a56e921b6ee1de298d1bbb2a9ca3",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c04-dagger-baseline": {
+   "type": "dataset",
+   "revision": "e43ad12905966e82e5e3414a2ba4d6042b0e8ef5",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c04-dagger-mixed": {
+   "type": "dataset",
+   "revision": "221afa9d8c4b2ddb01e0072bf422bf4fddf26a9b",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c04-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "85dbc63ea6290b4c221f4500c71ac9395a8aada0",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c04-dagger-mulligan-no-cf": {
+   "type": "dataset",
+   "revision": "9b53a77bf400a4dcd3408795dc228427df576cb4",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c05-dagger-baseline": {
+   "type": "dataset",
+   "revision": "7050e7d02161735de49e3492453ebb6fa5ff4a15",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c05-dagger-mixed": {
+   "type": "dataset",
+   "revision": "9e0d367ea35228275d475fb905d018c521c84865",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c05-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "0e7594836effdc7a9ea4fd03e855e60692f97896",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-c05-dagger-mulligan-no-cf": {
+   "type": "dataset",
+   "revision": "d331f4dbaf23ce4b725ec7866499de9816852f5e",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r00-baseline-dp": {
+   "type": "model",
+   "revision": "e1b018f6e4b51da2cf2592ef634e44b5fe474399",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r00-eval": {
+   "type": "dataset",
+   "revision": "e3517b1ff9880123c8057e3c2c02e10fb193ecad",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r00-sobol-dp": {
+   "type": "model",
+   "revision": "76191643e3fdc608c3db6115cc917d0761c3a3a8",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r01-baseline-dp": {
+   "type": "model",
+   "revision": "6fadc6210255a8eeee12dcee891a554eed85f734",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r01-eval": {
+   "type": "dataset",
+   "revision": "6e87e37f15bb40816c5ddb3d6ae05fb0e76ec63b",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r01-eval-b01-baseline-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "d6be403c13ac5cde07557cbb288c6e96afbca4db",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r01-eval-b01-mulligan-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "b295590429b62821d02308867a06df897af05102",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r01-mulligan-dp": {
+   "type": "model",
+   "revision": "d76638fcdc601d4240f0b3e72fcba178d61af123",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r01-mulligan-no-cf-dp": {
+   "type": "model",
+   "revision": "f88d73226dbd50f549f611972c3619c8fe117d03",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r02-baseline-dp": {
+   "type": "model",
+   "revision": "d0f7d89dafd57fcac18467ee8921c392ad7e30f0",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r02-eval": {
+   "type": "dataset",
+   "revision": "34713cd66cf8140cdf33bfc455c81991fdcb335d",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r02-eval-b01-mulligan-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "a267ce2182dd41c035b345347947fcb6b0ba681b",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r02-mulligan-dp": {
+   "type": "model",
+   "revision": "1361ea35adc586e1cca5b39aa85be53aeb9d488e",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r02-mulligan-no-cf-dp": {
+   "type": "model",
+   "revision": "0b5bbaa1f71e96656c6a05d3652f070902aeef1c",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r03-baseline-dp": {
+   "type": "model",
+   "revision": "f5eca435adf454c4bd7a05f616614416633c6041",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r03-eval": {
+   "type": "dataset",
+   "revision": "e833116fae844a518e4ffb1de53df56c1277cff0",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r03-eval-b01-baseline-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "7dd78739ce55a8dddccee35200ac38cfa169d07b",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r03-eval-b01-mulligan-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "802ef0cf331a079edf783ffb9973f6b2f01f2606",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r03-eval-b02-mulligan-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "2276f11010e48b87ee27ad65ffd7e4607d637929",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r03-eval-b02-mulligan-idql-policy-rollouts": {
+   "type": "dataset",
+   "revision": "40e72aab38e93d2ac177fe4ed6155965b4ac3c02",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r03-eval-b03-mulligan-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "d07460e99631e323cb8caa5c0241cbdd6e4b7485",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r03-eval-b03-mulligan-idql-policy-rollouts": {
+   "type": "dataset",
+   "revision": "6dc2ac5c2a900a3241e8921e26fcbd4bdc25634f",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r03-mulligan-dp": {
+   "type": "model",
+   "revision": "6ec0f2e22ce9835a3bac1ea5f485b1ed26c554da",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r03-mulligan-idql-critic": {
+   "type": "model",
+   "revision": "409a4b50a2ed922e872954f8972fa25cb09ca748",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r03-mulligan-no-cf-dp": {
+   "type": "model",
+   "revision": "b2ebe205d4df28c7713a873df3765af7e725e1ae",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r04-baseline-dp": {
+   "type": "model",
+   "revision": "35fcb31eef4ecf573b69a1435b458e009708ef38",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r04-eval": {
+   "type": "dataset",
+   "revision": "cfb8759d68a0744cb7167efb3cfae6cdd80b3309",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r04-eval-b01-mulligan-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "ebe7a5f67cd84ebe9edfb132c75c7a6af2ec4ad7",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r04-eval-b01-mulligan-idql-policy-rollouts": {
+   "type": "dataset",
+   "revision": "afba02db0bd69b8ed23d645ac30176b76d4e5880",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r04-mulligan-dp": {
+   "type": "model",
+   "revision": "8b905b3c57419cec77a51348e5647112d5d30a35",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r04-mulligan-idql-critic": {
+   "type": "model",
+   "revision": "6e178583609e48df511e6566bee48bbfeed37bfd",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r04-mulligan-no-cf-dp": {
+   "type": "model",
+   "revision": "0d9423bf9fad8d9caa062d8b26e7845a2583a140",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r05-baseline-dp": {
+   "type": "model",
+   "revision": "1ba724715a56f33ce1860189220dab9b09409a66",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r05-eval": {
+   "type": "dataset",
+   "revision": "79c96c9a604dce7f83e36568874baed23d63d5e3",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r05-eval-b02-mulligan-dp-policy-rollouts": {
+   "type": "dataset",
+   "revision": "bcd9a3c641cce46ddfb7110c4cef052be7385e23",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r05-eval-b02-mulligan-idql-policy-rollouts": {
+   "type": "dataset",
+   "revision": "27f312580588ec21f72c4038e41dc744dd9379c4",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r05-mulligan-dp": {
+   "type": "model",
+   "revision": "a00c68f6096a66a3deda038709493148b3168047",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r05-mulligan-idql-critic": {
+   "type": "model",
+   "revision": "a83f964a2e27771882edd05efad014ba7ce33dff",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r05-mulligan-idql-critic-screen-b02": {
+   "type": "model",
+   "revision": "e13e19c86b2f8585f8884b6e3a1e65621dd9b668",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r05-mulligan-idql-critic-screen-b03": {
+   "type": "model",
+   "revision": "198e4e9b12b01f4efca32f61e091cd6ab7dc8d28",
+   "tag": "release-1"
+  },
+  "mulligan/real-square-d2-r05-screen": {
+   "type": "dataset",
+   "revision": "1e6c1502d26ffff7d75b04d7e3a8578022b72bf6",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c00-teleop-baseline": {
+   "type": "dataset",
+   "revision": "d65b70543ccc7d4e607c510e2b317fcc7b5fe1d0",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c00-teleop-baseline-first100": {
+   "type": "dataset",
+   "revision": "3e384188d6e96db7205f8846a5d3b700077f8712",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c00-teleop-mixed": {
+   "type": "dataset",
+   "revision": "839e9c0805d41f8b815d1d50e4f383dd85522ad7",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c00-teleop-sobol": {
+   "type": "dataset",
+   "revision": "9b76670ef02cb5bc67b1dafd92f3b845d5fa2312",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c00-teleop-sobol-first100": {
+   "type": "dataset",
+   "revision": "e321768d7f1518297f73107368b14cefdfa39765",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c01-auto-bc-n1-shared-policy-rollouts": {
+   "type": "dataset",
+   "revision": "b5e86cb7df80be4b14062c08e8bc595f8e9fd0d7",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c01-auto-iql-n32-policy-rollouts": {
+   "type": "dataset",
+   "revision": "7e4faa0eac60473023cfacc4b5a314a58857b80c",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c01-baseline-policy-rollouts": {
+   "type": "dataset",
+   "revision": "d5acc63bf723b43116eba6b49ae25247bdf3b7f8",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c01-dagger-baseline": {
+   "type": "dataset",
+   "revision": "eefebaee175f4efd28d5a5fb94c0ee29ad3cad2e",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c01-dagger-mixed": {
+   "type": "dataset",
+   "revision": "fd8c2869bd7938fe166cfff1890cdd82f2e43fa3",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c01-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "3cdddb12f24a0d0119c6a7ec66f1bd9e43f7cb3d",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c01-dagger-mulligan-no-cf": {
+   "type": "dataset",
+   "revision": "d54a3a757ce243e5a55e849a9aab19a11169d005",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c01-dagger-sobol-no-cf": {
+   "type": "dataset",
+   "revision": "d39c2b577bc634ac42b33c6fc12fbbb87d8ae2e9",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c01-dagger-sobol-with-cf": {
+   "type": "dataset",
+   "revision": "e0aa8185daa2534fbc073d9e261488e760e3e625",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c01-sobol-policy-rollouts": {
+   "type": "dataset",
+   "revision": "8c21f4573818bfc1784302e099b6fc15d2994509",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c02-auto-filtered-bc-n1-policy-rollouts": {
+   "type": "dataset",
+   "revision": "a0b776edf319240ef1b51571f4f8dbfa6acab7bd",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c02-auto-iql-n32-policy-rollouts": {
+   "type": "dataset",
+   "revision": "492ceca209c1c4bc500ef79cfbbdcf21d38936e0",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c02-auto-iql-success-bc-n32-policy-rollouts": {
+   "type": "dataset",
+   "revision": "42e34663c5da279be62480abadef445e324846c7",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c02-auto-plain-il-n1-policy-rollouts": {
+   "type": "dataset",
+   "revision": "edab550d4d5000f637746efa555e9cacbf917b21",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c02-baseline-policy-rollouts": {
+   "type": "dataset",
+   "revision": "a126419e5068607e5f792c04f69b8d5592dd4a86",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c02-dagger-baseline": {
+   "type": "dataset",
+   "revision": "5e47eaec8a4d644ce82fce446604f20ca7998737",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c02-dagger-mixed": {
+   "type": "dataset",
+   "revision": "ee0feb59cca9b1aa18ddce1957bf0c20b8c9114a",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c02-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "699828afa35db41b3f3a00e43787feb36f59f00c",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c02-dagger-mulligan-no-cf": {
+   "type": "dataset",
+   "revision": "0bca68a5408a19a2a6a0315cd71d824e269924e3",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c02-dagger-sobol-no-cf": {
+   "type": "dataset",
+   "revision": "59739ac38866b86137b03663e7ad9ab1738a1e47",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c02-dagger-sobol-with-cf": {
+   "type": "dataset",
+   "revision": "20cdcf37370d6240dd515087231fe77b78bd31e9",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c02-mulligan-policy-rollouts": {
+   "type": "dataset",
+   "revision": "99d6631e1ca6b92790354b0e548e313d50141184",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c03-auto-filtered-bc-n1-policy-rollouts": {
+   "type": "dataset",
+   "revision": "2321b0b774d1f7e0d3bbda906ec13f40f9eccede",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c03-auto-iql-n32-policy-rollouts": {
+   "type": "dataset",
+   "revision": "9b6b16f57211b6caf614148333a4ee41426b65e2",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c03-auto-iql-success-bc-n32-policy-rollouts": {
+   "type": "dataset",
+   "revision": "67b3ce70d223336c60157359c8731579dbeec94b",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c03-auto-plain-il-n1-policy-rollouts": {
+   "type": "dataset",
+   "revision": "c82bf914868d658c041a32c3c48b4085e8802d3a",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c03-baseline-policy-rollouts": {
+   "type": "dataset",
+   "revision": "296ecc2edfaf449ee49a8d0ef8f533c693d70349",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c03-dagger-baseline": {
+   "type": "dataset",
+   "revision": "6ba04eb3dd58c896cec1857d6262cff2b66bfed6",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c03-dagger-mixed": {
+   "type": "dataset",
+   "revision": "b1be9ec5fd91c386a90dcc140689a143333d649d",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c03-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "349e8aa96c90b38ec9400390f2683a0912cbeecb",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c03-dagger-mulligan-no-cf": {
+   "type": "dataset",
+   "revision": "a0da70adc23c48f2d7fa7994fea5914bd47de42f",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-c03-mulligan-policy-rollouts": {
+   "type": "dataset",
+   "revision": "d74668f92f0ea1dec110c8ab0fe31a5c26d1295c",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r00-baseline-divl": {
+   "type": "model",
+   "revision": "fd60980f8dcb158fc0807a208f6119610174d74a",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r00-baseline-first100-divl": {
+   "type": "model",
+   "revision": "eb1b80ad667a5ae0cfb4f073257c04095ed74e83",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r00-baseline-first100-idql": {
+   "type": "model",
+   "revision": "17e96965d073cd9f623fa4c9750ebd919f343628",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r00-baseline-idql": {
+   "type": "model",
+   "revision": "7412e69eb71dede421e639bbcd6fa93a4bee0e7a",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r00-r03-eval": {
+   "type": "dataset",
+   "revision": "79300a38305873d2869abab1538c3ed039bd08f0",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r00-sobol-divl": {
+   "type": "model",
+   "revision": "66a2b6107f8a02d703fb3aff7f08a3fa3f660913",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r00-sobol-first100-divl": {
+   "type": "model",
+   "revision": "b96e47dc02b6a0787b1930bd4ac12e22d3defaf4",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r00-sobol-first100-idql": {
+   "type": "model",
+   "revision": "10715dd623343ab8fd181ac58067cce5688a4ec7",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r00-sobol-idql": {
+   "type": "model",
+   "revision": "682ba027ff41abec09d668b2e933a5bad501ce30",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r01-auto-filtered-bc-n1-idql": {
+   "type": "model",
+   "revision": "8ada6b43e8e5703738328212c08e43f130bc6a4a",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r01-auto-iql-n32-divl": {
+   "type": "model",
+   "revision": "76804a7336ac72a0230fd8ad5d9b7f0ba8cfd400",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r01-auto-iql-n32-idql": {
+   "type": "model",
+   "revision": "c9d5667a459288785d6ae67619bbe726b0d93cff",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r01-auto-iql-success-bc-n32-divl": {
+   "type": "model",
+   "revision": "d9490727a4b759c613f4a85e0083df2a5d89c7ad",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r01-auto-iql-success-bc-n32-idql": {
+   "type": "model",
+   "revision": "7d0c3cd3f2ddb7c283e3581324b3774110fe0087",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r01-auto-plain-il-n1-idql": {
+   "type": "model",
+   "revision": "31abc996280c59d01712ccf5ad50707ddff9b192",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r01-baseline-divl": {
+   "type": "model",
+   "revision": "c59ec5b7f7e8f40272486e5bbd61ac7f1e47eff8",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r01-baseline-idql": {
+   "type": "model",
+   "revision": "f1a4f0e3a4d63739fec5d9a24796a54c7c02b800",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r01-baseline-straddled-auto-success-divl": {
+   "type": "model",
+   "revision": "9e9d1405604d2367f6adfb9df8f770f5d84c6d94",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r01-baseline-straddled-auto-success-idql": {
+   "type": "model",
+   "revision": "7424103706d8944121a3b1f1cad528babb66001c",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r01-mulligan-divl": {
+   "type": "model",
+   "revision": "57beeb80977bdd4f2cbc2543806c32147d77b40a",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r01-mulligan-idql": {
+   "type": "model",
+   "revision": "3e9a1ae506a4f98a3b4a762dda7005804be41fa0",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r01-mulligan-no-cf-divl": {
+   "type": "model",
+   "revision": "7148a7e4d10b2c905f85641b1468a6c64ddf9fdc",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r01-mulligan-no-cf-idql": {
+   "type": "model",
+   "revision": "635c87a53cea1f0dc8109ba7ce1b03912138128e",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r01-sobol-no-cf-divl": {
+   "type": "model",
+   "revision": "a7a5f3d3b450787036cd0c6d1eeb50dd53775ebb",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r01-sobol-no-cf-idql": {
+   "type": "model",
+   "revision": "6e36c0203fe9e1a2ad2b96913dc3950850ebb4ae",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r01-sobol-with-cf-divl": {
+   "type": "model",
+   "revision": "ddc1ed63af225cc0a26a847b93f377d3a5421225",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r01-sobol-with-cf-idql": {
+   "type": "model",
+   "revision": "8a51afbf23a845b801240423e16022a59989fee9",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r02-auto-filtered-bc-n1-idql": {
+   "type": "model",
+   "revision": "c7a91e8f6e8a08e6fa9c5fb3bb6fbf62d585a8e7",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r02-auto-iql-n32-divl": {
+   "type": "model",
+   "revision": "50f1723ed2b10fa97b7226adf94f4fe8eb90b619",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r02-auto-iql-n32-idql": {
+   "type": "model",
+   "revision": "344097d394fe5154821abd257d7b638d8cd9de63",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r02-auto-iql-success-bc-n32-divl": {
+   "type": "model",
+   "revision": "25eef3c5a5ab1ca755b964cf76c9cc65f0bf424a",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r02-auto-iql-success-bc-n32-idql": {
+   "type": "model",
+   "revision": "7609e5da13f3781d903495c9b8f3a90a7719f0f5",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r02-auto-plain-il-n1-idql": {
+   "type": "model",
+   "revision": "2e480ba13b14ecf78db0ab0c54b7a0b49420e008",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r02-baseline-divl": {
+   "type": "model",
+   "revision": "2422e5c7025c1eab3091fae36fcde41661e48494",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r02-baseline-idql": {
+   "type": "model",
+   "revision": "e8ba416bf93b05bb6a6cbdc812784f9fa83274a8",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r02-mulligan-divl": {
+   "type": "model",
+   "revision": "3139b35096c1dceb9356567f68f86ae3fe1749ae",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r02-mulligan-idql": {
+   "type": "model",
+   "revision": "c7cc7113d922f2c4fc2223cb3b46713038931cc6",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r02-mulligan-no-cf-divl": {
+   "type": "model",
+   "revision": "f06a647aadc8a94376a62dbd63b4661e50eed176",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r02-mulligan-no-cf-idql": {
+   "type": "model",
+   "revision": "93a0d4606e146d4664c96b5634cf0b02b330cb37",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r02-sobol-no-cf-divl": {
+   "type": "model",
+   "revision": "1c1f8733d80b27fb1836728f8c2fa85a72a04e77",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r02-sobol-no-cf-idql": {
+   "type": "model",
+   "revision": "2c73d26b2eb2d31ad5fa99e6ac5c59acdf4b8a50",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r02-sobol-with-cf-divl": {
+   "type": "model",
+   "revision": "3dea5655007ddc739a7923a4eb421a44ae6d597b",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r02-sobol-with-cf-idql": {
+   "type": "model",
+   "revision": "15800ce819972d6befb4fca73712328d6bcfd3ec",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r03-auto-filtered-bc-n1-idql": {
+   "type": "model",
+   "revision": "9829d451bd04c62d2216532ccca517d4180d625e",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r03-auto-iql-n32-divl": {
+   "type": "model",
+   "revision": "4bcd1922e3fce06190019f8354fa01b20c317042",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r03-auto-iql-n32-idql": {
+   "type": "model",
+   "revision": "e511263b67f376b37790bc7c2f03923384ec8d46",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r03-auto-iql-success-bc-n32-divl": {
+   "type": "model",
+   "revision": "639698168aca007b640a1561041419b1e7a4d4d3",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r03-auto-iql-success-bc-n32-idql": {
+   "type": "model",
+   "revision": "f1db5d9fea84403894178ac53703b1b2ee6d4741",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r03-auto-plain-il-n1-idql": {
+   "type": "model",
+   "revision": "972e0c21deb90376af1f638dde9fef0f900b4c28",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r03-baseline-divl": {
+   "type": "model",
+   "revision": "4b7e5008e7b9036eda81f31d4d4a23084877139e",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r03-baseline-idql": {
+   "type": "model",
+   "revision": "f884cd0cf9deb7d88f3f2bb7c6e84db2bbe09b29",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r03-mulligan-divl": {
+   "type": "model",
+   "revision": "68734f6307e2cf0e1e7f6a12ce09616deae4e2ae",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r03-mulligan-idql": {
+   "type": "model",
+   "revision": "26dc02e559d8b30cc3509d4bfcd5a039eb290db1",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r03-mulligan-no-cf-divl": {
+   "type": "model",
+   "revision": "22a1615ca291d433251ba01eedd0b39086b3286c",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-broad-r03-mulligan-no-cf-idql": {
+   "type": "model",
+   "revision": "d525ea61b572024dbda18af473a5f16816c733f6",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c00-teleop-baseline": {
+   "type": "dataset",
+   "revision": "c92daf4da49fba126e876d00da07278f7c24e5d4",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c00-teleop-mixed": {
+   "type": "dataset",
+   "revision": "8677f782a0f3bbfa7895704434cd062cad9090ae",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c00-teleop-sobol": {
+   "type": "dataset",
+   "revision": "be8b5ba803a31ae633d6d61c30d2548cfc9a382c",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c01-auto-bc-n1-shared-policy-rollouts": {
+   "type": "dataset",
+   "revision": "2cfaeb434679704834a9165f25e1f54dbdfa99e0",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c01-auto-iql-n32-policy-rollouts": {
+   "type": "dataset",
+   "revision": "b0ffde907dd65c067f73d5ef22e07415c4370ba4",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c01-baseline-policy-rollouts": {
+   "type": "dataset",
+   "revision": "390d13ef86cf25fc8fbd8a1a74cd807a8d0011d0",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c01-dagger-baseline": {
+   "type": "dataset",
+   "revision": "2f3f9e3974c58f608043d33ae6df9fa6371e286b",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c01-dagger-mixed": {
+   "type": "dataset",
+   "revision": "fb1c24b5a7e517c03e28f7b4850c50aa13cff514",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c01-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "edd45cb479f89abe7403fa7bd797bfaf678138e1",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c01-dagger-mulligan-no-cf": {
+   "type": "dataset",
+   "revision": "25b2a5d03d769add4d856102029b76312853f491",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c01-dagger-sobol-no-cf": {
+   "type": "dataset",
+   "revision": "72d609535cd21d7311f453a52c04e686a200bf90",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c01-dagger-sobol-with-cf": {
+   "type": "dataset",
+   "revision": "a4747c67d528f6e6ee462508143868705b3b3ea9",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c01-sobol-policy-rollouts": {
+   "type": "dataset",
+   "revision": "68e68af0628088c2bb34c5502a60599c4b7fa848",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c02-auto-filtered-bc-n1-policy-rollouts": {
+   "type": "dataset",
+   "revision": "55915a3a57c6d3da03f2e8f0ba9661bdd9eb360c",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c02-auto-iql-n32-policy-rollouts": {
+   "type": "dataset",
+   "revision": "d964438e57658c89705bfb349570a461a55dc739",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c02-auto-iql-success-bc-n32-policy-rollouts": {
+   "type": "dataset",
+   "revision": "591f93c0f8054eda58b66819ca46472fc9552a85",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c02-auto-plain-il-n1-policy-rollouts": {
+   "type": "dataset",
+   "revision": "6286d20efdf2cdd39d618658ae2f384b2674c608",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c02-baseline-policy-rollouts": {
+   "type": "dataset",
+   "revision": "74f5784de09833ae6036f42900afa6d21084aa90",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c02-dagger-baseline": {
+   "type": "dataset",
+   "revision": "85357acf05dc9f18c5229632bed2b7e1c621c22d",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c02-dagger-mixed": {
+   "type": "dataset",
+   "revision": "ee94524e8309b137c309c01237d799d76e0e2866",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c02-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "18d90f2751d627029af5bb31348f05d2110d82aa",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c02-dagger-mulligan-no-cf": {
+   "type": "dataset",
+   "revision": "47aadbc97528a8de6f7d31af2628987cab922060",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c02-mulligan-policy-rollouts": {
+   "type": "dataset",
+   "revision": "ea6970ef1676132cfc4f369b6cf3d9520d79b72c",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c02-sobol-policy-rollouts": {
+   "type": "dataset",
+   "revision": "0c0b021f15bede2a5e84f20bb8628c294b5b8923",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c03-auto-filtered-bc-n1-policy-rollouts": {
+   "type": "dataset",
+   "revision": "5cb449d2ffaecd4fa68fa295f8cfff438a342af5",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c03-auto-iql-n32-policy-rollouts": {
+   "type": "dataset",
+   "revision": "d562763d72da15ed256ba85e8b97c2bb570cd17d",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c03-auto-iql-success-bc-n32-policy-rollouts": {
+   "type": "dataset",
+   "revision": "265ca59d34fb8345782f0144a7955235869cc164",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c03-auto-plain-il-n1-policy-rollouts": {
+   "type": "dataset",
+   "revision": "f019978f50799c7bdf2bd2c95756f08210eaf2d4",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c03-baseline-policy-rollouts": {
+   "type": "dataset",
+   "revision": "a36182cf2e63c18edaf889c01f923528dbe8ded2",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c03-dagger-baseline": {
+   "type": "dataset",
+   "revision": "e4b8d791801643fc1b58e3e1fba53f4b11d43778",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c03-dagger-mixed": {
+   "type": "dataset",
+   "revision": "60af9a5aa124ebe13e7d949cbd410d80ced1a756",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c03-dagger-mulligan": {
+   "type": "dataset",
+   "revision": "02b3b82995e7f76af9d505decc617d9b56621f44",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c03-dagger-mulligan-no-cf": {
+   "type": "dataset",
+   "revision": "1ca42c755220db03cd800c0e611c3cf3ffa9b2c5",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-c03-mulligan-policy-rollouts": {
+   "type": "dataset",
+   "revision": "1871d76ba2c6011d6e9a4a39f2c1b97899afaa1c",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r00-baseline-divl": {
+   "type": "model",
+   "revision": "cc09df4540c0c002913353d0c915406ace648dc1",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r00-baseline-idql": {
+   "type": "model",
+   "revision": "61a72c303eed96ad7117cdb7eb7ca33a8e714040",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r00-r03-eval": {
+   "type": "dataset",
+   "revision": "8826cfbdae8bbc7e03014753e85f4ea8e90cc056",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r00-sobol-divl": {
+   "type": "model",
+   "revision": "919346e0e09ce692fd51f2d65f5b858b7b2e3555",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r00-sobol-idql": {
+   "type": "model",
+   "revision": "1ba4bc999d1ba77b078afaae5979f201e52e7f77",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r01-auto-filtered-bc-n1-idql": {
+   "type": "model",
+   "revision": "ffa4e2dcd6f88ce30c77ede6b48c2e96788aab6b",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r01-auto-iql-n32-divl": {
+   "type": "model",
+   "revision": "e2eed3fa17a7f02ae18888dff8dfdaadc5a9fbbf",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r01-auto-iql-n32-idql": {
+   "type": "model",
+   "revision": "4bf4a0fa98a7c0d934eed01d03576d6f4ba6b6fe",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r01-auto-iql-success-bc-n32-divl": {
+   "type": "model",
+   "revision": "0fcb1ca47a26180213e97f5f67002a9eba921516",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r01-auto-iql-success-bc-n32-idql": {
+   "type": "model",
+   "revision": "f2f60260e8e517ebec69db33d36d2c05c01e6aae",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r01-auto-plain-il-n1-idql": {
+   "type": "model",
+   "revision": "bc83ffa79f00b81e00cf3de36be70c3c3f935411",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r01-baseline-divl": {
+   "type": "model",
+   "revision": "412f3a4bb09a5a011c6b206ee8de3093cec2711e",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r01-baseline-idql": {
+   "type": "model",
+   "revision": "e4c8346e99eddb0e6e59dfee58a3cbdd9d160368",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r01-baseline-straddled-auto-success-divl": {
+   "type": "model",
+   "revision": "b40e5f489dc83641ab5a0a605e8bff22a5451f9f",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r01-baseline-straddled-auto-success-idql": {
+   "type": "model",
+   "revision": "82328d783e992287c4dd3497c945cd98f95c1c1d",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r01-mulligan-divl": {
+   "type": "model",
+   "revision": "05e15eb4f0324587337fc7a8e3374398c6044443",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r01-mulligan-idql": {
+   "type": "model",
+   "revision": "d6c7829460657f04775a4646a33d2393402bceb2",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r01-mulligan-no-cf-divl": {
+   "type": "model",
+   "revision": "2a285c7d9064bf14522be04b02b77b4b881a188d",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r01-mulligan-no-cf-idql": {
+   "type": "model",
+   "revision": "ebd83d7166c583d0d75895b56fe111a702d722e6",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r01-sobol-no-cf-divl": {
+   "type": "model",
+   "revision": "6d0407c3ebeccf05a8cb48a02a29f71925f9b00c",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r01-sobol-no-cf-idql": {
+   "type": "model",
+   "revision": "4dd7ed261093e2aa558a255abb6467677d145d62",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r01-sobol-with-cf-divl": {
+   "type": "model",
+   "revision": "3db581d0da88bef7fec6c0f27bbc39144ad9ef6e",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r01-sobol-with-cf-idql": {
+   "type": "model",
+   "revision": "4cfd11e054dccc9a04cf5fe59a12d20c9fe298fc",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r02-auto-filtered-bc-n1-idql": {
+   "type": "model",
+   "revision": "f9057d04c4ab2370eda530442fb8d08459eb9073",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r02-auto-iql-n32-divl": {
+   "type": "model",
+   "revision": "993c27f4933d50f8808feb6f541be1bcd62cc59a",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r02-auto-iql-n32-idql": {
+   "type": "model",
+   "revision": "c7726ae9505cab889b7f98bd2e4256b4239726d9",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r02-auto-iql-success-bc-n32-divl": {
+   "type": "model",
+   "revision": "04c4667950ca630a097434bb0e480cfd517fdce3",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r02-auto-iql-success-bc-n32-idql": {
+   "type": "model",
+   "revision": "b98899e59b93cc763a5ddd44dbda8f32dde7bc68",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r02-auto-plain-il-n1-idql": {
+   "type": "model",
+   "revision": "9266354a67812a323f62c2dd094a03a3aa8f3103",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r02-baseline-divl": {
+   "type": "model",
+   "revision": "b2ec23a3d96f4cc92ee8f6fa553b6d8c15f00172",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r02-baseline-idql": {
+   "type": "model",
+   "revision": "1a3fcc914759db11898764580c4a0d3d0c018dd4",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r02-mulligan-divl": {
+   "type": "model",
+   "revision": "bf496aba24460ffa37735d8d9c44661242b1750a",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r02-mulligan-idql": {
+   "type": "model",
+   "revision": "e1ae81a0cd12c6e1e5fd7ddc1bfa338d3df99806",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r02-mulligan-no-cf-divl": {
+   "type": "model",
+   "revision": "634c3075659b6aae32b1783eca1c65745ac929b1",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r02-mulligan-no-cf-idql": {
+   "type": "model",
+   "revision": "a087816b8fa937686b6f45011ffbbbc7acf093ef",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r03-auto-filtered-bc-n1-idql": {
+   "type": "model",
+   "revision": "ee0b24bca1923758c4442d45056149f1a9138b73",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r03-auto-iql-n32-divl": {
+   "type": "model",
+   "revision": "42cfb5933475946bd1abeb1a615ca3808a43cce8",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r03-auto-iql-n32-idql": {
+   "type": "model",
+   "revision": "94f7392fb27271b97a657161596abff342322507",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r03-auto-iql-success-bc-n32-divl": {
+   "type": "model",
+   "revision": "3e1fbd63abaf1d44ac12fa88078578753743807f",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r03-auto-iql-success-bc-n32-idql": {
+   "type": "model",
+   "revision": "88f1904626046081f23626613516893857231423",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r03-auto-plain-il-n1-idql": {
+   "type": "model",
+   "revision": "3d07adf10cc7cd8e28fe1ece6268dbde68a8cda7",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r03-baseline-divl": {
+   "type": "model",
+   "revision": "414c3494f57c66239110dfdecfd4cc6d44f52635",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r03-baseline-idql": {
+   "type": "model",
+   "revision": "ae2a8389dd36a07402199acd5abd405cba660625",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r03-baseline-with-c03-rollouts-divl": {
+   "type": "model",
+   "revision": "dd35592eeba7a42728781a3b4acce2a40c840ffc",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r03-baseline-with-c03-rollouts-idql": {
+   "type": "model",
+   "revision": "d81307cb907fab0e705e079828808d4ca8855416",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r03-mulligan-divl": {
+   "type": "model",
+   "revision": "38eaa910f1a6f22864e1c95d315ae6e1542676d7",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r03-mulligan-idql": {
+   "type": "model",
+   "revision": "0df8f706385b0a1c2550e1225ef290f9c9a1ab07",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r03-mulligan-no-c03-rollouts-divl": {
+   "type": "model",
+   "revision": "74cb0bbc716be2bbcb45965067e7cb45d8c9260b",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r03-mulligan-no-c03-rollouts-idql": {
+   "type": "model",
+   "revision": "ff759de849d850590ba4c9994c220b0dee0a6756",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r03-mulligan-no-cf-divl": {
+   "type": "model",
+   "revision": "b04942ccddfb9817da8c910eaace68c80d7e5111",
+   "tag": "release-1"
+  },
+  "mulligan/sim-square-narrow-r03-mulligan-no-cf-idql": {
+   "type": "model",
+   "revision": "ff1d1873f9b433664f1af343edf280aa80253890",
+   "tag": "release-1"
+  }
+ }
+}

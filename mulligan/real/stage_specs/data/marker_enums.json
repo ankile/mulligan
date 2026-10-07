@@ -1,0 +1,33 @@
+{
+  "FAILURE_MODES": [
+    "none",
+    "no_useful_approach",
+    "pregrasp_misalignment",
+    "pregrasp_yaw_misalignment",
+    "no_grasp_attempt",
+    "missed_grasp_after_alignment",
+    "unusable_grasp_no_tip_protrusion",
+    "end_pinch_grasp",
+    "marker_slipped_from_gripper",
+    "dropped_marker_during_transport",
+    "transport_orientation_wrong_for_insertion",
+    "uncompensated_grasp_angle",
+    "retreat_from_holder_after_contact",
+    "missed_holder_no_insertion",
+    "jammed_partial_insert",
+    "released_partial_insert_not_seated",
+    "timeout_holding_marker",
+    "other"
+  ],
+  "FINAL_STATES": [
+    "marker_on_table",
+    "marker_in_gripper_away_from_holder",
+    "marker_in_gripper_at_holder",
+    "marker_partially_in_holder_held",
+    "marker_partially_in_holder_released",
+    "marker_fully_seated_held",
+    "marker_fully_seated_released",
+    "marker_dropped_off_table",
+    "unclear"
+  ]
+}

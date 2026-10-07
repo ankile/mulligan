@@ -1,0 +1,91 @@
+# Square-Narrow R2 collection starts: two arms, 100 starts each.
+# Mulligan arm: the fitted hardness-shape candidate, fill seed 202605570+100, perturbation seed
+# 202605570+200.
+# Paper: Alg. 2, App. F.4, F.5 and F.7. Builds the locked R2 collection starts (`locked`) of
+# mulligan/sim-square-narrow-c02-dagger-mixed.
+# Run: python -m mulligan.sampling.sim_design --config configs/sim/square_narrow/r02_sampler.yaml --out <dir> --check
+task: square_narrow
+round: 2
+budget: 100
+
+arms:
+  # The baseline arm reused the starts of the R2 baseline-policy rollouts.
+  baseline_uniform:
+    policy_source: baseline_policy
+    starts:
+      file:
+        path: data/sim/start_manifests/square_narrow/r02/init_states/square_narrow_baseline_uniform_r2_policy_rollout.json
+
+  # Mulligan arm.
+  mulligan:
+    policy_source: mulligan_policy
+    starts:
+      select_initial_states:
+        # R1 Mulligan policy on Sobol stream 300-399.
+        diagnostics:
+          path: data/sim/start_manifests/square_narrow/r02/init_states/square_narrow_mulligan_r2_diagnostic_rollouts_audit.json
+        prior:
+          - data/sim/start_manifests/square_narrow/r00/init_states/square_narrow_sobol_r0.json
+          - data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_mulligan_r1.json
+        perturbation:
+          n: 20
+          seed: 202605770
+          sigma: {nut_y: 0.025, nut_yaw: 0.05}
+          resample: [nut_x]
+        candidates: {n: 50000, seed: 202605670}
+        distance: squared_euclidean
+        prior_distance_periodic: true
+        eval_grid_feedback: false
+        hardness:
+          # Shape weights fitted by the source builder (ridge on within-source
+          # episode-length ranks of R0 demos and R1-R2 diagnostic rollouts, best
+          # balanced 5-fold CV over alpha); recorded in the candidate's _meta.
+          - beta: 0.5
+            signal:
+              narrow_shape:
+                yaw_alpha: 8.0
+                weights:
+                  y_norm: 0.2288887582409876
+                  y_center2: 0.21296798379212425
+                  yaw_sin_alpha: 0.5581432579668882
+
+manifest:
+  shuffle_seed: 202605563
+  match_tolerance: 1.0e-3
+  # The locked Square-Narrow R2/R3 manifests have no per-row `source` label.
+  row_source: false
+  disjoint_tolerance: 1.0e-6
+  disjoint_from:
+    - data/sim/start_manifests/square_narrow/r00/init_states/square_narrow_baseline_uniform_r0.json
+    - data/sim/start_manifests/square_narrow/r00/init_states/square_narrow_sobol_r0.json
+    - data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_baseline_uniform_r1.json
+    - data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_sobol_r1.json
+    - data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_mulligan_r1.json
+  # Headline grid from R1 on: 8,000 valid Sobol points (manifest_hash 45a9963f...).
+  eval_grid:
+    generator: valid_sobol
+    num_points: 8000
+    seed: 2026052402
+    states_sha256: 2c1c42b90cb6cf9497c5f117f71a6fa4913c570f14d3f93822e5a6a9a861f718
+
+guardrail:
+  arm: mulligan
+  prior:
+    - data/sim/start_manifests/square_narrow/r00/init_states/square_narrow_sobol_r0.json
+    - data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_mulligan_r1.json
+  sobol_start: 400
+  test_points: {n: 50000, seed: 202605571}
+  slack: 1.0
+  enforce: true
+
+locked:
+  manifest:
+    path: data/sim/start_manifests/square_narrow/r02/blind_inputs/square_narrow_r2_manifest.json
+    sha256: 2976acdbff0408372a9636784e417fa4ddffb40d1cb7804c9cd2b880ffca810f
+  arms:
+    baseline_uniform:
+      path: data/sim/start_manifests/square_narrow/r02/init_states/square_narrow_baseline_uniform_r2.json
+      sha256: 01ccdf92fee7e7e7dd605fb45f9a04c8b417af989b4e1e0678dd2d383c2643bb
+    mulligan:
+      path: data/sim/start_manifests/square_narrow/r02/init_states/square_narrow_mulligan_r2.json
+      sha256: 0a7f4034a9d8beb1181c9f88a6d653d2f5632783295561cd7ebf80446317ec5a

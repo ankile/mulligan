@@ -1,0 +1,31 @@
+{
+  "schema": "mulligan.paper.reset_card_target.v1",
+  "origin": "data/real/manifests/square_d2/r00/square_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json",
+  "origin_sha256": "dfb81a6dc5f52f209867e2d471c49ea3e41cac033b08ef4c9a105cd066914b80",
+  "note": "The one square_d2 R0 manifest row the reset card draws (manifest_idx 1).",
+  "task": "square_d2",
+  "units": {
+    "nut_x": "m",
+    "nut_y": "m",
+    "nut_yaw": "rad",
+    "peg_x": "m",
+    "peg_y": "m"
+  },
+  "state": {
+    "arm_id": "mulligan_sobol",
+    "manifest_idx": 1,
+    "nut_x": 0.12152470048144459,
+    "nut_y": -0.07706962181478738,
+    "nut_yaw": 2.1635888200330813,
+    "peg_x": 0.2667,
+    "peg_y": -0.0635,
+    "sample_source": "scrambled_sobol",
+    "sampler_seed": 2026062202,
+    "sobol_stream_index": 15,
+    "source": "mulligan_sobol",
+    "source_index": 15,
+    "sources": [
+      "mulligan_sobol"
+    ]
+  }
+}

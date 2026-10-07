@@ -1,0 +1,25 @@
+{
+  "files": [
+    {
+      "path": "sim/results/hilserl/square_broad/eval.csv",
+      "sha256": "45c12302f821fcdb66faa7f7d1809819e8ee0721e677825c0d4926e527b40a8e",
+      "size": 3412
+    },
+    {
+      "path": "sim/results/hilserl/square_broad/status.json",
+      "sha256": "7189045268e68cfdf0d8b21b5f8c12b5fae50b1921ce4d9764391b898740ae0e",
+      "size": 540
+    },
+    {
+      "path": "sim/results/hilserl/square_narrow/eval.csv",
+      "sha256": "1be2db0ba2af033329153e1248925cd8fad2c616fd976334291922d25051573c",
+      "size": 1579
+    },
+    {
+      "path": "sim/results/hilserl/square_narrow/status.json",
+      "sha256": "afa1aa44d9d781c2434bd3b8b82f05278f4f734b3559d70d11d2d9415d9a354a",
+      "size": 2332
+    }
+  ],
+  "schema": "mulligan.paper.appendix.inputs.v3"
+}

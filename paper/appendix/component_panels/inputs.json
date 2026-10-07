@@ -1,0 +1,55 @@
+{
+  "files": [
+    {
+      "path": "real/collection/square/r1/summary.json",
+      "sha256": "0f5957c0c8c10a58406bccba6927acefc1d5ad1a94fa854b7a3ef7e2639b1aaa",
+      "size": 11826
+    },
+    {
+      "path": "real/collection/square/r2/summary.json",
+      "sha256": "94b5c0fd467eae3c29da0fbe776728ff05f22694c34c636298a060da0d4bdac2",
+      "size": 11874
+    },
+    {
+      "path": "real/collection/square/r3/summary.json",
+      "sha256": "d7ddcaa4ad5c4c05f5d9dd7ba60c8e66d4fc7feaf568ae02fb0b8d184eea1937",
+      "size": 11993
+    },
+    {
+      "path": "real/collection/square/r4/summary.json",
+      "sha256": "31ca8a65ded39687619b9c6a6c01e21e90ac8b0048849a5a2b0422314810a18f",
+      "size": 12303
+    },
+    {
+      "path": "real/collection/square/r5/summary.json",
+      "sha256": "7b5c03e90c3539b5326ba813606c9cc1b516861cd131830f8ba18e28a37f4821",
+      "size": 14153
+    },
+    {
+      "path": "real/results/marker/headline/marker_d2_headline_sr_all_arms.csv",
+      "sha256": "8c9ead10e5272807e5afef4d5a20a43d6a585fc73bfdf917c74da459a90b5cfb",
+      "size": 8064
+    },
+    {
+      "path": "real/results/square/headline/square_d2_headline_sr_all_arms.csv",
+      "sha256": "1e124a220129955d8cf63a4ca6e4c5f7df66351167c4a8cfb661dce9eb5cd577",
+      "size": 9593
+    },
+    {
+      "path": "sim/collection/square_narrow/predecessor_grid.csv",
+      "sha256": "633181468628a059249847a3023d64c06aa726adff958405c0d7de149511be04",
+      "size": 41083
+    },
+    {
+      "path": "sim/collection/square_narrow/r1_dataset_stats.json",
+      "sha256": "2cf72448c7d2788dae85cc590f63c5ebcaad6038916b96d3eecd279b574bb7ab",
+      "size": 1749
+    },
+    {
+      "path": "sim/critic/frozen_actor_results.csv",
+      "sha256": "a86df34fe480a1f9bc5e641448c9b2637f12d55ebc0c7b1c5aa3c548da0ce9c8",
+      "size": 82329
+    }
+  ],
+  "schema": "mulligan.paper.appendix.inputs.v3"
+}

@@ -1,0 +1,80 @@
+# Robot-workstation uv project ("robot mode").
+#
+# The repo root is the ML environment (clusters, laptops): numpy 2.x, no hardware
+# stack. This project installs the SAME code (the root package, editable) plus the
+# DROID hardware stack, resolved into its own uv.lock and its own robot/.venv.
+# A plain `uv sync` / `uv run` at the repo root never touches the robot venv;
+# robot commands target this project explicitly:
+#
+#     bash scripts/sync_robot_env.sh                       # build / repair
+#     uv run --project robot --frozen python -m mulligan.real.eval.manifest_eval ...
+#
+# Why a separate lock instead of an extra on the root project: pyzed 4.2 (the ZED
+# SDK Python API) is compiled against the numpy-1.x dtype ABI and declares
+# numpy<2.0, while lerobot declares numpy>=2.0. uv `override-dependencies` are
+# global to a lockfile, so one lock cannot hold both resolutions. Here the
+# override is numpy==1.26.4. This is why the root pyproject must not pin numpy in
+# [project.dependencies] (tests/release/test_pyproject.py).
+#
+# pyzed is NOT shipped. The station owner supplies the wheel that matches the
+# installed ZED SDK at robot/wheels/pyzed-4.2-cp312-cp312-linux_x86_64.whl
+# (gitignored); scripts/sync_robot_env.sh downloads it from Stereolabs if it is
+# missing. The lock pins the wheel's sha256. pyzed sits in the default `zed`
+# dependency group, so a machine without the ZED SDK can sync with
+# `--no-group zed` and needs no wheel; droid.robot_env imports pyzed, so
+# collection and evaluation still need the group.
+
+[project]
+name = "mulligan-robot"
+version = "0.1.0"
+description = "Mulligan + DROID hardware stack for the Franka/ZED robot workstation"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+dependencies = [
+    "mulligan[teleop]",
+    # Hardware stack.
+    "droid",           # github.com/ankile/droid fork: unpinned deps, env-driven station params
+    "gym",             # droid.robot_env's RobotEnv base class
+    "zerorpc",         # DROID -> NUC polymetis client transport (server runs on the NUC)
+    "numpy==1.26.4",   # pyzed 4.2 numpy-1.x dtype ABI
+]
+
+[dependency-groups]
+zed = [
+    "pyzed",           # ZED SDK Python API; wheel supplied locally (see header)
+]
+
+[tool.uv]
+package = false
+default-groups = ["zed"]
+# numpy: replaces lerobot's numpy>=2.0 and the root project's <2.3 bound with the
+# pyzed ABI pin. torch 2.11's numpy-2-built wheels are forward-compatible.
+# wandb: same reason as the root project.
+# opencv: lerobot requires opencv-python-headless while robosuite/droid require
+# opencv-python (Qt highgui). Both unpack into the same cv2/ directory and the
+# last one installed wins, which can leave a cv2 with "GUI: NONE". The operator
+# windows need highgui, so the headless requirement is removed via an
+# unsatisfiable marker; opencv-python is a strict superset.
+override-dependencies = [
+    "numpy==1.26.4",
+    "wandb>=0.24.0,<0.27",
+    "opencv-python-headless ; sys_platform == 'never'",
+]
+environments = ["sys_platform == 'linux' and platform_machine == 'x86_64'"]
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+# The git pins and the torch index repeat the root [tool.uv.sources]; keep them
+# identical (tests/release/test_pyproject.py checks this).
+[tool.uv.sources]
+mulligan = { path = "..", editable = true }
+torch = [{ index = "pytorch-cu128", marker = "sys_platform == 'linux'" }]
+torchvision = [{ index = "pytorch-cu128", marker = "sys_platform == 'linux'" }]
+lerobot = { git = "https://github.com/huggingface/lerobot", rev = "0530dd9b97929f017d29640029684644c5313d56" }
+robosuite = { git = "https://github.com/ARISE-Initiative/robosuite", rev = "85abee228d1c43ab1939bce33028099945d453b4" }
+mimicgen = { git = "https://github.com/ankile/mimicgen", rev = "e0739b2108226af16a03cd499eb344a431e384a3" }
+droid = { git = "https://github.com/ankile/droid", rev = "c0c8b29e1fcf76e424177529d5440620234918be" }
+pyzed = { path = "wheels/pyzed-4.2-cp312-cp312-linux_x86_64.whl" }

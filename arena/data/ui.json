@@ -1,0 +1,1133 @@
+{
+  "selectionSha256": "ffdb152cdecf012bd34aa353ab4bec092197bf8aece7e28e04e3f0fcbd16c14b",
+  "datasets": [
+    {
+      "repo": "mulligan/real-marker-d2-c00-teleop-baseline",
+      "created": 1788039152944.8818,
+      "sourceType": "teleop"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-c01-dagger-baseline",
+      "created": 1787965173526.1504,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-c02-dagger-baseline",
+      "created": 1787965173755.3433,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-c03-dagger-baseline",
+      "created": 1787965173968.4648,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-c04-dagger-baseline",
+      "created": 1787965174162.7488,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-c05-dagger-baseline",
+      "created": 1787965174327.5774,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-c01-dagger-mixed",
+      "created": 1787965174669.9053,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-c02-dagger-mixed",
+      "created": 1787965174963.3123,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-c03-dagger-mixed",
+      "created": 1787965175112.1807,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-c04-dagger-mixed",
+      "created": 1787965175252.8467,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-c05-dagger-mixed",
+      "created": 1787965175582.2917,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-c00-teleop-validation",
+      "created": 1788039154854.2888,
+      "sourceType": "teleop"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r02-eval-b03",
+      "created": 1783038326804.3523,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-c00-teleop-sobol",
+      "created": 1788039154975.819,
+      "sourceType": "teleop"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-c01-dagger-mulligan",
+      "created": 1787965175744.6716,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-c02-dagger-mulligan",
+      "created": 1787965176018.8242,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-c03-dagger-mulligan",
+      "created": 1787965176395.9568,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-c04-dagger-mulligan",
+      "created": 1787965176678.2893,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-c05-dagger-mulligan",
+      "created": 1787965177149.947,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r00-eval",
+      "created": 1782238415495.078,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-c00-teleop-mixed",
+      "created": 1788039157189.4082,
+      "sourceType": "teleop"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r00-eval-b01-sobol-dp-policy-rollouts",
+      "created": 1788039157320.289,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r01-eval",
+      "created": 1782429998257.595,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r01-eval-b01-mulligan-dp-policy-rollouts",
+      "created": 1788039157574.833,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r02-eval",
+      "created": 1782755743979.9775,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r02-eval-b01-mulligan-dp-policy-rollouts",
+      "created": 1788039157982.1338,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r03-eval-b01-mulligan-dp-policy-rollouts",
+      "created": 1788039158226.905,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r03-eval-b01-mulligan-idql-policy-rollouts",
+      "created": 1788039158369.8074,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r03-eval",
+      "created": 1783281024095.766,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r04-eval-b01-mulligan-dp-policy-rollouts",
+      "created": 1788039158756.5105,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r04-eval-b01-mulligan-idql-policy-rollouts",
+      "created": 1788039158889.161,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r04-eval",
+      "created": 1783456247365.1836,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-marker-d2-r05-eval",
+      "created": 1787004946446.134,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c00-teleop-baseline",
+      "created": 1788039162045.876,
+      "sourceType": "teleop"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c01-dagger-baseline",
+      "created": 1787965178748.6987,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c02-dagger-baseline",
+      "created": 1787965178879.455,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c03-dagger-baseline",
+      "created": 1787965179016.987,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c04-dagger-baseline",
+      "created": 1787965179147.2634,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c05-dagger-baseline",
+      "created": 1787965179272.9207,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c06-dagger-baseline",
+      "created": 1787965179390.0896,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c07-dagger-baseline",
+      "created": 1787965179527.176,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c08-dagger-baseline",
+      "created": 1788073847357.4612,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c09-dagger-baseline",
+      "created": 1788769294964.3176,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c01-dagger-mixed",
+      "created": 1787965179657.9602,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c02-dagger-mixed",
+      "created": 1787965179787.168,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c03-dagger-mixed",
+      "created": 1787965179920.415,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c04-dagger-mixed",
+      "created": 1787965180045.093,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c05-dagger-mixed",
+      "created": 1787965180166.315,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c06-dagger-mixed",
+      "created": 1787965180295.0625,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c07-dagger-mixed",
+      "created": 1787965180417.7993,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c08-dagger-mixed",
+      "created": 1787961177133.972,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c09-dagger-mixed",
+      "created": 1788741829698.119,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c00-teleop-validation",
+      "created": 1788039163979.177,
+      "sourceType": "teleop"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c00-teleop-sobol",
+      "created": 1788039164110.6548,
+      "sourceType": "teleop"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c01-dagger-mulligan",
+      "created": 1787965180541.047,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c02-dagger-mulligan",
+      "created": 1787965180783.0137,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c03-dagger-mulligan",
+      "created": 1787965181049.3792,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c04-dagger-mulligan",
+      "created": 1787965181296.3484,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c05-dagger-mulligan",
+      "created": 1787965181539.6287,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c06-dagger-mulligan",
+      "created": 1787965181818.7063,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c07-dagger-mulligan",
+      "created": 1787965182080.1248,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c08-dagger-mulligan",
+      "created": 1788073847954.9058,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c09-dagger-mulligan",
+      "created": 1788769295367.757,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-c00-teleop-mixed",
+      "created": 1788039166594.3135,
+      "sourceType": "teleop"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r00-eval-b01-sobol-dp-policy-rollouts",
+      "created": 1788039166727.089,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r00-eval-b01",
+      "created": 1783401768019.3647,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r01-eval-b01-mulligan-dp-policy-rollouts",
+      "created": 1788039167088.2346,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r01-eval-b01",
+      "created": 1783543562034.6213,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r02-eval-b01-mulligan-dp-policy-rollouts",
+      "created": 1788039167484.7095,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r02-eval-b01",
+      "created": 1783626068284.594,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r03-eval-b01-mulligan-dp-policy-rollouts",
+      "created": 1788039167867.458,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r03-eval-b01",
+      "created": 1783716569015.285,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r04-eval-b01-mulligan-dp-policy-rollouts",
+      "created": 1788039168342.715,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r04-eval-b01-mulligan-idql-policy-rollouts",
+      "created": 1788039168525.7666,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r04-eval-b01",
+      "created": 1783808758221.6267,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r05-eval-b01-mulligan-dp-policy-rollouts",
+      "created": 1788039168938.3123,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r05-eval-b01-mulligan-idql-policy-rollouts",
+      "created": 1788039169060.5261,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r05-eval-b01",
+      "created": 1783905282988.4673,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r06-eval-b01-mulligan-dp-policy-rollouts",
+      "created": 1788039169441.9707,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r06-eval-b01-mulligan-idql-policy-rollouts",
+      "created": 1788039169576.0725,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r06-eval-b01",
+      "created": 1783951345703.1113,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r07-eval-b01-mulligan-dp-policy-rollouts",
+      "created": 1788039169985.5923,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r07-eval-b01-mulligan-idql-policy-rollouts",
+      "created": 1788039170135.8845,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r07-eval-b01",
+      "created": 1784411419375.0847,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r08-eval-b01-mulligan-dp-policy-rollouts",
+      "created": 1788769283719.6948,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r08-eval-b01-mulligan-idql-policy-rollouts",
+      "created": 1788769284044.7407,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-velocity-r08-eval-b01",
+      "created": 1788650034812.5723,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-routing-d2-r00-r05-eval",
+      "created": 1788817901842.827,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-square-d2-c00-teleop-baseline",
+      "created": 1788039171826.7725,
+      "sourceType": "teleop"
+    },
+    {
+      "repo": "mulligan/real-square-d2-c01-dagger-baseline",
+      "created": 1787965182830.772,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-square-d2-c02-dagger-baseline",
+      "created": 1787965182949.7922,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-square-d2-c03-dagger-baseline",
+      "created": 1787965183073.7517,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-square-d2-c04-dagger-baseline",
+      "created": 1787965183214.731,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-square-d2-c05-dagger-baseline",
+      "created": 1787965183361.9043,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-square-d2-c01-dagger-mixed",
+      "created": 1787965183496.0415,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-square-d2-c02-dagger-mixed",
+      "created": 1787965183629.651,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-square-d2-c03-dagger-mixed",
+      "created": 1787965183756.8242,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-square-d2-c04-dagger-mixed",
+      "created": 1787965183940.8848,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-square-d2-c05-dagger-mixed",
+      "created": 1787965184093.3345,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-square-d2-c00-teleop-validation",
+      "created": 1788039173410.1501,
+      "sourceType": "teleop"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r03-eval-b02-mulligan-dp-policy-rollouts",
+      "created": 1788039173712.07,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r03-eval-b02-mulligan-idql-policy-rollouts",
+      "created": 1788039173844.1423,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r03-eval-b03-mulligan-dp-policy-rollouts",
+      "created": 1788039174133.425,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r03-eval-b03-mulligan-idql-policy-rollouts",
+      "created": 1788039174273.7197,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-square-d2-c00-teleop-sobol",
+      "created": 1788039174564.4631,
+      "sourceType": "teleop"
+    },
+    {
+      "repo": "mulligan/real-square-d2-c01-dagger-mulligan",
+      "created": 1787965184235.0952,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-square-d2-c02-dagger-mulligan",
+      "created": 1787965184483.1453,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-square-d2-c03-dagger-mulligan",
+      "created": 1787965184744.8506,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-square-d2-c04-dagger-mulligan",
+      "created": 1787965185003.597,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-square-d2-c05-dagger-mulligan",
+      "created": 1787965185272.441,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r00-eval",
+      "created": 1782338388482.887,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-square-d2-c00-teleop-mixed",
+      "created": 1788039176263.0415,
+      "sourceType": "teleop"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r01-eval",
+      "created": 1782452279366.3052,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r01-eval-b01-mulligan-dp-policy-rollouts",
+      "created": 1788039176670.833,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r02-eval",
+      "created": 1782785656662.51,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r02-eval-b01-mulligan-dp-policy-rollouts",
+      "created": 1788039177216.5337,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r03-eval",
+      "created": 1782935901919.2139,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r03-eval-b01-mulligan-dp-policy-rollouts",
+      "created": 1788039177734.9602,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r04-eval-b01-mulligan-dp-policy-rollouts",
+      "created": 1788039177999.6338,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r04-eval-b01-mulligan-idql-policy-rollouts",
+      "created": 1788039178157.9946,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r04-eval",
+      "created": 1783373978221.9216,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r05-eval-b02-mulligan-dp-policy-rollouts",
+      "created": 1788039178718.4304,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r05-eval-b02-mulligan-idql-policy-rollouts",
+      "created": 1788039178838.813,
+      "sourceType": "rollout"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r05-eval",
+      "created": 1787338335979.302,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/real-square-d2-r05-screen",
+      "created": 1783883325870.6902,
+      "sourceType": "eval"
+    },
+    {
+      "repo": "mulligan/sim-square-narrow-c00-teleop-baseline",
+      "created": 1790035200000,
+      "sourceType": "teleop"
+    },
+    {
+      "repo": "mulligan/sim-square-narrow-c01-dagger-baseline",
+      "created": 1790035200000,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/sim-square-narrow-c02-dagger-baseline",
+      "created": 1790035200000,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/sim-square-narrow-c03-dagger-baseline",
+      "created": 1790035200000,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/sim-square-narrow-c00-teleop-mixed",
+      "created": 1790035200000,
+      "sourceType": "teleop"
+    },
+    {
+      "repo": "mulligan/sim-square-narrow-c01-dagger-mixed",
+      "created": 1790035200000,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/sim-square-narrow-c02-dagger-mixed",
+      "created": 1790035200000,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/sim-square-narrow-c03-dagger-mixed",
+      "created": 1790035200000,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/sim-square-narrow-c03-dagger-mulligan",
+      "created": 1790035200000,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/sim-square-narrow-c01-dagger-mulligan",
+      "created": 1790035200000,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/sim-square-narrow-c02-dagger-mulligan",
+      "created": 1790035200000,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/sim-square-narrow-c00-teleop-sobol",
+      "created": 1790035200000,
+      "sourceType": "teleop"
+    },
+    {
+      "repo": "mulligan/sim-square-broad-c00-teleop-baseline",
+      "created": 1790035200000,
+      "sourceType": "teleop"
+    },
+    {
+      "repo": "mulligan/sim-square-broad-c01-dagger-baseline",
+      "created": 1790035200000,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/sim-square-broad-c02-dagger-baseline",
+      "created": 1790035200000,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/sim-square-broad-c03-dagger-baseline",
+      "created": 1790035200000,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/sim-square-broad-c00-teleop-mixed",
+      "created": 1790035200000,
+      "sourceType": "teleop"
+    },
+    {
+      "repo": "mulligan/sim-square-broad-c01-dagger-mixed",
+      "created": 1790035200000,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/sim-square-broad-c02-dagger-mixed",
+      "created": 1790035200000,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/sim-square-broad-c03-dagger-mixed",
+      "created": 1790035200000,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/sim-square-broad-c01-dagger-mulligan",
+      "created": 1790035200000,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/sim-square-broad-c02-dagger-mulligan",
+      "created": 1790035200000,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/sim-square-broad-c03-dagger-mulligan",
+      "created": 1790035200000,
+      "sourceType": "dagger"
+    },
+    {
+      "repo": "mulligan/sim-square-broad-c00-teleop-sobol",
+      "created": 1790035200000,
+      "sourceType": "teleop"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "r0-real-marker-d2-r00-eval-b01",
+      "created": 1782238409023.3328,
+      "mode": "manual"
+    },
+    {
+      "id": "r1-real-marker-d2-r01-eval-b01",
+      "created": 1782429997225.386,
+      "mode": "manual"
+    },
+    {
+      "id": "r2-real-marker-d2-r02-eval-b01",
+      "created": 1782790688170.2654,
+      "mode": "manual"
+    },
+    {
+      "id": "r2-real-marker-d2-r02-eval-b03",
+      "created": 1783038325851.9475,
+      "mode": "manual"
+    },
+    {
+      "id": "r3-real-marker-d2-r03-eval-b01",
+      "created": 1783281023205.7732,
+      "mode": "manual"
+    },
+    {
+      "id": "r4-real-marker-d2-r04-eval-b01",
+      "created": 1783468250422.272,
+      "mode": "manual"
+    },
+    {
+      "id": "r5-real-marker-d2-r05-eval-b01",
+      "created": 1787161580705.464,
+      "mode": "manual"
+    },
+    {
+      "id": "r0-real-square-d2-r00-eval-b01",
+      "created": 1782341092921.5151,
+      "mode": "manual"
+    },
+    {
+      "id": "r1-real-square-d2-r01-eval-b01",
+      "created": 1782452278424.0354,
+      "mode": "manual"
+    },
+    {
+      "id": "r2-real-square-d2-r02-eval-b01",
+      "created": 1782801740322.8745,
+      "mode": "manual"
+    },
+    {
+      "id": "r3-real-square-d2-r03-eval-b01",
+      "created": 1782956662814.358,
+      "mode": "manual"
+    },
+    {
+      "id": "r3-real-square-d2-r03-eval-b03",
+      "created": 1783133291281.6172,
+      "mode": "manual"
+    },
+    {
+      "id": "r3-real-square-d2-r03-eval-b02",
+      "created": 1783049438029.5432,
+      "mode": "manual"
+    },
+    {
+      "id": "r4-real-square-d2-r04-eval-b01",
+      "created": 1783373977065.6436,
+      "mode": "manual"
+    },
+    {
+      "id": "r5-real-square-d2-r05-eval-b01",
+      "created": 1787338335520.8054,
+      "mode": "manual"
+    },
+    {
+      "id": "r0-real-routing-d2-r00-r05-eval-b01",
+      "created": 1788817901574.8228,
+      "mode": "manual"
+    },
+    {
+      "id": "r1-real-routing-d2-r00-r05-eval-b01",
+      "created": 1788817901574.8228,
+      "mode": "manual"
+    },
+    {
+      "id": "r2-real-routing-d2-r00-r05-eval-b01",
+      "created": 1788817901574.8228,
+      "mode": "manual"
+    },
+    {
+      "id": "r3-real-routing-d2-r00-r05-eval-b01",
+      "created": 1788817901574.8228,
+      "mode": "manual"
+    },
+    {
+      "id": "r4-real-routing-d2-r00-r05-eval-b01",
+      "created": 1788817901574.8228,
+      "mode": "manual"
+    },
+    {
+      "id": "r5-real-routing-d2-r00-r05-eval-b01",
+      "created": 1788817901574.8228,
+      "mode": "manual"
+    }
+  ],
+  "coverage": [
+    {
+      "task": "marker_d2",
+      "taxonomy_version": "trajectory-review/v1/marker_d2/v4",
+      "generated_at": 1790314528062,
+      "repos": [
+        {
+          "n_committed": 0,
+          "n_draft": 0,
+          "n_flagged": 0,
+          "n_human_only": 0,
+          "n_prefill": 100,
+          "n_uncertain": 0,
+          "n_vlm_only": 100,
+          "num_episodes": 125,
+          "repo": "mulligan/real-marker-d2-r02-eval-b03"
+        },
+        {
+          "n_committed": 0,
+          "n_draft": 0,
+          "n_flagged": 0,
+          "n_human_only": 0,
+          "n_prefill": 100,
+          "n_uncertain": 0,
+          "n_vlm_only": 100,
+          "num_episodes": 100,
+          "repo": "mulligan/real-marker-d2-r00-eval"
+        },
+        {
+          "n_committed": 0,
+          "n_draft": 0,
+          "n_flagged": 0,
+          "n_human_only": 0,
+          "n_prefill": 150,
+          "n_uncertain": 0,
+          "n_vlm_only": 150,
+          "num_episodes": 150,
+          "repo": "mulligan/real-marker-d2-r01-eval"
+        },
+        {
+          "n_committed": 0,
+          "n_draft": 0,
+          "n_flagged": 1,
+          "n_human_only": 0,
+          "n_prefill": 100,
+          "n_uncertain": 0,
+          "n_vlm_only": 100,
+          "num_episodes": 100,
+          "repo": "mulligan/real-marker-d2-r02-eval"
+        },
+        {
+          "n_committed": 0,
+          "n_draft": 0,
+          "n_flagged": 0,
+          "n_human_only": 0,
+          "n_prefill": 150,
+          "n_uncertain": 0,
+          "n_vlm_only": 150,
+          "num_episodes": 150,
+          "repo": "mulligan/real-marker-d2-r03-eval"
+        },
+        {
+          "n_committed": 0,
+          "n_draft": 0,
+          "n_flagged": 1,
+          "n_human_only": 0,
+          "n_prefill": 150,
+          "n_uncertain": 0,
+          "n_vlm_only": 150,
+          "num_episodes": 150,
+          "repo": "mulligan/real-marker-d2-r04-eval"
+        },
+        {
+          "n_committed": 0,
+          "n_draft": 0,
+          "n_flagged": 3,
+          "n_human_only": 0,
+          "n_prefill": 150,
+          "n_uncertain": 0,
+          "n_vlm_only": 150,
+          "num_episodes": 150,
+          "repo": "mulligan/real-marker-d2-r05-eval"
+        }
+      ]
+    },
+    {
+      "task": "square_d2",
+      "taxonomy_version": "trajectory-review/v1/square_d2/v3",
+      "generated_at": 1790314528587,
+      "repos": [
+        {
+          "n_committed": 0,
+          "n_draft": 0,
+          "n_flagged": 0,
+          "n_human_only": 0,
+          "n_prefill": 100,
+          "n_uncertain": 0,
+          "n_vlm_only": 100,
+          "num_episodes": 100,
+          "repo": "mulligan/real-square-d2-r00-eval"
+        },
+        {
+          "n_committed": 0,
+          "n_draft": 0,
+          "n_flagged": 1,
+          "n_human_only": 0,
+          "n_prefill": 150,
+          "n_uncertain": 0,
+          "n_vlm_only": 150,
+          "num_episodes": 150,
+          "repo": "mulligan/real-square-d2-r01-eval"
+        },
+        {
+          "n_committed": 0,
+          "n_draft": 0,
+          "n_flagged": 0,
+          "n_human_only": 0,
+          "n_prefill": 150,
+          "n_uncertain": 0,
+          "n_vlm_only": 150,
+          "num_episodes": 150,
+          "repo": "mulligan/real-square-d2-r02-eval"
+        },
+        {
+          "n_committed": 0,
+          "n_draft": 0,
+          "n_flagged": 1,
+          "n_human_only": 0,
+          "n_prefill": 150,
+          "n_uncertain": 0,
+          "n_vlm_only": 150,
+          "num_episodes": 150,
+          "repo": "mulligan/real-square-d2-r03-eval"
+        },
+        {
+          "n_committed": 1,
+          "n_draft": 0,
+          "n_flagged": 0,
+          "n_human_only": 0,
+          "n_prefill": 200,
+          "n_uncertain": 0,
+          "n_vlm_only": 199,
+          "num_episodes": 200,
+          "repo": "mulligan/real-square-d2-r04-eval"
+        },
+        {
+          "n_committed": 0,
+          "n_draft": 0,
+          "n_flagged": 0,
+          "n_human_only": 0,
+          "n_prefill": 150,
+          "n_uncertain": 0,
+          "n_vlm_only": 150,
+          "num_episodes": 150,
+          "repo": "mulligan/real-square-d2-r05-eval"
+        },
+        {
+          "n_committed": 0,
+          "n_draft": 0,
+          "n_flagged": 0,
+          "n_human_only": 0,
+          "n_prefill": 150,
+          "n_uncertain": 0,
+          "n_vlm_only": 150,
+          "num_episodes": 150,
+          "repo": "mulligan/real-square-d2-r05-screen"
+        }
+      ]
+    },
+    {
+      "task": "routing_d2",
+      "taxonomy_version": "trajectory-review/v1/routing_d2/v1",
+      "generated_at": 1790314529112,
+      "repos": [
+        {
+          "n_committed": 0,
+          "n_draft": 0,
+          "n_flagged": 0,
+          "n_human_only": 0,
+          "n_prefill": 100,
+          "n_uncertain": 0,
+          "n_vlm_only": 100,
+          "num_episodes": 100,
+          "repo": "mulligan/real-routing-d2-velocity-r00-eval-b01"
+        },
+        {
+          "n_committed": 0,
+          "n_draft": 0,
+          "n_flagged": 0,
+          "n_human_only": 0,
+          "n_prefill": 100,
+          "n_uncertain": 0,
+          "n_vlm_only": 100,
+          "num_episodes": 100,
+          "repo": "mulligan/real-routing-d2-velocity-r01-eval-b01"
+        },
+        {
+          "n_committed": 1,
+          "n_draft": 0,
+          "n_flagged": 0,
+          "n_human_only": 0,
+          "n_prefill": 100,
+          "n_uncertain": 0,
+          "n_vlm_only": 99,
+          "num_episodes": 100,
+          "repo": "mulligan/real-routing-d2-velocity-r02-eval-b01"
+        },
+        {
+          "n_committed": 0,
+          "n_draft": 0,
+          "n_flagged": 0,
+          "n_human_only": 0,
+          "n_prefill": 100,
+          "n_uncertain": 0,
+          "n_vlm_only": 100,
+          "num_episodes": 100,
+          "repo": "mulligan/real-routing-d2-velocity-r03-eval-b01"
+        },
+        {
+          "n_committed": 0,
+          "n_draft": 0,
+          "n_flagged": 0,
+          "n_human_only": 0,
+          "n_prefill": 150,
+          "n_uncertain": 0,
+          "n_vlm_only": 150,
+          "num_episodes": 150,
+          "repo": "mulligan/real-routing-d2-velocity-r04-eval-b01"
+        },
+        {
+          "n_committed": 0,
+          "n_draft": 0,
+          "n_flagged": 0,
+          "n_human_only": 0,
+          "n_prefill": 150,
+          "n_uncertain": 0,
+          "n_vlm_only": 150,
+          "num_episodes": 150,
+          "repo": "mulligan/real-routing-d2-velocity-r05-eval-b01"
+        },
+        {
+          "n_committed": 0,
+          "n_draft": 0,
+          "n_flagged": 0,
+          "n_human_only": 0,
+          "n_prefill": 150,
+          "n_uncertain": 0,
+          "n_vlm_only": 150,
+          "num_episodes": 150,
+          "repo": "mulligan/real-routing-d2-velocity-r06-eval-b01"
+        },
+        {
+          "n_committed": 0,
+          "n_draft": 0,
+          "n_flagged": 0,
+          "n_human_only": 0,
+          "n_prefill": 150,
+          "n_uncertain": 0,
+          "n_vlm_only": 150,
+          "num_episodes": 150,
+          "repo": "mulligan/real-routing-d2-velocity-r07-eval-b01"
+        },
+        {
+          "n_committed": 2,
+          "n_draft": 0,
+          "n_flagged": 0,
+          "n_human_only": 2,
+          "n_prefill": 0,
+          "n_uncertain": 1,
+          "n_vlm_only": 0,
+          "num_episodes": 100,
+          "repo": "mulligan/real-routing-d2-velocity-r08-eval-b01"
+        }
+      ]
+    }
+  ]
+}

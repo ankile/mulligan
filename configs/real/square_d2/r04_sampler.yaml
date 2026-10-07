@@ -1,0 +1,62 @@
+# Thread Nut (square_d2) R4 start design (Alg. 2; mulligan.sampling.real_design). Promotes the starts of the
+# pooled 100-start DP+IQL evaluation on which both DP+IQL and the bare DP failed, earliest
+# breakdown rung first (R0 no grasp .. R3 held, no commit; from the recorded failure table).
+# Coverage fill: nut-pose hardness (reach edge + handle alignment, beta 0.3), peg axes at 0.3.
+# Paper: Alg. 2, App. F.4 and F.6. Builds the locked R4 collection manifest (`locked`), the starts
+# of mulligan/real-square-d2-c04-dagger-mixed. `inputs` are relative to --inputs-root (the repository root
+# for the shipped manifests, `data/real/manifests/...`); the outcome and label tables are not
+# released (configs/real/README.md).
+# Run: python -m mulligan.sampling.real_design --config configs/real/square_d2/r04_sampler.yaml --inputs-root . --input failure_table=<csv> --out <file>
+task: square_d2
+round: 4
+budget: 50
+source_eval_seed: 2026070101
+baseline_seed: 2026070302
+promotion:
+  pool: table
+  upstream_max_stage: 1
+  rank_keys: [stage, num_steps, tiebreak]
+  tiebreak: manifest_idx
+  cap: 25
+  table:
+    filter_column: hardness_class
+    filter_value: both_fail_hard_state
+    stage_column: severity
+    failure_mode_column: rung
+    manifest_idx_column: global_manifest_idx
+fill:
+  seed: 2026070301
+  pool_size: 32768
+  beta: 0.3
+  placement_weight: 0.3
+  hardness: nut_pose
+  hardness_params:
+    weights: {x_edge: 0.6, edge_relu: 0.4}
+    g_weight: 0.5
+order:
+  strategy: peg_path
+  seed: 2026070306
+  split_by_phase: true
+  segment_names: {verbatim: verbatim_promotions}
+inputs:
+  failure_table: <local-path>/iql_failure_table.csv
+  support_manifests:
+    - data/real/manifests/square_d2/r00/square_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json
+    - data/real/manifests/square_d2/r01/square_d2_r1_promote25_fill25_blind_dagger.json
+    - data/real/manifests/square_d2/r02/square_d2_r2_promote25_fill25_blind_dagger.json
+    - data/real/manifests/square_d2/r03/square_d2_r3_promote25_fill25_blind_dagger.json
+  avoid_manifests:
+    - data/real/manifests/square_d2/r00/square_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json
+    - data/real/manifests/square_d2/r01/square_d2_r1_promote25_fill25_blind_dagger.json
+    - data/real/manifests/square_d2/r01/square_d2_r1_eval_heldout_independent_sobol.json
+    - data/real/manifests/square_d2/r02/square_d2_r2_promote25_fill25_blind_dagger.json
+    - data/real/manifests/square_d2/r02/square_d2_r2_eval_heldout_independent_sobol.json
+    - data/real/manifests/square_d2/r03/square_d2_r3_promote25_fill25_blind_dagger.json
+    - data/real/manifests/square_d2/r03/square_d2_r3_eval_heldout_independent_sobol.json
+    - data/real/manifests/square_d2/final/square_d2_final_dp_vs_iql_heldout_independent_sobol.json
+
+# The locked manifest this config produced.
+locked:
+  manifest:
+    path: data/real/manifests/square_d2/r04/square_d2_r4_promote25_fill25_blind_dagger.json
+    sha256: c7274a98b4bcce4b1f8de64d47ef0ece8f335a2b71d50481bd199a0077e07942

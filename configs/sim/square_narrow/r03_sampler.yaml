@@ -1,0 +1,100 @@
+# Square-Narrow R3 collection starts: two arms, 100 starts each.
+# Mulligan arm: R2 shape model plus a grid-cell hardness bonus (weight 1.0), FPS fill.
+# This round uses the evaluation-grid cell term (paper App. F.5): the fill objective is
+# d^2 * (1 + 0.5 * shape + 1.0 * cell_bonus), cell_bonus from the sextile rank of the
+# R2 Mulligan with-CF per-cell success on the 8k grid (5 seeds, r03_grid_cell_sr.csv).
+# Paper: Alg. 2, App. F.4, F.5 and F.7. Builds the locked R3 collection starts (`locked`) of
+# mulligan/sim-square-narrow-c03-dagger-mixed.
+# Run: python -m mulligan.sampling.sim_design --config configs/sim/square_narrow/r03_sampler.yaml --out <dir> --check
+task: square_narrow
+round: 3
+budget: 100
+
+arms:
+  baseline_uniform:
+    policy_source: baseline_policy
+    starts:
+      uniform: {seed: 202606011}
+
+  # Mulligan arm.
+  mulligan:
+    policy_source: mulligan_policy
+    starts:
+      select_initial_states:
+        # R2 Mulligan with-CF policy on Sobol stream 500-599.
+        diagnostics:
+          path: data/sim/start_manifests/square_narrow/r03/init_states/square_narrow_mulligan_r3_diagnostic_rollouts_audit.json
+        prior:
+          - data/sim/start_manifests/square_narrow/r00/init_states/square_narrow_sobol_r0.json
+          - data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_mulligan_r1.json
+          - data/sim/start_manifests/square_narrow/r02/init_states/square_narrow_mulligan_r2.json
+        perturbation:
+          n: 20
+          seed: 202605880
+          sigma: {nut_y: 0.025, nut_yaw: 0.05}
+          resample: [nut_x]
+        candidates: {n: 50000, seed: 202605780}
+        distance: squared_euclidean
+        prior_distance_periodic: true
+        eval_grid_feedback: true
+        hardness:
+          # Locked R2 shape model, refitted by the source
+          # builder on R0 demos and R1-R3 diagnostic rollouts.
+          - beta: 0.5
+            signal:
+              narrow_shape:
+                yaw_alpha: 8.0
+                weights:
+                  y_norm: 0.2218125792757698
+                  y_center2: 0.20774061671329352
+                  yaw_sin_alpha: 0.5704468040109366
+          - beta: 1.0
+            signal:
+              grid_sextile_bonus:
+                # run square_narrow_r2_mulligan_with_cf_human_only, 80 cells x 5 seeds
+                table: configs/sim/square_narrow/r03_grid_cell_sr.csv
+
+manifest:
+  shuffle_seed: 202606015
+  match_tolerance: 1.0e-3
+  # The locked Square-Narrow R2/R3 manifests have no per-row `source` label.
+  row_source: false
+  disjoint_tolerance: 1.0e-6
+  disjoint_from:
+    - data/sim/start_manifests/square_narrow/r00/init_states/square_narrow_baseline_uniform_r0.json
+    - data/sim/start_manifests/square_narrow/r00/init_states/square_narrow_sobol_r0.json
+    - data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_baseline_uniform_r1.json
+    - data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_sobol_r1.json
+    - data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_mulligan_r1.json
+    - data/sim/start_manifests/square_narrow/r02/init_states/square_narrow_baseline_uniform_r2.json
+    - data/sim/start_manifests/square_narrow/r02/init_states/square_narrow_mulligan_r2.json
+  eval_grid:
+    generator: valid_sobol
+    num_points: 8000
+    seed: 2026052402
+    states_sha256: 2c1c42b90cb6cf9497c5f117f71a6fa4913c570f14d3f93822e5a6a9a861f718
+
+# The source builder selected the cell weight by "max hard-sextile share subject to
+# cumulative p95 <= that of Sobol 600-699".
+guardrail:
+  arm: mulligan
+  prior:
+    - data/sim/start_manifests/square_narrow/r00/init_states/square_narrow_sobol_r0.json
+    - data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_mulligan_r1.json
+    - data/sim/start_manifests/square_narrow/r02/init_states/square_narrow_mulligan_r2.json
+  sobol_start: 600
+  test_points: {n: 50000, seed: 202605681}
+  slack: 1.0
+  enforce: true
+
+locked:
+  manifest:
+    path: data/sim/start_manifests/square_narrow/r03/blind_inputs/square_narrow_r3_manifest.json
+    sha256: c8f2755d336ab7ee59a4989ea89f3169e7b74481ce9b440a90c92638840c2d8d
+  arms:
+    baseline_uniform:
+      path: data/sim/start_manifests/square_narrow/r03/init_states/square_narrow_baseline_uniform_r3.json
+      sha256: 7f1782f1e08c66c34a8b263e950afbc3d8ac267a37302c1534689d948b1397f1
+    mulligan:
+      path: data/sim/start_manifests/square_narrow/r03/init_states/square_narrow_mulligan_r3.json
+      sha256: 84dbf5b6f91ac2d30b3c3e1202a2451d945af7167bd299fe800298ca10ea2063

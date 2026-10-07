@@ -1,0 +1,69 @@
+# Run: python -m mulligan.real.train.launch configs/real/marker_d2/r05_baseline_dp.yaml --output-dir <dir>
+kind: dp-actor
+trainer: mulligan.real.train.policy
+checkpoint:
+  repo: mulligan/real-marker-d2-r05-baseline-dp
+  revision: 4ba17577900bc1475fc9df65472cc24938afadb7
+  step: 100000
+retrain: exact
+paper:
+  task: Insert Marker
+  round: R5
+  arm: HG-DAgger
+  seed: 1
+  results:
+  - Fig. 5
+  - App. B.1
+  evaluations:
+  - mulligan/real-marker-d2-r05-eval b01 (HG-DAgger)
+  - mulligan/real-marker-d2-r05-screen b02 (HG-DAgger)
+  collections: []
+dataset_revisions:
+  mulligan/real-marker-d2-c00-teleop-baseline: fca1b80fd41df0eb8cded11d03c8810a5c42f5ba
+  mulligan/real-marker-d2-c00-teleop-validation: 66e508d55f3b6820f610b1270f2dd94884f785f5
+  mulligan/real-marker-d2-c01-dagger-baseline: bce514b6ceb3f818cd2d5b49aa08237d02828682
+  mulligan/real-marker-d2-c02-dagger-baseline: 5bc9a56799a13e7e92471315c0ee1d1ef04dd703
+  mulligan/real-marker-d2-c03-dagger-baseline: 9d1b10f372055b1d096ae17a12cacc246980804c
+  mulligan/real-marker-d2-c04-dagger-baseline: ded903b49bb026e43c332cd62a1ec1c34565939b
+  mulligan/real-marker-d2-c05-dagger-baseline: 35d7a5b8a407c4fdc6a622da745473807caa3c19
+dataset_episodes: {}
+args:
+  task: marker_d2
+  repo-ids:
+  - mulligan/real-marker-d2-c00-teleop-baseline
+  - mulligan/real-marker-d2-c01-dagger-baseline
+  - mulligan/real-marker-d2-c02-dagger-baseline
+  - mulligan/real-marker-d2-c03-dagger-baseline
+  - mulligan/real-marker-d2-c04-dagger-baseline
+  - mulligan/real-marker-d2-c05-dagger-baseline
+  filter-dagger: true
+  num-workers: 24
+  seed: 1
+  eval-repo-ids:
+  - mulligan/real-marker-d2-c00-teleop-validation
+  eval-batch-size: 64
+  num-eval-batches: 128
+  model-init-seed: 0
+  training-steps: 100000
+  save-freq: 25000
+  eval-freq: 5000
+  n-action-steps: 6
+  image-height: 224
+  image-width: 224
+  batch-size: 64
+  scheduler-name: cosine
+  no-uint8-native-images: true
+  drop-n-last-frames: 2
+  spatial-softmax-num-keypoints: 32
+  no-decoded-frame-cache: true
+camera_crops:
+  side_1:
+  - 138
+  - 0
+  - 580
+  - 447
+  wrist_left:
+  - 180
+  - 0
+  - 639
+  - 413

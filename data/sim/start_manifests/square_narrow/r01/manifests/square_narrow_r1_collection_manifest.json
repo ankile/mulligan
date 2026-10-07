@@ -1,0 +1,60 @@
+{
+  "experiment": "square_narrow_r1",
+  "task": "square_narrow",
+  "collection_dataset": "mulligan/sim-square-narrow-c01-dagger-mixed",
+  "init_states_file": "<local-path>/square_narrow_r1.json",
+  "manifest_file": "<local-path>/square_narrow_r1_manifest.json",
+  "ledger_file": "<local-path>/square_narrow_r1_ledger.jsonl",
+  "arms": [
+    "baseline_uniform",
+    "sobol",
+    "mulligan"
+  ],
+  "policy_sources": {
+    "baseline_uniform": "baseline_policy",
+    "sobol": "mulligan_policy",
+    "mulligan": "mulligan_policy"
+  },
+  "protocol_targets": {
+    "no_cf": 100,
+    "with_cf": 100
+  },
+  "protocol_arms": {
+    "no_cf": [
+      "baseline_uniform",
+      "sobol",
+      "mulligan"
+    ],
+    "with_cf": [
+      "sobol",
+      "mulligan"
+    ]
+  },
+  "source_arm_files": {
+    "baseline_uniform": "<local-path>/square_narrow_baseline_uniform_r1.json",
+    "sobol": "<local-path>/square_narrow_sobol_r1.json",
+    "mulligan": "<local-path>/square_narrow_mulligan_r1.json"
+  },
+  "rollout_inputs": {
+    "baseline_uniform": {
+      "states": "<local-path>/square_narrow_baseline_uniform_r1_policy_rollout.json",
+      "object_qpos": "<local-path>/square_narrow_baseline_uniform_r1_policy_rollout_object_qpos.npy"
+    },
+    "sobol_diagnostic": {
+      "states": "<local-path>/square_narrow_sobol_r1_diagnostic_sobol_100_199.json",
+      "object_qpos": "<local-path>/square_narrow_sobol_r1_diagnostic_sobol_100_199_object_qpos.npy"
+    }
+  },
+  "rollout_datasets": {
+    "baseline_uniform": "mulligan/sim-square-narrow-c01-baseline-policy-rollouts",
+    "sobol_diagnostic": "mulligan/sim-square-narrow-c01-sobol-policy-rollouts"
+  },
+  "split_targets": {
+    "no_cf.baseline_uniform": "mulligan/sim-square-narrow-c01-dagger-baseline",
+    "no_cf.sobol": "mulligan/sim-square-narrow-c01-dagger-sobol-no-cf",
+    "no_cf.mulligan": "mulligan/sim-square-narrow-c01-dagger-mulligan-no-cf",
+    "with_cf.sobol": "mulligan/sim-square-narrow-c01-dagger-sobol-with-cf",
+    "with_cf.mulligan": "mulligan/sim-square-narrow-c01-dagger-mulligan"
+  },
+  "recipe": "baseline: fresh IID uniform starts; sobol: promoted diagnostic failures + canonical Sobol fill from index 200; mulligan: promoted failures + top-length perturbations + hardness-model fill (beta 0.5)"
+}

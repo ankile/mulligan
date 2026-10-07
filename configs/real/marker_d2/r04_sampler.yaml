@@ -1,0 +1,59 @@
+# Insert Marker (marker_d2) R4 start design (Alg. 2; mulligan.sampling.real_design). Promotes the R3 starts on which
+# both the deployed DP+IQL arm and the bare DP failed, earliest DP+IQL breakdown stage first.
+# Coverage fill: holder-depth hardness (beta 0.05, pooled DP and DP+IQL failure rate), holder
+# axes at 0.7, and at least a third of the fills at holder depth 8 in.
+# Paper: Alg. 2, App. F.4 and F.6. Builds the locked R4 collection manifest (`locked`), the starts
+# of mulligan/real-marker-d2-c04-dagger-mixed. `inputs` are relative to --inputs-root (the repository root
+# for the shipped manifests, `data/real/manifests/...`); the outcome and label tables are not
+# released (configs/real/README.md).
+# Run: python -m mulligan.sampling.real_design --config configs/real/marker_d2/r04_sampler.yaml --inputs-root . --input eval_outcomes=<csv> --input stage_labels=<csv> --out <file>
+task: marker_d2
+round: 4
+budget: 50
+source_eval_seed: 2026070201
+baseline_seed: 2026070602
+promotion:
+  pool: all_fail
+  arms: {iql_c100k: iql_c100k, dp: dp}
+  stage_column: max_stage_v2
+  failure_mode_column: early_failure_mode_v2
+  upstream_max_stage: 2
+  rank_keys: [stage, num_steps, tiebreak]
+  tiebreak: stream_index
+  cap: 25
+fill:
+  seed: 2026070601
+  pool_size: 32768
+  beta: 0.05
+  placement_weight: 0.7
+  hardness: holder_x_risk
+  hardness_params: {success_columns: [dp_success, iql_c100k_success]}
+  bands: {mode: quota, band: 8, fraction: 0.3333333333333333}
+order:
+  strategy: holder_pairs
+  seed: 2026070611
+  segments: phase
+  segment_names: {upstream: verbatim_upstream, later: verbatim_at_holder_plus_partial}
+inputs:
+  eval_outcomes: <local-path>/paired_round_outcomes.csv
+  stage_labels: <local-path>/labels_joined.csv
+  support_manifests:
+    - data/real/manifests/marker_d2/r00/marker_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json
+    - data/real/manifests/marker_d2/r01/marker_d2_r1_promote25_fill25_blind_dagger.json
+    - data/real/manifests/marker_d2/r02/marker_d2_r2_promote25_fill25_blind_dagger.json
+    - data/real/manifests/marker_d2/r03/marker_d2_r3_promote25_fill25_blind_dagger.json
+  avoid_manifests:
+    - data/real/manifests/marker_d2/r00/marker_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json
+    - data/real/manifests/marker_d2/r01/marker_d2_r1_promote25_fill25_blind_dagger.json
+    - data/real/manifests/marker_d2/r02/marker_d2_r2_promote25_fill25_blind_dagger.json
+    - data/real/manifests/marker_d2/r03/marker_d2_r3_promote25_fill25_blind_dagger.json
+    - data/real/manifests/marker_d2/r01/marker_d2_r1_eval_heldout_independent_sobol.json
+    - data/real/manifests/marker_d2/r02/marker_d2_r2_eval_heldout_independent_sobol.json
+    - data/real/manifests/marker_d2/final/marker_d2_final_dp_vs_iql_heldout_independent_sobol.json
+    - data/real/manifests/marker_d2/r03/marker_d2_r3_eval_heldout_independent_sobol.json
+
+# The locked manifest this config produced.
+locked:
+  manifest:
+    path: data/real/manifests/marker_d2/r04/marker_d2_r4_promote25_fill25_blind_dagger.json
+    sha256: e7f50ca2575204b4d5821af3991b18d28a69b4674e4c4cafe8e6050819cf2dd0

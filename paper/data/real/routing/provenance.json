@@ -1,0 +1,25 @@
+{
+  "paper_line": "routing_d2",
+  "status": "final: all 750 episodes carry a human outcome review",
+  "reviewed_episode_count": 750,
+  "label_rule": "Use the human outcome-edit record where an episode is present; otherwise retain the pinned results.json outcome and live subtask marks.",
+  "review_rule": "All 750 episodes human-reviewed. Seating only the right-most (second) clip does not count as the first clip: the 31 episodes noted 'Second clip only' carry no subtask mark.",
+  "round_mapping": {
+    "R0": "R0",
+    "R1": "R2",
+    "R2": "R4",
+    "R3": "R6",
+    "R4": "R8",
+    "R5": "R9"
+  },
+  "files": {
+    "policy_summary.csv": {
+      "source": "concatenation of the six rounds' policy_summary.csv",
+      "sha256": "207bbcb3d4d876e13af03b9c0381ac10e6cd7e09fe5a0b8ede0a9cfe7cb3256b"
+    },
+    "routing_d2_headline_task_progress.csv": {
+      "source": "routing_d2_headline_sr.csv (graded mean clip score / 2; whisker columns rewritten to +-1 episode SEM)",
+      "sha256": "1d71a21638f1fc0384885066842473a9a179a1792ff8f78fb5ab8038b85444bc"
+    }
+  }
+}

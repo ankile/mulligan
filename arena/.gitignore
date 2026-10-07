@@ -1,0 +1,15 @@
+node_modules
+dist
+dist-release
+*.log
+*.local
+.env
+.env.*
+!.env.example
+.vercel
+.wrangler
+.convex
+__pycache__
+*.egg-info
+.venv
+.DS_Store

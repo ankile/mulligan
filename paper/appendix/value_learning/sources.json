@@ -1,0 +1,220 @@
+{
+  "schema": "mulligan.paper.appendix.value_learning.sources.v3",
+  "sources": [
+    {
+      "path": "real/value_learning/eval/baseline_r0/summary.json",
+      "sha256": "6ebb89468e42363ae744fd04d59cc6a98c7d2bb61f43e72a0b7243dbd0d55bf0",
+      "size": 57746
+    },
+    {
+      "path": "real/value_learning/eval/baseline_r1/summary.json",
+      "sha256": "3809557425b4fcc2776704b1f3c0f7fcce6b6abe0a3b28ecc7b8d8d22d3c6cf4",
+      "size": 57695
+    },
+    {
+      "path": "real/value_learning/eval/baseline_r2/summary.json",
+      "sha256": "2f0ca13ef54f4525cea0f4fa86fc83701f6bcd53cbf6b21a88096a9e0605b6d1",
+      "size": 57715
+    },
+    {
+      "path": "real/value_learning/eval/baseline_r3/summary.json",
+      "sha256": "7a17122daf5264590e32a5b8e07eb168c69aa9539d383b5217b002b88900db6a",
+      "size": 57731
+    },
+    {
+      "path": "real/value_learning/eval/baseline_r4/summary.json",
+      "sha256": "9177f5861bad86eb06d93ce1faced406494110389e5f93569e042a8d765777d6",
+      "size": 57717
+    },
+    {
+      "path": "real/value_learning/eval/baseline_r5/summary.json",
+      "sha256": "3ed620c0deb0d07c1570fa189fe0a2fd9c05acdc8b9536c29b15575c9bf56923",
+      "size": 57945
+    },
+    {
+      "path": "real/value_learning/eval/dp_r0/summary.json",
+      "sha256": "d9916cc0583919964cace20474376917dd0df927523038dcab173269f7093a17",
+      "size": 57665
+    },
+    {
+      "path": "real/value_learning/eval/dp_r1/summary.json",
+      "sha256": "008db656f9e0587a25a2a1402e22a6b5c5e63feeb162a436b9504ef9fc956805",
+      "size": 57644
+    },
+    {
+      "path": "real/value_learning/eval/dp_r2/summary.json",
+      "sha256": "2fdcc9ce75b2cb832babbbba99698b7082b465741853b6e511bec99275c292fa",
+      "size": 57703
+    },
+    {
+      "path": "real/value_learning/eval/dp_r3/summary.json",
+      "sha256": "3dca4d102aa62954684bd9e69c1c8cee8b00a885a697c8ee639eb4d2b6e05558",
+      "size": 57711
+    },
+    {
+      "path": "real/value_learning/eval/dp_r4/summary.json",
+      "sha256": "3f287dc12be50e5b5925a56bd9824f4ffadf3e90ef78b7ce5480fef694e033a7",
+      "size": 57651
+    },
+    {
+      "path": "real/value_learning/eval/dp_r5/summary.json",
+      "sha256": "ac49beb0266e2792a22398c92a793c861c4b4a6cff9e1307171acdf2b5617725",
+      "size": 57883
+    },
+    {
+      "path": "real/value_learning/eval/iql_r2/summary.json",
+      "sha256": "bcf310c25885f76d9c907e0f6ff3875b4ae6f665a9b17734df82b0e601cf8554",
+      "size": 57662
+    },
+    {
+      "path": "real/value_learning/eval/iql_r3/summary.json",
+      "sha256": "d6a1accfe1c877f574e7289f2e4a09a5b06fd89cf7cc3f5955b7040c28743754",
+      "size": 57656
+    },
+    {
+      "path": "real/value_learning/eval/iql_r4/summary.json",
+      "sha256": "fa4725c6a9467956203a9263b99bb7e225e828b11192ca773404bd68acedf527",
+      "size": 57624
+    },
+    {
+      "path": "real/value_learning/eval/iql_r5/summary.json",
+      "sha256": "4b901124e8b3eaf893b9126be275b2b60ebe72ba8a80786506aeb2b626272f83",
+      "size": 57878
+    },
+    {
+      "path": "real/value_learning/training/125000/candidate_probe.csv",
+      "sha256": "eea4c507d62ecd6569224ca53c3ad656fd4dccbb7658a71817424c51fffae2a4",
+      "size": 21031
+    },
+    {
+      "path": "real/value_learning/training/125000/per_episode_features.csv",
+      "sha256": "275dd2eb7a899645026d69bb87c82fa3e009ae71dcb8a47f77b2d4f2dfffb33b",
+      "size": 92053
+    },
+    {
+      "path": "real/value_learning/training/125000/summary.json",
+      "sha256": "277c87da96ac2a1ca9c3297ab39b4fe2d1205870a460bcc79dc8df4858c0af53",
+      "size": 15190
+    },
+    {
+      "path": "real/value_learning/training/150000/candidate_probe.csv",
+      "sha256": "a9493930a0682f81f71ad33bd238a7e3c1be3682be6d0becc37e4bb4201c8c1a",
+      "size": 21060
+    },
+    {
+      "path": "real/value_learning/training/150000/per_episode_features.csv",
+      "sha256": "3e71a38d4eb99c9187483cce6bb092ba97a9074974e5359c0c3668a69aa5c9f1",
+      "size": 92176
+    },
+    {
+      "path": "real/value_learning/training/150000/summary.json",
+      "sha256": "7e888ce7e5c6b26f521236fb7cf7e463d935b0d94c104c7dfbfcffea759fe2ef",
+      "size": 15220
+    },
+    {
+      "path": "real/value_learning/training/200000/candidate_probe.csv",
+      "sha256": "d3603e375d516058efb1943efd8b42b3fc329810be1995521db7c79636d87f99",
+      "size": 20949
+    },
+    {
+      "path": "real/value_learning/training/200000/per_episode_features.csv",
+      "sha256": "891fc89145f9725a9472a7f1770cd478fcfc09c514cd4bfa9a4d575275ca3298",
+      "size": 91803
+    },
+    {
+      "path": "real/value_learning/training/200000/summary.json",
+      "sha256": "22239ac3b061eb90002e6f9d5bb52e1579de23e2c1a0e484f89421df7955eec4",
+      "size": 15175
+    },
+    {
+      "path": "real/value_learning/training/225000/candidate_probe.csv",
+      "sha256": "7e0c5b211bf6dde72110fb9946a25a5693ee2bfa44305bd0214cc74191b88b1e",
+      "size": 20819
+    },
+    {
+      "path": "real/value_learning/training/225000/per_episode_features.csv",
+      "sha256": "829f76a76483c749a54c80247e32fabcd0590a6b77ef9e2beeca974a59ed9b26",
+      "size": 91702
+    },
+    {
+      "path": "real/value_learning/training/225000/summary.json",
+      "sha256": "1ef176ac456eddc1aa354dbc0e5026fff348dae5608a28cd417e54fc5e722a2e",
+      "size": 15094
+    },
+    {
+      "path": "real/value_learning/training/250000/candidate_probe.csv",
+      "sha256": "ce1f9ebde24b61efe863b889fafb8c2d9d7a40071a94210f9c5168b3751ee6a7",
+      "size": 20749
+    },
+    {
+      "path": "real/value_learning/training/250000/per_episode_features.csv",
+      "sha256": "5ad06ba09114c49c510a8ad1ed6b5c5ae3ce95a29f4f5c19918bc40f12c240e8",
+      "size": 91666
+    },
+    {
+      "path": "real/value_learning/training/250000/summary.json",
+      "sha256": "bc155c259b0c9e2d3a9c2d36b51583ab23ba756d7bd0fffff980dd38997a86f1",
+      "size": 15168
+    },
+    {
+      "path": "real/value_learning/training/300000/candidate_probe.csv",
+      "sha256": "9d15164c4e96d1776147bdf0b362fe48f97f83dc9958741da7f53cb866e6833c",
+      "size": 20702
+    },
+    {
+      "path": "real/value_learning/training/300000/per_episode_features.csv",
+      "sha256": "d943b1297d1d0b449e2cb5aa064630abf263560f795512a63f8d2f8edb4ab9dc",
+      "size": 91400
+    },
+    {
+      "path": "real/value_learning/training/300000/summary.json",
+      "sha256": "2cfc4aa8a837ed98da77c8a8678a5d2820244eecf6c76d65a9c5d2ef31656ffb",
+      "size": 15139
+    },
+    {
+      "path": "real/value_learning/training/400000/candidate_probe.csv",
+      "sha256": "0cb3fca6cc0b9c02dc141e3cb986f1532d91a9c5c15be6d152efdab12475e143",
+      "size": 20521
+    },
+    {
+      "path": "real/value_learning/training/400000/per_episode_features.csv",
+      "sha256": "3fc7540b92765d8a2fa81957f407b49018003ee61ce0f869b908c0917d97085e",
+      "size": 91276
+    },
+    {
+      "path": "real/value_learning/training/400000/summary.json",
+      "sha256": "a89e058616b91a5d42b3337fac05f32c28da7a3efd3986e55898a3f23b5d8116",
+      "size": 15144
+    },
+    {
+      "path": "real/value_learning/training/450000/candidate_probe.csv",
+      "sha256": "ee811f7b3f9f27bc8f83b73225cf642234acfefc1b41a7da7fb65f150f608e53",
+      "size": 20541
+    },
+    {
+      "path": "real/value_learning/training/450000/per_episode_features.csv",
+      "sha256": "71d75a46d05630318781fac1214da7d7ca461ec1d835ff2c66b0df25ddb31b70",
+      "size": 91255
+    },
+    {
+      "path": "real/value_learning/training/450000/summary.json",
+      "sha256": "c01fae6c81958e239fc4b0187afd0e89c3f03e5f01460d5bb1738e6765510a46",
+      "size": 15107
+    },
+    {
+      "path": "real/value_learning/training/475000/candidate_probe.csv",
+      "sha256": "eb254291b74f610266f07da80772e99316bb0c30fe9d4b221f3e3ea991878059",
+      "size": 20525
+    },
+    {
+      "path": "real/value_learning/training/475000/per_episode_features.csv",
+      "sha256": "37119beeebe58fde582ea2da7804d1d80853527b28d2fff926d4d9c4f818c324",
+      "size": 91064
+    },
+    {
+      "path": "real/value_learning/training/475000/summary.json",
+      "sha256": "4a45eba27d4965836d6a1ebc183835d605e59892536bfe8453cff942ee47300e",
+      "size": 15129
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# The data files are checked byte for byte against data/SHA256SUMS: no end-of-line conversion.
+data/** -text

@@ -1,0 +1,387 @@
+task,role,run,gpu,gpu_count,gpu_count_source,logged_wall_hours,gpu_weighted_logged_hours,restart_count
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r00-baseline-idql/seed-1,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,3.684745247663056,3.684745247663056,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r00-baseline-divl/seed-1,NVIDIA A40,1,W&B GPU metadata,1.1704061894397222,1.1704061894397222,1
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r00-baseline-idql/seed-2,NVIDIA RTX A6000,1,W&B GPU metadata,3.717034946179167,3.717034946179167,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r00-baseline-divl/seed-2,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,1.1227297007622223,1.1227297007622223,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r00-baseline-idql/seed-3,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.8794477031052779,1.8794477031052779,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r00-baseline-divl/seed-3,NVIDIA A40,1,W&B GPU metadata,1.1016104551533334,1.1016104551533334,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r00-baseline-idql/seed-4,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.3639629134308335,2.3639629134308335,1
+square_narrow,divl_critic,mulligan/sim-square-narrow-r00-baseline-divl/seed-4,NVIDIA L40S,1,W&B GPU metadata,0.6671841583916667,0.6671841583916667,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r00-baseline-idql/seed-5,NVIDIA L40S,1,W&B GPU metadata,2.188447248238889,2.188447248238889,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r00-baseline-divl/seed-5,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.6049955027325,0.6049955027325,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r00-sobol-idql/seed-1,NVIDIA L40S,1,W&B GPU metadata,2.5459725457294446,2.5459725457294446,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r00-sobol-divl/seed-1,NVIDIA L40S,1,W&B GPU metadata,0.7011555823530555,0.7011555823530555,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r00-sobol-idql/seed-2,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.9324427126194446,1.9324427126194446,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r00-sobol-divl/seed-2,NVIDIA L40S,1,W&B GPU metadata,0.7837122697172222,0.7837122697172222,1
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r00-sobol-idql/seed-3,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.9675807602708333,1.9675807602708333,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r00-sobol-divl/seed-3,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.6408018883083333,0.6408018883083333,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r00-sobol-idql/seed-4,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.9113252476166667,1.9113252476166667,1
+square_narrow,divl_critic,mulligan/sim-square-narrow-r00-sobol-divl/seed-4,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.7186786045408333,0.7186786045408333,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r00-sobol-idql/seed-5,NVIDIA GeForce RTX 3090,1,W&B GPU metadata,5.173603183153611,5.173603183153611,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r00-sobol-divl/seed-5,NVIDIA L40S,1,W&B GPU metadata,0.6721971863438889,0.6721971863438889,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-baseline-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.4100340774105555,1.4100340774105555,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-baseline-divl/seed-1,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.6465120665652777,0.6465120665652777,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-baseline-idql/seed-2,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.4369100841244444,1.4369100841244444,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-baseline-divl/seed-2,NVIDIA L40S,1,W&B GPU metadata,0.6964718095675,0.6964718095675,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-baseline-idql/seed-3,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,2.773649364865,2.773649364865,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-baseline-divl/seed-3,NVIDIA L40S,1,W&B GPU metadata,0.6516464853211111,0.6516464853211111,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-baseline-idql/seed-4,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.325067002223889,1.325067002223889,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-baseline-divl/seed-4,NVIDIA L40S,1,W&B GPU metadata,0.6459958352513888,0.6459958352513888,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-baseline-idql/seed-5,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.3936849066311112,1.3936849066311112,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-baseline-divl/seed-5,NVIDIA L40S,1,W&B GPU metadata,0.6654441624333333,0.6654441624333333,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-baseline-straddled-auto-success-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.4861472200369445,1.4861472200369445,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-baseline-straddled-auto-success-divl/seed-1,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.6565989160991667,0.6565989160991667,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-baseline-straddled-auto-success-idql/seed-2,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.410652678738611,1.410652678738611,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-baseline-straddled-auto-success-divl/seed-2,NVIDIA L40S,1,W&B GPU metadata,0.6622437866380556,0.6622437866380556,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-baseline-straddled-auto-success-idql/seed-3,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,2.79897308768,2.79897308768,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-baseline-straddled-auto-success-divl/seed-3,NVIDIA L40S,1,W&B GPU metadata,0.6430817688302778,0.6430817688302778,1
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-baseline-straddled-auto-success-idql/seed-4,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.4569088373275,1.4569088373275,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-baseline-straddled-auto-success-divl/seed-4,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.5749202032447223,0.5749202032447223,2
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-baseline-straddled-auto-success-idql/seed-5,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.4012736959569445,1.4012736959569445,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-baseline-straddled-auto-success-divl/seed-5,NVIDIA L40S,1,W&B GPU metadata,0.7359181482363889,0.7359181482363889,1
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-mulligan-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.375668848658889,1.375668848658889,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-mulligan-divl/seed-1,NVIDIA H200,1,W&B GPU metadata,0.6613996989613888,0.6613996989613888,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-mulligan-idql/seed-2,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,2.784345278275833,2.784345278275833,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-mulligan-divl/seed-2,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,0.7263631038338889,0.7263631038338889,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-mulligan-idql/seed-3,NVIDIA L40S,1,W&B GPU metadata,2.003539697597222,2.003539697597222,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-mulligan-divl/seed-3,NVIDIA H200,1,W&B GPU metadata,0.6049106511091666,0.6049106511091666,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-mulligan-idql/seed-4,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.4558042998761112,1.4558042998761112,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-mulligan-divl/seed-4,NVIDIA H200,1,W&B GPU metadata,0.5902898455836112,0.5902898455836112,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-mulligan-idql/seed-5,NVIDIA A40,1,W&B GPU metadata,2.8597580811633336,2.8597580811633336,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-mulligan-divl/seed-5,NVIDIA H200,1,W&B GPU metadata,0.568139091395,0.568139091395,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-mulligan-no-cf-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.4082000848624998,1.4082000848624998,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-mulligan-no-cf-divl/seed-1,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.6464935178797222,0.6464935178797222,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-mulligan-no-cf-idql/seed-2,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,2.771390775241111,2.771390775241111,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-mulligan-no-cf-divl/seed-2,NVIDIA L40S,1,W&B GPU metadata,0.6314034238058334,0.6314034238058334,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-mulligan-no-cf-idql/seed-3,NVIDIA L40S,1,W&B GPU metadata,1.9719851252375,1.9719851252375,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-mulligan-no-cf-divl/seed-3,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.6538016022869445,0.6538016022869445,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-mulligan-no-cf-idql/seed-4,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.3351658229052776,1.3351658229052776,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-mulligan-no-cf-divl/seed-4,NVIDIA A40,1,W&B GPU metadata,1.002383945647222,1.002383945647222,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-mulligan-no-cf-idql/seed-5,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.3888448957752777,1.3888448957752777,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-mulligan-no-cf-divl/seed-5,NVIDIA L40S,1,W&B GPU metadata,0.6572710867666667,0.6572710867666667,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-sobol-with-cf-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.4327084756130555,1.4327084756130555,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-sobol-with-cf-divl/seed-1,NVIDIA A40,1,W&B GPU metadata,1.0549992174769445,1.0549992174769445,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-sobol-with-cf-idql/seed-2,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,2.7564634229572222,2.7564634229572222,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-sobol-with-cf-divl/seed-2,NVIDIA A40,1,W&B GPU metadata,1.065739577323889,1.065739577323889,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-sobol-with-cf-idql/seed-3,NVIDIA L40S,1,W&B GPU metadata,1.9147765034033333,1.9147765034033333,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-sobol-with-cf-divl/seed-3,NVIDIA A40,1,W&B GPU metadata,1.0422995709641667,1.0422995709641667,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-sobol-with-cf-idql/seed-4,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.3634270370144443,1.3634270370144443,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-sobol-with-cf-divl/seed-4,NVIDIA L40S,1,W&B GPU metadata,0.6846668912255556,0.6846668912255556,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-sobol-with-cf-idql/seed-5,NVIDIA L40S,1,W&B GPU metadata,1.8196679935808333,1.8196679935808333,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-sobol-with-cf-divl/seed-5,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.6200208738705555,0.6200208738705555,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-sobol-no-cf-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.4148500094030556,1.4148500094030556,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-sobol-no-cf-divl/seed-1,NVIDIA L40S,1,W&B GPU metadata,0.6700373081163888,0.6700373081163888,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-sobol-no-cf-idql/seed-2,NVIDIA A40,1,W&B GPU metadata,2.972156512438611,2.972156512438611,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-sobol-no-cf-divl/seed-2,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.6297646019586111,0.6297646019586111,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-sobol-no-cf-idql/seed-3,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,2.786357506346944,2.786357506346944,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-sobol-no-cf-divl/seed-3,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.6202755882836112,0.6202755882836112,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-sobol-no-cf-idql/seed-4,NVIDIA A40,1,W&B GPU metadata,1.7958534088377776,1.7958534088377776,1
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-sobol-no-cf-divl/seed-4,NVIDIA L40S,1,W&B GPU metadata,0.6319207855238889,0.6319207855238889,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r01-sobol-no-cf-idql/seed-5,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.401244336525,1.401244336525,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r01-sobol-no-cf-divl/seed-5,NVIDIA L40S,1,W&B GPU metadata,0.6830756900325,0.6830756900325,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r02-baseline-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.7059140156161112,1.7059140156161112,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r02-baseline-divl/seed-1,NVIDIA A40,1,W&B GPU metadata,1.0047609986572223,1.0047609986572223,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r02-baseline-idql/seed-2,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.6466293636683333,1.6466293636683333,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r02-baseline-divl/seed-2,NVIDIA A40,1,W&B GPU metadata,1.0879844662227778,1.0879844662227778,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r02-baseline-idql/seed-3,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,2.7467061734847222,2.7467061734847222,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r02-baseline-divl/seed-3,NVIDIA L40S,1,W&B GPU metadata,0.6351959750463888,0.6351959750463888,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r02-baseline-idql/seed-4,NVIDIA L40S,1,W&B GPU metadata,1.9958260113919444,1.9958260113919444,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r02-baseline-divl/seed-4,NVIDIA L40S,1,W&B GPU metadata,0.6086345148602779,0.6086345148602779,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r02-baseline-idql/seed-5,NVIDIA H200,1,W&B GPU metadata,2.8306547920383336,2.8306547920383336,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r02-baseline-divl/seed-5,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.6371453575238888,0.6371453575238888,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r02-mulligan-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.6474528201594445,1.6474528201594445,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r02-mulligan-divl/seed-1,NVIDIA L40S,1,W&B GPU metadata,0.6069045163094444,0.6069045163094444,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r02-mulligan-idql/seed-2,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,2.735101705547222,2.735101705547222,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r02-mulligan-divl/seed-2,NVIDIA L40S,1,W&B GPU metadata,0.6328740380208333,0.6328740380208333,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r02-mulligan-idql/seed-3,NVIDIA L40S,1,W&B GPU metadata,1.9360917279886112,1.9360917279886112,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r02-mulligan-divl/seed-3,NVIDIA L40S,1,W&B GPU metadata,0.6742887526022222,0.6742887526022222,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r02-mulligan-idql/seed-4,NVIDIA L40S,1,W&B GPU metadata,1.8216820429294445,1.8216820429294445,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r02-mulligan-divl/seed-4,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.5331727684755555,0.5331727684755555,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r02-mulligan-idql/seed-5,NVIDIA L40S,1,W&B GPU metadata,1.9672058230552776,1.9672058230552776,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r02-mulligan-divl/seed-5,NVIDIA A40,1,W&B GPU metadata,0.8915324074216667,0.8915324074216667,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r02-mulligan-no-cf-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.7159210802627778,1.7159210802627778,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r02-mulligan-no-cf-divl/seed-1,NVIDIA A40,1,W&B GPU metadata,1.0811846580622222,1.0811846580622222,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r02-mulligan-no-cf-idql/seed-2,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.6909560183724999,1.6909560183724999,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r02-mulligan-no-cf-divl/seed-2,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.6251976720255555,0.6251976720255555,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r02-mulligan-no-cf-idql/seed-3,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,2.6960761742927777,2.6960761742927777,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r02-mulligan-no-cf-divl/seed-3,NVIDIA A40,1,W&B GPU metadata,1.0184098593705555,1.0184098593705555,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r02-mulligan-no-cf-idql/seed-4,NVIDIA L40S,1,W&B GPU metadata,1.9618666661494444,1.9618666661494444,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r02-mulligan-no-cf-divl/seed-4,NVIDIA A40,1,W&B GPU metadata,0.8713442748780557,0.8713442748780557,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r02-mulligan-no-cf-idql/seed-5,NVIDIA L40S,1,W&B GPU metadata,1.90642202329,1.90642202329,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r02-mulligan-no-cf-divl/seed-5,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.6469257397127778,0.6469257397127778,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-baseline-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.440626805733889,1.440626805733889,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-baseline-divl/seed-1,NVIDIA RTX A6000,1,W&B GPU metadata,0.650144013125,0.650144013125,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-baseline-idql/seed-2,NVIDIA A40,1,W&B GPU metadata,2.9468933466258336,2.9468933466258336,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-baseline-divl/seed-2,NVIDIA L40S,1,W&B GPU metadata,0.7130641021861112,0.7130641021861112,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-baseline-idql/seed-3,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.5116386682430556,1.5116386682430556,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-baseline-divl/seed-3,NVIDIA L40S,1,W&B GPU metadata,0.6031091449977777,0.6031091449977777,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-baseline-idql/seed-4,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.4932901283769444,1.4932901283769444,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-baseline-divl/seed-4,NVIDIA L40S,1,W&B GPU metadata,0.6211209727677778,0.6211209727677778,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-baseline-idql/seed-5,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.4873710125294444,1.4873710125294444,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-baseline-divl/seed-5,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.5761308710183333,0.5761308710183333,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-mulligan-idql/seed-1,NVIDIA A40,1,W&B GPU metadata,2.8171594731408334,2.8171594731408334,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-mulligan-divl/seed-1,NVIDIA L40S,1,W&B GPU metadata,0.6687040434347222,0.6687040434347222,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-mulligan-idql/seed-2,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.3942963637747223,1.3942963637747223,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-mulligan-divl/seed-2,NVIDIA L40S,1,W&B GPU metadata,0.5934753931652778,0.5934753931652778,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-mulligan-idql/seed-3,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.4303063064411112,1.4303063064411112,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-mulligan-divl/seed-3,NVIDIA L40S,1,W&B GPU metadata,0.594445032055,0.594445032055,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-mulligan-idql/seed-4,NVIDIA GeForce RTX 3090,1,W&B GPU metadata,3.029221895001389,3.029221895001389,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-mulligan-divl/seed-4,NVIDIA L40S,1,W&B GPU metadata,0.6140271599016666,0.6140271599016666,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-mulligan-idql/seed-5,NVIDIA A40,1,W&B GPU metadata,2.9719401473908333,2.9719401473908333,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-mulligan-divl/seed-5,NVIDIA L40S,1,W&B GPU metadata,0.6345812070513889,0.6345812070513889,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-mulligan-no-cf-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.3394735590719444,1.3394735590719444,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-mulligan-no-cf-divl/seed-1,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.5882803551680555,0.5882803551680555,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-mulligan-no-cf-idql/seed-2,NVIDIA L40S,1,W&B GPU metadata,1.9131586458252778,1.9131586458252778,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-mulligan-no-cf-divl/seed-2,NVIDIA L40S,1,W&B GPU metadata,0.6816171877555556,0.6816171877555556,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-mulligan-no-cf-idql/seed-3,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.4896283164727777,1.4896283164727777,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-mulligan-no-cf-divl/seed-3,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.6203653863324999,0.6203653863324999,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-mulligan-no-cf-idql/seed-4,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.4794542437397222,1.4794542437397222,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-mulligan-no-cf-divl/seed-4,NVIDIA A40,1,W&B GPU metadata,0.9148593157338889,0.9148593157338889,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-mulligan-no-cf-idql/seed-5,NVIDIA A40,1,W&B GPU metadata,2.971867907208333,2.971867907208333,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-mulligan-no-cf-divl/seed-5,NVIDIA L40S,1,W&B GPU metadata,0.6689745362611111,0.6689745362611111,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-baseline-with-c03-rollouts-idql/seed-1,NVIDIA A100-SXM4-40GB,1,W&B GPU metadata,1.8304695833616669,1.8304695833616669,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-baseline-with-c03-rollouts-divl/seed-1,NVIDIA L40S,1,W&B GPU metadata,0.6210664495225,0.6210664495225,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-baseline-with-c03-rollouts-idql/seed-2,NVIDIA A100-SXM4-40GB,1,W&B GPU metadata,1.8304465004469443,1.8304465004469443,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-baseline-with-c03-rollouts-divl/seed-2,NVIDIA L40S,1,W&B GPU metadata,0.6036368972527777,0.6036368972527777,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-baseline-with-c03-rollouts-idql/seed-3,NVIDIA A40,1,W&B GPU metadata,2.7112008387166666,2.7112008387166666,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-baseline-with-c03-rollouts-divl/seed-3,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.6087586893247222,0.6087586893247222,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-baseline-with-c03-rollouts-idql/seed-4,NVIDIA A40,1,W&B GPU metadata,3.0319382127655556,3.0319382127655556,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-baseline-with-c03-rollouts-divl/seed-4,NVIDIA L40S,1,W&B GPU metadata,0.6625265880433334,0.6625265880433334,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-baseline-with-c03-rollouts-idql/seed-5,NVIDIA A100-SXM4-40GB,1,W&B GPU metadata,1.88490071355,1.88490071355,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-baseline-with-c03-rollouts-divl/seed-5,NVIDIA L40S,1,W&B GPU metadata,0.6542435226558333,0.6542435226558333,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-mulligan-no-c03-rollouts-idql/seed-1,NVIDIA L40S,1,W&B GPU metadata,1.9704565120063888,1.9704565120063888,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-mulligan-no-c03-rollouts-divl/seed-1,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.612965342978611,0.612965342978611,1
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-mulligan-no-c03-rollouts-idql/seed-2,NVIDIA A100-SXM4-40GB,1,W&B GPU metadata,1.808691131055,1.808691131055,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-mulligan-no-c03-rollouts-divl/seed-2,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,0.712525011365,0.712525011365,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-mulligan-no-c03-rollouts-idql/seed-3,NVIDIA A100-SXM4-40GB,1,W&B GPU metadata,1.830486811091389,1.830486811091389,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-mulligan-no-c03-rollouts-divl/seed-3,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,0.6600107145916666,0.6600107145916666,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-mulligan-no-c03-rollouts-idql/seed-4,NVIDIA A40,1,W&B GPU metadata,3.036975242892222,3.036975242892222,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-mulligan-no-c03-rollouts-divl/seed-4,NVIDIA L40S,1,W&B GPU metadata,0.6034882850497223,0.6034882850497223,not_recorded
+square_narrow,actor_and_scalar_critic,mulligan/sim-square-narrow-r03-mulligan-no-c03-rollouts-idql/seed-5,NVIDIA A40,1,W&B GPU metadata,3.015242577538889,3.015242577538889,not_recorded
+square_narrow,divl_critic,mulligan/sim-square-narrow-r03-mulligan-no-c03-rollouts-divl/seed-5,NVIDIA L40S,1,W&B GPU metadata,0.6154000704280556,0.6154000704280556,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r00-baseline-idql/seed-1,NVIDIA GeForce RTX 5090,1,W&B GPU metadata,3.6502548729175004,3.6502548729175004,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r00-baseline-divl/seed-1,NVIDIA L40S,1,W&B GPU metadata,0.9397278131766668,0.9397278131766668,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r00-baseline-idql/seed-2,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.7952738594016666,2.7952738594016666,1
+square_broad,divl_critic,mulligan/sim-square-broad-r00-baseline-divl/seed-2,NVIDIA L40S,1,W&B GPU metadata,0.9330948892194445,0.9330948892194445,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r00-baseline-idql/seed-3,NVIDIA A40,1,W&B GPU metadata,4.711558929193611,4.711558929193611,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r00-baseline-divl/seed-3,NVIDIA L40S,1,W&B GPU metadata,0.8864623124722222,0.8864623124722222,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r00-baseline-idql/seed-4,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,4.433793011223056,4.433793011223056,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r00-baseline-divl/seed-4,NVIDIA L40S,1,W&B GPU metadata,1.0196317476369445,1.0196317476369445,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r00-baseline-idql/seed-5,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.1944093801141666,2.1944093801141666,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r00-baseline-divl/seed-5,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9097332333272222,0.9097332333272222,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r00-sobol-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.105167610098889,2.105167610098889,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r00-sobol-divl/seed-1,NVIDIA H200,1,W&B GPU metadata,1.6473548071116668,1.6473548071116668,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r00-sobol-idql/seed-2,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.7292231524127777,2.7292231524127777,1
+square_broad,divl_critic,mulligan/sim-square-broad-r00-sobol-divl/seed-2,NVIDIA RTX A6000,1,W&B GPU metadata,1.086904999093611,1.086904999093611,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r00-sobol-idql/seed-3,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.2510152803588888,2.2510152803588888,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r00-sobol-divl/seed-3,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.915896624926111,0.915896624926111,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r00-sobol-idql/seed-4,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.0957056936605554,2.0957056936605554,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r00-sobol-divl/seed-4,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9944801063577778,0.9944801063577778,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r00-sobol-idql/seed-5,NVIDIA RTX A6000,1,W&B GPU metadata,4.217275923857223,4.217275923857223,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r00-sobol-divl/seed-5,NVIDIA L40S,1,W&B GPU metadata,1.0756758011169445,1.0756758011169445,2
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r00-baseline-first100-idql/seed-1,NVIDIA RTX A6000,1,W&B GPU metadata,5.8485179906499996,5.8485179906499996,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r00-baseline-first100-divl/seed-1,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9330185879888889,0.9330185879888889,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r00-baseline-first100-idql/seed-2,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.1977979218519446,2.1977979218519446,1
+square_broad,divl_critic,mulligan/sim-square-broad-r00-baseline-first100-divl/seed-2,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9072829161152778,0.9072829161152778,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r00-baseline-first100-idql/seed-3,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,3.0329288525475,3.0329288525475,1
+square_broad,divl_critic,mulligan/sim-square-broad-r00-baseline-first100-divl/seed-3,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9315927712063888,0.9315927712063888,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r00-baseline-first100-idql/seed-4,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.7222678712830555,2.7222678712830555,1
+square_broad,divl_critic,mulligan/sim-square-broad-r00-baseline-first100-divl/seed-4,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9164325755588888,0.9164325755588888,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r00-baseline-first100-idql/seed-5,NVIDIA A40,1,W&B GPU metadata,4.8815763616925,4.8815763616925,1
+square_broad,divl_critic,mulligan/sim-square-broad-r00-baseline-first100-divl/seed-5,NVIDIA L40S,1,W&B GPU metadata,0.9620057160797223,0.9620057160797223,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r00-sobol-first100-idql/seed-1,NVIDIA A40,1,W&B GPU metadata,6.527573523646111,6.527573523646111,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r00-sobol-first100-divl/seed-1,NVIDIA L40S,1,W&B GPU metadata,0.9359223471116667,0.9359223471116667,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r00-sobol-first100-idql/seed-2,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.0977546088077776,2.0977546088077776,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r00-sobol-first100-divl/seed-2,NVIDIA A40,1,W&B GPU metadata,1.3167409442627778,1.3167409442627778,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r00-sobol-first100-idql/seed-3,NVIDIA A40,1,W&B GPU metadata,4.869687308302778,4.869687308302778,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r00-sobol-first100-divl/seed-3,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9499260003122222,0.9499260003122222,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r00-sobol-first100-idql/seed-4,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.9924137491894442,2.9924137491894442,1
+square_broad,divl_critic,mulligan/sim-square-broad-r00-sobol-first100-divl/seed-4,NVIDIA L40S,1,W&B GPU metadata,0.8705731173208333,0.8705731173208333,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r00-sobol-first100-idql/seed-5,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.1525382592974998,2.1525382592974998,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r00-sobol-first100-divl/seed-5,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9279875835125,0.9279875835125,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-baseline-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.1720618256119444,2.1720618256119444,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r01-baseline-divl/seed-1,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.8784318344036111,0.8784318344036111,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-baseline-idql/seed-2,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.1724648148102776,2.1724648148102776,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r01-baseline-divl/seed-2,NVIDIA RTX A6000,1,W&B GPU metadata,1.0357950000611111,1.0357950000611111,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-baseline-idql/seed-3,NVIDIA RTX A6000,1,W&B GPU metadata,4.863819699076666,4.863819699076666,2
+square_broad,divl_critic,mulligan/sim-square-broad-r01-baseline-divl/seed-3,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.8976251308691667,0.8976251308691667,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-baseline-idql/seed-4,NVIDIA RTX A6000,1,W&B GPU metadata,4.150806723913611,4.150806723913611,1
+square_broad,divl_critic,mulligan/sim-square-broad-r01-baseline-divl/seed-4,NVIDIA A40,1,W&B GPU metadata,1.6899912373516668,1.6899912373516668,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-baseline-idql/seed-5,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,4.490937476142499,4.490937476142499,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r01-baseline-divl/seed-5,NVIDIA H200,1,W&B GPU metadata,1.7641875856752778,1.7641875856752778,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-baseline-straddled-auto-success-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.215894352515278,2.215894352515278,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r01-baseline-straddled-auto-success-divl/seed-1,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9199880090877778,0.9199880090877778,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-baseline-straddled-auto-success-idql/seed-2,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.1267459745594444,2.1267459745594444,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r01-baseline-straddled-auto-success-divl/seed-2,NVIDIA RTX A6000,1,W&B GPU metadata,0.9542142498425,0.9542142498425,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-baseline-straddled-auto-success-idql/seed-3,Model not recorded,1,W&B archived SLURM allocation,3.3577732516072225,3.3577732516072225,1
+square_broad,divl_critic,mulligan/sim-square-broad-r01-baseline-straddled-auto-success-divl/seed-3,NVIDIA A40,1,W&B GPU metadata,1.7295058389180555,1.7295058389180555,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-baseline-straddled-auto-success-idql/seed-4,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,4.489973560376111,4.489973560376111,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r01-baseline-straddled-auto-success-divl/seed-4,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9014822770313888,0.9014822770313888,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-baseline-straddled-auto-success-idql/seed-5,NVIDIA H200,1,W&B GPU metadata,1.7391240519572224,1.7391240519572224,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r01-baseline-straddled-auto-success-divl/seed-5,NVIDIA RTX A6000,1,W&B GPU metadata,1.0176752728297223,1.0176752728297223,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-mulligan-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.1637232281319445,2.1637232281319445,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r01-mulligan-divl/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,0.9611771271225,0.9611771271225,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-mulligan-idql/seed-2,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,3.35398650288,3.35398650288,1
+square_broad,divl_critic,mulligan/sim-square-broad-r01-mulligan-divl/seed-2,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,0.9768410362997222,0.9768410362997222,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-mulligan-idql/seed-3,NVIDIA RTX A6000,1,W&B GPU metadata,4.168229635797222,4.168229635797222,1
+square_broad,divl_critic,mulligan/sim-square-broad-r01-mulligan-divl/seed-3,NVIDIA H200,1,W&B GPU metadata,0.9509024575336111,0.9509024575336111,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-mulligan-idql/seed-4,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,4.523812695515278,4.523812695515278,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r01-mulligan-divl/seed-4,NVIDIA H200,1,W&B GPU metadata,0.858754742115,0.858754742115,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-mulligan-idql/seed-5,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.7138706881899997,2.7138706881899997,1
+square_broad,divl_critic,mulligan/sim-square-broad-r01-mulligan-divl/seed-5,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.0508940976091665,1.0508940976091665,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-mulligan-no-cf-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.242817417721944,2.242817417721944,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r01-mulligan-no-cf-divl/seed-1,NVIDIA RTX A6000,1,W&B GPU metadata,0.9882070006861111,0.9882070006861111,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-mulligan-no-cf-idql/seed-2,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.924967002823055,2.924967002823055,1
+square_broad,divl_critic,mulligan/sim-square-broad-r01-mulligan-no-cf-divl/seed-2,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9684383710480555,0.9684383710480555,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-mulligan-no-cf-idql/seed-3,NVIDIA RTX A6000,1,W&B GPU metadata,4.266001545469722,4.266001545469722,1
+square_broad,divl_critic,mulligan/sim-square-broad-r01-mulligan-no-cf-divl/seed-3,NVIDIA RTX A6000,1,W&B GPU metadata,0.9759913790941667,0.9759913790941667,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-mulligan-no-cf-idql/seed-4,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,4.472271272233334,4.472271272233334,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r01-mulligan-no-cf-divl/seed-4,NVIDIA RTX A6000,1,W&B GPU metadata,0.9955054915380556,0.9955054915380556,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-mulligan-no-cf-idql/seed-5,NVIDIA H200,1,W&B GPU metadata,1.7921033545466667,1.7921033545466667,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r01-mulligan-no-cf-divl/seed-5,NVIDIA RTX A6000,1,W&B GPU metadata,1.0081968457325001,1.0081968457325001,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-sobol-with-cf-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.180586875298889,2.180586875298889,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r01-sobol-with-cf-divl/seed-1,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9084353582825,0.9084353582825,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-sobol-with-cf-idql/seed-2,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,3.3545415412263893,3.3545415412263893,1
+square_broad,divl_critic,mulligan/sim-square-broad-r01-sobol-with-cf-divl/seed-2,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,0.9081598473786111,0.9081598473786111,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-sobol-with-cf-idql/seed-3,NVIDIA L40S,1,W&B GPU metadata,4.046169369079444,4.046169369079444,1
+square_broad,divl_critic,mulligan/sim-square-broad-r01-sobol-with-cf-divl/seed-3,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9217648704972222,0.9217648704972222,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-sobol-with-cf-idql/seed-4,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,4.458264128304166,4.458264128304166,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r01-sobol-with-cf-divl/seed-4,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,0.9932992627066667,0.9932992627066667,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-sobol-with-cf-idql/seed-5,NVIDIA H200,1,W&B GPU metadata,1.781308163541389,1.781308163541389,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r01-sobol-with-cf-divl/seed-5,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9365292851113889,0.9365292851113889,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-sobol-no-cf-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.157364299946667,2.157364299946667,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r01-sobol-no-cf-divl/seed-1,NVIDIA A40,1,W&B GPU metadata,1.0914541163711111,1.0914541163711111,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-sobol-no-cf-idql/seed-2,NVIDIA H200,1,W&B GPU metadata,1.7632498640077778,1.7632498640077778,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r01-sobol-no-cf-divl/seed-2,NVIDIA RTX A6000,1,W&B GPU metadata,0.9450447182402778,0.9450447182402778,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-sobol-no-cf-idql/seed-3,NVIDIA A40,1,W&B GPU metadata,4.499395550518611,4.499395550518611,1
+square_broad,divl_critic,mulligan/sim-square-broad-r01-sobol-no-cf-divl/seed-3,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9105303701608333,0.9105303701608333,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-sobol-no-cf-idql/seed-4,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,4.516338338352778,4.516338338352778,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r01-sobol-no-cf-divl/seed-4,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9039839694488888,0.9039839694488888,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r01-sobol-no-cf-idql/seed-5,NVIDIA H200,1,W&B GPU metadata,1.7413193348280556,1.7413193348280556,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r01-sobol-no-cf-divl/seed-5,NVIDIA RTX A6000,1,W&B GPU metadata,1.0114728499952779,1.0114728499952779,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-baseline-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.241213152791111,2.241213152791111,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-baseline-divl/seed-1,NVIDIA L40S,1,W&B GPU metadata,0.9611015872238888,0.9611015872238888,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-baseline-idql/seed-2,NVIDIA L40S,1,W&B GPU metadata,2.655674066810833,2.655674066810833,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-baseline-divl/seed-2,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,1.3253102770269445,1.3253102770269445,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-baseline-idql/seed-3,NVIDIA L40S,1,W&B GPU metadata,2.51434062781,2.51434062781,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-baseline-divl/seed-3,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9698781672738889,0.9698781672738889,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-baseline-idql/seed-4,NVIDIA A40,1,W&B GPU metadata,4.7587941131825,4.7587941131825,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-baseline-divl/seed-4,NVIDIA L40S,1,W&B GPU metadata,0.9436510686391667,0.9436510686391667,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-baseline-idql/seed-5,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.0499178210741666,2.0499178210741666,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-baseline-divl/seed-5,NVIDIA RTX A6000,1,W&B GPU metadata,1.2944276216702777,1.2944276216702777,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-mulligan-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.2084443404775,2.2084443404775,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-mulligan-divl/seed-1,NVIDIA RTX A6000,1,W&B GPU metadata,0.9384828865911111,0.9384828865911111,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-mulligan-idql/seed-2,NVIDIA A40,1,W&B GPU metadata,4.839003589375555,4.839003589375555,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-mulligan-divl/seed-2,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9107313959891666,0.9107313959891666,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-mulligan-idql/seed-3,NVIDIA RTX A6000,1,W&B GPU metadata,4.164005955714167,4.164005955714167,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-mulligan-divl/seed-3,NVIDIA RTX A6000,1,W&B GPU metadata,1.0537231745652778,1.0537231745652778,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-mulligan-idql/seed-4,NVIDIA A40,1,W&B GPU metadata,4.710880670691389,4.710880670691389,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-mulligan-divl/seed-4,NVIDIA RTX A6000,1,W&B GPU metadata,0.9770903195961111,0.9770903195961111,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-mulligan-idql/seed-5,NVIDIA L40S,1,W&B GPU metadata,2.7326754031694445,2.7326754031694445,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-mulligan-divl/seed-5,NVIDIA RTX A6000,1,W&B GPU metadata,0.986359219626389,0.986359219626389,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-mulligan-no-cf-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.123871518301111,2.123871518301111,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-mulligan-no-cf-divl/seed-1,NVIDIA L40S,1,W&B GPU metadata,1.062525423497778,1.062525423497778,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-mulligan-no-cf-idql/seed-2,NVIDIA L40S,1,W&B GPU metadata,3.1157391942555552,3.1157391942555552,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-mulligan-no-cf-divl/seed-2,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9716290380016667,0.9716290380016667,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-mulligan-no-cf-idql/seed-3,NVIDIA RTX A6000,1,W&B GPU metadata,4.161639187823611,4.161639187823611,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-mulligan-no-cf-divl/seed-3,NVIDIA RTX A6000,1,W&B GPU metadata,1.0160337002133333,1.0160337002133333,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-mulligan-no-cf-idql/seed-4,NVIDIA RTX A6000,1,W&B GPU metadata,4.090966037053889,4.090966037053889,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-mulligan-no-cf-divl/seed-4,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9005022954238888,0.9005022954238888,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-mulligan-no-cf-idql/seed-5,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.2039726376602777,2.2039726376602777,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-mulligan-no-cf-divl/seed-5,NVIDIA H200,1,W&B GPU metadata,1.9028841839208332,1.9028841839208332,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-sobol-with-cf-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.0946501752294444,2.0946501752294444,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-sobol-with-cf-divl/seed-1,NVIDIA RTX A6000,1,W&B GPU metadata,1.0054041682869446,1.0054041682869446,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-sobol-with-cf-idql/seed-2,NVIDIA L40S,1,W&B GPU metadata,3.1245120946769447,3.1245120946769447,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-sobol-with-cf-divl/seed-2,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9148593387905555,0.9148593387905555,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-sobol-with-cf-idql/seed-3,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,4.493540526415,4.493540526415,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-sobol-with-cf-divl/seed-3,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9422943854822222,0.9422943854822222,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-sobol-with-cf-idql/seed-4,NVIDIA A40,1,W&B GPU metadata,4.728835325535,4.728835325535,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-sobol-with-cf-divl/seed-4,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,0.8250080510816666,0.8250080510816666,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-sobol-with-cf-idql/seed-5,NVIDIA L40S,1,W&B GPU metadata,2.7021788881949997,2.7021788881949997,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-sobol-with-cf-divl/seed-5,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,0.8381036679716667,0.8381036679716667,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-sobol-no-cf-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.2010789810327775,2.2010789810327775,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-sobol-no-cf-divl/seed-1,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9768435862244444,0.9768435862244444,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-sobol-no-cf-idql/seed-2,NVIDIA L40S,1,W&B GPU metadata,2.520905634290833,2.520905634290833,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-sobol-no-cf-divl/seed-2,NVIDIA L40S,1,W&B GPU metadata,1.0075743578858334,1.0075743578858334,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-sobol-no-cf-idql/seed-3,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,4.4783522572625,4.4783522572625,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-sobol-no-cf-divl/seed-3,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9238744276741666,0.9238744276741666,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-sobol-no-cf-idql/seed-4,NVIDIA A40,1,W&B GPU metadata,4.760881460461389,4.760881460461389,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-sobol-no-cf-divl/seed-4,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9690255275063888,0.9690255275063888,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r02-sobol-no-cf-idql/seed-5,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.228462847395278,2.228462847395278,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r02-sobol-no-cf-divl/seed-5,NVIDIA RTX A6000,1,W&B GPU metadata,1.0130109021144444,1.0130109021144444,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r03-baseline-idql/seed-1,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.5282924636802777,2.5282924636802777,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r03-baseline-divl/seed-1,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9501868318802779,0.9501868318802779,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r03-baseline-idql/seed-2,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.512729863683611,2.512729863683611,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r03-baseline-divl/seed-2,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9718829222775,0.9718829222775,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r03-baseline-idql/seed-3,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.6555942051594448,2.6555942051594448,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r03-baseline-divl/seed-3,NVIDIA L40S,1,W&B GPU metadata,1.0062496321847223,1.0062496321847223,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r03-baseline-idql/seed-4,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,4.500825843236666,4.500825843236666,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r03-baseline-divl/seed-4,NVIDIA RTX A6000,1,W&B GPU metadata,1.080125248918611,1.080125248918611,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r03-baseline-idql/seed-5,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,4.4941084996975,4.4941084996975,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r03-baseline-divl/seed-5,NVIDIA RTX A6000,1,W&B GPU metadata,1.0412239200888889,1.0412239200888889,1
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r03-mulligan-idql/seed-1,NVIDIA A100-SXM4-40GB,1,W&B GPU metadata,2.9396991543805555,2.9396991543805555,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r03-mulligan-divl/seed-1,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9124281271613889,0.9124281271613889,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r03-mulligan-idql/seed-2,NVIDIA A40,1,W&B GPU metadata,4.882756683448889,4.882756683448889,3
+square_broad,divl_critic,mulligan/sim-square-broad-r03-mulligan-divl/seed-2,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,0.9892258225802777,0.9892258225802777,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r03-mulligan-idql/seed-3,NVIDIA L40S,1,W&B GPU metadata,3.2814416189280555,3.2814416189280555,1
+square_broad,divl_critic,mulligan/sim-square-broad-r03-mulligan-divl/seed-3,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,0.8401818916002777,0.8401818916002777,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r03-mulligan-idql/seed-4,NVIDIA RTX A6000,1,W&B GPU metadata,2.9219813227405553,2.9219813227405553,2
+square_broad,divl_critic,mulligan/sim-square-broad-r03-mulligan-divl/seed-4,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.8817992479261111,0.8817992479261111,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r03-mulligan-idql/seed-5,NVIDIA RTX A6000,1,W&B GPU metadata,4.124217072598611,4.124217072598611,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r03-mulligan-divl/seed-5,NVIDIA RTX A6000,1,W&B GPU metadata,0.9898278111586111,0.9898278111586111,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r03-mulligan-no-cf-idql/seed-1,NVIDIA A100-SXM4-40GB,1,W&B GPU metadata,2.939692345237222,2.939692345237222,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r03-mulligan-no-cf-divl/seed-1,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.8913535011491667,0.8913535011491667,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r03-mulligan-no-cf-idql/seed-2,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,4.161982763839167,4.161982763839167,1
+square_broad,divl_critic,mulligan/sim-square-broad-r03-mulligan-no-cf-divl/seed-2,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,0.9067437783613889,0.9067437783613889,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r03-mulligan-no-cf-idql/seed-3,NVIDIA A40,1,W&B GPU metadata,3.5262194836438887,3.5262194836438887,2
+square_broad,divl_critic,mulligan/sim-square-broad-r03-mulligan-no-cf-divl/seed-3,NVIDIA RTX A6000,1,W&B GPU metadata,1.02371404395,1.02371404395,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r03-mulligan-no-cf-idql/seed-4,NVIDIA L40S,1,W&B GPU metadata,3.0281731296419445,3.0281731296419445,not_recorded
+square_broad,divl_critic,mulligan/sim-square-broad-r03-mulligan-no-cf-divl/seed-4,NVIDIA RTX A6000,1,W&B GPU metadata,1.0029218494472223,1.0029218494472223,not_recorded
+square_broad,actor_and_scalar_critic,mulligan/sim-square-broad-r03-mulligan-no-cf-idql/seed-5,NVIDIA A40,1,W&B GPU metadata,4.9913849674336115,4.9913849674336115,3
+square_broad,divl_critic,mulligan/sim-square-broad-r03-mulligan-no-cf-divl/seed-5,NVIDIA RTX A6000,1,W&B GPU metadata,1.0298911593941666,1.0298911593941666,not_recorded
+marker_d2,actor,mulligan/real-marker-d2-r00-baseline-dp,NVIDIA L40S,1,W&B GPU metadata,1.8249160377930556,1.8249160377930556,not_recorded
+marker_d2,actor,mulligan/real-marker-d2-r00-sobol-dp,NVIDIA L40S,1,W&B GPU metadata,1.8304203781347224,1.8304203781347224,not_recorded
+marker_d2,actor,mulligan/real-marker-d2-r01-baseline-dp,NVIDIA L40S,1,W&B GPU metadata,7.851228928088888,7.851228928088888,not_recorded
+marker_d2,actor,mulligan/real-marker-d2-r01-mulligan-dp,NVIDIA L40S,1,W&B GPU metadata,7.513268697520555,7.513268697520555,not_recorded
+marker_d2,actor,mulligan/real-marker-d2-r02-baseline-dp,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,4.1163555972733334,4.1163555972733334,not_recorded
+marker_d2,actor,mulligan/real-marker-d2-r02-mulligan-dp,NVIDIA H200,1,W&B GPU metadata,5.0901392861275,5.0901392861275,not_recorded
+marker_d2,critic,mulligan/real-marker-d2-r02-mulligan-idql-critic,NVIDIA L40S,1,W&B GPU metadata,10.299504053129168,10.299504053129168,not_recorded
+marker_d2,actor,mulligan/real-marker-d2-r03-baseline-dp,NVIDIA L40S,1,W&B GPU metadata,3.8262613801594445,3.8262613801594445,not_recorded
+marker_d2,actor,mulligan/real-marker-d2-r03-mulligan-dp,NVIDIA L40S,1,W&B GPU metadata,3.6413376295925,3.6413376295925,not_recorded
+marker_d2,critic,mulligan/real-marker-d2-r03-mulligan-idql-critic,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,6.670777170669445,6.670777170669445,not_recorded
+marker_d2,actor,mulligan/real-marker-d2-r04-baseline-dp,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.6144716585561114,2.6144716585561114,not_recorded
+marker_d2,actor,mulligan/real-marker-d2-r04-mulligan-dp,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.5984207931508334,2.5984207931508334,not_recorded
+marker_d2,critic,mulligan/real-marker-d2-r04-mulligan-idql-critic,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,3.9099373539405557,3.9099373539405557,not_recorded
+marker_d2,actor,mulligan/real-marker-d2-r05-baseline-dp,NVIDIA L40S,1,W&B GPU metadata,2.6854971520094444,2.6854971520094444,not_recorded
+marker_d2,actor,mulligan/real-marker-d2-r05-mulligan-dp,NVIDIA L40S,1,W&B GPU metadata,2.6840538868922224,2.6840538868922224,not_recorded
+marker_d2,critic,mulligan/real-marker-d2-r05-mulligan-idql-critic,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.6080940905641667,1.6080940905641667,not_recorded
+square_d2,actor,mulligan/real-square-d2-r00-baseline-dp,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,3.7081469312063886,3.7081469312063886,not_recorded
+square_d2,actor,mulligan/real-square-d2-r00-sobol-dp,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,3.5452368500591667,3.5452368500591667,not_recorded
+square_d2,actor,mulligan/real-square-d2-r01-baseline-dp,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,7.803629393504722,7.803629393504722,not_recorded
+square_d2,actor,mulligan/real-square-d2-r01-mulligan-dp,NVIDIA H200,1,W&B GPU metadata,7.538303830443334,7.538303830443334,not_recorded
+square_d2,actor,mulligan/real-square-d2-r02-baseline-dp,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,4.764080532727222,4.764080532727222,not_recorded
+square_d2,actor,mulligan/real-square-d2-r02-mulligan-dp,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,4.620026510754722,4.620026510754722,not_recorded
+square_d2,actor,mulligan/real-square-d2-r03-baseline-dp,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,3.815400441999722,3.815400441999722,not_recorded
+square_d2,actor,mulligan/real-square-d2-r03-mulligan-dp,NVIDIA H200,1,W&B GPU metadata,4.067653551271111,4.067653551271111,not_recorded
+square_d2,critic,mulligan/real-square-d2-r03-mulligan-idql-critic,NVIDIA L40S,1,W&B GPU metadata,10.2122090148125,10.2122090148125,not_recorded
+square_d2,actor,mulligan/real-square-d2-r04-baseline-dp,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,4.742066035016945,4.742066035016945,not_recorded
+square_d2,actor,mulligan/real-square-d2-r04-mulligan-dp,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,4.712811967116111,4.712811967116111,not_recorded
+square_d2,critic,mulligan/real-square-d2-r04-mulligan-idql-critic,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,6.552336322128334,6.552336322128334,not_recorded
+square_d2,actor,mulligan/real-square-d2-r05-baseline-dp,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,4.047903518883055,4.047903518883055,not_recorded
+square_d2,actor,mulligan/real-square-d2-r05-mulligan-dp,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,2.7287565245575,2.7287565245575,not_recorded
+square_d2,critic,mulligan/real-square-d2-r05-mulligan-idql-critic,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.221988215221389,1.221988215221389,not_recorded
+routing_d2,actor,mulligan/real-routing-d2-r00-baseline-dp,NVIDIA L40S,1,W&B GPU metadata,3.0884342932358333,3.0884342932358333,not_recorded
+routing_d2,actor,mulligan/real-routing-d2-r00-sobol-dp,NVIDIA L40S,1,W&B GPU metadata,3.1697045685394443,3.1697045685394443,not_recorded
+routing_d2,actor,mulligan/real-routing-d2-r01-baseline-dp,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.7197534287816665,1.7197534287816665,not_recorded
+routing_d2,actor,mulligan/real-routing-d2-r01-mulligan-dp,NVIDIA L40S,1,W&B GPU metadata,2.926923282496667,2.926923282496667,not_recorded
+routing_d2,actor,mulligan/real-routing-d2-r02-baseline-dp,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.8288590804566667,1.8288590804566667,not_recorded
+routing_d2,actor,mulligan/real-routing-d2-r02-mulligan-dp,NVIDIA L40S,1,W&B GPU metadata,3.2174426798608335,3.2174426798608335,not_recorded
+routing_d2,actor,mulligan/real-routing-d2-r03-baseline-dp,NVIDIA L40S,1,W&B GPU metadata,3.2244259514241667,3.2244259514241667,not_recorded
+routing_d2,actor,mulligan/real-routing-d2-r03-mulligan-dp,NVIDIA H100 80GB HBM3,1,W&B GPU metadata,1.860451554541111,1.860451554541111,not_recorded
+routing_d2,critic,mulligan/real-routing-d2-r03-mulligan-idql-critic,NVIDIA RTX 4500 Ada Generation,1,W&B GPU metadata,4.418115941296945,4.418115941296945,not_recorded
+routing_d2,actor,mulligan/real-routing-d2-r04-baseline-dp,NVIDIA L40S,1,W&B GPU metadata,2.9152695440316667,2.9152695440316667,not_recorded
+routing_d2,actor,mulligan/real-routing-d2-r04-mulligan-dp,NVIDIA L40S,1,W&B GPU metadata,3.2721002479419443,3.2721002479419443,not_recorded
+routing_d2,critic,mulligan/real-routing-d2-r04-mulligan-idql-critic,NVIDIA L40S,1,W&B GPU metadata,3.167402608940278,3.167402608940278,not_recorded
+routing_d2,actor,mulligan/real-routing-d2-r05-baseline-dp,NVIDIA L40S,1,W&B GPU metadata,3.1758824403894446,3.1758824403894446,not_recorded
+routing_d2,actor,mulligan/real-routing-d2-r05-mulligan-dp,NVIDIA L40S,1,W&B GPU metadata,3.1599018491052777,3.1599018491052777,not_recorded
+routing_d2,critic,mulligan/real-routing-d2-r05-mulligan-idql-critic,NVIDIA L40S,1,W&B GPU metadata,3.693093521616667,3.693093521616667,not_recorded

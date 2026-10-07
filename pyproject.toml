@@ -1,0 +1,192 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mulligan"
+version = "0.1.0"
+description = "Code release for the Mulligan paper"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+authors = [
+    {name = "Lars Ankile"}
+]
+keywords = ["robotics", "reinforcement-learning", "imitation-learning", "teleoperation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    # Exact git pins (see [tool.uv.sources]). The monkeypatches in
+    # mulligan/utils/lerobot_patches.py and mulligan/sim/_patches.py are
+    # version-sensitive, so these are commits, not version ranges.
+    "lerobot[dataset,training,diffusion]",
+    "robosuite",   # 1.5.2 at the pinned commit; PyPI 1.5.1 differs
+    "mimicgen",    # MimicGen env registration (NVIDIA Source Code License, dependency only)
+
+    # PyTorch stack. torchcodec 0.11 requires torch>=2.11. Linux pulls the cu128
+    # wheels from the index declared below.
+    "torch>=2.11,<2.12",
+    "torchvision>=0.26,<0.27",
+    "torchcodec>=0.11,<0.12",  # needs system ffmpeg 4-7 shared libs at runtime
+
+    # numpy stays unpinned here. The bound lives only in
+    # [tool.uv].override-dependencies, because robot/ installs this package
+    # editable and replaces it with numpy==1.26.4 for pyzed.
+    # tests/release/test_pyproject.py checks this.
+    "numpy",
+    "mujoco==3.3.7",  # PINNED: 3.4.0 changes physics behavior
+    # The one OpenCV distribution (the headless build is removed by the override
+    # below). <5 keeps the validated 4.x API.
+    "opencv-python>=4.10,<5",
+    "gymnasium",
+    "scipy",
+    "scikit-learn",
+    "pandas",
+    "pyarrow",
+    "h5py",
+    "matplotlib",
+    "imageio",
+    "pillow",
+    "av",
+    "einops",
+    "draccus",
+    "datasets",
+    "diffusers",
+    "huggingface-hub",
+    "pydantic",
+    "pyyaml",
+    "requests",
+    "tqdm",
+    "wandb",  # optional at runtime; bounded by the override below
+
+    # JAX stack of the RLPD and HiL-SERL baselines (mulligan/baselines). The CUDA
+    # plugin is linux-only; macOS runs jax on CPU.
+    "jax==0.6.2",
+    "jax[cuda12]==0.6.2; sys_platform == 'linux'",
+    "flax==0.10.7",
+    "optax==0.2.6",
+    "tensorflow-probability==0.25.0",
+    "agentlace",  # brings pyzmq and lz4 for the HiL-SERL learner/actor transport
+]
+
+[project.optional-dependencies]
+# SpaceMouse + keyboard teleoperation for sim data collection. hidapi (the `hid`
+# module) is the SpaceMouse backend; easyhid is the fallback backend.
+teleop = [
+    "hidapi",
+    "easyhid==0.0.10",
+    "pynput",
+]
+# Gemini stage labeler (mulligan/real/stage_labeling); needs GEMINI_API_KEY.
+stage-labeling = [
+    "google-genai",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "pytest-xdist",
+    "ruff",
+    "ipython",
+]
+
+[project.urls]
+Homepage = "https://mulligan.page"
+Paper = "https://arxiv.org/abs/2610.05882"
+
+[project.scripts]
+mulligan-paper-figures = "paper.figures:main"
+
+[tool.uv]
+# numpy: mink-style stale numpy<2 caps and lerobot's opencv-imposed numpy<2.3
+# core cap; 2.2.x satisfies both. This is the ONLY numpy bound in this file.
+#
+# wandb<0.27: in 0.27.x the public wandb.Api() routes through the wandb-core
+# binary and fails authentication with a valid key; 0.26.x works.
+#
+# opencv: lerobot requires opencv-python-headless, robosuite and agentlace
+# require opencv-python. Both unpack into the same cv2/ directory, so install
+# order decides which one wins. The unsatisfiable marker drops the headless
+# build; opencv-python is a strict superset (needs libgl1 + libglib2.0-0).
+override-dependencies = [
+    "numpy>=2.0,<2.3",
+    "wandb>=0.24.0,<0.27",
+    "opencv-python-headless ; sys_platform == 'never'",
+]
+
+# The two platforms the release supports. lerobot's linux-aarch64-only
+# torchcodec marker makes universal resolution fail without this scoping.
+environments = [
+    "sys_platform == 'linux' and platform_machine == 'x86_64'",
+    "sys_platform == 'darwin' and platform_machine == 'arm64'",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cu128", marker = "sys_platform == 'linux'" }]
+torchvision = [{ index = "pytorch-cu128", marker = "sys_platform == 'linux'" }]
+lerobot = { git = "https://github.com/huggingface/lerobot", rev = "0530dd9b97929f017d29640029684644c5313d56" }
+robosuite = { git = "https://github.com/ARISE-Initiative/robosuite", rev = "85abee228d1c43ab1939bce33028099945d453b4" }
+mimicgen = { git = "https://github.com/ankile/mimicgen", rev = "e0739b2108226af16a03cd499eb344a431e384a3" }
+agentlace = { git = "https://github.com/youliangtan/agentlace", rev = "cf2c337c5e3694cdbfc14831b239bd657bc4894d" }
+
+[tool.setuptools.packages.find]
+include = ["mulligan*", "paper*"]
+
+[tool.setuptools.package-data]
+"mulligan" = [
+    "baselines/rlpd/LICENSE-*",
+    "real/policy/*.json",
+    "real/robot/*.yaml",
+    "real/stage_specs/*.json",
+    "real/stage_specs/data/*.json",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["mulligan", "paper"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["mulligan", "paper"]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+pythonpath = ["."]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "-ra",
+    "--strict-markers",
+    "--strict-config",
+]
+markers = [
+    "network: reads public Hugging Face repos or other remote data (network.yml)",
+    "gpu: needs a CUDA GPU (recorded manual runs, never CI)",
+    "hardware: needs robot or SpaceMouse hardware",
+    "slow: slow tests (deselect with '-m \"not slow\"')",
+]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::PendingDeprecationWarning",
+]
+
+[tool.coverage.run]
+source = ["mulligan", "paper"]
+omit = [
+    "*/tests/*",
+    "*/test_*.py",
+]

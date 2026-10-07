@@ -1,0 +1,159 @@
+{
+  "schema": "mulligan.paper.task_sequences.v1",
+  "note": "Median-length success of the HiL-IDQL+Mulligan arm on each task's final-round held-out block (successes sorted by num_steps, then episode_index; element len // 2); frames hand-picked at stage-ladder rungs. repo/episode_index address the public release (read at its release/revisions.json pin); source_* record the original recording (checked against meta/episode_provenance.parquet). num_steps is the episode length after outcome review, length the recorded frame count.",
+  "camera": "observation.images.side_1",
+  "crops": {
+    "marker": [
+      210,
+      30,
+      530,
+      270
+    ],
+    "nut": [
+      190,
+      10,
+      590,
+      310
+    ],
+    "cable": [
+      120,
+      20,
+      600,
+      380
+    ]
+  },
+  "enhance": {
+    "color": 1.12,
+    "brightness": 1.03,
+    "contrast": 1.03
+  },
+  "fps": 15,
+  "tasks": {
+    "marker": {
+      "repo": "mulligan/real-marker-d2-r05-eval",
+      "episode_index": 8,
+      "session_id": "b01",
+      "manifest_idx": 2,
+      "num_steps": 198,
+      "length": 200,
+      "source_episode_index": 8,
+      "picks": [
+        {
+          "frame": 0,
+          "time_s": 0.0,
+          "label": "reset"
+        },
+        {
+          "frame": 60,
+          "time_s": 4.0,
+          "label": "grasp"
+        },
+        {
+          "frame": 81,
+          "time_s": 5.4,
+          "label": "lift"
+        },
+        {
+          "frame": 111,
+          "time_s": 7.4,
+          "label": "to holder"
+        },
+        {
+          "frame": 150,
+          "time_s": 10.0,
+          "label": "tip engaged"
+        },
+        {
+          "frame": 197,
+          "time_s": 13.13,
+          "label": "seated"
+        }
+      ],
+      "output": "figs/task_sequence_marker.jpg"
+    },
+    "nut": {
+      "repo": "mulligan/real-square-d2-r05-eval",
+      "episode_index": 136,
+      "session_id": "b01",
+      "manifest_idx": 45,
+      "num_steps": 144,
+      "length": 154,
+      "source_episode_index": 136,
+      "picks": [
+        {
+          "frame": 0,
+          "time_s": 0.0,
+          "label": "reset"
+        },
+        {
+          "frame": 71,
+          "time_s": 4.73,
+          "label": "grasp"
+        },
+        {
+          "frame": 77,
+          "time_s": 5.13,
+          "label": "lift"
+        },
+        {
+          "frame": 131,
+          "time_s": 8.73,
+          "label": "over peg"
+        },
+        {
+          "frame": 136,
+          "time_s": 9.07,
+          "label": "hole engaged"
+        },
+        {
+          "frame": 143,
+          "time_s": 9.53,
+          "label": "seated"
+        }
+      ],
+      "output": "figs/task_sequence_nut.jpg"
+    },
+    "cable": {
+      "repo": "mulligan/real-routing-d2-r00-r05-eval",
+      "episode_index": 564,
+      "session_id": "b01",
+      "manifest_idx": 37,
+      "num_steps": 335,
+      "length": 336,
+      "source_episode_index": 564,
+      "picks": [
+        {
+          "frame": 0,
+          "time_s": 0.0,
+          "label": "reset"
+        },
+        {
+          "frame": 57,
+          "time_s": 3.8,
+          "label": "grasp"
+        },
+        {
+          "frame": 111,
+          "time_s": 7.4,
+          "label": "seat clip 1"
+        },
+        {
+          "frame": 198,
+          "time_s": 13.2,
+          "label": "clip 1 done"
+        },
+        {
+          "frame": 276,
+          "time_s": 18.4,
+          "label": "seat clip 2"
+        },
+        {
+          "frame": 334,
+          "time_s": 22.27,
+          "label": "both seated"
+        }
+      ],
+      "output": "figs/task_sequence_cable.jpg"
+    }
+  }
+}

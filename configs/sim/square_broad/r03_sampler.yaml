@@ -1,0 +1,111 @@
+# Square-Broad R3 collection starts: two arms, 100 starts each (no Sobol arm).
+# Mulligan arm: the selected blended (length model and grid cell) sampler: no perturbations, beta 1.0, candidate pool
+# seed 202606010 + 1 + 1000 + 3 * 100000.
+# This round uses the evaluation-grid cell term (paper App. F.5): h = min-max over the
+# candidate pool of 0.5 * length model + 0.5 * (1 - mean_success(cell) / 100), the cell
+# success from the R2 Mulligan with-CF per-cell grid eval (5 seeds, r03_grid_cell_sr.csv).
+# Paper: Alg. 2, App. F.4, F.5 and F.7. Builds the locked R3 collection starts (`locked`) of
+# mulligan/sim-square-broad-c03-dagger-mixed.
+# Run: python -m mulligan.sampling.sim_design --config configs/sim/square_broad/r03_sampler.yaml --out <dir> --check
+task: square_broad
+round: 3
+budget: 100
+
+arms:
+  baseline_uniform:
+    policy_source: baseline_policy
+    starts:
+      uniform: {seed: 2026061101}
+
+  # Mulligan arm.
+  mulligan:
+    policy_source: mulligan_policy
+    starts:
+      select_initial_states:
+        # R2 Mulligan with-CF policy on accepted Sobol indices 700-799.
+        diagnostics:
+          path: data/sim/start_manifests/square_broad/r03/init_states/square_broad_mulligan_r3_diagnostic_rollouts_audit.json
+        # As built, the prior of this round is R0 + R1 (the R2 Mulligan starts are
+        # not in it; they are still excluded through manifest.disjoint_from).
+        prior:
+          - data/sim/start_manifests/square_broad/r00/init_states/square_broad_sobol_r0.json
+          - data/sim/start_manifests/square_broad/r01/init_states/square_broad_mulligan_r1.json
+        candidates: {n: 7000, seed: 202907011}
+        distance: euclidean
+        # See r01_sampler.yaml: prior distance without yaw wrap-around, as built.
+        prior_distance_periodic: false
+        eval_grid_feedback: true
+        hardness:
+          - beta: 1.0
+            normalize: minmax
+            signal:
+              blend:
+                - weight: 0.5
+                  signal:
+                    length_model:
+                      max_steps: 400
+                      # Fresh R3 rollouts twice, then earlier diagnostics, in this order.
+                      records:
+                        - path: data/sim/start_manifests/square_broad/r03/init_states/square_broad_mulligan_r3_diagnostic_rollouts_audit.json
+                        - path: data/sim/start_manifests/square_broad/r03/init_states/square_broad_baseline_uniform_r3_policy_rollouts_audit.json
+                        - path: data/sim/start_manifests/square_broad/r03/init_states/square_broad_mulligan_r3_diagnostic_rollouts_audit.json
+                        - path: data/sim/start_manifests/square_broad/r03/init_states/square_broad_baseline_uniform_r3_policy_rollouts_audit.json
+                        - path: data/sim/start_manifests/square_broad/r02/init_states/square_broad_mulligan_r2_diagnostic_rollouts_audit.json
+                        - path: data/sim/start_manifests/square_broad/r02/init_states/square_broad_baseline_uniform_r2_policy_rollouts_audit.json
+                        - path: data/sim/start_manifests/square_broad/r01/init_states/square_broad_sobol_r1_diagnostic_rollouts_audit.json
+                - weight: 0.5
+                  signal:
+                    grid_failure_rate:
+                      # run square_broad_r2_mulligan_with_cf_human_only, 720 cells x 5 seeds
+                      table: configs/sim/square_broad/r03_grid_cell_sr.csv
+
+manifest:
+  shuffle_seed: 2026061102
+  match_tolerance: 1.0e-3
+  disjoint_tolerance: 1.0e-6
+  disjoint_from:
+    - data/sim/start_manifests/square_broad/r00/init_states/square_broad_baseline_uniform_r0.json
+    - data/sim/start_manifests/square_broad/r00/init_states/square_broad_sobol_r0.json
+    - data/sim/start_manifests/square_broad/r01/rollout_inputs/square_broad_sobol_r1_diagnostic_sobol_200_399.json
+    - data/sim/start_manifests/square_broad/r01/rollout_inputs/square_broad_baseline_uniform_r1_policy_rollout.json
+    - data/sim/start_manifests/square_broad/r01/init_states/square_broad_baseline_uniform_r1.json
+    - data/sim/start_manifests/square_broad/r01/init_states/square_broad_mulligan_r1.json
+    - data/sim/start_manifests/square_broad/r01/init_states/square_broad_sobol_r1.json
+    - data/sim/start_manifests/square_broad/r02/rollout_inputs/square_broad_mulligan_r2_diagnostic_sobol_400_499.json
+    - data/sim/start_manifests/square_broad/r02/rollout_inputs/square_broad_baseline_uniform_r2_policy_rollout.json
+    - data/sim/start_manifests/square_broad/r02/init_states/square_broad_sobol_r2_sobol_500_599.json
+    - data/sim/start_manifests/square_broad/r02/init_states/square_broad_baseline_uniform_r2.json
+    - data/sim/start_manifests/square_broad/r02/init_states/square_broad_sobol_r2.json
+    - data/sim/start_manifests/square_broad/r02/init_states/square_broad_mulligan_r2.json
+    - data/sim/start_manifests/square_broad/r03/rollout_inputs/square_broad_baseline_uniform_r3_policy_rollout.json
+    - data/sim/start_manifests/square_broad/r03/init_states/square_broad_sobol_r3_sobol_800_899.json
+  eval_grid:
+    generator: valid_sobol
+    num_points: 30000
+    seed: 2026052499
+    candidate_power: 16
+    states_sha256: 8d455233a0412a8c8eaf72817b92fbb284edf6d541bf685ccd048f065ecd19f5
+
+# The source builder required entropy, prior+candidate p95 and candidate p95 within
+# 1.05 x the worse of a held-out Sobol block (800-899) and a uniform draw.
+guardrail:
+  arm: mulligan
+  prior:
+    - data/sim/start_manifests/square_broad/r00/init_states/square_broad_sobol_r0.json
+    - data/sim/start_manifests/square_broad/r01/init_states/square_broad_mulligan_r1.json
+  sobol_start: 800
+  test_points: {n: 12000, seed: 2026060107}
+  slack: 1.05
+  enforce: true
+
+locked:
+  manifest:
+    path: data/sim/start_manifests/square_broad/r03/blind_inputs/square_broad_r3_manifest.json
+    sha256: d5e2ece34fda5445a0150b40ea9f2fd960800812f496e3328231d78a0efc564e
+  arms:
+    baseline_uniform:
+      path: data/sim/start_manifests/square_broad/r03/init_states/square_broad_baseline_uniform_r3.json
+      sha256: 06fca5f02b814768fb7a8d53889493ba151fb37c938345008a301705834f5f26
+    mulligan:
+      path: data/sim/start_manifests/square_broad/r03/init_states/square_broad_mulligan_r3.json
+      sha256: 9eca09e73bc980269f538934f3bf4e3b97021bec35e20b1c9938ff6908ab70a8

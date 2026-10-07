@@ -1,0 +1,52 @@
+name: Quick CI
+
+# Fast feedback: lint plus the dependency-light packaging tests. No project
+# install and no multi-GB CUDA environment; Test Suite covers the full install.
+on:
+  pull_request:
+    branches: [main]
+    paths-ignore: &non_code_paths
+      - "**/*.md"
+      - "docs/**"
+  push:
+    branches: [main]
+    paths-ignore: *non_code_paths
+  workflow_dispatch:
+
+concurrency:
+  group: quick-ci-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  quick-checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v7
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v9.0.0
+        with:
+          enable-cache: true
+          prune-cache: true
+
+      - name: Run linting
+        run: uv run --isolated --no-project --with ruff==0.15.15 python -m ruff check .
+
+      - name: Check formatting
+        run: uv run --isolated --no-project --with ruff==0.15.15 python -m ruff format --check .
+
+      - name: Run packaging tests
+        run: |
+          uv run --isolated --no-project --with pytest==9.0.3 --with packaging python -m pytest -q \
+            tests/release/test_pyproject.py

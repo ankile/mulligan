@@ -1,0 +1,1012 @@
+{
+  "states": [
+    {
+      "nut_x": -0.09316372990608215,
+      "nut_y": 0.018025187775492668,
+      "nut_yaw": 2.2522785562823033,
+      "peg_x": 0.2444301534444094,
+      "peg_y": 0.1373353309929371,
+      "sobol_accepted_index": 700,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.042089156936854125,
+      "nut_y": 0.1324981154780835,
+      "nut_yaw": 0.1449240848527027,
+      "peg_x": 0.11279059275984765,
+      "peg_y": -0.19068785309791567,
+      "sobol_accepted_index": 701,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.01687568271532655,
+      "nut_y": -0.13430629880167544,
+      "nut_yaw": -1.5071757808809352,
+      "peg_x": -0.06519594676792623,
+      "peg_y": 0.028715122863650328,
+      "sobol_accepted_index": 702,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.017743898574262854,
+      "nut_y": 0.06706899222917856,
+      "nut_yaw": 2.301199285867053,
+      "peg_x": 0.1349098764359951,
+      "peg_y": -0.15315226614475252,
+      "sobol_accepted_index": 703,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.042843327056616545,
+      "nut_y": -0.06426862134598196,
+      "nut_yaw": -2.4863506745084276,
+      "peg_x": -0.087118773534894,
+      "peg_y": 0.01629991941154002,
+      "sobol_accepted_index": 704,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.0816131903976202,
+      "nut_y": 0.21145585941150785,
+      "nut_yaw": 0.09528804684391412,
+      "peg_x": 0.20326732881367207,
+      "peg_y": 0.12487332597374917,
+      "sobol_accepted_index": 705,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.09233761459589004,
+      "nut_y": -0.21475663209334017,
+      "nut_yaw": -1.4586325543807035,
+      "peg_x": 0.0445222407579422,
+      "peg_y": -0.061730131134390825,
+      "sobol_accepted_index": 706,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.06339482289738954,
+      "nut_y": 0.18403549860231577,
+      "nut_yaw": -2.1415048486270294,
+      "peg_x": 0.05455137975513935,
+      "peg_y": -0.03898516297340393,
+      "sobol_accepted_index": 707,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.11017081211321057,
+      "nut_y": -0.18633348324336113,
+      "nut_yaw": 2.744220373713607,
+      "peg_x": 0.29453366100788114,
+      "peg_y": 0.17593821398913861,
+      "sobol_accepted_index": 708,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.04668668813072145,
+      "nut_y": -0.04387648690491916,
+      "nut_yaw": 1.2253403119309638,
+      "peg_x": 0.16367547027766707,
+      "peg_y": -0.14603879414498808,
+      "sobol_accepted_index": 709,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.03969604885205627,
+      "nut_y": 0.24974084090441462,
+      "nut_yaw": -0.5973237415485797,
+      "peg_x": 0.25144434757530687,
+      "peg_y": 0.03802991546690465,
+      "sobol_accepted_index": 710,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.09099423985928297,
+      "nut_y": 0.10921383700333537,
+      "nut_yaw": -1.7293546969645954,
+      "peg_x": 0.18230189606547356,
+      "peg_y": -0.08394535072147846,
+      "sobol_accepted_index": 711,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.08026804890483619,
+      "nut_y": -0.11002880682237445,
+      "nut_yaw": 3.116488675062608,
+      "peg_x": -0.03316955156624317,
+      "peg_y": 0.14660321474075316,
+      "sobol_accepted_index": 712,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.1088186511490494,
+      "nut_y": 0.00117225324735043,
+      "nut_yaw": 0.46216179681391134,
+      "peg_x": -0.06824520304799081,
+      "peg_y": 0.15411343313753606,
+      "sobol_accepted_index": 713,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.043544688345864405,
+      "nut_y": 0.14960575983859598,
+      "nut_yaw": 1.8890042167679129,
+      "peg_x": 0.00011156387627124509,
+      "peg_y": -0.12391797490417958,
+      "sobol_accepted_index": 714,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.011145447893068192,
+      "nut_y": -0.14929325225763024,
+      "nut_yaw": -2.858663940107513,
+      "peg_x": 0.2476291835308075,
+      "peg_y": 0.061159399151802074,
+      "sobol_accepted_index": 715,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.0007110713794827445,
+      "nut_y": 0.1391053899843246,
+      "nut_yaw": 1.1121051977939453,
+      "peg_x": -0.0074868761003017426,
+      "peg_y": -0.06729537881910802,
+      "sobol_accepted_index": 716,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.0546741694584489,
+      "nut_y": -0.13593212231062352,
+      "nut_yaw": -0.5338584639078792,
+      "peg_x": 0.15837741456925872,
+      "peg_y": 0.10544012635946276,
+      "sobol_accepted_index": 717,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.10574862075969577,
+      "nut_y": -0.03129556054249405,
+      "nut_yaw": -1.8626220925665449,
+      "peg_x": 0.2767363980412484,
+      "peg_y": -0.17277846410870554,
+      "sobol_accepted_index": 718,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.0772475369554013,
+      "nut_y": 0.11176299671642481,
+      "nut_yaw": -0.9769031456972153,
+      "peg_x": 0.224287635460496,
+      "peg_y": -0.1279697272926569,
+      "sobol_accepted_index": 719,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.09515907515771686,
+      "nut_y": -0.11543088384903968,
+      "nut_yaw": 0.7672350289557079,
+      "peg_x": 0.027945680916309362,
+      "peg_y": 0.08991958647966386,
+      "sobol_accepted_index": 720,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.029212156469002368,
+      "nut_y": -0.2280984600260854,
+      "nut_yaw": 1.6046457173750257,
+      "peg_x": -0.09119612611830236,
+      "peg_y": -0.031855145841836935,
+      "sobol_accepted_index": 721,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.0029614329338073786,
+      "nut_y": -0.04941377967596053,
+      "nut_yaw": 1.9715883415281947,
+      "peg_x": 0.23110065907239916,
+      "peg_y": -0.08931833915412427,
+      "sobol_accepted_index": 722,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.10619333779439331,
+      "nut_y": 0.16469102731905877,
+      "nut_yaw": -1.3491474902997505,
+      "peg_x": -0.05967606827616692,
+      "peg_y": -0.1948013409972191,
+      "sobol_accepted_index": 723,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.06660700218752028,
+      "nut_y": -0.16587895472534,
+      "nut_yaw": 0.35510885744642895,
+      "peg_x": 0.11195974014699459,
+      "peg_y": 0.03246240280568599,
+      "sobol_accepted_index": 724,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.09561257927678526,
+      "nut_y": 0.20108291571959852,
+      "nut_yaw": 2.4138420644737772,
+      "peg_x": 0.18935735896229747,
+      "peg_y": 0.06828715130686758,
+      "sobol_accepted_index": 725,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.07769927346147597,
+      "nut_y": -0.20126806838437916,
+      "nut_yaw": -2.229519799283008,
+      "peg_x": -0.03851564265787602,
+      "peg_y": -0.10604727379977703,
+      "sobol_accepted_index": 726,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.031455499408766616,
+      "nut_y": 0.09439197138883176,
+      "nut_yaw": 1.4843945066465647,
+      "peg_x": 0.2710005912929774,
+      "peg_y": -0.009932799637317663,
+      "sobol_accepted_index": 727,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.02791721244342625,
+      "nut_y": -0.09270937892608344,
+      "nut_yaw": -0.12168737496189452,
+      "peg_x": 0.07984264343976974,
+      "peg_y": 0.17217713557183745,
+      "sobol_accepted_index": 728,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.02219226996414364,
+      "nut_y": 0.22048231970518828,
+      "nut_yaw": -1.6082187543434998,
+      "peg_x": -0.09636176377534866,
+      "peg_y": -0.14125716350972653,
+      "sobol_accepted_index": 729,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.03291626703925431,
+      "nut_y": -0.22166742861270905,
+      "nut_yaw": 2.9707101231664943,
+      "peg_x": 0.14412691928446295,
+      "peg_y": 0.07820704951882362,
+      "sobol_accepted_index": 730,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.0986386808846146,
+      "nut_y": -0.0732961778808385,
+      "nut_yaw": 0.9612440179116888,
+      "peg_x": 0.213264150172472,
+      "peg_y": -0.04981823265552521,
+      "sobol_accepted_index": 731,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.069640175960958,
+      "nut_y": 0.03865292524918912,
+      "nut_yaw": 1.8412090387983344,
+      "peg_x": 0.2858033742755651,
+      "peg_y": -0.05088313780725004,
+      "sobol_accepted_index": 732,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.10204073291271924,
+      "nut_y": -0.036965447198599566,
+      "nut_yaw": -2.835894866609923,
+      "peg_x": 0.06330456212162971,
+      "peg_y": 0.11402785256505016,
+      "sobol_accepted_index": 733,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.004415238071233035,
+      "nut_y": 0.17712555513717232,
+      "nut_yaw": 0.51915779323451,
+      "peg_x": 0.1541684553027153,
+      "peg_y": 0.02109356038272381,
+      "sobol_accepted_index": 734,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.024434092054143555,
+      "nut_y": -0.1029944713320583,
+      "nut_yaw": -1.4877278591169316,
+      "peg_x": 0.2664476193487645,
+      "peg_y": -0.1130849052220583,
+      "sobol_accepted_index": 735,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.09909240434877574,
+      "nut_y": 0.24270565615966916,
+      "nut_yaw": 2.213716860798617,
+      "peg_x": -0.0489264652132988,
+      "peg_y": -0.021646081656217564,
+      "sobol_accepted_index": 736,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.07399165851064027,
+      "nut_y": -0.23953710878267884,
+      "nut_yaw": -2.423504866602557,
+      "peg_x": 0.1980847541242838,
+      "peg_y": 0.15889048017561436,
+      "sobol_accepted_index": 737,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.10248567014932633,
+      "nut_y": 0.15850892434827984,
+      "nut_yaw": -0.35748375280463884,
+      "peg_x": 0.1004943922162056,
+      "peg_y": 0.14180957376956943,
+      "sobol_accepted_index": 738,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.07008687995374203,
+      "nut_y": -0.15632783093489705,
+      "nut_yaw": 1.3283576162266177,
+      "peg_x": -0.05277805887162686,
+      "peg_y": -0.07915628142654896,
+      "sobol_accepted_index": 739,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.053439614307135355,
+      "nut_y": 0.008207681179046633,
+      "nut_yaw": -1.980675619981246,
+      "peg_x": 0.23135957084596157,
+      "peg_y": -0.18621439561247827,
+      "sobol_accepted_index": 740,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.010577708678320044,
+      "nut_y": 0.021581582240760344,
+      "nut_yaw": -1.2037528432176705,
+      "peg_x": 0.17377274632453918,
+      "peg_y": -0.030385053902864445,
+      "sobol_accepted_index": 741,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.05016623902134597,
+      "nut_y": -0.022393551170825948,
+      "nut_yaw": 0.23358973561866714,
+      "peg_x": -0.02285626344382763,
+      "peg_y": 0.19233804233372215,
+      "sobol_accepted_index": 742,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.05991153799928724,
+      "nut_y": 0.13020252755843104,
+      "nut_yaw": -2.728194615250727,
+      "peg_x": 0.29290844611823563,
+      "peg_y": 0.09783327430486677,
+      "sobol_accepted_index": 743,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.11387508719228208,
+      "nut_y": -0.12889772792346776,
+      "nut_yaw": 2.1514017059451476,
+      "peg_x": 0.05800650641322136,
+      "peg_y": -0.13588798679411412,
+      "sobol_accepted_index": 744,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.08531741278246045,
+      "nut_y": 0.2373180449567735,
+      "nut_yaw": 1.4612415049282514,
+      "peg_x": 0.043023626133799564,
+      "peg_y": -0.16487679854035378,
+      "sobol_accepted_index": 745,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.08885438239201902,
+      "nut_y": -0.23700071258470418,
+      "nut_yaw": -0.07427535279229236,
+      "peg_x": 0.20918679758906364,
+      "peg_y": 0.0030245203524827957,
+      "sobol_accepted_index": 746,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.0391353852301836,
+      "nut_y": -0.12246552142314612,
+      "nut_yaw": -2.286132733530387,
+      "peg_x": 0.12755035944283008,
+      "peg_y": -0.06875459887087346,
+      "sobol_accepted_index": 747,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.04702445858158172,
+      "nut_y": 0.17160079029388725,
+      "nut_yaw": 2.862375907480139,
+      "peg_x": 0.23992870561778548,
+      "peg_y": 0.16426344774663448,
+      "sobol_accepted_index": 748,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.007437668433412911,
+      "nut_y": -0.17490644856356086,
+      "nut_yaw": -1.8668894421587843,
+      "peg_x": 0.012330552190542216,
+      "peg_y": -0.002014540135860443,
+      "sobol_accepted_index": 749,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.1125231455732137,
+      "nut_y": 0.05911998169496657,
+      "nut_yaw": 1.0488754850740403,
+      "peg_x": 0.12156430780887603,
+      "peg_y": -0.10751736573874951,
+      "sobol_accepted_index": 750,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.08397248977795245,
+      "nut_y": -0.08368164190091193,
+      "nut_yaw": 1.7321074582110079,
+      "peg_x": 0.18023787029087543,
+      "peg_y": -0.19334212094545367,
+      "sobol_accepted_index": 751,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.03598832551389934,
+      "nut_y": 0.19205627113580703,
+      "nut_yaw": -0.7914377329126179,
+      "peg_x": 0.08976460210978984,
+      "peg_y": -0.09722000472247601,
+      "sobol_accepted_index": 752,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.01807459343224764,
+      "nut_y": -0.19435696978121997,
+      "nut_yaw": 0.6060226445099475,
+      "peg_x": 0.2611015282571316,
+      "peg_y": 0.13487790152430534,
+      "sobol_accepted_index": 753,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.03797307601198553,
+      "nut_y": -0.18201558114029467,
+      "nut_yaw": 0.40863148258145765,
+      "peg_x": 0.24214563332498076,
+      "peg_y": -0.13948999084532263,
+      "sobol_accepted_index": 754,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.08556724384427071,
+      "nut_y": 0.0343302496522665,
+      "nut_yaw": -2.897148036564602,
+      "peg_x": -0.07373028956353665,
+      "peg_y": -0.044944012910127645,
+      "sobol_accepted_index": 755,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.08910377733409405,
+      "nut_y": -0.033519758842885494,
+      "nut_yaw": 1.9272239112630274,
+      "peg_x": 0.12300911098718645,
+      "peg_y": 0.1822830963879824,
+      "sobol_accepted_index": 756,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.06054653947241605,
+      "nut_y": 0.07868420516140762,
+      "nut_yaw": 0.8508855800340687,
+      "peg_x": 0.17528620995581148,
+      "peg_y": 0.11852899342775347,
+      "sobol_accepted_index": 757,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.11450965168885886,
+      "nut_y": -0.07688431299291551,
+      "nut_yaw": -0.6416818168976097,
+      "peg_x": -0.027690432965755463,
+      "peg_y": -0.05576882101595401,
+      "sobol_accepted_index": 758,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.009030670309439298,
+      "nut_y": 0.2170322615839541,
+      "nut_yaw": 3.056509185956135,
+      "peg_x": 0.25692194476723673,
+      "peg_y": -0.15969550982117653,
+      "sobol_accepted_index": 759,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.04861876024864614,
+      "nut_y": -0.21734912278130653,
+      "nut_yaw": -1.6696875467197179,
+      "peg_x": 0.09067232571542264,
+      "peg_y": 0.022451033070683468,
+      "sobol_accepted_index": 760,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.01961505273357035,
+      "nut_y": -0.015276663210242986,
+      "nut_yaw": -2.0910192765345936,
+      "peg_x": 0.16915373653173446,
+      "peg_y": 0.0548137567937374,
+      "sobol_accepted_index": 761,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.08331686858087778,
+      "nut_y": -0.15169484878890216,
+      "nut_yaw": -0.2716695107770084,
+      "peg_x": 0.28751731179654605,
+      "peg_y": -0.023412488400936127,
+      "sobol_accepted_index": 762,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.11226629504002632,
+      "nut_y": 0.2461079964414239,
+      "nut_yaw": -2.5340643328309578,
+      "peg_x": 0.21028982475399974,
+      "peg_y": -0.07740134112536907,
+      "sobol_accepted_index": 763,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.0583049504365772,
+      "nut_y": -0.24380585767328739,
+      "nut_yaw": 2.348600605327988,
+      "peg_x": 0.039039352163672436,
+      "peg_y": 0.14045134112238883,
+      "sobol_accepted_index": 764,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.004608478955924505,
+      "nut_y": 0.12510848480276765,
+      "nut_yaw": -2.175577152812405,
+      "peg_x": 0.26553992256522185,
+      "peg_y": 0.18784910850226882,
+      "sobol_accepted_index": 765,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.0685340208001435,
+      "nut_y": 0.23360485665500164,
+      "nut_yaw": -0.16026097859874522,
+      "peg_x": 0.19640494473278522,
+      "peg_y": -0.13412160538136958,
+      "sobol_accepted_index": 766,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.10093501558527351,
+      "nut_y": -0.23242025312036277,
+      "nut_yaw": 1.5225119607229551,
+      "peg_x": -0.043974784016609196,
+      "peg_y": 0.09646359458565712,
+      "sobol_accepted_index": 767,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.03360742256976665,
+      "nut_y": -0.01868375988677143,
+      "nut_yaw": -1.2895705962486914,
+      "peg_x": 0.23655536286532883,
+      "peg_y": 0.1113997407257557,
+      "sobol_accepted_index": 768,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.052727842479944234,
+      "nut_y": 0.19569255916401745,
+      "nut_yaw": 0.7163835634966302,
+      "peg_x": 0.1488832850009203,
+      "peg_y": -0.003781687468290329,
+      "sobol_accepted_index": 769,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.005953606739640238,
+      "nut_y": -0.1988625808618963,
+      "nut_yaw": -0.9265078297985978,
+      "peg_x": -0.09823689460754395,
+      "peg_y": 0.16563388742506507,
+      "sobol_accepted_index": 770,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.10017750195227564,
+      "nut_y": 0.06362900499254465,
+      "nut_yaw": -0.5816616294101715,
+      "peg_x": 0.06869567558169365,
+      "peg_y": -0.18845646008849146,
+      "sobol_accepted_index": 771,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.07507631913758815,
+      "nut_y": -0.05995751090347767,
+      "nut_yaw": 1.1594042768361552,
+      "peg_x": 0.2837817888706923,
+      "peg_y": 0.026503548398613935,
+      "sobol_accepted_index": 772,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.02423339215107262,
+      "nut_y": -0.17050838691182435,
+      "nut_yaw": 2.7763631416174794,
+      "peg_x": 0.15291893482208255,
+      "peg_y": -0.09546580500900746,
+      "sobol_accepted_index": 773,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.026366326538845894,
+      "nut_y": 0.043233476858586084,
+      "nut_yaw": 1.2868114566794535,
+      "peg_x": 0.22589875459671024,
+      "peg_y": 0.014544980600476265,
+      "sobol_accepted_index": 774,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.07564390583895146,
+      "nut_y": 0.18774491750635208,
+      "nut_yaw": 2.609150311937661,
+      "peg_x": 0.10754211954772472,
+      "peg_y": -0.05722822584211826,
+      "sobol_accepted_index": 775,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.09355588444508613,
+      "nut_y": -0.19091771210543812,
+      "nut_yaw": -2.031144058377138,
+      "peg_x": -0.05823733881115914,
+      "peg_y": 0.11998687833547594,
+      "sobol_accepted_index": 776,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.1046429042890668,
+      "nut_y": -0.21031484998762606,
+      "nut_yaw": 0.1565433819173503,
+      "peg_x": 0.1910432808101177,
+      "peg_y": -0.04347411766648293,
+      "sobol_accepted_index": 777,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.0009043131209909849,
+      "nut_y": 0.07164883612655104,
+      "nut_yaw": -2.375822198736618,
+      "peg_x": 0.07566918134689332,
+      "peg_y": -0.1474084470421076,
+      "sobol_accepted_index": 778,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.054867849033325915,
+      "nut_y": -0.06798242521472275,
+      "nut_yaw": 2.16629709686654,
+      "peg_x": 0.2719021815806627,
+      "peg_y": 0.08475050479173662,
+      "sobol_accepted_index": 779,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.031255238195881246,
+      "nut_y": 0.14597324120812116,
+      "nut_yaw": -2.797393449202776,
+      "peg_x": 0.15962082259356977,
+      "peg_y": -0.17986854165792465,
+      "sobol_accepted_index": 780,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.02771651425398887,
+      "nut_y": -0.1447838717792183,
+      "nut_yaw": 1.803018462224669,
+      "peg_x": -0.012099812179803854,
+      "peg_y": 0.04291560314595699,
+      "sobol_accepted_index": 781,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.09669767859391869,
+      "nut_y": 0.005570687279105202,
+      "nut_yaw": -1.1744891917205527,
+      "peg_x": 0.27876408994197843,
+      "peg_y": 0.1483573935925961,
+      "sobol_accepted_index": 782,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.07878393237479031,
+      "nut_y": -0.006249047778546818,
+      "nut_yaw": 0.5727174126419272,
+      "peg_x": 0.06875846274197103,
+      "peg_y": -0.08530282191932202,
+      "sobol_accepted_index": 783,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.10778995029628277,
+      "nut_y": 0.10470882629044354,
+      "nut_yaw": 3.030670606041282,
+      "peg_x": 0.02904258668422699,
+      "peg_y": -0.015494032204151159,
+      "sobol_accepted_index": 784,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.06820317342877387,
+      "nut_y": -0.10639191842637957,
+      "nut_yaw": -1.667916333284426,
+      "peg_x": 0.22030949480831627,
+      "peg_y": 0.15234626494348052,
+      "sobol_accepted_index": 785,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.056211017277091754,
+      "nut_y": 0.2530178810097278,
+      "nut_yaw": 0.9166045941576542,
+      "peg_x": -0.08931490071117879,
+      "peg_y": 0.05628518387675285,
+      "sobol_accepted_index": 786,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.0022492224164307184,
+      "nut_y": -0.25283322991803286,
+      "nut_yaw": -0.7324269354931845,
+      "peg_x": 0.13866849169135095,
+      "peg_y": -0.11942825429141522,
+      "sobol_accepted_index": 787,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.012738667400553821,
+      "nut_y": 0.22669479159638284,
+      "nut_yaw": 1.6904598072591757,
+      "peg_x": 0.09678791612386703,
+      "peg_y": 0.10055446401238444,
+      "sobol_accepted_index": 788,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.04513921107165515,
+      "nut_y": -0.22339257499203086,
+      "nut_yaw": -3.0541406689207506,
+      "peg_x": 0.255617830529809,
+      "peg_y": -0.06279421709477903,
+      "sobol_accepted_index": 789,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.06402982608415188,
+      "nut_y": 0.11608165972866119,
+      "nut_yaw": 0.6568914309190839,
+      "peg_x": -0.0348554465919733,
+      "peg_y": -0.171421018242836,
+      "sobol_accepted_index": 790,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.11080537489615382,
+      "nut_y": -0.11888058478944002,
+      "nut_yaw": -0.8418039308897862,
+      "peg_x": 0.1872596509754658,
+      "peg_y": 0.009176568314433087,
+      "sobol_accepted_index": 791,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.08186302402988077,
+      "nut_y": 0.023907547630369674,
+      "nut_yaw": -1.9238961881014296,
+      "peg_x": 0.1145487692207098,
+      "peg_y": 0.0916867323219776,
+      "sobol_accepted_index": 792,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.09258700696751475,
+      "nut_y": -0.027711194828152652,
+      "nut_yaw": 2.918878566962703,
+      "peg_x": -0.06382760927081108,
+      "peg_y": -0.12934017144143584,
+      "sobol_accepted_index": 793,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.01658202804625035,
+      "nut_y": 0.14255167870782315,
+      "nut_yaw": -0.3989750587755032,
+      "peg_x": 0.24540616124868395,
+      "peg_y": -0.036344844102859486,
+      "sobol_accepted_index": 794,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.041681020408868785,
+      "nut_y": -0.14025419753976165,
+      "nut_yaw": 1.0015459773357813,
+      "peg_x": 0.005313489213585848,
+      "peg_y": 0.19868389479815962,
+      "sobol_accepted_index": 795,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.04468550131656229,
+      "nut_y": 0.09012285011820498,
+      "nut_yaw": -0.03567244398047764,
+      "peg_x": -0.08235632218420506,
+      "peg_y": -0.09067655093967915,
+      "sobol_accepted_index": 796,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.012286697840318092,
+      "nut_y": -0.08930741102434694,
+      "nut_yaw": 1.4231411845484052,
+      "peg_x": 0.13302867189049722,
+      "peg_y": 0.12872661352157594,
+      "sobol_accepted_index": 797,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": 0.10856179890222849,
+      "nut_y": 0.2045958452671766,
+      "nut_yaw": -2.340046262079541,
+      "peg_x": 0.04850040823221208,
+      "peg_y": 0.0373488251119852,
+      "sobol_accepted_index": 798,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    },
+    {
+      "nut_x": -0.061788017703220253,
+      "nut_y": -0.20589703794568778,
+      "nut_yaw": 2.5487466409565958,
+      "peg_x": 0.2021703962236643,
+      "peg_y": -0.19930326864123346,
+      "sobol_accepted_index": 799,
+      "provenance": "mulligan_r3_diagnostic_sobol_700_799"
+    }
+  ],
+  "_meta": {
+    "task": "square_broad",
+    "n_states": 100,
+    "generator": "<local-path>/make_square_broad_r3_prep_inputs.py",
+    "min_clearance": 0.13263,
+    "r3_diagnostic_sobol_indices": [
+      700,
+      799
+    ],
+    "r3_sobol_indices": [
+      800,
+      899
+    ],
+    "sobol_block_note": "R3 diagnostics use Sobol 700-799 (the R2 diagnostics and reference used 400-599, the R2 Sobol-arm fill 600-674); coverage reference 800-899.",
+    "disjoint_from": [
+      "<local-path>/square_broad_baseline_uniform_r0.json",
+      "<local-path>/square_broad_sobol_r0.json",
+      "<local-path>/square_broad_sobol_r1_diagnostic_sobol_200_399.json",
+      "<local-path>/square_broad_baseline_uniform_r1_policy_rollout.json",
+      "<local-path>/square_broad_baseline_uniform_r1.json",
+      "<local-path>/square_broad_mulligan_r1.json",
+      "<local-path>/square_broad_sobol_r1.json",
+      "<local-path>/square_broad_mulligan_r2_diagnostic_sobol_400_499.json",
+      "<local-path>/square_broad_baseline_uniform_r2_policy_rollout.json",
+      "<local-path>/square_broad_sobol_r2_sobol_500_599.json",
+      "<local-path>/square_broad_baseline_uniform_r2.json",
+      "<local-path>/square_broad_sobol_r2.json",
+      "<local-path>/square_broad_mulligan_r2.json",
+      "<local-path>/square_broad_valid_sobol30k_seed2026052499.json"
+    ],
+    "source": "mulligan_r3_diagnostic_sobol_700_799",
+    "policy_source": "mulligan_with_cf_r2_human_only_seed1",
+    "policy_artifact": "mulligan/sim-square-broad-r02-mulligan-idql/seed-1",
+    "purpose": "R3 Mulligan diagnostic rollouts on Sobol starts before the sampler choice",
+    "pairwise_min_periodic_l2": 0.14062919904446997,
+    "disjoint_reports": [
+      {
+        "path": "<local-path>/square_broad_baseline_uniform_r0.json",
+        "n_states": 200,
+        "min_periodic_l2": 0.063245833712409
+      },
+      {
+        "path": "<local-path>/square_broad_sobol_r0.json",
+        "n_states": 200,
+        "min_periodic_l2": 0.09743423443783181
+      },
+      {
+        "path": "<local-path>/square_broad_sobol_r1_diagnostic_sobol_200_399.json",
+        "n_states": 200,
+        "min_periodic_l2": 0.07274547128695606
+      },
+      {
+        "path": "<local-path>/square_broad_baseline_uniform_r1_policy_rollout.json",
+        "n_states": 200,
+        "min_periodic_l2": 0.0751000371179687
+      },
+      {
+        "path": "<local-path>/square_broad_baseline_uniform_r1.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.0751000371179687
+      },
+      {
+        "path": "<local-path>/square_broad_mulligan_r1.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.09867102935413812
+      },
+      {
+        "path": "<local-path>/square_broad_sobol_r1.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.09770947467390002
+      },
+      {
+        "path": "<local-path>/square_broad_mulligan_r2_diagnostic_sobol_400_499.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.10847429379848171
+      },
+      {
+        "path": "<local-path>/square_broad_baseline_uniform_r2_policy_rollout.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.027060470580338378
+      },
+      {
+        "path": "<local-path>/square_broad_sobol_r2_sobol_500_599.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.1010495128632523
+      },
+      {
+        "path": "<local-path>/square_broad_baseline_uniform_r2.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.027060470580338378
+      },
+      {
+        "path": "<local-path>/square_broad_sobol_r2.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.10380342176335677
+      },
+      {
+        "path": "<local-path>/square_broad_mulligan_r2.json",
+        "n_states": 100,
+        "min_periodic_l2": 0.08047157657971077
+      },
+      {
+        "path": "<local-path>/square_broad_valid_sobol30k_seed2026052499.json",
+        "n_states": 30000,
+        "min_periodic_l2": 0.022004235300891323
+      }
+    ]
+  }
+}

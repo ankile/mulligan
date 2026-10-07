@@ -1,0 +1,139 @@
+{
+  "runs": 386,
+  "gpu_weighted_logged_hours": 801.5486464800897,
+  "recorded_restarts": 62,
+  "groups": [
+    {
+      "task": "square_narrow",
+      "role": "actor_and_scalar_critic",
+      "runs": 80,
+      "median_wall_hours": 1.8956613684199999,
+      "min_wall_hours": 1.325067002223889,
+      "max_wall_hours": 5.173603183153611,
+      "gpu_weighted_logged_hours": 166.94171295996333
+    },
+    {
+      "task": "square_narrow",
+      "role": "divl_critic",
+      "runs": 80,
+      "median_wall_hours": 0.6527240438040278,
+      "min_wall_hours": 0.5331727684755555,
+      "max_wall_hours": 1.1704061894397222,
+      "gpu_weighted_logged_hours": 56.86063708333139
+    },
+    {
+      "task": "square_broad",
+      "role": "actor_and_scalar_critic",
+      "runs": 90,
+      "median_wall_hours": 3.0102934394156944,
+      "min_wall_hours": 1.7391240519572224,
+      "max_wall_hours": 6.527573523646111,
+      "gpu_weighted_logged_hours": 298.8002926235258
+    },
+    {
+      "task": "square_broad",
+      "role": "divl_critic",
+      "runs": 90,
+      "median_wall_hours": 0.965222043563889,
+      "min_wall_hours": 0.8250080510816666,
+      "max_wall_hours": 1.9028841839208332,
+      "gpu_weighted_logged_hours": 91.26300908730639
+    },
+    {
+      "task": "marker_d2",
+      "role": "actor",
+      "runs": 12,
+      "median_wall_hours": 3.163417390800972,
+      "min_wall_hours": 1.8249160377930556,
+      "max_wall_hours": 7.851228928088888,
+      "gpu_weighted_logged_hours": 46.27637142529861
+    },
+    {
+      "task": "marker_d2",
+      "role": "critic",
+      "runs": 4,
+      "median_wall_hours": 5.290357262305,
+      "min_wall_hours": 1.6080940905641667,
+      "max_wall_hours": 10.299504053129168,
+      "gpu_weighted_logged_hours": 22.488312668303337
+    },
+    {
+      "task": "square_d2",
+      "role": "actor",
+      "runs": 12,
+      "median_wall_hours": 4.343840031012917,
+      "min_wall_hours": 2.7287565245575,
+      "max_wall_hours": 7.803629393504722,
+      "gpu_weighted_logged_hours": 56.09401608754
+    },
+    {
+      "task": "square_d2",
+      "role": "critic",
+      "runs": 3,
+      "median_wall_hours": 6.552336322128334,
+      "min_wall_hours": 1.221988215221389,
+      "max_wall_hours": 10.2122090148125,
+      "gpu_weighted_logged_hours": 17.98653355216222
+    },
+    {
+      "task": "routing_d2",
+      "role": "actor",
+      "runs": 12,
+      "median_wall_hours": 3.1241680711705557,
+      "min_wall_hours": 1.7197534287816665,
+      "max_wall_hours": 3.2721002479419443,
+      "gpu_weighted_logged_hours": 33.559148920804724
+    },
+    {
+      "task": "routing_d2",
+      "role": "critic",
+      "runs": 3,
+      "median_wall_hours": 3.693093521616667,
+      "min_wall_hours": 3.167402608940278,
+      "max_wall_hours": 4.418115941296945,
+      "gpu_weighted_logged_hours": 11.278612071853889
+    }
+  ],
+  "gpu_models": {
+    "Model not recorded": {
+      "runs": 1,
+      "gpu_weighted_logged_hours": 3.3577732516072225
+    },
+    "NVIDIA A100-SXM4-40GB": {
+      "runs": 7,
+      "gpu_weighted_logged_hours": 15.064386239122777
+    },
+    "NVIDIA A40": {
+      "runs": 41,
+      "gpu_weighted_logged_hours": 112.9547407891
+    },
+    "NVIDIA GeForce RTX 3090": {
+      "runs": 2,
+      "gpu_weighted_logged_hours": 8.202825078155001
+    },
+    "NVIDIA GeForce RTX 5090": {
+      "runs": 1,
+      "gpu_weighted_logged_hours": 3.6502548729175004
+    },
+    "NVIDIA H100 80GB HBM3": {
+      "runs": 103,
+      "gpu_weighted_logged_hours": 225.24144920818168
+    },
+    "NVIDIA H200": {
+      "runs": 18,
+      "gpu_weighted_logged_hours": 37.892679292166946
+    },
+    "NVIDIA L40S": {
+      "runs": 96,
+      "gpu_weighted_logged_hours": 182.41718732048471
+    },
+    "NVIDIA RTX 4500 Ada Generation": {
+      "runs": 80,
+      "gpu_weighted_logged_hours": 136.9514665416197
+    },
+    "NVIDIA RTX A6000": {
+      "runs": 37,
+      "gpu_weighted_logged_hours": 75.81588388673417
+    }
+  }
+}

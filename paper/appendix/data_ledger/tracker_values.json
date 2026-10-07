@@ -1,0 +1,26 @@
+{
+  "cable_critic_episodes": {
+    "value": 1200,
+    "description": "Route Cable final-round critic set, episodes (mulligan/real-routing-d2-r05-mulligan-idql-critic, evaluation rollouts included)."
+  },
+  "cable_r5_parent_episodes": {
+    "value": 200,
+    "description": "Episodes of the Route Cable round-5 collection's parent dataset (mulligan/real-routing-d2-c09-dagger-mixed), recorded before the round-5 starts were selected."
+  },
+  "marker_critic_episodes": {
+    "value": 825,
+    "description": "Insert Marker final-round critic set, episodes over 14 datasets (evaluation rollouts included)."
+  },
+  "marker_critic_frames": {
+    "value": 262164,
+    "description": "Insert Marker final-round critic set, frames over 14 datasets (evaluation rollouts included)."
+  },
+  "square_narrow_r0_demos_per_arm": {
+    "value": 100,
+    "description": "Successful round-0 teleoperated demonstrations per arm on Square-Narrow."
+  },
+  "square_broad_r0_demos_per_arm": {
+    "value": 200,
+    "description": "Successful round-0 teleoperated demonstrations per arm on Square-Broad."
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "protocol": "arena-prediction-content/v1",
+  "values": [
+    {
+      "name": "null",
+      "value": null,
+      "canonical_hex": "7a",
+      "sha256": "594e519ae499312b29433b7dd8a97ff068defcba9755b6d5d00e84c524d67b06"
+    },
+    {
+      "name": "booleans",
+      "value": [
+        true,
+        false
+      ],
+      "canonical_hex": "61323a7466",
+      "sha256": "5257007481777b9210181b817f05ab4a642c81d9facda373511b2ab4d59848c7"
+    },
+    {
+      "name": "number-normalization",
+      "value": [
+        0,
+        -0.0,
+        1,
+        1.0,
+        -3,
+        0.1,
+        1e-07,
+        1e+21,
+        9007199254740991
+      ],
+      "canonical_hex": "61393a6e303030303030303030303030303030306e303030303030303030303030303030306e336666303030303030303030303030306e336666303030303030303030303030306e633030383030303030303030303030306e336662393939393939393939393939616e336537616437663239616263616634386e343434623161653464366532656635306e34333366666666666666666666666666",
+      "sha256": "f1905884ba44136185f33f104f9b433db1cd12fe49e72cc23b541c4ccaabf453"
+    },
+    {
+      "name": "utf8-order",
+      "value": {
+        "𐀀": "astral",
+        "": "bmp",
+        "a": "ASCII",
+        "é": "café\n\t\""
+      },
+      "canonical_hex": "6f343a73313a6173353a415343494973323ac3a973383a636166c3a90a092273333aee808073333a626d7073343af090808073363a61737472616c",
+      "sha256": "2ce10bd72bac035ffbce252bf53631109718ffb86d7443238a09618be1ca4baa"
+    },
+    {
+      "name": "nested",
+      "value": {
+        "actions": [
+          {
+            "at": 1.23,
+            "done": true
+          },
+          null
+        ],
+        "empty": {},
+        "list": []
+      },
+      "canonical_hex": "6f333a73373a616374696f6e7361323a6f323a73323a61746e3366663361653134376165313437616573343a646f6e65747a73353a656d7074796f303a73343a6c69737461303a",
+      "sha256": "f03171143b53c1372fec0cbc0a33ff7ebaca9559cb09eb564ddc677663f520a6"
+    },
+    {
+      "name": "collision-free-tags",
+      "value": [
+        "n0000000000000000",
+        0,
+        "z",
+        null,
+        [],
+        {}
+      ],
+      "canonical_hex": "61363a7331373a6e303030303030303030303030303030306e3030303030303030303030303030303073313a7a7a61303a6f303a",
+      "sha256": "a6503f0f1133fe6733dda54a80105c5c539db7499986f5c1cc03d50307fd409a"
+    },
+    {
+      "name": "extreme-floats",
+      "value": [
+        5e-324,
+        1.7976931348623157e+308,
+        -2.2250738585072014e-308
+      ],
+      "canonical_hex": "61333a6e303030303030303030303030303030316e376665666666666666666666666666666e38303130303030303030303030303030",
+      "sha256": "e33fa9f9f7dacb3d5fbd68c2ccc4d3320878311331cbdc322683d7842d22217a"
+    }
+  ],
+  "predictions": [
+    {
+      "name": "prediction-0",
+      "row": {
+        "episode_index": "0",
+        "label": {
+          "max_stage": 2,
+          "success": false
+        },
+        "episode_duration_s": 4.0,
+        "evidence": {
+          "artifact": "s3://private/run/labels.jsonl"
+        }
+      },
+      "sha256": "eeecfa13e85142c2d68b205256aaec1de5d0384ff129a2da8e6d237ad04f6847"
+    },
+    {
+      "name": "prediction-12",
+      "row": {
+        "episode_index": "12",
+        "label": {},
+        "episode_duration_s": 0.1,
+        "evidence": null,
+        "canonical_response": {
+          "unicode": "𐀀",
+          "time": -0.0
+        },
+        "review_reason": "check",
+        "violation_codes": [],
+        "confidence": "medium",
+        "vote_summary": null,
+        "source_revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "sha256": "db0dbc542d41111f30c6e7a80e8e5dae6c15660961aee15e4a86446fce7c9579"
+    },
+    {
+      "name": "prediction-9223372036854775807",
+      "row": {
+        "episode_index": "9223372036854775807",
+        "label": {},
+        "episode_duration_s": 1,
+        "evidence": []
+      },
+      "sha256": "9213ab97158fdc8a6ce668adf9d85560129db7066d786ebf2cef2b7d19d1d00e"
+    }
+  ],
+  "manifests": [
+    {
+      "name": "numeric-episode-order",
+      "rows": [
+        {
+          "episode_index": "9223372036854775807",
+          "label": {},
+          "episode_duration_s": 1,
+          "evidence": []
+        },
+        {
+          "episode_index": "12",
+          "label": {},
+          "episode_duration_s": 0.1,
+          "evidence": null,
+          "canonical_response": {
+            "unicode": "𐀀",
+            "time": -0.0
+          },
+          "review_reason": "check",
+          "violation_codes": [],
+          "confidence": "medium",
+          "vote_summary": null,
+          "source_revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        },
+        {
+          "episode_index": "0",
+          "label": {
+            "max_stage": 2,
+            "success": false
+          },
+          "episode_duration_s": 4.0,
+          "evidence": {
+            "artifact": "s3://private/run/labels.jsonl"
+          }
+        }
+      ],
+      "sha256": "4fa8f25f71efba59d53d483934e3b5d850fab7c8287ddd66b4f390a9f047de9d"
+    }
+  ]
+}

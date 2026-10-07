@@ -1,0 +1,12 @@
+{
+  "divl-agent": {
+    "repo": "mulligan/sim-square-narrow-r01-mulligan-divl",
+    "verified_revision": "05e15eb4f0324587337fc7a8e3374398c6044443",
+    "subfolder": "seed-1"
+  },
+  "idql-agent": {
+    "repo": "mulligan/sim-square-narrow-r01-mulligan-idql",
+    "verified_revision": "d6c7829460657f04775a4646a33d2393402bceb2",
+    "subfolder": "seed-1"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "marker/marker_d2_headline_sr.csv": "078a16cf238cef20ca62a7f0969a1be0b0ab70305439911cd43a35eff02926ec",
+  "square/square_d2_headline_sr.csv": "0a55a816cca831de951798db18ec698f5883b08c43d9360fabf472a8e51c4ffe",
+  "routing/routing_d2_headline_sr_full_success.csv": "2477f55a7a8fd2c88d403ae39b81fe4f07a8fd160161cc6c3fc02ff2cf2dfc3d",
+  "reranking/square_r5_offline_nsweep.csv": "edc729a9a1d1137636a7f5039f680229b948ff46651727cf9afd2ce53da1b689",
+  "reranking/square_r3_latency_summary.csv": "18d6f335bff3827d9419c6d8e812151766cc57b18b306f09156130aa6c194704"
+}

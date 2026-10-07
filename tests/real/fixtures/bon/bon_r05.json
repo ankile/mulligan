@@ -1,0 +1,155 @@
+{
+  "description": "Best-of-N reference outputs recorded with the research repository's main on CPU: for each task the R5 Mulligan DP samples N = 32 candidate chunks (the deployed R5 eval override of the critic metadata default, set as policy.num_action_samples like manifest_eval) for 3 recorded observations through the deployed VisionIDQLRealWorldPolicy.predict path, the R5 IDQL critic scores them (twin Q, pair_min aggregate) and the argmax is recorded. Keys: <task>/<i>/image/<camera> (BGR uint8, the raw_obs['image'] input), <task>/<i>/cartesian_position, <task>/<i>/gripper_position, <task>/<i>/candidates (N, n_action_steps, action_dim raw), q1, q2, q_min, best_idx, v, action (the first executed action).",
+  "source": {
+    "repo": "the private research repository",
+    "commit": "0cf5ad960",
+    "code": "VisionIDQLRealWorldPolicy.from_artifact(dp_local_dir=...)"
+  },
+  "setup": {
+    "device": "cpu",
+    "use_deterministic_algorithms": true,
+    "num_threads": 1,
+    "seed": "torch.manual_seed(seeds[i]) after policy.reset(), right before predict()",
+    "torch": "2.11.0+cu128",
+    "lerobot_commit": "0530dd9b97929f017d29640029684644c5313d56",
+    "python": "3.12.12",
+    "frames": "dataset frames (480x640 RGB, AV1-decoded with lerobot's pyav backend) downscaled 2x with cv2.INTER_AREA and converted to BGR to keep the fixture small; the policy path resizes them back to the 480x640 crop reference identically in both codes"
+  },
+  "frames_extracted_at": "previous_revision of each dataset; the canonical revision differs from it only in README.md (all data/video/meta file blob ids identical), so the frames are the same bytes",
+  "npz_sha256": "ae7d23dec5f9eacf7f2c5562a8dca58d6b358daa13b7f91127b774194bd9c7cc",
+  "tasks": {
+    "marker": {
+      "critic": {
+        "repo": "mulligan/real-marker-d2-r05-mulligan-idql-critic",
+        "revision": "abce857ca6fc88c06f941ed9082c5a68e8c21359"
+      },
+      "dp": {
+        "repo": "mulligan/real-marker-d2-r05-mulligan-dp",
+        "revision": "cb461d1bb7fe776de45b45d305b98cfe82bc67f6"
+      },
+      "num_action_samples": 32,
+      "metadata_num_action_samples": 16,
+      "action_mode": "absolute",
+      "cameras": [
+        "wrist_left",
+        "side_1"
+      ],
+      "seeds": [
+        20260930,
+        20260931,
+        20260932
+      ],
+      "observations": {
+        "dataset": "mulligan/real-marker-d2-r05-eval",
+        "revision": "af7ef315a96204358f04734c99cc3bdf032ffdcf",
+        "previous_revision": "af7ef315a96204358f04734c99cc3bdf032ffdcf",
+        "frames": [
+          {
+            "episode_index": 0,
+            "frame_index": 0,
+            "dataset_index": 0
+          },
+          {
+            "episode_index": 1,
+            "frame_index": 45,
+            "dataset_index": 430
+          },
+          {
+            "episode_index": 2,
+            "frame_index": 90,
+            "dataset_index": 1028
+          }
+        ]
+      }
+    },
+    "nut": {
+      "critic": {
+        "repo": "mulligan/real-square-d2-r05-mulligan-idql-critic",
+        "revision": "a83f964a2e27771882edd05efad014ba7ce33dff"
+      },
+      "dp": {
+        "repo": "mulligan/real-square-d2-r05-mulligan-dp",
+        "revision": "a00c68f6096a66a3deda038709493148b3168047"
+      },
+      "num_action_samples": 32,
+      "metadata_num_action_samples": 16,
+      "action_mode": "absolute",
+      "cameras": [
+        "wrist_left",
+        "side_1"
+      ],
+      "seeds": [
+        20260930,
+        20260931,
+        20260932
+      ],
+      "observations": {
+        "dataset": "mulligan/real-square-d2-r05-eval",
+        "revision": "79c96c9a604dce7f83e36568874baed23d63d5e3",
+        "previous_revision": "79c96c9a604dce7f83e36568874baed23d63d5e3",
+        "frames": [
+          {
+            "episode_index": 0,
+            "frame_index": 0,
+            "dataset_index": 0
+          },
+          {
+            "episode_index": 1,
+            "frame_index": 45,
+            "dataset_index": 440
+          },
+          {
+            "episode_index": 2,
+            "frame_index": 90,
+            "dataset_index": 619
+          }
+        ]
+      }
+    },
+    "cable": {
+      "critic": {
+        "repo": "mulligan/real-routing-d2-r05-mulligan-idql-critic",
+        "revision": "548a254c7d1e6ae641971e8cebcc3ca764b50205"
+      },
+      "dp": {
+        "repo": "mulligan/real-routing-d2-r05-mulligan-dp",
+        "revision": "0560377e95ab94bed23456ff17d6ee27cc0a9180"
+      },
+      "num_action_samples": 32,
+      "metadata_num_action_samples": 16,
+      "action_mode": "relative",
+      "cameras": [
+        "wrist_left",
+        "side_1",
+        "side_2"
+      ],
+      "seeds": [
+        20260930,
+        20260931,
+        20260932
+      ],
+      "observations": {
+        "dataset": "mulligan/real-routing-d2-r00-r05-eval",
+        "revision": "89b5cd9fed7f80792ea0146d5a90d3ade0a119e5",
+        "previous_revision": "89b5cd9fed7f80792ea0146d5a90d3ade0a119e5",
+        "frames": [
+          {
+            "episode_index": 0,
+            "frame_index": 0,
+            "dataset_index": 0
+          },
+          {
+            "episode_index": 1,
+            "frame_index": 45,
+            "dataset_index": 509
+          },
+          {
+            "episode_index": 2,
+            "frame_index": 90,
+            "dataset_index": 680
+          }
+        ]
+      }
+    }
+  }
+}
