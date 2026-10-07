@@ -115,10 +115,10 @@
   "registry_usage_id": "square_d2_r2_heldout_eval_independent_sobol_seed2026062802",
   "within_set_min_periodic_dist": 0.2569099310539457,
   "cross_set_min_periodic_dist_to_prior_manifests": {
-    "<local-path>/square_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json": 0.08213550000835966,
-    "<local-path>/square_d2_r1_promote25_fill25_blind_dagger.json": 0.1258522828802017,
-    "<local-path>/square_d2_r2_promote25_fill25_blind_dagger.json": 0.06284571963895921,
-    "<local-path>/square_d2_r1_eval_heldout_independent_sobol.json": 0.05611251681815394
+    "data/real/manifests/square_d2/r00/square_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json": 0.08213550000835966,
+    "data/real/manifests/square_d2/r01/square_d2_r1_promote25_fill25_blind_dagger.json": 0.1258522828802017,
+    "data/real/manifests/square_d2/r02/square_d2_r2_promote25_fill25_blind_dagger.json": 0.06284571963895921,
+    "data/real/manifests/square_d2/r01/square_d2_r1_eval_heldout_independent_sobol.json": 0.05611251681815394
   },
   "states": [
     {

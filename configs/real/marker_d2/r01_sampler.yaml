@@ -35,8 +35,8 @@ order:
 inputs:
   # The locked manifest was built from the outcome table as it stood before a later duration
   # reconciliation rewrote num_steps; reproduce with that lock-time table.
-  eval_outcomes: <local-path>/paired_round_outcomes.csv
-  stage_labels: <local-path>/labels_joined.csv
+  eval_outcomes: null
+  stage_labels: null
   support_manifests:
     - data/real/manifests/marker_d2/r00/marker_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json
   avoid_manifests:

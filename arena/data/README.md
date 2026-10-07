@@ -16,8 +16,7 @@ The data files of the public [Policy Arena](https://arena.mulligan.page) and its
 | `training-recipes.json` | The dataset inputs of the 46 simulation DIVL cells and the final real-world critics, as release ids and revisions |
 | `SHA256SUMS` | Checksums of the files above; `bun run package:release` checks them |
 
-`<local-path>/...` paths in `release.json` are where the records were produced; they are
-provenance, not inputs. `arena/README.md` covers building and deploying the site from these files.
+`arena/README.md` covers building and deploying the site from these files.
 
 ## Names
 

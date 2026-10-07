@@ -7,7 +7,6 @@ const release: Release = {
   version: "release-1",
   state: "public_verified",
   selectionSha256: "frozen",
-  sourceSha256: {},
   datasets: [
     {
       id: "mulligan/eval",
@@ -55,7 +54,6 @@ const release: Release = {
           fps: 15,
           cameras: [],
           reviewedEpisodes: null,
-          sourcePath: "pinned",
           starts: [
             {
               index: 7,

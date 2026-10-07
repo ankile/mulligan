@@ -2611,7 +2611,6 @@
   "_meta": {
     "task": "square_narrow",
     "n_states_per_arm": 100,
-    "generator": "<local-path>/make_square_narrow_r2_inputs.py",
     "pairwise_min_periodic_l2": {
       "baseline_uniform": 0.0037649397516131057,
       "mulligan": 0.007550355297235365,
@@ -2619,32 +2618,31 @@
     },
     "disjoint_reports": [
       {
-        "path": "<local-path>/square_narrow_baseline_uniform_r0.json",
+        "path": "data/sim/start_manifests/square_narrow/r00/init_states/square_narrow_baseline_uniform_r0.json",
         "n_states": 100,
         "min_periodic_l2": 0.002002113414385268
       },
       {
-        "path": "<local-path>/square_narrow_sobol_r0.json",
+        "path": "data/sim/start_manifests/square_narrow/r00/init_states/square_narrow_sobol_r0.json",
         "n_states": 100,
         "min_periodic_l2": 0.003976575698621247
       },
       {
-        "path": "<local-path>/square_narrow_baseline_uniform_r1.json",
+        "path": "data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_baseline_uniform_r1.json",
         "n_states": 100,
         "min_periodic_l2": 0.0020017776831794997
       },
       {
-        "path": "<local-path>/square_narrow_sobol_r1.json",
+        "path": "data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_sobol_r1.json",
         "n_states": 100,
         "min_periodic_l2": 0.0033733135358800926
       },
       {
-        "path": "<local-path>/square_narrow_mulligan_r1.json",
+        "path": "data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_mulligan_r1.json",
         "n_states": 100,
         "min_periodic_l2": 0.0026174306885122225
       },
       {
-        "path": "<local-path>/square_narrow_valid_sobol8k_seed2026052402.json",
         "n_states": 8000,
         "min_periodic_l2": 0.0009736947884361752
       }

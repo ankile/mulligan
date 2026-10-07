@@ -14,11 +14,11 @@ paper:
   - App. B.1
 eval_dataset:
   repo: mulligan/real-marker-d2-r02-eval
-  revision: 6c78bfab916e1736686cbf8001d7acd56ed875a1
+  revision: dacbcfe36aab4363982f60fd9102db969cf734d7
 sessions:
 - session_id: b01
   seed: 2026062701
-  manifest_sha256: 477b20d3dc3fbb69eee17518df376d9c4f07c34c769071c55a3ba2f7a0bd81dd
+  manifest_sha256: 29b3cb622934b4e7170d967dfb1e534f8958d1950af2ec6906a4fc2f534fce5e
   manifest: data/real/manifests/marker_d2/r02/marker_d2_r2_eval_heldout_independent_sobol.json
   n_starts: 50
   arms:
@@ -42,7 +42,7 @@ sessions:
       config: configs/real/marker_d2/r02_mulligan_dp.yaml
 - session_id: b02
   seed: 2026062701
-  manifest_sha256: 477b20d3dc3fbb69eee17518df376d9c4f07c34c769071c55a3ba2f7a0bd81dd
+  manifest_sha256: 29b3cb622934b4e7170d967dfb1e534f8958d1950af2ec6906a4fc2f534fce5e
   manifest: data/real/manifests/marker_d2/r02/marker_d2_r2_eval_heldout_independent_sobol.json
   n_starts: 50
   arms:
@@ -57,7 +57,7 @@ sessions:
       config: configs/real/marker_d2/r02_mulligan_no_cf_dp.yaml
 - session_id: b03
   seed: 2026070102
-  manifest_sha256: 0d65cbbec27d200da93249901128b762f0fa866bde0fcd82f3e86909882a4849
+  manifest_sha256: 45f3cfaf44b69a3028a050ffca2a800a8aad862295dd6a32fff3dd684347a171
   manifest_in_eval_dataset: meta/sessions/b03/meta/initial_states_manifest.json
   n_starts: 50
   arms:
@@ -81,7 +81,7 @@ sessions:
       config: configs/real/marker_d2/r02_mulligan_dp.yaml
     critic:
       repo: mulligan/real-marker-d2-r02-mulligan-idql-critic
-      revision: b5d06fac21260c3ada8c75098104fd43ffcd6f1a
+      revision: 56b7e30553d3faa061e0940a6808cb211e672613
       step: 125000
       config: configs/real/marker_d2/r02_critic.yaml
     num_action_samples: 16

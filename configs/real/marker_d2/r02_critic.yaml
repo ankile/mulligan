@@ -3,7 +3,7 @@ kind: idql-critic
 trainer: mulligan.real.train.critic
 checkpoint:
   repo: mulligan/real-marker-d2-r02-mulligan-idql-critic
-  revision: b5d06fac21260c3ada8c75098104fd43ffcd6f1a
+  revision: 56b7e30553d3faa061e0940a6808cb211e672613
   step: 125000
 retrain: exact
 paper:
@@ -20,13 +20,13 @@ paper:
 dataset_revisions:
   mulligan/real-marker-d2-c00-teleop-sobol: 2eceb8cab17e48e970e082d37ce6d0aac03b4522
   mulligan/real-marker-d2-c00-teleop-validation: 66e508d55f3b6820f610b1270f2dd94884f785f5
-  mulligan/real-marker-d2-c01-dagger-mulligan: b8d9e14d4179b19d9e6a678de01f9776edadbee9
-  mulligan/real-marker-d2-c02-dagger-mulligan: a09b8f548a92170f0a47ed1eee519d016d885ad2
-  mulligan/real-marker-d2-r00-eval-b01-baseline-dp-policy-rollouts: 0639d04f3b8c87c3d43d5ece4621148c77667cfa
-  mulligan/real-marker-d2-r00-eval-b01-sobol-dp-policy-rollouts: 3aef30fd38cdf974bb2762c1762e9a1d603f46fb
-  mulligan/real-marker-d2-r01-eval-b01-mulligan-dp-policy-rollouts: e5467e7f7e1346bea4512970bc6a57235bed39f0
-  mulligan/real-marker-d2-r02-eval-b01-baseline-dp-policy-rollouts: 3e9d5dcc8249a18ef53475eeb52482469c871709
-  mulligan/real-marker-d2-r02-eval-b01-mulligan-dp-policy-rollouts: ac6bf9318abe9c7deb023291e695bbe48f9a6557
+  mulligan/real-marker-d2-c01-dagger-mulligan: e9ed902ab91abeca9523cbcfa5475ac31bc31127
+  mulligan/real-marker-d2-c02-dagger-mulligan: 0e44650843b7ff7b95527535993a0161a4bf9548
+  mulligan/real-marker-d2-r00-eval-b01-baseline-dp-policy-rollouts: 78e9b8a39889f419e3398ea47cdaa971967309d9
+  mulligan/real-marker-d2-r00-eval-b01-sobol-dp-policy-rollouts: cdbd3986a183a78289fd689a42c7a23a8bd1d2cd
+  mulligan/real-marker-d2-r01-eval-b01-mulligan-dp-policy-rollouts: 03474279db1740f329d04a3cba18fddb10c924ca
+  mulligan/real-marker-d2-r02-eval-b01-baseline-dp-policy-rollouts: 791fa889cf01152c0113e665bc3374ad0bb85bfe
+  mulligan/real-marker-d2-r02-eval-b01-mulligan-dp-policy-rollouts: 4337635445d7de14ea9a521bdc94d68eca972ffa
 dataset_episodes: {}
 args:
   repo-ids:

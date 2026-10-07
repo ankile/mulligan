@@ -4013,7 +4013,6 @@
       "sobol": 100,
       "mulligan": 100
     },
-    "generator": "<local-path>/make_square_narrow_r1_inputs.py",
     "duplicates_collapsed": [
       {
         "manifest_index": 100,

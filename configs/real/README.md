@@ -92,10 +92,10 @@ and the Best-of-N `num_action_samples` of a critic arm.
 promotion from the previous round's held-out evaluation, coverage fill, a fresh baseline and the paired
 order. `locked` names the locked collection manifest it produced (`data/real/manifests/`). Its `inputs`
 name the earlier manifests by their repo-relative path in `data/real/manifests/` (resolved against
-`--inputs-root`, the repository root); the evaluation outcome tables and stage labels are
-`<local-path>/...` placeholders, because the paper's tables are not all released, so the design cannot be
-rebuilt bit for bit from this repository. Point those two inputs at your own evaluation outcomes and stage
-labels, and repeat `--input` to replace a list input such as `support_manifests`:
+`--inputs-root`, the repository root); the evaluation outcome tables and stage labels are not released, so
+the config leaves them `null` and the design cannot be rebuilt bit for bit from this repository. Give those
+two inputs with `--input` (your own evaluation outcomes and stage labels), and repeat `--input` to replace a
+list input such as `support_manifests`:
 
 ```bash
 python -m mulligan.sampling.real_design --config configs/real/marker_d2/r02_sampler.yaml \

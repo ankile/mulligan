@@ -7088,7 +7088,7 @@
   "objective": "per-clip pose change = 60 in-equivalents (re-mount) + euclidean inches; identical pose carries over free",
   "seed": 2026070408,
   "ils_iterations": 300,
-  "source_manifest": "<local-path>/routing_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json",
+  "source_manifest": "data/real/manifests/routing_d2/r00/routing_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json",
   "source_manifest_sha256": "90fbc513bb068c1ae8202ada642041d4805f33cfafbbc0ad345114b110e71980",
   "clip_remounts": {
    "source_order": 497,
@@ -7106,7 +7106,7 @@
   "objective": "remount=60 + swap=25 in-equivalents + euclidean inches per changed clip; -90 vs -45/-135 are different physical clip objects",
   "seed": 2026070409,
   "collected_prefix": 0,
-  "v1_manifest_sha256": "c9fbe87ee3e7437ea9e69c1d4a795e65373ba77023cb929007f989e010382a11",
+  "v1_manifest_sha256": "486800d80f974408de19d0197109cc80056ca7a4f0a14bd0c4425d92b72db592",
   "remaining_session": {
    "v1": {
     "remounts": 402,

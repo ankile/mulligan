@@ -84,14 +84,14 @@ guardrail:
 locked:
   manifest:
     path: data/sim/start_manifests/square_broad/r02/blind_inputs/square_broad_r2_manifest.json
-    sha256: f0b98644fc90d1a71a9b30bf9d48d3259a03f8b19ae6c8b15b5af74b89b592b4
+    sha256: 2ed892729cc4e4e4c038903ab5aabb14073d2a2a58ec070671fa3cb4f9772470
   arms:
     baseline_uniform:
       path: data/sim/start_manifests/square_broad/r02/init_states/square_broad_baseline_uniform_r2.json
-      sha256: aa5d80b112857c0d786b378ec90a024012529acd52d64c6a091c71fef9ed9047
+      sha256: 12ed465b0edccda01ad7b7676be3103dee0a5fd635e4de0ba397874c0de11d2b
     sobol:
       path: data/sim/start_manifests/square_broad/r02/init_states/square_broad_sobol_r2.json
-      sha256: aa3d748de406f2d386f8fc051f41247fb56c002bf8f2043f2a8ecbaf7599931d
+      sha256: 619bc775406263ac601dedd2cdc381aad1c21399c296c672630af9f97cd29370
     mulligan:
       path: data/sim/start_manifests/square_broad/r02/init_states/square_broad_mulligan_r2.json
-      sha256: e740d36efc57b3eed1a03fdc70b3228de5d1b37e5c0ec0b2cb660309607d5f42
+      sha256: b96e8f0b067c725eb62c84b6c66c125f9acd127b65d2e7f7aa7343575656f24c

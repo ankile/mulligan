@@ -198,7 +198,7 @@
  "distinct_peg_cells": 15,
  "peg_changes": 14,
  "source_index_order_peg_changes": 46,
- "derived_from": "<local-path>/square_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json",
+ "derived_from": "data/real/manifests/square_d2/r00/square_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json",
  "states": [
   {
    "arm_id": "eval_heldout",

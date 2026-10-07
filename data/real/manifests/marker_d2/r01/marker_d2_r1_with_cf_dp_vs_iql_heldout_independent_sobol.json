@@ -115,9 +115,9 @@
   "registry_usage_id": "marker_d2_r1_with_cf_dp_vs_iql_heldout_independent_sobol_seed2026062601",
   "within_set_min_periodic_dist": 0.28806903461298555,
   "cross_set_min_periodic_dist_to_prior_manifests": {
-    "<local-path>/marker_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json": 0.09724545993266874,
-    "<local-path>/marker_d2_r1_promote25_fill25_blind_dagger.json": 0.09205142791129341,
-    "<local-path>/marker_d2_r1_eval_heldout_independent_sobol.json": 0.0881594410142034
+    "data/real/manifests/marker_d2/r00/marker_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json": 0.09724545993266874,
+    "data/real/manifests/marker_d2/r01/marker_d2_r1_promote25_fill25_blind_dagger.json": 0.09205142791129341,
+    "data/real/manifests/marker_d2/r01/marker_d2_r1_eval_heldout_independent_sobol.json": 0.0881594410142034
   },
   "states": [
     {

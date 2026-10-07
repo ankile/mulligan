@@ -1019,7 +1019,6 @@
     ],
     "square_narrow_uniform_x_seed": 202605234,
     "square_narrow_sobol_start_index": 0,
-    "square_narrow_sobol_pool_size": 1024,
-    "generator": "<local-path>/make_r0_inputs.py"
+    "square_narrow_sobol_pool_size": 1024
   }
 }

@@ -7088,7 +7088,7 @@
   "objective": "per-clip pose change = 60 in-equivalents (re-mount) + euclidean inches; identical pose carries over free",
   "seed": 2026070408,
   "ils_iterations": 300,
-  "source_manifest": "<local-path>/routing_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json",
+  "source_manifest": "data/real/manifests/routing_d2/r00/routing_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json",
   "source_manifest_sha256": "90fbc513bb068c1ae8202ada642041d4805f33cfafbbc0ad345114b110e71980",
   "clip_remounts": {
    "source_order": 497,

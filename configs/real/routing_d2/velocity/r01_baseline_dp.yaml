@@ -16,9 +16,9 @@ paper:
   collections:
   - mulligan/real-routing-d2-c02-dagger-mixed
 dataset_revisions:
-  mulligan/real-routing-d2-c00-teleop-baseline: b67f529fc91d371636f95da358cbd9d6535e7695
-  mulligan/real-routing-d2-c00-teleop-validation: aea89ca1dcde5bf0f3eafba80d4ed6be5c6f16af
-  mulligan/real-routing-d2-c01-dagger-baseline: 5330184a79232f450949c844a5a6cfd2f3fe2069
+  mulligan/real-routing-d2-c00-teleop-baseline: 83940e1cc5926abc24c88686b0be6688207f4fec
+  mulligan/real-routing-d2-c00-teleop-validation: 17384f6b0b7742a57a4dc052fabce27af6ee53d3
+  mulligan/real-routing-d2-c01-dagger-baseline: d4f7eb220a07fae9b80da1ea23d7bdface370a4b
 dataset_episodes: {}
 args:
   task: routing_d2

@@ -3234,7 +3234,7 @@
     },
     "shared_source_groups": {},
     "locked_sampler": {
-      "locked_states_json": "<local-path>/square_broad_mulligan_r3.json",
+      "locked_states_json": "data/sim/start_manifests/square_broad/r03/init_states/square_broad_mulligan_r3.json",
       "locked_states_sha256": "9eca09e73bc980269f538934f3bf4e3b97021bec35e20b1c9938ff6908ab70a8",
       "locked_state_hash": "f6d73e9f230b60b59f0daa27153315f4d580cbe02149596624dcfca3453a7464",
       "selected_label": "blended_p0_b1.00_r1",
@@ -3280,8 +3280,6 @@
         "near_best_tail_pp": 1.0,
         "max_feasible_q1_q2_pct": 76.0
       },
-      "sampler_summary": "<local-path>/square_broad_r3_sampler_prep_summary.json",
-      "sampler_selected": "<local-path>/square_broad_r3_mulligan_selected.json",
       "component_counts": {
         "promoted_r3_diagnostic_failure": 14,
         "blended_weighted_fps_fill": 86
@@ -3296,87 +3294,85 @@
     "min_pairwise_distance_unique_manifest": 0.08290161577135034,
     "disjoint_checks": [
       {
-        "path": "<local-path>/square_broad_baseline_uniform_r0.json",
+        "path": "data/sim/start_manifests/square_broad/r00/init_states/square_broad_baseline_uniform_r0.json",
         "n_states": 200,
         "min_periodic_l2": 0.04487427649966895
       },
       {
-        "path": "<local-path>/square_broad_sobol_r0.json",
+        "path": "data/sim/start_manifests/square_broad/r00/init_states/square_broad_sobol_r0.json",
         "n_states": 200,
         "min_periodic_l2": 0.07150422523904926
       },
       {
-        "path": "<local-path>/square_broad_sobol_r1_diagnostic_sobol_200_399.json",
+        "path": "data/sim/start_manifests/square_broad/r01/rollout_inputs/square_broad_sobol_r1_diagnostic_sobol_200_399.json",
         "n_states": 200,
         "min_periodic_l2": 0.06699622390604786
       },
       {
-        "path": "<local-path>/square_broad_baseline_uniform_r1_policy_rollout.json",
+        "path": "data/sim/start_manifests/square_broad/r01/rollout_inputs/square_broad_baseline_uniform_r1_policy_rollout.json",
         "n_states": 200,
         "min_periodic_l2": 0.04485158819073918
       },
       {
-        "path": "<local-path>/square_broad_baseline_uniform_r1.json",
+        "path": "data/sim/start_manifests/square_broad/r01/init_states/square_broad_baseline_uniform_r1.json",
         "n_states": 100,
         "min_periodic_l2": 0.04485158819073918
       },
       {
-        "path": "<local-path>/square_broad_mulligan_r1.json",
+        "path": "data/sim/start_manifests/square_broad/r01/init_states/square_broad_mulligan_r1.json",
         "n_states": 100,
         "min_periodic_l2": 0.07498638342288365
       },
       {
-        "path": "<local-path>/square_broad_sobol_r1.json",
+        "path": "data/sim/start_manifests/square_broad/r01/init_states/square_broad_sobol_r1.json",
         "n_states": 100,
         "min_periodic_l2": 0.06699622390604786
       },
       {
-        "path": "<local-path>/square_broad_mulligan_r2_diagnostic_sobol_400_499.json",
+        "path": "data/sim/start_manifests/square_broad/r02/rollout_inputs/square_broad_mulligan_r2_diagnostic_sobol_400_499.json",
         "n_states": 100,
         "min_periodic_l2": 0.0569572241355607
       },
       {
-        "path": "<local-path>/square_broad_baseline_uniform_r2_policy_rollout.json",
+        "path": "data/sim/start_manifests/square_broad/r02/rollout_inputs/square_broad_baseline_uniform_r2_policy_rollout.json",
         "n_states": 100,
         "min_periodic_l2": 0.0691606908465235
       },
       {
-        "path": "<local-path>/square_broad_sobol_r2_sobol_500_599.json",
+        "path": "data/sim/start_manifests/square_broad/r02/init_states/square_broad_sobol_r2_sobol_500_599.json",
         "n_states": 100,
         "min_periodic_l2": 0.056286405200846476
       },
       {
-        "path": "<local-path>/square_broad_baseline_uniform_r2.json",
+        "path": "data/sim/start_manifests/square_broad/r02/init_states/square_broad_baseline_uniform_r2.json",
         "n_states": 100,
         "min_periodic_l2": 0.0691606908465235
       },
       {
-        "path": "<local-path>/square_broad_sobol_r2.json",
+        "path": "data/sim/start_manifests/square_broad/r02/init_states/square_broad_sobol_r2.json",
         "n_states": 100,
         "min_periodic_l2": 0.0569572241355607
       },
       {
-        "path": "<local-path>/square_broad_mulligan_r2.json",
+        "path": "data/sim/start_manifests/square_broad/r02/init_states/square_broad_mulligan_r2.json",
         "n_states": 100,
         "min_periodic_l2": 0.047959858793765325
       },
       {
-        "path": "<local-path>/square_broad_baseline_uniform_r3_policy_rollout.json",
+        "path": "data/sim/start_manifests/square_broad/r03/rollout_inputs/square_broad_baseline_uniform_r3_policy_rollout.json",
         "n_states": 100,
         "min_periodic_l2": 0.06626472745084955
       },
       {
-        "path": "<local-path>/square_broad_sobol_r3_sobol_800_899.json",
+        "path": "data/sim/start_manifests/square_broad/r03/init_states/square_broad_sobol_r3_sobol_800_899.json",
         "n_states": 100,
         "min_periodic_l2": 0.06729938569018602
       },
       {
-        "path": "<local-path>/square_broad_valid_sobol30k_seed2026052499.json",
         "n_states": 30000,
         "min_periodic_l2": 0.024469490038784906
       }
     ],
-    "generator": "<local-path>/make_square_broad_r3_inputs.py",
     "duplicates_collapsed": []
   }
 }

@@ -22,10 +22,10 @@ paper:
 dataset_revisions:
   mulligan/real-marker-d2-c00-teleop-sobol: 2eceb8cab17e48e970e082d37ce6d0aac03b4522
   mulligan/real-marker-d2-c00-teleop-validation: 66e508d55f3b6820f610b1270f2dd94884f785f5
-  mulligan/real-marker-d2-c01-dagger-mulligan: b8d9e14d4179b19d9e6a678de01f9776edadbee9
-  mulligan/real-marker-d2-c02-dagger-mulligan: a09b8f548a92170f0a47ed1eee519d016d885ad2
-  mulligan/real-marker-d2-c03-dagger-mulligan: 991285990c72a7c6d10ad063d8be055476f9a125
-  mulligan/real-marker-d2-c04-dagger-mulligan: de8d7c640976b7bf705ab074e57bd9906fa54989
+  mulligan/real-marker-d2-c01-dagger-mulligan: e9ed902ab91abeca9523cbcfa5475ac31bc31127
+  mulligan/real-marker-d2-c02-dagger-mulligan: 0e44650843b7ff7b95527535993a0161a4bf9548
+  mulligan/real-marker-d2-c03-dagger-mulligan: 37cc25fecdb4909fe8819cbb12ef36425f1e09bf
+  mulligan/real-marker-d2-c04-dagger-mulligan: 8cb1da880180467ea491b422042a9daf478d2b97
 dataset_episodes: {}
 args:
   task: marker_d2

@@ -13,11 +13,11 @@ paper:
   - App. B.1
 eval_dataset:
   repo: mulligan/real-square-d2-r05-eval
-  revision: 79c96c9a604dce7f83e36568874baed23d63d5e3
+  revision: 3a332b7b9a1d31c2c7bb46d5585f4fd2ca0b408d
 sessions:
 - session_id: b01
   seed: 2026081801
-  manifest_sha256: ad1e9aeb9d761627c7b2db847c624d02dbe5775d9251fee9aead1d230d949b10
+  manifest_sha256: 2794a2bd3f0d963404a13780c5a67c6bc6bbc21ac2c011f4c6915df177b96293
   manifest: data/real/manifests/square_d2/r05/square_d2_r5_repeat_eval_heldout_independent_sobol.json
   n_starts: 50
   arms:
@@ -50,7 +50,7 @@ sessions:
       config: configs/real/square_d2/r05_mulligan_dp.yaml
     critic:
       repo: mulligan/real-square-d2-r05-mulligan-idql-critic
-      revision: a83f964a2e27771882edd05efad014ba7ce33dff
+      revision: 6bd207ef8ffab15cac402f76c8d84aa63ec880b3
       step: 200000
       config: configs/real/square_d2/r05_critic.yaml
     num_action_samples: 32

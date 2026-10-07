@@ -15,11 +15,11 @@ paper:
   - App. B.6
 eval_dataset:
   repo: mulligan/real-square-d2-r02-eval
-  revision: 34713cd66cf8140cdf33bfc455c81991fdcb335d
+  revision: a1d4ce7a3e32a56383f56ee0a42150c6886e1ca2
 sessions:
 - session_id: b01
   seed: 2026062802
-  manifest_sha256: f05fdaade20e1569fa1d62cf43fa7ef937329b58024a0822a5724e73a8cbdba1
+  manifest_sha256: de6f2bccc09c5999f9e8676959192b08c3fb4717a783843c123a7173f3cff59d
   manifest: data/real/manifests/square_d2/r02/square_d2_r2_eval_heldout_independent_sobol.json
   n_starts: 50
   arms:

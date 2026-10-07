@@ -1651,9 +1651,7 @@ def _lock_session(dataset: EvalDataset) -> tuple[list[dict[str, Any]], str | Non
     entry = _release_eval_index()[1].get(dataset.repo_id)
     if entry is None:
         return [], None
-    arms = [
-        p for p in entry["policies"] if p["session_id"] == dataset.session and not p.get("exclude")
-    ]
+    arms = [p for p in entry["policies"] if p["session_id"] == dataset.session]
     sha = next(
         s["manifest_sha256"] for s in entry["sessions"] if s["session_id"] == dataset.session
     )

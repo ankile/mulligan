@@ -164,7 +164,7 @@
   "registry_usage_id": "routing_d2_r0_heldout_eval_independent_sobol_seed2026070501",
   "within_set_min_periodic_dist": 0.3139035243282552,
   "cross_set_min_periodic_dist_to_prior_manifests": {
-    "<local-path>/routing_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json": 0.08566865558424808
+    "data/real/manifests/routing_d2/r00/routing_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json": 0.08566865558424808
   },
   "states": [
     {

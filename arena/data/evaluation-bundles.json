@@ -3,7 +3,7 @@
  "bundles": [
   {
    "repo": "mulligan/sim-square-narrow-r00-r03-eval",
-   "revision": "8826cfbdae8bbc7e03014753e85f4ea8e90cc056",
+   "revision": "fa1031961da659c5f5e21bcd30605c12d0bc53aa",
    "tag": "release-1",
    "episodes": 880000,
    "evaluations": 110,
@@ -453,7 +453,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r00-r03-eval",
-   "revision": "79300a38305873d2869abab1538c3ed039bd08f0",
+   "revision": "c1a766cd3c1a1d32afd329c2a219ba58966b086b",
    "tag": "release-1",
    "episodes": 3600000,
    "evaluations": 120,

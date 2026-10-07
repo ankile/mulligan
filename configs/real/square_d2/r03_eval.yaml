@@ -15,11 +15,11 @@ paper:
   - App. B.6
 eval_dataset:
   repo: mulligan/real-square-d2-r03-eval
-  revision: e833116fae844a518e4ffb1de53df56c1277cff0
+  revision: 2d28ccd25be263975d79f5ce476f8a9b34efb4d0
 sessions:
 - session_id: b01
   seed: 2026063004
-  manifest_sha256: 021803220d952a12d18d2ed90dd762f9025bf6ada130010542e8170202f05210
+  manifest_sha256: a5a2e537a031a74ac04de0782e145b3693b2e6dbb3f20936fa7cc92a652c5f18
   manifest: data/real/manifests/square_d2/r03/square_d2_r3_eval_heldout_independent_sobol.json
   n_starts: 50
   arms:
@@ -52,7 +52,7 @@ sessions:
       config: configs/real/square_d2/r03_mulligan_dp.yaml
 - session_id: b02
   seed: 2026070101
-  manifest_sha256: 0e21bba14e10895f5a309ab4141c05a4828a2d66f96c03911f91aa188e59a1d5
+  manifest_sha256: 078195141a330a2387c76c7aa43a9bd51033c63e85705588935edb9b08d95ecb
   manifest_in_eval_dataset: meta/sessions/b02/meta/initial_states_manifest.json
   n_starts: 50
   arms:
@@ -76,13 +76,13 @@ sessions:
       config: configs/real/square_d2/r03_mulligan_dp.yaml
     critic:
       repo: mulligan/real-square-d2-r03-mulligan-idql-critic
-      revision: 409a4b50a2ed922e872954f8972fa25cb09ca748
+      revision: dc23282695646c2ede27d7d0a63b94da6bf6b0de
       step: 150000
       config: configs/real/square_d2/r03_critic.yaml
     num_action_samples: 16
 - session_id: b03
   seed: 2026070101
-  manifest_sha256: 7c0b38c1ab93fd3c75e7de38df45cf7acf997a91ece3c2bca85d42618c4ba852
+  manifest_sha256: 4b860cc47407d4a02f3ad48dc9c4acd33dba890395779dd81ff7e03f3076a1a4
   manifest_in_eval_dataset: meta/sessions/b03/meta/initial_states_manifest.json
   n_starts: 50
   arms:
@@ -115,7 +115,7 @@ sessions:
       config: configs/real/square_d2/r03_mulligan_dp.yaml
     critic:
       repo: mulligan/real-square-d2-r03-mulligan-idql-critic
-      revision: 409a4b50a2ed922e872954f8972fa25cb09ca748
+      revision: dc23282695646c2ede27d7d0a63b94da6bf6b0de
       step: 150000
       config: configs/real/square_d2/r03_critic.yaml
     num_action_samples: 16

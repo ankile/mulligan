@@ -507,7 +507,6 @@
     "policy_source": "baseline_policy",
     "purpose": "R1 baseline R0 autonomous rollout dataset starts",
     "seed": 202605263,
-    "n_states": 100,
-    "generator": "<local-path>/make_square_narrow_r1_inputs.py"
+    "n_states": 100
   }
 }

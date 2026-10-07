@@ -1406,7 +1406,6 @@
     "source": "sobol",
     "n_states": 200,
     "seed": 42,
-    "sampler": "square_broad_sobol5d",
-    "generator": "<local-path>/make_r0_inputs.py"
+    "sampler": "square_broad_sobol5d"
   }
 }

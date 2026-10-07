@@ -115,15 +115,15 @@
   "registry_usage_id": "marker_d2_r4_heldout_eval_independent_sobol_seed2026070604",
   "within_set_min_periodic_dist": 0.2996130604368524,
   "cross_set_min_periodic_dist_to_prior_manifests": {
-    "<local-path>/marker_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json": 0.032378999342918734,
-    "<local-path>/marker_d2_r0_eval_heldout_sobol50.json": 0.032378999342918734,
-    "<local-path>/marker_d2_r1_promote25_fill25_blind_dagger.json": 0.032378999342918734,
-    "<local-path>/marker_d2_r2_promote25_fill25_blind_dagger.json": 0.08229300140120312,
-    "<local-path>/marker_d2_r3_promote25_fill25_blind_dagger.json": 0.13373109549109313,
-    "<local-path>/marker_d2_r4_promote25_fill25_blind_dagger.json": 0.14307973779008412,
-    "<local-path>/marker_d2_r1_eval_heldout_independent_sobol.json": 0.05032547681217209,
-    "<local-path>/marker_d2_r2_eval_heldout_independent_sobol.json": 0.1529944028106627,
-    "<local-path>/marker_d2_r3_eval_heldout_independent_sobol.json": 0.1009700384357998
+    "data/real/manifests/marker_d2/r00/marker_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json": 0.032378999342918734,
+    "data/real/manifests/marker_d2/r00/marker_d2_r0_eval_heldout_sobol50.json": 0.032378999342918734,
+    "data/real/manifests/marker_d2/r01/marker_d2_r1_promote25_fill25_blind_dagger.json": 0.032378999342918734,
+    "data/real/manifests/marker_d2/r02/marker_d2_r2_promote25_fill25_blind_dagger.json": 0.08229300140120312,
+    "data/real/manifests/marker_d2/r03/marker_d2_r3_promote25_fill25_blind_dagger.json": 0.13373109549109313,
+    "data/real/manifests/marker_d2/r04/marker_d2_r4_promote25_fill25_blind_dagger.json": 0.14307973779008412,
+    "data/real/manifests/marker_d2/r01/marker_d2_r1_eval_heldout_independent_sobol.json": 0.05032547681217209,
+    "data/real/manifests/marker_d2/r02/marker_d2_r2_eval_heldout_independent_sobol.json": 0.1529944028106627,
+    "data/real/manifests/marker_d2/r03/marker_d2_r3_eval_heldout_independent_sobol.json": 0.1009700384357998
   },
   "states": [
     {

@@ -615,12 +615,11 @@
     "num_action_samples": 32,
     "disjoint_checks": [
       {
-        "path": "<local-path>/square_narrow_sobol_r0.json",
+        "path": "data/sim/start_manifests/square_narrow/r00/init_states/square_narrow_sobol_r0.json",
         "n_states": 100,
         "min_periodic_l2": 0.017210332214077775
       }
     ],
-    "generator": "<local-path>/eval_square_narrow_r1_policy_diagnostics.py",
     "elapsed_seconds": 282.4
   }
 }

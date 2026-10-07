@@ -147,8 +147,8 @@ The public simulation evaluation bundles hold the grids under `grids/<manifest_h
 
 | Bundle (HF dataset) | Revision | Grids |
 |---|---|---|
-| `mulligan/sim-square-narrow-r00-r03-eval` | `8826cfbdae8bbc7e03014753e85f4ea8e90cc056` | `45a9963f....json`, `41166760....json` |
-| `mulligan/sim-square-broad-r00-r03-eval` | `79300a38305873d2869abab1538c3ed039bd08f0` | `e0b50566....json` |
+| `mulligan/sim-square-narrow-r00-r03-eval` | `fa1031961da659c5f5e21bcd30605c12d0bc53aa` | `45a9963f....json`, `41166760....json` |
+| `mulligan/sim-square-broad-r00-r03-eval` | `c1a766cd3c1a1d32afd329c2a219ba58966b086b` | `e0b50566....json` |
 
 The bundle copies at these revisions (the `release-1` pins) have the sha256 values in the table above.
 

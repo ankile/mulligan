@@ -13,11 +13,11 @@ paper:
   - App. B.1
 eval_dataset:
   repo: mulligan/real-marker-d2-r03-eval
-  revision: 4dbb81f9404a10cc73d6d30bf6b823e435991565
+  revision: b406acb00598ced64c687ab1f2a8f5b8023e9ace
 sessions:
 - session_id: b01
   seed: 2026070201
-  manifest_sha256: 4d46ee13b3576e4656104699a2a2f5cb4faa6a4aa5b6bd46c9c5b02f1a4a4804
+  manifest_sha256: 2ec38d1c2290a08247f4614d8376c778b573e5b440c1592f4dfc8d3b76ed4ed8
   manifest: data/real/manifests/marker_d2/r03/marker_d2_r3_eval_heldout_independent_sobol.json
   n_starts: 50
   arms:
@@ -50,7 +50,7 @@ sessions:
       config: configs/real/marker_d2/r03_mulligan_dp.yaml
     critic:
       repo: mulligan/real-marker-d2-r03-mulligan-idql-critic
-      revision: aa3316f5f9a24bd95215dfc4b2fd0e0d25f4d18b
+      revision: 0113be01c9ba641ba1550b917fdce7891f104ce1
       step: 100000
       config: configs/real/marker_d2/r03_critic.yaml
     num_action_samples: 16

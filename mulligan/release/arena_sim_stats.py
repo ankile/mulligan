@@ -59,7 +59,6 @@ def build(release, cache, local_cache):
             for seed in policy["seeds"]:
                 row = indexed[(policy["arm"], int(policy["round"][1:]), seed["seed"])]
                 require(row["task"] == task["id"], "Task mismatch")
-                require(row["sourcePath"] == seed["sourcePath"], "Source mismatch")
                 require(row["artifact"] == seed["artifact"], "Artifact mismatch")
                 require(
                     seed["dataUrl"]

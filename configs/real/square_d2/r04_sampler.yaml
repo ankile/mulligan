@@ -39,7 +39,7 @@ order:
   split_by_phase: true
   segment_names: {verbatim: verbatim_promotions}
 inputs:
-  failure_table: <local-path>/iql_failure_table.csv
+  failure_table: null
   support_manifests:
     - data/real/manifests/square_d2/r00/square_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json
     - data/real/manifests/square_d2/r01/square_d2_r1_promote25_fill25_blind_dagger.json

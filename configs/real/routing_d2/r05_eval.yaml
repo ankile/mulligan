@@ -13,11 +13,11 @@ paper:
   - App. B.1
 eval_dataset:
   repo: mulligan/real-routing-d2-r00-r05-eval
-  revision: 89b5cd9fed7f80792ea0146d5a90d3ade0a119e5
+  revision: 29b4e100690aad63f98eef87d2c127f8e2245e16
 sessions:
 - session_id: b01
   seed: 2026090701
-  manifest_sha256: 35b833634e6074c8601d90db939a6b64e02fba699faaa1ef344fb09829b9fdfb
+  manifest_sha256: 41ff7dddc034352f351a602cfd2f45030df628ab9ee47032de6957cb4652f82d
   manifest: data/real/manifests/routing_d2/lineage/routing_d2_lineage_eval_heldout_independent_sobol.json
   n_starts: 50
   arms:
@@ -50,7 +50,7 @@ sessions:
       config: configs/real/routing_d2/r05_mulligan_dp.yaml
     critic:
       repo: mulligan/real-routing-d2-r05-mulligan-idql-critic
-      revision: 548a254c7d1e6ae641971e8cebcc3ca764b50205
+      revision: 0d0c1058c05b26f4551ec5c3d0e9c8e97c4a44eb
       step: 314000
       config: configs/real/routing_d2/r05_critic.yaml
     num_action_samples: 32

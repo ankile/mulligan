@@ -3,7 +3,7 @@ kind: idql-critic
 trainer: mulligan.real.train.critic
 checkpoint:
   repo: mulligan/real-square-d2-r05-mulligan-idql-critic-screen-b03
-  revision: 198e4e9b12b01f4efca32f61e091cd6ab7dc8d28
+  revision: 41a85cd28828b28ef85ece8e7bb1be73178ecfb7
   step: 200000
 retrain: exact
 paper:
@@ -16,24 +16,24 @@ paper:
   - mulligan/real-square-d2-r05-screen b03 (HiL-IDQL+Mulligan, N=16)
   collections: []
 dataset_revisions:
-  mulligan/real-square-d2-c00-teleop-sobol: fcb4a833578373c70f0ffab63245ad1df5cd0145
-  mulligan/real-square-d2-c00-teleop-validation: 40d06aec811e4472bf46b955b3d5adcc06608b11
-  mulligan/real-square-d2-c01-dagger-mulligan: 7fde9f17e6794ff4242ac7bf3516ffecd79577e7
-  mulligan/real-square-d2-c02-dagger-mulligan: 1eca80eda2a44429932915943a06e188a9e27f8e
-  mulligan/real-square-d2-c03-dagger-mulligan: 11de641cf944b60d3704feda40ee3fb42759ab03
-  mulligan/real-square-d2-c04-dagger-mulligan: 85dbc63ea6290b4c221f4500c71ac9395a8aada0
-  mulligan/real-square-d2-c05-dagger-mulligan: 0e7594836effdc7a9ea4fd03e855e60692f97896
-  mulligan/real-square-d2-r01-eval-b01-baseline-dp-policy-rollouts: d6be403c13ac5cde07557cbb288c6e96afbca4db
-  mulligan/real-square-d2-r01-eval-b01-mulligan-dp-policy-rollouts: b295590429b62821d02308867a06df897af05102
-  mulligan/real-square-d2-r02-eval-b01-mulligan-dp-policy-rollouts: a267ce2182dd41c035b345347947fcb6b0ba681b
-  mulligan/real-square-d2-r03-eval-b01-baseline-dp-policy-rollouts: 7dd78739ce55a8dddccee35200ac38cfa169d07b
-  mulligan/real-square-d2-r03-eval-b01-mulligan-dp-policy-rollouts: 802ef0cf331a079edf783ffb9973f6b2f01f2606
-  mulligan/real-square-d2-r03-eval-b02-mulligan-dp-policy-rollouts: 2276f11010e48b87ee27ad65ffd7e4607d637929
-  mulligan/real-square-d2-r03-eval-b02-mulligan-idql-policy-rollouts: 40e72aab38e93d2ac177fe4ed6155965b4ac3c02
-  mulligan/real-square-d2-r03-eval-b03-mulligan-dp-policy-rollouts: d07460e99631e323cb8caa5c0241cbdd6e4b7485
-  mulligan/real-square-d2-r03-eval-b03-mulligan-idql-policy-rollouts: 6dc2ac5c2a900a3241e8921e26fcbd4bdc25634f
-  mulligan/real-square-d2-r04-eval-b01-mulligan-dp-policy-rollouts: ebe7a5f67cd84ebe9edfb132c75c7a6af2ec4ad7
-  mulligan/real-square-d2-r04-eval-b01-mulligan-idql-policy-rollouts: afba02db0bd69b8ed23d645ac30176b76d4e5880
+  mulligan/real-square-d2-c00-teleop-sobol: 3297332740f7ed1897a25015e0d307f3afe7fa9b
+  mulligan/real-square-d2-c00-teleop-validation: 30c8e47be25efb9efb40d5a0e84cd0e502223c12
+  mulligan/real-square-d2-c01-dagger-mulligan: aaf4407363220180e1ab72cc76dbadfa3a780ac6
+  mulligan/real-square-d2-c02-dagger-mulligan: 469a31c0ee4830868256a667178e74a29b1c27d8
+  mulligan/real-square-d2-c03-dagger-mulligan: 71882a30cd33550b506c04d9f526d7448efe54c1
+  mulligan/real-square-d2-c04-dagger-mulligan: 16e48f7c2b9f5cb20ac7ebcfb0b51721368e66fb
+  mulligan/real-square-d2-c05-dagger-mulligan: 167b4d1b7f11c931c6771d638b8b67791f132010
+  mulligan/real-square-d2-r01-eval-b01-baseline-dp-policy-rollouts: 78a3ccf37f82c83c41d84a91103aea35a3c398f8
+  mulligan/real-square-d2-r01-eval-b01-mulligan-dp-policy-rollouts: b9e7f70b21b664dab9beabd5a0f855af81a67186
+  mulligan/real-square-d2-r02-eval-b01-mulligan-dp-policy-rollouts: 5f987f3b8dd6a6d79863138d3d5c71e12380de67
+  mulligan/real-square-d2-r03-eval-b01-baseline-dp-policy-rollouts: 0951199cc385704863b7b35a4d5ce62979e2e67a
+  mulligan/real-square-d2-r03-eval-b01-mulligan-dp-policy-rollouts: cff03c20064540781b50342ff6afd7e5bc445048
+  mulligan/real-square-d2-r03-eval-b02-mulligan-dp-policy-rollouts: 555d81156f474d7171c60ae53a94098f13d9c146
+  mulligan/real-square-d2-r03-eval-b02-mulligan-idql-policy-rollouts: 4ce078e892eb32e3c1678521be78b7baed35838e
+  mulligan/real-square-d2-r03-eval-b03-mulligan-dp-policy-rollouts: b40b59935996637c54e6428f23ecab49cbeaeb70
+  mulligan/real-square-d2-r03-eval-b03-mulligan-idql-policy-rollouts: 7b8458add3d8dfa0058ade20d9500550f2e0d890
+  mulligan/real-square-d2-r04-eval-b01-mulligan-dp-policy-rollouts: f389c7270b8835f1c2892ed0137bb38371997463
+  mulligan/real-square-d2-r04-eval-b01-mulligan-idql-policy-rollouts: 56aeb500630e8a7a048109cfc5f53381ac261a58
 dataset_episodes: {}
 args:
   repo-ids:

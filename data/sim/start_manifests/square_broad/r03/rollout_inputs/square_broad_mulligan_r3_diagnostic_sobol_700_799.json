@@ -904,7 +904,6 @@
   "_meta": {
     "task": "square_broad",
     "n_states": 100,
-    "generator": "<local-path>/make_square_broad_r3_prep_inputs.py",
     "min_clearance": 0.13263,
     "r3_diagnostic_sobol_indices": [
       700,
@@ -916,20 +915,19 @@
     ],
     "sobol_block_note": "R3 diagnostics use Sobol 700-799 (the R2 diagnostics and reference used 400-599, the R2 Sobol-arm fill 600-674); coverage reference 800-899.",
     "disjoint_from": [
-      "<local-path>/square_broad_baseline_uniform_r0.json",
-      "<local-path>/square_broad_sobol_r0.json",
-      "<local-path>/square_broad_sobol_r1_diagnostic_sobol_200_399.json",
-      "<local-path>/square_broad_baseline_uniform_r1_policy_rollout.json",
-      "<local-path>/square_broad_baseline_uniform_r1.json",
-      "<local-path>/square_broad_mulligan_r1.json",
-      "<local-path>/square_broad_sobol_r1.json",
-      "<local-path>/square_broad_mulligan_r2_diagnostic_sobol_400_499.json",
-      "<local-path>/square_broad_baseline_uniform_r2_policy_rollout.json",
-      "<local-path>/square_broad_sobol_r2_sobol_500_599.json",
-      "<local-path>/square_broad_baseline_uniform_r2.json",
-      "<local-path>/square_broad_sobol_r2.json",
-      "<local-path>/square_broad_mulligan_r2.json",
-      "<local-path>/square_broad_valid_sobol30k_seed2026052499.json"
+      "data/sim/start_manifests/square_broad/r00/init_states/square_broad_baseline_uniform_r0.json",
+      "data/sim/start_manifests/square_broad/r00/init_states/square_broad_sobol_r0.json",
+      "data/sim/start_manifests/square_broad/r01/rollout_inputs/square_broad_sobol_r1_diagnostic_sobol_200_399.json",
+      "data/sim/start_manifests/square_broad/r01/rollout_inputs/square_broad_baseline_uniform_r1_policy_rollout.json",
+      "data/sim/start_manifests/square_broad/r01/init_states/square_broad_baseline_uniform_r1.json",
+      "data/sim/start_manifests/square_broad/r01/init_states/square_broad_mulligan_r1.json",
+      "data/sim/start_manifests/square_broad/r01/init_states/square_broad_sobol_r1.json",
+      "data/sim/start_manifests/square_broad/r02/rollout_inputs/square_broad_mulligan_r2_diagnostic_sobol_400_499.json",
+      "data/sim/start_manifests/square_broad/r02/rollout_inputs/square_broad_baseline_uniform_r2_policy_rollout.json",
+      "data/sim/start_manifests/square_broad/r02/init_states/square_broad_sobol_r2_sobol_500_599.json",
+      "data/sim/start_manifests/square_broad/r02/init_states/square_broad_baseline_uniform_r2.json",
+      "data/sim/start_manifests/square_broad/r02/init_states/square_broad_sobol_r2.json",
+      "data/sim/start_manifests/square_broad/r02/init_states/square_broad_mulligan_r2.json"
     ],
     "source": "mulligan_r3_diagnostic_sobol_700_799",
     "policy_source": "mulligan_with_cf_r2_human_only_seed1",
@@ -938,72 +936,71 @@
     "pairwise_min_periodic_l2": 0.14062919904446997,
     "disjoint_reports": [
       {
-        "path": "<local-path>/square_broad_baseline_uniform_r0.json",
+        "path": "data/sim/start_manifests/square_broad/r00/init_states/square_broad_baseline_uniform_r0.json",
         "n_states": 200,
         "min_periodic_l2": 0.063245833712409
       },
       {
-        "path": "<local-path>/square_broad_sobol_r0.json",
+        "path": "data/sim/start_manifests/square_broad/r00/init_states/square_broad_sobol_r0.json",
         "n_states": 200,
         "min_periodic_l2": 0.09743423443783181
       },
       {
-        "path": "<local-path>/square_broad_sobol_r1_diagnostic_sobol_200_399.json",
+        "path": "data/sim/start_manifests/square_broad/r01/rollout_inputs/square_broad_sobol_r1_diagnostic_sobol_200_399.json",
         "n_states": 200,
         "min_periodic_l2": 0.07274547128695606
       },
       {
-        "path": "<local-path>/square_broad_baseline_uniform_r1_policy_rollout.json",
+        "path": "data/sim/start_manifests/square_broad/r01/rollout_inputs/square_broad_baseline_uniform_r1_policy_rollout.json",
         "n_states": 200,
         "min_periodic_l2": 0.0751000371179687
       },
       {
-        "path": "<local-path>/square_broad_baseline_uniform_r1.json",
+        "path": "data/sim/start_manifests/square_broad/r01/init_states/square_broad_baseline_uniform_r1.json",
         "n_states": 100,
         "min_periodic_l2": 0.0751000371179687
       },
       {
-        "path": "<local-path>/square_broad_mulligan_r1.json",
+        "path": "data/sim/start_manifests/square_broad/r01/init_states/square_broad_mulligan_r1.json",
         "n_states": 100,
         "min_periodic_l2": 0.09867102935413812
       },
       {
-        "path": "<local-path>/square_broad_sobol_r1.json",
+        "path": "data/sim/start_manifests/square_broad/r01/init_states/square_broad_sobol_r1.json",
         "n_states": 100,
         "min_periodic_l2": 0.09770947467390002
       },
       {
-        "path": "<local-path>/square_broad_mulligan_r2_diagnostic_sobol_400_499.json",
+        "path": "data/sim/start_manifests/square_broad/r02/rollout_inputs/square_broad_mulligan_r2_diagnostic_sobol_400_499.json",
         "n_states": 100,
         "min_periodic_l2": 0.10847429379848171
       },
       {
-        "path": "<local-path>/square_broad_baseline_uniform_r2_policy_rollout.json",
+        "path": "data/sim/start_manifests/square_broad/r02/rollout_inputs/square_broad_baseline_uniform_r2_policy_rollout.json",
         "n_states": 100,
         "min_periodic_l2": 0.027060470580338378
       },
       {
-        "path": "<local-path>/square_broad_sobol_r2_sobol_500_599.json",
+        "path": "data/sim/start_manifests/square_broad/r02/init_states/square_broad_sobol_r2_sobol_500_599.json",
         "n_states": 100,
         "min_periodic_l2": 0.1010495128632523
       },
       {
-        "path": "<local-path>/square_broad_baseline_uniform_r2.json",
+        "path": "data/sim/start_manifests/square_broad/r02/init_states/square_broad_baseline_uniform_r2.json",
         "n_states": 100,
         "min_periodic_l2": 0.027060470580338378
       },
       {
-        "path": "<local-path>/square_broad_sobol_r2.json",
+        "path": "data/sim/start_manifests/square_broad/r02/init_states/square_broad_sobol_r2.json",
         "n_states": 100,
         "min_periodic_l2": 0.10380342176335677
       },
       {
-        "path": "<local-path>/square_broad_mulligan_r2.json",
+        "path": "data/sim/start_manifests/square_broad/r02/init_states/square_broad_mulligan_r2.json",
         "n_states": 100,
         "min_periodic_l2": 0.08047157657971077
       },
       {
-        "path": "<local-path>/square_broad_valid_sobol30k_seed2026052499.json",
         "n_states": 30000,
         "min_periodic_l2": 0.022004235300891323
       }

@@ -35,27 +35,27 @@ ROLES = {
 # not touch (the value the protocol's pin covered).
 AUTONOMOUS_BASELINE_PINS = {
     "square_narrow/r01/init_states/square_narrow_baseline_uniform_r1.json": (
-        "d5685e32297ec028a7fc9a36fe868505f5a678757bf9b2b1ae00dcc31aea5ff3",
+        "981402807c63dd50b61bae7fc6c6da4d2060af3e26f4c48545e143db3109887a",
         "3e7b11ee340f02ab2e764faa819ecd8a399a188cdea9a7992a8373b363f04e63",
     ),
     "square_narrow/r02/init_states/square_narrow_baseline_uniform_r2.json": (
-        "01ccdf92fee7e7e7dd605fb45f9a04c8b417af989b4e1e0678dd2d383c2643bb",
+        "c833db028871725d1658f5b3c964694429c9c167b340ff509feae8f81cddf857",
         "5b7781768b5a78de7787730afecbd630495b1bc072a0bdad5c3376319f33606c",
     ),
     "square_narrow/r03/init_states/square_narrow_baseline_uniform_r3.json": (
-        "7f1782f1e08c66c34a8b263e950afbc3d8ac267a37302c1534689d948b1397f1",
+        "f14b32ebfd0fa0a82fcd4dbab08b73e872a75855cbc27f143a5a4dac4978dfb0",
         "e1d2eea534465ddb977ec5b9b947ff813f72da2ad904da3c37125cf0775b31d7",
     ),
     "square_broad/r01/init_states/square_broad_baseline_uniform_r1.json": (
-        "d850dcac5deee55c387a3aee5b78014ccb313eaaba499264f46f5f760a66e055",
+        "2c24475eebef75fd84835acdb273fa57409dd1f2a7eb220fb9600dca78a0cd2d",
         "62456fe01a9cf07cb3f84ccbc3db5720deaff868f78691cda38c917288b52c9f",
     ),
     "square_broad/r02/init_states/square_broad_baseline_uniform_r2.json": (
-        "aa5d80b112857c0d786b378ec90a024012529acd52d64c6a091c71fef9ed9047",
+        "12ed465b0edccda01ad7b7676be3103dee0a5fd635e4de0ba397874c0de11d2b",
         "dfe6424efd699b6ef4a6df94352cced87adcfe7e6c310f91ac6e8614a2f8c170",
     ),
     "square_broad/r03/init_states/square_broad_baseline_uniform_r3.json": (
-        "06fca5f02b814768fb7a8d53889493ba151fb37c938345008a301705834f5f26",
+        "79fa88c419d4267e93dbeda489d39d8f935813c2a1008b9fd90732745d690f70",
         "c6ecb149db469be5a1433bd48632cbee2ded241906a915d8a74c5a6d49e90820",
     ),
 }

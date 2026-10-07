@@ -3,7 +3,7 @@ kind: idql-critic
 trainer: mulligan.real.train.critic
 checkpoint:
   repo: mulligan/real-routing-d2-r03-mulligan-idql-critic
-  revision: 3ca1bc5d9f7d50d86ec7e420f89279d0bca8e2e1
+  revision: 941a880d1354d88a4e3a05407d23c427d87ce5e2
   step: 270000
 retrain: exact
 paper:
@@ -18,26 +18,26 @@ paper:
   - mulligan/real-routing-d2-r00-r05-eval b01 (HiL-IDQL+Mulligan, N=32)
   collections: []
 dataset_revisions:
-  mulligan/real-routing-d2-c01-dagger-mulligan: cba50487f61ebc907e2ffcc9428187c1e9aaf73d
-  mulligan/real-routing-d2-c02-dagger-mulligan: 794203d5fade5f5bb74579f14cb7b1fbeaf61ba5
-  mulligan/real-routing-d2-c03-dagger-mulligan: c031570959bc6b9d90737d10fc4ba2ec3a70c074
-  mulligan/real-routing-d2-c04-dagger-mulligan: 11b168c376d5d172e355e4ea214774b34c23f025
-  mulligan/real-routing-d2-c05-dagger-mulligan: a0a349452a6561555e0b6943a905df15efd21c23
-  mulligan/real-routing-d2-c06-dagger-mulligan: 94db8527052ebda1fa7199bf7dfa5b4e08f7f7fb
-  mulligan/real-routing-d2-velocity-r00-eval-b01-baseline-dp-policy-rollouts: 42a58891d0a1971a16050a6904f866aed73e3e7a
-  mulligan/real-routing-d2-velocity-r00-eval-b01-sobol-dp-policy-rollouts: e11ac736d36f002fb40aadba256d3adaecdefe21
-  mulligan/real-routing-d2-velocity-r01-eval-b01-baseline-dp-policy-rollouts: cbc8ab34db54a94d45280546c5408af8514dec40
-  mulligan/real-routing-d2-velocity-r01-eval-b01-mulligan-dp-policy-rollouts: 5f279e4c12cf714353d8d8b7ce06e94496734f94
-  mulligan/real-routing-d2-velocity-r02-eval-b01-baseline-dp-policy-rollouts: 4b13b691a6f71d0ca508691de4a39446a25773fa
-  mulligan/real-routing-d2-velocity-r02-eval-b01-mulligan-dp-policy-rollouts: 59082e6f6e81f5ae7543013a7abce1004414b672
-  mulligan/real-routing-d2-velocity-r03-eval-b01-baseline-dp-policy-rollouts: dee187470367e27d3e563d1a2390b8e3ccbf6436
-  mulligan/real-routing-d2-velocity-r03-eval-b01-mulligan-dp-policy-rollouts: 488f1847c89b5fc078146bae5f50e8b1ef76d285
-  mulligan/real-routing-d2-velocity-r04-eval-b01-baseline-dp-policy-rollouts: c38fd266c3d083cfe582a6ec3cd3767cb54d259f
-  mulligan/real-routing-d2-velocity-r04-eval-b01-mulligan-dp-policy-rollouts: 69727e9ee3c176df91642fcd40c4a646cf2b3fa3
-  mulligan/real-routing-d2-velocity-r04-eval-b01-mulligan-idql-policy-rollouts: 5b293724bd36685992fe7f5decec7758abd376da
-  mulligan/real-routing-d2-velocity-r05-eval-b01-baseline-dp-policy-rollouts: 846d51ce7ac61438cd05b261471eb9b5c737b98e
-  mulligan/real-routing-d2-velocity-r05-eval-b01-mulligan-dp-policy-rollouts: 5648ddaf8ab6ba5503e5dae21ca1dfa4221a013f
-  mulligan/real-routing-d2-velocity-r05-eval-b01-mulligan-idql-policy-rollouts: 0b79ad71045c20bccf8a266287d081c3825ef4b0
+  mulligan/real-routing-d2-c01-dagger-mulligan: df4cb987e512dbcf1f040a5b8e8164e71ca3b62e
+  mulligan/real-routing-d2-c02-dagger-mulligan: 9602d31be7f110332e38f1132305d3e287f38485
+  mulligan/real-routing-d2-c03-dagger-mulligan: 7f6a0e0870ae390841a1f8e5dd827e9c03740152
+  mulligan/real-routing-d2-c04-dagger-mulligan: b06e5eca3b80dc2dc7e15f0bd481e2811889f40b
+  mulligan/real-routing-d2-c05-dagger-mulligan: b87ac2170ee3a843827ac819f393ec3b79d0b6db
+  mulligan/real-routing-d2-c06-dagger-mulligan: c3d2547928b74256685239a1bdf61e92d321d1ed
+  mulligan/real-routing-d2-velocity-r00-eval-b01-baseline-dp-policy-rollouts: 6bbbb3cac5d8b18f6a9299722a2db45dadb059fc
+  mulligan/real-routing-d2-velocity-r00-eval-b01-sobol-dp-policy-rollouts: c8d3a92818f44f613cffe6b378a82960fcbd1829
+  mulligan/real-routing-d2-velocity-r01-eval-b01-baseline-dp-policy-rollouts: cddbbf6b5779a1a60e1ba12ebfa3a619a17f86eb
+  mulligan/real-routing-d2-velocity-r01-eval-b01-mulligan-dp-policy-rollouts: 8b11063053cb732a302559a33c6d77b5f8c2c567
+  mulligan/real-routing-d2-velocity-r02-eval-b01-baseline-dp-policy-rollouts: ae7db6fa338ac5731b56f3ef4bf764977776b8d7
+  mulligan/real-routing-d2-velocity-r02-eval-b01-mulligan-dp-policy-rollouts: 81df4a641380c996b01fcc0db6fa7c54ad5ab3c2
+  mulligan/real-routing-d2-velocity-r03-eval-b01-baseline-dp-policy-rollouts: 458e02ec29da7102e1a03eaea85a7574964742de
+  mulligan/real-routing-d2-velocity-r03-eval-b01-mulligan-dp-policy-rollouts: 140ec230f52068f1d6fa80c5aa6efebcc6f1be99
+  mulligan/real-routing-d2-velocity-r04-eval-b01-baseline-dp-policy-rollouts: ad99ed5b7ee15cd193a2abae2962ab715589fb17
+  mulligan/real-routing-d2-velocity-r04-eval-b01-mulligan-dp-policy-rollouts: 4960fc5011f6ed48320b34e29bb00306121e0f88
+  mulligan/real-routing-d2-velocity-r04-eval-b01-mulligan-idql-policy-rollouts: 0d153ad879f907c9a2c442caa57f3e8f542099e4
+  mulligan/real-routing-d2-velocity-r05-eval-b01-baseline-dp-policy-rollouts: eec0025f1846e18d006ea59a9b8d6cde7f361a0c
+  mulligan/real-routing-d2-velocity-r05-eval-b01-mulligan-dp-policy-rollouts: edf70cfba9dba983937a1c270910922c0d4f1aa7
+  mulligan/real-routing-d2-velocity-r05-eval-b01-mulligan-idql-policy-rollouts: 58ac1a98705a6233ae9f61e5290a8152bb3eaf36
 dataset_episodes: {}
 args:
   repo-ids:

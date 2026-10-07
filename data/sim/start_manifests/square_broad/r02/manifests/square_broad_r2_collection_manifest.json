@@ -2,10 +2,9 @@
   "experiment": "square_broad_r2",
   "task": "square_broad",
   "collection_dataset": "mulligan/sim-square-broad-c02-dagger-mixed",
-  "init_states_file": "<local-path>/square_broad_r2.json",
-  "manifest_file": "<local-path>/square_broad_r2_manifest.json",
-  "object_qpos_file": "<local-path>/square_broad_r2_object_qpos.npy",
-  "ledger_file": "<local-path>/square_broad_r2_ledger.jsonl",
+  "init_states_file": "data/sim/start_manifests/square_broad/r02/blind_inputs/square_broad_r2.json",
+  "manifest_file": "data/sim/start_manifests/square_broad/r02/blind_inputs/square_broad_r2_manifest.json",
+  "object_qpos_file": "data/sim/start_manifests/square_broad/r02/blind_inputs/square_broad_r2_object_qpos.npy",
   "arms": [
     "baseline_uniform",
     "sobol",
@@ -36,9 +35,9 @@
     ]
   },
   "source_arm_files": {
-    "baseline_uniform": "<local-path>/square_broad_baseline_uniform_r2.json",
-    "sobol": "<local-path>/square_broad_sobol_r2.json",
-    "mulligan": "<local-path>/square_broad_mulligan_r2.json"
+    "baseline_uniform": "data/sim/start_manifests/square_broad/r02/init_states/square_broad_baseline_uniform_r2.json",
+    "sobol": "data/sim/start_manifests/square_broad/r02/init_states/square_broad_sobol_r2.json",
+    "mulligan": "data/sim/start_manifests/square_broad/r02/init_states/square_broad_mulligan_r2.json"
   },
   "split_targets": {
     "no_cf.baseline_uniform": "mulligan/sim-square-broad-c02-dagger-baseline",

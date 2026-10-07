@@ -7006,7 +7006,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c00-teleop-mixed",
    "sidecar": "meta/real_teleop_manifest_split_manifest.jsonl",
-   "sidecar_sha256": "5ea1082f48590d161d488a315c6471248b69f8b00d7fb6148f01c4e865a4e423",
+   "sidecar_sha256": "c1ef8940ce9c03da2a2260af04c0f8b889c51dc4d1433c5aa87b90db5436a39c",
    "source_repo": "mulligan/real-routing-d2-c00-teleop-baseline",
    "state": "complete_source_sidecar_mapping"
   },
@@ -7425,7 +7425,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c00-teleop-mixed",
    "sidecar": "meta/real_teleop_manifest_split_manifest.jsonl",
-   "sidecar_sha256": "1da966b515ff85c3048d77620ab1cf328c906988eef325f8806f1bfb1bb036a0",
+   "sidecar_sha256": "7cf87cad183a98e9a90569e0aa2cbf64ecf0130e2b8fb50da4510ef4038a1b20",
    "source_repo": "mulligan/real-routing-d2-c00-teleop-sobol",
    "state": "complete_source_sidecar_mapping"
   },
@@ -7637,7 +7637,7 @@
    ],
    "parent_repo": "mulligan/real-routing-d2-c00-teleop-mixed",
    "sidecar": "meta/real_teleop_manifest_split_manifest.jsonl",
-   "sidecar_sha256": "f9791f503e43f62147ee42a85763e6dbbea61c84d7f5540111bfc51af6df23be",
+   "sidecar_sha256": "dbebe3ba6ea853d1ed5d27acd0a58b3d4c875f96c22f4a6f78dd116420ec95b0",
    "source_repo": "mulligan/real-routing-d2-c00-teleop-validation",
    "state": "complete_source_sidecar_mapping"
   },

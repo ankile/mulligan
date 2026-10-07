@@ -21,11 +21,11 @@ paper:
 dataset_revisions:
   mulligan/real-marker-d2-c00-teleop-baseline: fca1b80fd41df0eb8cded11d03c8810a5c42f5ba
   mulligan/real-marker-d2-c00-teleop-validation: 66e508d55f3b6820f610b1270f2dd94884f785f5
-  mulligan/real-marker-d2-c01-dagger-baseline: bce514b6ceb3f818cd2d5b49aa08237d02828682
-  mulligan/real-marker-d2-c02-dagger-baseline: 5bc9a56799a13e7e92471315c0ee1d1ef04dd703
-  mulligan/real-marker-d2-c03-dagger-baseline: 9d1b10f372055b1d096ae17a12cacc246980804c
-  mulligan/real-marker-d2-c04-dagger-baseline: ded903b49bb026e43c332cd62a1ec1c34565939b
-  mulligan/real-marker-d2-c05-dagger-baseline: 35d7a5b8a407c4fdc6a622da745473807caa3c19
+  mulligan/real-marker-d2-c01-dagger-baseline: 01134563b9add62154621843b4054bbde34bb822
+  mulligan/real-marker-d2-c02-dagger-baseline: 0686daf8fd52db9343d4494b3064c0af7a7d66ba
+  mulligan/real-marker-d2-c03-dagger-baseline: 2037414f3049817bcb92a6d306acfe2cd54da98b
+  mulligan/real-marker-d2-c04-dagger-baseline: 4b90ffdc954665d421e61ed11cd2888d40d6dd7e
+  mulligan/real-marker-d2-c05-dagger-baseline: bce232476f4eaff4307edc0bb59f1c8d621c3443
 dataset_episodes: {}
 args:
   task: marker_d2

@@ -115,15 +115,15 @@
   "registry_usage_id": "square_d2_r4_heldout_eval_independent_sobol_seed2026070304",
   "within_set_min_periodic_dist": 0.2663339402585916,
   "cross_set_min_periodic_dist_to_prior_manifests": {
-    "<local-path>/square_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json": 0.04265197312751371,
-    "<local-path>/square_d2_r1_promote25_fill25_blind_dagger.json": 0.1064209033053045,
-    "<local-path>/square_d2_r2_promote25_fill25_blind_dagger.json": 0.0826334895762206,
-    "<local-path>/square_d2_r3_promote25_fill25_blind_dagger.json": 0.08205298141769071,
-    "<local-path>/square_d2_r4_promote25_fill25_blind_dagger.json": 0.03520540923009675,
-    "<local-path>/square_d2_r1_eval_heldout_independent_sobol.json": 0.14477725509655331,
-    "<local-path>/square_d2_r2_eval_heldout_independent_sobol.json": 0.051175525895404195,
-    "<local-path>/square_d2_r3_eval_heldout_independent_sobol.json": 0.12989814412068626,
-    "<local-path>/square_d2_final_dp_vs_iql_heldout_independent_sobol.json": 0.12985353065958688
+    "data/real/manifests/square_d2/r00/square_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json": 0.04265197312751371,
+    "data/real/manifests/square_d2/r01/square_d2_r1_promote25_fill25_blind_dagger.json": 0.1064209033053045,
+    "data/real/manifests/square_d2/r02/square_d2_r2_promote25_fill25_blind_dagger.json": 0.0826334895762206,
+    "data/real/manifests/square_d2/r03/square_d2_r3_promote25_fill25_blind_dagger.json": 0.08205298141769071,
+    "data/real/manifests/square_d2/r04/square_d2_r4_promote25_fill25_blind_dagger.json": 0.03520540923009675,
+    "data/real/manifests/square_d2/r01/square_d2_r1_eval_heldout_independent_sobol.json": 0.14477725509655331,
+    "data/real/manifests/square_d2/r02/square_d2_r2_eval_heldout_independent_sobol.json": 0.051175525895404195,
+    "data/real/manifests/square_d2/r03/square_d2_r3_eval_heldout_independent_sobol.json": 0.12989814412068626,
+    "data/real/manifests/square_d2/final/square_d2_final_dp_vs_iql_heldout_independent_sobol.json": 0.12985353065958688
   },
   "states": [
     {

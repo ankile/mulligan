@@ -13,11 +13,11 @@ paper:
   - App. B.1
 eval_dataset:
   repo: mulligan/real-marker-d2-r00-eval
-  revision: 37ee00a122d5999b60da094948414664317f105d
+  revision: 192cadfe994908d7dc04602343813356b2af3876
 sessions:
 - session_id: b01
   seed: 2026062103
-  manifest_sha256: 228160d76de2e9e352a581948f93196e4461c8236d03e9a770f66756e05d275a
+  manifest_sha256: fba63618712964a3cff7dc8d86e728e5d0ea07d1dd256a3cb02009586d6e5cf4
   manifest: data/real/manifests/marker_d2/r00/marker_d2_r0_eval_heldout_sobol50.json
   n_starts: 50
   arms:

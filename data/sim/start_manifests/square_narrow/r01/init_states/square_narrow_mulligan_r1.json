@@ -505,7 +505,6 @@
     "task": "square_narrow",
     "source": "mulligan",
     "n_states": 100,
-    "min_pairwise_distance": 0.004108136040090516,
-    "generator": "<local-path>/make_square_narrow_r1_inputs.py"
+    "min_pairwise_distance": 0.004108136040090516
   }
 }

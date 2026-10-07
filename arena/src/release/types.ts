@@ -2,7 +2,7 @@ export type Policy = {
   id: string; round: string; method: string; arm: string; modelId: string;
   rate: number; lo: number; hi: number; successes: number | null; episodes: number | null;
   provenance: string; blocks: string[];
-  seeds?: { seed: number; rate: number; sourcePath: string; artifact?: string; dataUrl?: string }[];
+  seeds?: { seed: number; rate: number; artifact?: string; dataUrl?: string }[];
 };
 export type Result = {
   policyId: string; episode: number; success: boolean; outcome: string;
@@ -13,7 +13,7 @@ export type Result = {
 };
 export type Block = {
   id: string; round: string; dataset: string; source: string; revision: string;
-  fps: number; cameras: string[]; reviewedEpisodes: number | null; sourcePath: string;
+  fps: number; cameras: string[]; reviewedEpisodes: number | null;
   /** Session of the round dataset (fixed release block ID) and its readable label. */
   session?: string; roundDataset?: string; label?: string; date?: string; seed?: number;
   /** First/last Sobol start of the session, 1-based, as in the paper's session table. */
@@ -35,7 +35,7 @@ export type Dataset = {
 };
 export type Release = {
   schemaVersion: number; version: string; state: string; tasks: Task[];
-  datasets: Dataset[]; selectionSha256: string; sourceSha256: Record<string, string>;
+  datasets: Dataset[]; selectionSha256: string;
 };
 
 export function validateRelease(data: Release): Release {

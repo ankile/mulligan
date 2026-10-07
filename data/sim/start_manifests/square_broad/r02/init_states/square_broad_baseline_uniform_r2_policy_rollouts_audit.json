@@ -1111,7 +1111,7 @@
     "max_steps": 400,
     "num_envs": 10,
     "policy_type": "idql",
-    "initial_states_json_file": "<local-path>/square_broad_baseline_uniform_r2_policy_rollout.json",
+    "initial_states_json_file": "data/sim/start_manifests/square_broad/r02/rollout_inputs/square_broad_baseline_uniform_r2_policy_rollout.json",
     "initial_object_qpos_file": null
   }
 }

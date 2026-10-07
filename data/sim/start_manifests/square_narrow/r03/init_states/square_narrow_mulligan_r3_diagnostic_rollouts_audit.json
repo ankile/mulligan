@@ -1011,7 +1011,6 @@
     "max_steps": 400,
     "num_envs": 10,
     "policy_type": "idql",
-    "initial_states_json_file": "<local-path>/square_narrow_mulligan_r3_diagnostic_sobol_500_599.json",
     "initial_object_qpos_file": null
   }
 }

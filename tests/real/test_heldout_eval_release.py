@@ -42,9 +42,7 @@ def _session(repo: str, session_id: str) -> dict:
 
 
 def _released_arms(repo: str, session_id: str) -> list[dict]:
-    return [
-        p for p in LOCK[repo]["policies"] if p["session_id"] == session_id and not p.get("exclude")
-    ]
+    return [p for p in LOCK[repo]["policies"] if p["session_id"] == session_id]
 
 
 def test_layout_assumptions():

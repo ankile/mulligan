@@ -510,7 +510,7 @@
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "2cfaeb434679704834a9165f25e1f54dbdfa99e0",
+          "revision": "fe2e6872474dbb475b14e2612038f627a405659c",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -588,7 +588,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-narrow-r00-baseline-idql@61a72c303eed96ad7117cdb7eb7ca33a8e714040/seed-1",
         "starts": "data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_baseline_uniform_r1.json",
-        "starts_sha256": "d5685e32297ec028a7fc9a36fe868505f5a678757bf9b2b1ae00dcc31aea5ff3",
+        "starts_sha256": "981402807c63dd50b61bae7fc6c6da4d2060af3e26f4c48545e143db3109887a",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -628,7 +628,7 @@
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-iql-n32-policy-rollouts",
-          "revision": "b0ffde907dd65c067f73d5ef22e07415c4370ba4",
+          "revision": "6800d10fdadf1e80f6f8a482efe9575cf028f49e",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -791,7 +791,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-narrow-r00-baseline-idql@61a72c303eed96ad7117cdb7eb7ca33a8e714040/seed-1",
         "starts": "data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_baseline_uniform_r1.json",
-        "starts_sha256": "d5685e32297ec028a7fc9a36fe868505f5a678757bf9b2b1ae00dcc31aea5ff3",
+        "starts_sha256": "981402807c63dd50b61bae7fc6c6da4d2060af3e26f4c48545e143db3109887a",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -831,7 +831,7 @@
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-iql-n32-policy-rollouts",
-          "revision": "b0ffde907dd65c067f73d5ef22e07415c4370ba4",
+          "revision": "6800d10fdadf1e80f6f8a482efe9575cf028f49e",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -994,7 +994,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-narrow-r00-baseline-idql@61a72c303eed96ad7117cdb7eb7ca33a8e714040/seed-1",
         "starts": "data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_baseline_uniform_r1.json",
-        "starts_sha256": "d5685e32297ec028a7fc9a36fe868505f5a678757bf9b2b1ae00dcc31aea5ff3",
+        "starts_sha256": "981402807c63dd50b61bae7fc6c6da4d2060af3e26f4c48545e143db3109887a",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -1034,7 +1034,7 @@
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "2cfaeb434679704834a9165f25e1f54dbdfa99e0",
+          "revision": "fe2e6872474dbb475b14e2612038f627a405659c",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -1112,7 +1112,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-narrow-r00-baseline-idql@61a72c303eed96ad7117cdb7eb7ca33a8e714040/seed-1",
         "starts": "data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_baseline_uniform_r1.json",
-        "starts_sha256": "d5685e32297ec028a7fc9a36fe868505f5a678757bf9b2b1ae00dcc31aea5ff3",
+        "starts_sha256": "981402807c63dd50b61bae7fc6c6da4d2060af3e26f4c48545e143db3109887a",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -2342,13 +2342,13 @@
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "2cfaeb434679704834a9165f25e1f54dbdfa99e0",
+          "revision": "fe2e6872474dbb475b14e2612038f627a405659c",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-auto-filtered-bc-n1-policy-rollouts",
-          "revision": "55915a3a57c6d3da03f2e8f0ba9661bdd9eb360c",
+          "revision": "3913e025d952022c18bc384ca2f4d933d40f460b",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -2427,7 +2427,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-narrow-r01-auto-filtered-bc-n1-idql@ffa4e2dcd6f88ce30c77ede6b48c2e96788aab6b/seed-1",
         "starts": "data/sim/start_manifests/square_narrow/r02/init_states/square_narrow_baseline_uniform_r2.json",
-        "starts_sha256": "01ccdf92fee7e7e7dd605fb45f9a04c8b417af989b4e1e0678dd2d383c2643bb",
+        "starts_sha256": "c833db028871725d1658f5b3c964694429c9c167b340ff509feae8f81cddf857",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -2467,13 +2467,13 @@
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-iql-n32-policy-rollouts",
-          "revision": "b0ffde907dd65c067f73d5ef22e07415c4370ba4",
+          "revision": "6800d10fdadf1e80f6f8a482efe9575cf028f49e",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-auto-iql-n32-policy-rollouts",
-          "revision": "d964438e57658c89705bfb349570a461a55dc739",
+          "revision": "468ae9a8edbca4e83ab06b9e63d5f420f80def1b",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -2637,7 +2637,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-narrow-r01-auto-iql-n32-idql@4bf4a0fa98a7c0d934eed01d03576d6f4ba6b6fe/seed-1",
         "starts": "data/sim/start_manifests/square_narrow/r02/init_states/square_narrow_baseline_uniform_r2.json",
-        "starts_sha256": "01ccdf92fee7e7e7dd605fb45f9a04c8b417af989b4e1e0678dd2d383c2643bb",
+        "starts_sha256": "c833db028871725d1658f5b3c964694429c9c167b340ff509feae8f81cddf857",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -2677,13 +2677,13 @@
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-iql-n32-policy-rollouts",
-          "revision": "b0ffde907dd65c067f73d5ef22e07415c4370ba4",
+          "revision": "6800d10fdadf1e80f6f8a482efe9575cf028f49e",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-auto-iql-success-bc-n32-policy-rollouts",
-          "revision": "591f93c0f8054eda58b66819ca46472fc9552a85",
+          "revision": "4aeba7702a3df6ed5c483eb7798707e1a1c16e92",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -2846,7 +2846,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-narrow-r01-auto-iql-success-bc-n32-idql@f2f60260e8e517ebec69db33d36d2c05c01e6aae/seed-1",
         "starts": "data/sim/start_manifests/square_narrow/r02/init_states/square_narrow_baseline_uniform_r2.json",
-        "starts_sha256": "01ccdf92fee7e7e7dd605fb45f9a04c8b417af989b4e1e0678dd2d383c2643bb",
+        "starts_sha256": "c833db028871725d1658f5b3c964694429c9c167b340ff509feae8f81cddf857",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -2886,13 +2886,13 @@
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "2cfaeb434679704834a9165f25e1f54dbdfa99e0",
+          "revision": "fe2e6872474dbb475b14e2612038f627a405659c",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-auto-plain-il-n1-policy-rollouts",
-          "revision": "6286d20efdf2cdd39d618658ae2f384b2674c608",
+          "revision": "dd3ba581d352884231e21f2a69316ab40d06bfc0",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -2971,7 +2971,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-narrow-r01-auto-plain-il-n1-idql@bc83ffa79f00b81e00cf3de36be70c3c3f935411/seed-1",
         "starts": "data/sim/start_manifests/square_narrow/r02/init_states/square_narrow_baseline_uniform_r2.json",
-        "starts_sha256": "01ccdf92fee7e7e7dd605fb45f9a04c8b417af989b4e1e0678dd2d383c2643bb",
+        "starts_sha256": "c833db028871725d1658f5b3c964694429c9c167b340ff509feae8f81cddf857",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -3020,7 +3020,7 @@
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-dagger-baseline",
-          "revision": "85357acf05dc9f18c5229632bed2b7e1c621c22d",
+          "revision": "b35457653143a19c932d3102715313f5299e3f73",
           "role": "training-view",
           "episodes": 100
         },
@@ -3230,7 +3230,7 @@
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-dagger-mulligan-no-cf",
-          "revision": "47aadbc97528a8de6f7d31af2628987cab922060",
+          "revision": "1c760f2d437018aca2a124f96c29fd612a6d8d99",
           "role": "training-view",
           "episodes": 100
         },
@@ -3443,7 +3443,7 @@
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-dagger-mulligan",
-          "revision": "18d90f2751d627029af5bb31348f05d2110d82aa",
+          "revision": "a313faa86ab1eadbaee13e6ef95da38090418d81",
           "role": "training-view",
           "episodes": 100
         },
@@ -3646,19 +3646,19 @@
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "2cfaeb434679704834a9165f25e1f54dbdfa99e0",
+          "revision": "fe2e6872474dbb475b14e2612038f627a405659c",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-auto-filtered-bc-n1-policy-rollouts",
-          "revision": "55915a3a57c6d3da03f2e8f0ba9661bdd9eb360c",
+          "revision": "3913e025d952022c18bc384ca2f4d933d40f460b",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c03-auto-filtered-bc-n1-policy-rollouts",
-          "revision": "5cb449d2ffaecd4fa68fa295f8cfff438a342af5",
+          "revision": "22faa569124a2429a71d4a56cc5033c9e0e6cdce",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -3736,7 +3736,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-narrow-r02-auto-filtered-bc-n1-idql@f9057d04c4ab2370eda530442fb8d08459eb9073/seed-1",
         "starts": "data/sim/start_manifests/square_narrow/r03/init_states/square_narrow_baseline_uniform_r3.json",
-        "starts_sha256": "7f1782f1e08c66c34a8b263e950afbc3d8ac267a37302c1534689d948b1397f1",
+        "starts_sha256": "f14b32ebfd0fa0a82fcd4dbab08b73e872a75855cbc27f143a5a4dac4978dfb0",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -3776,19 +3776,19 @@
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-iql-n32-policy-rollouts",
-          "revision": "b0ffde907dd65c067f73d5ef22e07415c4370ba4",
+          "revision": "6800d10fdadf1e80f6f8a482efe9575cf028f49e",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-auto-iql-n32-policy-rollouts",
-          "revision": "d964438e57658c89705bfb349570a461a55dc739",
+          "revision": "468ae9a8edbca4e83ab06b9e63d5f420f80def1b",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c03-auto-iql-n32-policy-rollouts",
-          "revision": "d562763d72da15ed256ba85e8b97c2bb570cd17d",
+          "revision": "20a51e29266ca956334ab7b3bf092e38f946316d",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -3951,7 +3951,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-narrow-r02-auto-iql-n32-idql@c7726ae9505cab889b7f98bd2e4256b4239726d9/seed-1",
         "starts": "data/sim/start_manifests/square_narrow/r03/init_states/square_narrow_baseline_uniform_r3.json",
-        "starts_sha256": "7f1782f1e08c66c34a8b263e950afbc3d8ac267a37302c1534689d948b1397f1",
+        "starts_sha256": "f14b32ebfd0fa0a82fcd4dbab08b73e872a75855cbc27f143a5a4dac4978dfb0",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -3991,19 +3991,19 @@
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-iql-n32-policy-rollouts",
-          "revision": "b0ffde907dd65c067f73d5ef22e07415c4370ba4",
+          "revision": "6800d10fdadf1e80f6f8a482efe9575cf028f49e",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-auto-iql-success-bc-n32-policy-rollouts",
-          "revision": "591f93c0f8054eda58b66819ca46472fc9552a85",
+          "revision": "4aeba7702a3df6ed5c483eb7798707e1a1c16e92",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c03-auto-iql-success-bc-n32-policy-rollouts",
-          "revision": "265ca59d34fb8345782f0144a7955235869cc164",
+          "revision": "760bd38592bdb83fb2d38d95c6e116a23bbcc9b3",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -4166,7 +4166,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-narrow-r02-auto-iql-success-bc-n32-idql@b98899e59b93cc763a5ddd44dbda8f32dde7bc68/seed-1",
         "starts": "data/sim/start_manifests/square_narrow/r03/init_states/square_narrow_baseline_uniform_r3.json",
-        "starts_sha256": "7f1782f1e08c66c34a8b263e950afbc3d8ac267a37302c1534689d948b1397f1",
+        "starts_sha256": "f14b32ebfd0fa0a82fcd4dbab08b73e872a75855cbc27f143a5a4dac4978dfb0",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -4206,19 +4206,19 @@
         },
         {
           "repo": "mulligan/sim-square-narrow-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "2cfaeb434679704834a9165f25e1f54dbdfa99e0",
+          "revision": "fe2e6872474dbb475b14e2612038f627a405659c",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-auto-plain-il-n1-policy-rollouts",
-          "revision": "6286d20efdf2cdd39d618658ae2f384b2674c608",
+          "revision": "dd3ba581d352884231e21f2a69316ab40d06bfc0",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c03-auto-plain-il-n1-policy-rollouts",
-          "revision": "f019978f50799c7bdf2bd2c95756f08210eaf2d4",
+          "revision": "a2955d95e5fbd61a5735efce3337bead46956954",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -4296,7 +4296,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-narrow-r02-auto-plain-il-n1-idql@9266354a67812a323f62c2dd094a03a3aa8f3103/seed-1",
         "starts": "data/sim/start_manifests/square_narrow/r03/init_states/square_narrow_baseline_uniform_r3.json",
-        "starts_sha256": "7f1782f1e08c66c34a8b263e950afbc3d8ac267a37302c1534689d948b1397f1",
+        "starts_sha256": "f14b32ebfd0fa0a82fcd4dbab08b73e872a75855cbc27f143a5a4dac4978dfb0",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -4343,13 +4343,13 @@
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-dagger-baseline",
-          "revision": "85357acf05dc9f18c5229632bed2b7e1c621c22d",
+          "revision": "b35457653143a19c932d3102715313f5299e3f73",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c03-dagger-baseline",
-          "revision": "e4b8d791801643fc1b58e3e1fba53f4b11d43778",
+          "revision": "e9b1dd47b42d9858ab31c6de51386bf2ebd0164f",
           "role": "training-view",
           "episodes": 100
         },
@@ -4561,13 +4561,13 @@
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-dagger-baseline",
-          "revision": "85357acf05dc9f18c5229632bed2b7e1c621c22d",
+          "revision": "b35457653143a19c932d3102715313f5299e3f73",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c03-dagger-baseline",
-          "revision": "e4b8d791801643fc1b58e3e1fba53f4b11d43778",
+          "revision": "e9b1dd47b42d9858ab31c6de51386bf2ebd0164f",
           "role": "training-view",
           "episodes": 100
         },
@@ -4783,13 +4783,13 @@
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-dagger-mulligan-no-cf",
-          "revision": "47aadbc97528a8de6f7d31af2628987cab922060",
+          "revision": "1c760f2d437018aca2a124f96c29fd612a6d8d99",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c03-dagger-mulligan-no-cf",
-          "revision": "1ca42c755220db03cd800c0e611c3cf3ffa9b2c5",
+          "revision": "14c8b7bdc05d4a471365ddf903ddd44947e0ba6a",
           "role": "training-view",
           "episodes": 100
         },
@@ -5009,13 +5009,13 @@
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-dagger-mulligan",
-          "revision": "18d90f2751d627029af5bb31348f05d2110d82aa",
+          "revision": "a313faa86ab1eadbaee13e6ef95da38090418d81",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c03-dagger-mulligan",
-          "revision": "02b3b82995e7f76af9d505decc617d9b56621f44",
+          "revision": "946b716f121cf8e131bc284dede14dede9522b0a",
           "role": "training-view",
           "episodes": 100
         },
@@ -5231,13 +5231,13 @@
         },
         {
           "repo": "mulligan/sim-square-narrow-c02-dagger-mulligan",
-          "revision": "18d90f2751d627029af5bb31348f05d2110d82aa",
+          "revision": "a313faa86ab1eadbaee13e6ef95da38090418d81",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-narrow-c03-dagger-mulligan",
-          "revision": "02b3b82995e7f76af9d505decc617d9b56621f44",
+          "revision": "946b716f121cf8e131bc284dede14dede9522b0a",
           "role": "training-view",
           "episodes": 100
         },
@@ -6262,7 +6262,7 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "b5e86cb7df80be4b14062c08e8bc595f8e9fd0d7",
+          "revision": "343a51a7a3f19193c266472bca45d61a70cbf72e",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -6340,7 +6340,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-broad-r00-baseline-idql@7412e69eb71dede421e639bbcd6fa93a4bee0e7a/seed-1",
         "starts": "data/sim/start_manifests/square_broad/r01/init_states/square_broad_baseline_uniform_r1.json",
-        "starts_sha256": "d850dcac5deee55c387a3aee5b78014ccb313eaaba499264f46f5f760a66e055",
+        "starts_sha256": "2c24475eebef75fd84835acdb273fa57409dd1f2a7eb220fb9600dca78a0cd2d",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -6380,7 +6380,7 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-iql-n32-policy-rollouts",
-          "revision": "7e4faa0eac60473023cfacc4b5a314a58857b80c",
+          "revision": "9a0a723e3b90c28e01c3ba2e89d8fa9bda54ccfe",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -6543,7 +6543,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-broad-r00-baseline-idql@7412e69eb71dede421e639bbcd6fa93a4bee0e7a/seed-1",
         "starts": "data/sim/start_manifests/square_broad/r01/init_states/square_broad_baseline_uniform_r1.json",
-        "starts_sha256": "d850dcac5deee55c387a3aee5b78014ccb313eaaba499264f46f5f760a66e055",
+        "starts_sha256": "2c24475eebef75fd84835acdb273fa57409dd1f2a7eb220fb9600dca78a0cd2d",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -6583,7 +6583,7 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-iql-n32-policy-rollouts",
-          "revision": "7e4faa0eac60473023cfacc4b5a314a58857b80c",
+          "revision": "9a0a723e3b90c28e01c3ba2e89d8fa9bda54ccfe",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -6746,7 +6746,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-broad-r00-baseline-idql@7412e69eb71dede421e639bbcd6fa93a4bee0e7a/seed-1",
         "starts": "data/sim/start_manifests/square_broad/r01/init_states/square_broad_baseline_uniform_r1.json",
-        "starts_sha256": "d850dcac5deee55c387a3aee5b78014ccb313eaaba499264f46f5f760a66e055",
+        "starts_sha256": "2c24475eebef75fd84835acdb273fa57409dd1f2a7eb220fb9600dca78a0cd2d",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -6786,7 +6786,7 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "b5e86cb7df80be4b14062c08e8bc595f8e9fd0d7",
+          "revision": "343a51a7a3f19193c266472bca45d61a70cbf72e",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -6864,7 +6864,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-broad-r00-baseline-idql@7412e69eb71dede421e639bbcd6fa93a4bee0e7a/seed-1",
         "starts": "data/sim/start_manifests/square_broad/r01/init_states/square_broad_baseline_uniform_r1.json",
-        "starts_sha256": "d850dcac5deee55c387a3aee5b78014ccb313eaaba499264f46f5f760a66e055",
+        "starts_sha256": "2c24475eebef75fd84835acdb273fa57409dd1f2a7eb220fb9600dca78a0cd2d",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -6907,7 +6907,7 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-baseline",
-          "revision": "eefebaee175f4efd28d5a5fb94c0ee29ad3cad2e",
+          "revision": "2d7f945f32f547e44da017eb4fb8347d1f33229b",
           "role": "training-view",
           "episodes": 100
         },
@@ -7105,7 +7105,7 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-baseline",
-          "revision": "eefebaee175f4efd28d5a5fb94c0ee29ad3cad2e",
+          "revision": "2d7f945f32f547e44da017eb4fb8347d1f33229b",
           "role": "training-view",
           "episodes": 100
         },
@@ -7303,7 +7303,7 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-mulligan-no-cf",
-          "revision": "d54a3a757ce243e5a55e849a9aab19a11169d005",
+          "revision": "bbc9c10c5591b5ee23e72d5719c314e9b6b44f63",
           "role": "training-view",
           "episodes": 100
         },
@@ -7504,7 +7504,7 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-mulligan",
-          "revision": "3cdddb12f24a0d0119c6a7ec66f1bd9e43f7cb3d",
+          "revision": "530d80e4f21f03f0f907cd04062ac754383ba645",
           "role": "training-view",
           "episodes": 100
         },
@@ -7701,7 +7701,7 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-sobol-with-cf",
-          "revision": "e0aa8185daa2534fbc073d9e261488e760e3e625",
+          "revision": "5b2ca658ff670ee69cd47b826fe8fbdfa63c4210",
           "role": "training-view",
           "episodes": 100
         },
@@ -7899,7 +7899,7 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-sobol-no-cf",
-          "revision": "d39c2b577bc634ac42b33c6fc12fbbb87d8ae2e9",
+          "revision": "b68bd122588615101fae93a3106155890068f7d4",
           "role": "training-view",
           "episodes": 100
         },
@@ -8096,13 +8096,13 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "b5e86cb7df80be4b14062c08e8bc595f8e9fd0d7",
+          "revision": "343a51a7a3f19193c266472bca45d61a70cbf72e",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-auto-filtered-bc-n1-policy-rollouts",
-          "revision": "a0b776edf319240ef1b51571f4f8dbfa6acab7bd",
+          "revision": "efdc15402ef46b2c59babef06242191803f77f5f",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -8180,7 +8180,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-broad-r01-auto-filtered-bc-n1-idql@8ada6b43e8e5703738328212c08e43f130bc6a4a/seed-1",
         "starts": "data/sim/start_manifests/square_broad/r02/init_states/square_broad_baseline_uniform_r2.json",
-        "starts_sha256": "aa5d80b112857c0d786b378ec90a024012529acd52d64c6a091c71fef9ed9047",
+        "starts_sha256": "12ed465b0edccda01ad7b7676be3103dee0a5fd635e4de0ba397874c0de11d2b",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -8220,13 +8220,13 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-iql-n32-policy-rollouts",
-          "revision": "7e4faa0eac60473023cfacc4b5a314a58857b80c",
+          "revision": "9a0a723e3b90c28e01c3ba2e89d8fa9bda54ccfe",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-auto-iql-n32-policy-rollouts",
-          "revision": "492ceca209c1c4bc500ef79cfbbdcf21d38936e0",
+          "revision": "7821b0459b5599ac183a819779b44ba346dd25d4",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -8389,7 +8389,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-broad-r01-auto-iql-n32-idql@c9d5667a459288785d6ae67619bbe726b0d93cff/seed-1",
         "starts": "data/sim/start_manifests/square_broad/r02/init_states/square_broad_baseline_uniform_r2.json",
-        "starts_sha256": "aa5d80b112857c0d786b378ec90a024012529acd52d64c6a091c71fef9ed9047",
+        "starts_sha256": "12ed465b0edccda01ad7b7676be3103dee0a5fd635e4de0ba397874c0de11d2b",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -8429,13 +8429,13 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-iql-n32-policy-rollouts",
-          "revision": "7e4faa0eac60473023cfacc4b5a314a58857b80c",
+          "revision": "9a0a723e3b90c28e01c3ba2e89d8fa9bda54ccfe",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-auto-iql-success-bc-n32-policy-rollouts",
-          "revision": "42e34663c5da279be62480abadef445e324846c7",
+          "revision": "b3e64c16968dc9116fac11887e367c293efc19f7",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -8598,7 +8598,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-broad-r01-auto-iql-success-bc-n32-idql@7d0c3cd3f2ddb7c283e3581324b3774110fe0087/seed-1",
         "starts": "data/sim/start_manifests/square_broad/r02/init_states/square_broad_baseline_uniform_r2.json",
-        "starts_sha256": "aa5d80b112857c0d786b378ec90a024012529acd52d64c6a091c71fef9ed9047",
+        "starts_sha256": "12ed465b0edccda01ad7b7676be3103dee0a5fd635e4de0ba397874c0de11d2b",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -8638,13 +8638,13 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "b5e86cb7df80be4b14062c08e8bc595f8e9fd0d7",
+          "revision": "343a51a7a3f19193c266472bca45d61a70cbf72e",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-auto-plain-il-n1-policy-rollouts",
-          "revision": "edab550d4d5000f637746efa555e9cacbf917b21",
+          "revision": "7ff7b370c25f1e7d05a78ada22f6224f21c855d8",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -8722,7 +8722,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-broad-r01-auto-plain-il-n1-idql@31abc996280c59d01712ccf5ad50707ddff9b192/seed-1",
         "starts": "data/sim/start_manifests/square_broad/r02/init_states/square_broad_baseline_uniform_r2.json",
-        "starts_sha256": "aa5d80b112857c0d786b378ec90a024012529acd52d64c6a091c71fef9ed9047",
+        "starts_sha256": "12ed465b0edccda01ad7b7676be3103dee0a5fd635e4de0ba397874c0de11d2b",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -8765,13 +8765,13 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-baseline",
-          "revision": "eefebaee175f4efd28d5a5fb94c0ee29ad3cad2e",
+          "revision": "2d7f945f32f547e44da017eb4fb8347d1f33229b",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-dagger-baseline",
-          "revision": "5e47eaec8a4d644ce82fce446604f20ca7998737",
+          "revision": "9a86f1bcfef4368842471f3bbbf3582c7a7253ca",
           "role": "training-view",
           "episodes": 100
         },
@@ -8975,13 +8975,13 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-mulligan-no-cf",
-          "revision": "d54a3a757ce243e5a55e849a9aab19a11169d005",
+          "revision": "bbc9c10c5591b5ee23e72d5719c314e9b6b44f63",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-dagger-mulligan-no-cf",
-          "revision": "0bca68a5408a19a2a6a0315cd71d824e269924e3",
+          "revision": "c5a921d52d6ef770e952f37959ae005341246009",
           "role": "training-view",
           "episodes": 100
         },
@@ -9188,13 +9188,13 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-mulligan",
-          "revision": "3cdddb12f24a0d0119c6a7ec66f1bd9e43f7cb3d",
+          "revision": "530d80e4f21f03f0f907cd04062ac754383ba645",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-dagger-mulligan",
-          "revision": "699828afa35db41b3f3a00e43787feb36f59f00c",
+          "revision": "5e8991a6c266892f37751f6d1732c3728c062903",
           "role": "training-view",
           "episodes": 100
         },
@@ -9398,13 +9398,13 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-sobol-with-cf",
-          "revision": "e0aa8185daa2534fbc073d9e261488e760e3e625",
+          "revision": "5b2ca658ff670ee69cd47b826fe8fbdfa63c4210",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-dagger-sobol-with-cf",
-          "revision": "20cdcf37370d6240dd515087231fe77b78bd31e9",
+          "revision": "45c818887d5ad2af2c3512c53f1ab1ef69e3e54d",
           "role": "training-view",
           "episodes": 100
         },
@@ -9608,13 +9608,13 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-sobol-no-cf",
-          "revision": "d39c2b577bc634ac42b33c6fc12fbbb87d8ae2e9",
+          "revision": "b68bd122588615101fae93a3106155890068f7d4",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-dagger-sobol-no-cf",
-          "revision": "59739ac38866b86137b03663e7ad9ab1738a1e47",
+          "revision": "5e3b5448baeec7f4a3b0d14a43779b51aac9c2dc",
           "role": "training-view",
           "episodes": 100
         },
@@ -9817,19 +9817,19 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "b5e86cb7df80be4b14062c08e8bc595f8e9fd0d7",
+          "revision": "343a51a7a3f19193c266472bca45d61a70cbf72e",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-auto-filtered-bc-n1-policy-rollouts",
-          "revision": "a0b776edf319240ef1b51571f4f8dbfa6acab7bd",
+          "revision": "efdc15402ef46b2c59babef06242191803f77f5f",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c03-auto-filtered-bc-n1-policy-rollouts",
-          "revision": "2321b0b774d1f7e0d3bbda906ec13f40f9eccede",
+          "revision": "bf773402aee59dded341ac2f81e9a4d9a701da90",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -9907,7 +9907,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-broad-r02-auto-filtered-bc-n1-idql@c7a91e8f6e8a08e6fa9c5fb3bb6fbf62d585a8e7/seed-1",
         "starts": "data/sim/start_manifests/square_broad/r03/init_states/square_broad_baseline_uniform_r3.json",
-        "starts_sha256": "06fca5f02b814768fb7a8d53889493ba151fb37c938345008a301705834f5f26",
+        "starts_sha256": "79fa88c419d4267e93dbeda489d39d8f935813c2a1008b9fd90732745d690f70",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -9947,19 +9947,19 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-iql-n32-policy-rollouts",
-          "revision": "7e4faa0eac60473023cfacc4b5a314a58857b80c",
+          "revision": "9a0a723e3b90c28e01c3ba2e89d8fa9bda54ccfe",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-auto-iql-n32-policy-rollouts",
-          "revision": "492ceca209c1c4bc500ef79cfbbdcf21d38936e0",
+          "revision": "7821b0459b5599ac183a819779b44ba346dd25d4",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c03-auto-iql-n32-policy-rollouts",
-          "revision": "9b6b16f57211b6caf614148333a4ee41426b65e2",
+          "revision": "ed37e9e8e0798c50d15e425a6fe204cdfb37e678",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -10122,7 +10122,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-broad-r02-auto-iql-n32-idql@344097d394fe5154821abd257d7b638d8cd9de63/seed-1",
         "starts": "data/sim/start_manifests/square_broad/r03/init_states/square_broad_baseline_uniform_r3.json",
-        "starts_sha256": "06fca5f02b814768fb7a8d53889493ba151fb37c938345008a301705834f5f26",
+        "starts_sha256": "79fa88c419d4267e93dbeda489d39d8f935813c2a1008b9fd90732745d690f70",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -10162,19 +10162,19 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-iql-n32-policy-rollouts",
-          "revision": "7e4faa0eac60473023cfacc4b5a314a58857b80c",
+          "revision": "9a0a723e3b90c28e01c3ba2e89d8fa9bda54ccfe",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-auto-iql-success-bc-n32-policy-rollouts",
-          "revision": "42e34663c5da279be62480abadef445e324846c7",
+          "revision": "b3e64c16968dc9116fac11887e367c293efc19f7",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c03-auto-iql-success-bc-n32-policy-rollouts",
-          "revision": "67b3ce70d223336c60157359c8731579dbeec94b",
+          "revision": "cbfdad0ae82ca047f64c2cb2ec09eb40fe90c5a1",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -10337,7 +10337,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-broad-r02-auto-iql-success-bc-n32-idql@7609e5da13f3781d903495c9b8f3a90a7719f0f5/seed-1",
         "starts": "data/sim/start_manifests/square_broad/r03/init_states/square_broad_baseline_uniform_r3.json",
-        "starts_sha256": "06fca5f02b814768fb7a8d53889493ba151fb37c938345008a301705834f5f26",
+        "starts_sha256": "79fa88c419d4267e93dbeda489d39d8f935813c2a1008b9fd90732745d690f70",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -10377,19 +10377,19 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-auto-bc-n1-shared-policy-rollouts",
-          "revision": "b5e86cb7df80be4b14062c08e8bc595f8e9fd0d7",
+          "revision": "343a51a7a3f19193c266472bca45d61a70cbf72e",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-auto-plain-il-n1-policy-rollouts",
-          "revision": "edab550d4d5000f637746efa555e9cacbf917b21",
+          "revision": "7ff7b370c25f1e7d05a78ada22f6224f21c855d8",
           "role": "policy-rollouts",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c03-auto-plain-il-n1-policy-rollouts",
-          "revision": "c82bf914868d658c041a32c3c48b4085e8802d3a",
+          "revision": "5c8792209e751fc4c067431cb864156cbb21d9fc",
           "role": "policy-rollouts",
           "episodes": 100
         }
@@ -10467,7 +10467,7 @@
       "autonomous_collection": {
         "predecessor": "hf://mulligan/sim-square-broad-r02-auto-plain-il-n1-idql@2e480ba13b14ecf78db0ab0c54b7a0b49420e008/seed-1",
         "starts": "data/sim/start_manifests/square_broad/r03/init_states/square_broad_baseline_uniform_r3.json",
-        "starts_sha256": "06fca5f02b814768fb7a8d53889493ba151fb37c938345008a301705834f5f26",
+        "starts_sha256": "79fa88c419d4267e93dbeda489d39d8f935813c2a1008b9fd90732745d690f70",
         "num_episodes": 100,
         "num_envs": 10,
         "max_steps": 400,
@@ -10510,19 +10510,19 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-baseline",
-          "revision": "eefebaee175f4efd28d5a5fb94c0ee29ad3cad2e",
+          "revision": "2d7f945f32f547e44da017eb4fb8347d1f33229b",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-dagger-baseline",
-          "revision": "5e47eaec8a4d644ce82fce446604f20ca7998737",
+          "revision": "9a86f1bcfef4368842471f3bbbf3582c7a7253ca",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c03-dagger-baseline",
-          "revision": "6ba04eb3dd58c896cec1857d6262cff2b66bfed6",
+          "revision": "880e5ba4904024d10311fc8df9a53c583762829f",
           "role": "training-view",
           "episodes": 100
         },
@@ -10732,19 +10732,19 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-mulligan-no-cf",
-          "revision": "d54a3a757ce243e5a55e849a9aab19a11169d005",
+          "revision": "bbc9c10c5591b5ee23e72d5719c314e9b6b44f63",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-dagger-mulligan-no-cf",
-          "revision": "0bca68a5408a19a2a6a0315cd71d824e269924e3",
+          "revision": "c5a921d52d6ef770e952f37959ae005341246009",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c03-dagger-mulligan-no-cf",
-          "revision": "a0da70adc23c48f2d7fa7994fea5914bd47de42f",
+          "revision": "ec1c943c0e52b5e9c8331ae3fa766b9c43222ca3",
           "role": "training-view",
           "episodes": 100
         },
@@ -10958,19 +10958,19 @@
         },
         {
           "repo": "mulligan/sim-square-broad-c01-dagger-mulligan",
-          "revision": "3cdddb12f24a0d0119c6a7ec66f1bd9e43f7cb3d",
+          "revision": "530d80e4f21f03f0f907cd04062ac754383ba645",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c02-dagger-mulligan",
-          "revision": "699828afa35db41b3f3a00e43787feb36f59f00c",
+          "revision": "5e8991a6c266892f37751f6d1732c3728c062903",
           "role": "training-view",
           "episodes": 100
         },
         {
           "repo": "mulligan/sim-square-broad-c03-dagger-mulligan",
-          "revision": "349e8aa96c90b38ec9400390f2683a0912cbeecb",
+          "revision": "5805f0cdb7b4a4782d44ef68baf739cc20da3215",
           "role": "training-view",
           "episodes": 100
         },
@@ -11662,7 +11662,7 @@
         {
           "kind": "protocol_quota",
           "input": "mulligan/sim-square-narrow-c02-dagger-mixed",
-          "input_revision": "ee94524e8309b137c309c01237d799d76e0e2866",
+          "input_revision": "7a4cf7c4e90d68f2aa5f3e1d6bb570193d2aef6d",
           "manifest": "data/sim/start_manifests/square_narrow/r02/blind_inputs/square_narrow_r2_manifest.json",
           "expected_per_protocol": "no_cf=100,with_cf=100",
           "expected_protocol_arms": "no_cf=baseline_uniform,mulligan;with_cf=mulligan",
@@ -11727,7 +11727,7 @@
         {
           "kind": "protocol_quota",
           "input": "mulligan/sim-square-narrow-c03-dagger-mixed",
-          "input_revision": "60af9a5aa124ebe13e7d949cbd410d80ced1a756",
+          "input_revision": "0a02eb1cb52b7885078fae1de218a174cdc6cbe2",
           "manifest": "data/sim/start_manifests/square_narrow/r03/blind_inputs/square_narrow_r3_manifest.json",
           "expected_per_protocol": "no_cf=100,with_cf=100",
           "expected_protocol_arms": "no_cf=baseline_uniform,mulligan;with_cf=mulligan",
@@ -11816,7 +11816,7 @@
         {
           "kind": "protocol_quota",
           "input": "mulligan/sim-square-broad-c01-dagger-mixed",
-          "input_revision": "fd8c2869bd7938fe166cfff1890cdd82f2e43fa3",
+          "input_revision": "c966c478cec1d1e82257291cde2f3c8396cc1964",
           "manifest": "data/sim/start_manifests/square_broad/r01/blind_inputs/square_broad_r1_manifest.json",
           "expected_per_protocol": "no_cf=100,with_cf=100",
           "expected_protocol_arms": "no_cf=baseline_uniform,sobol,mulligan;with_cf=sobol,mulligan",
@@ -11876,7 +11876,7 @@
         {
           "kind": "protocol_quota",
           "input": "mulligan/sim-square-broad-c02-dagger-mixed",
-          "input_revision": "ee0feb59cca9b1aa18ddce1957bf0c20b8c9114a",
+          "input_revision": "f6c486e94502e5ed63522b2314672247d0ef5f29",
           "manifest": "data/sim/start_manifests/square_broad/r02/blind_inputs/square_broad_r2_manifest.json",
           "expected_per_protocol": "no_cf=100,with_cf=100",
           "expected_protocol_arms": "no_cf=baseline_uniform,sobol,mulligan;with_cf=sobol,mulligan",
@@ -11936,7 +11936,7 @@
         {
           "kind": "protocol_quota",
           "input": "mulligan/sim-square-broad-c03-dagger-mixed",
-          "input_revision": "b1be9ec5fd91c386a90dcc140689a143333d649d",
+          "input_revision": "000fe3bdafd6b4c6d11e1b06c20e0784578ad155",
           "manifest": "data/sim/start_manifests/square_broad/r03/blind_inputs/square_broad_r3_manifest.json",
           "expected_per_protocol": "no_cf=100,with_cf=100",
           "expected_protocol_arms": "no_cf=baseline_uniform,mulligan;with_cf=mulligan",

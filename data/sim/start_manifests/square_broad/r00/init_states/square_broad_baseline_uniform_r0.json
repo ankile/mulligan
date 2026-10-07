@@ -1405,7 +1405,6 @@
     "task": "square_broad",
     "source": "baseline_uniform",
     "n_states": 200,
-    "seed": 202605232,
-    "generator": "<local-path>/make_r0_inputs.py"
+    "seed": 202605232
   }
 }

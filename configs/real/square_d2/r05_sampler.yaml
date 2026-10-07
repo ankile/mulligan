@@ -37,8 +37,8 @@ order:
   lead_if_failed: iql
   segment_names: {lead: true_composite_failure, demoted: already_solved_promotion}
 inputs:
-  eval_outcomes: <local-path>/paired_round_outcomes.csv
-  stage_labels: <local-path>/stage_labels.csv
+  eval_outcomes: null
+  stage_labels: null
   support_manifests:
     - data/real/manifests/square_d2/r00/square_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json
     - data/real/manifests/square_d2/r01/square_d2_r1_promote25_fill25_blind_dagger.json

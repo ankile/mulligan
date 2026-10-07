@@ -3,7 +3,7 @@ kind: idql-critic
 trainer: mulligan.real.train.critic
 checkpoint:
   repo: mulligan/real-square-d2-r03-mulligan-idql-critic
-  revision: 409a4b50a2ed922e872954f8972fa25cb09ca748
+  revision: dc23282695646c2ede27d7d0a63b94da6bf6b0de
   step: 150000
 retrain: exact
 paper:
@@ -20,16 +20,16 @@ paper:
   collections:
   - mulligan/real-square-d2-c04-dagger-mixed
 dataset_revisions:
-  mulligan/real-square-d2-c00-teleop-sobol: fcb4a833578373c70f0ffab63245ad1df5cd0145
-  mulligan/real-square-d2-c00-teleop-validation: 40d06aec811e4472bf46b955b3d5adcc06608b11
-  mulligan/real-square-d2-c01-dagger-mulligan: 7fde9f17e6794ff4242ac7bf3516ffecd79577e7
-  mulligan/real-square-d2-c02-dagger-mulligan: 1eca80eda2a44429932915943a06e188a9e27f8e
-  mulligan/real-square-d2-c03-dagger-mulligan: 11de641cf944b60d3704feda40ee3fb42759ab03
-  mulligan/real-square-d2-r01-eval-b01-baseline-dp-policy-rollouts: d6be403c13ac5cde07557cbb288c6e96afbca4db
-  mulligan/real-square-d2-r01-eval-b01-mulligan-dp-policy-rollouts: b295590429b62821d02308867a06df897af05102
-  mulligan/real-square-d2-r02-eval-b01-mulligan-dp-policy-rollouts: a267ce2182dd41c035b345347947fcb6b0ba681b
-  mulligan/real-square-d2-r03-eval-b01-baseline-dp-policy-rollouts: 7dd78739ce55a8dddccee35200ac38cfa169d07b
-  mulligan/real-square-d2-r03-eval-b01-mulligan-dp-policy-rollouts: 802ef0cf331a079edf783ffb9973f6b2f01f2606
+  mulligan/real-square-d2-c00-teleop-sobol: 3297332740f7ed1897a25015e0d307f3afe7fa9b
+  mulligan/real-square-d2-c00-teleop-validation: 30c8e47be25efb9efb40d5a0e84cd0e502223c12
+  mulligan/real-square-d2-c01-dagger-mulligan: aaf4407363220180e1ab72cc76dbadfa3a780ac6
+  mulligan/real-square-d2-c02-dagger-mulligan: 469a31c0ee4830868256a667178e74a29b1c27d8
+  mulligan/real-square-d2-c03-dagger-mulligan: 71882a30cd33550b506c04d9f526d7448efe54c1
+  mulligan/real-square-d2-r01-eval-b01-baseline-dp-policy-rollouts: 78a3ccf37f82c83c41d84a91103aea35a3c398f8
+  mulligan/real-square-d2-r01-eval-b01-mulligan-dp-policy-rollouts: b9e7f70b21b664dab9beabd5a0f855af81a67186
+  mulligan/real-square-d2-r02-eval-b01-mulligan-dp-policy-rollouts: 5f987f3b8dd6a6d79863138d3d5c71e12380de67
+  mulligan/real-square-d2-r03-eval-b01-baseline-dp-policy-rollouts: 0951199cc385704863b7b35a4d5ce62979e2e67a
+  mulligan/real-square-d2-r03-eval-b01-mulligan-dp-policy-rollouts: cff03c20064540781b50342ff6afd7e5bc445048
 dataset_episodes: {}
 args:
   repo-ids:

@@ -19,13 +19,13 @@ paper:
   - mulligan/real-square-d2-r05-screen b02 (HG-DAgger)
   collections: []
 dataset_revisions:
-  mulligan/real-square-d2-c00-teleop-baseline: 241bcd27b55f1bc557b8af269b794306d5b5b635
-  mulligan/real-square-d2-c00-teleop-validation: 40d06aec811e4472bf46b955b3d5adcc06608b11
-  mulligan/real-square-d2-c01-dagger-baseline: 93f0472675421606fa5d9004b42000b17b971bb3
-  mulligan/real-square-d2-c02-dagger-baseline: 6c3b54f30c5ccffd35426ade19a8947482b1bc32
-  mulligan/real-square-d2-c03-dagger-baseline: 725080b5a0927051e149508101dff4e07330f9f3
-  mulligan/real-square-d2-c04-dagger-baseline: e43ad12905966e82e5e3414a2ba4d6042b0e8ef5
-  mulligan/real-square-d2-c05-dagger-baseline: 7050e7d02161735de49e3492453ebb6fa5ff4a15
+  mulligan/real-square-d2-c00-teleop-baseline: bd4d3e3af42686f45cc305e4b4858c495a7576f4
+  mulligan/real-square-d2-c00-teleop-validation: 30c8e47be25efb9efb40d5a0e84cd0e502223c12
+  mulligan/real-square-d2-c01-dagger-baseline: 9703aa9d81dabf5fc8a2b1f24b08cf9323caa59c
+  mulligan/real-square-d2-c02-dagger-baseline: 24752e40603f12d44f1753f8720e4aceb3a1c74b
+  mulligan/real-square-d2-c03-dagger-baseline: abac64edc07c4100b52fa7b23bfbe30a945d048a
+  mulligan/real-square-d2-c04-dagger-baseline: a67fbd955aa220052b53a15dc43472c8825d4274
+  mulligan/real-square-d2-c05-dagger-baseline: 04b4ac5e46ccd3f8a4c050ea6a3f7be28d1fb5bd
 dataset_episodes: {}
 args:
   task: square_d2

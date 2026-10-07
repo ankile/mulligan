@@ -231,7 +231,7 @@ def _run(hf_cache: Path, recount: bool) -> vr.Report:
 def test_episode_totals_rule_on_the_lock():
     """The 2,550 rule (one function for the paper and verify_results)."""
     lock, sha = round_counts.load_lock()
-    assert sha == "a626ad69dbe7ea155ee97f19857441b91b3790510a32e72a6aa0a72ec0eb29c3"
+    assert sha == "ffabdce26d911002a9be21b04cfd5df0a329131c7c69b6ce62c18d54560fcb13"
     totals = round_counts.lock_totals(lock)
     for key, want in round_counts.EXPECTED_TOTALS.items():
         if key != "by_task":
@@ -245,7 +245,7 @@ def test_episode_totals_rule_on_the_lock():
     assert (t["counted"], t["counted_plus_no_cf"], t["counted_incl_screen"]) == (3, 4, 8)
     assert t["screen"] == ["h"]
     with pytest.raises(ValueError, match="unexpected episode roles"):
-        round_counts.episode_totals([("x", "t", "round", Counter({"excluded": 1}))])
+        round_counts.episode_totals([("x", "t", "round", Counter({"unknown": 1}))])
 
 
 def test_sim_model_evaluations_all_accounted_for():

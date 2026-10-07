@@ -15,11 +15,11 @@ paper:
   - App. B.6
 eval_dataset:
   repo: mulligan/real-square-d2-r04-eval
-  revision: cfb8759d68a0744cb7167efb3cfae6cdd80b3309
+  revision: 3a0c7be7d34fc6a3e28809ead34a6db8ec1bac05
 sessions:
 - session_id: b01
   seed: 2026070304
-  manifest_sha256: b792439b046b335d8229185156d5c861cea63e041f90eed2555793a60d919dde
+  manifest_sha256: 7fd64839e4d389a20634d7dd069ea7d169249dc9e84eea1ab2517f71f523479b
   manifest: data/real/manifests/square_d2/r04/square_d2_r4_eval_heldout_independent_sobol.json
   n_starts: 50
   arms:
@@ -61,7 +61,7 @@ sessions:
       config: configs/real/square_d2/r04_mulligan_dp.yaml
     critic:
       repo: mulligan/real-square-d2-r04-mulligan-idql-critic
-      revision: 6e178583609e48df511e6566bee48bbfeed37bfd
+      revision: 29632d4a1632c4a30dbd12923887d8a92b9bd4cb
       step: 150000
       config: configs/real/square_d2/r04_critic.yaml
     num_action_samples: 16

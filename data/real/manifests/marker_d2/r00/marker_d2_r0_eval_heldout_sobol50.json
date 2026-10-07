@@ -193,7 +193,7 @@
  },
  "phase": "R0_eval_heldout_sobol50_paired",
  "scrambled_manifest_order": false,
- "derived_from": "<local-path>/marker_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json",
+ "derived_from": "data/real/manifests/marker_d2/r00/marker_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json",
  "states": [
   {
    "arm_id": "eval_heldout",

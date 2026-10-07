@@ -2,10 +2,9 @@
   "experiment": "square_broad_r3",
   "task": "square_broad",
   "collection_dataset": "mulligan/sim-square-broad-c03-dagger-mixed",
-  "init_states_file": "<local-path>/square_broad_r3.json",
-  "manifest_file": "<local-path>/square_broad_r3_manifest.json",
-  "object_qpos_file": "<local-path>/square_broad_r3_object_qpos.npy",
-  "ledger_file": "<local-path>/square_broad_r3_ledger.jsonl",
+  "init_states_file": "data/sim/start_manifests/square_broad/r03/blind_inputs/square_broad_r3.json",
+  "manifest_file": "data/sim/start_manifests/square_broad/r03/blind_inputs/square_broad_r3_manifest.json",
+  "object_qpos_file": "data/sim/start_manifests/square_broad/r03/blind_inputs/square_broad_r3_object_qpos.npy",
   "arms": [
     "baseline_uniform",
     "mulligan"
@@ -32,8 +31,8 @@
     ]
   },
   "source_arm_files": {
-    "baseline_uniform": "<local-path>/square_broad_baseline_uniform_r3.json",
-    "mulligan": "<local-path>/square_broad_mulligan_r3.json"
+    "baseline_uniform": "data/sim/start_manifests/square_broad/r03/init_states/square_broad_baseline_uniform_r3.json",
+    "mulligan": "data/sim/start_manifests/square_broad/r03/init_states/square_broad_mulligan_r3.json"
   },
   "split_targets": {
     "no_cf.baseline_uniform": "mulligan/sim-square-broad-c03-dagger-baseline",

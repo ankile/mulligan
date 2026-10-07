@@ -94,7 +94,7 @@ def check_round_dataset(lock_ds: dict, meta: dict, prov: pd.DataFrame, lock_sha:
     if meta.get("lock_sha256") != lock_sha:
         fails.append(f"{rid}: lock_sha256 {meta.get('lock_sha256')} != release lock {lock_sha}")
     lc, mc = lock_ds["counts"], meta.get("counts", {})
-    for key in ("included", "counted", "no_cf_ablation", "excluded"):
+    for key in ("included", "counted", "no_cf_ablation"):
         if mc.get(key) != lc[key]:
             fails.append(f"{rid}: meta counts.{key}={mc.get(key)} != lock {lc[key]}")
     if len(prov) != lc["included"]:

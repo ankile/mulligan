@@ -714,7 +714,6 @@
     ],
     "baseline_seed": 2026061101,
     "min_clearance": 0.13263,
-    "min_pairwise_periodic_l2": 0.10313629974781091,
-    "generator": "<local-path>/make_square_broad_r3_inputs.py"
+    "min_pairwise_periodic_l2": 0.10313629974781091
   }
 }

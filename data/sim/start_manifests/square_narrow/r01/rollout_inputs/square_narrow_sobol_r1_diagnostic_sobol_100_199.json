@@ -610,7 +610,6 @@
     "sobol_x_seed": 202605234,
     "sobol_start_index": 100,
     "sobol_end_index": 199,
-    "n_states": 100,
-    "generator": "<local-path>/make_square_narrow_r1_inputs.py"
+    "n_states": 100
   }
 }

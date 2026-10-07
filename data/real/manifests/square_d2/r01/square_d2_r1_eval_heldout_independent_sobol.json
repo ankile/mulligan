@@ -115,8 +115,8 @@
   "registry_usage_id": "square_d2_r1_heldout_eval_independent_sobol_seed2026062502",
   "within_set_min_periodic_dist": 0.1648333000365319,
   "cross_set_min_periodic_dist_to_prior_manifests": {
-    "<local-path>/square_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json": 0.07468752948625063,
-    "<local-path>/square_d2_r1_promote25_fill25_blind_dagger.json": 0.11316856676693449
+    "data/real/manifests/square_d2/r00/square_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json": 0.07468752948625063,
+    "data/real/manifests/square_d2/r01/square_d2_r1_promote25_fill25_blind_dagger.json": 0.11316856676693449
   },
   "states": [
     {

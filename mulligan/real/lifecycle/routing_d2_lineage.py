@@ -28,12 +28,12 @@ EVAL_REPO = "mulligan/real-routing-d2-r00-r05-eval"
 EVAL_REVISION = pinned_revision(EVAL_REPO)
 # Revision of the eval repo the pinned snapshot was taken from (provenance only; the
 # pinned files below are identical at EVAL_REVISION).
-SOURCE_EVAL_REVISION = "89b5cd9fed7f80792ea0146d5a90d3ade0a119e5"
+SOURCE_EVAL_REVISION = "29b4e100690aad63f98eef87d2c127f8e2245e16"
 MANIFEST_PATH = (
     REPO_ROOT / "data/real/manifests/routing_d2/lineage/"
     "routing_d2_lineage_eval_heldout_independent_sobol.json"
 )
-MANIFEST_SHA256 = "35b833634e6074c8601d90db939a6b64e02fba699faaa1ef344fb09829b9fdfb"
+MANIFEST_SHA256 = "41ff7dddc034352f351a602cfd2f45030df628ab9ee47032de6957cb4652f82d"
 SNAPSHOT_NAME = "eval_snapshot"
 DATA_ROOT = REPO_ROOT / "outputs/real/routing_d2" / SNAPSHOT_NAME / "data"
 PLOT_ROOT = REPO_ROOT / "outputs/real/routing_d2" / SNAPSHOT_NAME / "plots"
@@ -49,11 +49,11 @@ REVIEW_RULE = (
 )
 
 SOURCE_SHA256 = {
-    "results.json": "19f7a849ecab3151e8f4a39be5095cadf64d6d746d479552549016b556d32cad",
+    "results.json": "7ddba60ec2cb2b553e5d480d5547e1e7a027fd0b6ffa2f5def7785c811d39382",
     # Eval-time payload backed up at the first reconciliation; the baseline for the review's
     # cumulative effect (results.json's reconciliation block holds only the latest apply's
     # counts).
-    "results_eval_time.json": "7d8f2f6dd4020fd7c218cda95df02ff5b79c94a91a1913f5cfdb2f8dc3d3593a",
+    "results_eval_time.json": "e062aa112ec5f4060a7be6643335d11c85ef0845ec1a4a3fdcf0b532aec50747",
     ".outcome_edit_progress.json": (
         "fb8218c54e841f61b575fe586955480ef926cde80a1b167d27855bee00c2bc76"
     ),

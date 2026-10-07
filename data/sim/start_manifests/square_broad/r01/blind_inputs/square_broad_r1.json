@@ -1796,22 +1796,20 @@
     "min_pairwise_distance_unique_manifest": 0.048143467847295056,
     "disjoint_checks": [
       {
-        "path": "<local-path>/square_broad_baseline_uniform_r0.json",
+        "path": "data/sim/start_manifests/square_broad/r00/init_states/square_broad_baseline_uniform_r0.json",
         "n_states": 200,
         "min_periodic_l2": 0.051945981519653905
       },
       {
-        "path": "<local-path>/square_broad_sobol_r0.json",
+        "path": "data/sim/start_manifests/square_broad/r00/init_states/square_broad_sobol_r0.json",
         "n_states": 200,
         "min_periodic_l2": 0.06214695360959163
       },
       {
-        "path": "<local-path>/square_broad_valid_sobol30k_seed2026052499.json",
         "n_states": 30000,
         "min_periodic_l2": 0.016409244698803168
       }
     ],
-    "generator": "<local-path>/make_square_broad_r1_inputs.py",
     "duplicates_collapsed": [
       {
         "manifest_index": 100,

@@ -1,9 +1,5 @@
 {
   "experiment": "square_narrow_r3_baseline_policy_rollout",
-  "generator": "<local-path>/make_square_narrow_r3_baseline_policy_rollout_inputs.py",
-  "inputs": {
-    "baseline_uniform": "<local-path>/square_narrow_baseline_uniform_r3_policy_rollout.json"
-  },
   "outputs": {
     "baseline_uniform": "mulligan/sim-square-narrow-c03-baseline-policy-rollouts"
   },

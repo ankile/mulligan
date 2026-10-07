@@ -2612,7 +2612,6 @@
     "task": "square_narrow",
     "round": "r3",
     "n_states_per_arm": 100,
-    "generator": "<local-path>/make_square_narrow_r3_inputs.py",
     "pairwise_min_periodic_l2": {
       "baseline_uniform": 0.005493276228469718,
       "mulligan": 0.009765774826068326,
@@ -2620,42 +2619,41 @@
     },
     "disjoint_reports": [
       {
-        "path": "<local-path>/square_narrow_baseline_uniform_r0.json",
+        "path": "data/sim/start_manifests/square_narrow/r00/init_states/square_narrow_baseline_uniform_r0.json",
         "n_states": 100,
         "min_periodic_l2": 0.002925800045422461
       },
       {
-        "path": "<local-path>/square_narrow_sobol_r0.json",
+        "path": "data/sim/start_manifests/square_narrow/r00/init_states/square_narrow_sobol_r0.json",
         "n_states": 100,
         "min_periodic_l2": 0.0017601649338502964
       },
       {
-        "path": "<local-path>/square_narrow_baseline_uniform_r1.json",
+        "path": "data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_baseline_uniform_r1.json",
         "n_states": 100,
         "min_periodic_l2": 0.006412429153689363
       },
       {
-        "path": "<local-path>/square_narrow_sobol_r1.json",
+        "path": "data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_sobol_r1.json",
         "n_states": 100,
         "min_periodic_l2": 0.00478212065139991
       },
       {
-        "path": "<local-path>/square_narrow_mulligan_r1.json",
+        "path": "data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_mulligan_r1.json",
         "n_states": 100,
         "min_periodic_l2": 0.0024731875172145073
       },
       {
-        "path": "<local-path>/square_narrow_baseline_uniform_r2.json",
+        "path": "data/sim/start_manifests/square_narrow/r02/init_states/square_narrow_baseline_uniform_r2.json",
         "n_states": 100,
         "min_periodic_l2": 0.001361939664353903
       },
       {
-        "path": "<local-path>/square_narrow_mulligan_r2.json",
+        "path": "data/sim/start_manifests/square_narrow/r02/init_states/square_narrow_mulligan_r2.json",
         "n_states": 100,
         "min_periodic_l2": 0.005915302995931757
       },
       {
-        "path": "<local-path>/square_narrow_valid_sobol8k_seed2026052402.json",
         "n_states": 8000,
         "min_periodic_l2": 0.0004459375636233302
       }
@@ -2665,7 +2663,7 @@
       "mulligan": "mulligan/sim-square-narrow-r02-mulligan-idql/seed-1"
     },
     "locked_sampler": {
-      "candidate_json": "<local-path>/square_narrow_r3_design_hardness_fit.json",
+      "candidate_json": "data/sim/start_manifests/square_narrow/r03/init_states/square_narrow_r3_design_hardness_fit.json",
       "candidate": "grid-cell hardness bonus, weight 1.0",
       "shape_beta": 0.5,
       "cell_beta": 1.0,
@@ -2684,8 +2682,7 @@
         }
       },
       "cell_signal": "R2 Mulligan with-CF grid-sextile bucket rank",
-      "selection_rule": "max Q1+Q2 s.t. p95 <= Sobol-600-699 ceiling (coverage guardrail); knee = argmax norm(Q1+Q2 - p95). Entropy diagnostic only.",
-      "selection_summary": "<local-path>/square_narrow_r3_sampler_prep_summary.json"
+      "selection_rule": "max Q1+Q2 s.t. p95 <= Sobol-600-699 ceiling (coverage guardrail); knee = argmax norm(Q1+Q2 - p95). Entropy diagnostic only."
     },
     "protocol_targets": {
       "no_cf": 100,

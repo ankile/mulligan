@@ -16,14 +16,14 @@ paper:
   collections:
   - mulligan/real-routing-d2-c07-dagger-mixed
 dataset_revisions:
-  mulligan/real-routing-d2-c00-teleop-baseline: b67f529fc91d371636f95da358cbd9d6535e7695
-  mulligan/real-routing-d2-c00-teleop-validation: aea89ca1dcde5bf0f3eafba80d4ed6be5c6f16af
-  mulligan/real-routing-d2-c01-dagger-baseline: 5330184a79232f450949c844a5a6cfd2f3fe2069
-  mulligan/real-routing-d2-c02-dagger-baseline: 65d22736e94e3f51f115cde5951dc2e1fe21f7e0
-  mulligan/real-routing-d2-c03-dagger-baseline: a44ad0fd15b7379c3154cd4a58762b26dd0bdce2
-  mulligan/real-routing-d2-c04-dagger-baseline: 70f4ad643fb6bb53509e40cbda46c66b346f1bb3
-  mulligan/real-routing-d2-c05-dagger-baseline: 15d187defba78bcf7a0b9e6088f773154b4002e6
-  mulligan/real-routing-d2-c06-dagger-baseline: a47228ef48cd89e8a6382558a485d6fc948d5894
+  mulligan/real-routing-d2-c00-teleop-baseline: 83940e1cc5926abc24c88686b0be6688207f4fec
+  mulligan/real-routing-d2-c00-teleop-validation: 17384f6b0b7742a57a4dc052fabce27af6ee53d3
+  mulligan/real-routing-d2-c01-dagger-baseline: d4f7eb220a07fae9b80da1ea23d7bdface370a4b
+  mulligan/real-routing-d2-c02-dagger-baseline: d70d194c9fcceacc4310fd6bfd524e09ad145589
+  mulligan/real-routing-d2-c03-dagger-baseline: 889bdf8bc8eb9905068dc55b6f22c6d8203b5b3f
+  mulligan/real-routing-d2-c04-dagger-baseline: 5194bdc9472e23e5280e909fd591e38990f870c8
+  mulligan/real-routing-d2-c05-dagger-baseline: 41dfc8593a08ab06618caca75fcceff20b7fe0a8
+  mulligan/real-routing-d2-c06-dagger-baseline: a7a2b54e49bdba92933ec3cb73e92dccceafea63
 dataset_episodes: {}
 args:
   task: routing_d2

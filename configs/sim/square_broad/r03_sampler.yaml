@@ -101,11 +101,11 @@ guardrail:
 locked:
   manifest:
     path: data/sim/start_manifests/square_broad/r03/blind_inputs/square_broad_r3_manifest.json
-    sha256: d5e2ece34fda5445a0150b40ea9f2fd960800812f496e3328231d78a0efc564e
+    sha256: e8e2f7f7b3cb824944c552be6436daa18aea786bf2692aff2824a2fea15bc0f5
   arms:
     baseline_uniform:
       path: data/sim/start_manifests/square_broad/r03/init_states/square_broad_baseline_uniform_r3.json
-      sha256: 06fca5f02b814768fb7a8d53889493ba151fb37c938345008a301705834f5f26
+      sha256: 79fa88c419d4267e93dbeda489d39d8f935813c2a1008b9fd90732745d690f70
     mulligan:
       path: data/sim/start_manifests/square_broad/r03/init_states/square_broad_mulligan_r3.json
       sha256: 9eca09e73bc980269f538934f3bf4e3b97021bec35e20b1c9938ff6908ab70a8

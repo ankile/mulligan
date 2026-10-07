@@ -1,5 +1,5 @@
 {
- "source_manifest": "<local-path>/marker_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json",
+ "source_manifest": "data/real/manifests/marker_d2/r00/marker_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json",
  "source_sha256": "bdd7c403bbc2c03c1d48496283aff17f3d4ae8b2bd4ea95231cbdf7b159c2690",
  "states": [
   {

@@ -103,7 +103,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-c01-dagger-baseline",
-   "revision": "bce514b6ceb3f818cd2d5b49aa08237d02828682",
+   "revision": "01134563b9add62154621843b4054bbde34bb822",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "training-view",
@@ -128,7 +128,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-c01-dagger-mixed",
-   "revision": "d743bd219a1ab561f1ba0c40eb4d59baa86d9b4d",
+   "revision": "47f379c28d015b757194461c1bb18f047287e8f3",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "raw-collection",
@@ -153,7 +153,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-c01-dagger-mulligan",
-   "revision": "b8d9e14d4179b19d9e6a678de01f9776edadbee9",
+   "revision": "e9ed902ab91abeca9523cbcfa5475ac31bc31127",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "training-view",
@@ -178,7 +178,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-c01-dagger-mulligan-no-cf",
-   "revision": "d06070f20234388e0e4a4ffbab0a2123cda6b101",
+   "revision": "3bfb5f0e7eb5267d2e83f8ca7aef5ca2315cce21",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "training-view",
@@ -203,7 +203,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-c02-dagger-baseline",
-   "revision": "5bc9a56799a13e7e92471315c0ee1d1ef04dd703",
+   "revision": "0686daf8fd52db9343d4494b3064c0af7a7d66ba",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "training-view",
@@ -228,7 +228,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-c02-dagger-mixed",
-   "revision": "116822bef6929a08226ca46e1d5d365fdf2aa761",
+   "revision": "bae65421a8796af06ea0487aefb160d0a7f23be8",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "raw-collection",
@@ -253,7 +253,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-c02-dagger-mulligan",
-   "revision": "a09b8f548a92170f0a47ed1eee519d016d885ad2",
+   "revision": "0e44650843b7ff7b95527535993a0161a4bf9548",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "training-view",
@@ -278,7 +278,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-c02-dagger-mulligan-no-cf",
-   "revision": "4967b190557d28c6637fa73913908dd4fa4998a7",
+   "revision": "351661d2be04e8f774ec4a20c388049a7d4f63e9",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "training-view",
@@ -303,7 +303,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-c03-dagger-baseline",
-   "revision": "9d1b10f372055b1d096ae17a12cacc246980804c",
+   "revision": "2037414f3049817bcb92a6d306acfe2cd54da98b",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "training-view",
@@ -328,7 +328,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-c03-dagger-mixed",
-   "revision": "36a903fa1b98e313a008da71366fd0e44ce621ea",
+   "revision": "c676d981064222b970f1e78cedf041b28b3264bb",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "raw-collection",
@@ -353,7 +353,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-c03-dagger-mulligan",
-   "revision": "991285990c72a7c6d10ad063d8be055476f9a125",
+   "revision": "37cc25fecdb4909fe8819cbb12ef36425f1e09bf",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "training-view",
@@ -378,7 +378,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-c03-dagger-mulligan-no-cf",
-   "revision": "64aa752c243c1c0231b7fd869531c9911e787ca4",
+   "revision": "cc4c49a2c0ca7f35146e9c3f2cc0d653567a2a39",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "training-view",
@@ -403,7 +403,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-c04-dagger-baseline",
-   "revision": "ded903b49bb026e43c332cd62a1ec1c34565939b",
+   "revision": "4b90ffdc954665d421e61ed11cd2888d40d6dd7e",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "training-view",
@@ -428,7 +428,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-c04-dagger-mixed",
-   "revision": "30177b410243c5fa566183b3955f3edc2e151ac4",
+   "revision": "891e3668a42183f76cbfe588503c3041a4685db5",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "raw-collection",
@@ -453,7 +453,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-c04-dagger-mulligan",
-   "revision": "de8d7c640976b7bf705ab074e57bd9906fa54989",
+   "revision": "8cb1da880180467ea491b422042a9daf478d2b97",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "training-view",
@@ -478,7 +478,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-c04-dagger-mulligan-no-cf",
-   "revision": "f72f932f0b7f8fee38671f82b183c1892797c63c",
+   "revision": "f1fc13ef6b2f580460376c07b87619d827532b30",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "training-view",
@@ -503,7 +503,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-c05-dagger-baseline",
-   "revision": "35d7a5b8a407c4fdc6a622da745473807caa3c19",
+   "revision": "bce232476f4eaff4307edc0bb59f1c8d621c3443",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "training-view",
@@ -528,7 +528,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-c05-dagger-mixed",
-   "revision": "805021d063931ac50d147e33aeef6f3859316284",
+   "revision": "a9c78b4ceb553b9eb0bc15798e9c4793264dc723",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "raw-collection",
@@ -553,7 +553,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-c05-dagger-mulligan",
-   "revision": "a69371f52f96588b15e8e3b960b1c41d494b6f0c",
+   "revision": "7ba1fe7b63cfb7a138ea275478a030c28ef17d5a",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "training-view",
@@ -578,7 +578,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-c05-dagger-mulligan-no-cf",
-   "revision": "3fcb3189f246223d515e3443392477c3323541f5",
+   "revision": "616f302cbff67fcd244de25e430b1ddb69f3b959",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "training-view",
@@ -603,7 +603,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-r00-eval",
-   "revision": "37ee00a122d5999b60da094948414664317f105d",
+   "revision": "192cadfe994908d7dc04602343813356b2af3876",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "evaluation",
@@ -632,15 +632,13 @@
     "counts": {
      "included": 100,
      "counted": 100,
-     "no_cf_ablation": 0,
-     "excluded": 0,
-     "excluded_by_reason": {}
+     "no_cf_ablation": 0
     }
    }
   },
   {
    "repo": "mulligan/real-marker-d2-r00-eval-b01-baseline-dp-policy-rollouts",
-   "revision": "0639d04f3b8c87c3d43d5ece4621148c77667cfa",
+   "revision": "78e9b8a39889f419e3398ea47cdaa971967309d9",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "policy-rollouts",
@@ -663,7 +661,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-r00-eval-b01-sobol-dp-policy-rollouts",
-   "revision": "3aef30fd38cdf974bb2762c1762e9a1d603f46fb",
+   "revision": "cdbd3986a183a78289fd689a42c7a23a8bd1d2cd",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "policy-rollouts",
@@ -686,7 +684,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-r01-eval",
-   "revision": "2fb44cf460e68cb51ecbdb142905cc7826c42924",
+   "revision": "38149f41b5538cd5a649bf3a71648ef21f3c4e33",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "evaluation",
@@ -715,15 +713,13 @@
     "counts": {
      "included": 150,
      "counted": 100,
-     "no_cf_ablation": 50,
-     "excluded": 0,
-     "excluded_by_reason": {}
+     "no_cf_ablation": 50
     }
    }
   },
   {
    "repo": "mulligan/real-marker-d2-r01-eval-b01-mulligan-dp-policy-rollouts",
-   "revision": "e5467e7f7e1346bea4512970bc6a57235bed39f0",
+   "revision": "03474279db1740f329d04a3cba18fddb10c924ca",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "policy-rollouts",
@@ -746,7 +742,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-r02-eval",
-   "revision": "6c78bfab916e1736686cbf8001d7acd56ed875a1",
+   "revision": "dacbcfe36aab4363982f60fd9102db969cf734d7",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "evaluation",
@@ -777,18 +773,13 @@
     "counts": {
      "included": 250,
      "counted": 200,
-     "no_cf_ablation": 50,
-     "excluded": 75,
-     "excluded_by_reason": {
-      "drift-check-rerun": 50,
-      "non-release-policy": 25
-     }
+     "no_cf_ablation": 50
     }
    }
   },
   {
    "repo": "mulligan/real-marker-d2-r02-eval-b01-baseline-dp-policy-rollouts",
-   "revision": "3e9d5dcc8249a18ef53475eeb52482469c871709",
+   "revision": "791fa889cf01152c0113e665bc3374ad0bb85bfe",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "policy-rollouts",
@@ -811,7 +802,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-r02-eval-b01-mulligan-dp-policy-rollouts",
-   "revision": "ac6bf9318abe9c7deb023291e695bbe48f9a6557",
+   "revision": "4337635445d7de14ea9a521bdc94d68eca972ffa",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "policy-rollouts",
@@ -834,7 +825,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-r02-eval-b03",
-   "revision": "c4a5f0614a3d2cb92ddb4834c3bca6d615873d71",
+   "revision": "9476c18be0d3d72067d3e78fe415a810e7b76f05",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "evaluation",
@@ -857,7 +848,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-r03-eval",
-   "revision": "4dbb81f9404a10cc73d6d30bf6b823e435991565",
+   "revision": "b406acb00598ced64c687ab1f2a8f5b8023e9ace",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "evaluation",
@@ -888,15 +879,13 @@
     "counts": {
      "included": 150,
      "counted": 150,
-     "no_cf_ablation": 0,
-     "excluded": 0,
-     "excluded_by_reason": {}
+     "no_cf_ablation": 0
     }
    }
   },
   {
    "repo": "mulligan/real-marker-d2-r03-eval-b01-baseline-dp-policy-rollouts",
-   "revision": "21143b9df9c100d705525b3534557ef3e7d90dad",
+   "revision": "b662a537a1da0855a71c996a3416b8352e046a65",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "policy-rollouts",
@@ -921,7 +910,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-r03-eval-b01-mulligan-dp-policy-rollouts",
-   "revision": "5ad663429527edf30c34a36e7960daae272b6a85",
+   "revision": "bf91aa1575ddbe9aceb0a9d5c8e5ba544473b630",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "policy-rollouts",
@@ -946,7 +935,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-r03-eval-b01-mulligan-idql-policy-rollouts",
-   "revision": "67c5ba18af0e82bb652d6340b0d6e6da619968c6",
+   "revision": "246353ec7bfc9914e6a9a822dc44665d04b9be08",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "policy-rollouts",
@@ -971,7 +960,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-r04-eval",
-   "revision": "0cdc7a3c814c06bd6b0094b4d3d4aaa644c4ccef",
+   "revision": "1773c35b5bd48222ff8c5e7b76e7175400feff4f",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "evaluation",
@@ -1002,15 +991,13 @@
     "counts": {
      "included": 150,
      "counted": 150,
-     "no_cf_ablation": 0,
-     "excluded": 0,
-     "excluded_by_reason": {}
+     "no_cf_ablation": 0
     }
    }
   },
   {
    "repo": "mulligan/real-marker-d2-r04-eval-b01-baseline-dp-policy-rollouts",
-   "revision": "662a9542c0554fe37337d476554532d74dc7e498",
+   "revision": "a8e896315334ac673c3f249873b34127e1b8c341",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "policy-rollouts",
@@ -1035,7 +1022,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-r04-eval-b01-mulligan-dp-policy-rollouts",
-   "revision": "10edac81758b6099fd2d9515b97f4c17803cd3e5",
+   "revision": "3973fbd014af177a3b55e227dac03f9076198a11",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "policy-rollouts",
@@ -1060,7 +1047,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-r04-eval-b01-mulligan-idql-policy-rollouts",
-   "revision": "93ec13549077224147368320e4b7375a8f31b89c",
+   "revision": "8660a0f1006af95f22873ee25c808e1e416c9c20",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "policy-rollouts",
@@ -1085,7 +1072,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-r05-eval",
-   "revision": "af7ef315a96204358f04734c99cc3bdf032ffdcf",
+   "revision": "a7d864788d41dbff876abe802b5cac983dd758b7",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "evaluation",
@@ -1116,15 +1103,13 @@
     "counts": {
      "included": 150,
      "counted": 150,
-     "no_cf_ablation": 0,
-     "excluded": 0,
-     "excluded_by_reason": {}
+     "no_cf_ablation": 0
     }
    }
   },
   {
    "repo": "mulligan/real-marker-d2-r05-screen",
-   "revision": "4ce484310aa0bebca39f9633bc102bc78f210398",
+   "revision": "9c60058f90e322041c9c4f199598d09f26f0d284",
    "tag": "release-1",
    "task": "real-marker-d2",
    "role": "evaluation",
@@ -1156,17 +1141,13 @@
     "counts": {
      "included": 200,
      "counted": 200,
-     "no_cf_ablation": 0,
-     "excluded": 100,
-     "excluded_by_reason": {
-      "unselected-candidate": 100
-     }
+     "no_cf_ablation": 0
     }
    }
   },
   {
    "repo": "mulligan/real-routing-d2-c00-teleop-baseline",
-   "revision": "b67f529fc91d371636f95da358cbd9d6535e7695",
+   "revision": "83940e1cc5926abc24c88686b0be6688207f4fec",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "training-view",
@@ -1191,7 +1172,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c00-teleop-mixed",
-   "revision": "c29d12c8131568f958270c0222216d1c50b62b14",
+   "revision": "67827498714e206b2f6f02bba08b28e79a86337c",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "raw-collection",
@@ -1216,7 +1197,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c00-teleop-sobol",
-   "revision": "16a1a3301199918236da525bb30c064c4f28d7f3",
+   "revision": "dd8047c135935a35b416d7ecb9ca0f70fbb7fd94",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "training-view",
@@ -1241,7 +1222,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c00-teleop-validation",
-   "revision": "aea89ca1dcde5bf0f3eafba80d4ed6be5c6f16af",
+   "revision": "17384f6b0b7742a57a4dc052fabce27af6ee53d3",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "validation-view",
@@ -1266,7 +1247,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c01-dagger-baseline",
-   "revision": "5330184a79232f450949c844a5a6cfd2f3fe2069",
+   "revision": "d4f7eb220a07fae9b80da1ea23d7bdface370a4b",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "training-view",
@@ -1291,7 +1272,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c01-dagger-mixed",
-   "revision": "bf6f1651ca65517cb9e7ce20f6f77d3681deee4e",
+   "revision": "c87db36c5c292526a028700cbb998c804b369da8",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "raw-collection",
@@ -1316,7 +1297,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c01-dagger-mulligan",
-   "revision": "cba50487f61ebc907e2ffcc9428187c1e9aaf73d",
+   "revision": "df4cb987e512dbcf1f040a5b8e8164e71ca3b62e",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "training-view",
@@ -1341,7 +1322,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c02-dagger-baseline",
-   "revision": "65d22736e94e3f51f115cde5951dc2e1fe21f7e0",
+   "revision": "d70d194c9fcceacc4310fd6bfd524e09ad145589",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "training-view",
@@ -1366,7 +1347,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c02-dagger-mixed",
-   "revision": "8edd383fc207870448142009b38a8ebd38d509b4",
+   "revision": "d009a46ea687b189a054ffcec48caed27dcf52ef",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "raw-collection",
@@ -1391,7 +1372,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c02-dagger-mulligan",
-   "revision": "794203d5fade5f5bb74579f14cb7b1fbeaf61ba5",
+   "revision": "9602d31be7f110332e38f1132305d3e287f38485",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "training-view",
@@ -1416,7 +1397,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c03-dagger-baseline",
-   "revision": "a44ad0fd15b7379c3154cd4a58762b26dd0bdce2",
+   "revision": "889bdf8bc8eb9905068dc55b6f22c6d8203b5b3f",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "training-view",
@@ -1441,7 +1422,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c03-dagger-mixed",
-   "revision": "4a675bd6ce937ed98f3ba357094ea6b4585f8ab1",
+   "revision": "765b4acba9a91c2a7eeb184dd2f2daca041205dd",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "raw-collection",
@@ -1466,7 +1447,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c03-dagger-mulligan",
-   "revision": "c031570959bc6b9d90737d10fc4ba2ec3a70c074",
+   "revision": "7f6a0e0870ae390841a1f8e5dd827e9c03740152",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "training-view",
@@ -1491,7 +1472,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c04-dagger-baseline",
-   "revision": "70f4ad643fb6bb53509e40cbda46c66b346f1bb3",
+   "revision": "5194bdc9472e23e5280e909fd591e38990f870c8",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "training-view",
@@ -1516,7 +1497,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c04-dagger-mixed",
-   "revision": "ff57e6d1274aa51f35a2654c8a7c1ed2e477a98a",
+   "revision": "ea842c77d6b9be5c867af433f0ba54d6c7d5242d",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "raw-collection",
@@ -1541,7 +1522,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c04-dagger-mulligan",
-   "revision": "11b168c376d5d172e355e4ea214774b34c23f025",
+   "revision": "b06e5eca3b80dc2dc7e15f0bd481e2811889f40b",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "training-view",
@@ -1566,7 +1547,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c05-dagger-baseline",
-   "revision": "15d187defba78bcf7a0b9e6088f773154b4002e6",
+   "revision": "41dfc8593a08ab06618caca75fcceff20b7fe0a8",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "training-view",
@@ -1591,7 +1572,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c05-dagger-mixed",
-   "revision": "f4e02a5dc1da208e936fa9fd3bc74f683e3f4c3d",
+   "revision": "e5b73c581702a4e86bb5f52fb3df3d50df46556a",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "raw-collection",
@@ -1616,7 +1597,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c05-dagger-mulligan",
-   "revision": "a0a349452a6561555e0b6943a905df15efd21c23",
+   "revision": "b87ac2170ee3a843827ac819f393ec3b79d0b6db",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "training-view",
@@ -1641,7 +1622,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c06-dagger-baseline",
-   "revision": "a47228ef48cd89e8a6382558a485d6fc948d5894",
+   "revision": "a7a2b54e49bdba92933ec3cb73e92dccceafea63",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "training-view",
@@ -1666,7 +1647,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c06-dagger-mixed",
-   "revision": "626dd15812a641609dcd9d5b2c4f7a53d8da347f",
+   "revision": "cdc86baaeb6dfbf29b57245f40ea3777b906fbfc",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "raw-collection",
@@ -1691,7 +1672,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c06-dagger-mulligan",
-   "revision": "94db8527052ebda1fa7199bf7dfa5b4e08f7f7fb",
+   "revision": "c3d2547928b74256685239a1bdf61e92d321d1ed",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "training-view",
@@ -1716,7 +1697,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c07-dagger-baseline",
-   "revision": "c7d154cd7b7ccaa6f8d335d6cacf9d8b8a7e0d70",
+   "revision": "ec0dbdd10b819230d2f7ad5467144775222f4f1f",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "training-view",
@@ -1741,7 +1722,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c07-dagger-mixed",
-   "revision": "685617d9936faa9b702cda092dd225e7bfd3c356",
+   "revision": "e517ea83b840f4d9c5dc3af50bf20a97b6e0d843",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "raw-collection",
@@ -1766,7 +1747,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c07-dagger-mulligan",
-   "revision": "07c98d2e1a9ce501307fa11ef7dec0ebff14250c",
+   "revision": "03be2c955ee2a966203fed8b23866a1a936ffd28",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "training-view",
@@ -1791,7 +1772,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c08-dagger-baseline",
-   "revision": "5f7effac0b9b624db2db37d76a468e26e259d8f6",
+   "revision": "4f7328ece7f300ab344f4ee327e5332875286dd1",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "training-view",
@@ -1816,7 +1797,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c08-dagger-mixed",
-   "revision": "280553ccb4d6b0c67109642da649c70c08cdee17",
+   "revision": "31e8d530fd6570ba55f2fa8c074a2abb1b126384",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "raw-collection",
@@ -1841,7 +1822,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c08-dagger-mulligan",
-   "revision": "759654177534b6fc03902951520923eb53d85a4e",
+   "revision": "14e313966b07171941086ee58f717e205915a548",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "training-view",
@@ -1866,7 +1847,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c09-dagger-baseline",
-   "revision": "59a2f082d0698014869c0f431067499708053dee",
+   "revision": "0b023f838dcd537b31b436c17a05639689db628a",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "training-view",
@@ -1891,7 +1872,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c09-dagger-mixed",
-   "revision": "bb7dd94ecd34644fc37b02761d3c8389292bb6e9",
+   "revision": "28bc65d82f96d08048aa46644a00dcfca02d1048",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "raw-collection",
@@ -1916,7 +1897,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-c09-dagger-mulligan",
-   "revision": "00d73a2be56021195951add76a38cfc28f231ce1",
+   "revision": "8f1e2137c2b22508ef43f6847a827edf28cea766",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "training-view",
@@ -1941,7 +1922,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-r00-r05-eval",
-   "revision": "89b5cd9fed7f80792ea0146d5a90d3ade0a119e5",
+   "revision": "29b4e100690aad63f98eef87d2c127f8e2245e16",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "evaluation",
@@ -1977,15 +1958,13 @@
     "counts": {
      "included": 750,
      "counted": 750,
-     "no_cf_ablation": 0,
-     "excluded": 0,
-     "excluded_by_reason": {}
+     "no_cf_ablation": 0
     }
    }
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r00-eval-b01",
-   "revision": "096045f148d6797086309b13c147d2c3e1b5bcce",
+   "revision": "45460ae67bb037420cbc408c217d025ee9020c9e",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "evaluation",
@@ -2008,7 +1987,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r00-eval-b01-baseline-dp-policy-rollouts",
-   "revision": "42a58891d0a1971a16050a6904f866aed73e3e7a",
+   "revision": "6bbbb3cac5d8b18f6a9299722a2db45dadb059fc",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "policy-rollouts",
@@ -2031,7 +2010,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r00-eval-b01-sobol-dp-policy-rollouts",
-   "revision": "e11ac736d36f002fb40aadba256d3adaecdefe21",
+   "revision": "c8d3a92818f44f613cffe6b378a82960fcbd1829",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "policy-rollouts",
@@ -2054,7 +2033,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r01-eval-b01",
-   "revision": "6bfecd48e9ff00708d3d4a1a1d29683dacda47bf",
+   "revision": "004ed6e116526526f59318f3ae4b1e5bcc9dc3f6",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "evaluation",
@@ -2077,7 +2056,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r01-eval-b01-baseline-dp-policy-rollouts",
-   "revision": "cbc8ab34db54a94d45280546c5408af8514dec40",
+   "revision": "cddbbf6b5779a1a60e1ba12ebfa3a619a17f86eb",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "policy-rollouts",
@@ -2100,7 +2079,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r01-eval-b01-mulligan-dp-policy-rollouts",
-   "revision": "5f279e4c12cf714353d8d8b7ce06e94496734f94",
+   "revision": "8b11063053cb732a302559a33c6d77b5f8c2c567",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "policy-rollouts",
@@ -2123,7 +2102,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r02-eval-b01",
-   "revision": "e1a047f78814a01512ca9dc0582dd7f6dee0771d",
+   "revision": "4d6c7ed79dc7d1970d95b7ad8c34db735d72cad2",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "evaluation",
@@ -2146,7 +2125,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r02-eval-b01-baseline-dp-policy-rollouts",
-   "revision": "4b13b691a6f71d0ca508691de4a39446a25773fa",
+   "revision": "ae7db6fa338ac5731b56f3ef4bf764977776b8d7",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "policy-rollouts",
@@ -2169,7 +2148,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r02-eval-b01-mulligan-dp-policy-rollouts",
-   "revision": "59082e6f6e81f5ae7543013a7abce1004414b672",
+   "revision": "81df4a641380c996b01fcc0db6fa7c54ad5ab3c2",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "policy-rollouts",
@@ -2192,7 +2171,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r03-eval-b01",
-   "revision": "05509b82c257f20cca2a3e6986753784e9d06c51",
+   "revision": "40e9019e75d363a15af99da16576fd18ff99f872",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "evaluation",
@@ -2215,7 +2194,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r03-eval-b01-baseline-dp-policy-rollouts",
-   "revision": "dee187470367e27d3e563d1a2390b8e3ccbf6436",
+   "revision": "458e02ec29da7102e1a03eaea85a7574964742de",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "policy-rollouts",
@@ -2238,7 +2217,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r03-eval-b01-mulligan-dp-policy-rollouts",
-   "revision": "488f1847c89b5fc078146bae5f50e8b1ef76d285",
+   "revision": "140ec230f52068f1d6fa80c5aa6efebcc6f1be99",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "policy-rollouts",
@@ -2261,7 +2240,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r04-eval-b01",
-   "revision": "b0e2fb52c845efaabfd3490068c4dd9c33df6554",
+   "revision": "82d26706f22ee096cc70b64afaa926a81af855b8",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "evaluation",
@@ -2284,7 +2263,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r04-eval-b01-baseline-dp-policy-rollouts",
-   "revision": "c38fd266c3d083cfe582a6ec3cd3767cb54d259f",
+   "revision": "ad99ed5b7ee15cd193a2abae2962ab715589fb17",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "policy-rollouts",
@@ -2307,7 +2286,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r04-eval-b01-mulligan-dp-policy-rollouts",
-   "revision": "69727e9ee3c176df91642fcd40c4a646cf2b3fa3",
+   "revision": "4960fc5011f6ed48320b34e29bb00306121e0f88",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "policy-rollouts",
@@ -2330,7 +2309,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r04-eval-b01-mulligan-idql-policy-rollouts",
-   "revision": "5b293724bd36685992fe7f5decec7758abd376da",
+   "revision": "0d153ad879f907c9a2c442caa57f3e8f542099e4",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "policy-rollouts",
@@ -2353,7 +2332,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r05-eval-b01",
-   "revision": "a028d5595d04ca9e2740d791af2f3b5060fb7955",
+   "revision": "35311265869f85c65b4b522625352b9e1434fbe2",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "evaluation",
@@ -2376,7 +2355,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r05-eval-b01-baseline-dp-policy-rollouts",
-   "revision": "846d51ce7ac61438cd05b261471eb9b5c737b98e",
+   "revision": "eec0025f1846e18d006ea59a9b8d6cde7f361a0c",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "policy-rollouts",
@@ -2399,7 +2378,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r05-eval-b01-mulligan-dp-policy-rollouts",
-   "revision": "5648ddaf8ab6ba5503e5dae21ca1dfa4221a013f",
+   "revision": "edf70cfba9dba983937a1c270910922c0d4f1aa7",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "policy-rollouts",
@@ -2422,7 +2401,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r05-eval-b01-mulligan-idql-policy-rollouts",
-   "revision": "0b79ad71045c20bccf8a266287d081c3825ef4b0",
+   "revision": "58ac1a98705a6233ae9f61e5290a8152bb3eaf36",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "policy-rollouts",
@@ -2445,7 +2424,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r06-eval-b01",
-   "revision": "900835a9aa89aa3ae78e8a40c10bcbfc18cb97f2",
+   "revision": "7a4e4d4cc0ca41c336a6c01b47ebc1ef48ce7b8a",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "evaluation",
@@ -2468,7 +2447,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r06-eval-b01-baseline-dp-policy-rollouts",
-   "revision": "6656acb3b2334ed77c7797a5a91278ed71be156e",
+   "revision": "dbca33db555d609dc0eb394f8c3b9d6b3363b816",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "policy-rollouts",
@@ -2491,7 +2470,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r06-eval-b01-mulligan-dp-policy-rollouts",
-   "revision": "d306cfdb1d4bc494f4a1016122dba8f9351a2a26",
+   "revision": "0b3fea139668c521a2656897f6d1694aa3680335",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "policy-rollouts",
@@ -2514,7 +2493,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r06-eval-b01-mulligan-idql-policy-rollouts",
-   "revision": "afdd9bea0bcf053f6fe4e231c6fb330207283b7d",
+   "revision": "8537cedef985c16cb6cfaea64a834f5dcb9910f7",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "policy-rollouts",
@@ -2537,7 +2516,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r07-eval-b01",
-   "revision": "e54a2c3d954f02f97e22d4966ab63501ead18643",
+   "revision": "29eb8d5a3d808cf42b4151cbdb50f7f1c97c50b2",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "evaluation",
@@ -2560,7 +2539,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r07-eval-b01-baseline-dp-policy-rollouts",
-   "revision": "6cc1745ec2dbfd1745de51dae79218870b96b287",
+   "revision": "7ebfb94106c227dd68ab905aea39e620b18f6d1e",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "policy-rollouts",
@@ -2583,7 +2562,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r07-eval-b01-mulligan-dp-policy-rollouts",
-   "revision": "cd5834a8c2e292d1c24b0a244212ff503019329c",
+   "revision": "c90a76ceec1580711c6648ef386bf0fdc30b5074",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "policy-rollouts",
@@ -2606,7 +2585,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r07-eval-b01-mulligan-idql-policy-rollouts",
-   "revision": "1b608b458cb79f0763a30ff998511286af27e1e3",
+   "revision": "899670d4d9f83d28387b6692b9eb19f235e1e846",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "policy-rollouts",
@@ -2629,7 +2608,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r08-eval-b01",
-   "revision": "a8f93e26c15fb7a72e21a98396d50c09221642e0",
+   "revision": "1318c078688c9ed539375d0d10ea842295ac1574",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "evaluation",
@@ -2652,7 +2631,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r08-eval-b01-mulligan-dp-policy-rollouts",
-   "revision": "e0256ed06eda877e7e4dcd1deaae574c7be85fe2",
+   "revision": "036c5ea3740642d05af8ab2231d1760e25c1c986",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "policy-rollouts",
@@ -2675,7 +2654,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r08-eval-b01-mulligan-idql-policy-rollouts",
-   "revision": "ad41758be41b27d5ba6a8393eff61c9862016af4",
+   "revision": "2cf902fd49b165b6e0c3bce75f340a9dcd91a66b",
    "tag": "release-1",
    "task": "real-routing-d2",
    "role": "policy-rollouts",
@@ -2698,7 +2677,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c00-teleop-baseline",
-   "revision": "241bcd27b55f1bc557b8af269b794306d5b5b635",
+   "revision": "bd4d3e3af42686f45cc305e4b4858c495a7576f4",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "training-view",
@@ -2723,7 +2702,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c00-teleop-mixed",
-   "revision": "71a36f92991d0399a40a764ec84665ad9fb34c00",
+   "revision": "19b83b895d10b1b422acf7fbd2abb03ffae8e01a",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "raw-collection",
@@ -2748,7 +2727,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c00-teleop-sobol",
-   "revision": "fcb4a833578373c70f0ffab63245ad1df5cd0145",
+   "revision": "3297332740f7ed1897a25015e0d307f3afe7fa9b",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "training-view",
@@ -2773,7 +2752,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c00-teleop-validation",
-   "revision": "40d06aec811e4472bf46b955b3d5adcc06608b11",
+   "revision": "30c8e47be25efb9efb40d5a0e84cd0e502223c12",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "validation-view",
@@ -2798,7 +2777,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c01-dagger-baseline",
-   "revision": "93f0472675421606fa5d9004b42000b17b971bb3",
+   "revision": "9703aa9d81dabf5fc8a2b1f24b08cf9323caa59c",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "training-view",
@@ -2823,7 +2802,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c01-dagger-mixed",
-   "revision": "11ec1cfc8502947f8077ed209f6777eb675f002c",
+   "revision": "9e54f04d08c21ae2fae712c1d47ee134d7d60cac",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "raw-collection",
@@ -2848,7 +2827,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c01-dagger-mulligan",
-   "revision": "7fde9f17e6794ff4242ac7bf3516ffecd79577e7",
+   "revision": "aaf4407363220180e1ab72cc76dbadfa3a780ac6",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "training-view",
@@ -2873,7 +2852,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c01-dagger-mulligan-no-cf",
-   "revision": "b5808adb35b64ed4f50a86a013bc40ae2ab06eac",
+   "revision": "40032e2691ae1f4c162a3b26c511cd901e8c9976",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "training-view",
@@ -2898,7 +2877,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c02-dagger-baseline",
-   "revision": "6c3b54f30c5ccffd35426ade19a8947482b1bc32",
+   "revision": "24752e40603f12d44f1753f8720e4aceb3a1c74b",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "training-view",
@@ -2923,7 +2902,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c02-dagger-mixed",
-   "revision": "460e6bc7a6f29e7550e03f1d22bce8cdb54e3b6f",
+   "revision": "ca6c9aded6011d777ef7da4011cdf345b5e5e7ab",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "raw-collection",
@@ -2948,7 +2927,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c02-dagger-mulligan",
-   "revision": "1eca80eda2a44429932915943a06e188a9e27f8e",
+   "revision": "469a31c0ee4830868256a667178e74a29b1c27d8",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "training-view",
@@ -2973,7 +2952,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c02-dagger-mulligan-no-cf",
-   "revision": "eac7d034f7d3b64c775873218000bd36e6f0ec95",
+   "revision": "a1bc4f795378e3aea1711d6aeb037c943ea27e75",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "training-view",
@@ -2998,7 +2977,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c03-dagger-baseline",
-   "revision": "725080b5a0927051e149508101dff4e07330f9f3",
+   "revision": "abac64edc07c4100b52fa7b23bfbe30a945d048a",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "training-view",
@@ -3023,7 +3002,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c03-dagger-mixed",
-   "revision": "1346f9647bc02f3d2bfd4c36fbdd2b7e924b9e10",
+   "revision": "a99638761150bb09bcef0fa2a58a0ded7f142376",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "raw-collection",
@@ -3048,7 +3027,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c03-dagger-mulligan",
-   "revision": "11de641cf944b60d3704feda40ee3fb42759ab03",
+   "revision": "71882a30cd33550b506c04d9f526d7448efe54c1",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "training-view",
@@ -3073,7 +3052,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c03-dagger-mulligan-no-cf",
-   "revision": "53b7d81ee7a7a56e921b6ee1de298d1bbb2a9ca3",
+   "revision": "88795c105f98ed2e105f9311afbb8d6fe8574084",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "training-view",
@@ -3098,7 +3077,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c04-dagger-baseline",
-   "revision": "e43ad12905966e82e5e3414a2ba4d6042b0e8ef5",
+   "revision": "a67fbd955aa220052b53a15dc43472c8825d4274",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "training-view",
@@ -3123,7 +3102,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c04-dagger-mixed",
-   "revision": "221afa9d8c4b2ddb01e0072bf422bf4fddf26a9b",
+   "revision": "49c44e974c1578b726c1874d328347b3cafac65f",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "raw-collection",
@@ -3148,7 +3127,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c04-dagger-mulligan",
-   "revision": "85dbc63ea6290b4c221f4500c71ac9395a8aada0",
+   "revision": "16e48f7c2b9f5cb20ac7ebcfb0b51721368e66fb",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "training-view",
@@ -3173,7 +3152,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c04-dagger-mulligan-no-cf",
-   "revision": "9b53a77bf400a4dcd3408795dc228427df576cb4",
+   "revision": "0e09c4b495fe3e85399d60ed7ff6af3e2245d3ba",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "training-view",
@@ -3198,7 +3177,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c05-dagger-baseline",
-   "revision": "7050e7d02161735de49e3492453ebb6fa5ff4a15",
+   "revision": "04b4ac5e46ccd3f8a4c050ea6a3f7be28d1fb5bd",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "training-view",
@@ -3223,7 +3202,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c05-dagger-mixed",
-   "revision": "9e0d367ea35228275d475fb905d018c521c84865",
+   "revision": "7526a7a85fd2d052cd951b26a57dc19ba7cf1baa",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "raw-collection",
@@ -3248,7 +3227,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c05-dagger-mulligan",
-   "revision": "0e7594836effdc7a9ea4fd03e855e60692f97896",
+   "revision": "167b4d1b7f11c931c6771d638b8b67791f132010",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "training-view",
@@ -3273,7 +3252,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-c05-dagger-mulligan-no-cf",
-   "revision": "d331f4dbaf23ce4b725ec7866499de9816852f5e",
+   "revision": "dcd8eaa742b6f5b8c8955655e795ee31b22db23e",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "training-view",
@@ -3298,7 +3277,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-r00-eval",
-   "revision": "e3517b1ff9880123c8057e3c2c02e10fb193ecad",
+   "revision": "088efcd77039a926d65a3f612bc8eb25ba6aedd7",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "evaluation",
@@ -3327,15 +3306,13 @@
     "counts": {
      "included": 100,
      "counted": 100,
-     "no_cf_ablation": 0,
-     "excluded": 0,
-     "excluded_by_reason": {}
+     "no_cf_ablation": 0
     }
    }
   },
   {
    "repo": "mulligan/real-square-d2-r01-eval",
-   "revision": "6e87e37f15bb40816c5ddb3d6ae05fb0e76ec63b",
+   "revision": "22b5fd8a033b872224170a5b728b8e9eacb98724",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "evaluation",
@@ -3364,15 +3341,13 @@
     "counts": {
      "included": 150,
      "counted": 100,
-     "no_cf_ablation": 50,
-     "excluded": 0,
-     "excluded_by_reason": {}
+     "no_cf_ablation": 50
     }
    }
   },
   {
    "repo": "mulligan/real-square-d2-r01-eval-b01-baseline-dp-policy-rollouts",
-   "revision": "d6be403c13ac5cde07557cbb288c6e96afbca4db",
+   "revision": "78a3ccf37f82c83c41d84a91103aea35a3c398f8",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "policy-rollouts",
@@ -3395,7 +3370,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-r01-eval-b01-mulligan-dp-policy-rollouts",
-   "revision": "b295590429b62821d02308867a06df897af05102",
+   "revision": "b9e7f70b21b664dab9beabd5a0f855af81a67186",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "policy-rollouts",
@@ -3418,7 +3393,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-r02-eval",
-   "revision": "34713cd66cf8140cdf33bfc455c81991fdcb335d",
+   "revision": "a1d4ce7a3e32a56383f56ee0a42150c6886e1ca2",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "evaluation",
@@ -3447,15 +3422,13 @@
     "counts": {
      "included": 150,
      "counted": 100,
-     "no_cf_ablation": 50,
-     "excluded": 0,
-     "excluded_by_reason": {}
+     "no_cf_ablation": 50
     }
    }
   },
   {
    "repo": "mulligan/real-square-d2-r02-eval-b01-mulligan-dp-policy-rollouts",
-   "revision": "a267ce2182dd41c035b345347947fcb6b0ba681b",
+   "revision": "5f987f3b8dd6a6d79863138d3d5c71e12380de67",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "policy-rollouts",
@@ -3478,7 +3451,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-r03-eval",
-   "revision": "e833116fae844a518e4ffb1de53df56c1277cff0",
+   "revision": "2d28ccd25be263975d79f5ce476f8a9b34efb4d0",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "evaluation",
@@ -3509,15 +3482,13 @@
     "counts": {
      "included": 400,
      "counted": 350,
-     "no_cf_ablation": 50,
-     "excluded": 0,
-     "excluded_by_reason": {}
+     "no_cf_ablation": 50
     }
    }
   },
   {
    "repo": "mulligan/real-square-d2-r03-eval-b01-baseline-dp-policy-rollouts",
-   "revision": "7dd78739ce55a8dddccee35200ac38cfa169d07b",
+   "revision": "0951199cc385704863b7b35a4d5ce62979e2e67a",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "policy-rollouts",
@@ -3540,7 +3511,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-r03-eval-b01-mulligan-dp-policy-rollouts",
-   "revision": "802ef0cf331a079edf783ffb9973f6b2f01f2606",
+   "revision": "cff03c20064540781b50342ff6afd7e5bc445048",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "policy-rollouts",
@@ -3563,7 +3534,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-r03-eval-b02-mulligan-dp-policy-rollouts",
-   "revision": "2276f11010e48b87ee27ad65ffd7e4607d637929",
+   "revision": "555d81156f474d7171c60ae53a94098f13d9c146",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "policy-rollouts",
@@ -3586,7 +3557,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-r03-eval-b02-mulligan-idql-policy-rollouts",
-   "revision": "40e72aab38e93d2ac177fe4ed6155965b4ac3c02",
+   "revision": "4ce078e892eb32e3c1678521be78b7baed35838e",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "policy-rollouts",
@@ -3609,7 +3580,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-r03-eval-b03-mulligan-dp-policy-rollouts",
-   "revision": "d07460e99631e323cb8caa5c0241cbdd6e4b7485",
+   "revision": "b40b59935996637c54e6428f23ecab49cbeaeb70",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "policy-rollouts",
@@ -3634,7 +3605,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-r03-eval-b03-mulligan-idql-policy-rollouts",
-   "revision": "6dc2ac5c2a900a3241e8921e26fcbd4bdc25634f",
+   "revision": "7b8458add3d8dfa0058ade20d9500550f2e0d890",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "policy-rollouts",
@@ -3659,7 +3630,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-r04-eval",
-   "revision": "cfb8759d68a0744cb7167efb3cfae6cdd80b3309",
+   "revision": "3a0c7be7d34fc6a3e28809ead34a6db8ec1bac05",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "evaluation",
@@ -3690,15 +3661,13 @@
     "counts": {
      "included": 200,
      "counted": 150,
-     "no_cf_ablation": 50,
-     "excluded": 0,
-     "excluded_by_reason": {}
+     "no_cf_ablation": 50
     }
    }
   },
   {
    "repo": "mulligan/real-square-d2-r04-eval-b01-mulligan-dp-policy-rollouts",
-   "revision": "ebe7a5f67cd84ebe9edfb132c75c7a6af2ec4ad7",
+   "revision": "f389c7270b8835f1c2892ed0137bb38371997463",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "policy-rollouts",
@@ -3723,7 +3692,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-r04-eval-b01-mulligan-idql-policy-rollouts",
-   "revision": "afba02db0bd69b8ed23d645ac30176b76d4e5880",
+   "revision": "56aeb500630e8a7a048109cfc5f53381ac261a58",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "policy-rollouts",
@@ -3748,7 +3717,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-r05-eval",
-   "revision": "79c96c9a604dce7f83e36568874baed23d63d5e3",
+   "revision": "3a332b7b9a1d31c2c7bb46d5585f4fd2ca0b408d",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "evaluation",
@@ -3779,15 +3748,13 @@
     "counts": {
      "included": 150,
      "counted": 150,
-     "no_cf_ablation": 0,
-     "excluded": 0,
-     "excluded_by_reason": {}
+     "no_cf_ablation": 0
     }
    }
   },
   {
    "repo": "mulligan/real-square-d2-r05-eval-b02-mulligan-dp-policy-rollouts",
-   "revision": "bcd9a3c641cce46ddfb7110c4cef052be7385e23",
+   "revision": "6b2dffbe4e035f17018827336cf4dcc8ff8e3724",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "policy-rollouts",
@@ -3810,7 +3777,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-r05-eval-b02-mulligan-idql-policy-rollouts",
-   "revision": "27f312580588ec21f72c4038e41dc744dd9379c4",
+   "revision": "a512f37da02eca67be7a67fbbded9843fbdf00eb",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "policy-rollouts",
@@ -3833,7 +3800,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-r05-screen",
-   "revision": "1e6c1502d26ffff7d75b04d7e3a8578022b72bf6",
+   "revision": "5d640ede15a4fd82c0d4a4e39d20ce19cd937990",
    "tag": "release-1",
    "task": "real-square-d2",
    "role": "evaluation",
@@ -3865,11 +3832,7 @@
     "counts": {
      "included": 200,
      "counted": 200,
-     "no_cf_ablation": 0,
-     "excluded": 100,
-     "excluded_by_reason": {
-      "unselected-candidate": 100
-     }
+     "no_cf_ablation": 0
     }
    }
   },
@@ -3978,7 +3941,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c01-auto-bc-n1-shared-policy-rollouts",
-   "revision": "b5e86cb7df80be4b14062c08e8bc595f8e9fd0d7",
+   "revision": "343a51a7a3f19193c266472bca45d61a70cbf72e",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "policy-rollouts",
@@ -3996,7 +3959,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c01-auto-iql-n32-policy-rollouts",
-   "revision": "7e4faa0eac60473023cfacc4b5a314a58857b80c",
+   "revision": "9a0a723e3b90c28e01c3ba2e89d8fa9bda54ccfe",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "policy-rollouts",
@@ -4032,7 +3995,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c01-dagger-baseline",
-   "revision": "eefebaee175f4efd28d5a5fb94c0ee29ad3cad2e",
+   "revision": "2d7f945f32f547e44da017eb4fb8347d1f33229b",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "training-view",
@@ -4052,7 +4015,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c01-dagger-mixed",
-   "revision": "fd8c2869bd7938fe166cfff1890cdd82f2e43fa3",
+   "revision": "c966c478cec1d1e82257291cde2f3c8396cc1964",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "raw-collection",
@@ -4075,7 +4038,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c01-dagger-mulligan",
-   "revision": "3cdddb12f24a0d0119c6a7ec66f1bd9e43f7cb3d",
+   "revision": "530d80e4f21f03f0f907cd04062ac754383ba645",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "training-view",
@@ -4095,7 +4058,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c01-dagger-mulligan-no-cf",
-   "revision": "d54a3a757ce243e5a55e849a9aab19a11169d005",
+   "revision": "bbc9c10c5591b5ee23e72d5719c314e9b6b44f63",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "training-view",
@@ -4115,7 +4078,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c01-dagger-sobol-no-cf",
-   "revision": "d39c2b577bc634ac42b33c6fc12fbbb87d8ae2e9",
+   "revision": "b68bd122588615101fae93a3106155890068f7d4",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "training-view",
@@ -4135,7 +4098,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c01-dagger-sobol-with-cf",
-   "revision": "e0aa8185daa2534fbc073d9e261488e760e3e625",
+   "revision": "5b2ca658ff670ee69cd47b826fe8fbdfa63c4210",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "training-view",
@@ -4173,7 +4136,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c02-auto-filtered-bc-n1-policy-rollouts",
-   "revision": "a0b776edf319240ef1b51571f4f8dbfa6acab7bd",
+   "revision": "efdc15402ef46b2c59babef06242191803f77f5f",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "policy-rollouts",
@@ -4191,7 +4154,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c02-auto-iql-n32-policy-rollouts",
-   "revision": "492ceca209c1c4bc500ef79cfbbdcf21d38936e0",
+   "revision": "7821b0459b5599ac183a819779b44ba346dd25d4",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "policy-rollouts",
@@ -4209,7 +4172,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c02-auto-iql-success-bc-n32-policy-rollouts",
-   "revision": "42e34663c5da279be62480abadef445e324846c7",
+   "revision": "b3e64c16968dc9116fac11887e367c293efc19f7",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "policy-rollouts",
@@ -4227,7 +4190,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c02-auto-plain-il-n1-policy-rollouts",
-   "revision": "edab550d4d5000f637746efa555e9cacbf917b21",
+   "revision": "7ff7b370c25f1e7d05a78ada22f6224f21c855d8",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "policy-rollouts",
@@ -4263,7 +4226,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c02-dagger-baseline",
-   "revision": "5e47eaec8a4d644ce82fce446604f20ca7998737",
+   "revision": "9a86f1bcfef4368842471f3bbbf3582c7a7253ca",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "training-view",
@@ -4283,7 +4246,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c02-dagger-mixed",
-   "revision": "ee0feb59cca9b1aa18ddce1957bf0c20b8c9114a",
+   "revision": "f6c486e94502e5ed63522b2314672247d0ef5f29",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "raw-collection",
@@ -4306,7 +4269,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c02-dagger-mulligan",
-   "revision": "699828afa35db41b3f3a00e43787feb36f59f00c",
+   "revision": "5e8991a6c266892f37751f6d1732c3728c062903",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "training-view",
@@ -4326,7 +4289,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c02-dagger-mulligan-no-cf",
-   "revision": "0bca68a5408a19a2a6a0315cd71d824e269924e3",
+   "revision": "c5a921d52d6ef770e952f37959ae005341246009",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "training-view",
@@ -4346,7 +4309,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c02-dagger-sobol-no-cf",
-   "revision": "59739ac38866b86137b03663e7ad9ab1738a1e47",
+   "revision": "5e3b5448baeec7f4a3b0d14a43779b51aac9c2dc",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "training-view",
@@ -4366,7 +4329,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c02-dagger-sobol-with-cf",
-   "revision": "20cdcf37370d6240dd515087231fe77b78bd31e9",
+   "revision": "45c818887d5ad2af2c3512c53f1ab1ef69e3e54d",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "training-view",
@@ -4404,7 +4367,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c03-auto-filtered-bc-n1-policy-rollouts",
-   "revision": "2321b0b774d1f7e0d3bbda906ec13f40f9eccede",
+   "revision": "bf773402aee59dded341ac2f81e9a4d9a701da90",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "policy-rollouts",
@@ -4422,7 +4385,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c03-auto-iql-n32-policy-rollouts",
-   "revision": "9b6b16f57211b6caf614148333a4ee41426b65e2",
+   "revision": "ed37e9e8e0798c50d15e425a6fe204cdfb37e678",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "policy-rollouts",
@@ -4440,7 +4403,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c03-auto-iql-success-bc-n32-policy-rollouts",
-   "revision": "67b3ce70d223336c60157359c8731579dbeec94b",
+   "revision": "cbfdad0ae82ca047f64c2cb2ec09eb40fe90c5a1",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "policy-rollouts",
@@ -4458,7 +4421,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c03-auto-plain-il-n1-policy-rollouts",
-   "revision": "c82bf914868d658c041a32c3c48b4085e8802d3a",
+   "revision": "5c8792209e751fc4c067431cb864156cbb21d9fc",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "policy-rollouts",
@@ -4494,7 +4457,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c03-dagger-baseline",
-   "revision": "6ba04eb3dd58c896cec1857d6262cff2b66bfed6",
+   "revision": "880e5ba4904024d10311fc8df9a53c583762829f",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "training-view",
@@ -4514,7 +4477,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c03-dagger-mixed",
-   "revision": "b1be9ec5fd91c386a90dcc140689a143333d649d",
+   "revision": "000fe3bdafd6b4c6d11e1b06c20e0784578ad155",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "raw-collection",
@@ -4537,7 +4500,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c03-dagger-mulligan",
-   "revision": "349e8aa96c90b38ec9400390f2683a0912cbeecb",
+   "revision": "5805f0cdb7b4a4782d44ef68baf739cc20da3215",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "training-view",
@@ -4557,7 +4520,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-c03-dagger-mulligan-no-cf",
-   "revision": "a0da70adc23c48f2d7fa7994fea5914bd47de42f",
+   "revision": "ec1c943c0e52b5e9c8331ae3fa766b9c43222ca3",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "training-view",
@@ -4595,7 +4558,7 @@
   },
   {
    "repo": "mulligan/sim-square-broad-r00-r03-eval",
-   "revision": "79300a38305873d2869abab1538c3ed039bd08f0",
+   "revision": "c1a766cd3c1a1d32afd329c2a219ba58966b086b",
    "tag": "release-1",
    "task": "sim-square-broad",
    "role": "evaluation-bundle",
@@ -4683,7 +4646,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-c01-auto-bc-n1-shared-policy-rollouts",
-   "revision": "2cfaeb434679704834a9165f25e1f54dbdfa99e0",
+   "revision": "fe2e6872474dbb475b14e2612038f627a405659c",
    "tag": "release-1",
    "task": "sim-square-narrow",
    "role": "policy-rollouts",
@@ -4701,7 +4664,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-c01-auto-iql-n32-policy-rollouts",
-   "revision": "b0ffde907dd65c067f73d5ef22e07415c4370ba4",
+   "revision": "6800d10fdadf1e80f6f8a482efe9575cf028f49e",
    "tag": "release-1",
    "task": "sim-square-narrow",
    "role": "policy-rollouts",
@@ -4878,7 +4841,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-c02-auto-filtered-bc-n1-policy-rollouts",
-   "revision": "55915a3a57c6d3da03f2e8f0ba9661bdd9eb360c",
+   "revision": "3913e025d952022c18bc384ca2f4d933d40f460b",
    "tag": "release-1",
    "task": "sim-square-narrow",
    "role": "policy-rollouts",
@@ -4896,7 +4859,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-c02-auto-iql-n32-policy-rollouts",
-   "revision": "d964438e57658c89705bfb349570a461a55dc739",
+   "revision": "468ae9a8edbca4e83ab06b9e63d5f420f80def1b",
    "tag": "release-1",
    "task": "sim-square-narrow",
    "role": "policy-rollouts",
@@ -4914,7 +4877,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-c02-auto-iql-success-bc-n32-policy-rollouts",
-   "revision": "591f93c0f8054eda58b66819ca46472fc9552a85",
+   "revision": "4aeba7702a3df6ed5c483eb7798707e1a1c16e92",
    "tag": "release-1",
    "task": "sim-square-narrow",
    "role": "policy-rollouts",
@@ -4932,7 +4895,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-c02-auto-plain-il-n1-policy-rollouts",
-   "revision": "6286d20efdf2cdd39d618658ae2f384b2674c608",
+   "revision": "dd3ba581d352884231e21f2a69316ab40d06bfc0",
    "tag": "release-1",
    "task": "sim-square-narrow",
    "role": "policy-rollouts",
@@ -4968,7 +4931,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-c02-dagger-baseline",
-   "revision": "85357acf05dc9f18c5229632bed2b7e1c621c22d",
+   "revision": "b35457653143a19c932d3102715313f5299e3f73",
    "tag": "release-1",
    "task": "sim-square-narrow",
    "role": "training-view",
@@ -4988,7 +4951,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-c02-dagger-mixed",
-   "revision": "ee94524e8309b137c309c01237d799d76e0e2866",
+   "revision": "7a4cf7c4e90d68f2aa5f3e1d6bb570193d2aef6d",
    "tag": "release-1",
    "task": "sim-square-narrow",
    "role": "raw-collection",
@@ -5011,7 +4974,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-c02-dagger-mulligan",
-   "revision": "18d90f2751d627029af5bb31348f05d2110d82aa",
+   "revision": "a313faa86ab1eadbaee13e6ef95da38090418d81",
    "tag": "release-1",
    "task": "sim-square-narrow",
    "role": "training-view",
@@ -5031,7 +4994,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-c02-dagger-mulligan-no-cf",
-   "revision": "47aadbc97528a8de6f7d31af2628987cab922060",
+   "revision": "1c760f2d437018aca2a124f96c29fd612a6d8d99",
    "tag": "release-1",
    "task": "sim-square-narrow",
    "role": "training-view",
@@ -5087,7 +5050,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-c03-auto-filtered-bc-n1-policy-rollouts",
-   "revision": "5cb449d2ffaecd4fa68fa295f8cfff438a342af5",
+   "revision": "22faa569124a2429a71d4a56cc5033c9e0e6cdce",
    "tag": "release-1",
    "task": "sim-square-narrow",
    "role": "policy-rollouts",
@@ -5105,7 +5068,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-c03-auto-iql-n32-policy-rollouts",
-   "revision": "d562763d72da15ed256ba85e8b97c2bb570cd17d",
+   "revision": "20a51e29266ca956334ab7b3bf092e38f946316d",
    "tag": "release-1",
    "task": "sim-square-narrow",
    "role": "policy-rollouts",
@@ -5123,7 +5086,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-c03-auto-iql-success-bc-n32-policy-rollouts",
-   "revision": "265ca59d34fb8345782f0144a7955235869cc164",
+   "revision": "760bd38592bdb83fb2d38d95c6e116a23bbcc9b3",
    "tag": "release-1",
    "task": "sim-square-narrow",
    "role": "policy-rollouts",
@@ -5141,7 +5104,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-c03-auto-plain-il-n1-policy-rollouts",
-   "revision": "f019978f50799c7bdf2bd2c95756f08210eaf2d4",
+   "revision": "a2955d95e5fbd61a5735efce3337bead46956954",
    "tag": "release-1",
    "task": "sim-square-narrow",
    "role": "policy-rollouts",
@@ -5177,7 +5140,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-c03-dagger-baseline",
-   "revision": "e4b8d791801643fc1b58e3e1fba53f4b11d43778",
+   "revision": "e9b1dd47b42d9858ab31c6de51386bf2ebd0164f",
    "tag": "release-1",
    "task": "sim-square-narrow",
    "role": "training-view",
@@ -5197,7 +5160,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-c03-dagger-mixed",
-   "revision": "60af9a5aa124ebe13e7d949cbd410d80ced1a756",
+   "revision": "0a02eb1cb52b7885078fae1de218a174cdc6cbe2",
    "tag": "release-1",
    "task": "sim-square-narrow",
    "role": "raw-collection",
@@ -5220,7 +5183,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-c03-dagger-mulligan",
-   "revision": "02b3b82995e7f76af9d505decc617d9b56621f44",
+   "revision": "946b716f121cf8e131bc284dede14dede9522b0a",
    "tag": "release-1",
    "task": "sim-square-narrow",
    "role": "training-view",
@@ -5240,7 +5203,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-c03-dagger-mulligan-no-cf",
-   "revision": "1ca42c755220db03cd800c0e611c3cf3ffa9b2c5",
+   "revision": "14c8b7bdc05d4a471365ddf903ddd44947e0ba6a",
    "tag": "release-1",
    "task": "sim-square-narrow",
    "role": "training-view",
@@ -5278,7 +5241,7 @@
   },
   {
    "repo": "mulligan/sim-square-narrow-r00-r03-eval",
-   "revision": "8826cfbdae8bbc7e03014753e85f4ea8e90cc056",
+   "revision": "fa1031961da659c5f5e21bcd30605c12d0bc53aa",
    "tag": "release-1",
    "task": "sim-square-narrow",
    "role": "evaluation-bundle",

@@ -20,140 +20,140 @@
   "mulligan/real-marker-d2-c00-teleop-baseline": "fca1b80fd41df0eb8cded11d03c8810a5c42f5ba",
   "mulligan/real-marker-d2-c00-teleop-sobol": "2eceb8cab17e48e970e082d37ce6d0aac03b4522",
   "mulligan/real-marker-d2-c00-teleop-validation": "66e508d55f3b6820f610b1270f2dd94884f785f5",
-  "mulligan/real-marker-d2-c01-dagger-baseline": "bce514b6ceb3f818cd2d5b49aa08237d02828682",
-  "mulligan/real-marker-d2-c01-dagger-mulligan": "b8d9e14d4179b19d9e6a678de01f9776edadbee9",
-  "mulligan/real-marker-d2-c01-dagger-mulligan-no-cf": "d06070f20234388e0e4a4ffbab0a2123cda6b101",
-  "mulligan/real-marker-d2-c02-dagger-baseline": "5bc9a56799a13e7e92471315c0ee1d1ef04dd703",
-  "mulligan/real-marker-d2-c02-dagger-mulligan": "a09b8f548a92170f0a47ed1eee519d016d885ad2",
-  "mulligan/real-marker-d2-c02-dagger-mulligan-no-cf": "4967b190557d28c6637fa73913908dd4fa4998a7",
-  "mulligan/real-marker-d2-c03-dagger-baseline": "9d1b10f372055b1d096ae17a12cacc246980804c",
-  "mulligan/real-marker-d2-c03-dagger-mulligan": "991285990c72a7c6d10ad063d8be055476f9a125",
-  "mulligan/real-marker-d2-c03-dagger-mulligan-no-cf": "64aa752c243c1c0231b7fd869531c9911e787ca4",
-  "mulligan/real-marker-d2-c04-dagger-baseline": "ded903b49bb026e43c332cd62a1ec1c34565939b",
-  "mulligan/real-marker-d2-c04-dagger-mulligan": "de8d7c640976b7bf705ab074e57bd9906fa54989",
-  "mulligan/real-marker-d2-c04-dagger-mulligan-no-cf": "f72f932f0b7f8fee38671f82b183c1892797c63c",
-  "mulligan/real-marker-d2-c05-dagger-baseline": "35d7a5b8a407c4fdc6a622da745473807caa3c19",
-  "mulligan/real-marker-d2-c05-dagger-mulligan": "a69371f52f96588b15e8e3b960b1c41d494b6f0c",
-  "mulligan/real-marker-d2-r00-eval-b01-baseline-dp-policy-rollouts": "0639d04f3b8c87c3d43d5ece4621148c77667cfa",
-  "mulligan/real-marker-d2-r00-eval-b01-sobol-dp-policy-rollouts": "3aef30fd38cdf974bb2762c1762e9a1d603f46fb",
-  "mulligan/real-marker-d2-r01-eval-b01-mulligan-dp-policy-rollouts": "e5467e7f7e1346bea4512970bc6a57235bed39f0",
-  "mulligan/real-marker-d2-r02-eval-b01-baseline-dp-policy-rollouts": "3e9d5dcc8249a18ef53475eeb52482469c871709",
-  "mulligan/real-marker-d2-r02-eval-b01-mulligan-dp-policy-rollouts": "ac6bf9318abe9c7deb023291e695bbe48f9a6557",
-  "mulligan/real-marker-d2-r02-eval-b03": "c4a5f0614a3d2cb92ddb4834c3bca6d615873d71",
-  "mulligan/real-marker-d2-r03-eval-b01-mulligan-dp-policy-rollouts": "5ad663429527edf30c34a36e7960daae272b6a85",
-  "mulligan/real-marker-d2-r03-eval-b01-mulligan-idql-policy-rollouts": "67c5ba18af0e82bb652d6340b0d6e6da619968c6",
-  "mulligan/real-marker-d2-r04-eval-b01-mulligan-dp-policy-rollouts": "10edac81758b6099fd2d9515b97f4c17803cd3e5",
-  "mulligan/real-marker-d2-r04-eval-b01-mulligan-idql-policy-rollouts": "93ec13549077224147368320e4b7375a8f31b89c",
-  "mulligan/real-routing-d2-c00-teleop-baseline": "b67f529fc91d371636f95da358cbd9d6535e7695",
-  "mulligan/real-routing-d2-c00-teleop-sobol": "16a1a3301199918236da525bb30c064c4f28d7f3",
-  "mulligan/real-routing-d2-c00-teleop-validation": "aea89ca1dcde5bf0f3eafba80d4ed6be5c6f16af",
-  "mulligan/real-routing-d2-c01-dagger-baseline": "5330184a79232f450949c844a5a6cfd2f3fe2069",
-  "mulligan/real-routing-d2-c01-dagger-mulligan": "cba50487f61ebc907e2ffcc9428187c1e9aaf73d",
-  "mulligan/real-routing-d2-c02-dagger-baseline": "65d22736e94e3f51f115cde5951dc2e1fe21f7e0",
-  "mulligan/real-routing-d2-c02-dagger-mulligan": "794203d5fade5f5bb74579f14cb7b1fbeaf61ba5",
-  "mulligan/real-routing-d2-c03-dagger-baseline": "a44ad0fd15b7379c3154cd4a58762b26dd0bdce2",
-  "mulligan/real-routing-d2-c03-dagger-mulligan": "c031570959bc6b9d90737d10fc4ba2ec3a70c074",
-  "mulligan/real-routing-d2-c04-dagger-baseline": "70f4ad643fb6bb53509e40cbda46c66b346f1bb3",
-  "mulligan/real-routing-d2-c04-dagger-mulligan": "11b168c376d5d172e355e4ea214774b34c23f025",
-  "mulligan/real-routing-d2-c05-dagger-baseline": "15d187defba78bcf7a0b9e6088f773154b4002e6",
-  "mulligan/real-routing-d2-c05-dagger-mulligan": "a0a349452a6561555e0b6943a905df15efd21c23",
-  "mulligan/real-routing-d2-c06-dagger-baseline": "a47228ef48cd89e8a6382558a485d6fc948d5894",
-  "mulligan/real-routing-d2-c06-dagger-mulligan": "94db8527052ebda1fa7199bf7dfa5b4e08f7f7fb",
-  "mulligan/real-routing-d2-c07-dagger-baseline": "c7d154cd7b7ccaa6f8d335d6cacf9d8b8a7e0d70",
-  "mulligan/real-routing-d2-c07-dagger-mulligan": "07c98d2e1a9ce501307fa11ef7dec0ebff14250c",
-  "mulligan/real-routing-d2-c08-dagger-baseline": "5f7effac0b9b624db2db37d76a468e26e259d8f6",
-  "mulligan/real-routing-d2-c08-dagger-mulligan": "759654177534b6fc03902951520923eb53d85a4e",
-  "mulligan/real-routing-d2-c09-dagger-baseline": "59a2f082d0698014869c0f431067499708053dee",
-  "mulligan/real-routing-d2-c09-dagger-mulligan": "00d73a2be56021195951add76a38cfc28f231ce1",
-  "mulligan/real-routing-d2-velocity-r00-eval-b01-baseline-dp-policy-rollouts": "42a58891d0a1971a16050a6904f866aed73e3e7a",
-  "mulligan/real-routing-d2-velocity-r00-eval-b01-sobol-dp-policy-rollouts": "e11ac736d36f002fb40aadba256d3adaecdefe21",
-  "mulligan/real-routing-d2-velocity-r01-eval-b01-baseline-dp-policy-rollouts": "cbc8ab34db54a94d45280546c5408af8514dec40",
-  "mulligan/real-routing-d2-velocity-r01-eval-b01-mulligan-dp-policy-rollouts": "5f279e4c12cf714353d8d8b7ce06e94496734f94",
-  "mulligan/real-routing-d2-velocity-r02-eval-b01-baseline-dp-policy-rollouts": "4b13b691a6f71d0ca508691de4a39446a25773fa",
-  "mulligan/real-routing-d2-velocity-r02-eval-b01-mulligan-dp-policy-rollouts": "59082e6f6e81f5ae7543013a7abce1004414b672",
-  "mulligan/real-routing-d2-velocity-r03-eval-b01-baseline-dp-policy-rollouts": "dee187470367e27d3e563d1a2390b8e3ccbf6436",
-  "mulligan/real-routing-d2-velocity-r03-eval-b01-mulligan-dp-policy-rollouts": "488f1847c89b5fc078146bae5f50e8b1ef76d285",
-  "mulligan/real-routing-d2-velocity-r04-eval-b01-baseline-dp-policy-rollouts": "c38fd266c3d083cfe582a6ec3cd3767cb54d259f",
-  "mulligan/real-routing-d2-velocity-r04-eval-b01-mulligan-dp-policy-rollouts": "69727e9ee3c176df91642fcd40c4a646cf2b3fa3",
-  "mulligan/real-routing-d2-velocity-r04-eval-b01-mulligan-idql-policy-rollouts": "5b293724bd36685992fe7f5decec7758abd376da",
-  "mulligan/real-routing-d2-velocity-r05-eval-b01-baseline-dp-policy-rollouts": "846d51ce7ac61438cd05b261471eb9b5c737b98e",
-  "mulligan/real-routing-d2-velocity-r05-eval-b01-mulligan-dp-policy-rollouts": "5648ddaf8ab6ba5503e5dae21ca1dfa4221a013f",
-  "mulligan/real-routing-d2-velocity-r05-eval-b01-mulligan-idql-policy-rollouts": "0b79ad71045c20bccf8a266287d081c3825ef4b0",
-  "mulligan/real-routing-d2-velocity-r06-eval-b01-baseline-dp-policy-rollouts": "6656acb3b2334ed77c7797a5a91278ed71be156e",
-  "mulligan/real-routing-d2-velocity-r06-eval-b01-mulligan-dp-policy-rollouts": "d306cfdb1d4bc494f4a1016122dba8f9351a2a26",
-  "mulligan/real-routing-d2-velocity-r06-eval-b01-mulligan-idql-policy-rollouts": "afdd9bea0bcf053f6fe4e231c6fb330207283b7d",
-  "mulligan/real-routing-d2-velocity-r07-eval-b01-baseline-dp-policy-rollouts": "6cc1745ec2dbfd1745de51dae79218870b96b287",
-  "mulligan/real-routing-d2-velocity-r07-eval-b01-mulligan-dp-policy-rollouts": "cd5834a8c2e292d1c24b0a244212ff503019329c",
-  "mulligan/real-routing-d2-velocity-r07-eval-b01-mulligan-idql-policy-rollouts": "1b608b458cb79f0763a30ff998511286af27e1e3",
-  "mulligan/real-routing-d2-velocity-r08-eval-b01-mulligan-dp-policy-rollouts": "e0256ed06eda877e7e4dcd1deaae574c7be85fe2",
-  "mulligan/real-routing-d2-velocity-r08-eval-b01-mulligan-idql-policy-rollouts": "ad41758be41b27d5ba6a8393eff61c9862016af4",
-  "mulligan/real-square-d2-c00-teleop-baseline": "241bcd27b55f1bc557b8af269b794306d5b5b635",
-  "mulligan/real-square-d2-c00-teleop-sobol": "fcb4a833578373c70f0ffab63245ad1df5cd0145",
-  "mulligan/real-square-d2-c00-teleop-validation": "40d06aec811e4472bf46b955b3d5adcc06608b11",
-  "mulligan/real-square-d2-c01-dagger-baseline": "93f0472675421606fa5d9004b42000b17b971bb3",
-  "mulligan/real-square-d2-c01-dagger-mulligan": "7fde9f17e6794ff4242ac7bf3516ffecd79577e7",
-  "mulligan/real-square-d2-c01-dagger-mulligan-no-cf": "b5808adb35b64ed4f50a86a013bc40ae2ab06eac",
-  "mulligan/real-square-d2-c02-dagger-baseline": "6c3b54f30c5ccffd35426ade19a8947482b1bc32",
-  "mulligan/real-square-d2-c02-dagger-mulligan": "1eca80eda2a44429932915943a06e188a9e27f8e",
-  "mulligan/real-square-d2-c02-dagger-mulligan-no-cf": "eac7d034f7d3b64c775873218000bd36e6f0ec95",
-  "mulligan/real-square-d2-c03-dagger-baseline": "725080b5a0927051e149508101dff4e07330f9f3",
-  "mulligan/real-square-d2-c03-dagger-mulligan": "11de641cf944b60d3704feda40ee3fb42759ab03",
-  "mulligan/real-square-d2-c03-dagger-mulligan-no-cf": "53b7d81ee7a7a56e921b6ee1de298d1bbb2a9ca3",
-  "mulligan/real-square-d2-c04-dagger-baseline": "e43ad12905966e82e5e3414a2ba4d6042b0e8ef5",
-  "mulligan/real-square-d2-c04-dagger-mulligan": "85dbc63ea6290b4c221f4500c71ac9395a8aada0",
-  "mulligan/real-square-d2-c04-dagger-mulligan-no-cf": "9b53a77bf400a4dcd3408795dc228427df576cb4",
-  "mulligan/real-square-d2-c05-dagger-baseline": "7050e7d02161735de49e3492453ebb6fa5ff4a15",
-  "mulligan/real-square-d2-c05-dagger-mulligan": "0e7594836effdc7a9ea4fd03e855e60692f97896",
-  "mulligan/real-square-d2-r01-eval-b01-baseline-dp-policy-rollouts": "d6be403c13ac5cde07557cbb288c6e96afbca4db",
-  "mulligan/real-square-d2-r01-eval-b01-mulligan-dp-policy-rollouts": "b295590429b62821d02308867a06df897af05102",
-  "mulligan/real-square-d2-r02-eval-b01-mulligan-dp-policy-rollouts": "a267ce2182dd41c035b345347947fcb6b0ba681b",
-  "mulligan/real-square-d2-r03-eval-b01-baseline-dp-policy-rollouts": "7dd78739ce55a8dddccee35200ac38cfa169d07b",
-  "mulligan/real-square-d2-r03-eval-b01-mulligan-dp-policy-rollouts": "802ef0cf331a079edf783ffb9973f6b2f01f2606",
-  "mulligan/real-square-d2-r03-eval-b02-mulligan-dp-policy-rollouts": "2276f11010e48b87ee27ad65ffd7e4607d637929",
-  "mulligan/real-square-d2-r03-eval-b02-mulligan-idql-policy-rollouts": "40e72aab38e93d2ac177fe4ed6155965b4ac3c02",
-  "mulligan/real-square-d2-r03-eval-b03-mulligan-dp-policy-rollouts": "d07460e99631e323cb8caa5c0241cbdd6e4b7485",
-  "mulligan/real-square-d2-r03-eval-b03-mulligan-idql-policy-rollouts": "6dc2ac5c2a900a3241e8921e26fcbd4bdc25634f",
-  "mulligan/real-square-d2-r04-eval-b01-mulligan-dp-policy-rollouts": "ebe7a5f67cd84ebe9edfb132c75c7a6af2ec4ad7",
-  "mulligan/real-square-d2-r04-eval-b01-mulligan-idql-policy-rollouts": "afba02db0bd69b8ed23d645ac30176b76d4e5880",
-  "mulligan/real-square-d2-r05-eval-b02-mulligan-dp-policy-rollouts": "bcd9a3c641cce46ddfb7110c4cef052be7385e23",
-  "mulligan/real-square-d2-r05-eval-b02-mulligan-idql-policy-rollouts": "27f312580588ec21f72c4038e41dc744dd9379c4",
+  "mulligan/real-marker-d2-c01-dagger-baseline": "01134563b9add62154621843b4054bbde34bb822",
+  "mulligan/real-marker-d2-c01-dagger-mulligan": "e9ed902ab91abeca9523cbcfa5475ac31bc31127",
+  "mulligan/real-marker-d2-c01-dagger-mulligan-no-cf": "3bfb5f0e7eb5267d2e83f8ca7aef5ca2315cce21",
+  "mulligan/real-marker-d2-c02-dagger-baseline": "0686daf8fd52db9343d4494b3064c0af7a7d66ba",
+  "mulligan/real-marker-d2-c02-dagger-mulligan": "0e44650843b7ff7b95527535993a0161a4bf9548",
+  "mulligan/real-marker-d2-c02-dagger-mulligan-no-cf": "351661d2be04e8f774ec4a20c388049a7d4f63e9",
+  "mulligan/real-marker-d2-c03-dagger-baseline": "2037414f3049817bcb92a6d306acfe2cd54da98b",
+  "mulligan/real-marker-d2-c03-dagger-mulligan": "37cc25fecdb4909fe8819cbb12ef36425f1e09bf",
+  "mulligan/real-marker-d2-c03-dagger-mulligan-no-cf": "cc4c49a2c0ca7f35146e9c3f2cc0d653567a2a39",
+  "mulligan/real-marker-d2-c04-dagger-baseline": "4b90ffdc954665d421e61ed11cd2888d40d6dd7e",
+  "mulligan/real-marker-d2-c04-dagger-mulligan": "8cb1da880180467ea491b422042a9daf478d2b97",
+  "mulligan/real-marker-d2-c04-dagger-mulligan-no-cf": "f1fc13ef6b2f580460376c07b87619d827532b30",
+  "mulligan/real-marker-d2-c05-dagger-baseline": "bce232476f4eaff4307edc0bb59f1c8d621c3443",
+  "mulligan/real-marker-d2-c05-dagger-mulligan": "7ba1fe7b63cfb7a138ea275478a030c28ef17d5a",
+  "mulligan/real-marker-d2-r00-eval-b01-baseline-dp-policy-rollouts": "78e9b8a39889f419e3398ea47cdaa971967309d9",
+  "mulligan/real-marker-d2-r00-eval-b01-sobol-dp-policy-rollouts": "cdbd3986a183a78289fd689a42c7a23a8bd1d2cd",
+  "mulligan/real-marker-d2-r01-eval-b01-mulligan-dp-policy-rollouts": "03474279db1740f329d04a3cba18fddb10c924ca",
+  "mulligan/real-marker-d2-r02-eval-b01-baseline-dp-policy-rollouts": "791fa889cf01152c0113e665bc3374ad0bb85bfe",
+  "mulligan/real-marker-d2-r02-eval-b01-mulligan-dp-policy-rollouts": "4337635445d7de14ea9a521bdc94d68eca972ffa",
+  "mulligan/real-marker-d2-r02-eval-b03": "9476c18be0d3d72067d3e78fe415a810e7b76f05",
+  "mulligan/real-marker-d2-r03-eval-b01-mulligan-dp-policy-rollouts": "bf91aa1575ddbe9aceb0a9d5c8e5ba544473b630",
+  "mulligan/real-marker-d2-r03-eval-b01-mulligan-idql-policy-rollouts": "246353ec7bfc9914e6a9a822dc44665d04b9be08",
+  "mulligan/real-marker-d2-r04-eval-b01-mulligan-dp-policy-rollouts": "3973fbd014af177a3b55e227dac03f9076198a11",
+  "mulligan/real-marker-d2-r04-eval-b01-mulligan-idql-policy-rollouts": "8660a0f1006af95f22873ee25c808e1e416c9c20",
+  "mulligan/real-routing-d2-c00-teleop-baseline": "83940e1cc5926abc24c88686b0be6688207f4fec",
+  "mulligan/real-routing-d2-c00-teleop-sobol": "dd8047c135935a35b416d7ecb9ca0f70fbb7fd94",
+  "mulligan/real-routing-d2-c00-teleop-validation": "17384f6b0b7742a57a4dc052fabce27af6ee53d3",
+  "mulligan/real-routing-d2-c01-dagger-baseline": "d4f7eb220a07fae9b80da1ea23d7bdface370a4b",
+  "mulligan/real-routing-d2-c01-dagger-mulligan": "df4cb987e512dbcf1f040a5b8e8164e71ca3b62e",
+  "mulligan/real-routing-d2-c02-dagger-baseline": "d70d194c9fcceacc4310fd6bfd524e09ad145589",
+  "mulligan/real-routing-d2-c02-dagger-mulligan": "9602d31be7f110332e38f1132305d3e287f38485",
+  "mulligan/real-routing-d2-c03-dagger-baseline": "889bdf8bc8eb9905068dc55b6f22c6d8203b5b3f",
+  "mulligan/real-routing-d2-c03-dagger-mulligan": "7f6a0e0870ae390841a1f8e5dd827e9c03740152",
+  "mulligan/real-routing-d2-c04-dagger-baseline": "5194bdc9472e23e5280e909fd591e38990f870c8",
+  "mulligan/real-routing-d2-c04-dagger-mulligan": "b06e5eca3b80dc2dc7e15f0bd481e2811889f40b",
+  "mulligan/real-routing-d2-c05-dagger-baseline": "41dfc8593a08ab06618caca75fcceff20b7fe0a8",
+  "mulligan/real-routing-d2-c05-dagger-mulligan": "b87ac2170ee3a843827ac819f393ec3b79d0b6db",
+  "mulligan/real-routing-d2-c06-dagger-baseline": "a7a2b54e49bdba92933ec3cb73e92dccceafea63",
+  "mulligan/real-routing-d2-c06-dagger-mulligan": "c3d2547928b74256685239a1bdf61e92d321d1ed",
+  "mulligan/real-routing-d2-c07-dagger-baseline": "ec0dbdd10b819230d2f7ad5467144775222f4f1f",
+  "mulligan/real-routing-d2-c07-dagger-mulligan": "03be2c955ee2a966203fed8b23866a1a936ffd28",
+  "mulligan/real-routing-d2-c08-dagger-baseline": "4f7328ece7f300ab344f4ee327e5332875286dd1",
+  "mulligan/real-routing-d2-c08-dagger-mulligan": "14e313966b07171941086ee58f717e205915a548",
+  "mulligan/real-routing-d2-c09-dagger-baseline": "0b023f838dcd537b31b436c17a05639689db628a",
+  "mulligan/real-routing-d2-c09-dagger-mulligan": "8f1e2137c2b22508ef43f6847a827edf28cea766",
+  "mulligan/real-routing-d2-velocity-r00-eval-b01-baseline-dp-policy-rollouts": "6bbbb3cac5d8b18f6a9299722a2db45dadb059fc",
+  "mulligan/real-routing-d2-velocity-r00-eval-b01-sobol-dp-policy-rollouts": "c8d3a92818f44f613cffe6b378a82960fcbd1829",
+  "mulligan/real-routing-d2-velocity-r01-eval-b01-baseline-dp-policy-rollouts": "cddbbf6b5779a1a60e1ba12ebfa3a619a17f86eb",
+  "mulligan/real-routing-d2-velocity-r01-eval-b01-mulligan-dp-policy-rollouts": "8b11063053cb732a302559a33c6d77b5f8c2c567",
+  "mulligan/real-routing-d2-velocity-r02-eval-b01-baseline-dp-policy-rollouts": "ae7db6fa338ac5731b56f3ef4bf764977776b8d7",
+  "mulligan/real-routing-d2-velocity-r02-eval-b01-mulligan-dp-policy-rollouts": "81df4a641380c996b01fcc0db6fa7c54ad5ab3c2",
+  "mulligan/real-routing-d2-velocity-r03-eval-b01-baseline-dp-policy-rollouts": "458e02ec29da7102e1a03eaea85a7574964742de",
+  "mulligan/real-routing-d2-velocity-r03-eval-b01-mulligan-dp-policy-rollouts": "140ec230f52068f1d6fa80c5aa6efebcc6f1be99",
+  "mulligan/real-routing-d2-velocity-r04-eval-b01-baseline-dp-policy-rollouts": "ad99ed5b7ee15cd193a2abae2962ab715589fb17",
+  "mulligan/real-routing-d2-velocity-r04-eval-b01-mulligan-dp-policy-rollouts": "4960fc5011f6ed48320b34e29bb00306121e0f88",
+  "mulligan/real-routing-d2-velocity-r04-eval-b01-mulligan-idql-policy-rollouts": "0d153ad879f907c9a2c442caa57f3e8f542099e4",
+  "mulligan/real-routing-d2-velocity-r05-eval-b01-baseline-dp-policy-rollouts": "eec0025f1846e18d006ea59a9b8d6cde7f361a0c",
+  "mulligan/real-routing-d2-velocity-r05-eval-b01-mulligan-dp-policy-rollouts": "edf70cfba9dba983937a1c270910922c0d4f1aa7",
+  "mulligan/real-routing-d2-velocity-r05-eval-b01-mulligan-idql-policy-rollouts": "58ac1a98705a6233ae9f61e5290a8152bb3eaf36",
+  "mulligan/real-routing-d2-velocity-r06-eval-b01-baseline-dp-policy-rollouts": "dbca33db555d609dc0eb394f8c3b9d6b3363b816",
+  "mulligan/real-routing-d2-velocity-r06-eval-b01-mulligan-dp-policy-rollouts": "0b3fea139668c521a2656897f6d1694aa3680335",
+  "mulligan/real-routing-d2-velocity-r06-eval-b01-mulligan-idql-policy-rollouts": "8537cedef985c16cb6cfaea64a834f5dcb9910f7",
+  "mulligan/real-routing-d2-velocity-r07-eval-b01-baseline-dp-policy-rollouts": "7ebfb94106c227dd68ab905aea39e620b18f6d1e",
+  "mulligan/real-routing-d2-velocity-r07-eval-b01-mulligan-dp-policy-rollouts": "c90a76ceec1580711c6648ef386bf0fdc30b5074",
+  "mulligan/real-routing-d2-velocity-r07-eval-b01-mulligan-idql-policy-rollouts": "899670d4d9f83d28387b6692b9eb19f235e1e846",
+  "mulligan/real-routing-d2-velocity-r08-eval-b01-mulligan-dp-policy-rollouts": "036c5ea3740642d05af8ab2231d1760e25c1c986",
+  "mulligan/real-routing-d2-velocity-r08-eval-b01-mulligan-idql-policy-rollouts": "2cf902fd49b165b6e0c3bce75f340a9dcd91a66b",
+  "mulligan/real-square-d2-c00-teleop-baseline": "bd4d3e3af42686f45cc305e4b4858c495a7576f4",
+  "mulligan/real-square-d2-c00-teleop-sobol": "3297332740f7ed1897a25015e0d307f3afe7fa9b",
+  "mulligan/real-square-d2-c00-teleop-validation": "30c8e47be25efb9efb40d5a0e84cd0e502223c12",
+  "mulligan/real-square-d2-c01-dagger-baseline": "9703aa9d81dabf5fc8a2b1f24b08cf9323caa59c",
+  "mulligan/real-square-d2-c01-dagger-mulligan": "aaf4407363220180e1ab72cc76dbadfa3a780ac6",
+  "mulligan/real-square-d2-c01-dagger-mulligan-no-cf": "40032e2691ae1f4c162a3b26c511cd901e8c9976",
+  "mulligan/real-square-d2-c02-dagger-baseline": "24752e40603f12d44f1753f8720e4aceb3a1c74b",
+  "mulligan/real-square-d2-c02-dagger-mulligan": "469a31c0ee4830868256a667178e74a29b1c27d8",
+  "mulligan/real-square-d2-c02-dagger-mulligan-no-cf": "a1bc4f795378e3aea1711d6aeb037c943ea27e75",
+  "mulligan/real-square-d2-c03-dagger-baseline": "abac64edc07c4100b52fa7b23bfbe30a945d048a",
+  "mulligan/real-square-d2-c03-dagger-mulligan": "71882a30cd33550b506c04d9f526d7448efe54c1",
+  "mulligan/real-square-d2-c03-dagger-mulligan-no-cf": "88795c105f98ed2e105f9311afbb8d6fe8574084",
+  "mulligan/real-square-d2-c04-dagger-baseline": "a67fbd955aa220052b53a15dc43472c8825d4274",
+  "mulligan/real-square-d2-c04-dagger-mulligan": "16e48f7c2b9f5cb20ac7ebcfb0b51721368e66fb",
+  "mulligan/real-square-d2-c04-dagger-mulligan-no-cf": "0e09c4b495fe3e85399d60ed7ff6af3e2245d3ba",
+  "mulligan/real-square-d2-c05-dagger-baseline": "04b4ac5e46ccd3f8a4c050ea6a3f7be28d1fb5bd",
+  "mulligan/real-square-d2-c05-dagger-mulligan": "167b4d1b7f11c931c6771d638b8b67791f132010",
+  "mulligan/real-square-d2-r01-eval-b01-baseline-dp-policy-rollouts": "78a3ccf37f82c83c41d84a91103aea35a3c398f8",
+  "mulligan/real-square-d2-r01-eval-b01-mulligan-dp-policy-rollouts": "b9e7f70b21b664dab9beabd5a0f855af81a67186",
+  "mulligan/real-square-d2-r02-eval-b01-mulligan-dp-policy-rollouts": "5f987f3b8dd6a6d79863138d3d5c71e12380de67",
+  "mulligan/real-square-d2-r03-eval-b01-baseline-dp-policy-rollouts": "0951199cc385704863b7b35a4d5ce62979e2e67a",
+  "mulligan/real-square-d2-r03-eval-b01-mulligan-dp-policy-rollouts": "cff03c20064540781b50342ff6afd7e5bc445048",
+  "mulligan/real-square-d2-r03-eval-b02-mulligan-dp-policy-rollouts": "555d81156f474d7171c60ae53a94098f13d9c146",
+  "mulligan/real-square-d2-r03-eval-b02-mulligan-idql-policy-rollouts": "4ce078e892eb32e3c1678521be78b7baed35838e",
+  "mulligan/real-square-d2-r03-eval-b03-mulligan-dp-policy-rollouts": "b40b59935996637c54e6428f23ecab49cbeaeb70",
+  "mulligan/real-square-d2-r03-eval-b03-mulligan-idql-policy-rollouts": "7b8458add3d8dfa0058ade20d9500550f2e0d890",
+  "mulligan/real-square-d2-r04-eval-b01-mulligan-dp-policy-rollouts": "f389c7270b8835f1c2892ed0137bb38371997463",
+  "mulligan/real-square-d2-r04-eval-b01-mulligan-idql-policy-rollouts": "56aeb500630e8a7a048109cfc5f53381ac261a58",
+  "mulligan/real-square-d2-r05-eval-b02-mulligan-dp-policy-rollouts": "6b2dffbe4e035f17018827336cf4dcc8ff8e3724",
+  "mulligan/real-square-d2-r05-eval-b02-mulligan-idql-policy-rollouts": "a512f37da02eca67be7a67fbbded9843fbdf00eb",
   "mulligan/sim-square-broad-c00-teleop-baseline": "d65b70543ccc7d4e607c510e2b317fcc7b5fe1d0",
   "mulligan/sim-square-broad-c00-teleop-baseline-first100": "3e384188d6e96db7205f8846a5d3b700077f8712",
   "mulligan/sim-square-broad-c00-teleop-sobol": "9b76670ef02cb5bc67b1dafd92f3b845d5fa2312",
   "mulligan/sim-square-broad-c00-teleop-sobol-first100": "e321768d7f1518297f73107368b14cefdfa39765",
-  "mulligan/sim-square-broad-c01-auto-bc-n1-shared-policy-rollouts": "b5e86cb7df80be4b14062c08e8bc595f8e9fd0d7",
-  "mulligan/sim-square-broad-c01-auto-iql-n32-policy-rollouts": "7e4faa0eac60473023cfacc4b5a314a58857b80c",
+  "mulligan/sim-square-broad-c01-auto-bc-n1-shared-policy-rollouts": "343a51a7a3f19193c266472bca45d61a70cbf72e",
+  "mulligan/sim-square-broad-c01-auto-iql-n32-policy-rollouts": "9a0a723e3b90c28e01c3ba2e89d8fa9bda54ccfe",
   "mulligan/sim-square-broad-c01-baseline-policy-rollouts": "d5acc63bf723b43116eba6b49ae25247bdf3b7f8",
-  "mulligan/sim-square-broad-c01-dagger-baseline": "eefebaee175f4efd28d5a5fb94c0ee29ad3cad2e",
-  "mulligan/sim-square-broad-c01-dagger-mulligan": "3cdddb12f24a0d0119c6a7ec66f1bd9e43f7cb3d",
-  "mulligan/sim-square-broad-c01-dagger-mulligan-no-cf": "d54a3a757ce243e5a55e849a9aab19a11169d005",
-  "mulligan/sim-square-broad-c01-dagger-sobol-no-cf": "d39c2b577bc634ac42b33c6fc12fbbb87d8ae2e9",
-  "mulligan/sim-square-broad-c01-dagger-sobol-with-cf": "e0aa8185daa2534fbc073d9e261488e760e3e625",
+  "mulligan/sim-square-broad-c01-dagger-baseline": "2d7f945f32f547e44da017eb4fb8347d1f33229b",
+  "mulligan/sim-square-broad-c01-dagger-mulligan": "530d80e4f21f03f0f907cd04062ac754383ba645",
+  "mulligan/sim-square-broad-c01-dagger-mulligan-no-cf": "bbc9c10c5591b5ee23e72d5719c314e9b6b44f63",
+  "mulligan/sim-square-broad-c01-dagger-sobol-no-cf": "b68bd122588615101fae93a3106155890068f7d4",
+  "mulligan/sim-square-broad-c01-dagger-sobol-with-cf": "5b2ca658ff670ee69cd47b826fe8fbdfa63c4210",
   "mulligan/sim-square-broad-c01-sobol-policy-rollouts": "8c21f4573818bfc1784302e099b6fc15d2994509",
-  "mulligan/sim-square-broad-c02-auto-filtered-bc-n1-policy-rollouts": "a0b776edf319240ef1b51571f4f8dbfa6acab7bd",
-  "mulligan/sim-square-broad-c02-auto-iql-n32-policy-rollouts": "492ceca209c1c4bc500ef79cfbbdcf21d38936e0",
-  "mulligan/sim-square-broad-c02-auto-iql-success-bc-n32-policy-rollouts": "42e34663c5da279be62480abadef445e324846c7",
-  "mulligan/sim-square-broad-c02-auto-plain-il-n1-policy-rollouts": "edab550d4d5000f637746efa555e9cacbf917b21",
+  "mulligan/sim-square-broad-c02-auto-filtered-bc-n1-policy-rollouts": "efdc15402ef46b2c59babef06242191803f77f5f",
+  "mulligan/sim-square-broad-c02-auto-iql-n32-policy-rollouts": "7821b0459b5599ac183a819779b44ba346dd25d4",
+  "mulligan/sim-square-broad-c02-auto-iql-success-bc-n32-policy-rollouts": "b3e64c16968dc9116fac11887e367c293efc19f7",
+  "mulligan/sim-square-broad-c02-auto-plain-il-n1-policy-rollouts": "7ff7b370c25f1e7d05a78ada22f6224f21c855d8",
   "mulligan/sim-square-broad-c02-baseline-policy-rollouts": "a126419e5068607e5f792c04f69b8d5592dd4a86",
-  "mulligan/sim-square-broad-c02-dagger-baseline": "5e47eaec8a4d644ce82fce446604f20ca7998737",
-  "mulligan/sim-square-broad-c02-dagger-mulligan": "699828afa35db41b3f3a00e43787feb36f59f00c",
-  "mulligan/sim-square-broad-c02-dagger-mulligan-no-cf": "0bca68a5408a19a2a6a0315cd71d824e269924e3",
-  "mulligan/sim-square-broad-c02-dagger-sobol-no-cf": "59739ac38866b86137b03663e7ad9ab1738a1e47",
-  "mulligan/sim-square-broad-c02-dagger-sobol-with-cf": "20cdcf37370d6240dd515087231fe77b78bd31e9",
+  "mulligan/sim-square-broad-c02-dagger-baseline": "9a86f1bcfef4368842471f3bbbf3582c7a7253ca",
+  "mulligan/sim-square-broad-c02-dagger-mulligan": "5e8991a6c266892f37751f6d1732c3728c062903",
+  "mulligan/sim-square-broad-c02-dagger-mulligan-no-cf": "c5a921d52d6ef770e952f37959ae005341246009",
+  "mulligan/sim-square-broad-c02-dagger-sobol-no-cf": "5e3b5448baeec7f4a3b0d14a43779b51aac9c2dc",
+  "mulligan/sim-square-broad-c02-dagger-sobol-with-cf": "45c818887d5ad2af2c3512c53f1ab1ef69e3e54d",
   "mulligan/sim-square-broad-c02-mulligan-policy-rollouts": "99d6631e1ca6b92790354b0e548e313d50141184",
-  "mulligan/sim-square-broad-c03-auto-filtered-bc-n1-policy-rollouts": "2321b0b774d1f7e0d3bbda906ec13f40f9eccede",
-  "mulligan/sim-square-broad-c03-auto-iql-n32-policy-rollouts": "9b6b16f57211b6caf614148333a4ee41426b65e2",
-  "mulligan/sim-square-broad-c03-auto-iql-success-bc-n32-policy-rollouts": "67b3ce70d223336c60157359c8731579dbeec94b",
-  "mulligan/sim-square-broad-c03-auto-plain-il-n1-policy-rollouts": "c82bf914868d658c041a32c3c48b4085e8802d3a",
+  "mulligan/sim-square-broad-c03-auto-filtered-bc-n1-policy-rollouts": "bf773402aee59dded341ac2f81e9a4d9a701da90",
+  "mulligan/sim-square-broad-c03-auto-iql-n32-policy-rollouts": "ed37e9e8e0798c50d15e425a6fe204cdfb37e678",
+  "mulligan/sim-square-broad-c03-auto-iql-success-bc-n32-policy-rollouts": "cbfdad0ae82ca047f64c2cb2ec09eb40fe90c5a1",
+  "mulligan/sim-square-broad-c03-auto-plain-il-n1-policy-rollouts": "5c8792209e751fc4c067431cb864156cbb21d9fc",
   "mulligan/sim-square-broad-c03-baseline-policy-rollouts": "296ecc2edfaf449ee49a8d0ef8f533c693d70349",
-  "mulligan/sim-square-broad-c03-dagger-baseline": "6ba04eb3dd58c896cec1857d6262cff2b66bfed6",
-  "mulligan/sim-square-broad-c03-dagger-mulligan": "349e8aa96c90b38ec9400390f2683a0912cbeecb",
-  "mulligan/sim-square-broad-c03-dagger-mulligan-no-cf": "a0da70adc23c48f2d7fa7994fea5914bd47de42f",
+  "mulligan/sim-square-broad-c03-dagger-baseline": "880e5ba4904024d10311fc8df9a53c583762829f",
+  "mulligan/sim-square-broad-c03-dagger-mulligan": "5805f0cdb7b4a4782d44ef68baf739cc20da3215",
+  "mulligan/sim-square-broad-c03-dagger-mulligan-no-cf": "ec1c943c0e52b5e9c8331ae3fa766b9c43222ca3",
   "mulligan/sim-square-broad-c03-mulligan-policy-rollouts": "d74668f92f0ea1dec110c8ab0fe31a5c26d1295c",
   "mulligan/sim-square-narrow-c00-teleop-baseline": "c92daf4da49fba126e876d00da07278f7c24e5d4",
   "mulligan/sim-square-narrow-c00-teleop-sobol": "be8b5ba803a31ae633d6d61c30d2548cfc9a382c",
-  "mulligan/sim-square-narrow-c01-auto-bc-n1-shared-policy-rollouts": "2cfaeb434679704834a9165f25e1f54dbdfa99e0",
-  "mulligan/sim-square-narrow-c01-auto-iql-n32-policy-rollouts": "b0ffde907dd65c067f73d5ef22e07415c4370ba4",
+  "mulligan/sim-square-narrow-c01-auto-bc-n1-shared-policy-rollouts": "fe2e6872474dbb475b14e2612038f627a405659c",
+  "mulligan/sim-square-narrow-c01-auto-iql-n32-policy-rollouts": "6800d10fdadf1e80f6f8a482efe9575cf028f49e",
   "mulligan/sim-square-narrow-c01-baseline-policy-rollouts": "390d13ef86cf25fc8fbd8a1a74cd807a8d0011d0",
   "mulligan/sim-square-narrow-c01-dagger-baseline": "2f3f9e3974c58f608043d33ae6df9fa6371e286b",
   "mulligan/sim-square-narrow-c01-dagger-mulligan": "edd45cb479f89abe7403fa7bd797bfaf678138e1",
@@ -161,23 +161,23 @@
   "mulligan/sim-square-narrow-c01-dagger-sobol-no-cf": "72d609535cd21d7311f453a52c04e686a200bf90",
   "mulligan/sim-square-narrow-c01-dagger-sobol-with-cf": "a4747c67d528f6e6ee462508143868705b3b3ea9",
   "mulligan/sim-square-narrow-c01-sobol-policy-rollouts": "68e68af0628088c2bb34c5502a60599c4b7fa848",
-  "mulligan/sim-square-narrow-c02-auto-filtered-bc-n1-policy-rollouts": "55915a3a57c6d3da03f2e8f0ba9661bdd9eb360c",
-  "mulligan/sim-square-narrow-c02-auto-iql-n32-policy-rollouts": "d964438e57658c89705bfb349570a461a55dc739",
-  "mulligan/sim-square-narrow-c02-auto-iql-success-bc-n32-policy-rollouts": "591f93c0f8054eda58b66819ca46472fc9552a85",
-  "mulligan/sim-square-narrow-c02-auto-plain-il-n1-policy-rollouts": "6286d20efdf2cdd39d618658ae2f384b2674c608",
+  "mulligan/sim-square-narrow-c02-auto-filtered-bc-n1-policy-rollouts": "3913e025d952022c18bc384ca2f4d933d40f460b",
+  "mulligan/sim-square-narrow-c02-auto-iql-n32-policy-rollouts": "468ae9a8edbca4e83ab06b9e63d5f420f80def1b",
+  "mulligan/sim-square-narrow-c02-auto-iql-success-bc-n32-policy-rollouts": "4aeba7702a3df6ed5c483eb7798707e1a1c16e92",
+  "mulligan/sim-square-narrow-c02-auto-plain-il-n1-policy-rollouts": "dd3ba581d352884231e21f2a69316ab40d06bfc0",
   "mulligan/sim-square-narrow-c02-baseline-policy-rollouts": "74f5784de09833ae6036f42900afa6d21084aa90",
-  "mulligan/sim-square-narrow-c02-dagger-baseline": "85357acf05dc9f18c5229632bed2b7e1c621c22d",
-  "mulligan/sim-square-narrow-c02-dagger-mulligan": "18d90f2751d627029af5bb31348f05d2110d82aa",
-  "mulligan/sim-square-narrow-c02-dagger-mulligan-no-cf": "47aadbc97528a8de6f7d31af2628987cab922060",
+  "mulligan/sim-square-narrow-c02-dagger-baseline": "b35457653143a19c932d3102715313f5299e3f73",
+  "mulligan/sim-square-narrow-c02-dagger-mulligan": "a313faa86ab1eadbaee13e6ef95da38090418d81",
+  "mulligan/sim-square-narrow-c02-dagger-mulligan-no-cf": "1c760f2d437018aca2a124f96c29fd612a6d8d99",
   "mulligan/sim-square-narrow-c02-mulligan-policy-rollouts": "ea6970ef1676132cfc4f369b6cf3d9520d79b72c",
-  "mulligan/sim-square-narrow-c03-auto-filtered-bc-n1-policy-rollouts": "5cb449d2ffaecd4fa68fa295f8cfff438a342af5",
-  "mulligan/sim-square-narrow-c03-auto-iql-n32-policy-rollouts": "d562763d72da15ed256ba85e8b97c2bb570cd17d",
-  "mulligan/sim-square-narrow-c03-auto-iql-success-bc-n32-policy-rollouts": "265ca59d34fb8345782f0144a7955235869cc164",
-  "mulligan/sim-square-narrow-c03-auto-plain-il-n1-policy-rollouts": "f019978f50799c7bdf2bd2c95756f08210eaf2d4",
+  "mulligan/sim-square-narrow-c03-auto-filtered-bc-n1-policy-rollouts": "22faa569124a2429a71d4a56cc5033c9e0e6cdce",
+  "mulligan/sim-square-narrow-c03-auto-iql-n32-policy-rollouts": "20a51e29266ca956334ab7b3bf092e38f946316d",
+  "mulligan/sim-square-narrow-c03-auto-iql-success-bc-n32-policy-rollouts": "760bd38592bdb83fb2d38d95c6e116a23bbcc9b3",
+  "mulligan/sim-square-narrow-c03-auto-plain-il-n1-policy-rollouts": "a2955d95e5fbd61a5735efce3337bead46956954",
   "mulligan/sim-square-narrow-c03-baseline-policy-rollouts": "a36182cf2e63c18edaf889c01f923528dbe8ded2",
-  "mulligan/sim-square-narrow-c03-dagger-baseline": "e4b8d791801643fc1b58e3e1fba53f4b11d43778",
-  "mulligan/sim-square-narrow-c03-dagger-mulligan": "02b3b82995e7f76af9d505decc617d9b56621f44",
-  "mulligan/sim-square-narrow-c03-dagger-mulligan-no-cf": "1ca42c755220db03cd800c0e611c3cf3ffa9b2c5",
+  "mulligan/sim-square-narrow-c03-dagger-baseline": "e9b1dd47b42d9858ab31c6de51386bf2ebd0164f",
+  "mulligan/sim-square-narrow-c03-dagger-mulligan": "946b716f121cf8e131bc284dede14dede9522b0a",
+  "mulligan/sim-square-narrow-c03-dagger-mulligan-no-cf": "14c8b7bdc05d4a471365ddf903ddd44947e0ba6a",
   "mulligan/sim-square-narrow-c03-mulligan-policy-rollouts": "1871d76ba2c6011d6e9a4a39f2c1b97899afaa1c"
  },
  "not_released": [
@@ -192,10 +192,9 @@
   },
   {
    "checkpoint": "unreleased/real/checkpoint-0005",
-   "reason": "deployed only by policy mulligan_r02_idql_c150k_n16 in session b03 of the Marker R2 evaluation; the round dataset mulligan/real-marker-d2-r02-eval excludes its 25 episodes as non-release-policy, but they are public in mulligan/real-marker-d2-r02-eval-b03 (the session published whole)",
+   "reason": "deployed only by policy mulligan_r02_idql_c150k_n16 in session b03 of the Marker R2 evaluation, recorded in that session's results; its 25 episodes are public in mulligan/real-marker-d2-r02-eval-b03 (the session published whole)",
    "referenced_by": {
     "mulligan/real-marker-d2-r02-eval": [
-     "meta/round_dataset.json",
      "meta/sessions/b03/results.json",
      "meta/sessions/b03/results_eval_time.json"
     ]
@@ -203,10 +202,9 @@
   },
   {
    "checkpoint": "unreleased/real/checkpoint-0006",
-   "reason": "only referenced by policies whose episodes the dataset release excludes",
+   "reason": "a Marker or Nut R5 candidate critic the screen did not select, recorded only in the screen session's results",
    "referenced_by": {
     "mulligan/real-marker-d2-r05-screen": [
-     "meta/round_dataset.json",
      "meta/sessions/b03/results.json",
      "meta/sessions/b03/results_eval_time.json"
     ]
@@ -214,10 +212,9 @@
   },
   {
    "checkpoint": "unreleased/real/checkpoint-0007",
-   "reason": "only referenced by policies whose episodes the dataset release excludes",
+   "reason": "a Marker or Nut R5 candidate critic the screen did not select, recorded only in the screen session's results",
    "referenced_by": {
     "mulligan/real-marker-d2-r05-screen": [
-     "meta/round_dataset.json",
      "meta/sessions/b03/results.json",
      "meta/sessions/b03/results_eval_time.json"
     ]
@@ -225,10 +222,9 @@
   },
   {
    "checkpoint": "unreleased/real/checkpoint-0018",
-   "reason": "only referenced by policies whose episodes the dataset release excludes",
+   "reason": "a Marker or Nut R5 candidate critic the screen did not select, recorded only in the screen session's results",
    "referenced_by": {
     "mulligan/real-square-d2-r05-screen": [
-     "meta/round_dataset.json",
      "meta/sessions/b03/results.json",
      "meta/sessions/b03/results_eval_time.json"
     ]
@@ -236,10 +232,9 @@
   },
   {
    "checkpoint": "unreleased/real/checkpoint-0019",
-   "reason": "only referenced by policies whose episodes the dataset release excludes",
+   "reason": "a Marker or Nut R5 candidate critic the screen did not select, recorded only in the screen session's results",
    "referenced_by": {
     "mulligan/real-square-d2-r05-screen": [
-     "meta/round_dataset.json",
      "meta/sessions/b03/results.json",
      "meta/sessions/b03/results_eval_time.json"
     ]
@@ -249,7 +244,7 @@
  "models": [
   {
    "repo": "mulligan/real-marker-d2-c05-collector-idql-critic",
-   "revision": "ed9ec82dc434fcbaf87faa1f148c5bc687f4f018",
+   "revision": "6aed70f029c8b40cd20c19362a5ea6150c17b2bf",
    "tag": "release-1",
    "extra_files": [
     {
@@ -260,7 +255,7 @@
     {
      "path": "release.json",
      "size": 2910,
-     "sha256": "70a3537a0312173405bbfb9e7bda0aa2fb2ea5fd45dc1a8cff035244e0433516"
+     "sha256": "cd26e785840ac215cf80ab36693c77fd77d17571525d561a44b6f443b219fb3e"
     }
    ],
    "checkpoints": [
@@ -280,8 +275,8 @@
       },
       {
        "path": "metadata.json",
-       "size": 7626,
-       "sha256": "74998510de4d2efb8efcf562e02403cd68da0a49cc537b08194e2a6561ed78a7"
+       "size": 7591,
+       "sha256": "860ebebe78f4c3fd0e8d4b44a3d9283baa504e73b100fce99f2f0e71d24041dc"
       }
      ],
      "training_datasets": [
@@ -950,7 +945,7 @@
        },
        "critic": {
         "repo": "mulligan/real-marker-d2-r02-mulligan-idql-critic",
-        "revision": "b5d06fac21260c3ada8c75098104fd43ffcd6f1a"
+        "revision": "56b7e30553d3faa061e0940a6808cb211e672613"
        },
        "num_action_samples": 16,
        "successes": 23,
@@ -966,7 +961,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-r02-mulligan-idql-critic",
-   "revision": "b5d06fac21260c3ada8c75098104fd43ffcd6f1a",
+   "revision": "56b7e30553d3faa061e0940a6808cb211e672613",
    "tag": "release-1",
    "extra_files": [
     {
@@ -977,7 +972,7 @@
     {
      "path": "release.json",
      "size": 2719,
-     "sha256": "9f108afe9af11ceb05904a6321bb5c2ff9d28956075fa576c91e0abb019ef0c7"
+     "sha256": "ca324d27422fd06f479f2adb3bfe5d6622f9e54f17c254c31d0e4c3611f2c0d4"
     }
    ],
    "checkpoints": [
@@ -997,8 +992,8 @@
       },
       {
        "path": "metadata.json",
-       "size": 6850,
-       "sha256": "f28b5d39e235844428c4acc58b4442e45a289304cd879b6c8815c5a4adbe5c9e"
+       "size": 6815,
+       "sha256": "38643e933b758688db8d31b9bd4b323c68a23ebb2d8e30d2e8c845d842a908b1"
       }
      ],
      "training_datasets": [
@@ -1028,7 +1023,7 @@
        },
        "critic": {
         "repo": "mulligan/real-marker-d2-r02-mulligan-idql-critic",
-        "revision": "b5d06fac21260c3ada8c75098104fd43ffcd6f1a"
+        "revision": "56b7e30553d3faa061e0940a6808cb211e672613"
        },
        "num_action_samples": 16,
        "successes": 23,
@@ -1321,7 +1316,7 @@
        },
        "critic": {
         "repo": "mulligan/real-marker-d2-r03-mulligan-idql-critic",
-        "revision": "aa3316f5f9a24bd95215dfc4b2fd0e0d25f4d18b"
+        "revision": "0113be01c9ba641ba1550b917fdce7891f104ce1"
        },
        "num_action_samples": 16,
        "successes": 27,
@@ -1337,7 +1332,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-r03-mulligan-idql-critic",
-   "revision": "aa3316f5f9a24bd95215dfc4b2fd0e0d25f4d18b",
+   "revision": "0113be01c9ba641ba1550b917fdce7891f104ce1",
    "tag": "release-1",
    "extra_files": [
     {
@@ -1348,7 +1343,7 @@
     {
      "path": "release.json",
      "size": 3573,
-     "sha256": "636f5d81f08b7e5ee7ccaffab447c1f968109dfcdc1f5f1fc3460ac8fbe9c241"
+     "sha256": "de8aebe923a47319a12a4186fc072dbe290746a44c39d65777cf12909cdb9e5f"
     }
    ],
    "checkpoints": [
@@ -1368,8 +1363,8 @@
       },
       {
        "path": "metadata.json",
-       "size": 7012,
-       "sha256": "061cdf5b68f1b5a6dc8ee7fe359f96e37d6d7cc4428f6fb9c6257f0cec2d8db4"
+       "size": 6977,
+       "sha256": "ea5a33f3fdb2b07c70b11732a6c128de595f1de6c2ec18274f2e214ebfd5f56d"
       }
      ],
      "training_datasets": [
@@ -1402,7 +1397,7 @@
        },
        "critic": {
         "repo": "mulligan/real-marker-d2-r03-mulligan-idql-critic",
-        "revision": "aa3316f5f9a24bd95215dfc4b2fd0e0d25f4d18b"
+        "revision": "0113be01c9ba641ba1550b917fdce7891f104ce1"
        },
        "num_action_samples": 16,
        "successes": 27,
@@ -1608,7 +1603,7 @@
        },
        "critic": {
         "repo": "mulligan/real-marker-d2-r04-mulligan-idql-critic",
-        "revision": "cb6739de2bf922889f89f1f56cb506a26bac0374"
+        "revision": "6f0903ead7f0d75e36b7c691912870812d6cb947"
        },
        "num_action_samples": 16,
        "successes": 29,
@@ -1624,7 +1619,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-r04-mulligan-idql-critic",
-   "revision": "cb6739de2bf922889f89f1f56cb506a26bac0374",
+   "revision": "6f0903ead7f0d75e36b7c691912870812d6cb947",
    "tag": "release-1",
    "extra_files": [
     {
@@ -1635,7 +1630,7 @@
     {
      "path": "release.json",
      "size": 3280,
-     "sha256": "6b817974aa80804def6eb62dbc0d37d9de486b975aa91815f3d69dc555df40c3"
+     "sha256": "78f567e188d68db8e8e3ade05d302f3c2a9069d03b05b2a27b52813a7988a9d2"
     }
    ],
    "checkpoints": [
@@ -1655,8 +1650,8 @@
       },
       {
        "path": "metadata.json",
-       "size": 7744,
-       "sha256": "04e7d440a3f651c3b0919b3feb502ee36a62b2946cbccacd30a698b780e35415"
+       "size": 7709,
+       "sha256": "698ba79d57aeb8faa551a6d8faae21fe6d52d399fe27350752d3e9a1fe03d227"
       }
      ],
      "training_datasets": [
@@ -1693,7 +1688,7 @@
        },
        "critic": {
         "repo": "mulligan/real-marker-d2-r04-mulligan-idql-critic",
-        "revision": "cb6739de2bf922889f89f1f56cb506a26bac0374"
+        "revision": "6f0903ead7f0d75e36b7c691912870812d6cb947"
        },
        "num_action_samples": 16,
        "successes": 29,
@@ -1916,7 +1911,7 @@
        },
        "critic": {
         "repo": "mulligan/real-marker-d2-r05-mulligan-idql-critic",
-        "revision": "abce857ca6fc88c06f941ed9082c5a68e8c21359"
+        "revision": "ca8988169cd95b97eb242fd619fb93ef0a57635e"
        },
        "num_action_samples": 32,
        "successes": 38,
@@ -1950,7 +1945,7 @@
        },
        "critic": {
         "repo": "mulligan/real-marker-d2-r05-mulligan-idql-critic-screen-b02",
-        "revision": "a0b56515356e1a350ebd0841f50d3dcbd2a4c59c"
+        "revision": "9d869c4a564fb3b04dc2f45b8aea1533248965f4"
        },
        "num_action_samples": 16,
        "successes": 31,
@@ -1969,7 +1964,7 @@
        },
        "critic": {
         "repo": "mulligan/real-marker-d2-r05-mulligan-idql-critic",
-        "revision": "abce857ca6fc88c06f941ed9082c5a68e8c21359"
+        "revision": "ca8988169cd95b97eb242fd619fb93ef0a57635e"
        },
        "num_action_samples": 32,
        "successes": 37,
@@ -1985,7 +1980,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-r05-mulligan-idql-critic",
-   "revision": "abce857ca6fc88c06f941ed9082c5a68e8c21359",
+   "revision": "ca8988169cd95b97eb242fd619fb93ef0a57635e",
    "tag": "release-1",
    "extra_files": [
     {
@@ -1996,7 +1991,7 @@
     {
      "path": "release.json",
      "size": 3759,
-     "sha256": "e1671c0055def2d9de54d304a5035dec5b60ea3a28c07d5278c7c34ab9702dd0"
+     "sha256": "6cd245cc2903781e25e9f9411a2d055926ba5ab47fce92c37a8aad984de49962"
     }
    ],
    "checkpoints": [
@@ -2016,8 +2011,8 @@
       },
       {
        "path": "metadata.json",
-       "size": 10929,
-       "sha256": "4ab1b25ee30ef98250e07312c83a5f07bb47c11e8d3ac15f54b2d6b2514b5acc"
+       "size": 10894,
+       "sha256": "274f78434bcd706cc01d9a39c240cb447b4d2df0fca040dde00d66a0e51b44b2"
       }
      ],
      "training_datasets": [
@@ -2055,7 +2050,7 @@
        },
        "critic": {
         "repo": "mulligan/real-marker-d2-r05-mulligan-idql-critic",
-        "revision": "abce857ca6fc88c06f941ed9082c5a68e8c21359"
+        "revision": "ca8988169cd95b97eb242fd619fb93ef0a57635e"
        },
        "num_action_samples": 32,
        "successes": 38,
@@ -2074,7 +2069,7 @@
        },
        "critic": {
         "repo": "mulligan/real-marker-d2-r05-mulligan-idql-critic",
-        "revision": "abce857ca6fc88c06f941ed9082c5a68e8c21359"
+        "revision": "ca8988169cd95b97eb242fd619fb93ef0a57635e"
        },
        "num_action_samples": 32,
        "successes": 37,
@@ -2095,7 +2090,7 @@
   },
   {
    "repo": "mulligan/real-marker-d2-r05-mulligan-idql-critic-screen-b02",
-   "revision": "a0b56515356e1a350ebd0841f50d3dcbd2a4c59c",
+   "revision": "9d869c4a564fb3b04dc2f45b8aea1533248965f4",
    "tag": "release-1",
    "extra_files": [
     {
@@ -2106,7 +2101,7 @@
     {
      "path": "release.json",
      "size": 3311,
-     "sha256": "59ba270b399f82f4100748f7768b5a7f35203c1307de9aa20ee27b6f8721b87f"
+     "sha256": "9b4e7c537af1552c2b313d2a60cade887d1450badc3e2bbf4d60c46bc5e0b790"
     }
    ],
    "checkpoints": [
@@ -2126,8 +2121,8 @@
       },
       {
        "path": "metadata.json",
-       "size": 7883,
-       "sha256": "50b8d2ee01d6cd9ec8314ca60bc72f7f9851d9e43d143163fd79f0c0be21e34d"
+       "size": 7848,
+       "sha256": "390762bf37082bdfc12ceae71b61be0328fbb7c245963c0c21990d6f92d2ea4d"
       }
      ],
      "training_datasets": [
@@ -2165,7 +2160,7 @@
        },
        "critic": {
         "repo": "mulligan/real-marker-d2-r05-mulligan-idql-critic-screen-b02",
-        "revision": "a0b56515356e1a350ebd0841f50d3dcbd2a4c59c"
+        "revision": "9d869c4a564fb3b04dc2f45b8aea1533248965f4"
        },
        "num_action_samples": 16,
        "successes": 31,
@@ -2909,7 +2904,7 @@
        },
        "critic": {
         "repo": "mulligan/real-routing-d2-r03-mulligan-idql-critic",
-        "revision": "3ca1bc5d9f7d50d86ec7e420f89279d0bca8e2e1"
+        "revision": "941a880d1354d88a4e3a05407d23c427d87ce5e2"
        },
        "num_action_samples": 32,
        "successes": 10,
@@ -2925,7 +2920,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-r03-mulligan-idql-critic",
-   "revision": "3ca1bc5d9f7d50d86ec7e420f89279d0bca8e2e1",
+   "revision": "941a880d1354d88a4e3a05407d23c427d87ce5e2",
    "tag": "release-1",
    "extra_files": [
     {
@@ -2936,7 +2931,7 @@
     {
      "path": "release.json",
      "size": 3580,
-     "sha256": "24aecc76b959d3ff7c9584917493525d742292baf29e783013734751c9be5bbc"
+     "sha256": "ffa84bc908b96556a5db25fa9f1f6b66f1abcdaa7dd0d4640e2d244bafedea34"
     }
    ],
    "checkpoints": [
@@ -2956,8 +2951,8 @@
       },
       {
        "path": "metadata.json",
-       "size": 12391,
-       "sha256": "738b699dd6beebe986e43d41eaf11032c07df0331e51d6d34984a5e75c089f39"
+       "size": 12352,
+       "sha256": "16a949540981cb201991fae0cab01f523077c925ddea413e4357dd782110b21d"
       }
      ],
      "training_datasets": [
@@ -2998,7 +2993,7 @@
        },
        "critic": {
         "repo": "mulligan/real-routing-d2-r03-mulligan-idql-critic",
-        "revision": "3ca1bc5d9f7d50d86ec7e420f89279d0bca8e2e1"
+        "revision": "941a880d1354d88a4e3a05407d23c427d87ce5e2"
        },
        "num_action_samples": 32,
        "successes": 10,
@@ -3212,7 +3207,7 @@
        },
        "critic": {
         "repo": "mulligan/real-routing-d2-r04-mulligan-idql-critic",
-        "revision": "4b915924e9001101042492bd4b2b94467a783e17"
+        "revision": "bf43f770a8adcbf5f876fd24358ffc30c380e386"
        },
        "num_action_samples": 32,
        "successes": 17,
@@ -3228,7 +3223,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-r04-mulligan-idql-critic",
-   "revision": "4b915924e9001101042492bd4b2b94467a783e17",
+   "revision": "bf43f770a8adcbf5f876fd24358ffc30c380e386",
    "tag": "release-1",
    "extra_files": [
     {
@@ -3239,7 +3234,7 @@
     {
      "path": "release.json",
      "size": 4812,
-     "sha256": "803bf5b0b07ac209614977ac9119a349d401237593db42672b94d21773de0edc"
+     "sha256": "827ed8c52d5256f093d2d834058019b0347419d72184b4b2f4b364bd9b7fa9da"
     }
    ],
    "checkpoints": [
@@ -3259,8 +3254,8 @@
       },
       {
        "path": "metadata.json",
-       "size": 13199,
-       "sha256": "517563bf98b914f8df8848225344e8a0b80492c98efaa39e55b9d9860e19f67f"
+       "size": 13160,
+       "sha256": "463d4d23e1e1ac6e801e4760e4cbd13fdbdca01736dd9ddf2ba68875732a1993"
       }
      ],
      "training_datasets": [
@@ -3309,7 +3304,7 @@
        },
        "critic": {
         "repo": "mulligan/real-routing-d2-r04-mulligan-idql-critic",
-        "revision": "4b915924e9001101042492bd4b2b94467a783e17"
+        "revision": "bf43f770a8adcbf5f876fd24358ffc30c380e386"
        },
        "num_action_samples": 32,
        "successes": 17,
@@ -3525,7 +3520,7 @@
        },
        "critic": {
         "repo": "mulligan/real-routing-d2-r05-mulligan-idql-critic",
-        "revision": "548a254c7d1e6ae641971e8cebcc3ca764b50205"
+        "revision": "0d0c1058c05b26f4551ec5c3d0e9c8e97c4a44eb"
        },
        "num_action_samples": 32,
        "successes": 17,
@@ -3541,7 +3536,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-r05-mulligan-idql-critic",
-   "revision": "548a254c7d1e6ae641971e8cebcc3ca764b50205",
+   "revision": "0d0c1058c05b26f4551ec5c3d0e9c8e97c4a44eb",
    "tag": "release-1",
    "extra_files": [
     {
@@ -3552,7 +3547,7 @@
     {
      "path": "release.json",
      "size": 4442,
-     "sha256": "7d99f83a08e0cb8c2fd0c9094bd2ffecef3b130a94b76f9e13f5ac33c3b50492"
+     "sha256": "b5b862606db5d31cd7babf414fc2f9998b567f71e54b3a94ed5ee8f29710986d"
     }
    ],
    "checkpoints": [
@@ -3572,8 +3567,8 @@
       },
       {
        "path": "metadata.json",
-       "size": 13427,
-       "sha256": "b656583edf9a7848d1f7f66bf50748df9c4085d6e026eab82337788f63ebec84"
+       "size": 13388,
+       "sha256": "81e47e05cc0e1e0b52413fc95f314458d467a7255c04aed6bbe0c69dd322df2d"
       }
      ],
      "training_datasets": [
@@ -3625,7 +3620,7 @@
        },
        "critic": {
         "repo": "mulligan/real-routing-d2-r05-mulligan-idql-critic",
-        "revision": "548a254c7d1e6ae641971e8cebcc3ca764b50205"
+        "revision": "0d0c1058c05b26f4551ec5c3d0e9c8e97c4a44eb"
        },
        "num_action_samples": 32,
        "successes": 17,
@@ -4366,7 +4361,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r04-mulligan-idql-critic",
-   "revision": "9bd9d96e7ec6792797013adca0770d5e052de692",
+   "revision": "b809601690bad8a07bd77c1899c59775d80a42d3",
    "tag": "release-1",
    "extra_files": [
     {
@@ -4377,7 +4372,7 @@
     {
      "path": "release.json",
      "size": 2803,
-     "sha256": "aa94a570ff7f517615ae16057c0387377b17fb40f63ae1838fbbdf6bf22a8ee3"
+     "sha256": "9236a1715afa0414ff7da2f1fe68e9d87c80085b80b950d331a60fcbe8089aca"
     }
    ],
    "checkpoints": [
@@ -4397,8 +4392,8 @@
       },
       {
        "path": "metadata.json",
-       "size": 9324,
-       "sha256": "ff1e7337e5ea1783944c659f47077dbd3a1762a724fad3cfb8f5924f7692c336"
+       "size": 9285,
+       "sha256": "62bde6a6d03ad157359b968364090d3e0a68e6edf9b6c61a79d5b64130d62c0d"
       }
      ],
      "training_datasets": [
@@ -4581,7 +4576,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r05-mulligan-idql-critic",
-   "revision": "bc42896bd00574106cf8cbbed33bfaa670a6f071",
+   "revision": "d1f0409c93bb6dbbc61551ecc89fada3164b6782",
    "tag": "release-1",
    "extra_files": [
     {
@@ -4592,7 +4587,7 @@
     {
      "path": "release.json",
      "size": 3368,
-     "sha256": "d6c0201ed20cb7e1629cfd4e3284bffca0752600bb1865d4b5bc4aed202df368"
+     "sha256": "14a3dde52762aa8aa7bc2eee8ad8ff9254033fa5c2eb0080695cdc9f4a277124"
     }
    ],
    "checkpoints": [
@@ -4612,8 +4607,8 @@
       },
       {
        "path": "metadata.json",
-       "size": 10573,
-       "sha256": "2941a646a0597398ba343f4f7e5c5739f45bc5132436978b71b816eedbff4b28"
+       "size": 10534,
+       "sha256": "138ac65d37329c7416c41c44cccd1db24d9b0be19888405a00a949156a32d5f5"
       }
      ],
      "training_datasets": [
@@ -4800,7 +4795,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r06-mulligan-idql-critic",
-   "revision": "f9ec14ac8747c14e5f8e19c7693ba25e9e6b4cdd",
+   "revision": "9f293e060f9c5705c2bd3050fbb018a865ad79bc",
    "tag": "release-1",
    "extra_files": [
     {
@@ -4811,7 +4806,7 @@
     {
      "path": "release.json",
      "size": 3684,
-     "sha256": "04b185e38fbfb388d69f000c378bc2eb37d83f7ff0d3cf99c447aa041cf7682d"
+     "sha256": "42a745513d9dff5d6ee51c57c7250c4df8f5522cdfcac904062f810356ce7088"
     }
    ],
    "checkpoints": [
@@ -4831,8 +4826,8 @@
       },
       {
        "path": "metadata.json",
-       "size": 11528,
-       "sha256": "0ca41c26a14c3e990d269d5021bea5cedf43c9d17dfac6d17d5c4290175a3377"
+       "size": 11492,
+       "sha256": "4eaa95970d95215a022d15d61e334ac2c74d92128f67c6dcea755db65b9a6059"
       }
      ],
      "training_datasets": [
@@ -5027,7 +5022,7 @@
   },
   {
    "repo": "mulligan/real-routing-d2-velocity-r07-mulligan-idql-critic",
-   "revision": "4386087aef4bc879096f91c058853ff66a7fc935",
+   "revision": "65b5fd86e33b84d12309c4db55daf08d2d8bffcc",
    "tag": "release-1",
    "extra_files": [
     {
@@ -5038,7 +5033,7 @@
     {
      "path": "release.json",
      "size": 4000,
-     "sha256": "350a03d1c68ca468e54b88a4b3b076de1b4c3b4c43d5060b67b00f4647a6a3c4"
+     "sha256": "2ad1651a09f1013534e304619b744e79cda5a29ae79dc2898c2f96b0ee3ab3a4"
     }
    ],
    "checkpoints": [
@@ -5058,8 +5053,8 @@
       },
       {
        "path": "metadata.json",
-       "size": 11978,
-       "sha256": "633a915a423949b6081b40ea770ec51ef27ec96dc7d16ffd74fdac1e2adfc0b2"
+       "size": 11939,
+       "sha256": "65092c04fbcc72a66a34e47e1bb355b5dd0eaa4fdaadcde67ed1e32052bcc184"
       }
      ],
      "training_datasets": [
@@ -6022,7 +6017,7 @@
        },
        "critic": {
         "repo": "mulligan/real-square-d2-r03-mulligan-idql-critic",
-        "revision": "409a4b50a2ed922e872954f8972fa25cb09ca748"
+        "revision": "dc23282695646c2ede27d7d0a63b94da6bf6b0de"
        },
        "num_action_samples": 16,
        "successes": 31,
@@ -6056,7 +6051,7 @@
        },
        "critic": {
         "repo": "mulligan/real-square-d2-r03-mulligan-idql-critic",
-        "revision": "409a4b50a2ed922e872954f8972fa25cb09ca748"
+        "revision": "dc23282695646c2ede27d7d0a63b94da6bf6b0de"
        },
        "num_action_samples": 16,
        "successes": 31,
@@ -6072,7 +6067,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-r03-mulligan-idql-critic",
-   "revision": "409a4b50a2ed922e872954f8972fa25cb09ca748",
+   "revision": "dc23282695646c2ede27d7d0a63b94da6bf6b0de",
    "tag": "release-1",
    "extra_files": [
     {
@@ -6083,7 +6078,7 @@
     {
      "path": "release.json",
      "size": 4261,
-     "sha256": "d448b1015ef04b0b0fc6a1824824cb6584346bd6ef9465d963a04c63c73f241e"
+     "sha256": "7de56a78a7e97bc30cbe8628f99d84a47ea743193a540459223b085b17dede79"
     }
    ],
    "checkpoints": [
@@ -6103,8 +6098,8 @@
       },
       {
        "path": "metadata.json",
-       "size": 6910,
-       "sha256": "3c8c57c4fab57c1cf88544809c4cf4917dd5f5389e14f96d6cb40607e201ef15"
+       "size": 6875,
+       "sha256": "fb1c0cef4a589693c07be99acc0e135a7df17695942a7abe19ae1a7e10a17f6e"
       }
      ],
      "training_datasets": [
@@ -6135,7 +6130,7 @@
        },
        "critic": {
         "repo": "mulligan/real-square-d2-r03-mulligan-idql-critic",
-        "revision": "409a4b50a2ed922e872954f8972fa25cb09ca748"
+        "revision": "dc23282695646c2ede27d7d0a63b94da6bf6b0de"
        },
        "num_action_samples": 16,
        "successes": 31,
@@ -6154,7 +6149,7 @@
        },
        "critic": {
         "repo": "mulligan/real-square-d2-r03-mulligan-idql-critic",
-        "revision": "409a4b50a2ed922e872954f8972fa25cb09ca748"
+        "revision": "dc23282695646c2ede27d7d0a63b94da6bf6b0de"
        },
        "num_action_samples": 16,
        "successes": 31,
@@ -6450,7 +6445,7 @@
        },
        "critic": {
         "repo": "mulligan/real-square-d2-r04-mulligan-idql-critic",
-        "revision": "6e178583609e48df511e6566bee48bbfeed37bfd"
+        "revision": "29632d4a1632c4a30dbd12923887d8a92b9bd4cb"
        },
        "num_action_samples": 16,
        "successes": 41,
@@ -6466,7 +6461,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-r04-mulligan-idql-critic",
-   "revision": "6e178583609e48df511e6566bee48bbfeed37bfd",
+   "revision": "29632d4a1632c4a30dbd12923887d8a92b9bd4cb",
    "tag": "release-1",
    "extra_files": [
     {
@@ -6477,7 +6472,7 @@
     {
      "path": "release.json",
      "size": 3830,
-     "sha256": "c07340c7f4c1e6f6b5c29de37263e4cee8ea95d53acbe802b759e9b3ec7ced69"
+     "sha256": "6dafeb3d348e80012b7ee6325acd0a2e5f9519c9c6e47ff8af6738c235a0a346"
     }
    ],
    "checkpoints": [
@@ -6497,8 +6492,8 @@
       },
       {
        "path": "metadata.json",
-       "size": 7276,
-       "sha256": "94a92a792996206bcd60d844f8740461253f056dd6df15eb6bf3b94a98e43b05"
+       "size": 7241,
+       "sha256": "b45649e989d921731615ad90263874a1cf0485c9ea78e38b5e4d05f273d28f3c"
       }
      ],
      "training_datasets": [
@@ -6534,7 +6529,7 @@
        },
        "critic": {
         "repo": "mulligan/real-square-d2-r04-mulligan-idql-critic",
-        "revision": "6e178583609e48df511e6566bee48bbfeed37bfd"
+        "revision": "29632d4a1632c4a30dbd12923887d8a92b9bd4cb"
        },
        "num_action_samples": 16,
        "successes": 41,
@@ -6848,7 +6843,7 @@
        },
        "critic": {
         "repo": "mulligan/real-square-d2-r05-mulligan-idql-critic",
-        "revision": "a83f964a2e27771882edd05efad014ba7ce33dff"
+        "revision": "6bd207ef8ffab15cac402f76c8d84aa63ec880b3"
        },
        "num_action_samples": 32,
        "successes": 36,
@@ -6882,7 +6877,7 @@
        },
        "critic": {
         "repo": "mulligan/real-square-d2-r05-mulligan-idql-critic-screen-b02",
-        "revision": "e13e19c86b2f8585f8884b6e3a1e65621dd9b668"
+        "revision": "d7c6291adbe8411f2d2104b4a8c297be3cd4513b"
        },
        "num_action_samples": 16,
        "successes": 33,
@@ -6901,7 +6896,7 @@
        },
        "critic": {
         "repo": "mulligan/real-square-d2-r05-mulligan-idql-critic-screen-b03",
-        "revision": "198e4e9b12b01f4efca32f61e091cd6ab7dc8d28"
+        "revision": "41a85cd28828b28ef85ece8e7bb1be73178ecfb7"
        },
        "num_action_samples": 16,
        "successes": 36,
@@ -6917,7 +6912,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-r05-mulligan-idql-critic",
-   "revision": "a83f964a2e27771882edd05efad014ba7ce33dff",
+   "revision": "6bd207ef8ffab15cac402f76c8d84aa63ec880b3",
    "tag": "release-1",
    "extra_files": [
     {
@@ -6928,7 +6923,7 @@
     {
      "path": "release.json",
      "size": 3407,
-     "sha256": "b77665b6aa623dd849982c15cc20e6c661d9ed5e43ecb98fee944f9d9175ca99"
+     "sha256": "a01fcfd5a6f587ec6f227bc1114fbe2feba6d7f6569db3bf1af9339fd5a8b8b6"
     }
    ],
    "checkpoints": [
@@ -6948,8 +6943,8 @@
       },
       {
        "path": "metadata.json",
-       "size": 11187,
-       "sha256": "68a3f3d243a187f23549ee10c0e7807db4e752a7fb29bd8dfd499f94f9f127b7"
+       "size": 11152,
+       "sha256": "bea23d5550f9ba616ffa8dfdc0685a99d9350784653033cb4e9eeaa2d36b5819"
       }
      ],
      "training_datasets": [
@@ -6990,7 +6985,7 @@
        },
        "critic": {
         "repo": "mulligan/real-square-d2-r05-mulligan-idql-critic",
-        "revision": "a83f964a2e27771882edd05efad014ba7ce33dff"
+        "revision": "6bd207ef8ffab15cac402f76c8d84aa63ec880b3"
        },
        "num_action_samples": 32,
        "successes": 36,
@@ -7011,7 +7006,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-r05-mulligan-idql-critic-screen-b02",
-   "revision": "e13e19c86b2f8585f8884b6e3a1e65621dd9b668",
+   "revision": "d7c6291adbe8411f2d2104b4a8c297be3cd4513b",
    "tag": "release-1",
    "extra_files": [
     {
@@ -7022,7 +7017,7 @@
     {
      "path": "release.json",
      "size": 3651,
-     "sha256": "fe460809408d87a7ab61827ccfa37b5ef7251035a34556c5462213cfd416b596"
+     "sha256": "1a5722cfc8f9684536cc1d000619f44176b0c3bbe6f5f1e5e7a9635d737f68df"
     }
    ],
    "checkpoints": [
@@ -7042,8 +7037,8 @@
       },
       {
        "path": "metadata.json",
-       "size": 8997,
-       "sha256": "b89efd3c9095f070fbb0fe008384b3f04b2177a3cddf9df239b713884d99f9e5"
+       "size": 8962,
+       "sha256": "5a5acfa98cb37af2f73ce7d7dba7ddb0a0745e1d5001862b1c0387d189fea5f0"
       }
      ],
      "training_datasets": [
@@ -7082,7 +7077,7 @@
        },
        "critic": {
         "repo": "mulligan/real-square-d2-r05-mulligan-idql-critic-screen-b02",
-        "revision": "e13e19c86b2f8585f8884b6e3a1e65621dd9b668"
+        "revision": "d7c6291adbe8411f2d2104b4a8c297be3cd4513b"
        },
        "num_action_samples": 16,
        "successes": 33,
@@ -7103,7 +7098,7 @@
   },
   {
    "repo": "mulligan/real-square-d2-r05-mulligan-idql-critic-screen-b03",
-   "revision": "198e4e9b12b01f4efca32f61e091cd6ab7dc8d28",
+   "revision": "41a85cd28828b28ef85ece8e7bb1be73178ecfb7",
    "tag": "release-1",
    "extra_files": [
     {
@@ -7114,7 +7109,7 @@
     {
      "path": "release.json",
      "size": 3421,
-     "sha256": "6b7f9b0464ce444fb06affa798aea126d5905dd72d6a572b10e3d095ec5abd8c"
+     "sha256": "127aae7b05679b1086be2f7b8d951728adf0873508e8d99075d64d30042b3c38"
     }
    ],
    "checkpoints": [
@@ -7134,8 +7129,8 @@
       },
       {
        "path": "metadata.json",
-       "size": 10692,
-       "sha256": "d88306ad4813e7d3c9cf491cc00aeb342ab058c3c57d958d8ad33f89da98ca04"
+       "size": 10657,
+       "sha256": "1684f08779894f528013af22a4ef59e5fc79c54a074a9870c97e8dcecd11a5d7"
       }
      ],
      "training_datasets": [
@@ -7174,7 +7169,7 @@
        },
        "critic": {
         "repo": "mulligan/real-square-d2-r05-mulligan-idql-critic-screen-b03",
-        "revision": "198e4e9b12b01f4efca32f61e091cd6ab7dc8d28"
+        "revision": "41a85cd28828b28ef85ece8e7bb1be73178ecfb7"
        },
        "num_action_samples": 16,
        "successes": 36,

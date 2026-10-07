@@ -11,7 +11,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
 RELEASE = REPO / "release"
-LOCK_SHA256 = "a626ad69dbe7ea155ee97f19857441b91b3790510a32e72a6aa0a72ec0eb29c3"
+LOCK_SHA256 = "ffabdce26d911002a9be21b04cfd5df0a329131c7c69b6ce62c18d54560fcb13"
 ROLES = {
     "training-view",
     "raw-collection",

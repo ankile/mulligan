@@ -1,9 +1,5 @@
 {
   "experiment": "square_narrow_r3_prep_rollouts",
-  "generator": "<local-path>/make_square_narrow_r3_prep_inputs.py",
-  "inputs": {
-    "mulligan": "<local-path>/square_narrow_mulligan_r3_diagnostic_sobol_500_599.json"
-  },
   "outputs": {
     "mulligan": "mulligan/sim-square-narrow-c03-mulligan-policy-rollouts"
   },

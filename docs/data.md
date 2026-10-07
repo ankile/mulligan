@@ -143,8 +143,9 @@ each (290 IDQL agents, 230 DIVL agents). For real checkpoints:
   the selectors in `release/training-views.json`, else `approximate`: 75 exact, 1 approximate
   (`real-routing-d2-velocity-r05-mulligan-idql-critic`). The five Marker critics that trained on session b03
   of the R2 evaluation are exact: they read `mulligan/real-marker-d2-r02-eval-b03`, the session published whole
-  (125 episodes), including the 25 episodes the round dataset `mulligan/real-marker-d2-r02-eval` excludes as
-  `non-release-policy` (their source in `release/training-views.json` carries `round_dataset_session`).
+  (125 episodes), including the 25 episodes of a policy that is not released, which the round dataset
+  `mulligan/real-marker-d2-r02-eval` does not hold (their source in `release/training-views.json` carries
+  `round_dataset_session`).
 - `dp_artifact_resolved` maps each critic's `dp_artifact` (the `hf://` id in its `metadata.json`) to the released DP
   repo and revision it loads. 17 of 18 resolve; the exception is the approximate critic above
   ([real_robot.md](real_robot.md#approximate-checkpoints)).
@@ -183,8 +184,9 @@ terms.
 ## What the public `meta/` files record
 
 Models and datasets are named by their release ids (`mulligan/<repo>`, `mulligan/<repo>/<seed>`, or
-`unreleased/...` for runs and recordings that are not published), and machine-specific paths read
-`<local-path>/<last component>`.
+`unreleased/...` for runs and recordings that are not published). A file path names a released file
+by its path in this repository (`data/real/manifests/...`, `data/sim/start_manifests/...`); paths to files
+that are not released are left out.
 
 `.label_history.jsonl` and `.outcome_edit_progress.json` are data: the
 Cable clip-progress numbers are recomputed from them.

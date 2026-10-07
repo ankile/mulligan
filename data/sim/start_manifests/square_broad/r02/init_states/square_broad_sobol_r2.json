@@ -712,7 +712,6 @@
       "peg_x",
       "peg_y"
     ],
-    "min_pairwise_periodic_l2": 0.12323329511999095,
-    "generator": "<local-path>/make_square_broad_r2_inputs.py"
+    "min_pairwise_periodic_l2": 0.12323329511999095
   }
 }

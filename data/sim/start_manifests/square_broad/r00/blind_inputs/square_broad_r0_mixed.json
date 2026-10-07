@@ -2809,7 +2809,6 @@
     "sobol_seed": 42,
     "shuffle_seed": 202605233,
     "shuffle_block_size": 100,
-    "min_pairwise_distance": 0.06897554490100027,
-    "generator": "<local-path>/make_r0_inputs.py"
+    "min_pairwise_distance": 0.06897554490100027
   }
 }

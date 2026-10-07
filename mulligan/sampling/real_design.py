@@ -471,7 +471,8 @@ def resolve_inputs(
     """Absolute input paths: config paths are relative to ``root``; overrides replace them.
 
     An override of a list input (``support_manifests``, ``avoid_manifests``) is a sequence of
-    paths and replaces the whole list; an override of a single-path input is one path.
+    paths and replaces the whole list; an override of a single-path input is one path. An input
+    the config leaves ``null`` (a table that is not released) must be given as an override.
     """
     root = Path(root)
     out: dict[str, Any] = {}
@@ -479,7 +480,7 @@ def resolve_inputs(
         if isinstance(value, list):
             out[name] = [root / v for v in value]
         else:
-            out[name] = root / value
+            out[name] = None if value is None else root / value
     for name, value in (overrides or {}).items():
         if name not in out:
             raise ValueError(f"unknown input {name!r}; known: {sorted(out)}")
@@ -490,6 +491,11 @@ def resolve_inputs(
             raise ValueError(f"input {name!r} takes one path, got {list(value)}")
         else:
             out[name] = Path(value)
+    missing = sorted(name for name, value in out.items() if value is None)
+    if missing:
+        raise ValueError(
+            f"inputs {missing} are not released; give each with --input NAME=PATH"
+        )
     return out
 
 

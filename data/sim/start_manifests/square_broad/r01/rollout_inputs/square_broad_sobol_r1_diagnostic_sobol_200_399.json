@@ -1615,22 +1615,20 @@
     "min_pairwise_periodic_l2": 0.10397441561420682,
     "disjoint_checks": [
       {
-        "path": "<local-path>/square_broad_baseline_uniform_r0.json",
+        "path": "data/sim/start_manifests/square_broad/r00/init_states/square_broad_baseline_uniform_r0.json",
         "n_states": 200,
         "min_periodic_l2": 0.051945981519653905
       },
       {
-        "path": "<local-path>/square_broad_sobol_r0.json",
+        "path": "data/sim/start_manifests/square_broad/r00/init_states/square_broad_sobol_r0.json",
         "n_states": 200,
         "min_periodic_l2": 0.09667377124424781
       },
       {
-        "path": "<local-path>/square_broad_valid_sobol30k_seed2026052499.json",
         "n_states": 30000,
         "min_periodic_l2": 0.01613942189486198
       }
     ],
-    "generator": "<local-path>/make_square_broad_r1_rollout_inputs.py",
     "seed": 42,
     "sobol_accepted_start_index": 200,
     "sobol_accepted_end_index_exclusive": 400,

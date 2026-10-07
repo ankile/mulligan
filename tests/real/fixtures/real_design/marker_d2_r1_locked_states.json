@@ -1,5 +1,5 @@
 {
- "source_manifest": "<local-path>/marker_d2_r1_promote25_fill25_blind_dagger.json",
+ "source_manifest": "data/real/manifests/marker_d2/r01/marker_d2_r1_promote25_fill25_blind_dagger.json",
  "source_sha256": "424cdc5fdc4accdb948da1127be09a79963b01a8fd6ee54a54b74fd233573dc8",
  "states": [
   {

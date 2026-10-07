@@ -33,8 +33,8 @@ order:
   segments: phase
   segment_names: {upstream: verbatim_upstream, later: verbatim_at_holder_plus_partial}
 inputs:
-  eval_outcomes: <local-path>/paired_round_outcomes.csv
-  stage_labels: <local-path>/labels_joined.csv
+  eval_outcomes: null
+  stage_labels: null
   support_manifests:
     - data/real/manifests/marker_d2/r00/marker_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json
     - data/real/manifests/marker_d2/r01/marker_d2_r1_promote25_fill25_blind_dagger.json

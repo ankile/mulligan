@@ -1011,7 +1011,7 @@
     "max_steps": 400,
     "num_envs": 10,
     "policy_type": "idql",
-    "initial_states_json_file": "<local-path>/square_narrow_sobol_r1_diagnostic_sobol_100_199.json",
+    "initial_states_json_file": "data/sim/start_manifests/square_narrow/r01/rollout_inputs/square_narrow_sobol_r1_diagnostic_sobol_100_199.json",
     "initial_object_qpos_file": null
   }
 }

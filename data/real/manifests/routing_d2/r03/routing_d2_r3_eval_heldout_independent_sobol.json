@@ -164,13 +164,13 @@
   "registry_usage_id": "routing_d2_r3_heldout_eval_independent_sobol_seed2026070902",
   "within_set_min_periodic_dist": 0.3636936944380841,
   "cross_set_min_periodic_dist_to_prior_manifests": {
-    "<local-path>/routing_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json": 0.19095387694656737,
-    "<local-path>/routing_d2_r1_promote25_fill25_blind_dagger.json": 0.2394542223390599,
-    "<local-path>/routing_d2_r2_promote25_fill25_blind_dagger.json": 0.20063196117874474,
-    "<local-path>/routing_d2_r3_promote25_fill25_blind_dagger.json": 0.24155022996275916,
-    "<local-path>/routing_d2_r0_eval_heldout_independent_sobol.json": 0.21958963475113077,
-    "<local-path>/routing_d2_r1_eval_heldout_independent_sobol.json": 0.19433502735948333,
-    "<local-path>/routing_d2_r2_eval_heldout_independent_sobol.json": 0.27390132561849867
+    "data/real/manifests/routing_d2/r00/routing_d2_r0_three_arm_uniform100_sobol100_evalsobol50_scrambled.json": 0.19095387694656737,
+    "data/real/manifests/routing_d2/r01/routing_d2_r1_promote25_fill25_blind_dagger.json": 0.2394542223390599,
+    "data/real/manifests/routing_d2/r02/routing_d2_r2_promote25_fill25_blind_dagger.json": 0.20063196117874474,
+    "data/real/manifests/routing_d2/r03/routing_d2_r3_promote25_fill25_blind_dagger.json": 0.24155022996275916,
+    "data/real/manifests/routing_d2/r00/routing_d2_r0_eval_heldout_independent_sobol.json": 0.21958963475113077,
+    "data/real/manifests/routing_d2/r01/routing_d2_r1_eval_heldout_independent_sobol.json": 0.19433502735948333,
+    "data/real/manifests/routing_d2/r02/routing_d2_r2_eval_heldout_independent_sobol.json": 0.27390132561849867
   },
   "states": [
     {

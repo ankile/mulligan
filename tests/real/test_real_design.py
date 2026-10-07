@@ -534,7 +534,10 @@ def test_input_flag_replaces_a_list_input():
         ["support_manifests=a.json", "support_manifests=b.json", "eval_outcomes=o.csv"], cfg
     )
     assert overrides == {"support_manifests": ["a.json", "b.json"], "eval_outcomes": "o.csv"}
-    inputs = resolve_inputs(cfg, REPO, overrides)
+    # the outcome and label tables are not released: the config leaves them null
+    with pytest.raises(ValueError, match=r"\['stage_labels'\] are not released"):
+        resolve_inputs(cfg, REPO, overrides)
+    inputs = resolve_inputs(cfg, REPO, overrides | {"stage_labels": "l.csv"})
     assert inputs["support_manifests"] == [Path("a.json"), Path("b.json")]
     assert inputs["eval_outcomes"] == Path("o.csv")
     assert all(p.is_absolute() for p in inputs["avoid_manifests"])

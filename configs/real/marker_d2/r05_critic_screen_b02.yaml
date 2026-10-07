@@ -3,7 +3,7 @@ kind: idql-critic
 trainer: mulligan.real.train.critic
 checkpoint:
   repo: mulligan/real-marker-d2-r05-mulligan-idql-critic-screen-b02
-  revision: a0b56515356e1a350ebd0841f50d3dcbd2a4c59c
+  revision: 9d869c4a564fb3b04dc2f45b8aea1533248965f4
   step: 150000
 retrain: exact
 paper:
@@ -18,21 +18,21 @@ paper:
 dataset_revisions:
   mulligan/real-marker-d2-c00-teleop-sobol: 2eceb8cab17e48e970e082d37ce6d0aac03b4522
   mulligan/real-marker-d2-c00-teleop-validation: 66e508d55f3b6820f610b1270f2dd94884f785f5
-  mulligan/real-marker-d2-c01-dagger-mulligan: b8d9e14d4179b19d9e6a678de01f9776edadbee9
-  mulligan/real-marker-d2-c02-dagger-mulligan: a09b8f548a92170f0a47ed1eee519d016d885ad2
-  mulligan/real-marker-d2-c03-dagger-mulligan: 991285990c72a7c6d10ad063d8be055476f9a125
-  mulligan/real-marker-d2-c04-dagger-mulligan: de8d7c640976b7bf705ab074e57bd9906fa54989
-  mulligan/real-marker-d2-c05-dagger-mulligan: a69371f52f96588b15e8e3b960b1c41d494b6f0c
-  mulligan/real-marker-d2-r00-eval-b01-baseline-dp-policy-rollouts: 0639d04f3b8c87c3d43d5ece4621148c77667cfa
-  mulligan/real-marker-d2-r00-eval-b01-sobol-dp-policy-rollouts: 3aef30fd38cdf974bb2762c1762e9a1d603f46fb
-  mulligan/real-marker-d2-r01-eval-b01-mulligan-dp-policy-rollouts: e5467e7f7e1346bea4512970bc6a57235bed39f0
-  mulligan/real-marker-d2-r02-eval-b01-baseline-dp-policy-rollouts: 3e9d5dcc8249a18ef53475eeb52482469c871709
-  mulligan/real-marker-d2-r02-eval-b01-mulligan-dp-policy-rollouts: ac6bf9318abe9c7deb023291e695bbe48f9a6557
-  mulligan/real-marker-d2-r02-eval-b03: c4a5f0614a3d2cb92ddb4834c3bca6d615873d71
-  mulligan/real-marker-d2-r03-eval-b01-mulligan-dp-policy-rollouts: 5ad663429527edf30c34a36e7960daae272b6a85
-  mulligan/real-marker-d2-r03-eval-b01-mulligan-idql-policy-rollouts: 67c5ba18af0e82bb652d6340b0d6e6da619968c6
-  mulligan/real-marker-d2-r04-eval-b01-mulligan-dp-policy-rollouts: 10edac81758b6099fd2d9515b97f4c17803cd3e5
-  mulligan/real-marker-d2-r04-eval-b01-mulligan-idql-policy-rollouts: 93ec13549077224147368320e4b7375a8f31b89c
+  mulligan/real-marker-d2-c01-dagger-mulligan: e9ed902ab91abeca9523cbcfa5475ac31bc31127
+  mulligan/real-marker-d2-c02-dagger-mulligan: 0e44650843b7ff7b95527535993a0161a4bf9548
+  mulligan/real-marker-d2-c03-dagger-mulligan: 37cc25fecdb4909fe8819cbb12ef36425f1e09bf
+  mulligan/real-marker-d2-c04-dagger-mulligan: 8cb1da880180467ea491b422042a9daf478d2b97
+  mulligan/real-marker-d2-c05-dagger-mulligan: 7ba1fe7b63cfb7a138ea275478a030c28ef17d5a
+  mulligan/real-marker-d2-r00-eval-b01-baseline-dp-policy-rollouts: 78e9b8a39889f419e3398ea47cdaa971967309d9
+  mulligan/real-marker-d2-r00-eval-b01-sobol-dp-policy-rollouts: cdbd3986a183a78289fd689a42c7a23a8bd1d2cd
+  mulligan/real-marker-d2-r01-eval-b01-mulligan-dp-policy-rollouts: 03474279db1740f329d04a3cba18fddb10c924ca
+  mulligan/real-marker-d2-r02-eval-b01-baseline-dp-policy-rollouts: 791fa889cf01152c0113e665bc3374ad0bb85bfe
+  mulligan/real-marker-d2-r02-eval-b01-mulligan-dp-policy-rollouts: 4337635445d7de14ea9a521bdc94d68eca972ffa
+  mulligan/real-marker-d2-r02-eval-b03: 9476c18be0d3d72067d3e78fe415a810e7b76f05
+  mulligan/real-marker-d2-r03-eval-b01-mulligan-dp-policy-rollouts: bf91aa1575ddbe9aceb0a9d5c8e5ba544473b630
+  mulligan/real-marker-d2-r03-eval-b01-mulligan-idql-policy-rollouts: 246353ec7bfc9914e6a9a822dc44665d04b9be08
+  mulligan/real-marker-d2-r04-eval-b01-mulligan-dp-policy-rollouts: 3973fbd014af177a3b55e227dac03f9076198a11
+  mulligan/real-marker-d2-r04-eval-b01-mulligan-idql-policy-rollouts: 8660a0f1006af95f22873ee25c808e1e416c9c20
 dataset_episodes: {}
 args:
   repo-ids:

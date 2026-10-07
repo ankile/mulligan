@@ -504,7 +504,6 @@
   "_meta": {
     "task": "square_narrow",
     "n_states": 100,
-    "generator": "<local-path>/make_square_narrow_r3_baseline_policy_rollout_inputs.py",
     "source": "baseline_uniform_r3_policy_rollout",
     "policy_source": "baseline_r2_no_cf_human_only_seed1",
     "purpose": "R3 baseline policy rollouts, training data like the Mulligan arm's R3 policy rollouts",
@@ -512,67 +511,64 @@
     "pairwise_min_periodic_l2": 0.0053227420527543,
     "disjoint_reports": [
       {
-        "path": "<local-path>/square_narrow_baseline_uniform_r0.json",
+        "path": "data/sim/start_manifests/square_narrow/r00/init_states/square_narrow_baseline_uniform_r0.json",
         "n_states": 100,
         "min_periodic_l2": 0.004955125435054004
       },
       {
-        "path": "<local-path>/square_narrow_sobol_r0.json",
+        "path": "data/sim/start_manifests/square_narrow/r00/init_states/square_narrow_sobol_r0.json",
         "n_states": 100,
         "min_periodic_l2": 0.005763367728415459
       },
       {
-        "path": "<local-path>/square_narrow_baseline_uniform_r1.json",
+        "path": "data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_baseline_uniform_r1.json",
         "n_states": 100,
         "min_periodic_l2": 0.003766963066695943
       },
       {
-        "path": "<local-path>/square_narrow_sobol_r1.json",
+        "path": "data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_sobol_r1.json",
         "n_states": 100,
         "min_periodic_l2": 0.008122425399817642
       },
       {
-        "path": "<local-path>/square_narrow_mulligan_r1.json",
+        "path": "data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_mulligan_r1.json",
         "n_states": 100,
         "min_periodic_l2": 0.008122425399817642
       },
       {
-        "path": "<local-path>/square_narrow_sobol_r1_diagnostic_sobol_100_199.json",
+        "path": "data/sim/start_manifests/square_narrow/r01/rollout_inputs/square_narrow_sobol_r1_diagnostic_sobol_100_199.json",
         "n_states": 100,
         "min_periodic_l2": 0.005848861872965212
       },
       {
-        "path": "<local-path>/square_narrow_baseline_uniform_r2.json",
+        "path": "data/sim/start_manifests/square_narrow/r02/init_states/square_narrow_baseline_uniform_r2.json",
         "n_states": 100,
         "min_periodic_l2": 0.003310923362806588
       },
       {
-        "path": "<local-path>/square_narrow_mulligan_r2.json",
+        "path": "data/sim/start_manifests/square_narrow/r02/init_states/square_narrow_mulligan_r2.json",
         "n_states": 100,
         "min_periodic_l2": 0.0037855519556144342
       },
       {
-        "path": "<local-path>/square_narrow_sobol_r2_diagnostic_sobol_300_399.json",
         "n_states": 100,
         "min_periodic_l2": 0.006350719209493479
       },
       {
-        "path": "<local-path>/square_narrow_r2_design_hardness_fit.json",
+        "path": "data/sim/start_manifests/square_narrow/r02/init_states/square_narrow_r2_design_hardness_fit.json",
         "n_states": 100,
         "min_periodic_l2": 0.0037855519556144342
       },
       {
-        "path": "<local-path>/square_narrow_mulligan_r3_diagnostic_sobol_500_599.json",
         "n_states": 100,
         "min_periodic_l2": 0.00273519745483853
       },
       {
-        "path": "<local-path>/square_narrow_r3_manifest.json",
+        "path": "data/sim/start_manifests/square_narrow/r03/blind_inputs/square_narrow_r3_manifest.json",
         "n_states": 200,
         "min_periodic_l2": 0.0024462234181014237
       },
       {
-        "path": "<local-path>/square_narrow_valid_sobol8k_seed2026052402.json",
         "n_states": 8000,
         "min_periodic_l2": 0.0007691363460913356
       }

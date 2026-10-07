@@ -75,14 +75,14 @@ guardrail:
 locked:
   manifest:
     path: data/sim/start_manifests/square_narrow/r01/blind_inputs/square_narrow_r1_manifest.json
-    sha256: e41d214ebc3dd6fadb8060fbfa2dc73a85c599f0feb77573f5ac9d78ff101976
+    sha256: de6fdf0abc5fd5993775616f73cb3f1bb9408c17074a68bb231f4f52e1bf872d
   arms:
     baseline_uniform:
       path: data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_baseline_uniform_r1.json
-      sha256: d5685e32297ec028a7fc9a36fe868505f5a678757bf9b2b1ae00dcc31aea5ff3
+      sha256: 981402807c63dd50b61bae7fc6c6da4d2060af3e26f4c48545e143db3109887a
     sobol:
       path: data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_sobol_r1.json
-      sha256: e976391003db6a729f94f808211f06013130aecaed5cfd7bb3aed7e002e68a57
+      sha256: 46a2c9aeb8bb2e18c4dae5daa2b9df687b480ed7859a0de44ca8aaba000710cc
     mulligan:
       path: data/sim/start_manifests/square_narrow/r01/init_states/square_narrow_mulligan_r1.json
-      sha256: a8c2223679058e171b064374baf86c58022b81ca270215db7ca68f62f2ed15cc
+      sha256: f18992c92a3aba5f44d080516d3c52a1c07d66e3628353ab4f433c7646f34335
