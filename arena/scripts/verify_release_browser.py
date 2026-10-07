@@ -219,7 +219,9 @@ with sync_playwright() as p:
     assert not [r for r in requests if "convex.cloud" in r["url"] or "convex.site" in r["url"]], (
         "Live backend request"
     )
-    assert not [r for r in requests if r["method"] not in ("GET", "HEAD")], (
+    # The hosted snapshot reports page views and outbound clicks to the paper site's counter.
+    counter = ("https://mulligan.page/api/collect", "https://mulligan.page/api/click")
+    assert not [r for r in requests if r["method"] not in ("GET", "HEAD") and not r["url"].startswith(counter)], (
         "Unexpected browser write"
     )
     checks.append("No live backend traffic or write requests")
